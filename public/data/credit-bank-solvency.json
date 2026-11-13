@@ -1,0 +1,65 @@
+{
+  "id": "credit-bank-solvency",
+  "source": "BCRA · Informe sobre Bancos",
+  "sourceUrl": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-bancos-2026-08.pdf",
+  "frequency": "monthly",
+  "unit": "% del denominador indicado en cada serie",
+  "series": [
+    {
+      "id": "capital",
+      "label": "Capital regulatorio / activos ponderados por riesgo"
+    },
+    {
+      "id": "provisions",
+      "label": "Previsiones / cartera irregular"
+    },
+    {
+      "id": "net_irregular",
+      "label": "Cartera irregular neta / capital regulatorio"
+    }
+  ],
+  "methodNote": "Resumen ejecutivo del Informe sobre Bancos. Porcentajes con denominadores distintos, indicados en cada serie: no se suman ni expresan participación de un único total. RPC: responsabilidad patrimonial computable. Los cocientes de cobertura y capital no miden capacidad de pago de los hogares.",
+  "observations": [
+    {
+      "date": "2026-08-01",
+      "series": "capital",
+      "value": 30.7
+    },
+    {
+      "date": "2026-08-01",
+      "series": "net_irregular",
+      "value": 2.2
+    },
+    {
+      "date": "2026-08-01",
+      "series": "provisions",
+      "value": 87.0
+    }
+  ],
+  "valueKind": "level",
+  "supportingSources": [
+    {
+      "label": "Publicación BCRA",
+      "url": "https://www.bcra.gob.ar/publicaciones/informe-sobre-bancos-agosto-de-2026/"
+    }
+  ],
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-08-01",
+  "firstObservedPeriod": "2026-08-01",
+  "lastObservedBySeries": {
+    "capital": "2026-08-01",
+    "provisions": "2026-08-01",
+    "net_irregular": "2026-08-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:47:39Z",
+  "lastAttemptAt": "2026-11-13T12:47:39Z",
+  "sourcePublishedAt": "2026-10-16",
+  "isAutoUpdated": true,
+  "contentHash": "4d202876aa7f26921dbe70198f816adec874a5eb6486c537da7235de4d2d915f",
+  "rawSha256": "126cb96d4972249879ed886d89fb5e2e08d50db46e31060bb7013ed704d48565",
+  "dataChangedAt": "2026-11-13T03:19:34Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

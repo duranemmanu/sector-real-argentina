@@ -1,0 +1,400 @@
+{
+  "id": "credit-inflation-yearly",
+  "source": "INDEC · IPC nacional",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv",
+  "frequency": "monthly",
+  "unit": "% de variación interanual",
+  "series": [
+    {
+      "id": "ipc",
+      "label": "Nivel general"
+    },
+    {
+      "id": "housing",
+      "label": "Vivienda, agua, electricidad, gas y otros combustibles"
+    }
+  ],
+  "methodNote": "IPC nacional, nivel general y división 4. Las variaciones se calculan con los niveles exactos del índice, no con tasas publicadas redondeadas. La división de vivienda incluye alquileres y otros componentes además de tarifas. Los precios se muestran hasta su último dato disponible; el gráfico de salarios utiliza su propio corte común.",
+  "observations": [
+    {
+      "date": "2023-11-01",
+      "series": "housing",
+      "value": 127.9584804092408
+    },
+    {
+      "date": "2023-11-01",
+      "series": "ipc",
+      "value": 160.92081683813458
+    },
+    {
+      "date": "2023-12-01",
+      "series": "housing",
+      "value": 149.01730489771586
+    },
+    {
+      "date": "2023-12-01",
+      "series": "ipc",
+      "value": 211.4076437471768
+    },
+    {
+      "date": "2024-01-01",
+      "series": "housing",
+      "value": 162.8010871300067
+    },
+    {
+      "date": "2024-01-01",
+      "series": "ipc",
+      "value": 254.2482786482557
+    },
+    {
+      "date": "2024-02-01",
+      "series": "housing",
+      "value": 201.46002716601862
+    },
+    {
+      "date": "2024-02-01",
+      "series": "ipc",
+      "value": 276.2184348735032
+    },
+    {
+      "date": "2024-03-01",
+      "series": "housing",
+      "value": 220.5316657449849
+    },
+    {
+      "date": "2024-03-01",
+      "series": "ipc",
+      "value": 287.86907470031895
+    },
+    {
+      "date": "2024-04-01",
+      "series": "housing",
+      "value": 311.62071231182125
+    },
+    {
+      "date": "2024-04-01",
+      "series": "ipc",
+      "value": 289.40487292837827
+    },
+    {
+      "date": "2024-05-01",
+      "series": "housing",
+      "value": 277.3033896755913
+    },
+    {
+      "date": "2024-05-01",
+      "series": "ipc",
+      "value": 276.41029518350234
+    },
+    {
+      "date": "2024-06-01",
+      "series": "housing",
+      "value": 298.8669410730841
+    },
+    {
+      "date": "2024-06-01",
+      "series": "ipc",
+      "value": 271.52973058498964
+    },
+    {
+      "date": "2024-07-01",
+      "series": "housing",
+      "value": 306.61877172720835
+    },
+    {
+      "date": "2024-07-01",
+      "series": "ipc",
+      "value": 263.44573335948536
+    },
+    {
+      "date": "2024-08-01",
+      "series": "housing",
+      "value": 298.8419298587814
+    },
+    {
+      "date": "2024-08-01",
+      "series": "ipc",
+      "value": 236.71660560532902
+    },
+    {
+      "date": "2024-09-01",
+      "series": "housing",
+      "value": 294.6127865995493
+    },
+    {
+      "date": "2024-09-01",
+      "series": "ipc",
+      "value": 209.00113765129458
+    },
+    {
+      "date": "2024-10-01",
+      "series": "housing",
+      "value": 285.77818560828274
+    },
+    {
+      "date": "2024-10-01",
+      "series": "ipc",
+      "value": 192.99495688171925
+    },
+    {
+      "date": "2024-11-01",
+      "series": "housing",
+      "value": 276.3929349171918
+    },
+    {
+      "date": "2024-11-01",
+      "series": "ipc",
+      "value": 166.02499773797655
+    },
+    {
+      "date": "2024-12-01",
+      "series": "housing",
+      "value": 248.17230949092144
+    },
+    {
+      "date": "2024-12-01",
+      "series": "ipc",
+      "value": 117.76362746413854
+    },
+    {
+      "date": "2025-01-01",
+      "series": "housing",
+      "value": 217.70263678563788
+    },
+    {
+      "date": "2025-01-01",
+      "series": "ipc",
+      "value": 84.53750815082385
+    },
+    {
+      "date": "2025-02-01",
+      "series": "housing",
+      "value": 174.17550671877345
+    },
+    {
+      "date": "2025-02-01",
+      "series": "ipc",
+      "value": 66.87414642180414
+    },
+    {
+      "date": "2025-03-01",
+      "series": "housing",
+      "value": 149.03347997769524
+    },
+    {
+      "date": "2025-03-01",
+      "series": "ipc",
+      "value": 55.93001569937308
+    },
+    {
+      "date": "2025-04-01",
+      "series": "housing",
+      "value": 87.0574526568597
+    },
+    {
+      "date": "2025-04-01",
+      "series": "ipc",
+      "value": 47.26026619546717
+    },
+    {
+      "date": "2025-05-01",
+      "series": "housing",
+      "value": 86.91083639478259
+    },
+    {
+      "date": "2025-05-01",
+      "series": "ipc",
+      "value": 43.47864907107133
+    },
+    {
+      "date": "2025-06-01",
+      "series": "housing",
+      "value": 69.19626416939984
+    },
+    {
+      "date": "2025-06-01",
+      "series": "ipc",
+      "value": 39.420110946413686
+    },
+    {
+      "date": "2025-07-01",
+      "series": "housing",
+      "value": 61.98194125202059
+    },
+    {
+      "date": "2025-07-01",
+      "series": "ipc",
+      "value": 36.566542791886135
+    },
+    {
+      "date": "2025-08-01",
+      "series": "housing",
+      "value": 55.36013050255326
+    },
+    {
+      "date": "2025-08-01",
+      "series": "ipc",
+      "value": 33.555936631112274
+    },
+    {
+      "date": "2025-09-01",
+      "series": "housing",
+      "value": 49.31005903289758
+    },
+    {
+      "date": "2025-09-01",
+      "series": "ipc",
+      "value": 31.757558925967388
+    },
+    {
+      "date": "2025-10-01",
+      "series": "housing",
+      "value": 45.638821251222275
+    },
+    {
+      "date": "2025-10-01",
+      "series": "ipc",
+      "value": 31.308759940245736
+    },
+    {
+      "date": "2025-11-01",
+      "series": "housing",
+      "value": 44.200085274239996
+    },
+    {
+      "date": "2025-11-01",
+      "series": "ipc",
+      "value": 31.368200548066195
+    },
+    {
+      "date": "2025-12-01",
+      "series": "housing",
+      "value": 41.63126532079442
+    },
+    {
+      "date": "2025-12-01",
+      "series": "ipc",
+      "value": 31.548760512645725
+    },
+    {
+      "date": "2026-01-01",
+      "series": "housing",
+      "value": 40.242093657341016
+    },
+    {
+      "date": "2026-01-01",
+      "series": "ipc",
+      "value": 32.41180643895354
+    },
+    {
+      "date": "2026-02-01",
+      "series": "housing",
+      "value": 44.29956006357827
+    },
+    {
+      "date": "2026-02-01",
+      "series": "ipc",
+      "value": 33.05147414327099
+    },
+    {
+      "date": "2026-03-01",
+      "series": "housing",
+      "value": 45.48202396363599
+    },
+    {
+      "date": "2026-03-01",
+      "series": "ipc",
+      "value": 32.60675239884981
+    },
+    {
+      "date": "2026-04-01",
+      "series": "housing",
+      "value": 47.84283910310854
+    },
+    {
+      "date": "2026-04-01",
+      "series": "ipc",
+      "value": 32.350448153478425
+    },
+    {
+      "date": "2026-05-01",
+      "series": "housing",
+      "value": 48.006727727075415
+    },
+    {
+      "date": "2026-05-01",
+      "series": "ipc",
+      "value": 33.19652168628491
+    },
+    {
+      "date": "2026-06-01",
+      "series": "housing",
+      "value": 47.81456135588975
+    },
+    {
+      "date": "2026-06-01",
+      "series": "ipc",
+      "value": 33.54773139850846
+    },
+    {
+      "date": "2026-07-01",
+      "series": "housing",
+      "value": 48.87199085252898
+    },
+    {
+      "date": "2026-07-01",
+      "series": "ipc",
+      "value": 33.825685205396795
+    },
+    {
+      "date": "2026-08-01",
+      "series": "housing",
+      "value": 49.07742116392302
+    },
+    {
+      "date": "2026-08-01",
+      "series": "ipc",
+      "value": 33.54117291414029
+    },
+    {
+      "date": "2026-09-01",
+      "series": "housing",
+      "value": 49.09882058452932
+    },
+    {
+      "date": "2026-09-01",
+      "series": "ipc",
+      "value": 33.354942953352484
+    },
+    {
+      "date": "2026-10-01",
+      "series": "housing",
+      "value": 51.14418874859121
+    },
+    {
+      "date": "2026-10-01",
+      "series": "ipc",
+      "value": 33.13323015887055
+    }
+  ],
+  "valueKind": "rate",
+  "supportingSources": [],
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-10-01",
+  "firstObservedPeriod": "2023-11-01",
+  "lastObservedBySeries": {
+    "ipc": "2026-10-01",
+    "housing": "2026-10-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:47:43Z",
+  "lastAttemptAt": "2026-11-13T12:47:43Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "d42d5d471632722aa4a0ae90bd448ab951cabce9b5e7dc56d456b3a253cce7dd",
+  "rawSha256": "f4545d362bdd97c706d2e7c6fd9a62ddc9cc95de44a26e8b12221bb1acfe7cd9",
+  "dataChangedAt": "2026-11-13T03:23:12Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

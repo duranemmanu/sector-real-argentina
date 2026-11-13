@@ -1,0 +1,7361 @@
+{
+  "id": "construction-expectations",
+  "source": "INDEC · series históricas primarias",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_isac_2026.xls",
+  "frequency": "monthly",
+  "unit": "% de empresas encuestadas",
+  "series": [
+    {
+      "id": "private-activity-increase",
+      "label": "Aumentará",
+      "column": 1
+    },
+    {
+      "id": "private-activity-same",
+      "label": "No variará",
+      "column": 2
+    },
+    {
+      "id": "private-activity-decrease",
+      "label": "Disminuirá",
+      "column": 3
+    },
+    {
+      "id": "public-activity-increase",
+      "label": "Aumentará",
+      "column": 5
+    },
+    {
+      "id": "public-activity-same",
+      "label": "No variará",
+      "column": 6
+    },
+    {
+      "id": "public-activity-decrease",
+      "label": "Disminuirá",
+      "column": 7
+    },
+    {
+      "id": "private-employment-increase",
+      "label": "Aumentará",
+      "column": 9
+    },
+    {
+      "id": "private-employment-same",
+      "label": "No variará",
+      "column": 10
+    },
+    {
+      "id": "private-employment-decrease",
+      "label": "Disminuirá",
+      "column": 11
+    },
+    {
+      "id": "public-employment-increase",
+      "label": "Aumentará",
+      "column": 13
+    },
+    {
+      "id": "public-employment-same",
+      "label": "No variará",
+      "column": 14
+    },
+    {
+      "id": "public-employment-decrease",
+      "label": "Disminuirá",
+      "column": 15
+    }
+  ],
+  "methodNote": "Expectativas declaradas para el trimestre iniciado en el mes de referencia. El corte agosto 2026 corresponde a agosto-octubre 2026; no representa actividad realizada. Cada grupo de tres respuestas forma su propio total.",
+  "observations": [
+    {
+      "date": "2016-08-01",
+      "series": "private-activity-decrease",
+      "value": 29.200000000000003
+    },
+    {
+      "date": "2016-08-01",
+      "series": "private-activity-increase",
+      "value": 33.3
+    },
+    {
+      "date": "2016-08-01",
+      "series": "private-activity-same",
+      "value": 37.5
+    },
+    {
+      "date": "2016-08-01",
+      "series": "private-employment-decrease",
+      "value": 8.299999999999997
+    },
+    {
+      "date": "2016-08-01",
+      "series": "private-employment-increase",
+      "value": 12.5
+    },
+    {
+      "date": "2016-08-01",
+      "series": "private-employment-same",
+      "value": 79.2
+    },
+    {
+      "date": "2016-08-01",
+      "series": "public-activity-decrease",
+      "value": 2.1999999999999957
+    },
+    {
+      "date": "2016-08-01",
+      "series": "public-activity-increase",
+      "value": 51.1
+    },
+    {
+      "date": "2016-08-01",
+      "series": "public-activity-same",
+      "value": 46.7
+    },
+    {
+      "date": "2016-08-01",
+      "series": "public-employment-decrease",
+      "value": 15.899999999999999
+    },
+    {
+      "date": "2016-08-01",
+      "series": "public-employment-increase",
+      "value": 29.5
+    },
+    {
+      "date": "2016-08-01",
+      "series": "public-employment-same",
+      "value": 54.6
+    },
+    {
+      "date": "2016-09-01",
+      "series": "private-activity-decrease",
+      "value": 17.400000000000006
+    },
+    {
+      "date": "2016-09-01",
+      "series": "private-activity-increase",
+      "value": 34.8
+    },
+    {
+      "date": "2016-09-01",
+      "series": "private-activity-same",
+      "value": 47.8
+    },
+    {
+      "date": "2016-09-01",
+      "series": "private-employment-decrease",
+      "value": 4.300000000000004
+    },
+    {
+      "date": "2016-09-01",
+      "series": "private-employment-increase",
+      "value": 30.4
+    },
+    {
+      "date": "2016-09-01",
+      "series": "private-employment-same",
+      "value": 65.3
+    },
+    {
+      "date": "2016-09-01",
+      "series": "public-activity-decrease",
+      "value": 7.0
+    },
+    {
+      "date": "2016-09-01",
+      "series": "public-activity-increase",
+      "value": 51.1
+    },
+    {
+      "date": "2016-09-01",
+      "series": "public-activity-same",
+      "value": 41.9
+    },
+    {
+      "date": "2016-09-01",
+      "series": "public-employment-decrease",
+      "value": 9.5
+    },
+    {
+      "date": "2016-09-01",
+      "series": "public-employment-increase",
+      "value": 33.3
+    },
+    {
+      "date": "2016-09-01",
+      "series": "public-employment-same",
+      "value": 57.2
+    },
+    {
+      "date": "2016-10-01",
+      "series": "private-activity-decrease",
+      "value": 12.0
+    },
+    {
+      "date": "2016-10-01",
+      "series": "private-activity-increase",
+      "value": 48.0
+    },
+    {
+      "date": "2016-10-01",
+      "series": "private-activity-same",
+      "value": 40.0
+    },
+    {
+      "date": "2016-10-01",
+      "series": "private-employment-decrease",
+      "value": 14.299999999999997
+    },
+    {
+      "date": "2016-10-01",
+      "series": "private-employment-increase",
+      "value": 25.0
+    },
+    {
+      "date": "2016-10-01",
+      "series": "private-employment-same",
+      "value": 60.7
+    },
+    {
+      "date": "2016-10-01",
+      "series": "public-activity-decrease",
+      "value": 8.200000000000003
+    },
+    {
+      "date": "2016-10-01",
+      "series": "public-activity-increase",
+      "value": 51.0
+    },
+    {
+      "date": "2016-10-01",
+      "series": "public-activity-same",
+      "value": 40.8
+    },
+    {
+      "date": "2016-10-01",
+      "series": "public-employment-decrease",
+      "value": 9.400000000000006
+    },
+    {
+      "date": "2016-10-01",
+      "series": "public-employment-increase",
+      "value": 24.5
+    },
+    {
+      "date": "2016-10-01",
+      "series": "public-employment-same",
+      "value": 66.1
+    },
+    {
+      "date": "2016-11-01",
+      "series": "private-activity-decrease",
+      "value": 14.300000000000004
+    },
+    {
+      "date": "2016-11-01",
+      "series": "private-activity-increase",
+      "value": 33.3
+    },
+    {
+      "date": "2016-11-01",
+      "series": "private-activity-same",
+      "value": 52.4
+    },
+    {
+      "date": "2016-11-01",
+      "series": "private-employment-decrease",
+      "value": 0.0
+    },
+    {
+      "date": "2016-11-01",
+      "series": "private-employment-increase",
+      "value": 23.8
+    },
+    {
+      "date": "2016-11-01",
+      "series": "private-employment-same",
+      "value": 76.2
+    },
+    {
+      "date": "2016-11-01",
+      "series": "public-activity-decrease",
+      "value": 6.799999999999997
+    },
+    {
+      "date": "2016-11-01",
+      "series": "public-activity-increase",
+      "value": 47.7
+    },
+    {
+      "date": "2016-11-01",
+      "series": "public-activity-same",
+      "value": 45.5
+    },
+    {
+      "date": "2016-11-01",
+      "series": "public-employment-decrease",
+      "value": 11.399999999999999
+    },
+    {
+      "date": "2016-11-01",
+      "series": "public-employment-increase",
+      "value": 34.1
+    },
+    {
+      "date": "2016-11-01",
+      "series": "public-employment-same",
+      "value": 54.5
+    },
+    {
+      "date": "2016-12-01",
+      "series": "private-activity-decrease",
+      "value": 9.100000000000003
+    },
+    {
+      "date": "2016-12-01",
+      "series": "private-activity-increase",
+      "value": 13.6
+    },
+    {
+      "date": "2016-12-01",
+      "series": "private-activity-same",
+      "value": 77.3
+    },
+    {
+      "date": "2016-12-01",
+      "series": "private-employment-decrease",
+      "value": 4.499999999999995
+    },
+    {
+      "date": "2016-12-01",
+      "series": "private-employment-increase",
+      "value": 9.1
+    },
+    {
+      "date": "2016-12-01",
+      "series": "private-employment-same",
+      "value": 86.4
+    },
+    {
+      "date": "2016-12-01",
+      "series": "public-activity-decrease",
+      "value": 7.899999999999999
+    },
+    {
+      "date": "2016-12-01",
+      "series": "public-activity-increase",
+      "value": 39.5
+    },
+    {
+      "date": "2016-12-01",
+      "series": "public-activity-same",
+      "value": 52.6
+    },
+    {
+      "date": "2016-12-01",
+      "series": "public-employment-decrease",
+      "value": 13.2
+    },
+    {
+      "date": "2016-12-01",
+      "series": "public-employment-increase",
+      "value": 23.7
+    },
+    {
+      "date": "2016-12-01",
+      "series": "public-employment-same",
+      "value": 63.1
+    },
+    {
+      "date": "2017-01-01",
+      "series": "private-activity-decrease",
+      "value": 9.099999999999998
+    },
+    {
+      "date": "2017-01-01",
+      "series": "private-activity-increase",
+      "value": 31.8
+    },
+    {
+      "date": "2017-01-01",
+      "series": "private-activity-same",
+      "value": 59.1
+    },
+    {
+      "date": "2017-01-01",
+      "series": "private-employment-decrease",
+      "value": 9.099999999999998
+    },
+    {
+      "date": "2017-01-01",
+      "series": "private-employment-increase",
+      "value": 18.2
+    },
+    {
+      "date": "2017-01-01",
+      "series": "private-employment-same",
+      "value": 72.7
+    },
+    {
+      "date": "2017-01-01",
+      "series": "public-activity-decrease",
+      "value": 7.0
+    },
+    {
+      "date": "2017-01-01",
+      "series": "public-activity-increase",
+      "value": 44.2
+    },
+    {
+      "date": "2017-01-01",
+      "series": "public-activity-same",
+      "value": 48.8
+    },
+    {
+      "date": "2017-01-01",
+      "series": "public-employment-decrease",
+      "value": 9.299999999999997
+    },
+    {
+      "date": "2017-01-01",
+      "series": "public-employment-increase",
+      "value": 37.2
+    },
+    {
+      "date": "2017-01-01",
+      "series": "public-employment-same",
+      "value": 53.5
+    },
+    {
+      "date": "2017-02-01",
+      "series": "private-activity-decrease",
+      "value": 9.100000000000001
+    },
+    {
+      "date": "2017-02-01",
+      "series": "private-activity-increase",
+      "value": 36.4
+    },
+    {
+      "date": "2017-02-01",
+      "series": "private-activity-same",
+      "value": 54.5
+    },
+    {
+      "date": "2017-02-01",
+      "series": "private-employment-decrease",
+      "value": 0.0
+    },
+    {
+      "date": "2017-02-01",
+      "series": "private-employment-increase",
+      "value": 36.4
+    },
+    {
+      "date": "2017-02-01",
+      "series": "private-employment-same",
+      "value": 63.6
+    },
+    {
+      "date": "2017-02-01",
+      "series": "public-activity-decrease",
+      "value": 2.3999999999999986
+    },
+    {
+      "date": "2017-02-01",
+      "series": "public-activity-increase",
+      "value": 57.1
+    },
+    {
+      "date": "2017-02-01",
+      "series": "public-activity-same",
+      "value": 40.5
+    },
+    {
+      "date": "2017-02-01",
+      "series": "public-employment-decrease",
+      "value": 7.100000000000001
+    },
+    {
+      "date": "2017-02-01",
+      "series": "public-employment-increase",
+      "value": 45.3
+    },
+    {
+      "date": "2017-02-01",
+      "series": "public-employment-same",
+      "value": 47.6
+    },
+    {
+      "date": "2017-03-01",
+      "series": "private-activity-decrease",
+      "value": 5.300000000000004
+    },
+    {
+      "date": "2017-03-01",
+      "series": "private-activity-increase",
+      "value": 36.8
+    },
+    {
+      "date": "2017-03-01",
+      "series": "private-activity-same",
+      "value": 57.9
+    },
+    {
+      "date": "2017-03-01",
+      "series": "private-employment-decrease",
+      "value": 0.0
+    },
+    {
+      "date": "2017-03-01",
+      "series": "private-employment-increase",
+      "value": 21.1
+    },
+    {
+      "date": "2017-03-01",
+      "series": "private-employment-same",
+      "value": 78.9
+    },
+    {
+      "date": "2017-03-01",
+      "series": "public-activity-decrease",
+      "value": 7.700000000000003
+    },
+    {
+      "date": "2017-03-01",
+      "series": "public-activity-increase",
+      "value": 53.8
+    },
+    {
+      "date": "2017-03-01",
+      "series": "public-activity-same",
+      "value": 38.5
+    },
+    {
+      "date": "2017-03-01",
+      "series": "public-employment-decrease",
+      "value": 7.5
+    },
+    {
+      "date": "2017-03-01",
+      "series": "public-employment-increase",
+      "value": 32.5
+    },
+    {
+      "date": "2017-03-01",
+      "series": "public-employment-same",
+      "value": 60.0
+    },
+    {
+      "date": "2017-04-01",
+      "series": "private-activity-decrease",
+      "value": 9.5
+    },
+    {
+      "date": "2017-04-01",
+      "series": "private-activity-increase",
+      "value": 47.6
+    },
+    {
+      "date": "2017-04-01",
+      "series": "private-activity-same",
+      "value": 42.9
+    },
+    {
+      "date": "2017-04-01",
+      "series": "private-employment-decrease",
+      "value": 4.800000000000004
+    },
+    {
+      "date": "2017-04-01",
+      "series": "private-employment-increase",
+      "value": 33.3
+    },
+    {
+      "date": "2017-04-01",
+      "series": "private-employment-same",
+      "value": 61.9
+    },
+    {
+      "date": "2017-04-01",
+      "series": "public-activity-decrease",
+      "value": 4.799999999999997
+    },
+    {
+      "date": "2017-04-01",
+      "series": "public-activity-increase",
+      "value": 69.0
+    },
+    {
+      "date": "2017-04-01",
+      "series": "public-activity-same",
+      "value": 26.2
+    },
+    {
+      "date": "2017-04-01",
+      "series": "public-employment-decrease",
+      "value": 4.799999999999997
+    },
+    {
+      "date": "2017-04-01",
+      "series": "public-employment-increase",
+      "value": 45.2
+    },
+    {
+      "date": "2017-04-01",
+      "series": "public-employment-same",
+      "value": 50.0
+    },
+    {
+      "date": "2017-05-01",
+      "series": "private-activity-decrease",
+      "value": 11.800000000000004
+    },
+    {
+      "date": "2017-05-01",
+      "series": "private-activity-increase",
+      "value": 35.3
+    },
+    {
+      "date": "2017-05-01",
+      "series": "private-activity-same",
+      "value": 52.9
+    },
+    {
+      "date": "2017-05-01",
+      "series": "private-employment-decrease",
+      "value": 5.899999999999999
+    },
+    {
+      "date": "2017-05-01",
+      "series": "private-employment-increase",
+      "value": 29.4
+    },
+    {
+      "date": "2017-05-01",
+      "series": "private-employment-same",
+      "value": 64.7
+    },
+    {
+      "date": "2017-05-01",
+      "series": "public-activity-decrease",
+      "value": 2.299999999999997
+    },
+    {
+      "date": "2017-05-01",
+      "series": "public-activity-increase",
+      "value": 72.7
+    },
+    {
+      "date": "2017-05-01",
+      "series": "public-activity-same",
+      "value": 25.0
+    },
+    {
+      "date": "2017-05-01",
+      "series": "public-employment-decrease",
+      "value": 2.299999999999997
+    },
+    {
+      "date": "2017-05-01",
+      "series": "public-employment-increase",
+      "value": 50.0
+    },
+    {
+      "date": "2017-05-01",
+      "series": "public-employment-same",
+      "value": 47.7
+    },
+    {
+      "date": "2017-06-01",
+      "series": "private-activity-decrease",
+      "value": 5.299999999999997
+    },
+    {
+      "date": "2017-06-01",
+      "series": "private-activity-increase",
+      "value": 52.6
+    },
+    {
+      "date": "2017-06-01",
+      "series": "private-activity-same",
+      "value": 42.1
+    },
+    {
+      "date": "2017-06-01",
+      "series": "private-employment-decrease",
+      "value": 5.299999999999997
+    },
+    {
+      "date": "2017-06-01",
+      "series": "private-employment-increase",
+      "value": 31.6
+    },
+    {
+      "date": "2017-06-01",
+      "series": "private-employment-same",
+      "value": 63.1
+    },
+    {
+      "date": "2017-06-01",
+      "series": "public-activity-decrease",
+      "value": 5.100000000000001
+    },
+    {
+      "date": "2017-06-01",
+      "series": "public-activity-increase",
+      "value": 61.6
+    },
+    {
+      "date": "2017-06-01",
+      "series": "public-activity-same",
+      "value": 33.3
+    },
+    {
+      "date": "2017-06-01",
+      "series": "public-employment-decrease",
+      "value": 5.100000000000001
+    },
+    {
+      "date": "2017-06-01",
+      "series": "public-employment-increase",
+      "value": 38.5
+    },
+    {
+      "date": "2017-06-01",
+      "series": "public-employment-same",
+      "value": 56.4
+    },
+    {
+      "date": "2017-07-01",
+      "series": "private-activity-decrease",
+      "value": 0.0
+    },
+    {
+      "date": "2017-07-01",
+      "series": "private-activity-increase",
+      "value": 36.4
+    },
+    {
+      "date": "2017-07-01",
+      "series": "private-activity-same",
+      "value": 63.6
+    },
+    {
+      "date": "2017-07-01",
+      "series": "private-employment-decrease",
+      "value": 9.099999999999998
+    },
+    {
+      "date": "2017-07-01",
+      "series": "private-employment-increase",
+      "value": 27.3
+    },
+    {
+      "date": "2017-07-01",
+      "series": "private-employment-same",
+      "value": 63.6
+    },
+    {
+      "date": "2017-07-01",
+      "series": "public-activity-decrease",
+      "value": 2.3999999999999986
+    },
+    {
+      "date": "2017-07-01",
+      "series": "public-activity-increase",
+      "value": 59.5
+    },
+    {
+      "date": "2017-07-01",
+      "series": "public-activity-same",
+      "value": 38.1
+    },
+    {
+      "date": "2017-07-01",
+      "series": "public-employment-decrease",
+      "value": 4.800000000000004
+    },
+    {
+      "date": "2017-07-01",
+      "series": "public-employment-increase",
+      "value": 42.9
+    },
+    {
+      "date": "2017-07-01",
+      "series": "public-employment-same",
+      "value": 52.3
+    },
+    {
+      "date": "2017-08-01",
+      "series": "private-activity-decrease",
+      "value": 0.0
+    },
+    {
+      "date": "2017-08-01",
+      "series": "private-activity-increase",
+      "value": 36.0
+    },
+    {
+      "date": "2017-08-01",
+      "series": "private-activity-same",
+      "value": 64.0
+    },
+    {
+      "date": "2017-08-01",
+      "series": "private-employment-decrease",
+      "value": 4.0
+    },
+    {
+      "date": "2017-08-01",
+      "series": "private-employment-increase",
+      "value": 28.0
+    },
+    {
+      "date": "2017-08-01",
+      "series": "private-employment-same",
+      "value": 68.0
+    },
+    {
+      "date": "2017-08-01",
+      "series": "public-activity-decrease",
+      "value": 4.200000000000003
+    },
+    {
+      "date": "2017-08-01",
+      "series": "public-activity-increase",
+      "value": 52.0
+    },
+    {
+      "date": "2017-08-01",
+      "series": "public-activity-same",
+      "value": 43.8
+    },
+    {
+      "date": "2017-08-01",
+      "series": "public-employment-decrease",
+      "value": 2.1000000000000014
+    },
+    {
+      "date": "2017-08-01",
+      "series": "public-employment-increase",
+      "value": 35.4
+    },
+    {
+      "date": "2017-08-01",
+      "series": "public-employment-same",
+      "value": 62.5
+    },
+    {
+      "date": "2017-09-01",
+      "series": "private-activity-decrease",
+      "value": 4.0
+    },
+    {
+      "date": "2017-09-01",
+      "series": "private-activity-increase",
+      "value": 64.0
+    },
+    {
+      "date": "2017-09-01",
+      "series": "private-activity-same",
+      "value": 32.0
+    },
+    {
+      "date": "2017-09-01",
+      "series": "private-employment-decrease",
+      "value": 4.0
+    },
+    {
+      "date": "2017-09-01",
+      "series": "private-employment-increase",
+      "value": 36.0
+    },
+    {
+      "date": "2017-09-01",
+      "series": "private-employment-same",
+      "value": 60.0
+    },
+    {
+      "date": "2017-09-01",
+      "series": "public-activity-decrease",
+      "value": 4.0
+    },
+    {
+      "date": "2017-09-01",
+      "series": "public-activity-increase",
+      "value": 54.0
+    },
+    {
+      "date": "2017-09-01",
+      "series": "public-activity-same",
+      "value": 42.0
+    },
+    {
+      "date": "2017-09-01",
+      "series": "public-employment-decrease",
+      "value": 6.0
+    },
+    {
+      "date": "2017-09-01",
+      "series": "public-employment-increase",
+      "value": 34.0
+    },
+    {
+      "date": "2017-09-01",
+      "series": "public-employment-same",
+      "value": 60.0
+    },
+    {
+      "date": "2017-10-01",
+      "series": "private-activity-decrease",
+      "value": 0.0
+    },
+    {
+      "date": "2017-10-01",
+      "series": "private-activity-increase",
+      "value": 67.7
+    },
+    {
+      "date": "2017-10-01",
+      "series": "private-activity-same",
+      "value": 32.3
+    },
+    {
+      "date": "2017-10-01",
+      "series": "private-employment-decrease",
+      "value": 6.400000000000006
+    },
+    {
+      "date": "2017-10-01",
+      "series": "private-employment-increase",
+      "value": 32.3
+    },
+    {
+      "date": "2017-10-01",
+      "series": "private-employment-same",
+      "value": 61.3
+    },
+    {
+      "date": "2017-10-01",
+      "series": "public-activity-decrease",
+      "value": 0.0
+    },
+    {
+      "date": "2017-10-01",
+      "series": "public-activity-increase",
+      "value": 54.5
+    },
+    {
+      "date": "2017-10-01",
+      "series": "public-activity-same",
+      "value": 45.5
+    },
+    {
+      "date": "2017-10-01",
+      "series": "public-employment-decrease",
+      "value": 5.399999999999999
+    },
+    {
+      "date": "2017-10-01",
+      "series": "public-employment-increase",
+      "value": 38.2
+    },
+    {
+      "date": "2017-10-01",
+      "series": "public-employment-same",
+      "value": 56.4
+    },
+    {
+      "date": "2017-11-01",
+      "series": "private-activity-decrease",
+      "value": 0.0
+    },
+    {
+      "date": "2017-11-01",
+      "series": "private-activity-increase",
+      "value": 51.5
+    },
+    {
+      "date": "2017-11-01",
+      "series": "private-activity-same",
+      "value": 48.5
+    },
+    {
+      "date": "2017-11-01",
+      "series": "private-employment-decrease",
+      "value": 6.100000000000005
+    },
+    {
+      "date": "2017-11-01",
+      "series": "private-employment-increase",
+      "value": 27.3
+    },
+    {
+      "date": "2017-11-01",
+      "series": "private-employment-same",
+      "value": 66.6
+    },
+    {
+      "date": "2017-11-01",
+      "series": "public-activity-decrease",
+      "value": 3.299999999999997
+    },
+    {
+      "date": "2017-11-01",
+      "series": "public-activity-increase",
+      "value": 50.0
+    },
+    {
+      "date": "2017-11-01",
+      "series": "public-activity-same",
+      "value": 46.7
+    },
+    {
+      "date": "2017-11-01",
+      "series": "public-employment-decrease",
+      "value": 3.299999999999997
+    },
+    {
+      "date": "2017-11-01",
+      "series": "public-employment-increase",
+      "value": 25.0
+    },
+    {
+      "date": "2017-11-01",
+      "series": "public-employment-same",
+      "value": 71.7
+    },
+    {
+      "date": "2017-12-01",
+      "series": "private-activity-decrease",
+      "value": 5.900000000000006
+    },
+    {
+      "date": "2017-12-01",
+      "series": "private-activity-increase",
+      "value": 35.3
+    },
+    {
+      "date": "2017-12-01",
+      "series": "private-activity-same",
+      "value": 58.8
+    },
+    {
+      "date": "2017-12-01",
+      "series": "private-employment-decrease",
+      "value": 8.799999999999994
+    },
+    {
+      "date": "2017-12-01",
+      "series": "private-employment-increase",
+      "value": 8.8
+    },
+    {
+      "date": "2017-12-01",
+      "series": "private-employment-same",
+      "value": 82.4
+    },
+    {
+      "date": "2017-12-01",
+      "series": "public-activity-decrease",
+      "value": 10.899999999999999
+    },
+    {
+      "date": "2017-12-01",
+      "series": "public-activity-increase",
+      "value": 42.2
+    },
+    {
+      "date": "2017-12-01",
+      "series": "public-activity-same",
+      "value": 46.9
+    },
+    {
+      "date": "2017-12-01",
+      "series": "public-employment-decrease",
+      "value": 12.499999999999996
+    },
+    {
+      "date": "2017-12-01",
+      "series": "public-employment-increase",
+      "value": 31.3
+    },
+    {
+      "date": "2017-12-01",
+      "series": "public-employment-same",
+      "value": 56.2
+    },
+    {
+      "date": "2018-01-01",
+      "series": "private-activity-decrease",
+      "value": 8.0
+    },
+    {
+      "date": "2018-01-01",
+      "series": "private-activity-increase",
+      "value": 40.0
+    },
+    {
+      "date": "2018-01-01",
+      "series": "private-activity-same",
+      "value": 52.0
+    },
+    {
+      "date": "2018-01-01",
+      "series": "private-employment-decrease",
+      "value": 8.0
+    },
+    {
+      "date": "2018-01-01",
+      "series": "private-employment-increase",
+      "value": 12.0
+    },
+    {
+      "date": "2018-01-01",
+      "series": "private-employment-same",
+      "value": 80.0
+    },
+    {
+      "date": "2018-01-01",
+      "series": "public-activity-decrease",
+      "value": 8.600000000000001
+    },
+    {
+      "date": "2018-01-01",
+      "series": "public-activity-increase",
+      "value": 37.9
+    },
+    {
+      "date": "2018-01-01",
+      "series": "public-activity-same",
+      "value": 53.5
+    },
+    {
+      "date": "2018-01-01",
+      "series": "public-employment-decrease",
+      "value": 12.100000000000001
+    },
+    {
+      "date": "2018-01-01",
+      "series": "public-employment-increase",
+      "value": 34.5
+    },
+    {
+      "date": "2018-01-01",
+      "series": "public-employment-same",
+      "value": 53.4
+    },
+    {
+      "date": "2018-02-01",
+      "series": "private-activity-decrease",
+      "value": 3.0
+    },
+    {
+      "date": "2018-02-01",
+      "series": "private-activity-increase",
+      "value": 36.4
+    },
+    {
+      "date": "2018-02-01",
+      "series": "private-activity-same",
+      "value": 60.6
+    },
+    {
+      "date": "2018-02-01",
+      "series": "private-employment-decrease",
+      "value": 9.099999999999998
+    },
+    {
+      "date": "2018-02-01",
+      "series": "private-employment-increase",
+      "value": 24.2
+    },
+    {
+      "date": "2018-02-01",
+      "series": "private-employment-same",
+      "value": 66.7
+    },
+    {
+      "date": "2018-02-01",
+      "series": "public-activity-decrease",
+      "value": 6.5
+    },
+    {
+      "date": "2018-02-01",
+      "series": "public-activity-increase",
+      "value": 53.2
+    },
+    {
+      "date": "2018-02-01",
+      "series": "public-activity-same",
+      "value": 40.3
+    },
+    {
+      "date": "2018-02-01",
+      "series": "public-employment-decrease",
+      "value": 14.5
+    },
+    {
+      "date": "2018-02-01",
+      "series": "public-employment-increase",
+      "value": 30.6
+    },
+    {
+      "date": "2018-02-01",
+      "series": "public-employment-same",
+      "value": 54.9
+    },
+    {
+      "date": "2018-03-01",
+      "series": "private-activity-decrease",
+      "value": 3.1000000000000014
+    },
+    {
+      "date": "2018-03-01",
+      "series": "private-activity-increase",
+      "value": 34.4
+    },
+    {
+      "date": "2018-03-01",
+      "series": "private-activity-same",
+      "value": 62.5
+    },
+    {
+      "date": "2018-03-01",
+      "series": "private-employment-decrease",
+      "value": 9.4
+    },
+    {
+      "date": "2018-03-01",
+      "series": "private-employment-increase",
+      "value": 15.6
+    },
+    {
+      "date": "2018-03-01",
+      "series": "private-employment-same",
+      "value": 75.0
+    },
+    {
+      "date": "2018-03-01",
+      "series": "public-activity-decrease",
+      "value": 7.899999999999999
+    },
+    {
+      "date": "2018-03-01",
+      "series": "public-activity-increase",
+      "value": 49.2
+    },
+    {
+      "date": "2018-03-01",
+      "series": "public-activity-same",
+      "value": 42.9
+    },
+    {
+      "date": "2018-03-01",
+      "series": "public-employment-decrease",
+      "value": 11.100000000000001
+    },
+    {
+      "date": "2018-03-01",
+      "series": "public-employment-increase",
+      "value": 33.3
+    },
+    {
+      "date": "2018-03-01",
+      "series": "public-employment-same",
+      "value": 55.6
+    },
+    {
+      "date": "2018-04-01",
+      "series": "private-activity-decrease",
+      "value": 6.300000000000004
+    },
+    {
+      "date": "2018-04-01",
+      "series": "private-activity-increase",
+      "value": 34.4
+    },
+    {
+      "date": "2018-04-01",
+      "series": "private-activity-same",
+      "value": 59.3
+    },
+    {
+      "date": "2018-04-01",
+      "series": "private-employment-decrease",
+      "value": 12.499999999999995
+    },
+    {
+      "date": "2018-04-01",
+      "series": "private-employment-increase",
+      "value": 15.6
+    },
+    {
+      "date": "2018-04-01",
+      "series": "private-employment-same",
+      "value": 71.9
+    },
+    {
+      "date": "2018-04-01",
+      "series": "public-activity-decrease",
+      "value": 11.299999999999997
+    },
+    {
+      "date": "2018-04-01",
+      "series": "public-activity-increase",
+      "value": 37.7
+    },
+    {
+      "date": "2018-04-01",
+      "series": "public-activity-same",
+      "value": 51.0
+    },
+    {
+      "date": "2018-04-01",
+      "series": "public-employment-decrease",
+      "value": 9.3
+    },
+    {
+      "date": "2018-04-01",
+      "series": "public-employment-increase",
+      "value": 22.2
+    },
+    {
+      "date": "2018-04-01",
+      "series": "public-employment-same",
+      "value": 68.5
+    },
+    {
+      "date": "2018-05-01",
+      "series": "private-activity-decrease",
+      "value": 23.5
+    },
+    {
+      "date": "2018-05-01",
+      "series": "private-activity-increase",
+      "value": 17.6
+    },
+    {
+      "date": "2018-05-01",
+      "series": "private-activity-same",
+      "value": 58.9
+    },
+    {
+      "date": "2018-05-01",
+      "series": "private-employment-decrease",
+      "value": 23.499999999999996
+    },
+    {
+      "date": "2018-05-01",
+      "series": "private-employment-increase",
+      "value": 8.8
+    },
+    {
+      "date": "2018-05-01",
+      "series": "private-employment-same",
+      "value": 67.7
+    },
+    {
+      "date": "2018-05-01",
+      "series": "public-activity-decrease",
+      "value": 24.099999999999998
+    },
+    {
+      "date": "2018-05-01",
+      "series": "public-activity-increase",
+      "value": 27.8
+    },
+    {
+      "date": "2018-05-01",
+      "series": "public-activity-same",
+      "value": 48.1
+    },
+    {
+      "date": "2018-05-01",
+      "series": "public-employment-decrease",
+      "value": 18.500000000000004
+    },
+    {
+      "date": "2018-05-01",
+      "series": "public-employment-increase",
+      "value": 16.7
+    },
+    {
+      "date": "2018-05-01",
+      "series": "public-employment-same",
+      "value": 64.8
+    },
+    {
+      "date": "2018-06-01",
+      "series": "private-activity-decrease",
+      "value": 34.2
+    },
+    {
+      "date": "2018-06-01",
+      "series": "private-activity-increase",
+      "value": 10.5
+    },
+    {
+      "date": "2018-06-01",
+      "series": "private-activity-same",
+      "value": 55.3
+    },
+    {
+      "date": "2018-06-01",
+      "series": "private-employment-decrease",
+      "value": 21.1
+    },
+    {
+      "date": "2018-06-01",
+      "series": "private-employment-increase",
+      "value": 7.9
+    },
+    {
+      "date": "2018-06-01",
+      "series": "private-employment-same",
+      "value": 71.0
+    },
+    {
+      "date": "2018-06-01",
+      "series": "public-activity-decrease",
+      "value": 50.9
+    },
+    {
+      "date": "2018-06-01",
+      "series": "public-activity-increase",
+      "value": 9.4
+    },
+    {
+      "date": "2018-06-01",
+      "series": "public-activity-same",
+      "value": 39.7
+    },
+    {
+      "date": "2018-06-01",
+      "series": "public-employment-decrease",
+      "value": 49.099999999999994
+    },
+    {
+      "date": "2018-06-01",
+      "series": "public-employment-increase",
+      "value": 5.7
+    },
+    {
+      "date": "2018-06-01",
+      "series": "public-employment-same",
+      "value": 45.2
+    },
+    {
+      "date": "2018-07-01",
+      "series": "private-activity-decrease",
+      "value": 45.9
+    },
+    {
+      "date": "2018-07-01",
+      "series": "private-activity-increase",
+      "value": 2.7
+    },
+    {
+      "date": "2018-07-01",
+      "series": "private-activity-same",
+      "value": 51.4
+    },
+    {
+      "date": "2018-07-01",
+      "series": "private-employment-decrease",
+      "value": 29.699999999999996
+    },
+    {
+      "date": "2018-07-01",
+      "series": "private-employment-increase",
+      "value": 8.1
+    },
+    {
+      "date": "2018-07-01",
+      "series": "private-employment-same",
+      "value": 62.2
+    },
+    {
+      "date": "2018-07-01",
+      "series": "public-activity-decrease",
+      "value": 65.6
+    },
+    {
+      "date": "2018-07-01",
+      "series": "public-activity-increase",
+      "value": 3.4
+    },
+    {
+      "date": "2018-07-01",
+      "series": "public-activity-same",
+      "value": 31.0
+    },
+    {
+      "date": "2018-07-01",
+      "series": "public-employment-decrease",
+      "value": 51.699999999999996
+    },
+    {
+      "date": "2018-07-01",
+      "series": "public-employment-increase",
+      "value": 5.2
+    },
+    {
+      "date": "2018-07-01",
+      "series": "public-employment-same",
+      "value": 43.1
+    },
+    {
+      "date": "2018-08-01",
+      "series": "private-activity-decrease",
+      "value": 46.7
+    },
+    {
+      "date": "2018-08-01",
+      "series": "private-activity-increase",
+      "value": 3.3
+    },
+    {
+      "date": "2018-08-01",
+      "series": "private-activity-same",
+      "value": 50.0
+    },
+    {
+      "date": "2018-08-01",
+      "series": "private-employment-decrease",
+      "value": 33.3
+    },
+    {
+      "date": "2018-08-01",
+      "series": "private-employment-increase",
+      "value": 6.7
+    },
+    {
+      "date": "2018-08-01",
+      "series": "private-employment-same",
+      "value": 60.0
+    },
+    {
+      "date": "2018-08-01",
+      "series": "public-activity-decrease",
+      "value": 63.599999999999994
+    },
+    {
+      "date": "2018-08-01",
+      "series": "public-activity-increase",
+      "value": 5.5
+    },
+    {
+      "date": "2018-08-01",
+      "series": "public-activity-same",
+      "value": 30.9
+    },
+    {
+      "date": "2018-08-01",
+      "series": "public-employment-decrease",
+      "value": 49.1
+    },
+    {
+      "date": "2018-08-01",
+      "series": "public-employment-increase",
+      "value": 7.3
+    },
+    {
+      "date": "2018-08-01",
+      "series": "public-employment-same",
+      "value": 43.6
+    },
+    {
+      "date": "2018-09-01",
+      "series": "private-activity-decrease",
+      "value": 63.6
+    },
+    {
+      "date": "2018-09-01",
+      "series": "private-activity-increase",
+      "value": 9.1
+    },
+    {
+      "date": "2018-09-01",
+      "series": "private-activity-same",
+      "value": 27.3
+    },
+    {
+      "date": "2018-09-01",
+      "series": "private-employment-decrease",
+      "value": 39.4
+    },
+    {
+      "date": "2018-09-01",
+      "series": "private-employment-increase",
+      "value": 6.1
+    },
+    {
+      "date": "2018-09-01",
+      "series": "private-employment-same",
+      "value": 54.5
+    },
+    {
+      "date": "2018-09-01",
+      "series": "public-activity-decrease",
+      "value": 77.8
+    },
+    {
+      "date": "2018-09-01",
+      "series": "public-activity-increase",
+      "value": 0.0
+    },
+    {
+      "date": "2018-09-01",
+      "series": "public-activity-same",
+      "value": 22.2
+    },
+    {
+      "date": "2018-09-01",
+      "series": "public-employment-decrease",
+      "value": 56.5
+    },
+    {
+      "date": "2018-09-01",
+      "series": "public-employment-increase",
+      "value": 1.6
+    },
+    {
+      "date": "2018-09-01",
+      "series": "public-employment-same",
+      "value": 41.9
+    },
+    {
+      "date": "2018-10-01",
+      "series": "private-activity-decrease",
+      "value": 48.800000000000004
+    },
+    {
+      "date": "2018-10-01",
+      "series": "private-activity-increase",
+      "value": 7.3
+    },
+    {
+      "date": "2018-10-01",
+      "series": "private-activity-same",
+      "value": 43.9
+    },
+    {
+      "date": "2018-10-01",
+      "series": "private-employment-decrease",
+      "value": 14.6
+    },
+    {
+      "date": "2018-10-01",
+      "series": "private-employment-increase",
+      "value": 4.9
+    },
+    {
+      "date": "2018-10-01",
+      "series": "private-employment-same",
+      "value": 80.5
+    },
+    {
+      "date": "2018-10-01",
+      "series": "public-activity-decrease",
+      "value": 69.1
+    },
+    {
+      "date": "2018-10-01",
+      "series": "public-activity-increase",
+      "value": 1.5
+    },
+    {
+      "date": "2018-10-01",
+      "series": "public-activity-same",
+      "value": 29.4
+    },
+    {
+      "date": "2018-10-01",
+      "series": "public-employment-decrease",
+      "value": 57.4
+    },
+    {
+      "date": "2018-10-01",
+      "series": "public-employment-increase",
+      "value": 1.5
+    },
+    {
+      "date": "2018-10-01",
+      "series": "public-employment-same",
+      "value": 41.1
+    },
+    {
+      "date": "2018-11-01",
+      "series": "private-activity-decrease",
+      "value": 55.1
+    },
+    {
+      "date": "2018-11-01",
+      "series": "private-activity-increase",
+      "value": 4.1
+    },
+    {
+      "date": "2018-11-01",
+      "series": "private-activity-same",
+      "value": 40.8
+    },
+    {
+      "date": "2018-11-01",
+      "series": "private-employment-decrease",
+      "value": 28.599999999999998
+    },
+    {
+      "date": "2018-11-01",
+      "series": "private-employment-increase",
+      "value": 10.2
+    },
+    {
+      "date": "2018-11-01",
+      "series": "private-employment-same",
+      "value": 61.2
+    },
+    {
+      "date": "2018-11-01",
+      "series": "public-activity-decrease",
+      "value": 71.8
+    },
+    {
+      "date": "2018-11-01",
+      "series": "public-activity-increase",
+      "value": 4.7
+    },
+    {
+      "date": "2018-11-01",
+      "series": "public-activity-same",
+      "value": 23.5
+    },
+    {
+      "date": "2018-11-01",
+      "series": "public-employment-decrease",
+      "value": 57.6
+    },
+    {
+      "date": "2018-11-01",
+      "series": "public-employment-increase",
+      "value": 4.8
+    },
+    {
+      "date": "2018-11-01",
+      "series": "public-employment-same",
+      "value": 37.6
+    },
+    {
+      "date": "2018-12-01",
+      "series": "private-activity-decrease",
+      "value": 54.0
+    },
+    {
+      "date": "2018-12-01",
+      "series": "private-activity-increase",
+      "value": 4.0
+    },
+    {
+      "date": "2018-12-01",
+      "series": "private-activity-same",
+      "value": 42.0
+    },
+    {
+      "date": "2018-12-01",
+      "series": "private-employment-decrease",
+      "value": 34.0
+    },
+    {
+      "date": "2018-12-01",
+      "series": "private-employment-increase",
+      "value": 6.0
+    },
+    {
+      "date": "2018-12-01",
+      "series": "private-employment-same",
+      "value": 60.0
+    },
+    {
+      "date": "2018-12-01",
+      "series": "public-activity-decrease",
+      "value": 62.5
+    },
+    {
+      "date": "2018-12-01",
+      "series": "public-activity-increase",
+      "value": 2.3
+    },
+    {
+      "date": "2018-12-01",
+      "series": "public-activity-same",
+      "value": 35.2
+    },
+    {
+      "date": "2018-12-01",
+      "series": "public-employment-decrease",
+      "value": 54.5
+    },
+    {
+      "date": "2018-12-01",
+      "series": "public-employment-increase",
+      "value": 2.3
+    },
+    {
+      "date": "2018-12-01",
+      "series": "public-employment-same",
+      "value": 43.2
+    },
+    {
+      "date": "2019-01-01",
+      "series": "private-activity-decrease",
+      "value": 50.0
+    },
+    {
+      "date": "2019-01-01",
+      "series": "private-activity-increase",
+      "value": 6.0
+    },
+    {
+      "date": "2019-01-01",
+      "series": "private-activity-same",
+      "value": 44.0
+    },
+    {
+      "date": "2019-01-01",
+      "series": "private-employment-decrease",
+      "value": 30.0
+    },
+    {
+      "date": "2019-01-01",
+      "series": "private-employment-increase",
+      "value": 6.0
+    },
+    {
+      "date": "2019-01-01",
+      "series": "private-employment-same",
+      "value": 64.0
+    },
+    {
+      "date": "2019-01-01",
+      "series": "public-activity-decrease",
+      "value": 59.1
+    },
+    {
+      "date": "2019-01-01",
+      "series": "public-activity-increase",
+      "value": 4.5
+    },
+    {
+      "date": "2019-01-01",
+      "series": "public-activity-same",
+      "value": 36.4
+    },
+    {
+      "date": "2019-01-01",
+      "series": "public-employment-decrease",
+      "value": 48.9
+    },
+    {
+      "date": "2019-01-01",
+      "series": "public-employment-increase",
+      "value": 1.1
+    },
+    {
+      "date": "2019-01-01",
+      "series": "public-employment-same",
+      "value": 50.0
+    },
+    {
+      "date": "2019-02-01",
+      "series": "private-activity-decrease",
+      "value": 40.0
+    },
+    {
+      "date": "2019-02-01",
+      "series": "private-activity-increase",
+      "value": 12.5
+    },
+    {
+      "date": "2019-02-01",
+      "series": "private-activity-same",
+      "value": 47.5
+    },
+    {
+      "date": "2019-02-01",
+      "series": "private-employment-decrease",
+      "value": 25.0
+    },
+    {
+      "date": "2019-02-01",
+      "series": "private-employment-increase",
+      "value": 7.5
+    },
+    {
+      "date": "2019-02-01",
+      "series": "private-employment-same",
+      "value": 67.5
+    },
+    {
+      "date": "2019-02-01",
+      "series": "public-activity-decrease",
+      "value": 56.4
+    },
+    {
+      "date": "2019-02-01",
+      "series": "public-activity-increase",
+      "value": 6.5
+    },
+    {
+      "date": "2019-02-01",
+      "series": "public-activity-same",
+      "value": 37.1
+    },
+    {
+      "date": "2019-02-01",
+      "series": "public-employment-decrease",
+      "value": 43.5
+    },
+    {
+      "date": "2019-02-01",
+      "series": "public-employment-increase",
+      "value": 1.6
+    },
+    {
+      "date": "2019-02-01",
+      "series": "public-employment-same",
+      "value": 54.9
+    },
+    {
+      "date": "2019-03-01",
+      "series": "private-activity-decrease",
+      "value": 48.599999999999994
+    },
+    {
+      "date": "2019-03-01",
+      "series": "private-activity-increase",
+      "value": 5.7
+    },
+    {
+      "date": "2019-03-01",
+      "series": "private-activity-same",
+      "value": 45.7
+    },
+    {
+      "date": "2019-03-01",
+      "series": "private-employment-decrease",
+      "value": 31.400000000000002
+    },
+    {
+      "date": "2019-03-01",
+      "series": "private-employment-increase",
+      "value": 5.7
+    },
+    {
+      "date": "2019-03-01",
+      "series": "private-employment-same",
+      "value": 62.9
+    },
+    {
+      "date": "2019-03-01",
+      "series": "public-activity-decrease",
+      "value": 43.7
+    },
+    {
+      "date": "2019-03-01",
+      "series": "public-activity-increase",
+      "value": 9.9
+    },
+    {
+      "date": "2019-03-01",
+      "series": "public-activity-same",
+      "value": 46.4
+    },
+    {
+      "date": "2019-03-01",
+      "series": "public-employment-decrease",
+      "value": 40.8
+    },
+    {
+      "date": "2019-03-01",
+      "series": "public-employment-increase",
+      "value": 5.6
+    },
+    {
+      "date": "2019-03-01",
+      "series": "public-employment-same",
+      "value": 53.6
+    },
+    {
+      "date": "2019-04-01",
+      "series": "private-activity-decrease",
+      "value": 50.0
+    },
+    {
+      "date": "2019-04-01",
+      "series": "private-activity-increase",
+      "value": 7.5
+    },
+    {
+      "date": "2019-04-01",
+      "series": "private-activity-same",
+      "value": 42.5
+    },
+    {
+      "date": "2019-04-01",
+      "series": "private-employment-decrease",
+      "value": 30.0
+    },
+    {
+      "date": "2019-04-01",
+      "series": "private-employment-increase",
+      "value": 5.0
+    },
+    {
+      "date": "2019-04-01",
+      "series": "private-employment-same",
+      "value": 65.0
+    },
+    {
+      "date": "2019-04-01",
+      "series": "public-activity-decrease",
+      "value": 44.6
+    },
+    {
+      "date": "2019-04-01",
+      "series": "public-activity-increase",
+      "value": 2.7
+    },
+    {
+      "date": "2019-04-01",
+      "series": "public-activity-same",
+      "value": 52.7
+    },
+    {
+      "date": "2019-04-01",
+      "series": "public-employment-decrease",
+      "value": 51.4
+    },
+    {
+      "date": "2019-04-01",
+      "series": "public-employment-increase",
+      "value": 5.4
+    },
+    {
+      "date": "2019-04-01",
+      "series": "public-employment-same",
+      "value": 43.2
+    },
+    {
+      "date": "2019-05-01",
+      "series": "private-activity-decrease",
+      "value": 54.0
+    },
+    {
+      "date": "2019-05-01",
+      "series": "private-activity-increase",
+      "value": 6.0
+    },
+    {
+      "date": "2019-05-01",
+      "series": "private-activity-same",
+      "value": 40.0
+    },
+    {
+      "date": "2019-05-01",
+      "series": "private-employment-decrease",
+      "value": 32.0
+    },
+    {
+      "date": "2019-05-01",
+      "series": "private-employment-increase",
+      "value": 8.0
+    },
+    {
+      "date": "2019-05-01",
+      "series": "private-employment-same",
+      "value": 60.0
+    },
+    {
+      "date": "2019-05-01",
+      "series": "public-activity-decrease",
+      "value": 57.1
+    },
+    {
+      "date": "2019-05-01",
+      "series": "public-activity-increase",
+      "value": 4.8
+    },
+    {
+      "date": "2019-05-01",
+      "series": "public-activity-same",
+      "value": 38.1
+    },
+    {
+      "date": "2019-05-01",
+      "series": "public-employment-decrease",
+      "value": 52.4
+    },
+    {
+      "date": "2019-05-01",
+      "series": "public-employment-increase",
+      "value": 4.7
+    },
+    {
+      "date": "2019-05-01",
+      "series": "public-employment-same",
+      "value": 42.9
+    },
+    {
+      "date": "2019-06-01",
+      "series": "private-activity-decrease",
+      "value": 50.0
+    },
+    {
+      "date": "2019-06-01",
+      "series": "private-activity-increase",
+      "value": 10.4
+    },
+    {
+      "date": "2019-06-01",
+      "series": "private-activity-same",
+      "value": 39.6
+    },
+    {
+      "date": "2019-06-01",
+      "series": "private-employment-decrease",
+      "value": 35.4
+    },
+    {
+      "date": "2019-06-01",
+      "series": "private-employment-increase",
+      "value": 16.7
+    },
+    {
+      "date": "2019-06-01",
+      "series": "private-employment-same",
+      "value": 47.9
+    },
+    {
+      "date": "2019-06-01",
+      "series": "public-activity-decrease",
+      "value": 52.8
+    },
+    {
+      "date": "2019-06-01",
+      "series": "public-activity-increase",
+      "value": 2.8
+    },
+    {
+      "date": "2019-06-01",
+      "series": "public-activity-same",
+      "value": 44.4
+    },
+    {
+      "date": "2019-06-01",
+      "series": "public-employment-decrease",
+      "value": 56.9
+    },
+    {
+      "date": "2019-06-01",
+      "series": "public-employment-increase",
+      "value": 2.8
+    },
+    {
+      "date": "2019-06-01",
+      "series": "public-employment-same",
+      "value": 40.3
+    },
+    {
+      "date": "2019-07-01",
+      "series": "private-activity-decrease",
+      "value": 38.1
+    },
+    {
+      "date": "2019-07-01",
+      "series": "private-activity-increase",
+      "value": 21.4
+    },
+    {
+      "date": "2019-07-01",
+      "series": "private-activity-same",
+      "value": 40.5
+    },
+    {
+      "date": "2019-07-01",
+      "series": "private-employment-decrease",
+      "value": 23.8
+    },
+    {
+      "date": "2019-07-01",
+      "series": "private-employment-increase",
+      "value": 19.0
+    },
+    {
+      "date": "2019-07-01",
+      "series": "private-employment-same",
+      "value": 57.2
+    },
+    {
+      "date": "2019-07-01",
+      "series": "public-activity-decrease",
+      "value": 45.9
+    },
+    {
+      "date": "2019-07-01",
+      "series": "public-activity-increase",
+      "value": 9.7
+    },
+    {
+      "date": "2019-07-01",
+      "series": "public-activity-same",
+      "value": 44.4
+    },
+    {
+      "date": "2019-07-01",
+      "series": "public-employment-decrease",
+      "value": 50.0
+    },
+    {
+      "date": "2019-07-01",
+      "series": "public-employment-increase",
+      "value": 2.8
+    },
+    {
+      "date": "2019-07-01",
+      "series": "public-employment-same",
+      "value": 47.2
+    },
+    {
+      "date": "2019-08-01",
+      "series": "private-activity-decrease",
+      "value": 50.0
+    },
+    {
+      "date": "2019-08-01",
+      "series": "private-activity-increase",
+      "value": 7.9
+    },
+    {
+      "date": "2019-08-01",
+      "series": "private-activity-same",
+      "value": 42.1
+    },
+    {
+      "date": "2019-08-01",
+      "series": "private-employment-decrease",
+      "value": 34.2
+    },
+    {
+      "date": "2019-08-01",
+      "series": "private-employment-increase",
+      "value": 13.2
+    },
+    {
+      "date": "2019-08-01",
+      "series": "private-employment-same",
+      "value": 52.6
+    },
+    {
+      "date": "2019-08-01",
+      "series": "public-activity-decrease",
+      "value": 64.0
+    },
+    {
+      "date": "2019-08-01",
+      "series": "public-activity-increase",
+      "value": 2.7
+    },
+    {
+      "date": "2019-08-01",
+      "series": "public-activity-same",
+      "value": 33.3
+    },
+    {
+      "date": "2019-08-01",
+      "series": "public-employment-decrease",
+      "value": 53.4
+    },
+    {
+      "date": "2019-08-01",
+      "series": "public-employment-increase",
+      "value": 5.3
+    },
+    {
+      "date": "2019-08-01",
+      "series": "public-employment-same",
+      "value": 41.3
+    },
+    {
+      "date": "2019-09-01",
+      "series": "private-activity-decrease",
+      "value": 70.7
+    },
+    {
+      "date": "2019-09-01",
+      "series": "private-activity-increase",
+      "value": 0.0
+    },
+    {
+      "date": "2019-09-01",
+      "series": "private-activity-same",
+      "value": 29.3
+    },
+    {
+      "date": "2019-09-01",
+      "series": "private-employment-decrease",
+      "value": 43.9
+    },
+    {
+      "date": "2019-09-01",
+      "series": "private-employment-increase",
+      "value": 2.4
+    },
+    {
+      "date": "2019-09-01",
+      "series": "private-employment-same",
+      "value": 53.7
+    },
+    {
+      "date": "2019-09-01",
+      "series": "public-activity-decrease",
+      "value": 70.5
+    },
+    {
+      "date": "2019-09-01",
+      "series": "public-activity-increase",
+      "value": 0.0
+    },
+    {
+      "date": "2019-09-01",
+      "series": "public-activity-same",
+      "value": 29.5
+    },
+    {
+      "date": "2019-09-01",
+      "series": "public-employment-decrease",
+      "value": 67.9
+    },
+    {
+      "date": "2019-09-01",
+      "series": "public-employment-increase",
+      "value": 1.3
+    },
+    {
+      "date": "2019-09-01",
+      "series": "public-employment-same",
+      "value": 30.8
+    },
+    {
+      "date": "2019-10-01",
+      "series": "private-activity-decrease",
+      "value": 58.7
+    },
+    {
+      "date": "2019-10-01",
+      "series": "private-activity-increase",
+      "value": 2.2
+    },
+    {
+      "date": "2019-10-01",
+      "series": "private-activity-same",
+      "value": 39.1
+    },
+    {
+      "date": "2019-10-01",
+      "series": "private-employment-decrease",
+      "value": 52.2
+    },
+    {
+      "date": "2019-10-01",
+      "series": "private-employment-increase",
+      "value": 6.5
+    },
+    {
+      "date": "2019-10-01",
+      "series": "private-employment-same",
+      "value": 41.3
+    },
+    {
+      "date": "2019-10-01",
+      "series": "public-activity-decrease",
+      "value": 77.9
+    },
+    {
+      "date": "2019-10-01",
+      "series": "public-activity-increase",
+      "value": 0.0
+    },
+    {
+      "date": "2019-10-01",
+      "series": "public-activity-same",
+      "value": 22.1
+    },
+    {
+      "date": "2019-10-01",
+      "series": "public-employment-decrease",
+      "value": 70.1
+    },
+    {
+      "date": "2019-10-01",
+      "series": "public-employment-increase",
+      "value": 1.3
+    },
+    {
+      "date": "2019-10-01",
+      "series": "public-employment-same",
+      "value": 28.6
+    },
+    {
+      "date": "2019-11-01",
+      "series": "private-activity-decrease",
+      "value": 55.0
+    },
+    {
+      "date": "2019-11-01",
+      "series": "private-activity-increase",
+      "value": 7.5
+    },
+    {
+      "date": "2019-11-01",
+      "series": "private-activity-same",
+      "value": 37.5
+    },
+    {
+      "date": "2019-11-01",
+      "series": "private-employment-decrease",
+      "value": 49.9
+    },
+    {
+      "date": "2019-11-01",
+      "series": "private-employment-increase",
+      "value": 5.0
+    },
+    {
+      "date": "2019-11-01",
+      "series": "private-employment-same",
+      "value": 45.1
+    },
+    {
+      "date": "2019-11-01",
+      "series": "public-activity-decrease",
+      "value": 70.3
+    },
+    {
+      "date": "2019-11-01",
+      "series": "public-activity-increase",
+      "value": 1.3
+    },
+    {
+      "date": "2019-11-01",
+      "series": "public-activity-same",
+      "value": 28.4
+    },
+    {
+      "date": "2019-11-01",
+      "series": "public-employment-decrease",
+      "value": 66.2
+    },
+    {
+      "date": "2019-11-01",
+      "series": "public-employment-increase",
+      "value": 4.1
+    },
+    {
+      "date": "2019-11-01",
+      "series": "public-employment-same",
+      "value": 29.7
+    },
+    {
+      "date": "2019-12-01",
+      "series": "private-activity-decrease",
+      "value": 47.5
+    },
+    {
+      "date": "2019-12-01",
+      "series": "private-activity-increase",
+      "value": 10.0
+    },
+    {
+      "date": "2019-12-01",
+      "series": "private-activity-same",
+      "value": 42.5
+    },
+    {
+      "date": "2019-12-01",
+      "series": "private-employment-decrease",
+      "value": 45.0
+    },
+    {
+      "date": "2019-12-01",
+      "series": "private-employment-increase",
+      "value": 10.0
+    },
+    {
+      "date": "2019-12-01",
+      "series": "private-employment-same",
+      "value": 45.0
+    },
+    {
+      "date": "2019-12-01",
+      "series": "public-activity-decrease",
+      "value": 64.9
+    },
+    {
+      "date": "2019-12-01",
+      "series": "public-activity-increase",
+      "value": 2.6
+    },
+    {
+      "date": "2019-12-01",
+      "series": "public-activity-same",
+      "value": 32.5
+    },
+    {
+      "date": "2019-12-01",
+      "series": "public-employment-decrease",
+      "value": 61.0
+    },
+    {
+      "date": "2019-12-01",
+      "series": "public-employment-increase",
+      "value": 5.2
+    },
+    {
+      "date": "2019-12-01",
+      "series": "public-employment-same",
+      "value": 33.8
+    },
+    {
+      "date": "2020-01-01",
+      "series": "private-activity-decrease",
+      "value": 37.0
+    },
+    {
+      "date": "2020-01-01",
+      "series": "private-activity-increase",
+      "value": 4.3
+    },
+    {
+      "date": "2020-01-01",
+      "series": "private-activity-same",
+      "value": 58.7
+    },
+    {
+      "date": "2020-01-01",
+      "series": "private-employment-decrease",
+      "value": 37.0
+    },
+    {
+      "date": "2020-01-01",
+      "series": "private-employment-increase",
+      "value": 4.3
+    },
+    {
+      "date": "2020-01-01",
+      "series": "private-employment-same",
+      "value": 58.7
+    },
+    {
+      "date": "2020-01-01",
+      "series": "public-activity-decrease",
+      "value": 54.1
+    },
+    {
+      "date": "2020-01-01",
+      "series": "public-activity-increase",
+      "value": 10.8
+    },
+    {
+      "date": "2020-01-01",
+      "series": "public-activity-same",
+      "value": 35.1
+    },
+    {
+      "date": "2020-01-01",
+      "series": "public-employment-decrease",
+      "value": 51.4
+    },
+    {
+      "date": "2020-01-01",
+      "series": "public-employment-increase",
+      "value": 5.4
+    },
+    {
+      "date": "2020-01-01",
+      "series": "public-employment-same",
+      "value": 43.2
+    },
+    {
+      "date": "2020-02-01",
+      "series": "private-activity-decrease",
+      "value": 32.6
+    },
+    {
+      "date": "2020-02-01",
+      "series": "private-activity-increase",
+      "value": 6.5
+    },
+    {
+      "date": "2020-02-01",
+      "series": "private-activity-same",
+      "value": 60.9
+    },
+    {
+      "date": "2020-02-01",
+      "series": "private-employment-decrease",
+      "value": 39.2
+    },
+    {
+      "date": "2020-02-01",
+      "series": "private-employment-increase",
+      "value": 6.5
+    },
+    {
+      "date": "2020-02-01",
+      "series": "private-employment-same",
+      "value": 54.3
+    },
+    {
+      "date": "2020-02-01",
+      "series": "public-activity-decrease",
+      "value": 53.6
+    },
+    {
+      "date": "2020-02-01",
+      "series": "public-activity-increase",
+      "value": 7.0
+    },
+    {
+      "date": "2020-02-01",
+      "series": "public-activity-same",
+      "value": 39.4
+    },
+    {
+      "date": "2020-02-01",
+      "series": "public-employment-decrease",
+      "value": 52.2
+    },
+    {
+      "date": "2020-02-01",
+      "series": "public-employment-increase",
+      "value": 7.0
+    },
+    {
+      "date": "2020-02-01",
+      "series": "public-employment-same",
+      "value": 40.8
+    },
+    {
+      "date": "2020-03-01",
+      "series": "private-activity-decrease",
+      "value": 46.1
+    },
+    {
+      "date": "2020-03-01",
+      "series": "private-activity-increase",
+      "value": 8.0
+    },
+    {
+      "date": "2020-03-01",
+      "series": "private-activity-same",
+      "value": 45.9
+    },
+    {
+      "date": "2020-03-01",
+      "series": "private-employment-decrease",
+      "value": 50.0
+    },
+    {
+      "date": "2020-03-01",
+      "series": "private-employment-increase",
+      "value": 6.0
+    },
+    {
+      "date": "2020-03-01",
+      "series": "private-employment-same",
+      "value": 44.0
+    },
+    {
+      "date": "2020-03-01",
+      "series": "public-activity-decrease",
+      "value": 59.1
+    },
+    {
+      "date": "2020-03-01",
+      "series": "public-activity-increase",
+      "value": 9.1
+    },
+    {
+      "date": "2020-03-01",
+      "series": "public-activity-same",
+      "value": 31.8
+    },
+    {
+      "date": "2020-03-01",
+      "series": "public-employment-decrease",
+      "value": 57.6
+    },
+    {
+      "date": "2020-03-01",
+      "series": "public-employment-increase",
+      "value": 4.5
+    },
+    {
+      "date": "2020-03-01",
+      "series": "public-employment-same",
+      "value": 37.9
+    },
+    {
+      "date": "2020-04-01",
+      "series": "private-activity-decrease",
+      "value": 93.0
+    },
+    {
+      "date": "2020-04-01",
+      "series": "private-activity-increase",
+      "value": 0.0
+    },
+    {
+      "date": "2020-04-01",
+      "series": "private-activity-same",
+      "value": 7.0
+    },
+    {
+      "date": "2020-04-01",
+      "series": "private-employment-decrease",
+      "value": 74.4
+    },
+    {
+      "date": "2020-04-01",
+      "series": "private-employment-increase",
+      "value": 0.0
+    },
+    {
+      "date": "2020-04-01",
+      "series": "private-employment-same",
+      "value": 25.6
+    },
+    {
+      "date": "2020-04-01",
+      "series": "public-activity-decrease",
+      "value": 81.2
+    },
+    {
+      "date": "2020-04-01",
+      "series": "public-activity-increase",
+      "value": 2.9
+    },
+    {
+      "date": "2020-04-01",
+      "series": "public-activity-same",
+      "value": 15.9
+    },
+    {
+      "date": "2020-04-01",
+      "series": "public-employment-decrease",
+      "value": 60.9
+    },
+    {
+      "date": "2020-04-01",
+      "series": "public-employment-increase",
+      "value": 1.4
+    },
+    {
+      "date": "2020-04-01",
+      "series": "public-employment-same",
+      "value": 37.7
+    },
+    {
+      "date": "2020-05-01",
+      "series": "private-activity-decrease",
+      "value": 76.7
+    },
+    {
+      "date": "2020-05-01",
+      "series": "private-activity-increase",
+      "value": 4.7
+    },
+    {
+      "date": "2020-05-01",
+      "series": "private-activity-same",
+      "value": 18.6
+    },
+    {
+      "date": "2020-05-01",
+      "series": "private-employment-decrease",
+      "value": 44.2
+    },
+    {
+      "date": "2020-05-01",
+      "series": "private-employment-increase",
+      "value": 2.3
+    },
+    {
+      "date": "2020-05-01",
+      "series": "private-employment-same",
+      "value": 53.5
+    },
+    {
+      "date": "2020-05-01",
+      "series": "public-activity-decrease",
+      "value": 61.9
+    },
+    {
+      "date": "2020-05-01",
+      "series": "public-activity-increase",
+      "value": 9.9
+    },
+    {
+      "date": "2020-05-01",
+      "series": "public-activity-same",
+      "value": 28.2
+    },
+    {
+      "date": "2020-05-01",
+      "series": "public-employment-decrease",
+      "value": 46.5
+    },
+    {
+      "date": "2020-05-01",
+      "series": "public-employment-increase",
+      "value": 5.6
+    },
+    {
+      "date": "2020-05-01",
+      "series": "public-employment-same",
+      "value": 47.9
+    },
+    {
+      "date": "2020-06-01",
+      "series": "private-activity-decrease",
+      "value": 63.1
+    },
+    {
+      "date": "2020-06-01",
+      "series": "private-activity-increase",
+      "value": 4.3
+    },
+    {
+      "date": "2020-06-01",
+      "series": "private-activity-same",
+      "value": 32.6
+    },
+    {
+      "date": "2020-06-01",
+      "series": "private-employment-decrease",
+      "value": 39.1
+    },
+    {
+      "date": "2020-06-01",
+      "series": "private-employment-increase",
+      "value": 2.2
+    },
+    {
+      "date": "2020-06-01",
+      "series": "private-employment-same",
+      "value": 58.7
+    },
+    {
+      "date": "2020-06-01",
+      "series": "public-activity-decrease",
+      "value": 54.5
+    },
+    {
+      "date": "2020-06-01",
+      "series": "public-activity-increase",
+      "value": 9.1
+    },
+    {
+      "date": "2020-06-01",
+      "series": "public-activity-same",
+      "value": 36.4
+    },
+    {
+      "date": "2020-06-01",
+      "series": "public-employment-decrease",
+      "value": 40.9
+    },
+    {
+      "date": "2020-06-01",
+      "series": "public-employment-increase",
+      "value": 4.5
+    },
+    {
+      "date": "2020-06-01",
+      "series": "public-employment-same",
+      "value": 54.6
+    },
+    {
+      "date": "2020-07-01",
+      "series": "private-activity-decrease",
+      "value": 53.2
+    },
+    {
+      "date": "2020-07-01",
+      "series": "private-activity-increase",
+      "value": 8.5
+    },
+    {
+      "date": "2020-07-01",
+      "series": "private-activity-same",
+      "value": 38.3
+    },
+    {
+      "date": "2020-07-01",
+      "series": "private-employment-decrease",
+      "value": 34.0
+    },
+    {
+      "date": "2020-07-01",
+      "series": "private-employment-increase",
+      "value": 8.5
+    },
+    {
+      "date": "2020-07-01",
+      "series": "private-employment-same",
+      "value": 57.5
+    },
+    {
+      "date": "2020-07-01",
+      "series": "public-activity-decrease",
+      "value": 50.7
+    },
+    {
+      "date": "2020-07-01",
+      "series": "public-activity-increase",
+      "value": 11.6
+    },
+    {
+      "date": "2020-07-01",
+      "series": "public-activity-same",
+      "value": 37.7
+    },
+    {
+      "date": "2020-07-01",
+      "series": "public-employment-decrease",
+      "value": 40.6
+    },
+    {
+      "date": "2020-07-01",
+      "series": "public-employment-increase",
+      "value": 13.0
+    },
+    {
+      "date": "2020-07-01",
+      "series": "public-employment-same",
+      "value": 46.4
+    },
+    {
+      "date": "2020-08-01",
+      "series": "private-activity-decrease",
+      "value": 43.4
+    },
+    {
+      "date": "2020-08-01",
+      "series": "private-activity-increase",
+      "value": 19.6
+    },
+    {
+      "date": "2020-08-01",
+      "series": "private-activity-same",
+      "value": 37.0
+    },
+    {
+      "date": "2020-08-01",
+      "series": "private-employment-decrease",
+      "value": 25.5
+    },
+    {
+      "date": "2020-08-01",
+      "series": "private-employment-increase",
+      "value": 14.9
+    },
+    {
+      "date": "2020-08-01",
+      "series": "private-employment-same",
+      "value": 59.6
+    },
+    {
+      "date": "2020-08-01",
+      "series": "public-activity-decrease",
+      "value": 44.3
+    },
+    {
+      "date": "2020-08-01",
+      "series": "public-activity-increase",
+      "value": 18.6
+    },
+    {
+      "date": "2020-08-01",
+      "series": "public-activity-same",
+      "value": 37.1
+    },
+    {
+      "date": "2020-08-01",
+      "series": "public-employment-decrease",
+      "value": 24.5
+    },
+    {
+      "date": "2020-08-01",
+      "series": "public-employment-increase",
+      "value": 18.8
+    },
+    {
+      "date": "2020-08-01",
+      "series": "public-employment-same",
+      "value": 56.7
+    },
+    {
+      "date": "2020-09-01",
+      "series": "private-activity-decrease",
+      "value": 29.6
+    },
+    {
+      "date": "2020-09-01",
+      "series": "private-activity-increase",
+      "value": 18.5
+    },
+    {
+      "date": "2020-09-01",
+      "series": "private-activity-same",
+      "value": 51.9
+    },
+    {
+      "date": "2020-09-01",
+      "series": "private-employment-decrease",
+      "value": 22.6
+    },
+    {
+      "date": "2020-09-01",
+      "series": "private-employment-increase",
+      "value": 15.1
+    },
+    {
+      "date": "2020-09-01",
+      "series": "private-employment-same",
+      "value": 62.3
+    },
+    {
+      "date": "2020-09-01",
+      "series": "public-activity-decrease",
+      "value": 36.9
+    },
+    {
+      "date": "2020-09-01",
+      "series": "public-activity-increase",
+      "value": 23.1
+    },
+    {
+      "date": "2020-09-01",
+      "series": "public-activity-same",
+      "value": 40.0
+    },
+    {
+      "date": "2020-09-01",
+      "series": "public-employment-decrease",
+      "value": 24.6
+    },
+    {
+      "date": "2020-09-01",
+      "series": "public-employment-increase",
+      "value": 18.5
+    },
+    {
+      "date": "2020-09-01",
+      "series": "public-employment-same",
+      "value": 56.9
+    },
+    {
+      "date": "2020-10-01",
+      "series": "private-activity-decrease",
+      "value": 22.0
+    },
+    {
+      "date": "2020-10-01",
+      "series": "private-activity-increase",
+      "value": 24.0
+    },
+    {
+      "date": "2020-10-01",
+      "series": "private-activity-same",
+      "value": 54.0
+    },
+    {
+      "date": "2020-10-01",
+      "series": "private-employment-decrease",
+      "value": 16.0
+    },
+    {
+      "date": "2020-10-01",
+      "series": "private-employment-increase",
+      "value": 18.0
+    },
+    {
+      "date": "2020-10-01",
+      "series": "private-employment-same",
+      "value": 66.0
+    },
+    {
+      "date": "2020-10-01",
+      "series": "public-activity-decrease",
+      "value": 32.4
+    },
+    {
+      "date": "2020-10-01",
+      "series": "public-activity-increase",
+      "value": 23.5
+    },
+    {
+      "date": "2020-10-01",
+      "series": "public-activity-same",
+      "value": 44.1
+    },
+    {
+      "date": "2020-10-01",
+      "series": "public-employment-decrease",
+      "value": 18.8
+    },
+    {
+      "date": "2020-10-01",
+      "series": "public-employment-increase",
+      "value": 17.4
+    },
+    {
+      "date": "2020-10-01",
+      "series": "public-employment-same",
+      "value": 63.8
+    },
+    {
+      "date": "2020-11-01",
+      "series": "private-activity-decrease",
+      "value": 22.6
+    },
+    {
+      "date": "2020-11-01",
+      "series": "private-activity-increase",
+      "value": 35.9
+    },
+    {
+      "date": "2020-11-01",
+      "series": "private-activity-same",
+      "value": 41.5
+    },
+    {
+      "date": "2020-11-01",
+      "series": "private-employment-decrease",
+      "value": 11.1
+    },
+    {
+      "date": "2020-11-01",
+      "series": "private-employment-increase",
+      "value": 27.8
+    },
+    {
+      "date": "2020-11-01",
+      "series": "private-employment-same",
+      "value": 61.1
+    },
+    {
+      "date": "2020-11-01",
+      "series": "public-activity-decrease",
+      "value": 25.0
+    },
+    {
+      "date": "2020-11-01",
+      "series": "public-activity-increase",
+      "value": 33.3
+    },
+    {
+      "date": "2020-11-01",
+      "series": "public-activity-same",
+      "value": 41.7
+    },
+    {
+      "date": "2020-11-01",
+      "series": "public-employment-decrease",
+      "value": 15.1
+    },
+    {
+      "date": "2020-11-01",
+      "series": "public-employment-increase",
+      "value": 21.9
+    },
+    {
+      "date": "2020-11-01",
+      "series": "public-employment-same",
+      "value": 63.0
+    },
+    {
+      "date": "2020-12-01",
+      "series": "private-activity-decrease",
+      "value": 18.9
+    },
+    {
+      "date": "2020-12-01",
+      "series": "private-activity-increase",
+      "value": 39.6
+    },
+    {
+      "date": "2020-12-01",
+      "series": "private-activity-same",
+      "value": 41.5
+    },
+    {
+      "date": "2020-12-01",
+      "series": "private-employment-decrease",
+      "value": 7.5
+    },
+    {
+      "date": "2020-12-01",
+      "series": "private-employment-increase",
+      "value": 28.3
+    },
+    {
+      "date": "2020-12-01",
+      "series": "private-employment-same",
+      "value": 64.2
+    },
+    {
+      "date": "2020-12-01",
+      "series": "public-activity-decrease",
+      "value": 25.7
+    },
+    {
+      "date": "2020-12-01",
+      "series": "public-activity-increase",
+      "value": 35.7
+    },
+    {
+      "date": "2020-12-01",
+      "series": "public-activity-same",
+      "value": 38.6
+    },
+    {
+      "date": "2020-12-01",
+      "series": "public-employment-decrease",
+      "value": 14.3
+    },
+    {
+      "date": "2020-12-01",
+      "series": "public-employment-increase",
+      "value": 27.1
+    },
+    {
+      "date": "2020-12-01",
+      "series": "public-employment-same",
+      "value": 58.6
+    },
+    {
+      "date": "2021-01-01",
+      "series": "private-activity-decrease",
+      "value": 17.3
+    },
+    {
+      "date": "2021-01-01",
+      "series": "private-activity-increase",
+      "value": 30.8
+    },
+    {
+      "date": "2021-01-01",
+      "series": "private-activity-same",
+      "value": 51.9
+    },
+    {
+      "date": "2021-01-01",
+      "series": "private-employment-decrease",
+      "value": 7.7
+    },
+    {
+      "date": "2021-01-01",
+      "series": "private-employment-increase",
+      "value": 21.2
+    },
+    {
+      "date": "2021-01-01",
+      "series": "private-employment-same",
+      "value": 71.1
+    },
+    {
+      "date": "2021-01-01",
+      "series": "public-activity-decrease",
+      "value": 21.9
+    },
+    {
+      "date": "2021-01-01",
+      "series": "public-activity-increase",
+      "value": 39.7
+    },
+    {
+      "date": "2021-01-01",
+      "series": "public-activity-same",
+      "value": 38.4
+    },
+    {
+      "date": "2021-01-01",
+      "series": "public-employment-decrease",
+      "value": 13.7
+    },
+    {
+      "date": "2021-01-01",
+      "series": "public-employment-increase",
+      "value": 27.4
+    },
+    {
+      "date": "2021-01-01",
+      "series": "public-employment-same",
+      "value": 58.9
+    },
+    {
+      "date": "2021-02-01",
+      "series": "private-activity-decrease",
+      "value": 21.1
+    },
+    {
+      "date": "2021-02-01",
+      "series": "private-activity-increase",
+      "value": 36.8
+    },
+    {
+      "date": "2021-02-01",
+      "series": "private-activity-same",
+      "value": 42.1
+    },
+    {
+      "date": "2021-02-01",
+      "series": "private-employment-decrease",
+      "value": 8.8
+    },
+    {
+      "date": "2021-02-01",
+      "series": "private-employment-increase",
+      "value": 33.3
+    },
+    {
+      "date": "2021-02-01",
+      "series": "private-employment-same",
+      "value": 57.9
+    },
+    {
+      "date": "2021-02-01",
+      "series": "public-activity-decrease",
+      "value": 17.1
+    },
+    {
+      "date": "2021-02-01",
+      "series": "public-activity-increase",
+      "value": 42.9
+    },
+    {
+      "date": "2021-02-01",
+      "series": "public-activity-same",
+      "value": 40.0
+    },
+    {
+      "date": "2021-02-01",
+      "series": "public-employment-decrease",
+      "value": 12.9
+    },
+    {
+      "date": "2021-02-01",
+      "series": "public-employment-increase",
+      "value": 34.3
+    },
+    {
+      "date": "2021-02-01",
+      "series": "public-employment-same",
+      "value": 52.8
+    },
+    {
+      "date": "2021-03-01",
+      "series": "private-activity-decrease",
+      "value": 13.5
+    },
+    {
+      "date": "2021-03-01",
+      "series": "private-activity-increase",
+      "value": 30.8
+    },
+    {
+      "date": "2021-03-01",
+      "series": "private-activity-same",
+      "value": 55.7
+    },
+    {
+      "date": "2021-03-01",
+      "series": "private-employment-decrease",
+      "value": 5.8
+    },
+    {
+      "date": "2021-03-01",
+      "series": "private-employment-increase",
+      "value": 25.0
+    },
+    {
+      "date": "2021-03-01",
+      "series": "private-employment-same",
+      "value": 69.2
+    },
+    {
+      "date": "2021-03-01",
+      "series": "public-activity-decrease",
+      "value": 11.8
+    },
+    {
+      "date": "2021-03-01",
+      "series": "public-activity-increase",
+      "value": 40.8
+    },
+    {
+      "date": "2021-03-01",
+      "series": "public-activity-same",
+      "value": 47.4
+    },
+    {
+      "date": "2021-03-01",
+      "series": "public-employment-decrease",
+      "value": 10.5
+    },
+    {
+      "date": "2021-03-01",
+      "series": "public-employment-increase",
+      "value": 30.3
+    },
+    {
+      "date": "2021-03-01",
+      "series": "public-employment-same",
+      "value": 59.2
+    },
+    {
+      "date": "2021-04-01",
+      "series": "private-activity-decrease",
+      "value": 15.1
+    },
+    {
+      "date": "2021-04-01",
+      "series": "private-activity-increase",
+      "value": 20.8
+    },
+    {
+      "date": "2021-04-01",
+      "series": "private-activity-same",
+      "value": 64.1
+    },
+    {
+      "date": "2021-04-01",
+      "series": "private-employment-decrease",
+      "value": 15.1
+    },
+    {
+      "date": "2021-04-01",
+      "series": "private-employment-increase",
+      "value": 24.5
+    },
+    {
+      "date": "2021-04-01",
+      "series": "private-employment-same",
+      "value": 60.4
+    },
+    {
+      "date": "2021-04-01",
+      "series": "public-activity-decrease",
+      "value": 16.7
+    },
+    {
+      "date": "2021-04-01",
+      "series": "public-activity-increase",
+      "value": 29.5
+    },
+    {
+      "date": "2021-04-01",
+      "series": "public-activity-same",
+      "value": 53.8
+    },
+    {
+      "date": "2021-04-01",
+      "series": "public-employment-decrease",
+      "value": 16.7
+    },
+    {
+      "date": "2021-04-01",
+      "series": "public-employment-increase",
+      "value": 26.9
+    },
+    {
+      "date": "2021-04-01",
+      "series": "public-employment-same",
+      "value": 56.4
+    },
+    {
+      "date": "2021-05-01",
+      "series": "private-activity-decrease",
+      "value": 16.7
+    },
+    {
+      "date": "2021-05-01",
+      "series": "private-activity-increase",
+      "value": 24.1
+    },
+    {
+      "date": "2021-05-01",
+      "series": "private-activity-same",
+      "value": 59.2
+    },
+    {
+      "date": "2021-05-01",
+      "series": "private-employment-decrease",
+      "value": 11.1
+    },
+    {
+      "date": "2021-05-01",
+      "series": "private-employment-increase",
+      "value": 20.4
+    },
+    {
+      "date": "2021-05-01",
+      "series": "private-employment-same",
+      "value": 68.5
+    },
+    {
+      "date": "2021-05-01",
+      "series": "public-activity-decrease",
+      "value": 14.9
+    },
+    {
+      "date": "2021-05-01",
+      "series": "public-activity-increase",
+      "value": 35.1
+    },
+    {
+      "date": "2021-05-01",
+      "series": "public-activity-same",
+      "value": 50.0
+    },
+    {
+      "date": "2021-05-01",
+      "series": "public-employment-decrease",
+      "value": 12.2
+    },
+    {
+      "date": "2021-05-01",
+      "series": "public-employment-increase",
+      "value": 31.1
+    },
+    {
+      "date": "2021-05-01",
+      "series": "public-employment-same",
+      "value": 56.7
+    },
+    {
+      "date": "2021-06-01",
+      "series": "private-activity-decrease",
+      "value": 19.7
+    },
+    {
+      "date": "2021-06-01",
+      "series": "private-activity-increase",
+      "value": 24.6
+    },
+    {
+      "date": "2021-06-01",
+      "series": "private-activity-same",
+      "value": 55.7
+    },
+    {
+      "date": "2021-06-01",
+      "series": "private-employment-decrease",
+      "value": 8.2
+    },
+    {
+      "date": "2021-06-01",
+      "series": "private-employment-increase",
+      "value": 26.2
+    },
+    {
+      "date": "2021-06-01",
+      "series": "private-employment-same",
+      "value": 65.6
+    },
+    {
+      "date": "2021-06-01",
+      "series": "public-activity-decrease",
+      "value": 12.3
+    },
+    {
+      "date": "2021-06-01",
+      "series": "public-activity-increase",
+      "value": 32.9
+    },
+    {
+      "date": "2021-06-01",
+      "series": "public-activity-same",
+      "value": 54.8
+    },
+    {
+      "date": "2021-06-01",
+      "series": "public-employment-decrease",
+      "value": 9.6
+    },
+    {
+      "date": "2021-06-01",
+      "series": "public-employment-increase",
+      "value": 34.2
+    },
+    {
+      "date": "2021-06-01",
+      "series": "public-employment-same",
+      "value": 56.2
+    },
+    {
+      "date": "2021-07-01",
+      "series": "private-activity-decrease",
+      "value": 17.2
+    },
+    {
+      "date": "2021-07-01",
+      "series": "private-activity-increase",
+      "value": 32.8
+    },
+    {
+      "date": "2021-07-01",
+      "series": "private-activity-same",
+      "value": 50.0
+    },
+    {
+      "date": "2021-07-01",
+      "series": "private-employment-decrease",
+      "value": 13.8
+    },
+    {
+      "date": "2021-07-01",
+      "series": "private-employment-increase",
+      "value": 25.9
+    },
+    {
+      "date": "2021-07-01",
+      "series": "private-employment-same",
+      "value": 60.3
+    },
+    {
+      "date": "2021-07-01",
+      "series": "public-activity-decrease",
+      "value": 12.5
+    },
+    {
+      "date": "2021-07-01",
+      "series": "public-activity-increase",
+      "value": 51.4
+    },
+    {
+      "date": "2021-07-01",
+      "series": "public-activity-same",
+      "value": 36.1
+    },
+    {
+      "date": "2021-07-01",
+      "series": "public-employment-decrease",
+      "value": 8.3
+    },
+    {
+      "date": "2021-07-01",
+      "series": "public-employment-increase",
+      "value": 44.4
+    },
+    {
+      "date": "2021-07-01",
+      "series": "public-employment-same",
+      "value": 47.3
+    },
+    {
+      "date": "2021-08-01",
+      "series": "private-activity-decrease",
+      "value": 14.3
+    },
+    {
+      "date": "2021-08-01",
+      "series": "private-activity-increase",
+      "value": 32.1
+    },
+    {
+      "date": "2021-08-01",
+      "series": "private-activity-same",
+      "value": 53.6
+    },
+    {
+      "date": "2021-08-01",
+      "series": "private-employment-decrease",
+      "value": 10.7
+    },
+    {
+      "date": "2021-08-01",
+      "series": "private-employment-increase",
+      "value": 32.1
+    },
+    {
+      "date": "2021-08-01",
+      "series": "private-employment-same",
+      "value": 57.2
+    },
+    {
+      "date": "2021-08-01",
+      "series": "public-activity-decrease",
+      "value": 15.1
+    },
+    {
+      "date": "2021-08-01",
+      "series": "public-activity-increase",
+      "value": 49.3
+    },
+    {
+      "date": "2021-08-01",
+      "series": "public-activity-same",
+      "value": 35.6
+    },
+    {
+      "date": "2021-08-01",
+      "series": "public-employment-decrease",
+      "value": 9.6
+    },
+    {
+      "date": "2021-08-01",
+      "series": "public-employment-increase",
+      "value": 50.7
+    },
+    {
+      "date": "2021-08-01",
+      "series": "public-employment-same",
+      "value": 39.7
+    },
+    {
+      "date": "2021-09-01",
+      "series": "private-activity-decrease",
+      "value": 10.0
+    },
+    {
+      "date": "2021-09-01",
+      "series": "private-activity-increase",
+      "value": 35.0
+    },
+    {
+      "date": "2021-09-01",
+      "series": "private-activity-same",
+      "value": 55.0
+    },
+    {
+      "date": "2021-09-01",
+      "series": "private-employment-decrease",
+      "value": 13.3
+    },
+    {
+      "date": "2021-09-01",
+      "series": "private-employment-increase",
+      "value": 20.0
+    },
+    {
+      "date": "2021-09-01",
+      "series": "private-employment-same",
+      "value": 66.7
+    },
+    {
+      "date": "2021-09-01",
+      "series": "public-activity-decrease",
+      "value": 7.1
+    },
+    {
+      "date": "2021-09-01",
+      "series": "public-activity-increase",
+      "value": 50.0
+    },
+    {
+      "date": "2021-09-01",
+      "series": "public-activity-same",
+      "value": 42.9
+    },
+    {
+      "date": "2021-09-01",
+      "series": "public-employment-decrease",
+      "value": 5.7
+    },
+    {
+      "date": "2021-09-01",
+      "series": "public-employment-increase",
+      "value": 42.9
+    },
+    {
+      "date": "2021-09-01",
+      "series": "public-employment-same",
+      "value": 51.4
+    },
+    {
+      "date": "2021-10-01",
+      "series": "private-activity-decrease",
+      "value": 10.3
+    },
+    {
+      "date": "2021-10-01",
+      "series": "private-activity-increase",
+      "value": 29.3
+    },
+    {
+      "date": "2021-10-01",
+      "series": "private-activity-same",
+      "value": 60.4
+    },
+    {
+      "date": "2021-10-01",
+      "series": "private-employment-decrease",
+      "value": 12.1
+    },
+    {
+      "date": "2021-10-01",
+      "series": "private-employment-increase",
+      "value": 22.4
+    },
+    {
+      "date": "2021-10-01",
+      "series": "private-employment-same",
+      "value": 65.5
+    },
+    {
+      "date": "2021-10-01",
+      "series": "public-activity-decrease",
+      "value": 6.8
+    },
+    {
+      "date": "2021-10-01",
+      "series": "public-activity-increase",
+      "value": 41.1
+    },
+    {
+      "date": "2021-10-01",
+      "series": "public-activity-same",
+      "value": 52.1
+    },
+    {
+      "date": "2021-10-01",
+      "series": "public-employment-decrease",
+      "value": 2.7
+    },
+    {
+      "date": "2021-10-01",
+      "series": "public-employment-increase",
+      "value": 34.3
+    },
+    {
+      "date": "2021-10-01",
+      "series": "public-employment-same",
+      "value": 63.0
+    },
+    {
+      "date": "2021-11-01",
+      "series": "private-activity-decrease",
+      "value": 12.7
+    },
+    {
+      "date": "2021-11-01",
+      "series": "private-activity-increase",
+      "value": 23.6
+    },
+    {
+      "date": "2021-11-01",
+      "series": "private-activity-same",
+      "value": 63.7
+    },
+    {
+      "date": "2021-11-01",
+      "series": "private-employment-decrease",
+      "value": 10.9
+    },
+    {
+      "date": "2021-11-01",
+      "series": "private-employment-increase",
+      "value": 16.4
+    },
+    {
+      "date": "2021-11-01",
+      "series": "private-employment-same",
+      "value": 72.7
+    },
+    {
+      "date": "2021-11-01",
+      "series": "public-activity-decrease",
+      "value": 9.2
+    },
+    {
+      "date": "2021-11-01",
+      "series": "public-activity-increase",
+      "value": 30.3
+    },
+    {
+      "date": "2021-11-01",
+      "series": "public-activity-same",
+      "value": 60.5
+    },
+    {
+      "date": "2021-11-01",
+      "series": "public-employment-decrease",
+      "value": 5.3
+    },
+    {
+      "date": "2021-11-01",
+      "series": "public-employment-increase",
+      "value": 26.3
+    },
+    {
+      "date": "2021-11-01",
+      "series": "public-employment-same",
+      "value": 68.4
+    },
+    {
+      "date": "2021-12-01",
+      "series": "private-activity-decrease",
+      "value": 14.5
+    },
+    {
+      "date": "2021-12-01",
+      "series": "private-activity-increase",
+      "value": 23.6
+    },
+    {
+      "date": "2021-12-01",
+      "series": "private-activity-same",
+      "value": 61.9
+    },
+    {
+      "date": "2021-12-01",
+      "series": "private-employment-decrease",
+      "value": 10.7
+    },
+    {
+      "date": "2021-12-01",
+      "series": "private-employment-increase",
+      "value": 21.4
+    },
+    {
+      "date": "2021-12-01",
+      "series": "private-employment-same",
+      "value": 67.9
+    },
+    {
+      "date": "2021-12-01",
+      "series": "public-activity-decrease",
+      "value": 8.3
+    },
+    {
+      "date": "2021-12-01",
+      "series": "public-activity-increase",
+      "value": 32.0
+    },
+    {
+      "date": "2021-12-01",
+      "series": "public-activity-same",
+      "value": 59.7
+    },
+    {
+      "date": "2021-12-01",
+      "series": "public-employment-decrease",
+      "value": 5.4
+    },
+    {
+      "date": "2021-12-01",
+      "series": "public-employment-increase",
+      "value": 28.4
+    },
+    {
+      "date": "2021-12-01",
+      "series": "public-employment-same",
+      "value": 66.2
+    },
+    {
+      "date": "2022-01-01",
+      "series": "private-activity-decrease",
+      "value": 9.6
+    },
+    {
+      "date": "2022-01-01",
+      "series": "private-activity-increase",
+      "value": 23.1
+    },
+    {
+      "date": "2022-01-01",
+      "series": "private-activity-same",
+      "value": 67.3
+    },
+    {
+      "date": "2022-01-01",
+      "series": "private-employment-decrease",
+      "value": 3.8
+    },
+    {
+      "date": "2022-01-01",
+      "series": "private-employment-increase",
+      "value": 15.4
+    },
+    {
+      "date": "2022-01-01",
+      "series": "private-employment-same",
+      "value": 80.8
+    },
+    {
+      "date": "2022-01-01",
+      "series": "public-activity-decrease",
+      "value": 5.7
+    },
+    {
+      "date": "2022-01-01",
+      "series": "public-activity-increase",
+      "value": 32.9
+    },
+    {
+      "date": "2022-01-01",
+      "series": "public-activity-same",
+      "value": 61.4
+    },
+    {
+      "date": "2022-01-01",
+      "series": "public-employment-decrease",
+      "value": 1.4
+    },
+    {
+      "date": "2022-01-01",
+      "series": "public-employment-increase",
+      "value": 31.4
+    },
+    {
+      "date": "2022-01-01",
+      "series": "public-employment-same",
+      "value": 67.2
+    },
+    {
+      "date": "2022-02-01",
+      "series": "private-activity-decrease",
+      "value": 12.1
+    },
+    {
+      "date": "2022-02-01",
+      "series": "private-activity-increase",
+      "value": 29.3
+    },
+    {
+      "date": "2022-02-01",
+      "series": "private-activity-same",
+      "value": 58.6
+    },
+    {
+      "date": "2022-02-01",
+      "series": "private-employment-decrease",
+      "value": 8.6
+    },
+    {
+      "date": "2022-02-01",
+      "series": "private-employment-increase",
+      "value": 27.6
+    },
+    {
+      "date": "2022-02-01",
+      "series": "private-employment-same",
+      "value": 63.8
+    },
+    {
+      "date": "2022-02-01",
+      "series": "public-activity-decrease",
+      "value": 8.5
+    },
+    {
+      "date": "2022-02-01",
+      "series": "public-activity-increase",
+      "value": 45.1
+    },
+    {
+      "date": "2022-02-01",
+      "series": "public-activity-same",
+      "value": 46.4
+    },
+    {
+      "date": "2022-02-01",
+      "series": "public-employment-decrease",
+      "value": 4.2
+    },
+    {
+      "date": "2022-02-01",
+      "series": "public-employment-increase",
+      "value": 42.3
+    },
+    {
+      "date": "2022-02-01",
+      "series": "public-employment-same",
+      "value": 53.5
+    },
+    {
+      "date": "2022-03-01",
+      "series": "private-activity-decrease",
+      "value": 8.2
+    },
+    {
+      "date": "2022-03-01",
+      "series": "private-activity-increase",
+      "value": 29.5
+    },
+    {
+      "date": "2022-03-01",
+      "series": "private-activity-same",
+      "value": 62.3
+    },
+    {
+      "date": "2022-03-01",
+      "series": "private-employment-decrease",
+      "value": 9.8
+    },
+    {
+      "date": "2022-03-01",
+      "series": "private-employment-increase",
+      "value": 24.6
+    },
+    {
+      "date": "2022-03-01",
+      "series": "private-employment-same",
+      "value": 65.6
+    },
+    {
+      "date": "2022-03-01",
+      "series": "public-activity-decrease",
+      "value": 4.0
+    },
+    {
+      "date": "2022-03-01",
+      "series": "public-activity-increase",
+      "value": 45.3
+    },
+    {
+      "date": "2022-03-01",
+      "series": "public-activity-same",
+      "value": 50.7
+    },
+    {
+      "date": "2022-03-01",
+      "series": "public-employment-decrease",
+      "value": 2.7
+    },
+    {
+      "date": "2022-03-01",
+      "series": "public-employment-increase",
+      "value": 45.3
+    },
+    {
+      "date": "2022-03-01",
+      "series": "public-employment-same",
+      "value": 52.0
+    },
+    {
+      "date": "2022-04-01",
+      "series": "private-activity-decrease",
+      "value": 6.9
+    },
+    {
+      "date": "2022-04-01",
+      "series": "private-activity-increase",
+      "value": 34.5
+    },
+    {
+      "date": "2022-04-01",
+      "series": "private-activity-same",
+      "value": 58.6
+    },
+    {
+      "date": "2022-04-01",
+      "series": "private-employment-decrease",
+      "value": 8.6
+    },
+    {
+      "date": "2022-04-01",
+      "series": "private-employment-increase",
+      "value": 32.8
+    },
+    {
+      "date": "2022-04-01",
+      "series": "private-employment-same",
+      "value": 58.6
+    },
+    {
+      "date": "2022-04-01",
+      "series": "public-activity-decrease",
+      "value": 11.4
+    },
+    {
+      "date": "2022-04-01",
+      "series": "public-activity-increase",
+      "value": 32.9
+    },
+    {
+      "date": "2022-04-01",
+      "series": "public-activity-same",
+      "value": 55.7
+    },
+    {
+      "date": "2022-04-01",
+      "series": "public-employment-decrease",
+      "value": 3.8
+    },
+    {
+      "date": "2022-04-01",
+      "series": "public-employment-increase",
+      "value": 35.4
+    },
+    {
+      "date": "2022-04-01",
+      "series": "public-employment-same",
+      "value": 60.8
+    },
+    {
+      "date": "2022-05-01",
+      "series": "private-activity-decrease",
+      "value": 8.7
+    },
+    {
+      "date": "2022-05-01",
+      "series": "private-activity-increase",
+      "value": 40.4
+    },
+    {
+      "date": "2022-05-01",
+      "series": "private-activity-same",
+      "value": 50.9
+    },
+    {
+      "date": "2022-05-01",
+      "series": "private-employment-decrease",
+      "value": 5.3
+    },
+    {
+      "date": "2022-05-01",
+      "series": "private-employment-increase",
+      "value": 31.6
+    },
+    {
+      "date": "2022-05-01",
+      "series": "private-employment-same",
+      "value": 63.1
+    },
+    {
+      "date": "2022-05-01",
+      "series": "public-activity-decrease",
+      "value": 9.5
+    },
+    {
+      "date": "2022-05-01",
+      "series": "public-activity-increase",
+      "value": 38.4
+    },
+    {
+      "date": "2022-05-01",
+      "series": "public-activity-same",
+      "value": 52.1
+    },
+    {
+      "date": "2022-05-01",
+      "series": "public-employment-decrease",
+      "value": 5.4
+    },
+    {
+      "date": "2022-05-01",
+      "series": "public-employment-increase",
+      "value": 38.4
+    },
+    {
+      "date": "2022-05-01",
+      "series": "public-employment-same",
+      "value": 56.2
+    },
+    {
+      "date": "2022-06-01",
+      "series": "private-activity-decrease",
+      "value": 8.5
+    },
+    {
+      "date": "2022-06-01",
+      "series": "private-activity-increase",
+      "value": 28.8
+    },
+    {
+      "date": "2022-06-01",
+      "series": "private-activity-same",
+      "value": 62.7
+    },
+    {
+      "date": "2022-06-01",
+      "series": "private-employment-decrease",
+      "value": 11.9
+    },
+    {
+      "date": "2022-06-01",
+      "series": "private-employment-increase",
+      "value": 27.1
+    },
+    {
+      "date": "2022-06-01",
+      "series": "private-employment-same",
+      "value": 61.0
+    },
+    {
+      "date": "2022-06-01",
+      "series": "public-activity-decrease",
+      "value": 11.8
+    },
+    {
+      "date": "2022-06-01",
+      "series": "public-activity-increase",
+      "value": 31.6
+    },
+    {
+      "date": "2022-06-01",
+      "series": "public-activity-same",
+      "value": 56.6
+    },
+    {
+      "date": "2022-06-01",
+      "series": "public-employment-decrease",
+      "value": 5.2
+    },
+    {
+      "date": "2022-06-01",
+      "series": "public-employment-increase",
+      "value": 30.3
+    },
+    {
+      "date": "2022-06-01",
+      "series": "public-employment-same",
+      "value": 64.5
+    },
+    {
+      "date": "2022-07-01",
+      "series": "private-activity-decrease",
+      "value": 17.5
+    },
+    {
+      "date": "2022-07-01",
+      "series": "private-activity-increase",
+      "value": 19.3
+    },
+    {
+      "date": "2022-07-01",
+      "series": "private-activity-same",
+      "value": 63.2
+    },
+    {
+      "date": "2022-07-01",
+      "series": "private-employment-decrease",
+      "value": 14.0
+    },
+    {
+      "date": "2022-07-01",
+      "series": "private-employment-increase",
+      "value": 22.8
+    },
+    {
+      "date": "2022-07-01",
+      "series": "private-employment-same",
+      "value": 63.2
+    },
+    {
+      "date": "2022-07-01",
+      "series": "public-activity-decrease",
+      "value": 23.3
+    },
+    {
+      "date": "2022-07-01",
+      "series": "public-activity-increase",
+      "value": 27.4
+    },
+    {
+      "date": "2022-07-01",
+      "series": "public-activity-same",
+      "value": 49.3
+    },
+    {
+      "date": "2022-07-01",
+      "series": "public-employment-decrease",
+      "value": 13.7
+    },
+    {
+      "date": "2022-07-01",
+      "series": "public-employment-increase",
+      "value": 28.8
+    },
+    {
+      "date": "2022-07-01",
+      "series": "public-employment-same",
+      "value": 57.5
+    },
+    {
+      "date": "2022-08-01",
+      "series": "private-activity-decrease",
+      "value": 11.9
+    },
+    {
+      "date": "2022-08-01",
+      "series": "private-activity-increase",
+      "value": 20.3
+    },
+    {
+      "date": "2022-08-01",
+      "series": "private-activity-same",
+      "value": 67.8
+    },
+    {
+      "date": "2022-08-01",
+      "series": "private-employment-decrease",
+      "value": 8.7
+    },
+    {
+      "date": "2022-08-01",
+      "series": "private-employment-increase",
+      "value": 24.1
+    },
+    {
+      "date": "2022-08-01",
+      "series": "private-employment-same",
+      "value": 67.2
+    },
+    {
+      "date": "2022-08-01",
+      "series": "public-activity-decrease",
+      "value": 28.9
+    },
+    {
+      "date": "2022-08-01",
+      "series": "public-activity-increase",
+      "value": 23.7
+    },
+    {
+      "date": "2022-08-01",
+      "series": "public-activity-same",
+      "value": 47.4
+    },
+    {
+      "date": "2022-08-01",
+      "series": "public-employment-decrease",
+      "value": 14.5
+    },
+    {
+      "date": "2022-08-01",
+      "series": "public-employment-increase",
+      "value": 26.3
+    },
+    {
+      "date": "2022-08-01",
+      "series": "public-employment-same",
+      "value": 59.2
+    },
+    {
+      "date": "2022-09-01",
+      "series": "private-activity-decrease",
+      "value": 15.3
+    },
+    {
+      "date": "2022-09-01",
+      "series": "private-activity-increase",
+      "value": 16.9
+    },
+    {
+      "date": "2022-09-01",
+      "series": "private-activity-same",
+      "value": 67.8
+    },
+    {
+      "date": "2022-09-01",
+      "series": "private-employment-decrease",
+      "value": 13.6
+    },
+    {
+      "date": "2022-09-01",
+      "series": "private-employment-increase",
+      "value": 20.3
+    },
+    {
+      "date": "2022-09-01",
+      "series": "private-employment-same",
+      "value": 66.1
+    },
+    {
+      "date": "2022-09-01",
+      "series": "public-activity-decrease",
+      "value": 18.9
+    },
+    {
+      "date": "2022-09-01",
+      "series": "public-activity-increase",
+      "value": 21.6
+    },
+    {
+      "date": "2022-09-01",
+      "series": "public-activity-same",
+      "value": 59.5
+    },
+    {
+      "date": "2022-09-01",
+      "series": "public-employment-decrease",
+      "value": 14.8
+    },
+    {
+      "date": "2022-09-01",
+      "series": "public-employment-increase",
+      "value": 25.7
+    },
+    {
+      "date": "2022-09-01",
+      "series": "public-employment-same",
+      "value": 59.5
+    },
+    {
+      "date": "2022-10-01",
+      "series": "private-activity-decrease",
+      "value": 19.6
+    },
+    {
+      "date": "2022-10-01",
+      "series": "private-activity-increase",
+      "value": 14.3
+    },
+    {
+      "date": "2022-10-01",
+      "series": "private-activity-same",
+      "value": 66.1
+    },
+    {
+      "date": "2022-10-01",
+      "series": "private-employment-decrease",
+      "value": 12.5
+    },
+    {
+      "date": "2022-10-01",
+      "series": "private-employment-increase",
+      "value": 25.0
+    },
+    {
+      "date": "2022-10-01",
+      "series": "private-employment-same",
+      "value": 62.5
+    },
+    {
+      "date": "2022-10-01",
+      "series": "public-activity-decrease",
+      "value": 20.0
+    },
+    {
+      "date": "2022-10-01",
+      "series": "public-activity-increase",
+      "value": 22.7
+    },
+    {
+      "date": "2022-10-01",
+      "series": "public-activity-same",
+      "value": 57.3
+    },
+    {
+      "date": "2022-10-01",
+      "series": "public-employment-decrease",
+      "value": 9.3
+    },
+    {
+      "date": "2022-10-01",
+      "series": "public-employment-increase",
+      "value": 28.0
+    },
+    {
+      "date": "2022-10-01",
+      "series": "public-employment-same",
+      "value": 62.7
+    },
+    {
+      "date": "2022-11-01",
+      "series": "private-activity-decrease",
+      "value": 12.1
+    },
+    {
+      "date": "2022-11-01",
+      "series": "private-activity-increase",
+      "value": 13.8
+    },
+    {
+      "date": "2022-11-01",
+      "series": "private-activity-same",
+      "value": 74.1
+    },
+    {
+      "date": "2022-11-01",
+      "series": "private-employment-decrease",
+      "value": 12.0
+    },
+    {
+      "date": "2022-11-01",
+      "series": "private-employment-increase",
+      "value": 12.1
+    },
+    {
+      "date": "2022-11-01",
+      "series": "private-employment-same",
+      "value": 75.9
+    },
+    {
+      "date": "2022-11-01",
+      "series": "public-activity-decrease",
+      "value": 15.8
+    },
+    {
+      "date": "2022-11-01",
+      "series": "public-activity-increase",
+      "value": 23.2
+    },
+    {
+      "date": "2022-11-01",
+      "series": "public-activity-same",
+      "value": 61.0
+    },
+    {
+      "date": "2022-11-01",
+      "series": "public-employment-decrease",
+      "value": 13.4
+    },
+    {
+      "date": "2022-11-01",
+      "series": "public-employment-increase",
+      "value": 15.9
+    },
+    {
+      "date": "2022-11-01",
+      "series": "public-employment-same",
+      "value": 70.7
+    },
+    {
+      "date": "2022-12-01",
+      "series": "private-activity-decrease",
+      "value": 21.3
+    },
+    {
+      "date": "2022-12-01",
+      "series": "private-activity-increase",
+      "value": 8.7
+    },
+    {
+      "date": "2022-12-01",
+      "series": "private-activity-same",
+      "value": 70.0
+    },
+    {
+      "date": "2022-12-01",
+      "series": "private-employment-decrease",
+      "value": 13.8
+    },
+    {
+      "date": "2022-12-01",
+      "series": "private-employment-increase",
+      "value": 7.4
+    },
+    {
+      "date": "2022-12-01",
+      "series": "private-employment-same",
+      "value": 78.8
+    },
+    {
+      "date": "2022-12-01",
+      "series": "public-activity-decrease",
+      "value": 30.3
+    },
+    {
+      "date": "2022-12-01",
+      "series": "public-activity-increase",
+      "value": 23.6
+    },
+    {
+      "date": "2022-12-01",
+      "series": "public-activity-same",
+      "value": 46.1
+    },
+    {
+      "date": "2022-12-01",
+      "series": "public-employment-decrease",
+      "value": 17.9
+    },
+    {
+      "date": "2022-12-01",
+      "series": "public-employment-increase",
+      "value": 22.5
+    },
+    {
+      "date": "2022-12-01",
+      "series": "public-employment-same",
+      "value": 59.6
+    },
+    {
+      "date": "2023-01-01",
+      "series": "private-activity-decrease",
+      "value": 16.4
+    },
+    {
+      "date": "2023-01-01",
+      "series": "private-activity-increase",
+      "value": 22.8
+    },
+    {
+      "date": "2023-01-01",
+      "series": "private-activity-same",
+      "value": 60.8
+    },
+    {
+      "date": "2023-01-01",
+      "series": "private-employment-decrease",
+      "value": 11.4
+    },
+    {
+      "date": "2023-01-01",
+      "series": "private-employment-increase",
+      "value": 15.2
+    },
+    {
+      "date": "2023-01-01",
+      "series": "private-employment-same",
+      "value": 73.4
+    },
+    {
+      "date": "2023-01-01",
+      "series": "public-activity-decrease",
+      "value": 18.6
+    },
+    {
+      "date": "2023-01-01",
+      "series": "public-activity-increase",
+      "value": 31.9
+    },
+    {
+      "date": "2023-01-01",
+      "series": "public-activity-same",
+      "value": 49.5
+    },
+    {
+      "date": "2023-01-01",
+      "series": "public-employment-decrease",
+      "value": 8.8
+    },
+    {
+      "date": "2023-01-01",
+      "series": "public-employment-increase",
+      "value": 28.6
+    },
+    {
+      "date": "2023-01-01",
+      "series": "public-employment-same",
+      "value": 62.6
+    },
+    {
+      "date": "2023-02-01",
+      "series": "private-activity-decrease",
+      "value": 19.7
+    },
+    {
+      "date": "2023-02-01",
+      "series": "private-activity-increase",
+      "value": 16.9
+    },
+    {
+      "date": "2023-02-01",
+      "series": "private-activity-same",
+      "value": 63.4
+    },
+    {
+      "date": "2023-02-01",
+      "series": "private-employment-decrease",
+      "value": 12.7
+    },
+    {
+      "date": "2023-02-01",
+      "series": "private-employment-increase",
+      "value": 9.8
+    },
+    {
+      "date": "2023-02-01",
+      "series": "private-employment-same",
+      "value": 77.5
+    },
+    {
+      "date": "2023-02-01",
+      "series": "public-activity-decrease",
+      "value": 18.9
+    },
+    {
+      "date": "2023-02-01",
+      "series": "public-activity-increase",
+      "value": 33.3
+    },
+    {
+      "date": "2023-02-01",
+      "series": "public-activity-same",
+      "value": 47.8
+    },
+    {
+      "date": "2023-02-01",
+      "series": "public-employment-decrease",
+      "value": 10.0
+    },
+    {
+      "date": "2023-02-01",
+      "series": "public-employment-increase",
+      "value": 28.9
+    },
+    {
+      "date": "2023-02-01",
+      "series": "public-employment-same",
+      "value": 61.1
+    },
+    {
+      "date": "2023-03-01",
+      "series": "private-activity-decrease",
+      "value": 20.7
+    },
+    {
+      "date": "2023-03-01",
+      "series": "private-activity-increase",
+      "value": 18.3
+    },
+    {
+      "date": "2023-03-01",
+      "series": "private-activity-same",
+      "value": 61.0
+    },
+    {
+      "date": "2023-03-01",
+      "series": "private-employment-decrease",
+      "value": 12.2
+    },
+    {
+      "date": "2023-03-01",
+      "series": "private-employment-increase",
+      "value": 12.2
+    },
+    {
+      "date": "2023-03-01",
+      "series": "private-employment-same",
+      "value": 75.6
+    },
+    {
+      "date": "2023-03-01",
+      "series": "public-activity-decrease",
+      "value": 16.3
+    },
+    {
+      "date": "2023-03-01",
+      "series": "public-activity-increase",
+      "value": 29.6
+    },
+    {
+      "date": "2023-03-01",
+      "series": "public-activity-same",
+      "value": 54.1
+    },
+    {
+      "date": "2023-03-01",
+      "series": "public-employment-decrease",
+      "value": 8.2
+    },
+    {
+      "date": "2023-03-01",
+      "series": "public-employment-increase",
+      "value": 22.4
+    },
+    {
+      "date": "2023-03-01",
+      "series": "public-employment-same",
+      "value": 69.4
+    },
+    {
+      "date": "2023-04-01",
+      "series": "private-activity-decrease",
+      "value": 24.4
+    },
+    {
+      "date": "2023-04-01",
+      "series": "private-activity-increase",
+      "value": 11.5
+    },
+    {
+      "date": "2023-04-01",
+      "series": "private-activity-same",
+      "value": 64.1
+    },
+    {
+      "date": "2023-04-01",
+      "series": "private-employment-decrease",
+      "value": 17.9
+    },
+    {
+      "date": "2023-04-01",
+      "series": "private-employment-increase",
+      "value": 7.7
+    },
+    {
+      "date": "2023-04-01",
+      "series": "private-employment-same",
+      "value": 74.4
+    },
+    {
+      "date": "2023-04-01",
+      "series": "public-activity-decrease",
+      "value": 20.4
+    },
+    {
+      "date": "2023-04-01",
+      "series": "public-activity-increase",
+      "value": 26.9
+    },
+    {
+      "date": "2023-04-01",
+      "series": "public-activity-same",
+      "value": 52.7
+    },
+    {
+      "date": "2023-04-01",
+      "series": "public-employment-decrease",
+      "value": 9.7
+    },
+    {
+      "date": "2023-04-01",
+      "series": "public-employment-increase",
+      "value": 24.7
+    },
+    {
+      "date": "2023-04-01",
+      "series": "public-employment-same",
+      "value": 65.6
+    },
+    {
+      "date": "2023-05-01",
+      "series": "private-activity-decrease",
+      "value": 22.7
+    },
+    {
+      "date": "2023-05-01",
+      "series": "private-activity-increase",
+      "value": 14.8
+    },
+    {
+      "date": "2023-05-01",
+      "series": "private-activity-same",
+      "value": 62.5
+    },
+    {
+      "date": "2023-05-01",
+      "series": "private-employment-decrease",
+      "value": 12.5
+    },
+    {
+      "date": "2023-05-01",
+      "series": "private-employment-increase",
+      "value": 13.6
+    },
+    {
+      "date": "2023-05-01",
+      "series": "private-employment-same",
+      "value": 73.9
+    },
+    {
+      "date": "2023-05-01",
+      "series": "public-activity-decrease",
+      "value": 32.0
+    },
+    {
+      "date": "2023-05-01",
+      "series": "public-activity-increase",
+      "value": 20.4
+    },
+    {
+      "date": "2023-05-01",
+      "series": "public-activity-same",
+      "value": 47.6
+    },
+    {
+      "date": "2023-05-01",
+      "series": "public-employment-decrease",
+      "value": 23.3
+    },
+    {
+      "date": "2023-05-01",
+      "series": "public-employment-increase",
+      "value": 14.6
+    },
+    {
+      "date": "2023-05-01",
+      "series": "public-employment-same",
+      "value": 62.1
+    },
+    {
+      "date": "2023-06-01",
+      "series": "private-activity-decrease",
+      "value": 22.1
+    },
+    {
+      "date": "2023-06-01",
+      "series": "private-activity-increase",
+      "value": 16.3
+    },
+    {
+      "date": "2023-06-01",
+      "series": "private-activity-same",
+      "value": 61.6
+    },
+    {
+      "date": "2023-06-01",
+      "series": "private-employment-decrease",
+      "value": 12.8
+    },
+    {
+      "date": "2023-06-01",
+      "series": "private-employment-increase",
+      "value": 11.6
+    },
+    {
+      "date": "2023-06-01",
+      "series": "private-employment-same",
+      "value": 75.6
+    },
+    {
+      "date": "2023-06-01",
+      "series": "public-activity-decrease",
+      "value": 30.0
+    },
+    {
+      "date": "2023-06-01",
+      "series": "public-activity-increase",
+      "value": 17.0
+    },
+    {
+      "date": "2023-06-01",
+      "series": "public-activity-same",
+      "value": 53.0
+    },
+    {
+      "date": "2023-06-01",
+      "series": "public-employment-decrease",
+      "value": 21.0
+    },
+    {
+      "date": "2023-06-01",
+      "series": "public-employment-increase",
+      "value": 13.0
+    },
+    {
+      "date": "2023-06-01",
+      "series": "public-employment-same",
+      "value": 66.0
+    },
+    {
+      "date": "2023-07-01",
+      "series": "private-activity-decrease",
+      "value": 21.7
+    },
+    {
+      "date": "2023-07-01",
+      "series": "private-activity-increase",
+      "value": 15.2
+    },
+    {
+      "date": "2023-07-01",
+      "series": "private-activity-same",
+      "value": 63.1
+    },
+    {
+      "date": "2023-07-01",
+      "series": "private-employment-decrease",
+      "value": 9.8
+    },
+    {
+      "date": "2023-07-01",
+      "series": "private-employment-increase",
+      "value": 14.1
+    },
+    {
+      "date": "2023-07-01",
+      "series": "private-employment-same",
+      "value": 76.1
+    },
+    {
+      "date": "2023-07-01",
+      "series": "public-activity-decrease",
+      "value": 28.0
+    },
+    {
+      "date": "2023-07-01",
+      "series": "public-activity-increase",
+      "value": 17.0
+    },
+    {
+      "date": "2023-07-01",
+      "series": "public-activity-same",
+      "value": 55.0
+    },
+    {
+      "date": "2023-07-01",
+      "series": "public-employment-decrease",
+      "value": 21.0
+    },
+    {
+      "date": "2023-07-01",
+      "series": "public-employment-increase",
+      "value": 13.0
+    },
+    {
+      "date": "2023-07-01",
+      "series": "public-employment-same",
+      "value": 66.0
+    },
+    {
+      "date": "2023-08-01",
+      "series": "private-activity-decrease",
+      "value": 34.4
+    },
+    {
+      "date": "2023-08-01",
+      "series": "private-activity-increase",
+      "value": 9.4
+    },
+    {
+      "date": "2023-08-01",
+      "series": "private-activity-same",
+      "value": 56.2
+    },
+    {
+      "date": "2023-08-01",
+      "series": "private-employment-decrease",
+      "value": 19.8
+    },
+    {
+      "date": "2023-08-01",
+      "series": "private-employment-increase",
+      "value": 7.3
+    },
+    {
+      "date": "2023-08-01",
+      "series": "private-employment-same",
+      "value": 72.9
+    },
+    {
+      "date": "2023-08-01",
+      "series": "public-activity-decrease",
+      "value": 39.6
+    },
+    {
+      "date": "2023-08-01",
+      "series": "public-activity-increase",
+      "value": 12.6
+    },
+    {
+      "date": "2023-08-01",
+      "series": "public-activity-same",
+      "value": 47.8
+    },
+    {
+      "date": "2023-08-01",
+      "series": "public-employment-decrease",
+      "value": 24.3
+    },
+    {
+      "date": "2023-08-01",
+      "series": "public-employment-increase",
+      "value": 10.8
+    },
+    {
+      "date": "2023-08-01",
+      "series": "public-employment-same",
+      "value": 64.9
+    },
+    {
+      "date": "2023-09-01",
+      "series": "private-activity-decrease",
+      "value": 29.8
+    },
+    {
+      "date": "2023-09-01",
+      "series": "private-activity-increase",
+      "value": 6.7
+    },
+    {
+      "date": "2023-09-01",
+      "series": "private-activity-same",
+      "value": 63.5
+    },
+    {
+      "date": "2023-09-01",
+      "series": "private-employment-decrease",
+      "value": 16.3
+    },
+    {
+      "date": "2023-09-01",
+      "series": "private-employment-increase",
+      "value": 3.9
+    },
+    {
+      "date": "2023-09-01",
+      "series": "private-employment-same",
+      "value": 79.8
+    },
+    {
+      "date": "2023-09-01",
+      "series": "public-activity-decrease",
+      "value": 50.5
+    },
+    {
+      "date": "2023-09-01",
+      "series": "public-activity-increase",
+      "value": 7.8
+    },
+    {
+      "date": "2023-09-01",
+      "series": "public-activity-same",
+      "value": 41.7
+    },
+    {
+      "date": "2023-09-01",
+      "series": "public-employment-decrease",
+      "value": 37.4
+    },
+    {
+      "date": "2023-09-01",
+      "series": "public-employment-increase",
+      "value": 5.2
+    },
+    {
+      "date": "2023-09-01",
+      "series": "public-employment-same",
+      "value": 57.4
+    },
+    {
+      "date": "2023-10-01",
+      "series": "private-activity-decrease",
+      "value": 34.6
+    },
+    {
+      "date": "2023-10-01",
+      "series": "private-activity-increase",
+      "value": 5.8
+    },
+    {
+      "date": "2023-10-01",
+      "series": "private-activity-same",
+      "value": 59.6
+    },
+    {
+      "date": "2023-10-01",
+      "series": "private-employment-decrease",
+      "value": 21.1
+    },
+    {
+      "date": "2023-10-01",
+      "series": "private-employment-increase",
+      "value": 5.8
+    },
+    {
+      "date": "2023-10-01",
+      "series": "private-employment-same",
+      "value": 73.1
+    },
+    {
+      "date": "2023-10-01",
+      "series": "public-activity-decrease",
+      "value": 57.4
+    },
+    {
+      "date": "2023-10-01",
+      "series": "public-activity-increase",
+      "value": 8.7
+    },
+    {
+      "date": "2023-10-01",
+      "series": "public-activity-same",
+      "value": 33.9
+    },
+    {
+      "date": "2023-10-01",
+      "series": "public-employment-decrease",
+      "value": 38.3
+    },
+    {
+      "date": "2023-10-01",
+      "series": "public-employment-increase",
+      "value": 7.8
+    },
+    {
+      "date": "2023-10-01",
+      "series": "public-employment-same",
+      "value": 53.9
+    },
+    {
+      "date": "2023-11-01",
+      "series": "private-activity-decrease",
+      "value": 31.1
+    },
+    {
+      "date": "2023-11-01",
+      "series": "private-activity-increase",
+      "value": 6.6
+    },
+    {
+      "date": "2023-11-01",
+      "series": "private-activity-same",
+      "value": 62.3
+    },
+    {
+      "date": "2023-11-01",
+      "series": "private-employment-decrease",
+      "value": 17.1
+    },
+    {
+      "date": "2023-11-01",
+      "series": "private-employment-increase",
+      "value": 5.7
+    },
+    {
+      "date": "2023-11-01",
+      "series": "private-employment-same",
+      "value": 77.2
+    },
+    {
+      "date": "2023-11-01",
+      "series": "public-activity-decrease",
+      "value": 54.5
+    },
+    {
+      "date": "2023-11-01",
+      "series": "public-activity-increase",
+      "value": 6.4
+    },
+    {
+      "date": "2023-11-01",
+      "series": "public-activity-same",
+      "value": 39.1
+    },
+    {
+      "date": "2023-11-01",
+      "series": "public-employment-decrease",
+      "value": 40.0
+    },
+    {
+      "date": "2023-11-01",
+      "series": "public-employment-increase",
+      "value": 3.6
+    },
+    {
+      "date": "2023-11-01",
+      "series": "public-employment-same",
+      "value": 56.4
+    },
+    {
+      "date": "2023-12-01",
+      "series": "private-activity-decrease",
+      "value": 43.7
+    },
+    {
+      "date": "2023-12-01",
+      "series": "private-activity-increase",
+      "value": 2.9
+    },
+    {
+      "date": "2023-12-01",
+      "series": "private-activity-same",
+      "value": 53.4
+    },
+    {
+      "date": "2023-12-01",
+      "series": "private-employment-decrease",
+      "value": 27.2
+    },
+    {
+      "date": "2023-12-01",
+      "series": "private-employment-increase",
+      "value": 2.9
+    },
+    {
+      "date": "2023-12-01",
+      "series": "private-employment-same",
+      "value": 69.9
+    },
+    {
+      "date": "2023-12-01",
+      "series": "public-activity-decrease",
+      "value": 77.9
+    },
+    {
+      "date": "2023-12-01",
+      "series": "public-activity-increase",
+      "value": 2.8
+    },
+    {
+      "date": "2023-12-01",
+      "series": "public-activity-same",
+      "value": 19.3
+    },
+    {
+      "date": "2023-12-01",
+      "series": "public-employment-decrease",
+      "value": 67.9
+    },
+    {
+      "date": "2023-12-01",
+      "series": "public-employment-increase",
+      "value": 1.8
+    },
+    {
+      "date": "2023-12-01",
+      "series": "public-employment-same",
+      "value": 30.3
+    },
+    {
+      "date": "2024-01-01",
+      "series": "private-activity-decrease",
+      "value": 40.8
+    },
+    {
+      "date": "2024-01-01",
+      "series": "private-activity-increase",
+      "value": 6.1
+    },
+    {
+      "date": "2024-01-01",
+      "series": "private-activity-same",
+      "value": 53.1
+    },
+    {
+      "date": "2024-01-01",
+      "series": "private-employment-decrease",
+      "value": 26.5
+    },
+    {
+      "date": "2024-01-01",
+      "series": "private-employment-increase",
+      "value": 4.1
+    },
+    {
+      "date": "2024-01-01",
+      "series": "private-employment-same",
+      "value": 69.4
+    },
+    {
+      "date": "2024-01-01",
+      "series": "public-activity-decrease",
+      "value": 77.4
+    },
+    {
+      "date": "2024-01-01",
+      "series": "public-activity-increase",
+      "value": 2.8
+    },
+    {
+      "date": "2024-01-01",
+      "series": "public-activity-same",
+      "value": 19.8
+    },
+    {
+      "date": "2024-01-01",
+      "series": "public-employment-decrease",
+      "value": 63.2
+    },
+    {
+      "date": "2024-01-01",
+      "series": "public-employment-increase",
+      "value": 1.9
+    },
+    {
+      "date": "2024-01-01",
+      "series": "public-employment-same",
+      "value": 34.9
+    },
+    {
+      "date": "2024-02-01",
+      "series": "private-activity-decrease",
+      "value": 41.6
+    },
+    {
+      "date": "2024-02-01",
+      "series": "private-activity-increase",
+      "value": 5.9
+    },
+    {
+      "date": "2024-02-01",
+      "series": "private-activity-same",
+      "value": 52.5
+    },
+    {
+      "date": "2024-02-01",
+      "series": "private-employment-decrease",
+      "value": 28.7
+    },
+    {
+      "date": "2024-02-01",
+      "series": "private-employment-increase",
+      "value": 5.0
+    },
+    {
+      "date": "2024-02-01",
+      "series": "private-employment-same",
+      "value": 66.3
+    },
+    {
+      "date": "2024-02-01",
+      "series": "public-activity-decrease",
+      "value": 76.0
+    },
+    {
+      "date": "2024-02-01",
+      "series": "public-activity-increase",
+      "value": 1.9
+    },
+    {
+      "date": "2024-02-01",
+      "series": "public-activity-same",
+      "value": 22.1
+    },
+    {
+      "date": "2024-02-01",
+      "series": "public-employment-decrease",
+      "value": 62.5
+    },
+    {
+      "date": "2024-02-01",
+      "series": "public-employment-increase",
+      "value": 1.0
+    },
+    {
+      "date": "2024-02-01",
+      "series": "public-employment-same",
+      "value": 36.5
+    },
+    {
+      "date": "2024-03-01",
+      "series": "private-activity-decrease",
+      "value": 39.1
+    },
+    {
+      "date": "2024-03-01",
+      "series": "private-activity-increase",
+      "value": 7.3
+    },
+    {
+      "date": "2024-03-01",
+      "series": "private-activity-same",
+      "value": 53.6
+    },
+    {
+      "date": "2024-03-01",
+      "series": "private-employment-decrease",
+      "value": 26.4
+    },
+    {
+      "date": "2024-03-01",
+      "series": "private-employment-increase",
+      "value": 6.4
+    },
+    {
+      "date": "2024-03-01",
+      "series": "private-employment-same",
+      "value": 67.2
+    },
+    {
+      "date": "2024-03-01",
+      "series": "public-activity-decrease",
+      "value": 73.0
+    },
+    {
+      "date": "2024-03-01",
+      "series": "public-activity-increase",
+      "value": 2.0
+    },
+    {
+      "date": "2024-03-01",
+      "series": "public-activity-same",
+      "value": 25.0
+    },
+    {
+      "date": "2024-03-01",
+      "series": "public-employment-decrease",
+      "value": 56.0
+    },
+    {
+      "date": "2024-03-01",
+      "series": "public-employment-increase",
+      "value": 1.0
+    },
+    {
+      "date": "2024-03-01",
+      "series": "public-employment-same",
+      "value": 43.0
+    },
+    {
+      "date": "2024-04-01",
+      "series": "private-activity-decrease",
+      "value": 39.0
+    },
+    {
+      "date": "2024-04-01",
+      "series": "private-activity-increase",
+      "value": 7.7
+    },
+    {
+      "date": "2024-04-01",
+      "series": "private-activity-same",
+      "value": 53.3
+    },
+    {
+      "date": "2024-04-01",
+      "series": "private-employment-decrease",
+      "value": 29.5
+    },
+    {
+      "date": "2024-04-01",
+      "series": "private-employment-increase",
+      "value": 6.7
+    },
+    {
+      "date": "2024-04-01",
+      "series": "private-employment-same",
+      "value": 63.8
+    },
+    {
+      "date": "2024-04-01",
+      "series": "public-activity-decrease",
+      "value": 64.4
+    },
+    {
+      "date": "2024-04-01",
+      "series": "public-activity-increase",
+      "value": 5.9
+    },
+    {
+      "date": "2024-04-01",
+      "series": "public-activity-same",
+      "value": 29.7
+    },
+    {
+      "date": "2024-04-01",
+      "series": "public-employment-decrease",
+      "value": 50.5
+    },
+    {
+      "date": "2024-04-01",
+      "series": "public-employment-increase",
+      "value": 3.0
+    },
+    {
+      "date": "2024-04-01",
+      "series": "public-employment-same",
+      "value": 46.5
+    },
+    {
+      "date": "2024-05-01",
+      "series": "private-activity-decrease",
+      "value": 32.7
+    },
+    {
+      "date": "2024-05-01",
+      "series": "private-activity-increase",
+      "value": 7.5
+    },
+    {
+      "date": "2024-05-01",
+      "series": "private-activity-same",
+      "value": 59.8
+    },
+    {
+      "date": "2024-05-01",
+      "series": "private-employment-decrease",
+      "value": 23.4
+    },
+    {
+      "date": "2024-05-01",
+      "series": "private-employment-increase",
+      "value": 5.6
+    },
+    {
+      "date": "2024-05-01",
+      "series": "private-employment-same",
+      "value": 71.0
+    },
+    {
+      "date": "2024-05-01",
+      "series": "public-activity-decrease",
+      "value": 57.0
+    },
+    {
+      "date": "2024-05-01",
+      "series": "public-activity-increase",
+      "value": 7.0
+    },
+    {
+      "date": "2024-05-01",
+      "series": "public-activity-same",
+      "value": 36.0
+    },
+    {
+      "date": "2024-05-01",
+      "series": "public-employment-decrease",
+      "value": 47.0
+    },
+    {
+      "date": "2024-05-01",
+      "series": "public-employment-increase",
+      "value": 4.0
+    },
+    {
+      "date": "2024-05-01",
+      "series": "public-employment-same",
+      "value": 49.0
+    },
+    {
+      "date": "2024-06-01",
+      "series": "private-activity-decrease",
+      "value": 25.9
+    },
+    {
+      "date": "2024-06-01",
+      "series": "private-activity-increase",
+      "value": 11.6
+    },
+    {
+      "date": "2024-06-01",
+      "series": "private-activity-same",
+      "value": 62.5
+    },
+    {
+      "date": "2024-06-01",
+      "series": "private-employment-decrease",
+      "value": 17.0
+    },
+    {
+      "date": "2024-06-01",
+      "series": "private-employment-increase",
+      "value": 8.0
+    },
+    {
+      "date": "2024-06-01",
+      "series": "private-employment-same",
+      "value": 75.0
+    },
+    {
+      "date": "2024-06-01",
+      "series": "public-activity-decrease",
+      "value": 50.0
+    },
+    {
+      "date": "2024-06-01",
+      "series": "public-activity-increase",
+      "value": 7.7
+    },
+    {
+      "date": "2024-06-01",
+      "series": "public-activity-same",
+      "value": 42.3
+    },
+    {
+      "date": "2024-06-01",
+      "series": "public-employment-decrease",
+      "value": 38.5
+    },
+    {
+      "date": "2024-06-01",
+      "series": "public-employment-increase",
+      "value": 5.7
+    },
+    {
+      "date": "2024-06-01",
+      "series": "public-employment-same",
+      "value": 55.8
+    },
+    {
+      "date": "2024-07-01",
+      "series": "private-activity-decrease",
+      "value": 26.4
+    },
+    {
+      "date": "2024-07-01",
+      "series": "private-activity-increase",
+      "value": 14.5
+    },
+    {
+      "date": "2024-07-01",
+      "series": "private-activity-same",
+      "value": 59.1
+    },
+    {
+      "date": "2024-07-01",
+      "series": "private-employment-decrease",
+      "value": 17.3
+    },
+    {
+      "date": "2024-07-01",
+      "series": "private-employment-increase",
+      "value": 12.7
+    },
+    {
+      "date": "2024-07-01",
+      "series": "private-employment-same",
+      "value": 70.0
+    },
+    {
+      "date": "2024-07-01",
+      "series": "public-activity-decrease",
+      "value": 48.7
+    },
+    {
+      "date": "2024-07-01",
+      "series": "public-activity-increase",
+      "value": 9.9
+    },
+    {
+      "date": "2024-07-01",
+      "series": "public-activity-same",
+      "value": 41.4
+    },
+    {
+      "date": "2024-07-01",
+      "series": "public-employment-decrease",
+      "value": 36.0
+    },
+    {
+      "date": "2024-07-01",
+      "series": "public-employment-increase",
+      "value": 5.4
+    },
+    {
+      "date": "2024-07-01",
+      "series": "public-employment-same",
+      "value": 58.6
+    },
+    {
+      "date": "2024-08-01",
+      "series": "private-activity-decrease",
+      "value": 16.4
+    },
+    {
+      "date": "2024-08-01",
+      "series": "private-activity-increase",
+      "value": 21.8
+    },
+    {
+      "date": "2024-08-01",
+      "series": "private-activity-same",
+      "value": 61.8
+    },
+    {
+      "date": "2024-08-01",
+      "series": "private-employment-decrease",
+      "value": 12.7
+    },
+    {
+      "date": "2024-08-01",
+      "series": "private-employment-increase",
+      "value": 16.4
+    },
+    {
+      "date": "2024-08-01",
+      "series": "private-employment-same",
+      "value": 70.9
+    },
+    {
+      "date": "2024-08-01",
+      "series": "public-activity-decrease",
+      "value": 34.5
+    },
+    {
+      "date": "2024-08-01",
+      "series": "public-activity-increase",
+      "value": 17.3
+    },
+    {
+      "date": "2024-08-01",
+      "series": "public-activity-same",
+      "value": 48.2
+    },
+    {
+      "date": "2024-08-01",
+      "series": "public-employment-decrease",
+      "value": 25.9
+    },
+    {
+      "date": "2024-08-01",
+      "series": "public-employment-increase",
+      "value": 12.0
+    },
+    {
+      "date": "2024-08-01",
+      "series": "public-employment-same",
+      "value": 62.1
+    },
+    {
+      "date": "2024-09-01",
+      "series": "private-activity-decrease",
+      "value": 8.8
+    },
+    {
+      "date": "2024-09-01",
+      "series": "private-activity-increase",
+      "value": 24.8
+    },
+    {
+      "date": "2024-09-01",
+      "series": "private-activity-same",
+      "value": 66.4
+    },
+    {
+      "date": "2024-09-01",
+      "series": "private-employment-decrease",
+      "value": 8.0
+    },
+    {
+      "date": "2024-09-01",
+      "series": "private-employment-increase",
+      "value": 16.8
+    },
+    {
+      "date": "2024-09-01",
+      "series": "private-employment-same",
+      "value": 75.2
+    },
+    {
+      "date": "2024-09-01",
+      "series": "public-activity-decrease",
+      "value": 28.7
+    },
+    {
+      "date": "2024-09-01",
+      "series": "public-activity-increase",
+      "value": 14.8
+    },
+    {
+      "date": "2024-09-01",
+      "series": "public-activity-same",
+      "value": 56.5
+    },
+    {
+      "date": "2024-09-01",
+      "series": "public-employment-decrease",
+      "value": 20.0
+    },
+    {
+      "date": "2024-09-01",
+      "series": "public-employment-increase",
+      "value": 11.3
+    },
+    {
+      "date": "2024-09-01",
+      "series": "public-employment-same",
+      "value": 68.7
+    },
+    {
+      "date": "2024-10-01",
+      "series": "private-activity-decrease",
+      "value": 13.8
+    },
+    {
+      "date": "2024-10-01",
+      "series": "private-activity-increase",
+      "value": 16.5
+    },
+    {
+      "date": "2024-10-01",
+      "series": "private-activity-same",
+      "value": 69.7
+    },
+    {
+      "date": "2024-10-01",
+      "series": "private-employment-decrease",
+      "value": 10.1
+    },
+    {
+      "date": "2024-10-01",
+      "series": "private-employment-increase",
+      "value": 12.8
+    },
+    {
+      "date": "2024-10-01",
+      "series": "private-employment-same",
+      "value": 77.1
+    },
+    {
+      "date": "2024-10-01",
+      "series": "public-activity-decrease",
+      "value": 34.3
+    },
+    {
+      "date": "2024-10-01",
+      "series": "public-activity-increase",
+      "value": 14.7
+    },
+    {
+      "date": "2024-10-01",
+      "series": "public-activity-same",
+      "value": 51.0
+    },
+    {
+      "date": "2024-10-01",
+      "series": "public-employment-decrease",
+      "value": 22.5
+    },
+    {
+      "date": "2024-10-01",
+      "series": "public-employment-increase",
+      "value": 10.8
+    },
+    {
+      "date": "2024-10-01",
+      "series": "public-employment-same",
+      "value": 66.7
+    },
+    {
+      "date": "2024-11-01",
+      "series": "private-activity-decrease",
+      "value": 17.5
+    },
+    {
+      "date": "2024-11-01",
+      "series": "private-activity-increase",
+      "value": 20.8
+    },
+    {
+      "date": "2024-11-01",
+      "series": "private-activity-same",
+      "value": 61.7
+    },
+    {
+      "date": "2024-11-01",
+      "series": "private-employment-decrease",
+      "value": 13.4
+    },
+    {
+      "date": "2024-11-01",
+      "series": "private-employment-increase",
+      "value": 15.8
+    },
+    {
+      "date": "2024-11-01",
+      "series": "private-employment-same",
+      "value": 70.8
+    },
+    {
+      "date": "2024-11-01",
+      "series": "public-activity-decrease",
+      "value": 25.0
+    },
+    {
+      "date": "2024-11-01",
+      "series": "public-activity-increase",
+      "value": 19.0
+    },
+    {
+      "date": "2024-11-01",
+      "series": "public-activity-same",
+      "value": 56.0
+    },
+    {
+      "date": "2024-11-01",
+      "series": "public-employment-decrease",
+      "value": 18.0
+    },
+    {
+      "date": "2024-11-01",
+      "series": "public-employment-increase",
+      "value": 14.0
+    },
+    {
+      "date": "2024-11-01",
+      "series": "public-employment-same",
+      "value": 68.0
+    },
+    {
+      "date": "2024-12-01",
+      "series": "private-activity-decrease",
+      "value": 16.0
+    },
+    {
+      "date": "2024-12-01",
+      "series": "private-activity-increase",
+      "value": 21.8
+    },
+    {
+      "date": "2024-12-01",
+      "series": "private-activity-same",
+      "value": 62.2
+    },
+    {
+      "date": "2024-12-01",
+      "series": "private-employment-decrease",
+      "value": 11.9
+    },
+    {
+      "date": "2024-12-01",
+      "series": "private-employment-increase",
+      "value": 17.8
+    },
+    {
+      "date": "2024-12-01",
+      "series": "private-employment-same",
+      "value": 70.3
+    },
+    {
+      "date": "2024-12-01",
+      "series": "public-activity-decrease",
+      "value": 26.0
+    },
+    {
+      "date": "2024-12-01",
+      "series": "public-activity-increase",
+      "value": 20.9
+    },
+    {
+      "date": "2024-12-01",
+      "series": "public-activity-same",
+      "value": 53.1
+    },
+    {
+      "date": "2024-12-01",
+      "series": "public-employment-decrease",
+      "value": 20.8
+    },
+    {
+      "date": "2024-12-01",
+      "series": "public-employment-increase",
+      "value": 16.7
+    },
+    {
+      "date": "2024-12-01",
+      "series": "public-employment-same",
+      "value": 62.5
+    },
+    {
+      "date": "2025-01-01",
+      "series": "private-activity-decrease",
+      "value": 13.9
+    },
+    {
+      "date": "2025-01-01",
+      "series": "private-activity-increase",
+      "value": 22.6
+    },
+    {
+      "date": "2025-01-01",
+      "series": "private-activity-same",
+      "value": 63.5
+    },
+    {
+      "date": "2025-01-01",
+      "series": "private-employment-decrease",
+      "value": 13.2
+    },
+    {
+      "date": "2025-01-01",
+      "series": "private-employment-increase",
+      "value": 16.7
+    },
+    {
+      "date": "2025-01-01",
+      "series": "private-employment-same",
+      "value": 70.1
+    },
+    {
+      "date": "2025-01-01",
+      "series": "public-activity-decrease",
+      "value": 21.9
+    },
+    {
+      "date": "2025-01-01",
+      "series": "public-activity-increase",
+      "value": 19.8
+    },
+    {
+      "date": "2025-01-01",
+      "series": "public-activity-same",
+      "value": 58.3
+    },
+    {
+      "date": "2025-01-01",
+      "series": "public-employment-decrease",
+      "value": 10.4
+    },
+    {
+      "date": "2025-01-01",
+      "series": "public-employment-increase",
+      "value": 18.8
+    },
+    {
+      "date": "2025-01-01",
+      "series": "public-employment-same",
+      "value": 70.8
+    },
+    {
+      "date": "2025-02-01",
+      "series": "private-activity-decrease",
+      "value": 12.1
+    },
+    {
+      "date": "2025-02-01",
+      "series": "private-activity-increase",
+      "value": 18.7
+    },
+    {
+      "date": "2025-02-01",
+      "series": "private-activity-same",
+      "value": 69.2
+    },
+    {
+      "date": "2025-02-01",
+      "series": "private-employment-decrease",
+      "value": 11.3
+    },
+    {
+      "date": "2025-02-01",
+      "series": "private-employment-increase",
+      "value": 12.3
+    },
+    {
+      "date": "2025-02-01",
+      "series": "private-employment-same",
+      "value": 76.4
+    },
+    {
+      "date": "2025-02-01",
+      "series": "public-activity-decrease",
+      "value": 21.1
+    },
+    {
+      "date": "2025-02-01",
+      "series": "public-activity-increase",
+      "value": 31.1
+    },
+    {
+      "date": "2025-02-01",
+      "series": "public-activity-same",
+      "value": 47.8
+    },
+    {
+      "date": "2025-02-01",
+      "series": "public-employment-decrease",
+      "value": 13.4
+    },
+    {
+      "date": "2025-02-01",
+      "series": "public-employment-increase",
+      "value": 22.2
+    },
+    {
+      "date": "2025-02-01",
+      "series": "public-employment-same",
+      "value": 64.4
+    },
+    {
+      "date": "2025-03-01",
+      "series": "private-activity-decrease",
+      "value": 11.0
+    },
+    {
+      "date": "2025-03-01",
+      "series": "private-activity-increase",
+      "value": 21.1
+    },
+    {
+      "date": "2025-03-01",
+      "series": "private-activity-same",
+      "value": 67.9
+    },
+    {
+      "date": "2025-03-01",
+      "series": "private-employment-decrease",
+      "value": 11.1
+    },
+    {
+      "date": "2025-03-01",
+      "series": "private-employment-increase",
+      "value": 13.0
+    },
+    {
+      "date": "2025-03-01",
+      "series": "private-employment-same",
+      "value": 75.9
+    },
+    {
+      "date": "2025-03-01",
+      "series": "public-activity-decrease",
+      "value": 16.5
+    },
+    {
+      "date": "2025-03-01",
+      "series": "public-activity-increase",
+      "value": 23.3
+    },
+    {
+      "date": "2025-03-01",
+      "series": "public-activity-same",
+      "value": 60.2
+    },
+    {
+      "date": "2025-03-01",
+      "series": "public-employment-decrease",
+      "value": 11.6
+    },
+    {
+      "date": "2025-03-01",
+      "series": "public-employment-increase",
+      "value": 14.6
+    },
+    {
+      "date": "2025-03-01",
+      "series": "public-employment-same",
+      "value": 73.8
+    },
+    {
+      "date": "2025-04-01",
+      "series": "private-activity-decrease",
+      "value": 12.1
+    },
+    {
+      "date": "2025-04-01",
+      "series": "private-activity-increase",
+      "value": 14.0
+    },
+    {
+      "date": "2025-04-01",
+      "series": "private-activity-same",
+      "value": 73.9
+    },
+    {
+      "date": "2025-04-01",
+      "series": "private-employment-decrease",
+      "value": 12.1
+    },
+    {
+      "date": "2025-04-01",
+      "series": "private-employment-increase",
+      "value": 10.3
+    },
+    {
+      "date": "2025-04-01",
+      "series": "private-employment-same",
+      "value": 77.6
+    },
+    {
+      "date": "2025-04-01",
+      "series": "public-activity-decrease",
+      "value": 20.4
+    },
+    {
+      "date": "2025-04-01",
+      "series": "public-activity-increase",
+      "value": 24.3
+    },
+    {
+      "date": "2025-04-01",
+      "series": "public-activity-same",
+      "value": 55.3
+    },
+    {
+      "date": "2025-04-01",
+      "series": "public-employment-decrease",
+      "value": 16.5
+    },
+    {
+      "date": "2025-04-01",
+      "series": "public-employment-increase",
+      "value": 21.4
+    },
+    {
+      "date": "2025-04-01",
+      "series": "public-employment-same",
+      "value": 62.1
+    },
+    {
+      "date": "2025-05-01",
+      "series": "private-activity-decrease",
+      "value": 17.6
+    },
+    {
+      "date": "2025-05-01",
+      "series": "private-activity-increase",
+      "value": 14.8
+    },
+    {
+      "date": "2025-05-01",
+      "series": "private-activity-same",
+      "value": 67.6
+    },
+    {
+      "date": "2025-05-01",
+      "series": "private-employment-decrease",
+      "value": 18.7
+    },
+    {
+      "date": "2025-05-01",
+      "series": "private-employment-increase",
+      "value": 10.3
+    },
+    {
+      "date": "2025-05-01",
+      "series": "private-employment-same",
+      "value": 71.0
+    },
+    {
+      "date": "2025-05-01",
+      "series": "public-activity-decrease",
+      "value": 20.6
+    },
+    {
+      "date": "2025-05-01",
+      "series": "public-activity-increase",
+      "value": 19.6
+    },
+    {
+      "date": "2025-05-01",
+      "series": "public-activity-same",
+      "value": 59.8
+    },
+    {
+      "date": "2025-05-01",
+      "series": "public-employment-decrease",
+      "value": 16.7
+    },
+    {
+      "date": "2025-05-01",
+      "series": "public-employment-increase",
+      "value": 15.7
+    },
+    {
+      "date": "2025-05-01",
+      "series": "public-employment-same",
+      "value": 67.6
+    },
+    {
+      "date": "2025-06-01",
+      "series": "private-activity-decrease",
+      "value": 18.1
+    },
+    {
+      "date": "2025-06-01",
+      "series": "private-activity-increase",
+      "value": 8.6
+    },
+    {
+      "date": "2025-06-01",
+      "series": "private-activity-same",
+      "value": 73.3
+    },
+    {
+      "date": "2025-06-01",
+      "series": "private-employment-decrease",
+      "value": 18.1
+    },
+    {
+      "date": "2025-06-01",
+      "series": "private-employment-increase",
+      "value": 5.7
+    },
+    {
+      "date": "2025-06-01",
+      "series": "private-employment-same",
+      "value": 76.2
+    },
+    {
+      "date": "2025-06-01",
+      "series": "public-activity-decrease",
+      "value": 15.0
+    },
+    {
+      "date": "2025-06-01",
+      "series": "public-activity-increase",
+      "value": 27.0
+    },
+    {
+      "date": "2025-06-01",
+      "series": "public-activity-same",
+      "value": 58.0
+    },
+    {
+      "date": "2025-06-01",
+      "series": "public-employment-decrease",
+      "value": 8.0
+    },
+    {
+      "date": "2025-06-01",
+      "series": "public-employment-increase",
+      "value": 24.0
+    },
+    {
+      "date": "2025-06-01",
+      "series": "public-employment-same",
+      "value": 68.0
+    },
+    {
+      "date": "2025-07-01",
+      "series": "private-activity-decrease",
+      "value": 20.8
+    },
+    {
+      "date": "2025-07-01",
+      "series": "private-activity-increase",
+      "value": 9.9
+    },
+    {
+      "date": "2025-07-01",
+      "series": "private-activity-same",
+      "value": 69.3
+    },
+    {
+      "date": "2025-07-01",
+      "series": "private-employment-decrease",
+      "value": 16.8
+    },
+    {
+      "date": "2025-07-01",
+      "series": "private-employment-increase",
+      "value": 7.9
+    },
+    {
+      "date": "2025-07-01",
+      "series": "private-employment-same",
+      "value": 75.3
+    },
+    {
+      "date": "2025-07-01",
+      "series": "public-activity-decrease",
+      "value": 18.8
+    },
+    {
+      "date": "2025-07-01",
+      "series": "public-activity-increase",
+      "value": 16.7
+    },
+    {
+      "date": "2025-07-01",
+      "series": "public-activity-same",
+      "value": 64.5
+    },
+    {
+      "date": "2025-07-01",
+      "series": "public-employment-decrease",
+      "value": 16.7
+    },
+    {
+      "date": "2025-07-01",
+      "series": "public-employment-increase",
+      "value": 14.6
+    },
+    {
+      "date": "2025-07-01",
+      "series": "public-employment-same",
+      "value": 68.7
+    },
+    {
+      "date": "2025-08-01",
+      "series": "private-activity-decrease",
+      "value": 21.4
+    },
+    {
+      "date": "2025-08-01",
+      "series": "private-activity-increase",
+      "value": 10.6
+    },
+    {
+      "date": "2025-08-01",
+      "series": "private-activity-same",
+      "value": 68.0
+    },
+    {
+      "date": "2025-08-01",
+      "series": "private-employment-decrease",
+      "value": 18.4
+    },
+    {
+      "date": "2025-08-01",
+      "series": "private-employment-increase",
+      "value": 8.7
+    },
+    {
+      "date": "2025-08-01",
+      "series": "private-employment-same",
+      "value": 72.9
+    },
+    {
+      "date": "2025-08-01",
+      "series": "public-activity-decrease",
+      "value": 22.2
+    },
+    {
+      "date": "2025-08-01",
+      "series": "public-activity-increase",
+      "value": 15.2
+    },
+    {
+      "date": "2025-08-01",
+      "series": "public-activity-same",
+      "value": 62.6
+    },
+    {
+      "date": "2025-08-01",
+      "series": "public-employment-decrease",
+      "value": 18.4
+    },
+    {
+      "date": "2025-08-01",
+      "series": "public-employment-increase",
+      "value": 11.2
+    },
+    {
+      "date": "2025-08-01",
+      "series": "public-employment-same",
+      "value": 70.4
+    },
+    {
+      "date": "2025-09-01",
+      "series": "private-activity-decrease",
+      "value": 27.7
+    },
+    {
+      "date": "2025-09-01",
+      "series": "private-activity-increase",
+      "value": 7.4
+    },
+    {
+      "date": "2025-09-01",
+      "series": "private-activity-same",
+      "value": 64.9
+    },
+    {
+      "date": "2025-09-01",
+      "series": "private-employment-decrease",
+      "value": 24.5
+    },
+    {
+      "date": "2025-09-01",
+      "series": "private-employment-increase",
+      "value": 5.3
+    },
+    {
+      "date": "2025-09-01",
+      "series": "private-employment-same",
+      "value": 70.2
+    },
+    {
+      "date": "2025-09-01",
+      "series": "public-activity-decrease",
+      "value": 28.9
+    },
+    {
+      "date": "2025-09-01",
+      "series": "public-activity-increase",
+      "value": 11.1
+    },
+    {
+      "date": "2025-09-01",
+      "series": "public-activity-same",
+      "value": 60.0
+    },
+    {
+      "date": "2025-09-01",
+      "series": "public-employment-decrease",
+      "value": 21.1
+    },
+    {
+      "date": "2025-09-01",
+      "series": "public-employment-increase",
+      "value": 8.9
+    },
+    {
+      "date": "2025-09-01",
+      "series": "public-employment-same",
+      "value": 70.0
+    },
+    {
+      "date": "2025-10-01",
+      "series": "private-activity-decrease",
+      "value": 23.3
+    },
+    {
+      "date": "2025-10-01",
+      "series": "private-activity-increase",
+      "value": 9.7
+    },
+    {
+      "date": "2025-10-01",
+      "series": "private-activity-same",
+      "value": 67.0
+    },
+    {
+      "date": "2025-10-01",
+      "series": "private-employment-decrease",
+      "value": 21.6
+    },
+    {
+      "date": "2025-10-01",
+      "series": "private-employment-increase",
+      "value": 4.9
+    },
+    {
+      "date": "2025-10-01",
+      "series": "private-employment-same",
+      "value": 73.5
+    },
+    {
+      "date": "2025-10-01",
+      "series": "public-activity-decrease",
+      "value": 22.2
+    },
+    {
+      "date": "2025-10-01",
+      "series": "public-activity-increase",
+      "value": 13.3
+    },
+    {
+      "date": "2025-10-01",
+      "series": "public-activity-same",
+      "value": 64.5
+    },
+    {
+      "date": "2025-10-01",
+      "series": "public-employment-decrease",
+      "value": 20.2
+    },
+    {
+      "date": "2025-10-01",
+      "series": "public-employment-increase",
+      "value": 11.2
+    },
+    {
+      "date": "2025-10-01",
+      "series": "public-employment-same",
+      "value": 68.6
+    },
+    {
+      "date": "2025-11-01",
+      "series": "private-activity-decrease",
+      "value": 21.0
+    },
+    {
+      "date": "2025-11-01",
+      "series": "private-activity-increase",
+      "value": 10.5
+    },
+    {
+      "date": "2025-11-01",
+      "series": "private-activity-same",
+      "value": 68.5
+    },
+    {
+      "date": "2025-11-01",
+      "series": "private-employment-decrease",
+      "value": 22.1
+    },
+    {
+      "date": "2025-11-01",
+      "series": "private-employment-increase",
+      "value": 8.7
+    },
+    {
+      "date": "2025-11-01",
+      "series": "private-employment-same",
+      "value": 69.2
+    },
+    {
+      "date": "2025-11-01",
+      "series": "public-activity-decrease",
+      "value": 24.7
+    },
+    {
+      "date": "2025-11-01",
+      "series": "public-activity-increase",
+      "value": 15.5
+    },
+    {
+      "date": "2025-11-01",
+      "series": "public-activity-same",
+      "value": 59.8
+    },
+    {
+      "date": "2025-11-01",
+      "series": "public-employment-decrease",
+      "value": 24.7
+    },
+    {
+      "date": "2025-11-01",
+      "series": "public-employment-increase",
+      "value": 12.4
+    },
+    {
+      "date": "2025-11-01",
+      "series": "public-employment-same",
+      "value": 62.9
+    },
+    {
+      "date": "2025-12-01",
+      "series": "private-activity-decrease",
+      "value": 18.5
+    },
+    {
+      "date": "2025-12-01",
+      "series": "private-activity-increase",
+      "value": 13.0
+    },
+    {
+      "date": "2025-12-01",
+      "series": "private-activity-same",
+      "value": 68.5
+    },
+    {
+      "date": "2025-12-01",
+      "series": "private-employment-decrease",
+      "value": 20.8
+    },
+    {
+      "date": "2025-12-01",
+      "series": "private-employment-increase",
+      "value": 8.5
+    },
+    {
+      "date": "2025-12-01",
+      "series": "private-employment-same",
+      "value": 70.7
+    },
+    {
+      "date": "2025-12-01",
+      "series": "public-activity-decrease",
+      "value": 24.0
+    },
+    {
+      "date": "2025-12-01",
+      "series": "public-activity-increase",
+      "value": 21.9
+    },
+    {
+      "date": "2025-12-01",
+      "series": "public-activity-same",
+      "value": 54.1
+    },
+    {
+      "date": "2025-12-01",
+      "series": "public-employment-decrease",
+      "value": 24.2
+    },
+    {
+      "date": "2025-12-01",
+      "series": "public-employment-increase",
+      "value": 16.9
+    },
+    {
+      "date": "2025-12-01",
+      "series": "public-employment-same",
+      "value": 58.9
+    },
+    {
+      "date": "2026-01-01",
+      "series": "private-activity-decrease",
+      "value": 13.0
+    },
+    {
+      "date": "2026-01-01",
+      "series": "private-activity-increase",
+      "value": 22.0
+    },
+    {
+      "date": "2026-01-01",
+      "series": "private-activity-same",
+      "value": 65.0
+    },
+    {
+      "date": "2026-01-01",
+      "series": "private-employment-decrease",
+      "value": 18.2
+    },
+    {
+      "date": "2026-01-01",
+      "series": "private-employment-increase",
+      "value": 17.2
+    },
+    {
+      "date": "2026-01-01",
+      "series": "private-employment-same",
+      "value": 64.6
+    },
+    {
+      "date": "2026-01-01",
+      "series": "public-activity-decrease",
+      "value": 21.3
+    },
+    {
+      "date": "2026-01-01",
+      "series": "public-activity-increase",
+      "value": 19.1
+    },
+    {
+      "date": "2026-01-01",
+      "series": "public-activity-same",
+      "value": 59.6
+    },
+    {
+      "date": "2026-01-01",
+      "series": "public-employment-decrease",
+      "value": 26.1
+    },
+    {
+      "date": "2026-01-01",
+      "series": "public-employment-increase",
+      "value": 19.3
+    },
+    {
+      "date": "2026-01-01",
+      "series": "public-employment-same",
+      "value": 54.6
+    },
+    {
+      "date": "2026-02-01",
+      "series": "private-activity-decrease",
+      "value": 15.6
+    },
+    {
+      "date": "2026-02-01",
+      "series": "private-activity-increase",
+      "value": 16.7
+    },
+    {
+      "date": "2026-02-01",
+      "series": "private-activity-same",
+      "value": 67.7
+    },
+    {
+      "date": "2026-02-01",
+      "series": "private-employment-decrease",
+      "value": 18.9
+    },
+    {
+      "date": "2026-02-01",
+      "series": "private-employment-increase",
+      "value": 14.4
+    },
+    {
+      "date": "2026-02-01",
+      "series": "private-employment-same",
+      "value": 66.7
+    },
+    {
+      "date": "2026-02-01",
+      "series": "public-activity-decrease",
+      "value": 17.1
+    },
+    {
+      "date": "2026-02-01",
+      "series": "public-activity-increase",
+      "value": 19.5
+    },
+    {
+      "date": "2026-02-01",
+      "series": "public-activity-same",
+      "value": 63.4
+    },
+    {
+      "date": "2026-02-01",
+      "series": "public-employment-decrease",
+      "value": 18.8
+    },
+    {
+      "date": "2026-02-01",
+      "series": "public-employment-increase",
+      "value": 16.3
+    },
+    {
+      "date": "2026-02-01",
+      "series": "public-employment-same",
+      "value": 64.9
+    },
+    {
+      "date": "2026-03-01",
+      "series": "private-activity-decrease",
+      "value": 12.9
+    },
+    {
+      "date": "2026-03-01",
+      "series": "private-activity-increase",
+      "value": 17.8
+    },
+    {
+      "date": "2026-03-01",
+      "series": "private-activity-same",
+      "value": 69.3
+    },
+    {
+      "date": "2026-03-01",
+      "series": "private-employment-decrease",
+      "value": 16.8
+    },
+    {
+      "date": "2026-03-01",
+      "series": "private-employment-increase",
+      "value": 15.8
+    },
+    {
+      "date": "2026-03-01",
+      "series": "private-employment-same",
+      "value": 67.4
+    },
+    {
+      "date": "2026-03-01",
+      "series": "public-activity-decrease",
+      "value": 16.8
+    },
+    {
+      "date": "2026-03-01",
+      "series": "public-activity-increase",
+      "value": 20.0
+    },
+    {
+      "date": "2026-03-01",
+      "series": "public-activity-same",
+      "value": 63.2
+    },
+    {
+      "date": "2026-03-01",
+      "series": "public-employment-decrease",
+      "value": 18.3
+    },
+    {
+      "date": "2026-03-01",
+      "series": "public-employment-increase",
+      "value": 14.0
+    },
+    {
+      "date": "2026-03-01",
+      "series": "public-employment-same",
+      "value": 67.7
+    },
+    {
+      "date": "2026-04-01",
+      "series": "private-activity-decrease",
+      "value": 14.0
+    },
+    {
+      "date": "2026-04-01",
+      "series": "private-activity-increase",
+      "value": 11.0
+    },
+    {
+      "date": "2026-04-01",
+      "series": "private-activity-same",
+      "value": 75.0
+    },
+    {
+      "date": "2026-04-01",
+      "series": "private-employment-decrease",
+      "value": 18.0
+    },
+    {
+      "date": "2026-04-01",
+      "series": "private-employment-increase",
+      "value": 7.0
+    },
+    {
+      "date": "2026-04-01",
+      "series": "private-employment-same",
+      "value": 75.0
+    },
+    {
+      "date": "2026-04-01",
+      "series": "public-activity-decrease",
+      "value": 21.6
+    },
+    {
+      "date": "2026-04-01",
+      "series": "public-activity-increase",
+      "value": 17.5
+    },
+    {
+      "date": "2026-04-01",
+      "series": "public-activity-same",
+      "value": 60.9
+    },
+    {
+      "date": "2026-04-01",
+      "series": "public-employment-decrease",
+      "value": 24.5
+    },
+    {
+      "date": "2026-04-01",
+      "series": "public-employment-increase",
+      "value": 13.3
+    },
+    {
+      "date": "2026-04-01",
+      "series": "public-employment-same",
+      "value": 62.2
+    },
+    {
+      "date": "2026-05-01",
+      "series": "private-activity-decrease",
+      "value": 15.1
+    },
+    {
+      "date": "2026-05-01",
+      "series": "private-activity-increase",
+      "value": 9.4
+    },
+    {
+      "date": "2026-05-01",
+      "series": "private-activity-same",
+      "value": 75.5
+    },
+    {
+      "date": "2026-05-01",
+      "series": "private-employment-decrease",
+      "value": 19.0
+    },
+    {
+      "date": "2026-05-01",
+      "series": "private-employment-increase",
+      "value": 6.7
+    },
+    {
+      "date": "2026-05-01",
+      "series": "private-employment-same",
+      "value": 74.3
+    },
+    {
+      "date": "2026-05-01",
+      "series": "public-activity-decrease",
+      "value": 25.6
+    },
+    {
+      "date": "2026-05-01",
+      "series": "public-activity-increase",
+      "value": 14.4
+    },
+    {
+      "date": "2026-05-01",
+      "series": "public-activity-same",
+      "value": 60.0
+    },
+    {
+      "date": "2026-05-01",
+      "series": "public-employment-decrease",
+      "value": 28.9
+    },
+    {
+      "date": "2026-05-01",
+      "series": "public-employment-increase",
+      "value": 10.0
+    },
+    {
+      "date": "2026-05-01",
+      "series": "public-employment-same",
+      "value": 61.1
+    },
+    {
+      "date": "2026-06-01",
+      "series": "private-activity-decrease",
+      "value": 18.3
+    },
+    {
+      "date": "2026-06-01",
+      "series": "private-activity-increase",
+      "value": 14.4
+    },
+    {
+      "date": "2026-06-01",
+      "series": "private-activity-same",
+      "value": 67.3
+    },
+    {
+      "date": "2026-06-01",
+      "series": "private-employment-decrease",
+      "value": 19.6
+    },
+    {
+      "date": "2026-06-01",
+      "series": "private-employment-increase",
+      "value": 7.8
+    },
+    {
+      "date": "2026-06-01",
+      "series": "private-employment-same",
+      "value": 72.6
+    },
+    {
+      "date": "2026-06-01",
+      "series": "public-activity-decrease",
+      "value": 23.7
+    },
+    {
+      "date": "2026-06-01",
+      "series": "public-activity-increase",
+      "value": 16.1
+    },
+    {
+      "date": "2026-06-01",
+      "series": "public-activity-same",
+      "value": 60.2
+    },
+    {
+      "date": "2026-06-01",
+      "series": "public-employment-decrease",
+      "value": 26.1
+    },
+    {
+      "date": "2026-06-01",
+      "series": "public-employment-increase",
+      "value": 15.2
+    },
+    {
+      "date": "2026-06-01",
+      "series": "public-employment-same",
+      "value": 58.7
+    },
+    {
+      "date": "2026-07-01",
+      "series": "private-activity-decrease",
+      "value": 16.8
+    },
+    {
+      "date": "2026-07-01",
+      "series": "private-activity-increase",
+      "value": 12.1
+    },
+    {
+      "date": "2026-07-01",
+      "series": "private-activity-same",
+      "value": 71.1
+    },
+    {
+      "date": "2026-07-01",
+      "series": "private-employment-decrease",
+      "value": 16.0
+    },
+    {
+      "date": "2026-07-01",
+      "series": "private-employment-increase",
+      "value": 8.5
+    },
+    {
+      "date": "2026-07-01",
+      "series": "private-employment-same",
+      "value": 75.5
+    },
+    {
+      "date": "2026-07-01",
+      "series": "public-activity-decrease",
+      "value": 29.2
+    },
+    {
+      "date": "2026-07-01",
+      "series": "public-activity-increase",
+      "value": 18.0
+    },
+    {
+      "date": "2026-07-01",
+      "series": "public-activity-same",
+      "value": 52.8
+    },
+    {
+      "date": "2026-07-01",
+      "series": "public-employment-decrease",
+      "value": 28.4
+    },
+    {
+      "date": "2026-07-01",
+      "series": "public-employment-increase",
+      "value": 15.9
+    },
+    {
+      "date": "2026-07-01",
+      "series": "public-employment-same",
+      "value": 55.7
+    },
+    {
+      "date": "2026-08-01",
+      "series": "private-activity-decrease",
+      "value": 14.4
+    },
+    {
+      "date": "2026-08-01",
+      "series": "private-activity-increase",
+      "value": 10.6
+    },
+    {
+      "date": "2026-08-01",
+      "series": "private-activity-same",
+      "value": 75.0
+    },
+    {
+      "date": "2026-08-01",
+      "series": "private-employment-decrease",
+      "value": 14.4
+    },
+    {
+      "date": "2026-08-01",
+      "series": "private-employment-increase",
+      "value": 8.7
+    },
+    {
+      "date": "2026-08-01",
+      "series": "private-employment-same",
+      "value": 76.9
+    },
+    {
+      "date": "2026-08-01",
+      "series": "public-activity-decrease",
+      "value": 25.8
+    },
+    {
+      "date": "2026-08-01",
+      "series": "public-activity-increase",
+      "value": 16.9
+    },
+    {
+      "date": "2026-08-01",
+      "series": "public-activity-same",
+      "value": 57.3
+    },
+    {
+      "date": "2026-08-01",
+      "series": "public-employment-decrease",
+      "value": 24.1
+    },
+    {
+      "date": "2026-08-01",
+      "series": "public-employment-increase",
+      "value": 10.3
+    },
+    {
+      "date": "2026-08-01",
+      "series": "public-employment-same",
+      "value": 65.6
+    }
+  ],
+  "valueKind": "percentage",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-08-01",
+  "firstObservedPeriod": "2016-08-01",
+  "lastObservedBySeries": {
+    "private-activity-increase": "2026-08-01",
+    "private-activity-same": "2026-08-01",
+    "private-activity-decrease": "2026-08-01",
+    "public-activity-increase": "2026-08-01",
+    "public-activity-same": "2026-08-01",
+    "public-activity-decrease": "2026-08-01",
+    "private-employment-increase": "2026-08-01",
+    "private-employment-same": "2026-08-01",
+    "private-employment-decrease": "2026-08-01",
+    "public-employment-increase": "2026-08-01",
+    "public-employment-same": "2026-08-01",
+    "public-employment-decrease": "2026-08-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:46:22Z",
+  "lastAttemptAt": "2026-11-13T12:46:22Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "a7d70399ed30f2d2751f0bd5be3450549064ccd663b5a4c861f4795c26f34bfb",
+  "rawSha256": "35d240252819f8dbe217c87ea73cfb80e3d085451b324f273e9f404c17c58cd0",
+  "dataChangedAt": "2026-11-12T03:45:29Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

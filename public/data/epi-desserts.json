@@ -1,0 +1,125 @@
+{
+  "id": "epi-desserts",
+  "source": "INDEC · Estadísticas de Productos Industriales (EPI)",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls",
+  "frequency": "monthly",
+  "unit": "toneladas",
+  "series": [
+    {
+      "id": "production",
+      "label": "Postres lácteos y flanes",
+      "column": 3
+    }
+  ],
+  "methodNote": "Niveles mensuales publicados en EPI; datos preliminares según asteriscos del cuadro. Los símbolos de ausencia se conservan como null. No se mezclan totales anuales con meses.",
+  "observations": [
+    {
+      "date": "2025-01-01",
+      "series": "production",
+      "value": 935.3513041483822
+    },
+    {
+      "date": "2025-02-01",
+      "series": "production",
+      "value": 1010.6652291395994
+    },
+    {
+      "date": "2025-03-01",
+      "series": "production",
+      "value": 1044.0
+    },
+    {
+      "date": "2025-04-01",
+      "series": "production",
+      "value": 1166.6664240000011
+    },
+    {
+      "date": "2025-05-01",
+      "series": "production",
+      "value": 1008.4640700000006
+    },
+    {
+      "date": "2025-06-01",
+      "series": "production",
+      "value": 853.4157139999998
+    },
+    {
+      "date": "2025-07-01",
+      "series": "production",
+      "value": 1329.3970800000002
+    },
+    {
+      "date": "2025-08-01",
+      "series": "production",
+      "value": 1358.0
+    },
+    {
+      "date": "2025-09-01",
+      "series": "production",
+      "value": 1348.0
+    },
+    {
+      "date": "2025-10-01",
+      "series": "production",
+      "value": 1451.38424
+    },
+    {
+      "date": "2025-11-01",
+      "series": "production",
+      "value": 1112.4497360000014
+    },
+    {
+      "date": "2025-12-01",
+      "series": "production",
+      "value": 95.0
+    },
+    {
+      "date": "2026-01-01",
+      "series": "production",
+      "value": 1574.31909
+    },
+    {
+      "date": "2026-02-01",
+      "series": "production",
+      "value": 1167.07109
+    },
+    {
+      "date": "2026-03-01",
+      "series": "production",
+      "value": 1215.0
+    },
+    {
+      "date": "2026-04-01",
+      "series": "production",
+      "value": 1219.17739
+    },
+    {
+      "date": "2026-05-01",
+      "series": "production",
+      "value": 1166.942534311879
+    },
+    {
+      "date": "2026-06-01",
+      "series": "production",
+      "value": 1416.4088588230372
+    }
+  ],
+  "valueKind": "level",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-06-01",
+  "firstObservedPeriod": "2025-01-01",
+  "lastObservedBySeries": {
+    "production": "2026-06-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:47:48Z",
+  "lastAttemptAt": "2026-11-13T12:47:48Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "37528dcf0dc5582abc6fd202cae1ab769cd6efb508751f5c11a41623e39ac0c4",
+  "rawSha256": "ac6a6584754c1e770f42c790f32c6a295e4aaa6ef73753facba35e799bb154fb",
+  "dataChangedAt": "2026-11-13T12:47:48Z",
+  "revisedObservations": 0,
+  "newObservations": 18,
+  "changedSinceLastFetch": true
+}

@@ -1,0 +1,205 @@
+{
+  "id": "labor-ipc-ytd",
+  "source": "INDEC · IPC nacional",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv",
+  "frequency": "monthly",
+  "unit": "% acumulado desde diciembre del año anterior",
+  "series": [
+    {
+      "id": "ipc",
+      "label": "Nivel general"
+    }
+  ],
+  "methodNote": "Acumulado del IPC nacional calculado con los niveles exactos: 100 × [IPC del mes / IPC de diciembre previo − 1]. No se suman tasas mensuales ni se compara un año parcial con uno completo.",
+  "observations": [
+    {
+      "date": "2024-01-01",
+      "series": "ipc",
+      "value": 20.614225288961062
+    },
+    {
+      "date": "2024-02-01",
+      "series": "ipc",
+      "value": 36.58436413394097
+    },
+    {
+      "date": "2024-03-01",
+      "series": "ipc",
+      "value": 51.621893085804935
+    },
+    {
+      "date": "2024-04-01",
+      "series": "ipc",
+      "value": 65.01301570857085
+    },
+    {
+      "date": "2024-05-01",
+      "series": "ipc",
+      "value": 71.90451739364758
+    },
+    {
+      "date": "2024-06-01",
+      "series": "ipc",
+      "value": 79.77269960009534
+    },
+    {
+      "date": "2024-07-01",
+      "series": "ipc",
+      "value": 87.01920603130506
+    },
+    {
+      "date": "2024-08-01",
+      "series": "ipc",
+      "value": 94.82214978285074
+    },
+    {
+      "date": "2024-09-01",
+      "series": "ipc",
+      "value": 101.58093861975584
+    },
+    {
+      "date": "2024-10-01",
+      "series": "ipc",
+      "value": 107.00696667449905
+    },
+    {
+      "date": "2024-11-01",
+      "series": "ipc",
+      "value": 112.03010127781896
+    },
+    {
+      "date": "2024-12-01",
+      "series": "ipc",
+      "value": 117.76362746413854
+    },
+    {
+      "date": "2025-01-01",
+      "series": "ipc",
+      "value": 2.2110480136651844
+    },
+    {
+      "date": "2025-02-01",
+      "series": "ipc",
+      "value": 4.665776580020231
+    },
+    {
+      "date": "2025-03-01",
+      "series": "ipc",
+      "value": 8.569114339958727
+    },
+    {
+      "date": "2025-04-01",
+      "series": "ipc",
+      "value": 11.588243187961545
+    },
+    {
+      "date": "2025-05-01",
+      "series": "ipc",
+      "value": 13.263303941411554
+    },
+    {
+      "date": "2025-06-01",
+      "series": "ipc",
+      "value": 15.096951751086806
+    },
+    {
+      "date": "2025-07-01",
+      "series": "ipc",
+      "value": 17.285731785418722
+    },
+    {
+      "date": "2025-08-01",
+      "series": "ipc",
+      "value": 19.48576993198927
+    },
+    {
+      "date": "2025-09-01",
+      "series": "ipc",
+      "value": 21.96624710854518
+    },
+    {
+      "date": "2025-10-01",
+      "series": "ipc",
+      "value": 24.82262721995008
+    },
+    {
+      "date": "2025-11-01",
+      "series": "ipc",
+      "value": 27.909390522429312
+    },
+    {
+      "date": "2025-12-01",
+      "series": "ipc",
+      "value": 31.548760512645725
+    },
+    {
+      "date": "2026-01-01",
+      "series": "ipc",
+      "value": 2.881619353661713
+    },
+    {
+      "date": "2026-02-01",
+      "series": "ipc",
+      "value": 5.861399317276339
+    },
+    {
+      "date": "2026-03-01",
+      "series": "ipc",
+      "value": 9.442290503811668
+    },
+    {
+      "date": "2026-04-01",
+      "series": "ipc",
+      "value": 12.268286960912356
+    },
+    {
+      "date": "2026-05-01",
+      "series": "ipc",
+      "value": 14.682024071540113
+    },
+    {
+      "date": "2026-06-01",
+      "series": "ipc",
+      "value": 16.845926463622064
+    },
+    {
+      "date": "2026-07-01",
+      "series": "ipc",
+      "value": 19.315783439032952
+    },
+    {
+      "date": "2026-08-01",
+      "series": "ipc",
+      "value": 21.295478582126947
+    },
+    {
+      "date": "2026-09-01",
+      "series": "ipc",
+      "value": 23.64086033202122
+    },
+    {
+      "date": "2026-10-01",
+      "series": "ipc",
+      "value": 26.326082389130768
+    }
+  ],
+  "valueKind": "rate",
+  "supportingSources": [],
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-10-01",
+  "firstObservedPeriod": "2024-01-01",
+  "lastObservedBySeries": {
+    "ipc": "2026-10-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:47:48Z",
+  "lastAttemptAt": "2026-11-13T12:47:48Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "5fe2edaf5d4730699d0148d88d0c9dd714aae932c0d22a9bbe084963dc2923d4",
+  "rawSha256": "f4545d362bdd97c706d2e7c6fd9a62ddc9cc95de44a26e8b12221bb1acfe7cd9",
+  "dataChangedAt": "2026-11-13T12:47:48Z",
+  "revisedObservations": 0,
+  "newObservations": 12,
+  "changedSinceLastFetch": true
+}

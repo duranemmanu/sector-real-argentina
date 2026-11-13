@@ -1,0 +1,231 @@
+{
+  "id": "epi-wine",
+  "source": "INDEC · Estadísticas de Productos Industriales (EPI)",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls",
+  "frequency": "monthly",
+  "unit": "miles de hectolitros",
+  "series": [
+    {
+      "column": 1,
+      "id": "domestic",
+      "label": "Despachos de vino al mercado interno"
+    },
+    {
+      "column": 2,
+      "id": "exports",
+      "label": "Despachos de vino al mercado externo"
+    }
+  ],
+  "methodNote": "Niveles mensuales publicados en EPI; datos preliminares según asteriscos del cuadro. Los símbolos de ausencia se conservan como null. No se mezclan totales anuales con meses.",
+  "observations": [
+    {
+      "date": "2025-01-01",
+      "series": "domestic",
+      "value": 551.0164499999993
+    },
+    {
+      "date": "2025-01-01",
+      "series": "exports",
+      "value": 120.312
+    },
+    {
+      "date": "2025-02-01",
+      "series": "domestic",
+      "value": 532.8286199999999
+    },
+    {
+      "date": "2025-02-01",
+      "series": "exports",
+      "value": 142.703
+    },
+    {
+      "date": "2025-03-01",
+      "series": "domestic",
+      "value": 555.4079399999998
+    },
+    {
+      "date": "2025-03-01",
+      "series": "exports",
+      "value": 147.897
+    },
+    {
+      "date": "2025-04-01",
+      "series": "domestic",
+      "value": 584.7562099999999
+    },
+    {
+      "date": "2025-04-01",
+      "series": "exports",
+      "value": 168.073
+    },
+    {
+      "date": "2025-05-01",
+      "series": "domestic",
+      "value": 601.2964099999998
+    },
+    {
+      "date": "2025-05-01",
+      "series": "exports",
+      "value": 164.427
+    },
+    {
+      "date": "2025-06-01",
+      "series": "domestic",
+      "value": 578.4296700000002
+    },
+    {
+      "date": "2025-06-01",
+      "series": "exports",
+      "value": 154.923
+    },
+    {
+      "date": "2025-07-01",
+      "series": "domestic",
+      "value": 658.53724
+    },
+    {
+      "date": "2025-07-01",
+      "series": "exports",
+      "value": 181.721
+    },
+    {
+      "date": "2025-08-01",
+      "series": "domestic",
+      "value": 678.26538
+    },
+    {
+      "date": "2025-08-01",
+      "series": "exports",
+      "value": 168.948
+    },
+    {
+      "date": "2025-09-01",
+      "series": "domestic",
+      "value": 739.2321499999999
+    },
+    {
+      "date": "2025-09-01",
+      "series": "exports",
+      "value": 185.854
+    },
+    {
+      "date": "2025-10-01",
+      "series": "domestic",
+      "value": 692.3699500000001
+    },
+    {
+      "date": "2025-10-01",
+      "series": "exports",
+      "value": 170.72
+    },
+    {
+      "date": "2025-11-01",
+      "series": "domestic",
+      "value": 628.66073
+    },
+    {
+      "date": "2025-11-01",
+      "series": "exports",
+      "value": 158.105
+    },
+    {
+      "date": "2025-12-01",
+      "series": "domestic",
+      "value": 644.1036700000001
+    },
+    {
+      "date": "2025-12-01",
+      "series": "exports",
+      "value": 163.639
+    },
+    {
+      "date": "2026-01-01",
+      "series": "domestic",
+      "value": 555.8827600000001
+    },
+    {
+      "date": "2026-01-01",
+      "series": "exports",
+      "value": 140.281
+    },
+    {
+      "date": "2026-02-01",
+      "series": "domestic",
+      "value": 504.91790000000003
+    },
+    {
+      "date": "2026-02-01",
+      "series": "exports",
+      "value": 152.484
+    },
+    {
+      "date": "2026-03-01",
+      "series": "domestic",
+      "value": 603.3909699999998
+    },
+    {
+      "date": "2026-03-01",
+      "series": "exports",
+      "value": 179.289
+    },
+    {
+      "date": "2026-04-01",
+      "series": "domestic",
+      "value": 581.6357800000001
+    },
+    {
+      "date": "2026-04-01",
+      "series": "exports",
+      "value": 203.188
+    },
+    {
+      "date": "2026-05-01",
+      "series": "domestic",
+      "value": 568.8525099999999
+    },
+    {
+      "date": "2026-05-01",
+      "series": "exports",
+      "value": 177.755
+    },
+    {
+      "date": "2026-06-01",
+      "series": "domestic",
+      "value": 612.6864599999998
+    },
+    {
+      "date": "2026-06-01",
+      "series": "exports",
+      "value": 171.204
+    },
+    {
+      "date": "2026-07-01",
+      "series": "domestic",
+      "value": 649.6736400000001
+    },
+    {
+      "date": "2026-07-01",
+      "series": "exports",
+      "value": 129.646
+    }
+  ],
+  "valueKind": "level",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-07-01",
+  "firstObservedPeriod": "2025-01-01",
+  "lastObservedBySeries": {
+    "domestic": "2026-07-01",
+    "exports": "2026-07-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:46:21Z",
+  "lastAttemptAt": "2026-11-13T12:46:21Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "8b3adce8aad659cfbc245e11931573677224d0a82d4ceebdff459c2e230ef9cf",
+  "rawSha256": "ac6a6584754c1e770f42c790f32c6a295e4aaa6ef73753facba35e799bb154fb",
+  "dataChangedAt": "2026-11-12T03:32:54Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

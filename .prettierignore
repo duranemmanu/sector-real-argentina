@@ -1,0 +1,8 @@
+node_modules
+dist
+.npm-cache
+.venv
+output
+.playwright-cli
+data/cache
+public/data

@@ -1,0 +1,611 @@
+{
+  "id": "credit-default-probability",
+  "source": "BCRA · Informe sobre Bancos",
+  "sourceUrl": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-bancos-serie-2026-08.xlsx",
+  "frequency": "monthly",
+  "unit": "% del saldo regular tres meses antes",
+  "series": [
+    {
+      "id": "total",
+      "label": "Total privado",
+      "column": 3,
+      "headerToken": "Total"
+    },
+    {
+      "id": "households",
+      "label": "Familias",
+      "column": 2,
+      "headerToken": "Familias"
+    },
+    {
+      "id": "companies",
+      "label": "Empresas",
+      "column": 1,
+      "headerToken": "Empresas"
+    }
+  ],
+  "methodNote": "Hoja 11: probabilidad de default estimada (PDE), saldo que estaba regular tres meses antes y pasó a irregular. Mide transición; no es el porcentaje del stock que ya se encuentra en mora.",
+  "observations": [
+    {
+      "date": "2023-08-01",
+      "series": "companies",
+      "value": 0.3120815569049151
+    },
+    {
+      "date": "2023-08-01",
+      "series": "households",
+      "value": 1.2837124985469706
+    },
+    {
+      "date": "2023-08-01",
+      "series": "total",
+      "value": 0.752808877992315
+    },
+    {
+      "date": "2023-09-01",
+      "series": "companies",
+      "value": 0.30878993999213333
+    },
+    {
+      "date": "2023-09-01",
+      "series": "households",
+      "value": 1.2124804917812997
+    },
+    {
+      "date": "2023-09-01",
+      "series": "total",
+      "value": 0.7087469224024017
+    },
+    {
+      "date": "2023-10-01",
+      "series": "companies",
+      "value": 0.2917270144527278
+    },
+    {
+      "date": "2023-10-01",
+      "series": "households",
+      "value": 1.179081862734688
+    },
+    {
+      "date": "2023-10-01",
+      "series": "total",
+      "value": 0.6842415078126535
+    },
+    {
+      "date": "2023-11-01",
+      "series": "companies",
+      "value": 0.21636022794278156
+    },
+    {
+      "date": "2023-11-01",
+      "series": "households",
+      "value": 1.0906625889035644
+    },
+    {
+      "date": "2023-11-01",
+      "series": "total",
+      "value": 0.6001249106688114
+    },
+    {
+      "date": "2023-12-01",
+      "series": "companies",
+      "value": 0.24175666171678192
+    },
+    {
+      "date": "2023-12-01",
+      "series": "households",
+      "value": 1.1730750244815193
+    },
+    {
+      "date": "2023-12-01",
+      "series": "total",
+      "value": 0.6471623405267357
+    },
+    {
+      "date": "2024-01-01",
+      "series": "companies",
+      "value": 0.2033669255705578
+    },
+    {
+      "date": "2024-01-01",
+      "series": "households",
+      "value": 1.1218036301168486
+    },
+    {
+      "date": "2024-01-01",
+      "series": "total",
+      "value": 0.6131124410940986
+    },
+    {
+      "date": "2024-02-01",
+      "series": "companies",
+      "value": 0.19010704660144173
+    },
+    {
+      "date": "2024-02-01",
+      "series": "households",
+      "value": 1.1106343797704228
+    },
+    {
+      "date": "2024-02-01",
+      "series": "total",
+      "value": 0.61448449535048
+    },
+    {
+      "date": "2024-03-01",
+      "series": "companies",
+      "value": 0.22997703997288285
+    },
+    {
+      "date": "2024-03-01",
+      "series": "households",
+      "value": 1.1522387073193197
+    },
+    {
+      "date": "2024-03-01",
+      "series": "total",
+      "value": 0.6346196409950278
+    },
+    {
+      "date": "2024-04-01",
+      "series": "companies",
+      "value": 0.2859773927422279
+    },
+    {
+      "date": "2024-04-01",
+      "series": "households",
+      "value": 1.204842056068343
+    },
+    {
+      "date": "2024-04-01",
+      "series": "total",
+      "value": 0.7017657968324937
+    },
+    {
+      "date": "2024-05-01",
+      "series": "companies",
+      "value": 0.27769127465525245
+    },
+    {
+      "date": "2024-05-01",
+      "series": "households",
+      "value": 1.5019674423992446
+    },
+    {
+      "date": "2024-05-01",
+      "series": "total",
+      "value": 0.8266536707874561
+    },
+    {
+      "date": "2024-06-01",
+      "series": "companies",
+      "value": 0.20821166536729202
+    },
+    {
+      "date": "2024-06-01",
+      "series": "households",
+      "value": 1.5785118063415537
+    },
+    {
+      "date": "2024-06-01",
+      "series": "total",
+      "value": 0.8083985599550718
+    },
+    {
+      "date": "2024-07-01",
+      "series": "companies",
+      "value": 0.17311830889843666
+    },
+    {
+      "date": "2024-07-01",
+      "series": "households",
+      "value": 1.5354712912965776
+    },
+    {
+      "date": "2024-07-01",
+      "series": "total",
+      "value": 0.785672216239829
+    },
+    {
+      "date": "2024-08-01",
+      "series": "companies",
+      "value": 0.15009844947706535
+    },
+    {
+      "date": "2024-08-01",
+      "series": "households",
+      "value": 1.4128469183549652
+    },
+    {
+      "date": "2024-08-01",
+      "series": "total",
+      "value": 0.7147417327518587
+    },
+    {
+      "date": "2024-09-01",
+      "series": "companies",
+      "value": 0.13352156561381506
+    },
+    {
+      "date": "2024-09-01",
+      "series": "households",
+      "value": 1.4195523785302044
+    },
+    {
+      "date": "2024-09-01",
+      "series": "total",
+      "value": 0.6930272351203992
+    },
+    {
+      "date": "2024-10-01",
+      "series": "companies",
+      "value": 0.1368847374830319
+    },
+    {
+      "date": "2024-10-01",
+      "series": "households",
+      "value": 1.2344312367896935
+    },
+    {
+      "date": "2024-10-01",
+      "series": "total",
+      "value": 0.6194293433994967
+    },
+    {
+      "date": "2024-11-01",
+      "series": "companies",
+      "value": 0.15015062936996107
+    },
+    {
+      "date": "2024-11-01",
+      "series": "households",
+      "value": 1.2682556772115792
+    },
+    {
+      "date": "2024-11-01",
+      "series": "total",
+      "value": 0.6385736423993795
+    },
+    {
+      "date": "2024-12-01",
+      "series": "companies",
+      "value": 0.282194606561832
+    },
+    {
+      "date": "2024-12-01",
+      "series": "households",
+      "value": 1.3641606386021607
+    },
+    {
+      "date": "2024-12-01",
+      "series": "total",
+      "value": 0.759412928310157
+    },
+    {
+      "date": "2025-01-01",
+      "series": "companies",
+      "value": 0.300894657485447
+    },
+    {
+      "date": "2025-01-01",
+      "series": "households",
+      "value": 1.4860215929627825
+    },
+    {
+      "date": "2025-01-01",
+      "series": "total",
+      "value": 0.8321896052067583
+    },
+    {
+      "date": "2025-02-01",
+      "series": "companies",
+      "value": 0.3947872210186074
+    },
+    {
+      "date": "2025-02-01",
+      "series": "households",
+      "value": 1.7127284828802727
+    },
+    {
+      "date": "2025-02-01",
+      "series": "total",
+      "value": 0.9885720397127657
+    },
+    {
+      "date": "2025-03-01",
+      "series": "companies",
+      "value": 0.2848080725445295
+    },
+    {
+      "date": "2025-03-01",
+      "series": "households",
+      "value": 1.8482742709926854
+    },
+    {
+      "date": "2025-03-01",
+      "series": "total",
+      "value": 0.9815006246144339
+    },
+    {
+      "date": "2025-04-01",
+      "series": "companies",
+      "value": 0.30538152329397567
+    },
+    {
+      "date": "2025-04-01",
+      "series": "households",
+      "value": 2.1578119952899026
+    },
+    {
+      "date": "2025-04-01",
+      "series": "total",
+      "value": 1.1455376083990303
+    },
+    {
+      "date": "2025-05-01",
+      "series": "companies",
+      "value": 0.3365406372542106
+    },
+    {
+      "date": "2025-05-01",
+      "series": "households",
+      "value": 2.743151042340278
+    },
+    {
+      "date": "2025-05-01",
+      "series": "total",
+      "value": 1.42651525495323
+    },
+    {
+      "date": "2025-06-01",
+      "series": "companies",
+      "value": 0.43641756665039366
+    },
+    {
+      "date": "2025-06-01",
+      "series": "households",
+      "value": 3.1075062026079094
+    },
+    {
+      "date": "2025-06-01",
+      "series": "total",
+      "value": 1.647409642549675
+    },
+    {
+      "date": "2025-07-01",
+      "series": "companies",
+      "value": 0.47913570213781664
+    },
+    {
+      "date": "2025-07-01",
+      "series": "households",
+      "value": 3.239764770985318
+    },
+    {
+      "date": "2025-07-01",
+      "series": "total",
+      "value": 1.7327703892780082
+    },
+    {
+      "date": "2025-08-01",
+      "series": "companies",
+      "value": 0.5481777187026595
+    },
+    {
+      "date": "2025-08-01",
+      "series": "households",
+      "value": 3.4806456066556066
+    },
+    {
+      "date": "2025-08-01",
+      "series": "total",
+      "value": 1.8725112290925088
+    },
+    {
+      "date": "2025-09-01",
+      "series": "companies",
+      "value": 0.6797730976813978
+    },
+    {
+      "date": "2025-09-01",
+      "series": "households",
+      "value": 3.916168706760159
+    },
+    {
+      "date": "2025-09-01",
+      "series": "total",
+      "value": 2.117478048361341
+    },
+    {
+      "date": "2025-10-01",
+      "series": "companies",
+      "value": 0.8237607226008428
+    },
+    {
+      "date": "2025-10-01",
+      "series": "households",
+      "value": 3.989603227609174
+    },
+    {
+      "date": "2025-10-01",
+      "series": "total",
+      "value": 2.2166379030850902
+    },
+    {
+      "date": "2025-11-01",
+      "series": "companies",
+      "value": 1.0290096519378156
+    },
+    {
+      "date": "2025-11-01",
+      "series": "households",
+      "value": 4.469165493392854
+    },
+    {
+      "date": "2025-11-01",
+      "series": "total",
+      "value": 2.541958223268804
+    },
+    {
+      "date": "2025-12-01",
+      "series": "companies",
+      "value": 1.19777446350601
+    },
+    {
+      "date": "2025-12-01",
+      "series": "households",
+      "value": 4.437466893436936
+    },
+    {
+      "date": "2025-12-01",
+      "series": "total",
+      "value": 2.6188566184357174
+    },
+    {
+      "date": "2026-01-01",
+      "series": "companies",
+      "value": 1.2773689374099995
+    },
+    {
+      "date": "2026-01-01",
+      "series": "households",
+      "value": 5.12532658895664
+    },
+    {
+      "date": "2026-01-01",
+      "series": "total",
+      "value": 2.965559629381769
+    },
+    {
+      "date": "2026-02-01",
+      "series": "companies",
+      "value": 1.2150318069368773
+    },
+    {
+      "date": "2026-02-01",
+      "series": "households",
+      "value": 4.849059203585686
+    },
+    {
+      "date": "2026-02-01",
+      "series": "total",
+      "value": 2.8066524530879047
+    },
+    {
+      "date": "2026-03-01",
+      "series": "companies",
+      "value": 1.204207525177926
+    },
+    {
+      "date": "2026-03-01",
+      "series": "households",
+      "value": 4.612599804352523
+    },
+    {
+      "date": "2026-03-01",
+      "series": "total",
+      "value": 2.691054229834273
+    },
+    {
+      "date": "2026-04-01",
+      "series": "companies",
+      "value": 1.1565353663253408
+    },
+    {
+      "date": "2026-04-01",
+      "series": "households",
+      "value": 4.392346371870582
+    },
+    {
+      "date": "2026-04-01",
+      "series": "total",
+      "value": 2.565970265576136
+    },
+    {
+      "date": "2026-05-01",
+      "series": "companies",
+      "value": 1.262917092949239
+    },
+    {
+      "date": "2026-05-01",
+      "series": "households",
+      "value": 4.642546549355251
+    },
+    {
+      "date": "2026-05-01",
+      "series": "total",
+      "value": 2.7442050164708456
+    },
+    {
+      "date": "2026-06-01",
+      "series": "companies",
+      "value": 1.1677355218783547
+    },
+    {
+      "date": "2026-06-01",
+      "series": "households",
+      "value": 4.429686790594888
+    },
+    {
+      "date": "2026-06-01",
+      "series": "total",
+      "value": 2.5956817063636004
+    },
+    {
+      "date": "2026-07-01",
+      "series": "companies",
+      "value": 1.1378713199668842
+    },
+    {
+      "date": "2026-07-01",
+      "series": "households",
+      "value": 3.945435359793909
+    },
+    {
+      "date": "2026-07-01",
+      "series": "total",
+      "value": 2.3575552976348138
+    },
+    {
+      "date": "2026-08-01",
+      "series": "companies",
+      "value": 1.1757527822295275
+    },
+    {
+      "date": "2026-08-01",
+      "series": "households",
+      "value": 3.706725358713249
+    },
+    {
+      "date": "2026-08-01",
+      "series": "total",
+      "value": 2.2592677208766987
+    }
+  ],
+  "valueKind": "percentage",
+  "supportingSources": [
+    {
+      "label": "Publicación BCRA",
+      "url": "https://www.bcra.gob.ar/publicaciones/informe-sobre-bancos-agosto-de-2026/"
+    }
+  ],
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-08-01",
+  "firstObservedPeriod": "2023-08-01",
+  "lastObservedBySeries": {
+    "total": "2026-08-01",
+    "households": "2026-08-01",
+    "companies": "2026-08-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:47:39Z",
+  "lastAttemptAt": "2026-11-13T12:47:39Z",
+  "sourcePublishedAt": "2026-10-16",
+  "isAutoUpdated": true,
+  "contentHash": "984d7587359ab61637ffe214a55f97dfc1e565e79d9baa68e905faac9ea1f4b2",
+  "rawSha256": "35c7319153efae0aefe9e7d5aad04e50771bd901f1faf94c01f95ece433d1adb",
+  "dataChangedAt": "2026-11-13T03:19:34Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

@@ -1,0 +1,139 @@
+{
+  "id": "salta-exports-semester",
+  "source": "INDEC · Origen provincial de las exportaciones (OPEX)",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/opex_anexo_cuadros_02_09_26.xls",
+  "frequency": "semiannual",
+  "unit": "millones de USD corrientes FOB",
+  "series": [
+    {
+      "id": "salta",
+      "label": "Salta · primer semestre"
+    }
+  ],
+  "methodNote": "Primer semestre de cada año, comparado sólo con primeros semestres. Los segundos semestres no se imputan. No representa el año completo.",
+  "observations": [
+    {
+      "date": "2016-01-01",
+      "series": "salta",
+      "value": 404.72230328
+    },
+    {
+      "date": "2016-07-01",
+      "series": "salta",
+      "value": null
+    },
+    {
+      "date": "2017-01-01",
+      "series": "salta",
+      "value": 329.2988743
+    },
+    {
+      "date": "2017-07-01",
+      "series": "salta",
+      "value": null
+    },
+    {
+      "date": "2018-01-01",
+      "series": "salta",
+      "value": 380.52552744
+    },
+    {
+      "date": "2018-07-01",
+      "series": "salta",
+      "value": null
+    },
+    {
+      "date": "2019-01-01",
+      "series": "salta",
+      "value": 371.53776951
+    },
+    {
+      "date": "2019-07-01",
+      "series": "salta",
+      "value": null
+    },
+    {
+      "date": "2020-01-01",
+      "series": "salta",
+      "value": 374.89525273
+    },
+    {
+      "date": "2020-07-01",
+      "series": "salta",
+      "value": null
+    },
+    {
+      "date": "2021-01-01",
+      "series": "salta",
+      "value": 430.51014673
+    },
+    {
+      "date": "2021-07-01",
+      "series": "salta",
+      "value": null
+    },
+    {
+      "date": "2022-01-01",
+      "series": "salta",
+      "value": 595.79277607
+    },
+    {
+      "date": "2022-07-01",
+      "series": "salta",
+      "value": null
+    },
+    {
+      "date": "2023-01-01",
+      "series": "salta",
+      "value": 472.38756903
+    },
+    {
+      "date": "2023-07-01",
+      "series": "salta",
+      "value": null
+    },
+    {
+      "date": "2024-01-01",
+      "series": "salta",
+      "value": 466.03475428
+    },
+    {
+      "date": "2024-07-01",
+      "series": "salta",
+      "value": null
+    },
+    {
+      "date": "2025-01-01",
+      "series": "salta",
+      "value": 517.53913897
+    },
+    {
+      "date": "2025-07-01",
+      "series": "salta",
+      "value": null
+    },
+    {
+      "date": "2026-01-01",
+      "series": "salta",
+      "value": 958.70503945
+    }
+  ],
+  "valueKind": "level",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-01-01",
+  "firstObservedPeriod": "2016-01-01",
+  "lastObservedBySeries": {
+    "salta": "2026-01-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:46:26Z",
+  "lastAttemptAt": "2026-11-13T12:46:26Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "97689f9dcd42576a07b69ce9216bbc23c9e9e42f5729c4eb5096e639c751c0a7",
+  "rawSha256": "ba50fad72014b9a6a2fbb50d45d2043f0b1abc8179a4bf47cf2c9d6a84651c64",
+  "dataChangedAt": "2026-11-12T04:24:57Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

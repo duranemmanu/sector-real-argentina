@@ -1,0 +1,304 @@
+{
+  "id": "credit-provinces-debtors",
+  "source": "EcoGo · Universidad Austral",
+  "sourceUrl": "https://www.austral.edu.ar/wp-content/uploads/2026/10/Dossier_ECOGO_Austral_credito_familias_OCTUBRE_2026-005.pdf",
+  "frequency": "monthly",
+  "unit": "% de los deudores observados",
+  "series": [
+    {
+      "id": "province-1",
+      "label": "La Rioja",
+      "externalField": "province-1"
+    },
+    {
+      "id": "province-2",
+      "label": "Santa Cruz",
+      "externalField": "province-2"
+    },
+    {
+      "id": "province-3",
+      "label": "San Luis",
+      "externalField": "province-3"
+    },
+    {
+      "id": "province-4",
+      "label": "Catamarca",
+      "externalField": "province-4"
+    },
+    {
+      "id": "province-5",
+      "label": "San Juan",
+      "externalField": "province-5"
+    },
+    {
+      "id": "province-6",
+      "label": "Tucumán",
+      "externalField": "province-6"
+    },
+    {
+      "id": "province-7",
+      "label": "Buenos Aires",
+      "externalField": "province-7"
+    },
+    {
+      "id": "province-8",
+      "label": "Tierra del Fuego",
+      "externalField": "province-8"
+    },
+    {
+      "id": "province-9",
+      "label": "Formosa",
+      "externalField": "province-9"
+    },
+    {
+      "id": "province-10",
+      "label": "Corrientes",
+      "externalField": "province-10"
+    },
+    {
+      "id": "province-11",
+      "label": "Salta",
+      "externalField": "province-11"
+    },
+    {
+      "id": "province-12",
+      "label": "Santiago del Estero",
+      "externalField": "province-12"
+    },
+    {
+      "id": "province-13",
+      "label": "Chaco",
+      "externalField": "province-13"
+    },
+    {
+      "id": "province-14",
+      "label": "Mendoza",
+      "externalField": "province-14"
+    },
+    {
+      "id": "province-15",
+      "label": "Misiones",
+      "externalField": "province-15"
+    },
+    {
+      "id": "province-16",
+      "label": "Chubut",
+      "externalField": "province-16"
+    },
+    {
+      "id": "province-17",
+      "label": "Jujuy",
+      "externalField": "province-17"
+    },
+    {
+      "id": "province-18",
+      "label": "Río Negro",
+      "externalField": "province-18"
+    },
+    {
+      "id": "province-19",
+      "label": "Neuquén",
+      "externalField": "province-19"
+    },
+    {
+      "id": "province-20",
+      "label": "Santa Fe",
+      "externalField": "province-20"
+    },
+    {
+      "id": "province-21",
+      "label": "Córdoba",
+      "externalField": "province-21"
+    },
+    {
+      "id": "province-22",
+      "label": "Entre Ríos",
+      "externalField": "province-22"
+    },
+    {
+      "id": "province-23",
+      "label": "CABA",
+      "externalField": "province-23"
+    },
+    {
+      "id": "province-24",
+      "label": "La Pampa",
+      "externalField": "province-24"
+    },
+    {
+      "id": "province-25",
+      "label": "Total nacional",
+      "externalField": "province-25"
+    }
+  ],
+  "methodNote": "EcoGo y Universidad Austral, dossier de octubre de 2026, datos de agosto. Personas físicas y crédito informado en la Central de Deudores: situaciones 3 a 5. El procesamiento imputa hasta dos meses de saldos de otorgantes faltantes y elimina el registro desde el tercero; hay un quiebre de reporte en julio de 2024. No se empalma con la serie bancaria ni con Fortress. Página 9. Veinticuatro jurisdicciones y referencia nacional, mismo mes y metodología. No son mediciones de la población total. Transcripción verificada del PDF; actualización por revisión del dossier.",
+  "observations": [
+    {
+      "date": "2026-08-01",
+      "series": "province-1",
+      "value": 36.9
+    },
+    {
+      "date": "2026-08-01",
+      "series": "province-10",
+      "value": 32.1
+    },
+    {
+      "date": "2026-08-01",
+      "series": "province-11",
+      "value": 31.2
+    },
+    {
+      "date": "2026-08-01",
+      "series": "province-12",
+      "value": 31.2
+    },
+    {
+      "date": "2026-08-01",
+      "series": "province-13",
+      "value": 34.0
+    },
+    {
+      "date": "2026-08-01",
+      "series": "province-14",
+      "value": 28.7
+    },
+    {
+      "date": "2026-08-01",
+      "series": "province-15",
+      "value": 30.8
+    },
+    {
+      "date": "2026-08-01",
+      "series": "province-16",
+      "value": 27.6
+    },
+    {
+      "date": "2026-08-01",
+      "series": "province-17",
+      "value": 26.9
+    },
+    {
+      "date": "2026-08-01",
+      "series": "province-18",
+      "value": 25.3
+    },
+    {
+      "date": "2026-08-01",
+      "series": "province-19",
+      "value": 23.9
+    },
+    {
+      "date": "2026-08-01",
+      "series": "province-2",
+      "value": 31.4
+    },
+    {
+      "date": "2026-08-01",
+      "series": "province-20",
+      "value": 23.9
+    },
+    {
+      "date": "2026-08-01",
+      "series": "province-21",
+      "value": 25.5
+    },
+    {
+      "date": "2026-08-01",
+      "series": "province-22",
+      "value": 24.8
+    },
+    {
+      "date": "2026-08-01",
+      "series": "province-23",
+      "value": 15.7
+    },
+    {
+      "date": "2026-08-01",
+      "series": "province-24",
+      "value": 20.4
+    },
+    {
+      "date": "2026-08-01",
+      "series": "province-25",
+      "value": 27.0
+    },
+    {
+      "date": "2026-08-01",
+      "series": "province-3",
+      "value": 35.1
+    },
+    {
+      "date": "2026-08-01",
+      "series": "province-4",
+      "value": 35.9
+    },
+    {
+      "date": "2026-08-01",
+      "series": "province-5",
+      "value": 35.8
+    },
+    {
+      "date": "2026-08-01",
+      "series": "province-6",
+      "value": 33.4
+    },
+    {
+      "date": "2026-08-01",
+      "series": "province-7",
+      "value": 27.7
+    },
+    {
+      "date": "2026-08-01",
+      "series": "province-8",
+      "value": 28.2
+    },
+    {
+      "date": "2026-08-01",
+      "series": "province-9",
+      "value": 31.9
+    }
+  ],
+  "valueKind": "percentage",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-08-01",
+  "firstObservedPeriod": "2026-08-01",
+  "lastObservedBySeries": {
+    "province-1": "2026-08-01",
+    "province-2": "2026-08-01",
+    "province-3": "2026-08-01",
+    "province-4": "2026-08-01",
+    "province-5": "2026-08-01",
+    "province-6": "2026-08-01",
+    "province-7": "2026-08-01",
+    "province-8": "2026-08-01",
+    "province-9": "2026-08-01",
+    "province-10": "2026-08-01",
+    "province-11": "2026-08-01",
+    "province-12": "2026-08-01",
+    "province-13": "2026-08-01",
+    "province-14": "2026-08-01",
+    "province-15": "2026-08-01",
+    "province-16": "2026-08-01",
+    "province-17": "2026-08-01",
+    "province-18": "2026-08-01",
+    "province-19": "2026-08-01",
+    "province-20": "2026-08-01",
+    "province-21": "2026-08-01",
+    "province-22": "2026-08-01",
+    "province-23": "2026-08-01",
+    "province-24": "2026-08-01",
+    "province-25": "2026-08-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T03:33:51Z",
+  "lastAttemptAt": "2026-11-13T12:47:38Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": false,
+  "contentHash": "dfc1a2f7be795c573fb0302fcb27f05791b1c7f162bea7a819643c4996881aeb",
+  "rawSha256": "9b9dadff7d0bb5e7bb3285cf96b6327d381a873487e3be7003bf8e087f80182e",
+  "dataChangedAt": "2026-11-13T03:19:34Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

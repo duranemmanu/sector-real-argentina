@@ -1,0 +1,85 @@
+{
+  "id": "epi-rubber",
+  "source": "INDEC · EPI; fuente: Instituto Petroquímico Argentino",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls",
+  "frequency": "annual",
+  "unit": "toneladas",
+  "series": [
+    {
+      "id": "rubber",
+      "label": "Caucho sintético",
+      "column": 4
+    }
+  ],
+  "methodNote": "Toneladas anuales publicadas en EPI. El cuadro de caucho sintético no ofrece una desagregación mensual; no se interpola ni se reparte el total anual.",
+  "observations": [
+    {
+      "date": "2016-01-01",
+      "series": "rubber",
+      "value": 28151.0
+    },
+    {
+      "date": "2017-01-01",
+      "series": "rubber",
+      "value": 32443.0
+    },
+    {
+      "date": "2018-01-01",
+      "series": "rubber",
+      "value": 25426.0
+    },
+    {
+      "date": "2019-01-01",
+      "series": "rubber",
+      "value": 25939.0
+    },
+    {
+      "date": "2020-01-01",
+      "series": "rubber",
+      "value": 35335.0
+    },
+    {
+      "date": "2021-01-01",
+      "series": "rubber",
+      "value": 53067.0
+    },
+    {
+      "date": "2022-01-01",
+      "series": "rubber",
+      "value": 43321.0
+    },
+    {
+      "date": "2023-01-01",
+      "series": "rubber",
+      "value": 42201.0
+    },
+    {
+      "date": "2024-01-01",
+      "series": "rubber",
+      "value": 44908.0
+    },
+    {
+      "date": "2025-01-01",
+      "series": "rubber",
+      "value": 40354.0
+    }
+  ],
+  "valueKind": "level",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2025-01-01",
+  "firstObservedPeriod": "2016-01-01",
+  "lastObservedBySeries": {
+    "rubber": "2025-01-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:46:21Z",
+  "lastAttemptAt": "2026-11-13T12:46:21Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "518b34aed44b5913223e4db66f5f2a6e61f2e22c84726ae1404777f28e8f405e",
+  "rawSha256": "ac6a6584754c1e770f42c790f32c6a295e4aaa6ef73753facba35e799bb154fb",
+  "dataChangedAt": "2026-11-12T03:45:22Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

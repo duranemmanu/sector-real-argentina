@@ -1,0 +1,483 @@
+{
+  "id": "credit-bank-stocks",
+  "source": "BCRA · Informe sobre Bancos",
+  "sourceUrl": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-bancos-serie-2026-08.xlsx",
+  "frequency": "monthly",
+  "unit": "índice de saldo real, diciembre de 2024=100",
+  "series": [
+    {
+      "id": "household_total",
+      "label": "Crédito familiar total",
+      "column": 5,
+      "headerToken": "saldo real total"
+    },
+    {
+      "id": "household_irregular",
+      "label": "Saldo familiar irregular",
+      "column": 6,
+      "headerToken": "saldo real irregular"
+    },
+    {
+      "id": "private_total",
+      "label": "Crédito privado total",
+      "column": 1,
+      "headerToken": "saldo real total"
+    },
+    {
+      "id": "private_irregular",
+      "label": "Saldo privado irregular",
+      "column": 2,
+      "headerToken": "saldo real irregular"
+    }
+  ],
+  "methodNote": "Hoja 9. Encadenamiento de las variaciones mensuales reales oficiales: I(t)=I(t−1)×(1+variación(t)/100), diciembre de 2024=100. No mide personas ni contratos. La baja de mora por pases fuera de balance no implica recuperación de pagos. Si falta el mes base o un cambio intermedio, se conserva el respaldo.",
+  "observations": [
+    {
+      "date": "2024-12-01",
+      "series": "household_irregular",
+      "value": 100.0
+    },
+    {
+      "date": "2024-12-01",
+      "series": "household_total",
+      "value": 100.0
+    },
+    {
+      "date": "2024-12-01",
+      "series": "private_irregular",
+      "value": 100.0
+    },
+    {
+      "date": "2024-12-01",
+      "series": "private_total",
+      "value": 100.0
+    },
+    {
+      "date": "2025-01-01",
+      "series": "household_irregular",
+      "value": 110.63045176846839
+    },
+    {
+      "date": "2025-01-01",
+      "series": "household_total",
+      "value": 106.032858162193
+    },
+    {
+      "date": "2025-01-01",
+      "series": "private_irregular",
+      "value": 109.58820244945267
+    },
+    {
+      "date": "2025-01-01",
+      "series": "private_total",
+      "value": 104.14559760605957
+    },
+    {
+      "date": "2025-02-01",
+      "series": "household_irregular",
+      "value": 126.40636660731195
+    },
+    {
+      "date": "2025-02-01",
+      "series": "household_total",
+      "value": 109.8156563963491
+    },
+    {
+      "date": "2025-02-01",
+      "series": "private_irregular",
+      "value": 123.15971061068956
+    },
+    {
+      "date": "2025-02-01",
+      "series": "private_total",
+      "value": 107.85973008086731
+    },
+    {
+      "date": "2025-03-01",
+      "series": "household_irregular",
+      "value": 143.97197983263897
+    },
+    {
+      "date": "2025-03-01",
+      "series": "household_total",
+      "value": 112.89385084482969
+    },
+    {
+      "date": "2025-03-01",
+      "series": "private_irregular",
+      "value": 140.1933307705852
+    },
+    {
+      "date": "2025-03-01",
+      "series": "private_total",
+      "value": 110.62999684884245
+    },
+    {
+      "date": "2025-04-01",
+      "series": "household_irregular",
+      "value": 169.29292449313297
+    },
+    {
+      "date": "2025-04-01",
+      "series": "household_total",
+      "value": 117.95051287246854
+    },
+    {
+      "date": "2025-04-01",
+      "series": "private_irregular",
+      "value": 162.3700109442538
+    },
+    {
+      "date": "2025-04-01",
+      "series": "private_total",
+      "value": 115.17282768271448
+    },
+    {
+      "date": "2025-05-01",
+      "series": "household_irregular",
+      "value": 214.51723118269962
+    },
+    {
+      "date": "2025-05-01",
+      "series": "household_total",
+      "value": 122.85114344407826
+    },
+    {
+      "date": "2025-05-01",
+      "series": "private_irregular",
+      "value": 200.03862085719555
+    },
+    {
+      "date": "2025-05-01",
+      "series": "private_total",
+      "value": 120.11712873427538
+    },
+    {
+      "date": "2025-06-01",
+      "series": "household_irregular",
+      "value": 252.59240093431688
+    },
+    {
+      "date": "2025-06-01",
+      "series": "household_total",
+      "value": 125.77078531471292
+    },
+    {
+      "date": "2025-06-01",
+      "series": "private_irregular",
+      "value": 233.82201415837517
+    },
+    {
+      "date": "2025-06-01",
+      "series": "private_total",
+      "value": 124.56077020732754
+    },
+    {
+      "date": "2025-07-01",
+      "series": "household_irregular",
+      "value": 288.2302113747141
+    },
+    {
+      "date": "2025-07-01",
+      "series": "household_total",
+      "value": 130.293290657948
+    },
+    {
+      "date": "2025-07-01",
+      "series": "private_irregular",
+      "value": 266.9213869846512
+    },
+    {
+      "date": "2025-07-01",
+      "series": "private_total",
+      "value": 129.9450026819968
+    },
+    {
+      "date": "2025-08-01",
+      "series": "household_irregular",
+      "value": 340.98789272437415
+    },
+    {
+      "date": "2025-08-01",
+      "series": "household_total",
+      "value": 131.91321251163876
+    },
+    {
+      "date": "2025-08-01",
+      "series": "private_irregular",
+      "value": 316.9530069004837
+    },
+    {
+      "date": "2025-08-01",
+      "series": "private_total",
+      "value": 131.05061440672864
+    },
+    {
+      "date": "2025-09-01",
+      "series": "household_irregular",
+      "value": 381.614688917773
+    },
+    {
+      "date": "2025-09-01",
+      "series": "household_total",
+      "value": 133.9038866047852
+    },
+    {
+      "date": "2025-09-01",
+      "series": "private_irregular",
+      "value": 359.2332821678075
+    },
+    {
+      "date": "2025-09-01",
+      "series": "private_total",
+      "value": 133.0162174815705
+    },
+    {
+      "date": "2025-10-01",
+      "series": "household_irregular",
+      "value": 411.4084608679403
+    },
+    {
+      "date": "2025-10-01",
+      "series": "household_total",
+      "value": 135.43669629803867
+    },
+    {
+      "date": "2025-10-01",
+      "series": "private_irregular",
+      "value": 395.32526055619843
+    },
+    {
+      "date": "2025-10-01",
+      "series": "private_total",
+      "value": 134.34797996990062
+    },
+    {
+      "date": "2025-11-01",
+      "series": "household_irregular",
+      "value": 470.73294366789355
+    },
+    {
+      "date": "2025-11-01",
+      "series": "household_total",
+      "value": 136.24395798939304
+    },
+    {
+      "date": "2025-11-01",
+      "series": "private_irregular",
+      "value": 455.15664760092244
+    },
+    {
+      "date": "2025-11-01",
+      "series": "private_total",
+      "value": 134.7715823104548
+    },
+    {
+      "date": "2025-12-01",
+      "series": "household_irregular",
+      "value": 499.3598162650304
+    },
+    {
+      "date": "2025-12-01",
+      "series": "household_total",
+      "value": 136.62163206456069
+    },
+    {
+      "date": "2025-12-01",
+      "series": "private_irregular",
+      "value": 488.7316270728238
+    },
+    {
+      "date": "2025-12-01",
+      "series": "private_total",
+      "value": 135.44022716619304
+    },
+    {
+      "date": "2026-01-01",
+      "series": "household_irregular",
+      "value": 564.9165094644254
+    },
+    {
+      "date": "2026-01-01",
+      "series": "household_total",
+      "value": 136.00535754516469
+    },
+    {
+      "date": "2026-01-01",
+      "series": "private_irregular",
+      "value": 550.2664103014004
+    },
+    {
+      "date": "2026-01-01",
+      "series": "private_total",
+      "value": 134.22511046741002
+    },
+    {
+      "date": "2026-02-01",
+      "series": "household_irregular",
+      "value": 591.4314459295457
+    },
+    {
+      "date": "2026-02-01",
+      "series": "household_total",
+      "value": 134.59178461883948
+    },
+    {
+      "date": "2026-02-01",
+      "series": "private_irregular",
+      "value": 569.5384864008212
+    },
+    {
+      "date": "2026-02-01",
+      "series": "private_total",
+      "value": 131.59575896490907
+    },
+    {
+      "date": "2026-03-01",
+      "series": "household_irregular",
+      "value": 609.0677284164316
+    },
+    {
+      "date": "2026-03-01",
+      "series": "household_total",
+      "value": 133.6805489526429
+    },
+    {
+      "date": "2026-03-01",
+      "series": "private_irregular",
+      "value": 593.6142012382968
+    },
+    {
+      "date": "2026-03-01",
+      "series": "private_total",
+      "value": 130.72348546724533
+    },
+    {
+      "date": "2026-04-01",
+      "series": "household_irregular",
+      "value": 629.9896377782353
+    },
+    {
+      "date": "2026-04-01",
+      "series": "household_total",
+      "value": 133.0746692914217
+    },
+    {
+      "date": "2026-04-01",
+      "series": "private_irregular",
+      "value": 617.2843686540964
+    },
+    {
+      "date": "2026-04-01",
+      "series": "private_total",
+      "value": 130.84213233370124
+    },
+    {
+      "date": "2026-05-01",
+      "series": "household_irregular",
+      "value": 665.5326192436071
+    },
+    {
+      "date": "2026-05-01",
+      "series": "household_total",
+      "value": 132.828967762158
+    },
+    {
+      "date": "2026-05-01",
+      "series": "private_irregular",
+      "value": 652.3217009936288
+    },
+    {
+      "date": "2026-05-01",
+      "series": "private_total",
+      "value": 131.96666251620442
+    },
+    {
+      "date": "2026-06-01",
+      "series": "household_irregular",
+      "value": 669.7845161861954
+    },
+    {
+      "date": "2026-06-01",
+      "series": "household_total",
+      "value": 133.95604317003148
+    },
+    {
+      "date": "2026-06-01",
+      "series": "private_irregular",
+      "value": 663.3235604614257
+    },
+    {
+      "date": "2026-06-01",
+      "series": "private_total",
+      "value": 135.43862153020672
+    },
+    {
+      "date": "2026-07-01",
+      "series": "household_irregular",
+      "value": 671.5061137512951
+    },
+    {
+      "date": "2026-07-01",
+      "series": "household_total",
+      "value": 132.46493972117815
+    },
+    {
+      "date": "2026-07-01",
+      "series": "private_irregular",
+      "value": 671.1434332973053
+    },
+    {
+      "date": "2026-07-01",
+      "series": "private_total",
+      "value": 135.16749006705072
+    },
+    {
+      "date": "2026-08-01",
+      "series": "household_irregular",
+      "value": 664.9244808409991
+    },
+    {
+      "date": "2026-08-01",
+      "series": "household_total",
+      "value": 132.49460397345868
+    },
+    {
+      "date": "2026-08-01",
+      "series": "private_irregular",
+      "value": 677.4850228237033
+    },
+    {
+      "date": "2026-08-01",
+      "series": "private_total",
+      "value": 136.13450577821652
+    }
+  ],
+  "valueKind": "level",
+  "supportingSources": [
+    {
+      "label": "Publicación BCRA",
+      "url": "https://www.bcra.gob.ar/publicaciones/informe-sobre-bancos-agosto-de-2026/"
+    }
+  ],
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-08-01",
+  "firstObservedPeriod": "2024-12-01",
+  "lastObservedBySeries": {
+    "household_total": "2026-08-01",
+    "household_irregular": "2026-08-01",
+    "private_total": "2026-08-01",
+    "private_irregular": "2026-08-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:47:31Z",
+  "lastAttemptAt": "2026-11-13T12:47:31Z",
+  "sourcePublishedAt": "2026-10-16",
+  "isAutoUpdated": true,
+  "contentHash": "aa84ed0abd605e7b12f6234771a4cc682fed8f52ac71dae0d89afdaa3e9ccc2d",
+  "rawSha256": "35c7319153efae0aefe9e7d5aad04e50771bd901f1faf94c01f95ece433d1adb",
+  "dataChangedAt": "2026-11-13T03:19:34Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

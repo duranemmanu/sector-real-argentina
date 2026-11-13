@@ -1,0 +1,100 @@
+{
+  "id": "salta-winter",
+  "source": "Gobierno de Salta · Télam · CAME (según año)",
+  "sourceUrl": "https://www.salta.gob.ar/prensa/noticias/el-turismo-genero-un-impacto-de-30-mil-millones-durante-las-vacaciones-de-invierno-90954",
+  "frequency": "seasonal",
+  "unit": "turistas/arribos reportados; 2019 aproximado y 2025 cota inferior",
+  "series": [
+    {
+      "id": "tourists",
+      "label": "Turistas reportados · ver cotas y cobertura"
+    }
+  ],
+  "methodNote": "Curación documentada de las seis publicaciones solicitadas. Temporadas de invierno, no años completos. Universos y duración distintos: no calcular tasas interanuales como una serie homogénea. 2019 ≈266.000 arribos; 2022 del 9 al 30 de julio; 2025 >254.000 (barra como cota inferior comunicada). 2020–2021 sin publicación incorporada, no son ceros.",
+  "observations": [
+    {
+      "date": "2019-07-01",
+      "series": "tourists",
+      "value": 266000.0
+    },
+    {
+      "date": "2020-07-01",
+      "series": "tourists",
+      "value": null
+    },
+    {
+      "date": "2021-07-01",
+      "series": "tourists",
+      "value": null
+    },
+    {
+      "date": "2022-07-01",
+      "series": "tourists",
+      "value": 183508.0
+    },
+    {
+      "date": "2023-07-01",
+      "series": "tourists",
+      "value": 230461.0
+    },
+    {
+      "date": "2024-07-01",
+      "series": "tourists",
+      "value": 270190.0
+    },
+    {
+      "date": "2025-07-01",
+      "series": "tourists",
+      "value": 254000.0
+    },
+    {
+      "date": "2026-07-01",
+      "series": "tourists",
+      "value": 267628.0
+    }
+  ],
+  "supportingSources": [
+    {
+      "label": "2019: Aproximadamente 266.000 arribos durante julio; cifra redondeada de cobertura Télam.",
+      "url": "https://grupolaprovincia.com/contenido/494428/salta-tuvo-records-en-julio-con-266000-arribos-y-un-impacto-turistico-de-1000-mi"
+    },
+    {
+      "label": "2022: 183.508 turistas registrados entre el 9 y el 30 de julio; corroborado también en publicación provincial de 2023.",
+      "url": "https://casa.salta.gob.ar/noticias/turismo-3/temporada-turistica-de-julio-6-mas-ocupacion-que-en-2019-y-un-impacto-economico-de-9632-millones-1473"
+    },
+    {
+      "label": "2023: 230.461 turistas durante vacaciones de julio.",
+      "url": "https://www.salta.gob.ar/prensa/noticias/el-turismo-genero-un-impacto-de-30-mil-millones-durante-las-vacaciones-de-invierno-90954"
+    },
+    {
+      "label": "2024: 270.190 visitantes durante temporada de invierno.",
+      "url": "https://www.salta.gob.ar/prensa/noticias/el-turismo-genero-un-impacto-economico-de-83-mil-millones-de-pesos-durante-las-vacaciones-de-invierno-96936"
+    },
+    {
+      "label": "2025: Más de 254.000 turistas: el valor graficado es la cota inferior comunicada, no un total exacto.",
+      "url": "https://www.salta.gob.ar/prensa/noticias/salta-recibio-a-mas-de-254-mil-turistas-durante-las-vacaciones-de-invierno-y-genero-un-impacto-economico-de-mas-de-128-mil-millones-de-pesos-103059"
+    },
+    {
+      "label": "2026: 267.628 turistas en el balance de invierno de CAME del 02/08/2026.",
+      "url": "https://institucional.came.org.ar/prensa/14663/vacaciones-de-invierno-en-modo-mundial-59-mas-de-turistas-que-el-ano-pasado-con-un-impacto-economico-de--212-billones"
+    }
+  ],
+  "valueKind": "level",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-07-01",
+  "firstObservedPeriod": "2019-07-01",
+  "lastObservedBySeries": {
+    "tourists": "2026-07-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-12T04:42:55Z",
+  "lastAttemptAt": "2026-11-13T12:47:09Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": false,
+  "contentHash": "26474fb4d3ae9477211456a169f27de7174236db5ab2d371b039f4ef9c4e825e",
+  "rawSha256": "46591d53221bef8ae2c7b17c6cbba20f4e8bc437547b65f1a647b521194a7735",
+  "dataChangedAt": "2026-11-12T04:52:12Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

@@ -1,0 +1,125 @@
+{
+  "id": "epi-paper",
+  "source": "INDEC · Estadísticas de Productos Industriales (EPI)",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls",
+  "frequency": "monthly",
+  "unit": "toneladas",
+  "series": [
+    {
+      "column": 4,
+      "id": "paper",
+      "label": "Papel para diarios e impresión"
+    }
+  ],
+  "methodNote": "Niveles mensuales publicados en EPI; datos preliminares según asteriscos del cuadro. Los símbolos de ausencia se conservan como null. No se mezclan totales anuales con meses.",
+  "observations": [
+    {
+      "date": "2025-01-01",
+      "series": "paper",
+      "value": 20723.0
+    },
+    {
+      "date": "2025-02-01",
+      "series": "paper",
+      "value": 16516.0
+    },
+    {
+      "date": "2025-03-01",
+      "series": "paper",
+      "value": 21308.0
+    },
+    {
+      "date": "2025-04-01",
+      "series": "paper",
+      "value": 18708.0
+    },
+    {
+      "date": "2025-05-01",
+      "series": "paper",
+      "value": 16620.0
+    },
+    {
+      "date": "2025-06-01",
+      "series": "paper",
+      "value": 16176.86
+    },
+    {
+      "date": "2025-07-01",
+      "series": "paper",
+      "value": 14004.88
+    },
+    {
+      "date": "2025-08-01",
+      "series": "paper",
+      "value": 12475.59
+    },
+    {
+      "date": "2025-09-01",
+      "series": "paper",
+      "value": 10571.69
+    },
+    {
+      "date": "2025-10-01",
+      "series": "paper",
+      "value": 13842.369999999999
+    },
+    {
+      "date": "2025-11-01",
+      "series": "paper",
+      "value": 19756.07
+    },
+    {
+      "date": "2025-12-01",
+      "series": "paper",
+      "value": 22456.68
+    },
+    {
+      "date": "2026-01-01",
+      "series": "paper",
+      "value": 24396.06
+    },
+    {
+      "date": "2026-02-01",
+      "series": "paper",
+      "value": 15583.44
+    },
+    {
+      "date": "2026-03-01",
+      "series": "paper",
+      "value": 24301.02
+    },
+    {
+      "date": "2026-04-01",
+      "series": "paper",
+      "value": 20990.44
+    },
+    {
+      "date": "2026-05-01",
+      "series": "paper",
+      "value": 15121.77
+    },
+    {
+      "date": "2026-06-01",
+      "series": "paper",
+      "value": 19398.760000000002
+    }
+  ],
+  "valueKind": "level",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-06-01",
+  "firstObservedPeriod": "2025-01-01",
+  "lastObservedBySeries": {
+    "paper": "2026-06-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:46:21Z",
+  "lastAttemptAt": "2026-11-13T12:46:21Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "4633f470da757f40829aae8521e1e5397daf1afbc80cb45852ec30dd2914abc9",
+  "rawSha256": "ac6a6584754c1e770f42c790f32c6a295e4aaa6ef73753facba35e799bb154fb",
+  "dataChangedAt": "2026-11-12T03:32:54Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

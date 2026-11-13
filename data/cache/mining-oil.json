@@ -1,0 +1,1811 @@
+{
+  "id": "mining-oil",
+  "source": "INDEC · IPI minero",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipi_minero.xlsx",
+  "frequency": "monthly",
+  "unit": "miles de m³",
+  "series": [
+    {
+      "id": "total",
+      "label": "Total",
+      "column": 3,
+      "headerToken": "Petróleo crudo"
+    },
+    {
+      "id": "conventional",
+      "label": "Convencional",
+      "column": 4,
+      "headerToken": "convencional"
+    },
+    {
+      "id": "unconventional",
+      "label": "No convencional",
+      "column": 5,
+      "headerToken": "no convencional"
+    }
+  ],
+  "methodNote": "Serie oficial del INDEC. Base 2016=100. Los valores s (secreto estadístico), no disponibles y que no corresponde presentar se conservan como nulos. El guion de cero absoluto se conserva como cero. Los índices de categorías y subclases no se suman sin ponderaciones. Volumen mensual oficial del INDEC sobre datos de la Secretaría de Energía. La categoría no convencional no identifica exclusivamente Vaca Muerta. Se conservan todos los meses disponibles y no se interpolan observaciones.",
+  "observations": [
+    {
+      "date": "2017-01-01",
+      "series": "conventional",
+      "value": 2450.9968885000008
+    },
+    {
+      "date": "2017-01-01",
+      "series": "total",
+      "value": 2451.0719885000003
+    },
+    {
+      "date": "2017-01-01",
+      "series": "unconventional",
+      "value": 0.0751
+    },
+    {
+      "date": "2017-02-01",
+      "series": "conventional",
+      "value": 2162.0288758000006
+    },
+    {
+      "date": "2017-02-01",
+      "series": "total",
+      "value": 2162.1767758000005
+    },
+    {
+      "date": "2017-02-01",
+      "series": "unconventional",
+      "value": 0.1479
+    },
+    {
+      "date": "2017-03-01",
+      "series": "conventional",
+      "value": 2392.234593099999
+    },
+    {
+      "date": "2017-03-01",
+      "series": "total",
+      "value": 2392.2444130999993
+    },
+    {
+      "date": "2017-03-01",
+      "series": "unconventional",
+      "value": 0.00982
+    },
+    {
+      "date": "2017-04-01",
+      "series": "conventional",
+      "value": 2163.1280031999995
+    },
+    {
+      "date": "2017-04-01",
+      "series": "total",
+      "value": 2164.7064331999995
+    },
+    {
+      "date": "2017-04-01",
+      "series": "unconventional",
+      "value": 1.57843
+    },
+    {
+      "date": "2017-05-01",
+      "series": "conventional",
+      "value": 2313.1712115000005
+    },
+    {
+      "date": "2017-05-01",
+      "series": "total",
+      "value": 2315.3531315000005
+    },
+    {
+      "date": "2017-05-01",
+      "series": "unconventional",
+      "value": 2.18192
+    },
+    {
+      "date": "2017-06-01",
+      "series": "conventional",
+      "value": 2200.0566879000007
+    },
+    {
+      "date": "2017-06-01",
+      "series": "total",
+      "value": 2201.280737900001
+    },
+    {
+      "date": "2017-06-01",
+      "series": "unconventional",
+      "value": 1.2240499999999999
+    },
+    {
+      "date": "2017-07-01",
+      "series": "conventional",
+      "value": 2331.900074400001
+    },
+    {
+      "date": "2017-07-01",
+      "series": "total",
+      "value": 2333.107324400001
+    },
+    {
+      "date": "2017-07-01",
+      "series": "unconventional",
+      "value": 1.20725
+    },
+    {
+      "date": "2017-08-01",
+      "series": "conventional",
+      "value": 2357.0889613
+    },
+    {
+      "date": "2017-08-01",
+      "series": "total",
+      "value": 2360.6288313
+    },
+    {
+      "date": "2017-08-01",
+      "series": "unconventional",
+      "value": 3.53987
+    },
+    {
+      "date": "2017-09-01",
+      "series": "conventional",
+      "value": 2307.1932644999997
+    },
+    {
+      "date": "2017-09-01",
+      "series": "total",
+      "value": 2310.9110944999998
+    },
+    {
+      "date": "2017-09-01",
+      "series": "unconventional",
+      "value": 3.7178299999999997
+    },
+    {
+      "date": "2017-10-01",
+      "series": "conventional",
+      "value": 2409.0093193999996
+    },
+    {
+      "date": "2017-10-01",
+      "series": "total",
+      "value": 2412.028489399999
+    },
+    {
+      "date": "2017-10-01",
+      "series": "unconventional",
+      "value": 3.01917
+    },
+    {
+      "date": "2017-11-01",
+      "series": "conventional",
+      "value": 2329.3195225
+    },
+    {
+      "date": "2017-11-01",
+      "series": "total",
+      "value": 2331.6156025
+    },
+    {
+      "date": "2017-11-01",
+      "series": "unconventional",
+      "value": 2.29608
+    },
+    {
+      "date": "2017-12-01",
+      "series": "conventional",
+      "value": 2396.0653971999996
+    },
+    {
+      "date": "2017-12-01",
+      "series": "total",
+      "value": 2398.1535871999995
+    },
+    {
+      "date": "2017-12-01",
+      "series": "unconventional",
+      "value": 2.08819
+    },
+    {
+      "date": "2018-01-01",
+      "series": "conventional",
+      "value": 2368.0573345
+    },
+    {
+      "date": "2018-01-01",
+      "series": "total",
+      "value": 2369.9160945
+    },
+    {
+      "date": "2018-01-01",
+      "series": "unconventional",
+      "value": 1.85876
+    },
+    {
+      "date": "2018-02-01",
+      "series": "conventional",
+      "value": 2147.7349181000004
+    },
+    {
+      "date": "2018-02-01",
+      "series": "total",
+      "value": 2149.2932381000005
+    },
+    {
+      "date": "2018-02-01",
+      "series": "unconventional",
+      "value": 1.55832
+    },
+    {
+      "date": "2018-03-01",
+      "series": "conventional",
+      "value": 2400.2325868999997
+    },
+    {
+      "date": "2018-03-01",
+      "series": "total",
+      "value": 2401.8296668999997
+    },
+    {
+      "date": "2018-03-01",
+      "series": "unconventional",
+      "value": 1.5970799999999998
+    },
+    {
+      "date": "2018-04-01",
+      "series": "conventional",
+      "value": 2319.5283519000004
+    },
+    {
+      "date": "2018-04-01",
+      "series": "total",
+      "value": 2320.8405919000006
+    },
+    {
+      "date": "2018-04-01",
+      "series": "unconventional",
+      "value": 1.31224
+    },
+    {
+      "date": "2018-05-01",
+      "series": "conventional",
+      "value": 2383.9117608999995
+    },
+    {
+      "date": "2018-05-01",
+      "series": "total",
+      "value": 2391.142530899999
+    },
+    {
+      "date": "2018-05-01",
+      "series": "unconventional",
+      "value": 7.230770000000001
+    },
+    {
+      "date": "2018-06-01",
+      "series": "conventional",
+      "value": 2310.8271446
+    },
+    {
+      "date": "2018-06-01",
+      "series": "total",
+      "value": 2312.1422245999997
+    },
+    {
+      "date": "2018-06-01",
+      "series": "unconventional",
+      "value": 1.31508
+    },
+    {
+      "date": "2018-07-01",
+      "series": "conventional",
+      "value": 2381.8148395999992
+    },
+    {
+      "date": "2018-07-01",
+      "series": "total",
+      "value": 2382.9252395999997
+    },
+    {
+      "date": "2018-07-01",
+      "series": "unconventional",
+      "value": 1.1104
+    },
+    {
+      "date": "2018-08-01",
+      "series": "conventional",
+      "value": 2419.1047997
+    },
+    {
+      "date": "2018-08-01",
+      "series": "total",
+      "value": 2420.3216597
+    },
+    {
+      "date": "2018-08-01",
+      "series": "unconventional",
+      "value": 1.2168599999999998
+    },
+    {
+      "date": "2018-09-01",
+      "series": "conventional",
+      "value": 2376.9864389999993
+    },
+    {
+      "date": "2018-09-01",
+      "series": "total",
+      "value": 2377.838548999999
+    },
+    {
+      "date": "2018-09-01",
+      "series": "unconventional",
+      "value": 0.85211
+    },
+    {
+      "date": "2018-10-01",
+      "series": "conventional",
+      "value": 2454.5535434
+    },
+    {
+      "date": "2018-10-01",
+      "series": "total",
+      "value": 2455.3274433999995
+    },
+    {
+      "date": "2018-10-01",
+      "series": "unconventional",
+      "value": 0.7739
+    },
+    {
+      "date": "2018-11-01",
+      "series": "conventional",
+      "value": 2364.8559517000012
+    },
+    {
+      "date": "2018-11-01",
+      "series": "total",
+      "value": 2365.726431700001
+    },
+    {
+      "date": "2018-11-01",
+      "series": "unconventional",
+      "value": 0.87048
+    },
+    {
+      "date": "2018-12-01",
+      "series": "conventional",
+      "value": 2457.6316781
+    },
+    {
+      "date": "2018-12-01",
+      "series": "total",
+      "value": 2457.9106481000003
+    },
+    {
+      "date": "2018-12-01",
+      "series": "unconventional",
+      "value": 0.27897000000000005
+    },
+    {
+      "date": "2019-01-01",
+      "series": "conventional",
+      "value": 2044.0132959999996
+    },
+    {
+      "date": "2019-01-01",
+      "series": "total",
+      "value": 2468.2260060999997
+    },
+    {
+      "date": "2019-01-01",
+      "series": "unconventional",
+      "value": 424.2127101000001
+    },
+    {
+      "date": "2019-02-01",
+      "series": "conventional",
+      "value": 1850.9671362999993
+    },
+    {
+      "date": "2019-02-01",
+      "series": "total",
+      "value": 2232.8275419000006
+    },
+    {
+      "date": "2019-02-01",
+      "series": "unconventional",
+      "value": 381.8604056000001
+    },
+    {
+      "date": "2019-03-01",
+      "series": "conventional",
+      "value": 2060.2994525
+    },
+    {
+      "date": "2019-03-01",
+      "series": "total",
+      "value": 2476.5955347999984
+    },
+    {
+      "date": "2019-03-01",
+      "series": "unconventional",
+      "value": 416.29608229999997
+    },
+    {
+      "date": "2019-04-01",
+      "series": "conventional",
+      "value": 1990.6945702000005
+    },
+    {
+      "date": "2019-04-01",
+      "series": "total",
+      "value": 2421.253322200001
+    },
+    {
+      "date": "2019-04-01",
+      "series": "unconventional",
+      "value": 430.5587519999999
+    },
+    {
+      "date": "2019-05-01",
+      "series": "conventional",
+      "value": 2037.5723187000003
+    },
+    {
+      "date": "2019-05-01",
+      "series": "total",
+      "value": 2494.055497900001
+    },
+    {
+      "date": "2019-05-01",
+      "series": "unconventional",
+      "value": 456.4831791999999
+    },
+    {
+      "date": "2019-06-01",
+      "series": "conventional",
+      "value": 1943.8445928000006
+    },
+    {
+      "date": "2019-06-01",
+      "series": "total",
+      "value": 2375.4262793000003
+    },
+    {
+      "date": "2019-06-01",
+      "series": "unconventional",
+      "value": 431.5816864999998
+    },
+    {
+      "date": "2019-07-01",
+      "series": "conventional",
+      "value": 2019.5110628
+    },
+    {
+      "date": "2019-07-01",
+      "series": "total",
+      "value": 2489.4515969000013
+    },
+    {
+      "date": "2019-07-01",
+      "series": "unconventional",
+      "value": 469.94053410000004
+    },
+    {
+      "date": "2019-08-01",
+      "series": "conventional",
+      "value": 2025.8091098999998
+    },
+    {
+      "date": "2019-08-01",
+      "series": "total",
+      "value": 2559.3734496
+    },
+    {
+      "date": "2019-08-01",
+      "series": "unconventional",
+      "value": 533.5643396999999
+    },
+    {
+      "date": "2019-09-01",
+      "series": "conventional",
+      "value": 1938.4158427000004
+    },
+    {
+      "date": "2019-09-01",
+      "series": "total",
+      "value": 2466.0900324000004
+    },
+    {
+      "date": "2019-09-01",
+      "series": "unconventional",
+      "value": 527.6741896999999
+    },
+    {
+      "date": "2019-10-01",
+      "series": "conventional",
+      "value": 1978.8805407999994
+    },
+    {
+      "date": "2019-10-01",
+      "series": "total",
+      "value": 2533.7779768000005
+    },
+    {
+      "date": "2019-10-01",
+      "series": "unconventional",
+      "value": 554.8974360000001
+    },
+    {
+      "date": "2019-11-01",
+      "series": "conventional",
+      "value": 1913.5784643000004
+    },
+    {
+      "date": "2019-11-01",
+      "series": "total",
+      "value": 2451.6789843999995
+    },
+    {
+      "date": "2019-11-01",
+      "series": "unconventional",
+      "value": 538.1005201000002
+    },
+    {
+      "date": "2019-12-01",
+      "series": "conventional",
+      "value": 1961.4445855000006
+    },
+    {
+      "date": "2019-12-01",
+      "series": "total",
+      "value": 2548.1238898
+    },
+    {
+      "date": "2019-12-01",
+      "series": "unconventional",
+      "value": 586.6793043000004
+    },
+    {
+      "date": "2020-01-01",
+      "series": "conventional",
+      "value": 1935.8551429000006
+    },
+    {
+      "date": "2020-01-01",
+      "series": "total",
+      "value": 2529.20909
+    },
+    {
+      "date": "2020-01-01",
+      "series": "unconventional",
+      "value": 593.3539471
+    },
+    {
+      "date": "2020-02-01",
+      "series": "conventional",
+      "value": 1797.3469020000007
+    },
+    {
+      "date": "2020-02-01",
+      "series": "total",
+      "value": 2379.8419416
+    },
+    {
+      "date": "2020-02-01",
+      "series": "unconventional",
+      "value": 582.4950395999999
+    },
+    {
+      "date": "2020-03-01",
+      "series": "conventional",
+      "value": 1912.0907197
+    },
+    {
+      "date": "2020-03-01",
+      "series": "total",
+      "value": 2554.920119499999
+    },
+    {
+      "date": "2020-03-01",
+      "series": "unconventional",
+      "value": 642.8293998000001
+    },
+    {
+      "date": "2020-04-01",
+      "series": "conventional",
+      "value": 1724.4023753999998
+    },
+    {
+      "date": "2020-04-01",
+      "series": "total",
+      "value": 2197.2302275000006
+    },
+    {
+      "date": "2020-04-01",
+      "series": "unconventional",
+      "value": 472.8278520999999
+    },
+    {
+      "date": "2020-05-01",
+      "series": "conventional",
+      "value": 1711.9946119999995
+    },
+    {
+      "date": "2020-05-01",
+      "series": "total",
+      "value": 2206.0696903999988
+    },
+    {
+      "date": "2020-05-01",
+      "series": "unconventional",
+      "value": 494.07507839999994
+    },
+    {
+      "date": "2020-06-01",
+      "series": "conventional",
+      "value": 1662.4387914
+    },
+    {
+      "date": "2020-06-01",
+      "series": "total",
+      "value": 2252.122951
+    },
+    {
+      "date": "2020-06-01",
+      "series": "unconventional",
+      "value": 589.6841595999999
+    },
+    {
+      "date": "2020-07-01",
+      "series": "conventional",
+      "value": 1705.069718
+    },
+    {
+      "date": "2020-07-01",
+      "series": "total",
+      "value": 2313.694707499999
+    },
+    {
+      "date": "2020-07-01",
+      "series": "unconventional",
+      "value": 608.6249894999999
+    },
+    {
+      "date": "2020-08-01",
+      "series": "conventional",
+      "value": 1716.2771795
+    },
+    {
+      "date": "2020-08-01",
+      "series": "total",
+      "value": 2329.793891799999
+    },
+    {
+      "date": "2020-08-01",
+      "series": "unconventional",
+      "value": 613.5167122999999
+    },
+    {
+      "date": "2020-09-01",
+      "series": "conventional",
+      "value": 1682.2875697
+    },
+    {
+      "date": "2020-09-01",
+      "series": "total",
+      "value": 2244.706217000001
+    },
+    {
+      "date": "2020-09-01",
+      "series": "unconventional",
+      "value": 562.4186473000002
+    },
+    {
+      "date": "2020-10-01",
+      "series": "conventional",
+      "value": 1736.6033979
+    },
+    {
+      "date": "2020-10-01",
+      "series": "total",
+      "value": 2337.956089500001
+    },
+    {
+      "date": "2020-10-01",
+      "series": "unconventional",
+      "value": 601.3526916
+    },
+    {
+      "date": "2020-11-01",
+      "series": "conventional",
+      "value": 1665.0119582999998
+    },
+    {
+      "date": "2020-11-01",
+      "series": "total",
+      "value": 2260.4944193999995
+    },
+    {
+      "date": "2020-11-01",
+      "series": "unconventional",
+      "value": 595.4824611000003
+    },
+    {
+      "date": "2020-12-01",
+      "series": "conventional",
+      "value": 1723.9078980000006
+    },
+    {
+      "date": "2020-12-01",
+      "series": "total",
+      "value": 2364.3420435999983
+    },
+    {
+      "date": "2020-12-01",
+      "series": "unconventional",
+      "value": 640.4341456000002
+    },
+    {
+      "date": "2021-01-01",
+      "series": "conventional",
+      "value": 1717.1234675999997
+    },
+    {
+      "date": "2021-01-01",
+      "series": "total",
+      "value": 2401.887403999999
+    },
+    {
+      "date": "2021-01-01",
+      "series": "unconventional",
+      "value": 684.7639364
+    },
+    {
+      "date": "2021-02-01",
+      "series": "conventional",
+      "value": 1555.8070070999997
+    },
+    {
+      "date": "2021-02-01",
+      "series": "total",
+      "value": 2192.8992312999994
+    },
+    {
+      "date": "2021-02-01",
+      "series": "unconventional",
+      "value": 637.0922242
+    },
+    {
+      "date": "2021-03-01",
+      "series": "conventional",
+      "value": 1713.1221882999998
+    },
+    {
+      "date": "2021-03-01",
+      "series": "total",
+      "value": 2451.2143444000008
+    },
+    {
+      "date": "2021-03-01",
+      "series": "unconventional",
+      "value": 738.0921560999999
+    },
+    {
+      "date": "2021-04-01",
+      "series": "conventional",
+      "value": 1670.7530789
+    },
+    {
+      "date": "2021-04-01",
+      "series": "total",
+      "value": 2398.9887136
+    },
+    {
+      "date": "2021-04-01",
+      "series": "unconventional",
+      "value": 728.2356347000002
+    },
+    {
+      "date": "2021-05-01",
+      "series": "conventional",
+      "value": 1730.3113955000006
+    },
+    {
+      "date": "2021-05-01",
+      "series": "total",
+      "value": 2485.707400400002
+    },
+    {
+      "date": "2021-05-01",
+      "series": "unconventional",
+      "value": 755.3960049000002
+    },
+    {
+      "date": "2021-06-01",
+      "series": "conventional",
+      "value": 1642.7360682000005
+    },
+    {
+      "date": "2021-06-01",
+      "series": "total",
+      "value": 2396.9201422
+    },
+    {
+      "date": "2021-06-01",
+      "series": "unconventional",
+      "value": 754.1840740000002
+    },
+    {
+      "date": "2021-07-01",
+      "series": "conventional",
+      "value": 1695.1090456999991
+    },
+    {
+      "date": "2021-07-01",
+      "series": "total",
+      "value": 2522.7928711000004
+    },
+    {
+      "date": "2021-07-01",
+      "series": "unconventional",
+      "value": 827.6838254000002
+    },
+    {
+      "date": "2021-08-01",
+      "series": "conventional",
+      "value": 1696.0641148999998
+    },
+    {
+      "date": "2021-08-01",
+      "series": "total",
+      "value": 2507.1742927000005
+    },
+    {
+      "date": "2021-08-01",
+      "series": "unconventional",
+      "value": 811.1101778000002
+    },
+    {
+      "date": "2021-09-01",
+      "series": "conventional",
+      "value": 1635.7670123999997
+    },
+    {
+      "date": "2021-09-01",
+      "series": "total",
+      "value": 2496.3767661999996
+    },
+    {
+      "date": "2021-09-01",
+      "series": "unconventional",
+      "value": 860.6097537999999
+    },
+    {
+      "date": "2021-10-01",
+      "series": "conventional",
+      "value": 1658.8711331000004
+    },
+    {
+      "date": "2021-10-01",
+      "series": "total",
+      "value": 2627.140086
+    },
+    {
+      "date": "2021-10-01",
+      "series": "unconventional",
+      "value": 968.2689529000002
+    },
+    {
+      "date": "2021-11-01",
+      "series": "conventional",
+      "value": 1636.9139100999998
+    },
+    {
+      "date": "2021-11-01",
+      "series": "total",
+      "value": 2610.6100521999997
+    },
+    {
+      "date": "2021-11-01",
+      "series": "unconventional",
+      "value": 973.6961421
+    },
+    {
+      "date": "2021-12-01",
+      "series": "conventional",
+      "value": 1659.4701383000001
+    },
+    {
+      "date": "2021-12-01",
+      "series": "total",
+      "value": 2707.9579792000022
+    },
+    {
+      "date": "2021-12-01",
+      "series": "unconventional",
+      "value": 1048.4878409
+    },
+    {
+      "date": "2022-01-01",
+      "series": "conventional",
+      "value": 1657.6197527000006
+    },
+    {
+      "date": "2022-01-01",
+      "series": "total",
+      "value": 2759.513550799999
+    },
+    {
+      "date": "2022-01-01",
+      "series": "unconventional",
+      "value": 1101.8937981
+    },
+    {
+      "date": "2022-02-01",
+      "series": "conventional",
+      "value": 1501.4252823000002
+    },
+    {
+      "date": "2022-02-01",
+      "series": "total",
+      "value": 2490.7627998999997
+    },
+    {
+      "date": "2022-02-01",
+      "series": "unconventional",
+      "value": 989.3375175999998
+    },
+    {
+      "date": "2022-03-01",
+      "series": "conventional",
+      "value": 1651.7710197000004
+    },
+    {
+      "date": "2022-03-01",
+      "series": "total",
+      "value": 2773.5429685
+    },
+    {
+      "date": "2022-03-01",
+      "series": "unconventional",
+      "value": 1121.7719487999993
+    },
+    {
+      "date": "2022-04-01",
+      "series": "conventional",
+      "value": 1595.4224124000007
+    },
+    {
+      "date": "2022-04-01",
+      "series": "total",
+      "value": 2714.957539599999
+    },
+    {
+      "date": "2022-04-01",
+      "series": "unconventional",
+      "value": 1119.5351272
+    },
+    {
+      "date": "2022-05-01",
+      "series": "conventional",
+      "value": 1653.9598076
+    },
+    {
+      "date": "2022-05-01",
+      "series": "total",
+      "value": 2841.4230920999985
+    },
+    {
+      "date": "2022-05-01",
+      "series": "unconventional",
+      "value": 1187.4632844999999
+    },
+    {
+      "date": "2022-06-01",
+      "series": "conventional",
+      "value": 1596.5621951000005
+    },
+    {
+      "date": "2022-06-01",
+      "series": "total",
+      "value": 2736.846769700002
+    },
+    {
+      "date": "2022-06-01",
+      "series": "unconventional",
+      "value": 1140.2845746000003
+    },
+    {
+      "date": "2022-07-01",
+      "series": "conventional",
+      "value": 1642.3287921999995
+    },
+    {
+      "date": "2022-07-01",
+      "series": "total",
+      "value": 2857.4600199999995
+    },
+    {
+      "date": "2022-07-01",
+      "series": "unconventional",
+      "value": 1215.1312278
+    },
+    {
+      "date": "2022-08-01",
+      "series": "conventional",
+      "value": 1641.5846130999992
+    },
+    {
+      "date": "2022-08-01",
+      "series": "total",
+      "value": 2878.759737700002
+    },
+    {
+      "date": "2022-08-01",
+      "series": "unconventional",
+      "value": 1237.1751246
+    },
+    {
+      "date": "2022-09-01",
+      "series": "conventional",
+      "value": 1573.2564003999994
+    },
+    {
+      "date": "2022-09-01",
+      "series": "total",
+      "value": 2836.2025822999994
+    },
+    {
+      "date": "2022-09-01",
+      "series": "unconventional",
+      "value": 1262.9461819000003
+    },
+    {
+      "date": "2022-10-01",
+      "series": "conventional",
+      "value": 1644.9582186000005
+    },
+    {
+      "date": "2022-10-01",
+      "series": "total",
+      "value": 3004.659822100001
+    },
+    {
+      "date": "2022-10-01",
+      "series": "unconventional",
+      "value": 1359.7016035
+    },
+    {
+      "date": "2022-11-01",
+      "series": "conventional",
+      "value": 1583.0948551000008
+    },
+    {
+      "date": "2022-11-01",
+      "series": "total",
+      "value": 2904.4249937
+    },
+    {
+      "date": "2022-11-01",
+      "series": "unconventional",
+      "value": 1321.3301386
+    },
+    {
+      "date": "2022-12-01",
+      "series": "conventional",
+      "value": 1619.7591064
+    },
+    {
+      "date": "2022-12-01",
+      "series": "total",
+      "value": 3013.8567439000008
+    },
+    {
+      "date": "2022-12-01",
+      "series": "unconventional",
+      "value": 1394.0976375
+    },
+    {
+      "date": "2023-01-01",
+      "series": "conventional",
+      "value": 1644.380123200001
+    },
+    {
+      "date": "2023-01-01",
+      "series": "total",
+      "value": 3035.9353450000017
+    },
+    {
+      "date": "2023-01-01",
+      "series": "unconventional",
+      "value": 1391.5552218
+    },
+    {
+      "date": "2023-02-01",
+      "series": "conventional",
+      "value": 1464.0925325000003
+    },
+    {
+      "date": "2023-02-01",
+      "series": "total",
+      "value": 2792.2732186000007
+    },
+    {
+      "date": "2023-02-01",
+      "series": "unconventional",
+      "value": 1328.1806860999998
+    },
+    {
+      "date": "2023-03-01",
+      "series": "conventional",
+      "value": 1602.7901150999994
+    },
+    {
+      "date": "2023-03-01",
+      "series": "total",
+      "value": 3110.5935354999992
+    },
+    {
+      "date": "2023-03-01",
+      "series": "unconventional",
+      "value": 1507.8034204
+    },
+    {
+      "date": "2023-04-01",
+      "series": "conventional",
+      "value": 1556.2804300000007
+    },
+    {
+      "date": "2023-04-01",
+      "series": "total",
+      "value": 2994.566393700001
+    },
+    {
+      "date": "2023-04-01",
+      "series": "unconventional",
+      "value": 1438.2859637000001
+    },
+    {
+      "date": "2023-05-01",
+      "series": "conventional",
+      "value": 1605.8801554
+    },
+    {
+      "date": "2023-05-01",
+      "series": "total",
+      "value": 3095.1272780999993
+    },
+    {
+      "date": "2023-05-01",
+      "series": "unconventional",
+      "value": 1489.2471227
+    },
+    {
+      "date": "2023-06-01",
+      "series": "conventional",
+      "value": 1543.9294181999996
+    },
+    {
+      "date": "2023-06-01",
+      "series": "total",
+      "value": 2958.4878263999994
+    },
+    {
+      "date": "2023-06-01",
+      "series": "unconventional",
+      "value": 1414.5584082
+    },
+    {
+      "date": "2023-07-01",
+      "series": "conventional",
+      "value": 1578.0414462000006
+    },
+    {
+      "date": "2023-07-01",
+      "series": "total",
+      "value": 3040.292610000001
+    },
+    {
+      "date": "2023-07-01",
+      "series": "unconventional",
+      "value": 1462.2511637999999
+    },
+    {
+      "date": "2023-08-01",
+      "series": "conventional",
+      "value": 1571.5155989000011
+    },
+    {
+      "date": "2023-08-01",
+      "series": "total",
+      "value": 3065.9157242999995
+    },
+    {
+      "date": "2023-08-01",
+      "series": "unconventional",
+      "value": 1494.4001254
+    },
+    {
+      "date": "2023-09-01",
+      "series": "conventional",
+      "value": 1553.8821216999997
+    },
+    {
+      "date": "2023-09-01",
+      "series": "total",
+      "value": 3037.512355100001
+    },
+    {
+      "date": "2023-09-01",
+      "series": "unconventional",
+      "value": 1483.6302333999995
+    },
+    {
+      "date": "2023-10-01",
+      "series": "conventional",
+      "value": 1598.9718167999995
+    },
+    {
+      "date": "2023-10-01",
+      "series": "total",
+      "value": 3221.1282582999993
+    },
+    {
+      "date": "2023-10-01",
+      "series": "unconventional",
+      "value": 1622.1564415000005
+    },
+    {
+      "date": "2023-11-01",
+      "series": "conventional",
+      "value": 1534.6330601999998
+    },
+    {
+      "date": "2023-11-01",
+      "series": "total",
+      "value": 3178.9549769999985
+    },
+    {
+      "date": "2023-11-01",
+      "series": "unconventional",
+      "value": 1644.3219167999998
+    },
+    {
+      "date": "2023-12-01",
+      "series": "conventional",
+      "value": 1575.6986498
+    },
+    {
+      "date": "2023-12-01",
+      "series": "total",
+      "value": 3337.247783
+    },
+    {
+      "date": "2023-12-01",
+      "series": "unconventional",
+      "value": 1761.5491332000001
+    },
+    {
+      "date": "2024-01-01",
+      "series": "conventional",
+      "value": 1571.7132970999996
+    },
+    {
+      "date": "2024-01-01",
+      "series": "total",
+      "value": 3300.2536816999987
+    },
+    {
+      "date": "2024-01-01",
+      "series": "unconventional",
+      "value": 1728.5403846
+    },
+    {
+      "date": "2024-02-01",
+      "series": "conventional",
+      "value": 1441.4559790000003
+    },
+    {
+      "date": "2024-02-01",
+      "series": "total",
+      "value": 3091.2385782999995
+    },
+    {
+      "date": "2024-02-01",
+      "series": "unconventional",
+      "value": 1649.7825992999994
+    },
+    {
+      "date": "2024-03-01",
+      "series": "conventional",
+      "value": 1538.9077404
+    },
+    {
+      "date": "2024-03-01",
+      "series": "total",
+      "value": 3340.1671653000017
+    },
+    {
+      "date": "2024-03-01",
+      "series": "unconventional",
+      "value": 1801.2594249000003
+    },
+    {
+      "date": "2024-04-01",
+      "series": "conventional",
+      "value": 1487.3728810000002
+    },
+    {
+      "date": "2024-04-01",
+      "series": "total",
+      "value": 3245.6768721000003
+    },
+    {
+      "date": "2024-04-01",
+      "series": "unconventional",
+      "value": 1758.3039911
+    },
+    {
+      "date": "2024-05-01",
+      "series": "conventional",
+      "value": 1534.5476716
+    },
+    {
+      "date": "2024-05-01",
+      "series": "total",
+      "value": 3368.701012900001
+    },
+    {
+      "date": "2024-05-01",
+      "series": "unconventional",
+      "value": 1834.1533412999997
+    },
+    {
+      "date": "2024-06-01",
+      "series": "conventional",
+      "value": 1343.8634194999997
+    },
+    {
+      "date": "2024-06-01",
+      "series": "total",
+      "value": 3152.4581433999974
+    },
+    {
+      "date": "2024-06-01",
+      "series": "unconventional",
+      "value": 1808.5947239000004
+    },
+    {
+      "date": "2024-07-01",
+      "series": "conventional",
+      "value": 1401.2184182000003
+    },
+    {
+      "date": "2024-07-01",
+      "series": "total",
+      "value": 3332.7205412999992
+    },
+    {
+      "date": "2024-07-01",
+      "series": "unconventional",
+      "value": 1931.5021230999996
+    },
+    {
+      "date": "2024-08-01",
+      "series": "conventional",
+      "value": 1492.3056933000007
+    },
+    {
+      "date": "2024-08-01",
+      "series": "total",
+      "value": 3505.944320700001
+    },
+    {
+      "date": "2024-08-01",
+      "series": "unconventional",
+      "value": 2013.6386274
+    },
+    {
+      "date": "2024-09-01",
+      "series": "conventional",
+      "value": 1473.4229312999992
+    },
+    {
+      "date": "2024-09-01",
+      "series": "total",
+      "value": 3497.1103643000006
+    },
+    {
+      "date": "2024-09-01",
+      "series": "unconventional",
+      "value": 2023.6874330000005
+    },
+    {
+      "date": "2024-10-01",
+      "series": "conventional",
+      "value": 1521.7769704
+    },
+    {
+      "date": "2024-10-01",
+      "series": "total",
+      "value": 3624.581020199998
+    },
+    {
+      "date": "2024-10-01",
+      "series": "unconventional",
+      "value": 2102.8040497999996
+    },
+    {
+      "date": "2024-11-01",
+      "series": "conventional",
+      "value": 1472.4923657999996
+    },
+    {
+      "date": "2024-11-01",
+      "series": "total",
+      "value": 3583.772357800001
+    },
+    {
+      "date": "2024-11-01",
+      "series": "unconventional",
+      "value": 2111.2799919999998
+    },
+    {
+      "date": "2024-12-01",
+      "series": "conventional",
+      "value": 1504.7151972999995
+    },
+    {
+      "date": "2024-12-01",
+      "series": "total",
+      "value": 3735.7468972999995
+    },
+    {
+      "date": "2024-12-01",
+      "series": "unconventional",
+      "value": 2231.0317
+    },
+    {
+      "date": "2025-01-01",
+      "series": "conventional",
+      "value": 1509.719490147612
+    },
+    {
+      "date": "2025-01-01",
+      "series": "total",
+      "value": 3684.6881448000004
+    },
+    {
+      "date": "2025-01-01",
+      "series": "unconventional",
+      "value": 2174.9686546523867
+    },
+    {
+      "date": "2025-02-01",
+      "series": "conventional",
+      "value": 1352.4815301331791
+    },
+    {
+      "date": "2025-02-01",
+      "series": "total",
+      "value": 3320.2525108
+    },
+    {
+      "date": "2025-02-01",
+      "series": "unconventional",
+      "value": 1967.7709806668202
+    },
+    {
+      "date": "2025-03-01",
+      "series": "conventional",
+      "value": 1500.2180030490626
+    },
+    {
+      "date": "2025-03-01",
+      "series": "total",
+      "value": 3689.2541408
+    },
+    {
+      "date": "2025-03-01",
+      "series": "unconventional",
+      "value": 2189.0361377509375
+    },
+    {
+      "date": "2025-04-01",
+      "series": "conventional",
+      "value": 1444.6521629365097
+    },
+    {
+      "date": "2025-04-01",
+      "series": "total",
+      "value": 3539.6136561000003
+    },
+    {
+      "date": "2025-04-01",
+      "series": "unconventional",
+      "value": 2094.96149316349
+    },
+    {
+      "date": "2025-05-01",
+      "series": "conventional",
+      "value": 1482.2787248578722
+    },
+    {
+      "date": "2025-05-01",
+      "series": "total",
+      "value": 3685.7498182000004
+    },
+    {
+      "date": "2025-05-01",
+      "series": "unconventional",
+      "value": 2203.471093342127
+    },
+    {
+      "date": "2025-06-01",
+      "series": "conventional",
+      "value": 1424.822075771722
+    },
+    {
+      "date": "2025-06-01",
+      "series": "total",
+      "value": 3697.0084649
+    },
+    {
+      "date": "2025-06-01",
+      "series": "unconventional",
+      "value": 2272.186389128278
+    },
+    {
+      "date": "2025-07-01",
+      "series": "conventional",
+      "value": 1463.5652373779933
+    },
+    {
+      "date": "2025-07-01",
+      "series": "total",
+      "value": 3969.2710016
+    },
+    {
+      "date": "2025-07-01",
+      "series": "unconventional",
+      "value": 2505.705764222007
+    },
+    {
+      "date": "2025-08-01",
+      "series": "conventional",
+      "value": 1443.4520286391175
+    },
+    {
+      "date": "2025-08-01",
+      "series": "total",
+      "value": 4028.0270357000018
+    },
+    {
+      "date": "2025-08-01",
+      "series": "unconventional",
+      "value": 2584.5750070608806
+    },
+    {
+      "date": "2025-09-01",
+      "series": "conventional",
+      "value": 1381.0296805410264
+    },
+    {
+      "date": "2025-09-01",
+      "series": "total",
+      "value": 3979.6289322000007
+    },
+    {
+      "date": "2025-09-01",
+      "series": "unconventional",
+      "value": 2598.599251658973
+    },
+    {
+      "date": "2025-10-01",
+      "series": "conventional",
+      "value": 1409.6707540560637
+    },
+    {
+      "date": "2025-10-01",
+      "series": "total",
+      "value": 4196.295567700001
+    },
+    {
+      "date": "2025-10-01",
+      "series": "unconventional",
+      "value": 2786.624813643936
+    },
+    {
+      "date": "2025-11-01",
+      "series": "conventional",
+      "value": 1318.5129053473809
+    },
+    {
+      "date": "2025-11-01",
+      "series": "total",
+      "value": 4048.8528202
+    },
+    {
+      "date": "2025-11-01",
+      "series": "unconventional",
+      "value": 2730.33991485262
+    },
+    {
+      "date": "2025-12-01",
+      "series": "conventional",
+      "value": 1393.7872924917583
+    },
+    {
+      "date": "2025-12-01",
+      "series": "total",
+      "value": 4285.363313500001
+    },
+    {
+      "date": "2025-12-01",
+      "series": "unconventional",
+      "value": 2891.5760210082426
+    },
+    {
+      "date": "2026-01-01",
+      "series": "conventional",
+      "value": 1378.1576316667397
+    },
+    {
+      "date": "2026-01-01",
+      "series": "total",
+      "value": 4311.8274489000005
+    },
+    {
+      "date": "2026-01-01",
+      "series": "unconventional",
+      "value": 2933.6698172332603
+    },
+    {
+      "date": "2026-02-01",
+      "series": "conventional",
+      "value": 1243.6159397679905
+    },
+    {
+      "date": "2026-02-01",
+      "series": "total",
+      "value": 3850.690539299999
+    },
+    {
+      "date": "2026-02-01",
+      "series": "unconventional",
+      "value": 2607.074599532009
+    },
+    {
+      "date": "2026-03-01",
+      "series": "conventional",
+      "value": 1361.6098565273287
+    },
+    {
+      "date": "2026-03-01",
+      "series": "total",
+      "value": 4287.536547899999
+    },
+    {
+      "date": "2026-03-01",
+      "series": "unconventional",
+      "value": 2925.926691372672
+    },
+    {
+      "date": "2026-04-01",
+      "series": "conventional",
+      "value": 1305.8324581380514
+    },
+    {
+      "date": "2026-04-01",
+      "series": "total",
+      "value": 4221.0899544
+    },
+    {
+      "date": "2026-04-01",
+      "series": "unconventional",
+      "value": 2915.2574962619497
+    },
+    {
+      "date": "2026-05-01",
+      "series": "conventional",
+      "value": 1357.1159435351503
+    },
+    {
+      "date": "2026-05-01",
+      "series": "total",
+      "value": 4409.238693599998
+    },
+    {
+      "date": "2026-05-01",
+      "series": "unconventional",
+      "value": 3052.1227500648506
+    },
+    {
+      "date": "2026-06-01",
+      "series": "conventional",
+      "value": 1309.8620529201544
+    },
+    {
+      "date": "2026-06-01",
+      "series": "total",
+      "value": 4313.635796300001
+    },
+    {
+      "date": "2026-06-01",
+      "series": "unconventional",
+      "value": 3003.7737433798447
+    },
+    {
+      "date": "2026-07-01",
+      "series": "conventional",
+      "value": 1324.7495082663745
+    },
+    {
+      "date": "2026-07-01",
+      "series": "total",
+      "value": 4485.113847712367
+    },
+    {
+      "date": "2026-07-01",
+      "series": "unconventional",
+      "value": 3160.3643394459923
+    },
+    {
+      "date": "2026-08-01",
+      "series": "conventional",
+      "value": 1308.6219591694648
+    },
+    {
+      "date": "2026-08-01",
+      "series": "total",
+      "value": 4606.157513705291
+    },
+    {
+      "date": "2026-08-01",
+      "series": "unconventional",
+      "value": 3297.5355545358248
+    },
+    {
+      "date": "2026-09-01",
+      "series": "conventional",
+      "value": 1278.319301335599
+    },
+    {
+      "date": "2026-09-01",
+      "series": "total",
+      "value": 4599.280436379768
+    },
+    {
+      "date": "2026-09-01",
+      "series": "unconventional",
+      "value": 3320.9611350441673
+    }
+  ],
+  "supportingSources": [
+    {
+      "label": "IPI minero · Publicaciones y metodología",
+      "url": "https://www.indec.gob.ar/Nivel4/Tema/3/7/172"
+    }
+  ],
+  "valueKind": "level",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-09-01",
+  "firstObservedPeriod": "2017-01-01",
+  "lastObservedBySeries": {
+    "total": "2026-09-01",
+    "conventional": "2026-09-01",
+    "unconventional": "2026-09-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:47:43Z",
+  "lastAttemptAt": "2026-11-13T12:47:43Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "82addbbbd50f0543bcac3feb33337aec7070b68bbdc2904b6a41ff8543fdae4f",
+  "rawSha256": "846517b9bd7e121639fea34fcc116a2d3164ca3dd188677ea109d5888158f7e6",
+  "dataChangedAt": "2026-11-13T05:37:04Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

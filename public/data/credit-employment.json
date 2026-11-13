@@ -1,0 +1,374 @@
+{
+  "id": "credit-employment",
+  "source": "SIPA · Trabajo registrado",
+  "sourceUrl": "https://www.argentina.gob.ar/sites/default/files/trabajoregistrado_2607_estadisticas.xlsx",
+  "frequency": "monthly",
+  "unit": "miles de personas, sin estacionalidad",
+  "series": [
+    {
+      "id": "private",
+      "label": "Asalariados privados",
+      "column": 1,
+      "headerToken": "privado"
+    },
+    {
+      "id": "public",
+      "label": "Asalariados públicos",
+      "column": 2,
+      "headerToken": "público"
+    }
+  ],
+  "methodNote": "Hoja T.2.2: empleo registrado en miles de personas, serie sin estacionalidad. No equivale a destrucción bruta de puestos ni a desocupación total. La comparación se inicia en noviembre de 2023 y admite revisiones del SIPA.",
+  "observations": [
+    {
+      "date": "2023-11-01",
+      "series": "private",
+      "value": 6372.561
+    },
+    {
+      "date": "2023-11-01",
+      "series": "public",
+      "value": 3467.618
+    },
+    {
+      "date": "2023-12-01",
+      "series": "private",
+      "value": 6361.229
+    },
+    {
+      "date": "2023-12-01",
+      "series": "public",
+      "value": 3474.648
+    },
+    {
+      "date": "2024-01-01",
+      "series": "private",
+      "value": 6327.681
+    },
+    {
+      "date": "2024-01-01",
+      "series": "public",
+      "value": 3443.287
+    },
+    {
+      "date": "2024-02-01",
+      "series": "private",
+      "value": 6300.781
+    },
+    {
+      "date": "2024-02-01",
+      "series": "public",
+      "value": 3443.279
+    },
+    {
+      "date": "2024-03-01",
+      "series": "private",
+      "value": 6275.634
+    },
+    {
+      "date": "2024-03-01",
+      "series": "public",
+      "value": 3441.035
+    },
+    {
+      "date": "2024-04-01",
+      "series": "private",
+      "value": 6258.901
+    },
+    {
+      "date": "2024-04-01",
+      "series": "public",
+      "value": 3437.242
+    },
+    {
+      "date": "2024-05-01",
+      "series": "private",
+      "value": 6248.96
+    },
+    {
+      "date": "2024-05-01",
+      "series": "public",
+      "value": 3429.597
+    },
+    {
+      "date": "2024-06-01",
+      "series": "private",
+      "value": 6239.013
+    },
+    {
+      "date": "2024-06-01",
+      "series": "public",
+      "value": 3425.921
+    },
+    {
+      "date": "2024-07-01",
+      "series": "private",
+      "value": 6233.453
+    },
+    {
+      "date": "2024-07-01",
+      "series": "public",
+      "value": 3422.687
+    },
+    {
+      "date": "2024-08-01",
+      "series": "private",
+      "value": 6236.942
+    },
+    {
+      "date": "2024-08-01",
+      "series": "public",
+      "value": 3420.206
+    },
+    {
+      "date": "2024-09-01",
+      "series": "private",
+      "value": 6246.023
+    },
+    {
+      "date": "2024-09-01",
+      "series": "public",
+      "value": 3419.024
+    },
+    {
+      "date": "2024-10-01",
+      "series": "private",
+      "value": 6253.385
+    },
+    {
+      "date": "2024-10-01",
+      "series": "public",
+      "value": 3420.614
+    },
+    {
+      "date": "2024-11-01",
+      "series": "private",
+      "value": 6254.864
+    },
+    {
+      "date": "2024-11-01",
+      "series": "public",
+      "value": 3418.089
+    },
+    {
+      "date": "2024-12-01",
+      "series": "private",
+      "value": 6263.647
+    },
+    {
+      "date": "2024-12-01",
+      "series": "public",
+      "value": 3413.809
+    },
+    {
+      "date": "2025-01-01",
+      "series": "private",
+      "value": 6256.191
+    },
+    {
+      "date": "2025-01-01",
+      "series": "public",
+      "value": 3419.286
+    },
+    {
+      "date": "2025-02-01",
+      "series": "private",
+      "value": 6265.656
+    },
+    {
+      "date": "2025-02-01",
+      "series": "public",
+      "value": 3407.766
+    },
+    {
+      "date": "2025-03-01",
+      "series": "private",
+      "value": 6253.849
+    },
+    {
+      "date": "2025-03-01",
+      "series": "public",
+      "value": 3408.426
+    },
+    {
+      "date": "2025-04-01",
+      "series": "private",
+      "value": 6264.964
+    },
+    {
+      "date": "2025-04-01",
+      "series": "public",
+      "value": 3409.198
+    },
+    {
+      "date": "2025-05-01",
+      "series": "private",
+      "value": 6266.915
+    },
+    {
+      "date": "2025-05-01",
+      "series": "public",
+      "value": 3402.446
+    },
+    {
+      "date": "2025-06-01",
+      "series": "private",
+      "value": 6251.835
+    },
+    {
+      "date": "2025-06-01",
+      "series": "public",
+      "value": 3409.838
+    },
+    {
+      "date": "2025-07-01",
+      "series": "private",
+      "value": 6240.83
+    },
+    {
+      "date": "2025-07-01",
+      "series": "public",
+      "value": 3407.709
+    },
+    {
+      "date": "2025-08-01",
+      "series": "private",
+      "value": 6229.115
+    },
+    {
+      "date": "2025-08-01",
+      "series": "public",
+      "value": 3404.932
+    },
+    {
+      "date": "2025-09-01",
+      "series": "private",
+      "value": 6216.092
+    },
+    {
+      "date": "2025-09-01",
+      "series": "public",
+      "value": 3406.739
+    },
+    {
+      "date": "2025-10-01",
+      "series": "private",
+      "value": 6200.552
+    },
+    {
+      "date": "2025-10-01",
+      "series": "public",
+      "value": 3402.523
+    },
+    {
+      "date": "2025-11-01",
+      "series": "private",
+      "value": 6184.551
+    },
+    {
+      "date": "2025-11-01",
+      "series": "public",
+      "value": 3396.573
+    },
+    {
+      "date": "2025-12-01",
+      "series": "private",
+      "value": 6172.323
+    },
+    {
+      "date": "2025-12-01",
+      "series": "public",
+      "value": 3395.02
+    },
+    {
+      "date": "2026-01-01",
+      "series": "private",
+      "value": 6159.68
+    },
+    {
+      "date": "2026-01-01",
+      "series": "public",
+      "value": 3390.609
+    },
+    {
+      "date": "2026-02-01",
+      "series": "private",
+      "value": 6156.689
+    },
+    {
+      "date": "2026-02-01",
+      "series": "public",
+      "value": 3394.344
+    },
+    {
+      "date": "2026-03-01",
+      "series": "private",
+      "value": 6147.788
+    },
+    {
+      "date": "2026-03-01",
+      "series": "public",
+      "value": 3395.724
+    },
+    {
+      "date": "2026-04-01",
+      "series": "private",
+      "value": 6135.296
+    },
+    {
+      "date": "2026-04-01",
+      "series": "public",
+      "value": 3386.31
+    },
+    {
+      "date": "2026-05-01",
+      "series": "private",
+      "value": 6125.383
+    },
+    {
+      "date": "2026-05-01",
+      "series": "public",
+      "value": 3385.893
+    },
+    {
+      "date": "2026-06-01",
+      "series": "private",
+      "value": 6119.512
+    },
+    {
+      "date": "2026-06-01",
+      "series": "public",
+      "value": 3380.305
+    },
+    {
+      "date": "2026-07-01",
+      "series": "private",
+      "value": 6106.796
+    },
+    {
+      "date": "2026-07-01",
+      "series": "public",
+      "value": 3385.028
+    }
+  ],
+  "valueKind": "level",
+  "supportingSources": [],
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-07-01",
+  "firstObservedPeriod": "2023-11-01",
+  "lastObservedBySeries": {
+    "private": "2026-07-01",
+    "public": "2026-07-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:47:36Z",
+  "lastAttemptAt": "2026-11-13T12:47:36Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "902c710c9764e3296848e6503e28ba1cd51582f896a7035abbaf86631bb44f53",
+  "rawSha256": "01982d68bcc4eeb77432e2189a8b96a941a9d57f7b94fccf1bb6bfc523d38ae0",
+  "dataChangedAt": "2026-11-13T03:21:12Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

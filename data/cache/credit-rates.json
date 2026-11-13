@@ -1,0 +1,924 @@
+{
+  "id": "credit-rates",
+  "source": "BCRA · Tasas de interés",
+  "sourceUrl": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/preser_tas.xls",
+  "frequency": "monthly",
+  "unit": "% nominal anual (TNA)",
+  "series": [
+    {
+      "id": "personal",
+      "label": "Personales a tasa no nula"
+    },
+    {
+      "id": "deposit",
+      "label": "Plazo fijo en pesos, 30–59 días"
+    },
+    {
+      "id": "card",
+      "label": "Tarjetas a tasa no nula"
+    }
+  ],
+  "methodNote": "Series mensuales preser_tas.xls (hoja Tasas_sector_privado) y pashis.xls (Serie_Mensual). Total de depositantes para plazo fijo de 30–59 días: universo diferente del plazo fijo minorista de 30–35 días. Tasas nominales sin CFT, cargos ni impuestos de un contrato individual.",
+  "observations": [
+    {
+      "date": "2022-01-01",
+      "series": "card",
+      "value": 43.1
+    },
+    {
+      "date": "2022-01-01",
+      "series": "deposit",
+      "value": 35.89062506784002
+    },
+    {
+      "date": "2022-01-01",
+      "series": "personal",
+      "value": 54.97
+    },
+    {
+      "date": "2022-02-01",
+      "series": "card",
+      "value": 46.2
+    },
+    {
+      "date": "2022-02-01",
+      "series": "deposit",
+      "value": 37.358086365427894
+    },
+    {
+      "date": "2022-02-01",
+      "series": "personal",
+      "value": 55.89
+    },
+    {
+      "date": "2022-03-01",
+      "series": "card",
+      "value": 46.7
+    },
+    {
+      "date": "2022-03-01",
+      "series": "deposit",
+      "value": 39.4671486165504
+    },
+    {
+      "date": "2022-03-01",
+      "series": "personal",
+      "value": 56.0
+    },
+    {
+      "date": "2022-04-01",
+      "series": "card",
+      "value": 48.44
+    },
+    {
+      "date": "2022-04-01",
+      "series": "deposit",
+      "value": 42.24982812615229
+    },
+    {
+      "date": "2022-04-01",
+      "series": "personal",
+      "value": 58.06
+    },
+    {
+      "date": "2022-05-01",
+      "series": "card",
+      "value": 50.23
+    },
+    {
+      "date": "2022-05-01",
+      "series": "deposit",
+      "value": 44.46229609959885
+    },
+    {
+      "date": "2022-05-01",
+      "series": "personal",
+      "value": 59.24
+    },
+    {
+      "date": "2022-06-01",
+      "series": "card",
+      "value": 51.2
+    },
+    {
+      "date": "2022-06-01",
+      "series": "deposit",
+      "value": 47.45042272208011
+    },
+    {
+      "date": "2022-06-01",
+      "series": "personal",
+      "value": 60.34
+    },
+    {
+      "date": "2022-07-01",
+      "series": "card",
+      "value": 52.3
+    },
+    {
+      "date": "2022-07-01",
+      "series": "deposit",
+      "value": 50.17590420360129
+    },
+    {
+      "date": "2022-07-01",
+      "series": "personal",
+      "value": 65.68
+    },
+    {
+      "date": "2022-08-01",
+      "series": "card",
+      "value": 54.92
+    },
+    {
+      "date": "2022-08-01",
+      "series": "deposit",
+      "value": 59.938523677876084
+    },
+    {
+      "date": "2022-08-01",
+      "series": "personal",
+      "value": 74.79
+    },
+    {
+      "date": "2022-09-01",
+      "series": "card",
+      "value": 59.53
+    },
+    {
+      "date": "2022-09-01",
+      "series": "deposit",
+      "value": 66.06710730261057
+    },
+    {
+      "date": "2022-09-01",
+      "series": "personal",
+      "value": 78.34
+    },
+    {
+      "date": "2022-10-01",
+      "series": "card",
+      "value": 68.79
+    },
+    {
+      "date": "2022-10-01",
+      "series": "deposit",
+      "value": 68.50624344324078
+    },
+    {
+      "date": "2022-10-01",
+      "series": "personal",
+      "value": 82.96
+    },
+    {
+      "date": "2022-11-01",
+      "series": "card",
+      "value": 76.84
+    },
+    {
+      "date": "2022-11-01",
+      "series": "deposit",
+      "value": 68.60557832754027
+    },
+    {
+      "date": "2022-11-01",
+      "series": "personal",
+      "value": 79.09
+    },
+    {
+      "date": "2022-12-01",
+      "series": "card",
+      "value": 77.1
+    },
+    {
+      "date": "2022-12-01",
+      "series": "deposit",
+      "value": 68.82824544088395
+    },
+    {
+      "date": "2022-12-01",
+      "series": "personal",
+      "value": 81.26
+    },
+    {
+      "date": "2023-01-01",
+      "series": "card",
+      "value": 79.25
+    },
+    {
+      "date": "2023-01-01",
+      "series": "deposit",
+      "value": 68.95416508634581
+    },
+    {
+      "date": "2023-01-01",
+      "series": "personal",
+      "value": 80.23
+    },
+    {
+      "date": "2023-02-01",
+      "series": "card",
+      "value": 79.88
+    },
+    {
+      "date": "2023-02-01",
+      "series": "deposit",
+      "value": 69.17495876935276
+    },
+    {
+      "date": "2023-02-01",
+      "series": "personal",
+      "value": 80.6
+    },
+    {
+      "date": "2023-03-01",
+      "series": "card",
+      "value": 79.28
+    },
+    {
+      "date": "2023-03-01",
+      "series": "deposit",
+      "value": 70.49797611768709
+    },
+    {
+      "date": "2023-03-01",
+      "series": "personal",
+      "value": 80.98
+    },
+    {
+      "date": "2023-04-01",
+      "series": "card",
+      "value": 79.83
+    },
+    {
+      "date": "2023-04-01",
+      "series": "deposit",
+      "value": 74.03317798721734
+    },
+    {
+      "date": "2023-04-01",
+      "series": "personal",
+      "value": 82.03
+    },
+    {
+      "date": "2023-05-01",
+      "series": "card",
+      "value": 80.41
+    },
+    {
+      "date": "2023-05-01",
+      "series": "deposit",
+      "value": 88.92929705912269
+    },
+    {
+      "date": "2023-05-01",
+      "series": "personal",
+      "value": 94.8
+    },
+    {
+      "date": "2023-06-01",
+      "series": "card",
+      "value": 82.83
+    },
+    {
+      "date": "2023-06-01",
+      "series": "deposit",
+      "value": 91.69590652489221
+    },
+    {
+      "date": "2023-06-01",
+      "series": "personal",
+      "value": 105.06
+    },
+    {
+      "date": "2023-07-01",
+      "series": "card",
+      "value": 84.2
+    },
+    {
+      "date": "2023-07-01",
+      "series": "deposit",
+      "value": 91.89300747114562
+    },
+    {
+      "date": "2023-07-01",
+      "series": "personal",
+      "value": 103.12
+    },
+    {
+      "date": "2023-08-01",
+      "series": "card",
+      "value": 88.71
+    },
+    {
+      "date": "2023-08-01",
+      "series": "deposit",
+      "value": 103.53724932374138
+    },
+    {
+      "date": "2023-08-01",
+      "series": "personal",
+      "value": 109.14
+    },
+    {
+      "date": "2023-09-01",
+      "series": "card",
+      "value": 92.5
+    },
+    {
+      "date": "2023-09-01",
+      "series": "deposit",
+      "value": 112.42256064018186
+    },
+    {
+      "date": "2023-09-01",
+      "series": "personal",
+      "value": 98.21
+    },
+    {
+      "date": "2023-10-01",
+      "series": "card",
+      "value": 97.34
+    },
+    {
+      "date": "2023-10-01",
+      "series": "deposit",
+      "value": 121.45364492515257
+    },
+    {
+      "date": "2023-10-01",
+      "series": "personal",
+      "value": 115.53
+    },
+    {
+      "date": "2023-11-01",
+      "series": "card",
+      "value": 107.53
+    },
+    {
+      "date": "2023-11-01",
+      "series": "deposit",
+      "value": 127.7655773835292
+    },
+    {
+      "date": "2023-11-01",
+      "series": "personal",
+      "value": 135.75
+    },
+    {
+      "date": "2023-12-01",
+      "series": "card",
+      "value": 120.48
+    },
+    {
+      "date": "2023-12-01",
+      "series": "deposit",
+      "value": 119.60342445135778
+    },
+    {
+      "date": "2023-12-01",
+      "series": "personal",
+      "value": 139.8
+    },
+    {
+      "date": "2024-01-01",
+      "series": "card",
+      "value": 121.11
+    },
+    {
+      "date": "2024-01-01",
+      "series": "deposit",
+      "value": 106.40395312235158
+    },
+    {
+      "date": "2024-01-01",
+      "series": "personal",
+      "value": 136.81
+    },
+    {
+      "date": "2024-02-01",
+      "series": "card",
+      "value": 122.48
+    },
+    {
+      "date": "2024-02-01",
+      "series": "deposit",
+      "value": 105.98939725278134
+    },
+    {
+      "date": "2024-02-01",
+      "series": "personal",
+      "value": 126.95
+    },
+    {
+      "date": "2024-03-01",
+      "series": "card",
+      "value": 124.08
+    },
+    {
+      "date": "2024-03-01",
+      "series": "deposit",
+      "value": 84.2510212524512
+    },
+    {
+      "date": "2024-03-01",
+      "series": "personal",
+      "value": 126.29
+    },
+    {
+      "date": "2024-04-01",
+      "series": "card",
+      "value": 121.75
+    },
+    {
+      "date": "2024-04-01",
+      "series": "deposit",
+      "value": 63.75244929674652
+    },
+    {
+      "date": "2024-04-01",
+      "series": "personal",
+      "value": 101.84
+    },
+    {
+      "date": "2024-05-01",
+      "series": "card",
+      "value": 116.33
+    },
+    {
+      "date": "2024-05-01",
+      "series": "deposit",
+      "value": 35.69537763927475
+    },
+    {
+      "date": "2024-05-01",
+      "series": "personal",
+      "value": 69.59
+    },
+    {
+      "date": "2024-06-01",
+      "series": "card",
+      "value": 101.72
+    },
+    {
+      "date": "2024-06-01",
+      "series": "deposit",
+      "value": 32.71821287942162
+    },
+    {
+      "date": "2024-06-01",
+      "series": "personal",
+      "value": 64.23
+    },
+    {
+      "date": "2024-07-01",
+      "series": "card",
+      "value": 87.12
+    },
+    {
+      "date": "2024-07-01",
+      "series": "deposit",
+      "value": 35.88180365417329
+    },
+    {
+      "date": "2024-07-01",
+      "series": "personal",
+      "value": 63.44
+    },
+    {
+      "date": "2024-08-01",
+      "series": "card",
+      "value": 96.01
+    },
+    {
+      "date": "2024-08-01",
+      "series": "deposit",
+      "value": 38.151374851916835
+    },
+    {
+      "date": "2024-08-01",
+      "series": "personal",
+      "value": 68.21
+    },
+    {
+      "date": "2024-09-01",
+      "series": "card",
+      "value": 96.62
+    },
+    {
+      "date": "2024-09-01",
+      "series": "deposit",
+      "value": 39.05605390290045
+    },
+    {
+      "date": "2024-09-01",
+      "series": "personal",
+      "value": 68.83
+    },
+    {
+      "date": "2024-10-01",
+      "series": "card",
+      "value": 96.0
+    },
+    {
+      "date": "2024-10-01",
+      "series": "deposit",
+      "value": 40.100730586735544
+    },
+    {
+      "date": "2024-10-01",
+      "series": "personal",
+      "value": 70.66
+    },
+    {
+      "date": "2024-11-01",
+      "series": "card",
+      "value": 89.61
+    },
+    {
+      "date": "2024-11-01",
+      "series": "deposit",
+      "value": 36.05894043027375
+    },
+    {
+      "date": "2024-11-01",
+      "series": "personal",
+      "value": 71.03
+    },
+    {
+      "date": "2024-12-01",
+      "series": "card",
+      "value": 88.71
+    },
+    {
+      "date": "2024-12-01",
+      "series": "deposit",
+      "value": 32.90708187947728
+    },
+    {
+      "date": "2024-12-01",
+      "series": "personal",
+      "value": 70.62
+    },
+    {
+      "date": "2025-01-01",
+      "series": "card",
+      "value": 83.91
+    },
+    {
+      "date": "2025-01-01",
+      "series": "deposit",
+      "value": 31.345421429157735
+    },
+    {
+      "date": "2025-01-01",
+      "series": "personal",
+      "value": 71.47
+    },
+    {
+      "date": "2025-02-01",
+      "series": "card",
+      "value": 84.3
+    },
+    {
+      "date": "2025-02-01",
+      "series": "deposit",
+      "value": 28.25622517873147
+    },
+    {
+      "date": "2025-02-01",
+      "series": "personal",
+      "value": 69.35
+    },
+    {
+      "date": "2025-03-01",
+      "series": "card",
+      "value": 84.7
+    },
+    {
+      "date": "2025-03-01",
+      "series": "deposit",
+      "value": 29.006575921958486
+    },
+    {
+      "date": "2025-03-01",
+      "series": "personal",
+      "value": 69.08
+    },
+    {
+      "date": "2025-04-01",
+      "series": "card",
+      "value": 83.99
+    },
+    {
+      "date": "2025-04-01",
+      "series": "deposit",
+      "value": 33.37460995143041
+    },
+    {
+      "date": "2025-04-01",
+      "series": "personal",
+      "value": 71.02
+    },
+    {
+      "date": "2025-05-01",
+      "series": "card",
+      "value": 85.0
+    },
+    {
+      "date": "2025-05-01",
+      "series": "deposit",
+      "value": 32.65520331964169
+    },
+    {
+      "date": "2025-05-01",
+      "series": "personal",
+      "value": 72.77
+    },
+    {
+      "date": "2025-06-01",
+      "series": "card",
+      "value": 86.47
+    },
+    {
+      "date": "2025-06-01",
+      "series": "deposit",
+      "value": 32.10578902607176
+    },
+    {
+      "date": "2025-06-01",
+      "series": "personal",
+      "value": 73.48
+    },
+    {
+      "date": "2025-07-01",
+      "series": "card",
+      "value": 85.74
+    },
+    {
+      "date": "2025-07-01",
+      "series": "deposit",
+      "value": 32.350300109451474
+    },
+    {
+      "date": "2025-07-01",
+      "series": "personal",
+      "value": 70.46
+    },
+    {
+      "date": "2025-08-01",
+      "series": "card",
+      "value": 86.56
+    },
+    {
+      "date": "2025-08-01",
+      "series": "deposit",
+      "value": 47.03442117161218
+    },
+    {
+      "date": "2025-08-01",
+      "series": "personal",
+      "value": 74.23
+    },
+    {
+      "date": "2025-09-01",
+      "series": "card",
+      "value": 84.59
+    },
+    {
+      "date": "2025-09-01",
+      "series": "deposit",
+      "value": 48.13846340917715
+    },
+    {
+      "date": "2025-09-01",
+      "series": "personal",
+      "value": 82.09
+    },
+    {
+      "date": "2025-10-01",
+      "series": "card",
+      "value": 84.57
+    },
+    {
+      "date": "2025-10-01",
+      "series": "deposit",
+      "value": 45.755020613039434
+    },
+    {
+      "date": "2025-10-01",
+      "series": "personal",
+      "value": 83.77
+    },
+    {
+      "date": "2025-11-01",
+      "series": "card",
+      "value": 87.38
+    },
+    {
+      "date": "2025-11-01",
+      "series": "deposit",
+      "value": 31.99048277561034
+    },
+    {
+      "date": "2025-11-01",
+      "series": "personal",
+      "value": 78.2
+    },
+    {
+      "date": "2025-12-01",
+      "series": "card",
+      "value": 96.52
+    },
+    {
+      "date": "2025-12-01",
+      "series": "deposit",
+      "value": 26.34232576148185
+    },
+    {
+      "date": "2025-12-01",
+      "series": "personal",
+      "value": 71.07
+    },
+    {
+      "date": "2026-01-01",
+      "series": "card",
+      "value": 90.35
+    },
+    {
+      "date": "2026-01-01",
+      "series": "deposit",
+      "value": 30.369406632765873
+    },
+    {
+      "date": "2026-01-01",
+      "series": "personal",
+      "value": 68.74
+    },
+    {
+      "date": "2026-02-01",
+      "series": "card",
+      "value": 89.05
+    },
+    {
+      "date": "2026-02-01",
+      "series": "deposit",
+      "value": 30.130492189635238
+    },
+    {
+      "date": "2026-02-01",
+      "series": "personal",
+      "value": 69.74
+    },
+    {
+      "date": "2026-03-01",
+      "series": "card",
+      "value": 88.25
+    },
+    {
+      "date": "2026-03-01",
+      "series": "deposit",
+      "value": 27.31318014084674
+    },
+    {
+      "date": "2026-03-01",
+      "series": "personal",
+      "value": 69.47
+    },
+    {
+      "date": "2026-04-01",
+      "series": "card",
+      "value": 87.04
+    },
+    {
+      "date": "2026-04-01",
+      "series": "deposit",
+      "value": 22.65024903226366
+    },
+    {
+      "date": "2026-04-01",
+      "series": "personal",
+      "value": 67.94
+    },
+    {
+      "date": "2026-05-01",
+      "series": "card",
+      "value": 87.39
+    },
+    {
+      "date": "2026-05-01",
+      "series": "deposit",
+      "value": 21.285602210810737
+    },
+    {
+      "date": "2026-05-01",
+      "series": "personal",
+      "value": 67.31
+    },
+    {
+      "date": "2026-06-01",
+      "series": "card",
+      "value": 84.36
+    },
+    {
+      "date": "2026-06-01",
+      "series": "deposit",
+      "value": 20.806679784391005
+    },
+    {
+      "date": "2026-06-01",
+      "series": "personal",
+      "value": 66.73
+    },
+    {
+      "date": "2026-07-01",
+      "series": "card",
+      "value": 81.8
+    },
+    {
+      "date": "2026-07-01",
+      "series": "deposit",
+      "value": 21.05670418379312
+    },
+    {
+      "date": "2026-07-01",
+      "series": "personal",
+      "value": 65.83
+    },
+    {
+      "date": "2026-08-01",
+      "series": "card",
+      "value": 79.15
+    },
+    {
+      "date": "2026-08-01",
+      "series": "deposit",
+      "value": 22.262101160872636
+    },
+    {
+      "date": "2026-08-01",
+      "series": "personal",
+      "value": 65.83
+    },
+    {
+      "date": "2026-09-01",
+      "series": "card",
+      "value": 77.67
+    },
+    {
+      "date": "2026-09-01",
+      "series": "deposit",
+      "value": 22.195844187623102
+    },
+    {
+      "date": "2026-09-01",
+      "series": "personal",
+      "value": 62.65
+    },
+    {
+      "date": "2026-10-01",
+      "series": "card",
+      "value": 77.29
+    },
+    {
+      "date": "2026-10-01",
+      "series": "deposit",
+      "value": 22.566332115875667
+    },
+    {
+      "date": "2026-10-01",
+      "series": "personal",
+      "value": 62.93
+    }
+  ],
+  "valueKind": "rate",
+  "supportingSources": [
+    {
+      "label": "BCRA · Tasas pasivas",
+      "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/pashis.xls"
+    },
+    {
+      "label": "INDEC · IPC nacional",
+      "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv"
+    }
+  ],
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-10-01",
+  "firstObservedPeriod": "2022-01-01",
+  "lastObservedBySeries": {
+    "personal": "2026-10-01",
+    "deposit": "2026-10-01",
+    "card": "2026-10-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:47:33Z",
+  "lastAttemptAt": "2026-11-13T12:47:33Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "36aa882434f53a8394d24e65dfd36ddecc39d868d62ac28bfc74bcd2f0d5ddf3",
+  "rawSha256": "2fdd01f71f9ae79e1ffcbe28fd3507b3d91d1020eaa6d38bbd1731632b30a0b5",
+  "dataChangedAt": "2026-11-13T03:21:12Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

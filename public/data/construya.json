@@ -1,0 +1,1219 @@
+{
+  "id": "construya",
+  "source": "Grupo Construya",
+  "sourceUrl": "https://www.grupoconstruya.com/servicios/indice_construya",
+  "frequency": "monthly",
+  "unit": "índice, junio 2002=100",
+  "series": [
+    {
+      "id": "original",
+      "label": "Con estacionalidad (original)"
+    },
+    {
+      "id": "adjusted",
+      "label": "Desestacionalizado"
+    }
+  ],
+  "methodNote": "Volúmenes vendidos por las empresas integrantes de Construya. Original y desestacionalizado. Base verificada en https://www.grupoconstruya.com/servicios/indice_quees; universo privado distinto del ISAC.",
+  "observations": [
+    {
+      "date": "2017-01-01",
+      "series": "adjusted",
+      "value": 275.3
+    },
+    {
+      "date": "2017-01-01",
+      "series": "original",
+      "value": 304.9
+    },
+    {
+      "date": "2017-02-01",
+      "series": "adjusted",
+      "value": 297.7
+    },
+    {
+      "date": "2017-02-01",
+      "series": "original",
+      "value": 281.0
+    },
+    {
+      "date": "2017-03-01",
+      "series": "adjusted",
+      "value": 307.4
+    },
+    {
+      "date": "2017-03-01",
+      "series": "original",
+      "value": 343.9
+    },
+    {
+      "date": "2017-04-01",
+      "series": "adjusted",
+      "value": 311.2
+    },
+    {
+      "date": "2017-04-01",
+      "series": "original",
+      "value": 305.6
+    },
+    {
+      "date": "2017-05-01",
+      "series": "adjusted",
+      "value": 321.5
+    },
+    {
+      "date": "2017-05-01",
+      "series": "original",
+      "value": 340.1
+    },
+    {
+      "date": "2017-06-01",
+      "series": "adjusted",
+      "value": 337.6
+    },
+    {
+      "date": "2017-06-01",
+      "series": "original",
+      "value": 346.6
+    },
+    {
+      "date": "2017-07-01",
+      "series": "adjusted",
+      "value": 351.0
+    },
+    {
+      "date": "2017-07-01",
+      "series": "original",
+      "value": 364.8
+    },
+    {
+      "date": "2017-08-01",
+      "series": "adjusted",
+      "value": 363.2
+    },
+    {
+      "date": "2017-08-01",
+      "series": "original",
+      "value": 413.6
+    },
+    {
+      "date": "2017-09-01",
+      "series": "adjusted",
+      "value": 349.7
+    },
+    {
+      "date": "2017-09-01",
+      "series": "original",
+      "value": 405.9
+    },
+    {
+      "date": "2017-10-01",
+      "series": "adjusted",
+      "value": 354.4
+    },
+    {
+      "date": "2017-10-01",
+      "series": "original",
+      "value": 398.5
+    },
+    {
+      "date": "2017-11-01",
+      "series": "adjusted",
+      "value": 374.6
+    },
+    {
+      "date": "2017-11-01",
+      "series": "original",
+      "value": 428.0
+    },
+    {
+      "date": "2017-12-01",
+      "series": "adjusted",
+      "value": 340.9
+    },
+    {
+      "date": "2017-12-01",
+      "series": "original",
+      "value": 356.9
+    },
+    {
+      "date": "2018-01-01",
+      "series": "adjusted",
+      "value": 314.6
+    },
+    {
+      "date": "2018-01-01",
+      "series": "original",
+      "value": 348.5
+    },
+    {
+      "date": "2018-02-01",
+      "series": "adjusted",
+      "value": 334.6
+    },
+    {
+      "date": "2018-02-01",
+      "series": "original",
+      "value": 315.8
+    },
+    {
+      "date": "2018-03-01",
+      "series": "adjusted",
+      "value": 332.3
+    },
+    {
+      "date": "2018-03-01",
+      "series": "original",
+      "value": 352.2
+    },
+    {
+      "date": "2018-04-01",
+      "series": "adjusted",
+      "value": 363.5
+    },
+    {
+      "date": "2018-04-01",
+      "series": "original",
+      "value": 362.1
+    },
+    {
+      "date": "2018-05-01",
+      "series": "adjusted",
+      "value": 345.3
+    },
+    {
+      "date": "2018-05-01",
+      "series": "original",
+      "value": 365.3
+    },
+    {
+      "date": "2018-06-01",
+      "series": "adjusted",
+      "value": 314.4
+    },
+    {
+      "date": "2018-06-01",
+      "series": "original",
+      "value": 328.0
+    },
+    {
+      "date": "2018-07-01",
+      "series": "adjusted",
+      "value": 338.2
+    },
+    {
+      "date": "2018-07-01",
+      "series": "original",
+      "value": 337.4
+    },
+    {
+      "date": "2018-08-01",
+      "series": "adjusted",
+      "value": 315.6
+    },
+    {
+      "date": "2018-08-01",
+      "series": "original",
+      "value": 363.8
+    },
+    {
+      "date": "2018-09-01",
+      "series": "adjusted",
+      "value": 312.1
+    },
+    {
+      "date": "2018-09-01",
+      "series": "original",
+      "value": 347.5
+    },
+    {
+      "date": "2018-10-01",
+      "series": "adjusted",
+      "value": 281.1
+    },
+    {
+      "date": "2018-10-01",
+      "series": "original",
+      "value": 329.4
+    },
+    {
+      "date": "2018-11-01",
+      "series": "adjusted",
+      "value": 260.6
+    },
+    {
+      "date": "2018-11-01",
+      "series": "original",
+      "value": 297.7
+    },
+    {
+      "date": "2018-12-01",
+      "series": "adjusted",
+      "value": 243.5
+    },
+    {
+      "date": "2018-12-01",
+      "series": "original",
+      "value": 243.6
+    },
+    {
+      "date": "2019-01-01",
+      "series": "adjusted",
+      "value": 251.5
+    },
+    {
+      "date": "2019-01-01",
+      "series": "original",
+      "value": 278.6
+    },
+    {
+      "date": "2019-02-01",
+      "series": "adjusted",
+      "value": 264.9
+    },
+    {
+      "date": "2019-02-01",
+      "series": "original",
+      "value": 274.0
+    },
+    {
+      "date": "2019-03-01",
+      "series": "adjusted",
+      "value": 290.4
+    },
+    {
+      "date": "2019-03-01",
+      "series": "original",
+      "value": 294.8
+    },
+    {
+      "date": "2019-04-01",
+      "series": "adjusted",
+      "value": 301.2
+    },
+    {
+      "date": "2019-04-01",
+      "series": "original",
+      "value": 300.0
+    },
+    {
+      "date": "2019-05-01",
+      "series": "adjusted",
+      "value": 297.1
+    },
+    {
+      "date": "2019-05-01",
+      "series": "original",
+      "value": 318.2
+    },
+    {
+      "date": "2019-06-01",
+      "series": "adjusted",
+      "value": 295.6
+    },
+    {
+      "date": "2019-06-01",
+      "series": "original",
+      "value": 282.5
+    },
+    {
+      "date": "2019-07-01",
+      "series": "adjusted",
+      "value": 304.0
+    },
+    {
+      "date": "2019-07-01",
+      "series": "original",
+      "value": 312.1
+    },
+    {
+      "date": "2019-08-01",
+      "series": "adjusted",
+      "value": 291.8
+    },
+    {
+      "date": "2019-08-01",
+      "series": "original",
+      "value": 336.4
+    },
+    {
+      "date": "2019-09-01",
+      "series": "adjusted",
+      "value": 287.5
+    },
+    {
+      "date": "2019-09-01",
+      "series": "original",
+      "value": 324.2
+    },
+    {
+      "date": "2019-10-01",
+      "series": "adjusted",
+      "value": 302.1
+    },
+    {
+      "date": "2019-10-01",
+      "series": "original",
+      "value": 358.3
+    },
+    {
+      "date": "2019-11-01",
+      "series": "adjusted",
+      "value": 297.4
+    },
+    {
+      "date": "2019-11-01",
+      "series": "original",
+      "value": 335.5
+    },
+    {
+      "date": "2019-12-01",
+      "series": "adjusted",
+      "value": 251.0
+    },
+    {
+      "date": "2019-12-01",
+      "series": "original",
+      "value": 266.2
+    },
+    {
+      "date": "2020-01-01",
+      "series": "adjusted",
+      "value": 241.7
+    },
+    {
+      "date": "2020-01-01",
+      "series": "original",
+      "value": 267.8
+    },
+    {
+      "date": "2020-02-01",
+      "series": "adjusted",
+      "value": 264.4
+    },
+    {
+      "date": "2020-02-01",
+      "series": "original",
+      "value": 258.0
+    },
+    {
+      "date": "2020-03-01",
+      "series": "adjusted",
+      "value": 181.3
+    },
+    {
+      "date": "2020-03-01",
+      "series": "original",
+      "value": 178.3
+    },
+    {
+      "date": "2020-04-01",
+      "series": "adjusted",
+      "value": 74.1
+    },
+    {
+      "date": "2020-04-01",
+      "series": "original",
+      "value": 77.0
+    },
+    {
+      "date": "2020-05-01",
+      "series": "adjusted",
+      "value": 210.0
+    },
+    {
+      "date": "2020-05-01",
+      "series": "original",
+      "value": 210.0
+    },
+    {
+      "date": "2020-06-01",
+      "series": "adjusted",
+      "value": 279.9
+    },
+    {
+      "date": "2020-06-01",
+      "series": "original",
+      "value": 287.4
+    },
+    {
+      "date": "2020-07-01",
+      "series": "adjusted",
+      "value": 355.3
+    },
+    {
+      "date": "2020-07-01",
+      "series": "original",
+      "value": 354.4
+    },
+    {
+      "date": "2020-08-01",
+      "series": "adjusted",
+      "value": 315.1
+    },
+    {
+      "date": "2020-08-01",
+      "series": "original",
+      "value": 344.3
+    },
+    {
+      "date": "2020-09-01",
+      "series": "adjusted",
+      "value": 345.1
+    },
+    {
+      "date": "2020-09-01",
+      "series": "original",
+      "value": 384.2
+    },
+    {
+      "date": "2020-10-01",
+      "series": "adjusted",
+      "value": 358.3
+    },
+    {
+      "date": "2020-10-01",
+      "series": "original",
+      "value": 414.8
+    },
+    {
+      "date": "2020-11-01",
+      "series": "adjusted",
+      "value": 347.8
+    },
+    {
+      "date": "2020-11-01",
+      "series": "original",
+      "value": 380.6
+    },
+    {
+      "date": "2020-12-01",
+      "series": "adjusted",
+      "value": 314.2
+    },
+    {
+      "date": "2020-12-01",
+      "series": "original",
+      "value": 314.4
+    },
+    {
+      "date": "2021-01-01",
+      "series": "adjusted",
+      "value": 316.4
+    },
+    {
+      "date": "2021-01-01",
+      "series": "original",
+      "value": 332.1
+    },
+    {
+      "date": "2021-02-01",
+      "series": "adjusted",
+      "value": 344.2
+    },
+    {
+      "date": "2021-02-01",
+      "series": "original",
+      "value": 323.0
+    },
+    {
+      "date": "2021-03-01",
+      "series": "adjusted",
+      "value": 324.7
+    },
+    {
+      "date": "2021-03-01",
+      "series": "original",
+      "value": 363.3
+    },
+    {
+      "date": "2021-04-01",
+      "series": "adjusted",
+      "value": 345.6
+    },
+    {
+      "date": "2021-04-01",
+      "series": "original",
+      "value": 359.5
+    },
+    {
+      "date": "2021-05-01",
+      "series": "adjusted",
+      "value": 344.3
+    },
+    {
+      "date": "2021-05-01",
+      "series": "original",
+      "value": 336.6
+    },
+    {
+      "date": "2021-06-01",
+      "series": "adjusted",
+      "value": 366.7
+    },
+    {
+      "date": "2021-06-01",
+      "series": "original",
+      "value": 371.5
+    },
+    {
+      "date": "2021-07-01",
+      "series": "adjusted",
+      "value": 370.7
+    },
+    {
+      "date": "2021-07-01",
+      "series": "original",
+      "value": 380.7
+    },
+    {
+      "date": "2021-08-01",
+      "series": "adjusted",
+      "value": 361.6
+    },
+    {
+      "date": "2021-08-01",
+      "series": "original",
+      "value": 383.3
+    },
+    {
+      "date": "2021-09-01",
+      "series": "adjusted",
+      "value": 344.8
+    },
+    {
+      "date": "2021-09-01",
+      "series": "original",
+      "value": 405.2
+    },
+    {
+      "date": "2021-10-01",
+      "series": "adjusted",
+      "value": 370.5
+    },
+    {
+      "date": "2021-10-01",
+      "series": "original",
+      "value": 393.9
+    },
+    {
+      "date": "2021-11-01",
+      "series": "adjusted",
+      "value": 365.9
+    },
+    {
+      "date": "2021-11-01",
+      "series": "original",
+      "value": 405.7
+    },
+    {
+      "date": "2021-12-01",
+      "series": "adjusted",
+      "value": 341.9
+    },
+    {
+      "date": "2021-12-01",
+      "series": "original",
+      "value": 362.8
+    },
+    {
+      "date": "2022-01-01",
+      "series": "adjusted",
+      "value": 324.7
+    },
+    {
+      "date": "2022-01-01",
+      "series": "original",
+      "value": 345.1
+    },
+    {
+      "date": "2022-02-01",
+      "series": "adjusted",
+      "value": 360.9
+    },
+    {
+      "date": "2022-02-01",
+      "series": "original",
+      "value": 357.0
+    },
+    {
+      "date": "2022-03-01",
+      "series": "adjusted",
+      "value": 374.2
+    },
+    {
+      "date": "2022-03-01",
+      "series": "original",
+      "value": 396.7
+    },
+    {
+      "date": "2022-04-01",
+      "series": "adjusted",
+      "value": 392.4
+    },
+    {
+      "date": "2022-04-01",
+      "series": "original",
+      "value": 390.9
+    },
+    {
+      "date": "2022-05-01",
+      "series": "adjusted",
+      "value": 371.8
+    },
+    {
+      "date": "2022-05-01",
+      "series": "original",
+      "value": 393.3
+    },
+    {
+      "date": "2022-06-01",
+      "series": "adjusted",
+      "value": 384.5
+    },
+    {
+      "date": "2022-06-01",
+      "series": "original",
+      "value": 389.6
+    },
+    {
+      "date": "2022-07-01",
+      "series": "adjusted",
+      "value": 413.6
+    },
+    {
+      "date": "2022-07-01",
+      "series": "original",
+      "value": 412.6
+    },
+    {
+      "date": "2022-08-01",
+      "series": "adjusted",
+      "value": 372.7
+    },
+    {
+      "date": "2022-08-01",
+      "series": "original",
+      "value": 429.7
+    },
+    {
+      "date": "2022-09-01",
+      "series": "adjusted",
+      "value": 352.2
+    },
+    {
+      "date": "2022-09-01",
+      "series": "original",
+      "value": 413.8
+    },
+    {
+      "date": "2022-10-01",
+      "series": "adjusted",
+      "value": 370.7
+    },
+    {
+      "date": "2022-10-01",
+      "series": "original",
+      "value": 394.0
+    },
+    {
+      "date": "2022-11-01",
+      "series": "adjusted",
+      "value": 337.2
+    },
+    {
+      "date": "2022-11-01",
+      "series": "original",
+      "value": 385.2
+    },
+    {
+      "date": "2022-12-01",
+      "series": "adjusted",
+      "value": 298.5
+    },
+    {
+      "date": "2022-12-01",
+      "series": "original",
+      "value": 316.7
+    },
+    {
+      "date": "2023-01-01",
+      "series": "adjusted",
+      "value": 313.0
+    },
+    {
+      "date": "2023-01-01",
+      "series": "original",
+      "value": 346.7
+    },
+    {
+      "date": "2023-02-01",
+      "series": "adjusted",
+      "value": 337.9
+    },
+    {
+      "date": "2023-02-01",
+      "series": "original",
+      "value": 318.9
+    },
+    {
+      "date": "2023-03-01",
+      "series": "adjusted",
+      "value": 322.2
+    },
+    {
+      "date": "2023-03-01",
+      "series": "original",
+      "value": 360.5
+    },
+    {
+      "date": "2023-04-01",
+      "series": "adjusted",
+      "value": 348.5
+    },
+    {
+      "date": "2023-04-01",
+      "series": "original",
+      "value": 342.5
+    },
+    {
+      "date": "2023-05-01",
+      "series": "adjusted",
+      "value": 352.5
+    },
+    {
+      "date": "2023-05-01",
+      "series": "original",
+      "value": 357.2
+    },
+    {
+      "date": "2023-06-01",
+      "series": "adjusted",
+      "value": 355.8
+    },
+    {
+      "date": "2023-06-01",
+      "series": "original",
+      "value": 360.5
+    },
+    {
+      "date": "2023-07-01",
+      "series": "adjusted",
+      "value": 348.8
+    },
+    {
+      "date": "2023-07-01",
+      "series": "original",
+      "value": 358.1
+    },
+    {
+      "date": "2023-08-01",
+      "series": "adjusted",
+      "value": 344.8
+    },
+    {
+      "date": "2023-08-01",
+      "series": "original",
+      "value": 397.5
+    },
+    {
+      "date": "2023-09-01",
+      "series": "adjusted",
+      "value": 324.3
+    },
+    {
+      "date": "2023-09-01",
+      "series": "original",
+      "value": 376.5
+    },
+    {
+      "date": "2023-10-01",
+      "series": "adjusted",
+      "value": 372.9
+    },
+    {
+      "date": "2023-10-01",
+      "series": "original",
+      "value": 413.5
+    },
+    {
+      "date": "2023-11-01",
+      "series": "adjusted",
+      "value": 321.8
+    },
+    {
+      "date": "2023-11-01",
+      "series": "original",
+      "value": 367.0
+    },
+    {
+      "date": "2023-12-01",
+      "series": "adjusted",
+      "value": 274.1
+    },
+    {
+      "date": "2023-12-01",
+      "series": "original",
+      "value": 261.6
+    },
+    {
+      "date": "2024-01-01",
+      "series": "adjusted",
+      "value": 224.6
+    },
+    {
+      "date": "2024-01-01",
+      "series": "original",
+      "value": 224.6
+    },
+    {
+      "date": "2024-02-01",
+      "series": "adjusted",
+      "value": 239.8
+    },
+    {
+      "date": "2024-02-01",
+      "series": "original",
+      "value": 237.2
+    },
+    {
+      "date": "2024-03-01",
+      "series": "adjusted",
+      "value": 213.0
+    },
+    {
+      "date": "2024-03-01",
+      "series": "original",
+      "value": 216.2
+    },
+    {
+      "date": "2024-04-01",
+      "series": "adjusted",
+      "value": 226.7
+    },
+    {
+      "date": "2024-04-01",
+      "series": "original",
+      "value": 228.8
+    },
+    {
+      "date": "2024-05-01",
+      "series": "adjusted",
+      "value": 233.9
+    },
+    {
+      "date": "2024-05-01",
+      "series": "original",
+      "value": 250.6
+    },
+    {
+      "date": "2024-06-01",
+      "series": "adjusted",
+      "value": 256.7
+    },
+    {
+      "date": "2024-06-01",
+      "series": "original",
+      "value": 245.3
+    },
+    {
+      "date": "2024-07-01",
+      "series": "adjusted",
+      "value": 287.8
+    },
+    {
+      "date": "2024-07-01",
+      "series": "original",
+      "value": 299.1
+    },
+    {
+      "date": "2024-08-01",
+      "series": "adjusted",
+      "value": 275.4
+    },
+    {
+      "date": "2024-08-01",
+      "series": "original",
+      "value": 317.6
+    },
+    {
+      "date": "2024-09-01",
+      "series": "adjusted",
+      "value": 260.5
+    },
+    {
+      "date": "2024-09-01",
+      "series": "original",
+      "value": 293.7
+    },
+    {
+      "date": "2024-10-01",
+      "series": "adjusted",
+      "value": 253.2
+    },
+    {
+      "date": "2024-10-01",
+      "series": "original",
+      "value": 296.5
+    },
+    {
+      "date": "2024-11-01",
+      "series": "adjusted",
+      "value": 245.0
+    },
+    {
+      "date": "2024-11-01",
+      "series": "original",
+      "value": 275.9
+    },
+    {
+      "date": "2024-12-01",
+      "series": "adjusted",
+      "value": 242.0
+    },
+    {
+      "date": "2024-12-01",
+      "series": "original",
+      "value": 244.2
+    },
+    {
+      "date": "2025-01-01",
+      "series": "adjusted",
+      "value": 223.1
+    },
+    {
+      "date": "2025-01-01",
+      "series": "original",
+      "value": 247.2
+    },
+    {
+      "date": "2025-02-01",
+      "series": "adjusted",
+      "value": 239.7
+    },
+    {
+      "date": "2025-02-01",
+      "series": "original",
+      "value": 248.0
+    },
+    {
+      "date": "2025-03-01",
+      "series": "adjusted",
+      "value": 258.2
+    },
+    {
+      "date": "2025-03-01",
+      "series": "original",
+      "value": 250.4
+    },
+    {
+      "date": "2025-04-01",
+      "series": "adjusted",
+      "value": 285.2
+    },
+    {
+      "date": "2025-04-01",
+      "series": "original",
+      "value": 287.8
+    },
+    {
+      "date": "2025-05-01",
+      "series": "adjusted",
+      "value": 250.7
+    },
+    {
+      "date": "2025-05-01",
+      "series": "original",
+      "value": 272.9
+    },
+    {
+      "date": "2025-06-01",
+      "series": "adjusted",
+      "value": 289.5
+    },
+    {
+      "date": "2025-06-01",
+      "series": "original",
+      "value": 280.5
+    },
+    {
+      "date": "2025-07-01",
+      "series": "adjusted",
+      "value": 288.2
+    },
+    {
+      "date": "2025-07-01",
+      "series": "original",
+      "value": 299.5
+    },
+    {
+      "date": "2025-08-01",
+      "series": "adjusted",
+      "value": 263.4
+    },
+    {
+      "date": "2025-08-01",
+      "series": "original",
+      "value": 300.0
+    },
+    {
+      "date": "2025-09-01",
+      "series": "adjusted",
+      "value": 266.3
+    },
+    {
+      "date": "2025-09-01",
+      "series": "original",
+      "value": 312.9
+    },
+    {
+      "date": "2025-10-01",
+      "series": "adjusted",
+      "value": 260.4
+    },
+    {
+      "date": "2025-10-01",
+      "series": "original",
+      "value": 326.3
+    },
+    {
+      "date": "2025-11-01",
+      "series": "adjusted",
+      "value": 241.9
+    },
+    {
+      "date": "2025-11-01",
+      "series": "original",
+      "value": 260.8
+    },
+    {
+      "date": "2025-12-01",
+      "series": "adjusted",
+      "value": 249.7
+    },
+    {
+      "date": "2025-12-01",
+      "series": "original",
+      "value": 252.0
+    },
+    {
+      "date": "2026-01-01",
+      "series": "adjusted",
+      "value": 220.7
+    },
+    {
+      "date": "2026-01-01",
+      "series": "original",
+      "value": 244.5
+    },
+    {
+      "date": "2026-02-01",
+      "series": "adjusted",
+      "value": 255.8
+    },
+    {
+      "date": "2026-02-01",
+      "series": "original",
+      "value": 241.5
+    },
+    {
+      "date": "2026-03-01",
+      "series": "adjusted",
+      "value": 259.0
+    },
+    {
+      "date": "2026-03-01",
+      "series": "original",
+      "value": 278.1
+    },
+    {
+      "date": "2026-04-01",
+      "series": "adjusted",
+      "value": 271.9
+    },
+    {
+      "date": "2026-04-01",
+      "series": "original",
+      "value": 274.4
+    },
+    {
+      "date": "2026-05-01",
+      "series": "adjusted",
+      "value": 277.2
+    },
+    {
+      "date": "2026-05-01",
+      "series": "original",
+      "value": 277.2
+    },
+    {
+      "date": "2026-06-01",
+      "series": "adjusted",
+      "value": 271.7
+    },
+    {
+      "date": "2026-06-01",
+      "series": "original",
+      "value": 278.9
+    },
+    {
+      "date": "2026-07-01",
+      "series": "adjusted",
+      "value": 269.5
+    },
+    {
+      "date": "2026-07-01",
+      "series": "original",
+      "value": 280.0
+    },
+    {
+      "date": "2026-08-01",
+      "series": "adjusted",
+      "value": 260.1
+    },
+    {
+      "date": "2026-08-01",
+      "series": "original",
+      "value": 284.2
+    },
+    {
+      "date": "2026-09-01",
+      "series": "adjusted",
+      "value": 258.5
+    },
+    {
+      "date": "2026-09-01",
+      "series": "original",
+      "value": 303.7
+    },
+    {
+      "date": "2026-10-01",
+      "series": "adjusted",
+      "value": 249.3
+    },
+    {
+      "date": "2026-10-01",
+      "series": "original",
+      "value": 296.8
+    }
+  ],
+  "valueKind": "level",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-10-01",
+  "firstObservedPeriod": "2017-01-01",
+  "lastObservedBySeries": {
+    "original": "2026-10-01",
+    "adjusted": "2026-10-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:46:22Z",
+  "lastAttemptAt": "2026-11-13T12:46:22Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "b0669bb1faf110772f7955867d248b4c31755d3727536ba2e756449e98ed8741",
+  "rawSha256": "124a3984cd3f18073fc9aa43ad65d1b641c7dc612c0fa8ff2a056c6616e04607",
+  "dataChangedAt": "2026-11-12T04:21:23Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

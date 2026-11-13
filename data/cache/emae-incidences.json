@@ -1,0 +1,189 @@
+{
+  "id": "emae-incidences",
+  "source": "INDEC · Informe EMAE, agosto 2026, gráfico 1",
+  "sourceUrl": "https://www.indec.gob.ar/uploads/informesdeprensa/emae_10_263A9DC1ED2B.pdf",
+  "frequency": "monthly",
+  "unit": "puntos porcentuales de variación interanual",
+  "series": [
+    {
+      "id": "C",
+      "label": "Explotación de minas y canteras"
+    },
+    {
+      "id": "E",
+      "label": "Electricidad, gas y agua"
+    },
+    {
+      "id": "H",
+      "label": "Hoteles y restaurantes"
+    },
+    {
+      "id": "K",
+      "label": "Actividades inmobiliarias, empresariales y de alquiler"
+    },
+    {
+      "id": "N",
+      "label": "Servicios sociales y de salud"
+    },
+    {
+      "id": "O",
+      "label": "Otras actividades de servicios comunitarios, sociales y personales"
+    },
+    {
+      "id": "M",
+      "label": "Enseñanza"
+    },
+    {
+      "id": "A",
+      "label": "Agricultura, ganadería, caza y silvicultura"
+    },
+    {
+      "id": "F",
+      "label": "Construcción"
+    },
+    {
+      "id": "L",
+      "label": "Administración pública y defensa"
+    },
+    {
+      "id": "B",
+      "label": "Pesca"
+    },
+    {
+      "id": "J",
+      "label": "Intermediación financiera"
+    },
+    {
+      "id": "I",
+      "label": "Transporte y comunicaciones"
+    },
+    {
+      "id": "G",
+      "label": "Comercio mayorista, minorista y reparaciones"
+    },
+    {
+      "id": "D",
+      "label": "Industria manufacturera"
+    },
+    {
+      "id": "taxes",
+      "label": "Impuestos netos de subsidios"
+    }
+  ],
+  "methodNote": "Incidencias publicadas por INDEC en el gráfico 1, no calculadas a partir de tasas sin ponderaciones. Corte fijo agosto 2026. Suma sectorial conciliada con -1,74 pp dentro del redondeo del informe.",
+  "observations": [
+    {
+      "date": "2026-08-01",
+      "series": "A",
+      "value": -0.04
+    },
+    {
+      "date": "2026-08-01",
+      "series": "B",
+      "value": -0.09
+    },
+    {
+      "date": "2026-08-01",
+      "series": "C",
+      "value": 0.47
+    },
+    {
+      "date": "2026-08-01",
+      "series": "D",
+      "value": -0.5
+    },
+    {
+      "date": "2026-08-01",
+      "series": "E",
+      "value": 0.08
+    },
+    {
+      "date": "2026-08-01",
+      "series": "F",
+      "value": -0.07
+    },
+    {
+      "date": "2026-08-01",
+      "series": "G",
+      "value": -0.44
+    },
+    {
+      "date": "2026-08-01",
+      "series": "H",
+      "value": 0.05
+    },
+    {
+      "date": "2026-08-01",
+      "series": "I",
+      "value": -0.22
+    },
+    {
+      "date": "2026-08-01",
+      "series": "J",
+      "value": -0.16
+    },
+    {
+      "date": "2026-08-01",
+      "series": "K",
+      "value": 0.05
+    },
+    {
+      "date": "2026-08-01",
+      "series": "L",
+      "value": -0.08
+    },
+    {
+      "date": "2026-08-01",
+      "series": "M",
+      "value": -0.01
+    },
+    {
+      "date": "2026-08-01",
+      "series": "N",
+      "value": 0.02
+    },
+    {
+      "date": "2026-08-01",
+      "series": "O",
+      "value": -0.01
+    },
+    {
+      "date": "2026-08-01",
+      "series": "taxes",
+      "value": -0.78
+    }
+  ],
+  "valueKind": "signed",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-08-01",
+  "firstObservedPeriod": "2026-08-01",
+  "lastObservedBySeries": {
+    "C": "2026-08-01",
+    "E": "2026-08-01",
+    "H": "2026-08-01",
+    "K": "2026-08-01",
+    "N": "2026-08-01",
+    "O": "2026-08-01",
+    "M": "2026-08-01",
+    "A": "2026-08-01",
+    "F": "2026-08-01",
+    "L": "2026-08-01",
+    "B": "2026-08-01",
+    "J": "2026-08-01",
+    "I": "2026-08-01",
+    "G": "2026-08-01",
+    "D": "2026-08-01",
+    "taxes": "2026-08-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:46:26Z",
+  "lastAttemptAt": "2026-11-13T12:46:26Z",
+  "sourcePublishedAt": "2026-10-21",
+  "isAutoUpdated": true,
+  "contentHash": "cd04696c3cbfb84a62ef387c78877223a17e1ca0f7ff34799e38e698bafa7431",
+  "rawSha256": "b0e7423e15292e654d9d7eeeab89aadef3cd5c053128fd83ff794385891d4b47",
+  "dataChangedAt": "2026-11-12T04:24:57Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

@@ -1,0 +1,260 @@
+{
+  "id": "credit-sector-activity",
+  "source": "INDEC · EMAE por sector",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_emae_actividad_base2004.xls",
+  "frequency": "monthly",
+  "unit": "% acumulado del año vs. mismos meses de 2023",
+  "series": [
+    {
+      "id": "mining",
+      "label": "Minas y canteras",
+      "inputSeries": "sector-4"
+    },
+    {
+      "id": "agriculture",
+      "label": "Agro",
+      "inputSeries": "agriculture"
+    },
+    {
+      "id": "industry",
+      "label": "Industria manufacturera",
+      "inputSeries": "sector-5"
+    },
+    {
+      "id": "construction",
+      "label": "Construcción",
+      "inputSeries": "sector-7"
+    },
+    {
+      "id": "commerce",
+      "label": "Comercio",
+      "inputSeries": "sector-8"
+    }
+  ],
+  "methodNote": "Comparación de la suma de índices originales de enero al mes observado con exactamente los mismos meses de 2023. El fuerte aumento agropecuario tiene una base afectada por la sequía de 2023. No se compara el acumulado parcial con todo 2023 ni se interpreta como incidencia.",
+  "observations": [
+    {
+      "date": "2026-01-01",
+      "series": "agriculture",
+      "value": 40.45826055473671
+    },
+    {
+      "date": "2026-01-01",
+      "series": "commerce",
+      "value": -0.34406195687484153
+    },
+    {
+      "date": "2026-01-01",
+      "series": "construction",
+      "value": -13.861554109215646
+    },
+    {
+      "date": "2026-01-01",
+      "series": "industry",
+      "value": -8.333543092018381
+    },
+    {
+      "date": "2026-01-01",
+      "series": "mining",
+      "value": 28.812467395777585
+    },
+    {
+      "date": "2026-02-01",
+      "series": "agriculture",
+      "value": 30.03712059321049
+    },
+    {
+      "date": "2026-02-01",
+      "series": "commerce",
+      "value": -1.1815708707249017
+    },
+    {
+      "date": "2026-02-01",
+      "series": "construction",
+      "value": -13.946283132377069
+    },
+    {
+      "date": "2026-02-01",
+      "series": "industry",
+      "value": -10.260595794126493
+    },
+    {
+      "date": "2026-02-01",
+      "series": "mining",
+      "value": 28.914635577835224
+    },
+    {
+      "date": "2026-03-01",
+      "series": "agriculture",
+      "value": 37.673998853691714
+    },
+    {
+      "date": "2026-03-01",
+      "series": "commerce",
+      "value": -2.5947808695780172
+    },
+    {
+      "date": "2026-03-01",
+      "series": "construction",
+      "value": -13.33264149770379
+    },
+    {
+      "date": "2026-03-01",
+      "series": "industry",
+      "value": -11.020936083395616
+    },
+    {
+      "date": "2026-03-01",
+      "series": "mining",
+      "value": 29.682039245687463
+    },
+    {
+      "date": "2026-04-01",
+      "series": "agriculture",
+      "value": 55.675132560396115
+    },
+    {
+      "date": "2026-04-01",
+      "series": "commerce",
+      "value": -2.8686225186863368
+    },
+    {
+      "date": "2026-04-01",
+      "series": "construction",
+      "value": -13.558587162476954
+    },
+    {
+      "date": "2026-04-01",
+      "series": "industry",
+      "value": -11.12305618417684
+    },
+    {
+      "date": "2026-04-01",
+      "series": "mining",
+      "value": 30.582349150483278
+    },
+    {
+      "date": "2026-05-01",
+      "series": "agriculture",
+      "value": 71.11009465772167
+    },
+    {
+      "date": "2026-05-01",
+      "series": "commerce",
+      "value": -3.7683750551290807
+    },
+    {
+      "date": "2026-05-01",
+      "series": "construction",
+      "value": -13.939604136341332
+    },
+    {
+      "date": "2026-05-01",
+      "series": "industry",
+      "value": -11.975026752194196
+    },
+    {
+      "date": "2026-05-01",
+      "series": "mining",
+      "value": 30.646752808408873
+    },
+    {
+      "date": "2026-06-01",
+      "series": "agriculture",
+      "value": 75.03703325432896
+    },
+    {
+      "date": "2026-06-01",
+      "series": "commerce",
+      "value": -4.436479997403298
+    },
+    {
+      "date": "2026-06-01",
+      "series": "construction",
+      "value": -14.130813411574506
+    },
+    {
+      "date": "2026-06-01",
+      "series": "industry",
+      "value": -11.888492981015531
+    },
+    {
+      "date": "2026-06-01",
+      "series": "mining",
+      "value": 31.13643897521383
+    },
+    {
+      "date": "2026-07-01",
+      "series": "agriculture",
+      "value": 69.17496709020439
+    },
+    {
+      "date": "2026-07-01",
+      "series": "commerce",
+      "value": -5.057695008087471
+    },
+    {
+      "date": "2026-07-01",
+      "series": "construction",
+      "value": -14.213757500296964
+    },
+    {
+      "date": "2026-07-01",
+      "series": "industry",
+      "value": -11.741645927988342
+    },
+    {
+      "date": "2026-07-01",
+      "series": "mining",
+      "value": 31.080073932720474
+    },
+    {
+      "date": "2026-08-01",
+      "series": "agriculture",
+      "value": 63.23206874496348
+    },
+    {
+      "date": "2026-08-01",
+      "series": "commerce",
+      "value": -6.032448267555091
+    },
+    {
+      "date": "2026-08-01",
+      "series": "construction",
+      "value": -14.888063907453986
+    },
+    {
+      "date": "2026-08-01",
+      "series": "industry",
+      "value": -11.996695868323792
+    },
+    {
+      "date": "2026-08-01",
+      "series": "mining",
+      "value": 30.881721840411956
+    }
+  ],
+  "valueKind": "rate",
+  "supportingSources": [],
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-08-01",
+  "firstObservedPeriod": "2026-01-01",
+  "lastObservedBySeries": {
+    "mining": "2026-08-01",
+    "agriculture": "2026-08-01",
+    "industry": "2026-08-01",
+    "construction": "2026-08-01",
+    "commerce": "2026-08-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:46:20Z",
+  "lastAttemptAt": "2026-11-13T12:47:38Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "cba90b17fc30faca8118572acaef5755dc02515aff3f4b0dabd3dc7959d68b24",
+  "rawSha256": "1f8a7f40d2247c9d5663f9e97acfde027c2f1e9e851ecb7e4e01578f5f1d7937",
+  "dataChangedAt": "2026-11-13T03:19:34Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

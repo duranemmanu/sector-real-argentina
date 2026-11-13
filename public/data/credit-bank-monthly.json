@@ -1,0 +1,299 @@
+{
+  "id": "credit-bank-monthly",
+  "source": "BCRA · Informe sobre Bancos",
+  "sourceUrl": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-bancos-serie-2026-08.xlsx",
+  "frequency": "monthly",
+  "unit": "% de variación mensual real",
+  "series": [
+    {
+      "id": "total",
+      "label": "Crédito familiar total",
+      "column": 5,
+      "headerToken": "saldo real total"
+    },
+    {
+      "id": "irregular",
+      "label": "Saldo familiar irregular",
+      "column": 6,
+      "headerToken": "saldo real irregular"
+    }
+  ],
+  "methodNote": "Hoja 9: variaciones mensuales reales publicadas, sin desestacionalizar. Los cambios pueden incluir reclasificaciones y pases a cuentas fuera de balance; no identifican por sí solos recuperaciones de crédito.",
+  "observations": [
+    {
+      "date": "2024-08-01",
+      "series": "irregular",
+      "value": 5.0212136189657315
+    },
+    {
+      "date": "2024-08-01",
+      "series": "total",
+      "value": 5.407147202201585
+    },
+    {
+      "date": "2024-09-01",
+      "series": "irregular",
+      "value": 6.262155561571888
+    },
+    {
+      "date": "2024-09-01",
+      "series": "total",
+      "value": 7.351141510152374
+    },
+    {
+      "date": "2024-10-01",
+      "series": "irregular",
+      "value": 3.2272306270832303
+    },
+    {
+      "date": "2024-10-01",
+      "series": "total",
+      "value": 9.285704788706823
+    },
+    {
+      "date": "2024-11-01",
+      "series": "irregular",
+      "value": 7.262341796658106
+    },
+    {
+      "date": "2024-11-01",
+      "series": "total",
+      "value": 5.766184512106065
+    },
+    {
+      "date": "2024-12-01",
+      "series": "irregular",
+      "value": 7.560661411497691
+    },
+    {
+      "date": "2024-12-01",
+      "series": "total",
+      "value": 6.341479299246217
+    },
+    {
+      "date": "2025-01-01",
+      "series": "irregular",
+      "value": 10.63045176846839
+    },
+    {
+      "date": "2025-01-01",
+      "series": "total",
+      "value": 6.032858162192994
+    },
+    {
+      "date": "2025-02-01",
+      "series": "irregular",
+      "value": 14.260011223546272
+    },
+    {
+      "date": "2025-02-01",
+      "series": "total",
+      "value": 3.567571694021268
+    },
+    {
+      "date": "2025-03-01",
+      "series": "irregular",
+      "value": 13.89614597490609
+    },
+    {
+      "date": "2025-03-01",
+      "series": "total",
+      "value": 2.8030560937237397
+    },
+    {
+      "date": "2025-04-01",
+      "series": "irregular",
+      "value": 17.587411585176852
+    },
+    {
+      "date": "2025-04-01",
+      "series": "total",
+      "value": 4.4791297221220105
+    },
+    {
+      "date": "2025-05-01",
+      "series": "irregular",
+      "value": 26.71364253702231
+    },
+    {
+      "date": "2025-05-01",
+      "series": "total",
+      "value": 4.1548192138074285
+    },
+    {
+      "date": "2025-06-01",
+      "series": "irregular",
+      "value": 17.749236059824696
+    },
+    {
+      "date": "2025-06-01",
+      "series": "total",
+      "value": 2.3765687390314696
+    },
+    {
+      "date": "2025-07-01",
+      "series": "irregular",
+      "value": 14.10882129017979
+    },
+    {
+      "date": "2025-07-01",
+      "series": "total",
+      "value": 3.595831362520755
+    },
+    {
+      "date": "2025-08-01",
+      "series": "irregular",
+      "value": 18.30400813919968
+    },
+    {
+      "date": "2025-08-01",
+      "series": "total",
+      "value": 1.2432887722081176
+    },
+    {
+      "date": "2025-09-01",
+      "series": "irregular",
+      "value": 11.914439503644815
+    },
+    {
+      "date": "2025-09-01",
+      "series": "total",
+      "value": 1.5090786246834966
+    },
+    {
+      "date": "2025-10-01",
+      "series": "irregular",
+      "value": 7.807291704273723
+    },
+    {
+      "date": "2025-10-01",
+      "series": "total",
+      "value": 1.1447088894271644
+    },
+    {
+      "date": "2025-11-01",
+      "series": "irregular",
+      "value": 14.419849964873734
+    },
+    {
+      "date": "2025-11-01",
+      "series": "total",
+      "value": 0.5960435490673319
+    },
+    {
+      "date": "2025-12-01",
+      "series": "irregular",
+      "value": 6.081340382527685
+    },
+    {
+      "date": "2025-12-01",
+      "series": "total",
+      "value": 0.27720427440682727
+    },
+    {
+      "date": "2026-01-01",
+      "series": "irregular",
+      "value": 13.12814749286943
+    },
+    {
+      "date": "2026-01-01",
+      "series": "total",
+      "value": -0.45108121611721685
+    },
+    {
+      "date": "2026-02-01",
+      "series": "irregular",
+      "value": 4.693602686573641
+    },
+    {
+      "date": "2026-02-01",
+      "series": "total",
+      "value": -1.0393509136989536
+    },
+    {
+      "date": "2026-03-01",
+      "series": "irregular",
+      "value": 2.9819656374826593
+    },
+    {
+      "date": "2026-03-01",
+      "series": "total",
+      "value": -0.6770366176339593
+    },
+    {
+      "date": "2026-04-01",
+      "series": "irregular",
+      "value": 3.4350710743122903
+    },
+    {
+      "date": "2026-04-01",
+      "series": "total",
+      "value": -0.45322948324802326
+    },
+    {
+      "date": "2026-05-01",
+      "series": "irregular",
+      "value": 5.641835886494917
+    },
+    {
+      "date": "2026-05-01",
+      "series": "total",
+      "value": -0.18463433392096817
+    },
+    {
+      "date": "2026-06-01",
+      "series": "irregular",
+      "value": 0.6388713069271859
+    },
+    {
+      "date": "2026-06-01",
+      "series": "total",
+      "value": 0.8485162738685261
+    },
+    {
+      "date": "2026-07-01",
+      "series": "irregular",
+      "value": 0.2570375282639361
+    },
+    {
+      "date": "2026-07-01",
+      "series": "total",
+      "value": -1.1131289142070528
+    },
+    {
+      "date": "2026-08-01",
+      "series": "irregular",
+      "value": -0.9801300055971751
+    },
+    {
+      "date": "2026-08-01",
+      "series": "total",
+      "value": 0.022394040523437297
+    }
+  ],
+  "valueKind": "rate",
+  "supportingSources": [
+    {
+      "label": "Publicación BCRA",
+      "url": "https://www.bcra.gob.ar/publicaciones/informe-sobre-bancos-agosto-de-2026/"
+    }
+  ],
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-08-01",
+  "firstObservedPeriod": "2024-08-01",
+  "lastObservedBySeries": {
+    "total": "2026-08-01",
+    "irregular": "2026-08-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:47:32Z",
+  "lastAttemptAt": "2026-11-13T12:47:32Z",
+  "sourcePublishedAt": "2026-10-16",
+  "isAutoUpdated": true,
+  "contentHash": "3ad2b71e57270025c0184af6dbf9aa1f5eef59ace12ecdcc700fccb3f918af84",
+  "rawSha256": "35c7319153efae0aefe9e7d5aad04e50771bd901f1faf94c01f95ece433d1adb",
+  "dataChangedAt": "2026-11-13T03:19:34Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

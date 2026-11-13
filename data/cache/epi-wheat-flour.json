@@ -1,0 +1,130 @@
+{
+  "id": "epi-wheat-flour",
+  "source": "INDEC · Estadísticas de Productos Industriales (EPI)",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls",
+  "frequency": "monthly",
+  "unit": "miles de toneladas",
+  "series": [
+    {
+      "id": "production",
+      "label": "Harina de trigo",
+      "column": 4
+    }
+  ],
+  "methodNote": "Niveles mensuales publicados en EPI; datos preliminares según asteriscos del cuadro. Los símbolos de ausencia se conservan como null. No se mezclan totales anuales con meses.",
+  "observations": [
+    {
+      "date": "2025-01-01",
+      "series": "production",
+      "value": 367.967
+    },
+    {
+      "date": "2025-02-01",
+      "series": "production",
+      "value": 370.5577399999999
+    },
+    {
+      "date": "2025-03-01",
+      "series": "production",
+      "value": 372.52346999999986
+    },
+    {
+      "date": "2025-04-01",
+      "series": "production",
+      "value": 415.80403999999993
+    },
+    {
+      "date": "2025-05-01",
+      "series": "production",
+      "value": 431.2072
+    },
+    {
+      "date": "2025-06-01",
+      "series": "production",
+      "value": 374.27561999999995
+    },
+    {
+      "date": "2025-07-01",
+      "series": "production",
+      "value": 429.6504499999999
+    },
+    {
+      "date": "2025-08-01",
+      "series": "production",
+      "value": 394.8060599999999
+    },
+    {
+      "date": "2025-09-01",
+      "series": "production",
+      "value": 374.04609999999997
+    },
+    {
+      "date": "2025-10-01",
+      "series": "production",
+      "value": 369.3191999999999
+    },
+    {
+      "date": "2025-11-01",
+      "series": "production",
+      "value": 323.8505599999999
+    },
+    {
+      "date": "2025-12-01",
+      "series": "production",
+      "value": 339.18120999999996
+    },
+    {
+      "date": "2026-01-01",
+      "series": "production",
+      "value": 367.4144899999999
+    },
+    {
+      "date": "2026-02-01",
+      "series": "production",
+      "value": 349.41401
+    },
+    {
+      "date": "2026-03-01",
+      "series": "production",
+      "value": 420.57188999999994
+    },
+    {
+      "date": "2026-04-01",
+      "series": "production",
+      "value": 405.253
+    },
+    {
+      "date": "2026-05-01",
+      "series": "production",
+      "value": 412.17587
+    },
+    {
+      "date": "2026-06-01",
+      "series": "production",
+      "value": 391.9029300000001
+    },
+    {
+      "date": "2026-07-01",
+      "series": "production",
+      "value": 404.4993979999999
+    }
+  ],
+  "valueKind": "level",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-07-01",
+  "firstObservedPeriod": "2025-01-01",
+  "lastObservedBySeries": {
+    "production": "2026-07-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:47:49Z",
+  "lastAttemptAt": "2026-11-13T12:47:49Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "dde321cfddab7b500b53ea1d3e27693811144897db3ddf32457952aa745e5ba5",
+  "rawSha256": "ac6a6584754c1e770f42c790f32c6a295e4aaa6ef73753facba35e799bb154fb",
+  "dataChangedAt": "2026-11-13T12:47:49Z",
+  "revisedObservations": 0,
+  "newObservations": 19,
+  "changedSinceLastFetch": true
+}

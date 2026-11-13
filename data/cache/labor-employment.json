@@ -1,0 +1,3562 @@
+{
+  "id": "labor-employment",
+  "source": "SIPA · Trabajo registrado",
+  "sourceUrl": "https://www.argentina.gob.ar/sites/default/files/trabajoregistrado_2607_estadisticas.xlsx",
+  "frequency": "monthly",
+  "unit": "miles de personas",
+  "series": [
+    {
+      "id": "total_original",
+      "label": "Total · original",
+      "sheet": "T.2.1",
+      "column": 7,
+      "headerToken": "Total"
+    },
+    {
+      "id": "total_sa",
+      "label": "Total · desestacionalizado",
+      "sheet": "T.2.2",
+      "column": 7,
+      "headerToken": "Total"
+    },
+    {
+      "id": "private_original",
+      "label": "Privado · original",
+      "sheet": "T.2.1",
+      "column": 1,
+      "headerToken": "privado"
+    },
+    {
+      "id": "private_sa",
+      "label": "Privado · desestacionalizado",
+      "sheet": "T.2.2",
+      "column": 1,
+      "headerToken": "privado"
+    }
+  ],
+  "methodNote": "Personas con trabajo registrado según modalidad ocupacional principal, total país. Series originales del cuadro T.2.1 y desestacionalizadas del T.2.2, expresadas en miles. El total incluye asalariados privados y públicos, casas particulares, autónomos y monotributistas, incluido el monotributo social. Los datos provisorios y el ajuste estacional pueden revisarse. No equivale al empleo total de la EPH ni a flujos brutos de altas y bajas.",
+  "observations": [
+    {
+      "date": "2012-01-01",
+      "series": "private_original",
+      "value": 6105.953
+    },
+    {
+      "date": "2012-01-01",
+      "series": "private_sa",
+      "value": 6068.17
+    },
+    {
+      "date": "2012-01-01",
+      "series": "total_original",
+      "value": 10931.296999999999
+    },
+    {
+      "date": "2012-01-01",
+      "series": "total_sa",
+      "value": 10898.502999999999
+    },
+    {
+      "date": "2012-02-01",
+      "series": "private_original",
+      "value": 6103.382
+    },
+    {
+      "date": "2012-02-01",
+      "series": "private_sa",
+      "value": 6061.993
+    },
+    {
+      "date": "2012-02-01",
+      "series": "total_original",
+      "value": 10982.74
+    },
+    {
+      "date": "2012-02-01",
+      "series": "total_sa",
+      "value": 10954.385
+    },
+    {
+      "date": "2012-03-01",
+      "series": "private_original",
+      "value": 6112.372
+    },
+    {
+      "date": "2012-03-01",
+      "series": "private_sa",
+      "value": 6072.363
+    },
+    {
+      "date": "2012-03-01",
+      "series": "total_original",
+      "value": 10992.215
+    },
+    {
+      "date": "2012-03-01",
+      "series": "total_sa",
+      "value": 10977.601000000002
+    },
+    {
+      "date": "2012-04-01",
+      "series": "private_original",
+      "value": 6055.047
+    },
+    {
+      "date": "2012-04-01",
+      "series": "private_sa",
+      "value": 6055.365
+    },
+    {
+      "date": "2012-04-01",
+      "series": "total_original",
+      "value": 10948.397
+    },
+    {
+      "date": "2012-04-01",
+      "series": "total_sa",
+      "value": 10970.863
+    },
+    {
+      "date": "2012-05-01",
+      "series": "private_original",
+      "value": 6042.617
+    },
+    {
+      "date": "2012-05-01",
+      "series": "private_sa",
+      "value": 6065.68
+    },
+    {
+      "date": "2012-05-01",
+      "series": "total_original",
+      "value": 10928.501
+    },
+    {
+      "date": "2012-05-01",
+      "series": "total_sa",
+      "value": 10959.512
+    },
+    {
+      "date": "2012-06-01",
+      "series": "private_original",
+      "value": 6033.331
+    },
+    {
+      "date": "2012-06-01",
+      "series": "private_sa",
+      "value": 6065.236
+    },
+    {
+      "date": "2012-06-01",
+      "series": "total_original",
+      "value": 10991.511000000002
+    },
+    {
+      "date": "2012-06-01",
+      "series": "total_sa",
+      "value": 11008.121000000001
+    },
+    {
+      "date": "2012-07-01",
+      "series": "private_original",
+      "value": 6026.877
+    },
+    {
+      "date": "2012-07-01",
+      "series": "private_sa",
+      "value": 6063.092
+    },
+    {
+      "date": "2012-07-01",
+      "series": "total_original",
+      "value": 10979.863000000001
+    },
+    {
+      "date": "2012-07-01",
+      "series": "total_sa",
+      "value": 11016.656
+    },
+    {
+      "date": "2012-08-01",
+      "series": "private_original",
+      "value": 6029.591
+    },
+    {
+      "date": "2012-08-01",
+      "series": "private_sa",
+      "value": 6059.979
+    },
+    {
+      "date": "2012-08-01",
+      "series": "total_original",
+      "value": 11000.655999999999
+    },
+    {
+      "date": "2012-08-01",
+      "series": "total_sa",
+      "value": 11029.455
+    },
+    {
+      "date": "2012-09-01",
+      "series": "private_original",
+      "value": 6022.8
+    },
+    {
+      "date": "2012-09-01",
+      "series": "private_sa",
+      "value": 6058.577
+    },
+    {
+      "date": "2012-09-01",
+      "series": "total_original",
+      "value": 11002.473
+    },
+    {
+      "date": "2012-09-01",
+      "series": "total_sa",
+      "value": 11032.637
+    },
+    {
+      "date": "2012-10-01",
+      "series": "private_original",
+      "value": 6063.455
+    },
+    {
+      "date": "2012-10-01",
+      "series": "private_sa",
+      "value": 6063.347
+    },
+    {
+      "date": "2012-10-01",
+      "series": "total_original",
+      "value": 11066.757000000001
+    },
+    {
+      "date": "2012-10-01",
+      "series": "total_sa",
+      "value": 11055.378999999999
+    },
+    {
+      "date": "2012-11-01",
+      "series": "private_original",
+      "value": 6087.135
+    },
+    {
+      "date": "2012-11-01",
+      "series": "private_sa",
+      "value": 6069.002
+    },
+    {
+      "date": "2012-11-01",
+      "series": "total_original",
+      "value": 11119.918999999998
+    },
+    {
+      "date": "2012-11-01",
+      "series": "total_sa",
+      "value": 11085.199
+    },
+    {
+      "date": "2012-12-01",
+      "series": "private_original",
+      "value": 6112.677
+    },
+    {
+      "date": "2012-12-01",
+      "series": "private_sa",
+      "value": 6090.781
+    },
+    {
+      "date": "2012-12-01",
+      "series": "total_original",
+      "value": 11163.445999999998
+    },
+    {
+      "date": "2012-12-01",
+      "series": "total_sa",
+      "value": 11113.073
+    },
+    {
+      "date": "2013-01-01",
+      "series": "private_original",
+      "value": 6129.521
+    },
+    {
+      "date": "2013-01-01",
+      "series": "private_sa",
+      "value": 6090.388
+    },
+    {
+      "date": "2013-01-01",
+      "series": "total_original",
+      "value": 11214.359999999999
+    },
+    {
+      "date": "2013-01-01",
+      "series": "total_sa",
+      "value": 11181.069
+    },
+    {
+      "date": "2013-02-01",
+      "series": "private_original",
+      "value": 6136.717
+    },
+    {
+      "date": "2013-02-01",
+      "series": "private_sa",
+      "value": 6098.053
+    },
+    {
+      "date": "2013-02-01",
+      "series": "total_original",
+      "value": 11231.741
+    },
+    {
+      "date": "2013-02-01",
+      "series": "total_sa",
+      "value": 11208.894999999999
+    },
+    {
+      "date": "2013-03-01",
+      "series": "private_original",
+      "value": 6139.607
+    },
+    {
+      "date": "2013-03-01",
+      "series": "private_sa",
+      "value": 6105.516
+    },
+    {
+      "date": "2013-03-01",
+      "series": "total_original",
+      "value": 11234.61
+    },
+    {
+      "date": "2013-03-01",
+      "series": "total_sa",
+      "value": 11229.217999999999
+    },
+    {
+      "date": "2013-04-01",
+      "series": "private_original",
+      "value": 6121.609
+    },
+    {
+      "date": "2013-04-01",
+      "series": "private_sa",
+      "value": 6115.449
+    },
+    {
+      "date": "2013-04-01",
+      "series": "total_original",
+      "value": 11253.967
+    },
+    {
+      "date": "2013-04-01",
+      "series": "total_sa",
+      "value": 11271.315000000002
+    },
+    {
+      "date": "2013-05-01",
+      "series": "private_original",
+      "value": 6085.388
+    },
+    {
+      "date": "2013-05-01",
+      "series": "private_sa",
+      "value": 6109.285
+    },
+    {
+      "date": "2013-05-01",
+      "series": "total_original",
+      "value": 11318.253
+    },
+    {
+      "date": "2013-05-01",
+      "series": "total_sa",
+      "value": 11349.601
+    },
+    {
+      "date": "2013-06-01",
+      "series": "private_original",
+      "value": 6065.404
+    },
+    {
+      "date": "2013-06-01",
+      "series": "private_sa",
+      "value": 6103.288
+    },
+    {
+      "date": "2013-06-01",
+      "series": "total_original",
+      "value": 11337.006999999998
+    },
+    {
+      "date": "2013-06-01",
+      "series": "total_sa",
+      "value": 11358.724999999999
+    },
+    {
+      "date": "2013-07-01",
+      "series": "private_original",
+      "value": 6077.981
+    },
+    {
+      "date": "2013-07-01",
+      "series": "private_sa",
+      "value": 6110.317
+    },
+    {
+      "date": "2013-07-01",
+      "series": "total_original",
+      "value": 11370.344000000001
+    },
+    {
+      "date": "2013-07-01",
+      "series": "total_sa",
+      "value": 11402.651000000002
+    },
+    {
+      "date": "2013-08-01",
+      "series": "private_original",
+      "value": 6092.965
+    },
+    {
+      "date": "2013-08-01",
+      "series": "private_sa",
+      "value": 6124.692
+    },
+    {
+      "date": "2013-08-01",
+      "series": "total_original",
+      "value": 11443.237000000001
+    },
+    {
+      "date": "2013-08-01",
+      "series": "total_sa",
+      "value": 11473.112000000001
+    },
+    {
+      "date": "2013-09-01",
+      "series": "private_original",
+      "value": 6085.84
+    },
+    {
+      "date": "2013-09-01",
+      "series": "private_sa",
+      "value": 6115.512
+    },
+    {
+      "date": "2013-09-01",
+      "series": "total_original",
+      "value": 11496.433
+    },
+    {
+      "date": "2013-09-01",
+      "series": "total_sa",
+      "value": 11519.846999999998
+    },
+    {
+      "date": "2013-10-01",
+      "series": "private_original",
+      "value": 6116.573
+    },
+    {
+      "date": "2013-10-01",
+      "series": "private_sa",
+      "value": 6116.739
+    },
+    {
+      "date": "2013-10-01",
+      "series": "total_original",
+      "value": 11580.959
+    },
+    {
+      "date": "2013-10-01",
+      "series": "total_sa",
+      "value": 11567.774000000001
+    },
+    {
+      "date": "2013-11-01",
+      "series": "private_original",
+      "value": 6141.608
+    },
+    {
+      "date": "2013-11-01",
+      "series": "private_sa",
+      "value": 6126.682
+    },
+    {
+      "date": "2013-11-01",
+      "series": "total_original",
+      "value": 11625.574000000002
+    },
+    {
+      "date": "2013-11-01",
+      "series": "total_sa",
+      "value": 11591.608000000002
+    },
+    {
+      "date": "2013-12-01",
+      "series": "private_original",
+      "value": 6147.924
+    },
+    {
+      "date": "2013-12-01",
+      "series": "private_sa",
+      "value": 6122.718
+    },
+    {
+      "date": "2013-12-01",
+      "series": "total_original",
+      "value": 11662.601999999997
+    },
+    {
+      "date": "2013-12-01",
+      "series": "total_sa",
+      "value": 11607.802000000001
+    },
+    {
+      "date": "2014-01-01",
+      "series": "private_original",
+      "value": 6153.747
+    },
+    {
+      "date": "2014-01-01",
+      "series": "private_sa",
+      "value": 6115.634
+    },
+    {
+      "date": "2014-01-01",
+      "series": "total_original",
+      "value": 11638.739000000001
+    },
+    {
+      "date": "2014-01-01",
+      "series": "total_sa",
+      "value": 11607.269
+    },
+    {
+      "date": "2014-02-01",
+      "series": "private_original",
+      "value": 6147.955
+    },
+    {
+      "date": "2014-02-01",
+      "series": "private_sa",
+      "value": 6109.564
+    },
+    {
+      "date": "2014-02-01",
+      "series": "total_original",
+      "value": 11632.562000000002
+    },
+    {
+      "date": "2014-02-01",
+      "series": "total_sa",
+      "value": 11613.215
+    },
+    {
+      "date": "2014-03-01",
+      "series": "private_original",
+      "value": 6127.053
+    },
+    {
+      "date": "2014-03-01",
+      "series": "private_sa",
+      "value": 6090.472
+    },
+    {
+      "date": "2014-03-01",
+      "series": "total_original",
+      "value": 11550.622
+    },
+    {
+      "date": "2014-03-01",
+      "series": "total_sa",
+      "value": 11546.445
+    },
+    {
+      "date": "2014-04-01",
+      "series": "private_original",
+      "value": 6096.44
+    },
+    {
+      "date": "2014-04-01",
+      "series": "private_sa",
+      "value": 6095.16
+    },
+    {
+      "date": "2014-04-01",
+      "series": "total_original",
+      "value": 11595.251999999999
+    },
+    {
+      "date": "2014-04-01",
+      "series": "total_sa",
+      "value": 11618.527999999998
+    },
+    {
+      "date": "2014-05-01",
+      "series": "private_original",
+      "value": 6076.792
+    },
+    {
+      "date": "2014-05-01",
+      "series": "private_sa",
+      "value": 6104.14
+    },
+    {
+      "date": "2014-05-01",
+      "series": "total_original",
+      "value": 11611.111000000003
+    },
+    {
+      "date": "2014-05-01",
+      "series": "total_sa",
+      "value": 11645.364000000001
+    },
+    {
+      "date": "2014-06-01",
+      "series": "private_original",
+      "value": 6075.213
+    },
+    {
+      "date": "2014-06-01",
+      "series": "private_sa",
+      "value": 6110.341
+    },
+    {
+      "date": "2014-06-01",
+      "series": "total_original",
+      "value": 11651.153
+    },
+    {
+      "date": "2014-06-01",
+      "series": "total_sa",
+      "value": 11669.548
+    },
+    {
+      "date": "2014-07-01",
+      "series": "private_original",
+      "value": 6080.495
+    },
+    {
+      "date": "2014-07-01",
+      "series": "private_sa",
+      "value": 6112.177
+    },
+    {
+      "date": "2014-07-01",
+      "series": "total_original",
+      "value": 11653.732000000002
+    },
+    {
+      "date": "2014-07-01",
+      "series": "total_sa",
+      "value": 11684.234
+    },
+    {
+      "date": "2014-08-01",
+      "series": "private_original",
+      "value": 6076.87
+    },
+    {
+      "date": "2014-08-01",
+      "series": "private_sa",
+      "value": 6110.382
+    },
+    {
+      "date": "2014-08-01",
+      "series": "total_original",
+      "value": 11657.126999999999
+    },
+    {
+      "date": "2014-08-01",
+      "series": "total_sa",
+      "value": 11688.261
+    },
+    {
+      "date": "2014-09-01",
+      "series": "private_original",
+      "value": 6097.036
+    },
+    {
+      "date": "2014-09-01",
+      "series": "private_sa",
+      "value": 6120.009
+    },
+    {
+      "date": "2014-09-01",
+      "series": "total_original",
+      "value": 11706.965999999999
+    },
+    {
+      "date": "2014-09-01",
+      "series": "total_sa",
+      "value": 11722.595
+    },
+    {
+      "date": "2014-10-01",
+      "series": "private_original",
+      "value": 6128.903
+    },
+    {
+      "date": "2014-10-01",
+      "series": "private_sa",
+      "value": 6128.223
+    },
+    {
+      "date": "2014-10-01",
+      "series": "total_original",
+      "value": 11755.451999999997
+    },
+    {
+      "date": "2014-10-01",
+      "series": "total_sa",
+      "value": 11739.677
+    },
+    {
+      "date": "2014-11-01",
+      "series": "private_original",
+      "value": 6145.246
+    },
+    {
+      "date": "2014-11-01",
+      "series": "private_sa",
+      "value": 6135.259
+    },
+    {
+      "date": "2014-11-01",
+      "series": "total_original",
+      "value": 11783.833
+    },
+    {
+      "date": "2014-11-01",
+      "series": "total_sa",
+      "value": 11753.604
+    },
+    {
+      "date": "2014-12-01",
+      "series": "private_original",
+      "value": 6169.026
+    },
+    {
+      "date": "2014-12-01",
+      "series": "private_sa",
+      "value": 6142.414
+    },
+    {
+      "date": "2014-12-01",
+      "series": "total_original",
+      "value": 11788.229999999998
+    },
+    {
+      "date": "2014-12-01",
+      "series": "total_sa",
+      "value": 11730.538
+    },
+    {
+      "date": "2015-01-01",
+      "series": "private_original",
+      "value": 6197.18
+    },
+    {
+      "date": "2015-01-01",
+      "series": "private_sa",
+      "value": 6163.535
+    },
+    {
+      "date": "2015-01-01",
+      "series": "total_original",
+      "value": 11775.404
+    },
+    {
+      "date": "2015-01-01",
+      "series": "total_sa",
+      "value": 11749.000999999998
+    },
+    {
+      "date": "2015-02-01",
+      "series": "private_original",
+      "value": 6215.585
+    },
+    {
+      "date": "2015-02-01",
+      "series": "private_sa",
+      "value": 6178.047
+    },
+    {
+      "date": "2015-02-01",
+      "series": "total_original",
+      "value": 11790.365999999998
+    },
+    {
+      "date": "2015-02-01",
+      "series": "total_sa",
+      "value": 11774.755999999998
+    },
+    {
+      "date": "2015-03-01",
+      "series": "private_original",
+      "value": 6228.762
+    },
+    {
+      "date": "2015-03-01",
+      "series": "private_sa",
+      "value": 6187.7
+    },
+    {
+      "date": "2015-03-01",
+      "series": "total_original",
+      "value": 11802.332
+    },
+    {
+      "date": "2015-03-01",
+      "series": "total_sa",
+      "value": 11796.694000000001
+    },
+    {
+      "date": "2015-04-01",
+      "series": "private_original",
+      "value": 6224.325
+    },
+    {
+      "date": "2015-04-01",
+      "series": "private_sa",
+      "value": 6224.501
+    },
+    {
+      "date": "2015-04-01",
+      "series": "total_original",
+      "value": 11823.777999999998
+    },
+    {
+      "date": "2015-04-01",
+      "series": "total_sa",
+      "value": 11849.319
+    },
+    {
+      "date": "2015-05-01",
+      "series": "private_original",
+      "value": 6197.655
+    },
+    {
+      "date": "2015-05-01",
+      "series": "private_sa",
+      "value": 6228.571
+    },
+    {
+      "date": "2015-05-01",
+      "series": "total_original",
+      "value": 11837.474
+    },
+    {
+      "date": "2015-05-01",
+      "series": "total_sa",
+      "value": 11875.407000000001
+    },
+    {
+      "date": "2015-06-01",
+      "series": "private_original",
+      "value": 6216.048
+    },
+    {
+      "date": "2015-06-01",
+      "series": "private_sa",
+      "value": 6247.421
+    },
+    {
+      "date": "2015-06-01",
+      "series": "total_original",
+      "value": 11907.733
+    },
+    {
+      "date": "2015-06-01",
+      "series": "total_sa",
+      "value": 11922.371
+    },
+    {
+      "date": "2015-07-01",
+      "series": "private_original",
+      "value": 6223.407
+    },
+    {
+      "date": "2015-07-01",
+      "series": "private_sa",
+      "value": 6253.285
+    },
+    {
+      "date": "2015-07-01",
+      "series": "total_original",
+      "value": 11944.684
+    },
+    {
+      "date": "2015-07-01",
+      "series": "total_sa",
+      "value": 11972.395
+    },
+    {
+      "date": "2015-08-01",
+      "series": "private_original",
+      "value": 6234.44
+    },
+    {
+      "date": "2015-08-01",
+      "series": "private_sa",
+      "value": 6266.996
+    },
+    {
+      "date": "2015-08-01",
+      "series": "total_original",
+      "value": 11967.402
+    },
+    {
+      "date": "2015-08-01",
+      "series": "total_sa",
+      "value": 11996.744
+    },
+    {
+      "date": "2015-09-01",
+      "series": "private_original",
+      "value": 6237.559
+    },
+    {
+      "date": "2015-09-01",
+      "series": "private_sa",
+      "value": 6260.542
+    },
+    {
+      "date": "2015-09-01",
+      "series": "total_original",
+      "value": 11982.275
+    },
+    {
+      "date": "2015-09-01",
+      "series": "total_sa",
+      "value": 11996.373999999998
+    },
+    {
+      "date": "2015-10-01",
+      "series": "private_original",
+      "value": 6262.833
+    },
+    {
+      "date": "2015-10-01",
+      "series": "private_sa",
+      "value": 6264.164
+    },
+    {
+      "date": "2015-10-01",
+      "series": "total_original",
+      "value": 12026.236
+    },
+    {
+      "date": "2015-10-01",
+      "series": "total_sa",
+      "value": 12011.462
+    },
+    {
+      "date": "2015-11-01",
+      "series": "private_original",
+      "value": 6266.76
+    },
+    {
+      "date": "2015-11-01",
+      "series": "private_sa",
+      "value": 6253.647
+    },
+    {
+      "date": "2015-11-01",
+      "series": "total_original",
+      "value": 12042.018000000002
+    },
+    {
+      "date": "2015-11-01",
+      "series": "total_sa",
+      "value": 12007.968
+    },
+    {
+      "date": "2015-12-01",
+      "series": "private_original",
+      "value": 6246.526
+    },
+    {
+      "date": "2015-12-01",
+      "series": "private_sa",
+      "value": 6222.52
+    },
+    {
+      "date": "2015-12-01",
+      "series": "total_original",
+      "value": 12018.955999999998
+    },
+    {
+      "date": "2015-12-01",
+      "series": "total_sa",
+      "value": 11962.954000000002
+    },
+    {
+      "date": "2016-01-01",
+      "series": "private_original",
+      "value": 6237.176
+    },
+    {
+      "date": "2016-01-01",
+      "series": "private_sa",
+      "value": 6208.397
+    },
+    {
+      "date": "2016-01-01",
+      "series": "total_original",
+      "value": 11962.742000000002
+    },
+    {
+      "date": "2016-01-01",
+      "series": "total_sa",
+      "value": 11941.25
+    },
+    {
+      "date": "2016-02-01",
+      "series": "private_original",
+      "value": 6247.531
+    },
+    {
+      "date": "2016-02-01",
+      "series": "private_sa",
+      "value": 6206.468
+    },
+    {
+      "date": "2016-02-01",
+      "series": "total_original",
+      "value": 11962.774000000001
+    },
+    {
+      "date": "2016-02-01",
+      "series": "total_sa",
+      "value": 11945.252000000002
+    },
+    {
+      "date": "2016-03-01",
+      "series": "private_original",
+      "value": 6241.277
+    },
+    {
+      "date": "2016-03-01",
+      "series": "private_sa",
+      "value": 6198.974
+    },
+    {
+      "date": "2016-03-01",
+      "series": "total_original",
+      "value": 11960.428999999998
+    },
+    {
+      "date": "2016-03-01",
+      "series": "total_sa",
+      "value": 11956.024999999998
+    },
+    {
+      "date": "2016-04-01",
+      "series": "private_original",
+      "value": 6188.543
+    },
+    {
+      "date": "2016-04-01",
+      "series": "private_sa",
+      "value": 6188.587
+    },
+    {
+      "date": "2016-04-01",
+      "series": "total_original",
+      "value": 11931.518
+    },
+    {
+      "date": "2016-04-01",
+      "series": "total_sa",
+      "value": 11956.918000000001
+    },
+    {
+      "date": "2016-05-01",
+      "series": "private_original",
+      "value": 6152.616
+    },
+    {
+      "date": "2016-05-01",
+      "series": "private_sa",
+      "value": 6179.503
+    },
+    {
+      "date": "2016-05-01",
+      "series": "total_original",
+      "value": 11930.473
+    },
+    {
+      "date": "2016-05-01",
+      "series": "total_sa",
+      "value": 11964.973
+    },
+    {
+      "date": "2016-06-01",
+      "series": "private_original",
+      "value": 6136.474
+    },
+    {
+      "date": "2016-06-01",
+      "series": "private_sa",
+      "value": 6171.668
+    },
+    {
+      "date": "2016-06-01",
+      "series": "total_original",
+      "value": 11965.827
+    },
+    {
+      "date": "2016-06-01",
+      "series": "total_sa",
+      "value": 11985.279
+    },
+    {
+      "date": "2016-07-01",
+      "series": "private_original",
+      "value": 6135.345
+    },
+    {
+      "date": "2016-07-01",
+      "series": "private_sa",
+      "value": 6169.274
+    },
+    {
+      "date": "2016-07-01",
+      "series": "total_original",
+      "value": 11958.460000000001
+    },
+    {
+      "date": "2016-07-01",
+      "series": "total_sa",
+      "value": 11989.904
+    },
+    {
+      "date": "2016-08-01",
+      "series": "private_original",
+      "value": 6146.284
+    },
+    {
+      "date": "2016-08-01",
+      "series": "private_sa",
+      "value": 6169.79
+    },
+    {
+      "date": "2016-08-01",
+      "series": "total_original",
+      "value": 11978.862
+    },
+    {
+      "date": "2016-08-01",
+      "series": "total_sa",
+      "value": 11997.800999999998
+    },
+    {
+      "date": "2016-09-01",
+      "series": "private_original",
+      "value": 6151.241
+    },
+    {
+      "date": "2016-09-01",
+      "series": "private_sa",
+      "value": 6172.93
+    },
+    {
+      "date": "2016-09-01",
+      "series": "total_original",
+      "value": 12000.389000000001
+    },
+    {
+      "date": "2016-09-01",
+      "series": "total_sa",
+      "value": 12012.012
+    },
+    {
+      "date": "2016-10-01",
+      "series": "private_original",
+      "value": 6175.397
+    },
+    {
+      "date": "2016-10-01",
+      "series": "private_sa",
+      "value": 6180.724
+    },
+    {
+      "date": "2016-10-01",
+      "series": "total_original",
+      "value": 12041.294
+    },
+    {
+      "date": "2016-10-01",
+      "series": "total_sa",
+      "value": 12029.970000000001
+    },
+    {
+      "date": "2016-11-01",
+      "series": "private_original",
+      "value": 6200.06
+    },
+    {
+      "date": "2016-11-01",
+      "series": "private_sa",
+      "value": 6184.744
+    },
+    {
+      "date": "2016-11-01",
+      "series": "total_original",
+      "value": 12082.490000000002
+    },
+    {
+      "date": "2016-11-01",
+      "series": "total_sa",
+      "value": 12046.731
+    },
+    {
+      "date": "2016-12-01",
+      "series": "private_original",
+      "value": 6206.518
+    },
+    {
+      "date": "2016-12-01",
+      "series": "private_sa",
+      "value": 6186.206
+    },
+    {
+      "date": "2016-12-01",
+      "series": "total_original",
+      "value": 12104.329
+    },
+    {
+      "date": "2016-12-01",
+      "series": "total_sa",
+      "value": 12050.627000000002
+    },
+    {
+      "date": "2017-01-01",
+      "series": "private_original",
+      "value": 6224.427
+    },
+    {
+      "date": "2017-01-01",
+      "series": "private_sa",
+      "value": 6192.7
+    },
+    {
+      "date": "2017-01-01",
+      "series": "total_original",
+      "value": 12097.306999999999
+    },
+    {
+      "date": "2017-01-01",
+      "series": "total_sa",
+      "value": 12072.715
+    },
+    {
+      "date": "2017-02-01",
+      "series": "private_original",
+      "value": 6226.59
+    },
+    {
+      "date": "2017-02-01",
+      "series": "private_sa",
+      "value": 6189.637
+    },
+    {
+      "date": "2017-02-01",
+      "series": "total_original",
+      "value": 12095.828
+    },
+    {
+      "date": "2017-02-01",
+      "series": "total_sa",
+      "value": 12083.111
+    },
+    {
+      "date": "2017-03-01",
+      "series": "private_original",
+      "value": 6248.45
+    },
+    {
+      "date": "2017-03-01",
+      "series": "private_sa",
+      "value": 6201.693
+    },
+    {
+      "date": "2017-03-01",
+      "series": "total_original",
+      "value": 12107.055
+    },
+    {
+      "date": "2017-03-01",
+      "series": "total_sa",
+      "value": 12098.788
+    },
+    {
+      "date": "2017-04-01",
+      "series": "private_original",
+      "value": 6190.308
+    },
+    {
+      "date": "2017-04-01",
+      "series": "private_sa",
+      "value": 6198.475
+    },
+    {
+      "date": "2017-04-01",
+      "series": "total_original",
+      "value": 12067.285
+    },
+    {
+      "date": "2017-04-01",
+      "series": "total_sa",
+      "value": 12099.907000000003
+    },
+    {
+      "date": "2017-05-01",
+      "series": "private_original",
+      "value": 6188.84
+    },
+    {
+      "date": "2017-05-01",
+      "series": "private_sa",
+      "value": 6212.819
+    },
+    {
+      "date": "2017-05-01",
+      "series": "total_original",
+      "value": 12107.288999999999
+    },
+    {
+      "date": "2017-05-01",
+      "series": "total_sa",
+      "value": 12140.019
+    },
+    {
+      "date": "2017-06-01",
+      "series": "private_original",
+      "value": 6193.17
+    },
+    {
+      "date": "2017-06-01",
+      "series": "private_sa",
+      "value": 6227.386
+    },
+    {
+      "date": "2017-06-01",
+      "series": "total_original",
+      "value": 12148.781
+    },
+    {
+      "date": "2017-06-01",
+      "series": "total_sa",
+      "value": 12169.257
+    },
+    {
+      "date": "2017-07-01",
+      "series": "private_original",
+      "value": 6202.014
+    },
+    {
+      "date": "2017-07-01",
+      "series": "private_sa",
+      "value": 6235.647
+    },
+    {
+      "date": "2017-07-01",
+      "series": "total_original",
+      "value": 12169.689999999999
+    },
+    {
+      "date": "2017-07-01",
+      "series": "total_sa",
+      "value": 12201.599
+    },
+    {
+      "date": "2017-08-01",
+      "series": "private_original",
+      "value": 6212.041
+    },
+    {
+      "date": "2017-08-01",
+      "series": "private_sa",
+      "value": 6235.042
+    },
+    {
+      "date": "2017-08-01",
+      "series": "total_original",
+      "value": 12205.154
+    },
+    {
+      "date": "2017-08-01",
+      "series": "total_sa",
+      "value": 12222.114000000001
+    },
+    {
+      "date": "2017-09-01",
+      "series": "private_original",
+      "value": 6221.484
+    },
+    {
+      "date": "2017-09-01",
+      "series": "private_sa",
+      "value": 6245.849
+    },
+    {
+      "date": "2017-09-01",
+      "series": "total_original",
+      "value": 12252.313000000002
+    },
+    {
+      "date": "2017-09-01",
+      "series": "total_sa",
+      "value": 12265.549
+    },
+    {
+      "date": "2017-10-01",
+      "series": "private_original",
+      "value": 6255.264
+    },
+    {
+      "date": "2017-10-01",
+      "series": "private_sa",
+      "value": 6257.139
+    },
+    {
+      "date": "2017-10-01",
+      "series": "total_original",
+      "value": 12310.121
+    },
+    {
+      "date": "2017-10-01",
+      "series": "total_sa",
+      "value": 12295.702000000001
+    },
+    {
+      "date": "2017-11-01",
+      "series": "private_original",
+      "value": 6282.184
+    },
+    {
+      "date": "2017-11-01",
+      "series": "private_sa",
+      "value": 6269.631
+    },
+    {
+      "date": "2017-11-01",
+      "series": "total_original",
+      "value": 12350.172
+    },
+    {
+      "date": "2017-11-01",
+      "series": "total_sa",
+      "value": 12317.740000000002
+    },
+    {
+      "date": "2017-12-01",
+      "series": "private_original",
+      "value": 6296.864
+    },
+    {
+      "date": "2017-12-01",
+      "series": "private_sa",
+      "value": 6280.751
+    },
+    {
+      "date": "2017-12-01",
+      "series": "total_original",
+      "value": 12387.261999999999
+    },
+    {
+      "date": "2017-12-01",
+      "series": "total_sa",
+      "value": 12336.738000000001
+    },
+    {
+      "date": "2018-01-01",
+      "series": "private_original",
+      "value": 6309.334
+    },
+    {
+      "date": "2018-01-01",
+      "series": "private_sa",
+      "value": 6275.081
+    },
+    {
+      "date": "2018-01-01",
+      "series": "total_original",
+      "value": 12374.866
+    },
+    {
+      "date": "2018-01-01",
+      "series": "total_sa",
+      "value": 12347.903999999999
+    },
+    {
+      "date": "2018-02-01",
+      "series": "private_original",
+      "value": 6308.065
+    },
+    {
+      "date": "2018-02-01",
+      "series": "private_sa",
+      "value": 6270.731
+    },
+    {
+      "date": "2018-02-01",
+      "series": "total_original",
+      "value": 12344.544
+    },
+    {
+      "date": "2018-02-01",
+      "series": "total_sa",
+      "value": 12331.104
+    },
+    {
+      "date": "2018-03-01",
+      "series": "private_original",
+      "value": 6322.588
+    },
+    {
+      "date": "2018-03-01",
+      "series": "private_sa",
+      "value": 6279.021
+    },
+    {
+      "date": "2018-03-01",
+      "series": "total_original",
+      "value": 12347.406
+    },
+    {
+      "date": "2018-03-01",
+      "series": "total_sa",
+      "value": 12341.712999999998
+    },
+    {
+      "date": "2018-04-01",
+      "series": "private_original",
+      "value": 6279.701
+    },
+    {
+      "date": "2018-04-01",
+      "series": "private_sa",
+      "value": 6281.722
+    },
+    {
+      "date": "2018-04-01",
+      "series": "total_original",
+      "value": 12317.865
+    },
+    {
+      "date": "2018-04-01",
+      "series": "total_sa",
+      "value": 12342.802
+    },
+    {
+      "date": "2018-05-01",
+      "series": "private_original",
+      "value": 6251.076
+    },
+    {
+      "date": "2018-05-01",
+      "series": "private_sa",
+      "value": 6275.285
+    },
+    {
+      "date": "2018-05-01",
+      "series": "total_original",
+      "value": 12301.285
+    },
+    {
+      "date": "2018-05-01",
+      "series": "total_sa",
+      "value": 12334.774
+    },
+    {
+      "date": "2018-06-01",
+      "series": "private_original",
+      "value": 6216.704
+    },
+    {
+      "date": "2018-06-01",
+      "series": "private_sa",
+      "value": 6254.292
+    },
+    {
+      "date": "2018-06-01",
+      "series": "total_original",
+      "value": 12284.957000000002
+    },
+    {
+      "date": "2018-06-01",
+      "series": "total_sa",
+      "value": 12311.207
+    },
+    {
+      "date": "2018-07-01",
+      "series": "private_original",
+      "value": 6215.106
+    },
+    {
+      "date": "2018-07-01",
+      "series": "private_sa",
+      "value": 6244.002
+    },
+    {
+      "date": "2018-07-01",
+      "series": "total_original",
+      "value": 12213.498999999998
+    },
+    {
+      "date": "2018-07-01",
+      "series": "total_sa",
+      "value": 12241.877999999999
+    },
+    {
+      "date": "2018-08-01",
+      "series": "private_original",
+      "value": 6212.924
+    },
+    {
+      "date": "2018-08-01",
+      "series": "private_sa",
+      "value": 6234.921
+    },
+    {
+      "date": "2018-08-01",
+      "series": "total_original",
+      "value": 12232.021999999999
+    },
+    {
+      "date": "2018-08-01",
+      "series": "total_sa",
+      "value": 12246.831
+    },
+    {
+      "date": "2018-09-01",
+      "series": "private_original",
+      "value": 6181.243
+    },
+    {
+      "date": "2018-09-01",
+      "series": "private_sa",
+      "value": 6210.103
+    },
+    {
+      "date": "2018-09-01",
+      "series": "total_original",
+      "value": 12203.836000000001
+    },
+    {
+      "date": "2018-09-01",
+      "series": "total_sa",
+      "value": 12220.837000000001
+    },
+    {
+      "date": "2018-10-01",
+      "series": "private_original",
+      "value": 6194.592
+    },
+    {
+      "date": "2018-10-01",
+      "series": "private_sa",
+      "value": 6195.505
+    },
+    {
+      "date": "2018-10-01",
+      "series": "total_original",
+      "value": 12188.46
+    },
+    {
+      "date": "2018-10-01",
+      "series": "total_sa",
+      "value": 12173.706
+    },
+    {
+      "date": "2018-11-01",
+      "series": "private_original",
+      "value": 6182.767
+    },
+    {
+      "date": "2018-11-01",
+      "series": "private_sa",
+      "value": 6169.462
+    },
+    {
+      "date": "2018-11-01",
+      "series": "total_original",
+      "value": 12177.994
+    },
+    {
+      "date": "2018-11-01",
+      "series": "total_sa",
+      "value": 12145.848
+    },
+    {
+      "date": "2018-12-01",
+      "series": "private_original",
+      "value": 6167.38
+    },
+    {
+      "date": "2018-12-01",
+      "series": "private_sa",
+      "value": 6152.269
+    },
+    {
+      "date": "2018-12-01",
+      "series": "total_original",
+      "value": 12179.156
+    },
+    {
+      "date": "2018-12-01",
+      "series": "total_sa",
+      "value": 12128.642000000002
+    },
+    {
+      "date": "2019-01-01",
+      "series": "private_original",
+      "value": 6179.231
+    },
+    {
+      "date": "2019-01-01",
+      "series": "private_sa",
+      "value": 6146.057
+    },
+    {
+      "date": "2019-01-01",
+      "series": "total_original",
+      "value": 12165.528
+    },
+    {
+      "date": "2019-01-01",
+      "series": "total_sa",
+      "value": 12140.839999999998
+    },
+    {
+      "date": "2019-02-01",
+      "series": "private_original",
+      "value": 6187.63
+    },
+    {
+      "date": "2019-02-01",
+      "series": "private_sa",
+      "value": 6150.261
+    },
+    {
+      "date": "2019-02-01",
+      "series": "total_original",
+      "value": 12168.614
+    },
+    {
+      "date": "2019-02-01",
+      "series": "total_sa",
+      "value": 12154.846000000003
+    },
+    {
+      "date": "2019-03-01",
+      "series": "private_original",
+      "value": 6177.311
+    },
+    {
+      "date": "2019-03-01",
+      "series": "private_sa",
+      "value": 6133.505
+    },
+    {
+      "date": "2019-03-01",
+      "series": "total_original",
+      "value": 12138.484999999999
+    },
+    {
+      "date": "2019-03-01",
+      "series": "total_sa",
+      "value": 12130.758999999998
+    },
+    {
+      "date": "2019-04-01",
+      "series": "private_original",
+      "value": 6126.454
+    },
+    {
+      "date": "2019-04-01",
+      "series": "private_sa",
+      "value": 6126.559
+    },
+    {
+      "date": "2019-04-01",
+      "series": "total_original",
+      "value": 12118.659
+    },
+    {
+      "date": "2019-04-01",
+      "series": "total_sa",
+      "value": 12139.89
+    },
+    {
+      "date": "2019-05-01",
+      "series": "private_original",
+      "value": 6097.027
+    },
+    {
+      "date": "2019-05-01",
+      "series": "private_sa",
+      "value": 6120.022
+    },
+    {
+      "date": "2019-05-01",
+      "series": "total_original",
+      "value": 12109.103
+    },
+    {
+      "date": "2019-05-01",
+      "series": "total_sa",
+      "value": 12141.253
+    },
+    {
+      "date": "2019-06-01",
+      "series": "private_original",
+      "value": 6070.263
+    },
+    {
+      "date": "2019-06-01",
+      "series": "private_sa",
+      "value": 6112.481
+    },
+    {
+      "date": "2019-06-01",
+      "series": "total_original",
+      "value": 12100.945
+    },
+    {
+      "date": "2019-06-01",
+      "series": "total_sa",
+      "value": 12133.277
+    },
+    {
+      "date": "2019-07-01",
+      "series": "private_original",
+      "value": 6079.692
+    },
+    {
+      "date": "2019-07-01",
+      "series": "private_sa",
+      "value": 6105.644
+    },
+    {
+      "date": "2019-07-01",
+      "series": "total_original",
+      "value": 12110.511
+    },
+    {
+      "date": "2019-07-01",
+      "series": "total_sa",
+      "value": 12136.917000000003
+    },
+    {
+      "date": "2019-08-01",
+      "series": "private_original",
+      "value": 6071.154
+    },
+    {
+      "date": "2019-08-01",
+      "series": "private_sa",
+      "value": 6095.074
+    },
+    {
+      "date": "2019-08-01",
+      "series": "total_original",
+      "value": 12137.400000000001
+    },
+    {
+      "date": "2019-08-01",
+      "series": "total_sa",
+      "value": 12153.604
+    },
+    {
+      "date": "2019-09-01",
+      "series": "private_original",
+      "value": 6041.85
+    },
+    {
+      "date": "2019-09-01",
+      "series": "private_sa",
+      "value": 6066.142
+    },
+    {
+      "date": "2019-09-01",
+      "series": "total_original",
+      "value": 12135.699000000002
+    },
+    {
+      "date": "2019-09-01",
+      "series": "total_sa",
+      "value": 12147.627
+    },
+    {
+      "date": "2019-10-01",
+      "series": "private_original",
+      "value": 6039.439
+    },
+    {
+      "date": "2019-10-01",
+      "series": "private_sa",
+      "value": 6042.891
+    },
+    {
+      "date": "2019-10-01",
+      "series": "total_original",
+      "value": 12145.219
+    },
+    {
+      "date": "2019-10-01",
+      "series": "total_sa",
+      "value": 12133.956
+    },
+    {
+      "date": "2019-11-01",
+      "series": "private_original",
+      "value": 6033.144
+    },
+    {
+      "date": "2019-11-01",
+      "series": "private_sa",
+      "value": 6023.719
+    },
+    {
+      "date": "2019-11-01",
+      "series": "total_original",
+      "value": 12147.627
+    },
+    {
+      "date": "2019-11-01",
+      "series": "total_sa",
+      "value": 12119.919000000002
+    },
+    {
+      "date": "2019-12-01",
+      "series": "private_original",
+      "value": 6020.703
+    },
+    {
+      "date": "2019-12-01",
+      "series": "private_sa",
+      "value": 6001.707
+    },
+    {
+      "date": "2019-12-01",
+      "series": "total_original",
+      "value": 12163.844000000001
+    },
+    {
+      "date": "2019-12-01",
+      "series": "total_sa",
+      "value": 12109.688000000002
+    },
+    {
+      "date": "2020-01-01",
+      "series": "private_original",
+      "value": 6021.939
+    },
+    {
+      "date": "2020-01-01",
+      "series": "private_sa",
+      "value": 5988.285
+    },
+    {
+      "date": "2020-01-01",
+      "series": "total_original",
+      "value": 12118.992000000002
+    },
+    {
+      "date": "2020-01-01",
+      "series": "total_sa",
+      "value": 12096.084
+    },
+    {
+      "date": "2020-02-01",
+      "series": "private_original",
+      "value": 6028.392
+    },
+    {
+      "date": "2020-02-01",
+      "series": "private_sa",
+      "value": 5990.675
+    },
+    {
+      "date": "2020-02-01",
+      "series": "total_original",
+      "value": 12106.882000000001
+    },
+    {
+      "date": "2020-02-01",
+      "series": "total_sa",
+      "value": 12092.653
+    },
+    {
+      "date": "2020-03-01",
+      "series": "private_original",
+      "value": 5994.42
+    },
+    {
+      "date": "2020-03-01",
+      "series": "private_sa",
+      "value": 5947.278
+    },
+    {
+      "date": "2020-03-01",
+      "series": "total_original",
+      "value": 12036.592999999999
+    },
+    {
+      "date": "2020-03-01",
+      "series": "total_sa",
+      "value": 12023.73
+    },
+    {
+      "date": "2020-04-01",
+      "series": "private_original",
+      "value": 5836.865
+    },
+    {
+      "date": "2020-04-01",
+      "series": "private_sa",
+      "value": 5840.012
+    },
+    {
+      "date": "2020-04-01",
+      "series": "total_original",
+      "value": 11839.749
+    },
+    {
+      "date": "2020-04-01",
+      "series": "total_sa",
+      "value": 11862.578
+    },
+    {
+      "date": "2020-05-01",
+      "series": "private_original",
+      "value": 5787.439
+    },
+    {
+      "date": "2020-05-01",
+      "series": "private_sa",
+      "value": 5814.738
+    },
+    {
+      "date": "2020-05-01",
+      "series": "total_original",
+      "value": 11747.025000000001
+    },
+    {
+      "date": "2020-05-01",
+      "series": "total_sa",
+      "value": 11782.213
+    },
+    {
+      "date": "2020-06-01",
+      "series": "private_original",
+      "value": 5776.556
+    },
+    {
+      "date": "2020-06-01",
+      "series": "private_sa",
+      "value": 5808.74
+    },
+    {
+      "date": "2020-06-01",
+      "series": "total_original",
+      "value": 11768.006
+    },
+    {
+      "date": "2020-06-01",
+      "series": "total_sa",
+      "value": 11790.030999999999
+    },
+    {
+      "date": "2020-07-01",
+      "series": "private_original",
+      "value": 5768.547
+    },
+    {
+      "date": "2020-07-01",
+      "series": "private_sa",
+      "value": 5794.011
+    },
+    {
+      "date": "2020-07-01",
+      "series": "total_original",
+      "value": 11790.985
+    },
+    {
+      "date": "2020-07-01",
+      "series": "total_sa",
+      "value": 11817.096000000001
+    },
+    {
+      "date": "2020-08-01",
+      "series": "private_original",
+      "value": 5770.021
+    },
+    {
+      "date": "2020-08-01",
+      "series": "private_sa",
+      "value": 5796.368
+    },
+    {
+      "date": "2020-08-01",
+      "series": "total_original",
+      "value": 11830.635
+    },
+    {
+      "date": "2020-08-01",
+      "series": "total_sa",
+      "value": 11849.024000000001
+    },
+    {
+      "date": "2020-09-01",
+      "series": "private_original",
+      "value": 5780.89
+    },
+    {
+      "date": "2020-09-01",
+      "series": "private_sa",
+      "value": 5800.879
+    },
+    {
+      "date": "2020-09-01",
+      "series": "total_original",
+      "value": 11864.893
+    },
+    {
+      "date": "2020-09-01",
+      "series": "total_sa",
+      "value": 11872.545999999998
+    },
+    {
+      "date": "2020-10-01",
+      "series": "private_original",
+      "value": 5795.055
+    },
+    {
+      "date": "2020-10-01",
+      "series": "private_sa",
+      "value": 5802.136
+    },
+    {
+      "date": "2020-10-01",
+      "series": "total_original",
+      "value": 11893.342000000002
+    },
+    {
+      "date": "2020-10-01",
+      "series": "total_sa",
+      "value": 11886.689
+    },
+    {
+      "date": "2020-11-01",
+      "series": "private_original",
+      "value": 5816.818
+    },
+    {
+      "date": "2020-11-01",
+      "series": "private_sa",
+      "value": 5808.477
+    },
+    {
+      "date": "2020-11-01",
+      "series": "total_original",
+      "value": 11919.435000000001
+    },
+    {
+      "date": "2020-11-01",
+      "series": "total_sa",
+      "value": 11893.538
+    },
+    {
+      "date": "2020-12-01",
+      "series": "private_original",
+      "value": 5826.014
+    },
+    {
+      "date": "2020-12-01",
+      "series": "private_sa",
+      "value": 5806.333
+    },
+    {
+      "date": "2020-12-01",
+      "series": "total_original",
+      "value": 11932.812000000002
+    },
+    {
+      "date": "2020-12-01",
+      "series": "total_sa",
+      "value": 11878.755000000001
+    },
+    {
+      "date": "2021-01-01",
+      "series": "private_original",
+      "value": 5850.593
+    },
+    {
+      "date": "2021-01-01",
+      "series": "private_sa",
+      "value": 5824.875
+    },
+    {
+      "date": "2021-01-01",
+      "series": "total_original",
+      "value": 11922.36
+    },
+    {
+      "date": "2021-01-01",
+      "series": "total_sa",
+      "value": 11910.316
+    },
+    {
+      "date": "2021-02-01",
+      "series": "private_original",
+      "value": 5872.011
+    },
+    {
+      "date": "2021-02-01",
+      "series": "private_sa",
+      "value": 5837.507
+    },
+    {
+      "date": "2021-02-01",
+      "series": "total_original",
+      "value": 11958.910000000002
+    },
+    {
+      "date": "2021-02-01",
+      "series": "total_sa",
+      "value": 11948.390999999998
+    },
+    {
+      "date": "2021-03-01",
+      "series": "private_original",
+      "value": 5907.382
+    },
+    {
+      "date": "2021-03-01",
+      "series": "private_sa",
+      "value": 5861.172
+    },
+    {
+      "date": "2021-03-01",
+      "series": "total_original",
+      "value": 12014.249999999998
+    },
+    {
+      "date": "2021-03-01",
+      "series": "total_sa",
+      "value": 12000.339999999998
+    },
+    {
+      "date": "2021-04-01",
+      "series": "private_original",
+      "value": 5895.112
+    },
+    {
+      "date": "2021-04-01",
+      "series": "private_sa",
+      "value": 5895.376
+    },
+    {
+      "date": "2021-04-01",
+      "series": "total_original",
+      "value": 12042.679999999998
+    },
+    {
+      "date": "2021-04-01",
+      "series": "total_sa",
+      "value": 12061.441
+    },
+    {
+      "date": "2021-05-01",
+      "series": "private_original",
+      "value": 5869.969
+    },
+    {
+      "date": "2021-05-01",
+      "series": "private_sa",
+      "value": 5896.647
+    },
+    {
+      "date": "2021-05-01",
+      "series": "total_original",
+      "value": 12054.161999999998
+    },
+    {
+      "date": "2021-05-01",
+      "series": "total_sa",
+      "value": 12087.493999999999
+    },
+    {
+      "date": "2021-06-01",
+      "series": "private_original",
+      "value": 5869.182
+    },
+    {
+      "date": "2021-06-01",
+      "series": "private_sa",
+      "value": 5901.389
+    },
+    {
+      "date": "2021-06-01",
+      "series": "total_original",
+      "value": 12091.411000000002
+    },
+    {
+      "date": "2021-06-01",
+      "series": "total_sa",
+      "value": 12111.591
+    },
+    {
+      "date": "2021-07-01",
+      "series": "private_original",
+      "value": 5876.034
+    },
+    {
+      "date": "2021-07-01",
+      "series": "private_sa",
+      "value": 5902.498
+    },
+    {
+      "date": "2021-07-01",
+      "series": "total_original",
+      "value": 12115.125
+    },
+    {
+      "date": "2021-07-01",
+      "series": "total_sa",
+      "value": 12141.773000000001
+    },
+    {
+      "date": "2021-08-01",
+      "series": "private_original",
+      "value": 5895.277
+    },
+    {
+      "date": "2021-08-01",
+      "series": "private_sa",
+      "value": 5916.269
+    },
+    {
+      "date": "2021-08-01",
+      "series": "total_original",
+      "value": 12190.998
+    },
+    {
+      "date": "2021-08-01",
+      "series": "total_sa",
+      "value": 12204.309000000001
+    },
+    {
+      "date": "2021-09-01",
+      "series": "private_original",
+      "value": 5916.087
+    },
+    {
+      "date": "2021-09-01",
+      "series": "private_sa",
+      "value": 5936.464
+    },
+    {
+      "date": "2021-09-01",
+      "series": "total_original",
+      "value": 12261.299
+    },
+    {
+      "date": "2021-09-01",
+      "series": "total_sa",
+      "value": 12269.501000000002
+    },
+    {
+      "date": "2021-10-01",
+      "series": "private_original",
+      "value": 5940.33
+    },
+    {
+      "date": "2021-10-01",
+      "series": "private_sa",
+      "value": 5950.898
+    },
+    {
+      "date": "2021-10-01",
+      "series": "total_original",
+      "value": 12314.209
+    },
+    {
+      "date": "2021-10-01",
+      "series": "total_sa",
+      "value": 12312.195
+    },
+    {
+      "date": "2021-11-01",
+      "series": "private_original",
+      "value": 5988.541
+    },
+    {
+      "date": "2021-11-01",
+      "series": "private_sa",
+      "value": 5974.659
+    },
+    {
+      "date": "2021-11-01",
+      "series": "total_original",
+      "value": 12387.33
+    },
+    {
+      "date": "2021-11-01",
+      "series": "total_sa",
+      "value": 12356.635
+    },
+    {
+      "date": "2021-12-01",
+      "series": "private_original",
+      "value": 6027.687
+    },
+    {
+      "date": "2021-12-01",
+      "series": "private_sa",
+      "value": 6007.213
+    },
+    {
+      "date": "2021-12-01",
+      "series": "total_original",
+      "value": 12468.856000000002
+    },
+    {
+      "date": "2021-12-01",
+      "series": "total_sa",
+      "value": 12415.187
+    },
+    {
+      "date": "2022-01-01",
+      "series": "private_original",
+      "value": 6069.317
+    },
+    {
+      "date": "2022-01-01",
+      "series": "private_sa",
+      "value": 6042.149
+    },
+    {
+      "date": "2022-01-01",
+      "series": "total_original",
+      "value": 12466.782
+    },
+    {
+      "date": "2022-01-01",
+      "series": "total_sa",
+      "value": 12455.578
+    },
+    {
+      "date": "2022-02-01",
+      "series": "private_original",
+      "value": 6095.135
+    },
+    {
+      "date": "2022-02-01",
+      "series": "private_sa",
+      "value": 6060.54
+    },
+    {
+      "date": "2022-02-01",
+      "series": "total_original",
+      "value": 12508.457
+    },
+    {
+      "date": "2022-02-01",
+      "series": "total_sa",
+      "value": 12498.255
+    },
+    {
+      "date": "2022-03-01",
+      "series": "private_original",
+      "value": 6129.715
+    },
+    {
+      "date": "2022-03-01",
+      "series": "private_sa",
+      "value": 6085.449
+    },
+    {
+      "date": "2022-03-01",
+      "series": "total_original",
+      "value": 12562.159
+    },
+    {
+      "date": "2022-03-01",
+      "series": "total_sa",
+      "value": 12548.447999999999
+    },
+    {
+      "date": "2022-04-01",
+      "series": "private_original",
+      "value": 6110.171
+    },
+    {
+      "date": "2022-04-01",
+      "series": "private_sa",
+      "value": 6115.823
+    },
+    {
+      "date": "2022-04-01",
+      "series": "total_original",
+      "value": 12584.688
+    },
+    {
+      "date": "2022-04-01",
+      "series": "total_sa",
+      "value": 12608.302000000001
+    },
+    {
+      "date": "2022-05-01",
+      "series": "private_original",
+      "value": 6117.962
+    },
+    {
+      "date": "2022-05-01",
+      "series": "private_sa",
+      "value": 6140.86
+    },
+    {
+      "date": "2022-05-01",
+      "series": "total_original",
+      "value": 12640.729000000003
+    },
+    {
+      "date": "2022-05-01",
+      "series": "total_sa",
+      "value": 12669.264
+    },
+    {
+      "date": "2022-06-01",
+      "series": "private_original",
+      "value": 6134.032
+    },
+    {
+      "date": "2022-06-01",
+      "series": "private_sa",
+      "value": 6168.498
+    },
+    {
+      "date": "2022-06-01",
+      "series": "total_original",
+      "value": 12716.5
+    },
+    {
+      "date": "2022-06-01",
+      "series": "total_sa",
+      "value": 12736.768999999998
+    },
+    {
+      "date": "2022-07-01",
+      "series": "private_original",
+      "value": 6169.348
+    },
+    {
+      "date": "2022-07-01",
+      "series": "private_sa",
+      "value": 6199.414
+    },
+    {
+      "date": "2022-07-01",
+      "series": "total_original",
+      "value": 12783.985000000002
+    },
+    {
+      "date": "2022-07-01",
+      "series": "total_sa",
+      "value": 12813.587000000001
+    },
+    {
+      "date": "2022-08-01",
+      "series": "private_original",
+      "value": 6186.755
+    },
+    {
+      "date": "2022-08-01",
+      "series": "private_sa",
+      "value": 6205.966
+    },
+    {
+      "date": "2022-08-01",
+      "series": "total_original",
+      "value": 12830.851
+    },
+    {
+      "date": "2022-08-01",
+      "series": "total_sa",
+      "value": 12843.121000000001
+    },
+    {
+      "date": "2022-09-01",
+      "series": "private_original",
+      "value": 6210.839
+    },
+    {
+      "date": "2022-09-01",
+      "series": "private_sa",
+      "value": 6229.567
+    },
+    {
+      "date": "2022-09-01",
+      "series": "total_original",
+      "value": 12900.011999999999
+    },
+    {
+      "date": "2022-09-01",
+      "series": "total_sa",
+      "value": 12906.586000000001
+    },
+    {
+      "date": "2022-10-01",
+      "series": "private_original",
+      "value": 6236.623
+    },
+    {
+      "date": "2022-10-01",
+      "series": "private_sa",
+      "value": 6248.083
+    },
+    {
+      "date": "2022-10-01",
+      "series": "total_original",
+      "value": 12954.136999999999
+    },
+    {
+      "date": "2022-10-01",
+      "series": "total_sa",
+      "value": 12954.077
+    },
+    {
+      "date": "2022-11-01",
+      "series": "private_original",
+      "value": 6278.154
+    },
+    {
+      "date": "2022-11-01",
+      "series": "private_sa",
+      "value": 6264.621
+    },
+    {
+      "date": "2022-11-01",
+      "series": "total_original",
+      "value": 13042.007999999998
+    },
+    {
+      "date": "2022-11-01",
+      "series": "total_sa",
+      "value": 13012.872
+    },
+    {
+      "date": "2022-12-01",
+      "series": "private_original",
+      "value": 6296.204
+    },
+    {
+      "date": "2022-12-01",
+      "series": "private_sa",
+      "value": 6276.128
+    },
+    {
+      "date": "2022-12-01",
+      "series": "total_original",
+      "value": 13090.831000000002
+    },
+    {
+      "date": "2022-12-01",
+      "series": "total_sa",
+      "value": 13038.514000000001
+    },
+    {
+      "date": "2023-01-01",
+      "series": "private_original",
+      "value": 6333.404
+    },
+    {
+      "date": "2023-01-01",
+      "series": "private_sa",
+      "value": 6299.271
+    },
+    {
+      "date": "2023-01-01",
+      "series": "total_original",
+      "value": 13103.898
+    },
+    {
+      "date": "2023-01-01",
+      "series": "total_sa",
+      "value": 13086.685
+    },
+    {
+      "date": "2023-02-01",
+      "series": "private_original",
+      "value": 6348.193
+    },
+    {
+      "date": "2023-02-01",
+      "series": "private_sa",
+      "value": 6313.203
+    },
+    {
+      "date": "2023-02-01",
+      "series": "total_original",
+      "value": 13128.639000000001
+    },
+    {
+      "date": "2023-02-01",
+      "series": "total_sa",
+      "value": 13117.578
+    },
+    {
+      "date": "2023-03-01",
+      "series": "private_original",
+      "value": 6377.525
+    },
+    {
+      "date": "2023-03-01",
+      "series": "private_sa",
+      "value": 6335.654
+    },
+    {
+      "date": "2023-03-01",
+      "series": "total_original",
+      "value": 13155.608000000002
+    },
+    {
+      "date": "2023-03-01",
+      "series": "total_sa",
+      "value": 13142.688
+    },
+    {
+      "date": "2023-04-01",
+      "series": "private_original",
+      "value": 6339.738
+    },
+    {
+      "date": "2023-04-01",
+      "series": "private_sa",
+      "value": 6351.531
+    },
+    {
+      "date": "2023-04-01",
+      "series": "total_original",
+      "value": 13150.05
+    },
+    {
+      "date": "2023-04-01",
+      "series": "total_sa",
+      "value": 13179.369999999999
+    },
+    {
+      "date": "2023-05-01",
+      "series": "private_original",
+      "value": 6347.788
+    },
+    {
+      "date": "2023-05-01",
+      "series": "private_sa",
+      "value": 6368.437
+    },
+    {
+      "date": "2023-05-01",
+      "series": "total_original",
+      "value": 13220.836000000001
+    },
+    {
+      "date": "2023-05-01",
+      "series": "total_sa",
+      "value": 13247.041000000001
+    },
+    {
+      "date": "2023-06-01",
+      "series": "private_original",
+      "value": 6353.117
+    },
+    {
+      "date": "2023-06-01",
+      "series": "private_sa",
+      "value": 6385.965
+    },
+    {
+      "date": "2023-06-01",
+      "series": "total_original",
+      "value": 13272.368000000002
+    },
+    {
+      "date": "2023-06-01",
+      "series": "total_sa",
+      "value": 13289.489000000001
+    },
+    {
+      "date": "2023-07-01",
+      "series": "private_original",
+      "value": 6374.49
+    },
+    {
+      "date": "2023-07-01",
+      "series": "private_sa",
+      "value": 6405.066
+    },
+    {
+      "date": "2023-07-01",
+      "series": "total_original",
+      "value": 13305.272
+    },
+    {
+      "date": "2023-07-01",
+      "series": "total_sa",
+      "value": 13335.231
+    },
+    {
+      "date": "2023-08-01",
+      "series": "private_original",
+      "value": 6387.707
+    },
+    {
+      "date": "2023-08-01",
+      "series": "private_sa",
+      "value": 6407.917
+    },
+    {
+      "date": "2023-08-01",
+      "series": "total_original",
+      "value": 13350.740000000002
+    },
+    {
+      "date": "2023-08-01",
+      "series": "total_sa",
+      "value": 13365.224000000002
+    },
+    {
+      "date": "2023-09-01",
+      "series": "private_original",
+      "value": 6371.65
+    },
+    {
+      "date": "2023-09-01",
+      "series": "private_sa",
+      "value": 6393.022
+    },
+    {
+      "date": "2023-09-01",
+      "series": "total_original",
+      "value": 13362.571000000002
+    },
+    {
+      "date": "2023-09-01",
+      "series": "total_sa",
+      "value": 13372.096000000001
+    },
+    {
+      "date": "2023-10-01",
+      "series": "private_original",
+      "value": 6374.399
+    },
+    {
+      "date": "2023-10-01",
+      "series": "private_sa",
+      "value": 6380.448
+    },
+    {
+      "date": "2023-10-01",
+      "series": "total_original",
+      "value": 13378.618999999999
+    },
+    {
+      "date": "2023-10-01",
+      "series": "total_sa",
+      "value": 13373.989000000001
+    },
+    {
+      "date": "2023-11-01",
+      "series": "private_original",
+      "value": 6385.764
+    },
+    {
+      "date": "2023-11-01",
+      "series": "private_sa",
+      "value": 6372.561
+    },
+    {
+      "date": "2023-11-01",
+      "series": "total_original",
+      "value": 13392.828
+    },
+    {
+      "date": "2023-11-01",
+      "series": "total_sa",
+      "value": 13365.342
+    },
+    {
+      "date": "2023-12-01",
+      "series": "private_original",
+      "value": 6379.12
+    },
+    {
+      "date": "2023-12-01",
+      "series": "private_sa",
+      "value": 6361.229
+    },
+    {
+      "date": "2023-12-01",
+      "series": "total_original",
+      "value": 13413.253
+    },
+    {
+      "date": "2023-12-01",
+      "series": "total_sa",
+      "value": 13363.704000000002
+    },
+    {
+      "date": "2024-01-01",
+      "series": "private_original",
+      "value": 6363.884
+    },
+    {
+      "date": "2024-01-01",
+      "series": "private_sa",
+      "value": 6327.681
+    },
+    {
+      "date": "2024-01-01",
+      "series": "total_original",
+      "value": 13347.652
+    },
+    {
+      "date": "2024-01-01",
+      "series": "total_sa",
+      "value": 13327.737
+    },
+    {
+      "date": "2024-02-01",
+      "series": "private_original",
+      "value": 6337.933
+    },
+    {
+      "date": "2024-02-01",
+      "series": "private_sa",
+      "value": 6300.781
+    },
+    {
+      "date": "2024-02-01",
+      "series": "total_original",
+      "value": 13346.837000000001
+    },
+    {
+      "date": "2024-02-01",
+      "series": "total_sa",
+      "value": 13331.893
+    },
+    {
+      "date": "2024-03-01",
+      "series": "private_original",
+      "value": 6306.558
+    },
+    {
+      "date": "2024-03-01",
+      "series": "private_sa",
+      "value": 6275.634
+    },
+    {
+      "date": "2024-03-01",
+      "series": "total_original",
+      "value": 13294.504999999997
+    },
+    {
+      "date": "2024-03-01",
+      "series": "total_sa",
+      "value": 13291.049
+    },
+    {
+      "date": "2024-04-01",
+      "series": "private_original",
+      "value": 6257.457
+    },
+    {
+      "date": "2024-04-01",
+      "series": "private_sa",
+      "value": 6258.901
+    },
+    {
+      "date": "2024-04-01",
+      "series": "total_original",
+      "value": 13250.359
+    },
+    {
+      "date": "2024-04-01",
+      "series": "total_sa",
+      "value": 13269.088
+    },
+    {
+      "date": "2024-05-01",
+      "series": "private_original",
+      "value": 6227.984
+    },
+    {
+      "date": "2024-05-01",
+      "series": "private_sa",
+      "value": 6248.96
+    },
+    {
+      "date": "2024-05-01",
+      "series": "total_original",
+      "value": 13235.862000000001
+    },
+    {
+      "date": "2024-05-01",
+      "series": "total_sa",
+      "value": 13262.665
+    },
+    {
+      "date": "2024-06-01",
+      "series": "private_original",
+      "value": 6199.484
+    },
+    {
+      "date": "2024-06-01",
+      "series": "private_sa",
+      "value": 6239.013
+    },
+    {
+      "date": "2024-06-01",
+      "series": "total_original",
+      "value": 13228.158
+    },
+    {
+      "date": "2024-06-01",
+      "series": "total_sa",
+      "value": 13251.627
+    },
+    {
+      "date": "2024-07-01",
+      "series": "private_original",
+      "value": 6210.704
+    },
+    {
+      "date": "2024-07-01",
+      "series": "private_sa",
+      "value": 6233.453
+    },
+    {
+      "date": "2024-07-01",
+      "series": "total_original",
+      "value": 13227.412999999999
+    },
+    {
+      "date": "2024-07-01",
+      "series": "total_sa",
+      "value": 13250.057
+    },
+    {
+      "date": "2024-08-01",
+      "series": "private_original",
+      "value": 6215.334
+    },
+    {
+      "date": "2024-08-01",
+      "series": "private_sa",
+      "value": 6236.942
+    },
+    {
+      "date": "2024-08-01",
+      "series": "total_original",
+      "value": 13255.293999999998
+    },
+    {
+      "date": "2024-08-01",
+      "series": "total_sa",
+      "value": 13272.733
+    },
+    {
+      "date": "2024-09-01",
+      "series": "private_original",
+      "value": 6224.246
+    },
+    {
+      "date": "2024-09-01",
+      "series": "private_sa",
+      "value": 6246.023
+    },
+    {
+      "date": "2024-09-01",
+      "series": "total_original",
+      "value": 13270.162
+    },
+    {
+      "date": "2024-09-01",
+      "series": "total_sa",
+      "value": 13280.804
+    },
+    {
+      "date": "2024-10-01",
+      "series": "private_original",
+      "value": 6249.844
+    },
+    {
+      "date": "2024-10-01",
+      "series": "private_sa",
+      "value": 6253.385
+    },
+    {
+      "date": "2024-10-01",
+      "series": "total_original",
+      "value": 13280.079000000002
+    },
+    {
+      "date": "2024-10-01",
+      "series": "total_sa",
+      "value": 13273.689999999999
+    },
+    {
+      "date": "2024-11-01",
+      "series": "private_original",
+      "value": 6267.843
+    },
+    {
+      "date": "2024-11-01",
+      "series": "private_sa",
+      "value": 6254.864
+    },
+    {
+      "date": "2024-11-01",
+      "series": "total_original",
+      "value": 13287.408000000001
+    },
+    {
+      "date": "2024-11-01",
+      "series": "total_sa",
+      "value": 13261.538
+    },
+    {
+      "date": "2024-12-01",
+      "series": "private_original",
+      "value": 6285.719
+    },
+    {
+      "date": "2024-12-01",
+      "series": "private_sa",
+      "value": 6263.647
+    },
+    {
+      "date": "2024-12-01",
+      "series": "total_original",
+      "value": 12920.954
+    },
+    {
+      "date": "2024-12-01",
+      "series": "total_sa",
+      "value": 12866.935
+    },
+    {
+      "date": "2025-01-01",
+      "series": "private_original",
+      "value": 6290.114
+    },
+    {
+      "date": "2025-01-01",
+      "series": "private_sa",
+      "value": 6256.191
+    },
+    {
+      "date": "2025-01-01",
+      "series": "total_original",
+      "value": 12891.699999999999
+    },
+    {
+      "date": "2025-01-01",
+      "series": "total_sa",
+      "value": 12872.414999999999
+    },
+    {
+      "date": "2025-02-01",
+      "series": "private_original",
+      "value": 6298.957
+    },
+    {
+      "date": "2025-02-01",
+      "series": "private_sa",
+      "value": 6265.656
+    },
+    {
+      "date": "2025-02-01",
+      "series": "total_original",
+      "value": 12890.037000000002
+    },
+    {
+      "date": "2025-02-01",
+      "series": "total_sa",
+      "value": 12876.473
+    },
+    {
+      "date": "2025-03-01",
+      "series": "private_original",
+      "value": 6285.043
+    },
+    {
+      "date": "2025-03-01",
+      "series": "private_sa",
+      "value": 6253.849
+    },
+    {
+      "date": "2025-03-01",
+      "series": "total_original",
+      "value": 12870.503999999999
+    },
+    {
+      "date": "2025-03-01",
+      "series": "total_sa",
+      "value": 12865.464000000002
+    },
+    {
+      "date": "2025-04-01",
+      "series": "private_original",
+      "value": 6258.727
+    },
+    {
+      "date": "2025-04-01",
+      "series": "private_sa",
+      "value": 6264.964
+    },
+    {
+      "date": "2025-04-01",
+      "series": "total_original",
+      "value": 12857.124
+    },
+    {
+      "date": "2025-04-01",
+      "series": "total_sa",
+      "value": 12880.460000000001
+    },
+    {
+      "date": "2025-05-01",
+      "series": "private_original",
+      "value": 6244.075
+    },
+    {
+      "date": "2025-05-01",
+      "series": "private_sa",
+      "value": 6266.915
+    },
+    {
+      "date": "2025-05-01",
+      "series": "total_original",
+      "value": 12860.934000000001
+    },
+    {
+      "date": "2025-05-01",
+      "series": "total_sa",
+      "value": 12890.177000000001
+    },
+    {
+      "date": "2025-06-01",
+      "series": "private_original",
+      "value": 6216.843
+    },
+    {
+      "date": "2025-06-01",
+      "series": "private_sa",
+      "value": 6251.835
+    },
+    {
+      "date": "2025-06-01",
+      "series": "total_original",
+      "value": 12869.498000000001
+    },
+    {
+      "date": "2025-06-01",
+      "series": "total_sa",
+      "value": 12889.119
+    },
+    {
+      "date": "2025-07-01",
+      "series": "private_original",
+      "value": 6216.831
+    },
+    {
+      "date": "2025-07-01",
+      "series": "private_sa",
+      "value": 6240.83
+    },
+    {
+      "date": "2025-07-01",
+      "series": "total_original",
+      "value": 12862.469
+    },
+    {
+      "date": "2025-07-01",
+      "series": "total_sa",
+      "value": 12887.294
+    },
+    {
+      "date": "2025-08-01",
+      "series": "private_original",
+      "value": 6204.933
+    },
+    {
+      "date": "2025-08-01",
+      "series": "private_sa",
+      "value": 6229.115
+    },
+    {
+      "date": "2025-08-01",
+      "series": "total_original",
+      "value": 12859.066
+    },
+    {
+      "date": "2025-08-01",
+      "series": "total_sa",
+      "value": 12880.402
+    },
+    {
+      "date": "2025-09-01",
+      "series": "private_original",
+      "value": 6199.436
+    },
+    {
+      "date": "2025-09-01",
+      "series": "private_sa",
+      "value": 6216.092
+    },
+    {
+      "date": "2025-09-01",
+      "series": "total_original",
+      "value": 12872.615000000002
+    },
+    {
+      "date": "2025-09-01",
+      "series": "total_sa",
+      "value": 12878.981
+    },
+    {
+      "date": "2025-10-01",
+      "series": "private_original",
+      "value": 6197.821
+    },
+    {
+      "date": "2025-10-01",
+      "series": "private_sa",
+      "value": 6200.552
+    },
+    {
+      "date": "2025-10-01",
+      "series": "total_original",
+      "value": 12863.82
+    },
+    {
+      "date": "2025-10-01",
+      "series": "total_sa",
+      "value": 12857.174
+    },
+    {
+      "date": "2025-11-01",
+      "series": "private_original",
+      "value": 6193.172
+    },
+    {
+      "date": "2025-11-01",
+      "series": "private_sa",
+      "value": 6184.551
+    },
+    {
+      "date": "2025-11-01",
+      "series": "total_original",
+      "value": 12870.125
+    },
+    {
+      "date": "2025-11-01",
+      "series": "total_sa",
+      "value": 12849.343
+    },
+    {
+      "date": "2025-12-01",
+      "series": "private_original",
+      "value": 6197.074
+    },
+    {
+      "date": "2025-12-01",
+      "series": "private_sa",
+      "value": 6172.323
+    },
+    {
+      "date": "2025-12-01",
+      "series": "total_original",
+      "value": 12909.813999999997
+    },
+    {
+      "date": "2025-12-01",
+      "series": "total_sa",
+      "value": 12852.466
+    },
+    {
+      "date": "2026-01-01",
+      "series": "private_original",
+      "value": 6190.027
+    },
+    {
+      "date": "2026-01-01",
+      "series": "private_sa",
+      "value": 6159.68
+    },
+    {
+      "date": "2026-01-01",
+      "series": "total_original",
+      "value": 12864.532
+    },
+    {
+      "date": "2026-01-01",
+      "series": "total_sa",
+      "value": 12847.19
+    },
+    {
+      "date": "2026-02-01",
+      "series": "private_original",
+      "value": 6189.633
+    },
+    {
+      "date": "2026-02-01",
+      "series": "private_sa",
+      "value": 6156.689
+    },
+    {
+      "date": "2026-02-01",
+      "series": "total_original",
+      "value": 12866.48
+    },
+    {
+      "date": "2026-02-01",
+      "series": "total_sa",
+      "value": 12851.512999999997
+    },
+    {
+      "date": "2026-03-01",
+      "series": "private_original",
+      "value": 6181.463
+    },
+    {
+      "date": "2026-03-01",
+      "series": "private_sa",
+      "value": 6147.788
+    },
+    {
+      "date": "2026-03-01",
+      "series": "total_original",
+      "value": 12838.969
+    },
+    {
+      "date": "2026-03-01",
+      "series": "total_sa",
+      "value": 12830.36
+    },
+    {
+      "date": "2026-04-01",
+      "series": "private_original",
+      "value": 6128.377
+    },
+    {
+      "date": "2026-04-01",
+      "series": "private_sa",
+      "value": 6135.296
+    },
+    {
+      "date": "2026-04-01",
+      "series": "total_original",
+      "value": 12769.712
+    },
+    {
+      "date": "2026-04-01",
+      "series": "total_sa",
+      "value": 12793.717999999999
+    },
+    {
+      "date": "2026-05-01",
+      "series": "private_original",
+      "value": 6100.292
+    },
+    {
+      "date": "2026-05-01",
+      "series": "private_sa",
+      "value": 6125.383
+    },
+    {
+      "date": "2026-05-01",
+      "series": "total_original",
+      "value": 12749.987
+    },
+    {
+      "date": "2026-05-01",
+      "series": "total_sa",
+      "value": 12781.869999999999
+    },
+    {
+      "date": "2026-06-01",
+      "series": "private_original",
+      "value": 6089.888
+    },
+    {
+      "date": "2026-06-01",
+      "series": "private_sa",
+      "value": 6119.512
+    },
+    {
+      "date": "2026-06-01",
+      "series": "total_original",
+      "value": 12752.566
+    },
+    {
+      "date": "2026-06-01",
+      "series": "total_sa",
+      "value": 12767.715
+    },
+    {
+      "date": "2026-07-01",
+      "series": "private_original",
+      "value": 6082.314
+    },
+    {
+      "date": "2026-07-01",
+      "series": "private_sa",
+      "value": 6106.796
+    },
+    {
+      "date": "2026-07-01",
+      "series": "total_original",
+      "value": 12725.996
+    },
+    {
+      "date": "2026-07-01",
+      "series": "total_sa",
+      "value": 12752.204
+    }
+  ],
+  "valueKind": "level",
+  "supportingSources": [],
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-07-01",
+  "firstObservedPeriod": "2012-01-01",
+  "lastObservedBySeries": {
+    "total_original": "2026-07-01",
+    "total_sa": "2026-07-01",
+    "private_original": "2026-07-01",
+    "private_sa": "2026-07-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:47:49Z",
+  "lastAttemptAt": "2026-11-13T12:47:49Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "dbc36296933fad6ea401b84602cc750bc32227cb624da739d381cd35adc0c3b9",
+  "rawSha256": "01982d68bcc4eeb77432e2189a8b96a941a9d57f7b94fccf1bb6bfc523d38ae0",
+  "dataChangedAt": "2026-11-13T12:47:49Z",
+  "revisedObservations": 0,
+  "newObservations": 700,
+  "changedSinceLastFetch": true
+}

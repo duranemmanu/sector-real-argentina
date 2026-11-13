@@ -1,0 +1,231 @@
+{
+  "id": "epi-vehicles",
+  "source": "INDEC · Estadísticas de Productos Industriales (EPI)",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls",
+  "frequency": "monthly",
+  "unit": "unidades",
+  "series": [
+    {
+      "column": 1,
+      "id": "cars",
+      "label": "Automóviles y utilitarios"
+    },
+    {
+      "column": 2,
+      "id": "motorcycles",
+      "label": "Motocicletas"
+    }
+  ],
+  "methodNote": "Niveles mensuales publicados en EPI; datos preliminares según asteriscos del cuadro. Los símbolos de ausencia se conservan como null. No se mezclan totales anuales con meses.",
+  "observations": [
+    {
+      "date": "2025-01-01",
+      "series": "cars",
+      "value": 30058.0
+    },
+    {
+      "date": "2025-01-01",
+      "series": "motorcycles",
+      "value": 50759.0
+    },
+    {
+      "date": "2025-02-01",
+      "series": "cars",
+      "value": 42419.0
+    },
+    {
+      "date": "2025-02-01",
+      "series": "motorcycles",
+      "value": 59963.0
+    },
+    {
+      "date": "2025-03-01",
+      "series": "cars",
+      "value": 41565.0
+    },
+    {
+      "date": "2025-03-01",
+      "series": "motorcycles",
+      "value": 65703.0
+    },
+    {
+      "date": "2025-04-01",
+      "series": "cars",
+      "value": 45479.0
+    },
+    {
+      "date": "2025-04-01",
+      "series": "motorcycles",
+      "value": 82803.0
+    },
+    {
+      "date": "2025-05-01",
+      "series": "cars",
+      "value": 48109.0
+    },
+    {
+      "date": "2025-05-01",
+      "series": "motorcycles",
+      "value": 79986.0
+    },
+    {
+      "date": "2025-06-01",
+      "series": "cars",
+      "value": 42848.0
+    },
+    {
+      "date": "2025-06-01",
+      "series": "motorcycles",
+      "value": 70756.0
+    },
+    {
+      "date": "2025-07-01",
+      "series": "cars",
+      "value": 37112.0
+    },
+    {
+      "date": "2025-07-01",
+      "series": "motorcycles",
+      "value": 64249.0
+    },
+    {
+      "date": "2025-08-01",
+      "series": "cars",
+      "value": 44545.0
+    },
+    {
+      "date": "2025-08-01",
+      "series": "motorcycles",
+      "value": 65590.0
+    },
+    {
+      "date": "2025-09-01",
+      "series": "cars",
+      "value": 47108.0
+    },
+    {
+      "date": "2025-09-01",
+      "series": "motorcycles",
+      "value": 68239.0
+    },
+    {
+      "date": "2025-10-01",
+      "series": "cars",
+      "value": 47204.0
+    },
+    {
+      "date": "2025-10-01",
+      "series": "motorcycles",
+      "value": 67611.0
+    },
+    {
+      "date": "2025-11-01",
+      "series": "cars",
+      "value": 37961.0
+    },
+    {
+      "date": "2025-11-01",
+      "series": "motorcycles",
+      "value": 58361.0
+    },
+    {
+      "date": "2025-12-01",
+      "series": "cars",
+      "value": 26468.0
+    },
+    {
+      "date": "2025-12-01",
+      "series": "motorcycles",
+      "value": 57840.0
+    },
+    {
+      "date": "2026-01-01",
+      "series": "cars",
+      "value": 20998.0
+    },
+    {
+      "date": "2026-01-01",
+      "series": "motorcycles",
+      "value": 48680.0
+    },
+    {
+      "date": "2026-02-01",
+      "series": "cars",
+      "value": 29632.0
+    },
+    {
+      "date": "2026-02-01",
+      "series": "motorcycles",
+      "value": 49045.0
+    },
+    {
+      "date": "2026-03-01",
+      "series": "cars",
+      "value": 41716.0
+    },
+    {
+      "date": "2026-03-01",
+      "series": "motorcycles",
+      "value": 74329.0
+    },
+    {
+      "date": "2026-04-01",
+      "series": "cars",
+      "value": 37521.0
+    },
+    {
+      "date": "2026-04-01",
+      "series": "motorcycles",
+      "value": 85837.0
+    },
+    {
+      "date": "2026-05-01",
+      "series": "cars",
+      "value": 37762.0
+    },
+    {
+      "date": "2026-05-01",
+      "series": "motorcycles",
+      "value": 76056.0
+    },
+    {
+      "date": "2026-06-01",
+      "series": "cars",
+      "value": 37029.0
+    },
+    {
+      "date": "2026-06-01",
+      "series": "motorcycles",
+      "value": 69833.0
+    },
+    {
+      "date": "2026-07-01",
+      "series": "cars",
+      "value": 31189.0
+    },
+    {
+      "date": "2026-07-01",
+      "series": "motorcycles",
+      "value": 74553.0
+    }
+  ],
+  "valueKind": "level",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-07-01",
+  "firstObservedPeriod": "2025-01-01",
+  "lastObservedBySeries": {
+    "cars": "2026-07-01",
+    "motorcycles": "2026-07-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:46:21Z",
+  "lastAttemptAt": "2026-11-13T12:46:21Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "100feb58725a35659dc5d293b8e9d5bec7f3ed713972dbb9c2a813357354997b",
+  "rawSha256": "ac6a6584754c1e770f42c790f32c6a295e4aaa6ef73753facba35e799bb154fb",
+  "dataChangedAt": "2026-11-12T03:32:55Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

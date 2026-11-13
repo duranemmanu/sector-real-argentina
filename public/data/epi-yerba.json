@@ -1,0 +1,130 @@
+{
+  "id": "epi-yerba",
+  "source": "INDEC · Estadísticas de Productos Industriales (EPI)",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls",
+  "frequency": "monthly",
+  "unit": "toneladas",
+  "series": [
+    {
+      "column": 1,
+      "id": "yerba",
+      "label": "Despachos de yerba mate"
+    }
+  ],
+  "methodNote": "Niveles mensuales publicados en EPI; datos preliminares según asteriscos del cuadro. Los símbolos de ausencia se conservan como null. No se mezclan totales anuales con meses.",
+  "observations": [
+    {
+      "date": "2025-01-01",
+      "series": "yerba",
+      "value": 22040.368
+    },
+    {
+      "date": "2025-02-01",
+      "series": "yerba",
+      "value": 21111.532
+    },
+    {
+      "date": "2025-03-01",
+      "series": "yerba",
+      "value": 23224.844
+    },
+    {
+      "date": "2025-04-01",
+      "series": "yerba",
+      "value": 25050.144
+    },
+    {
+      "date": "2025-05-01",
+      "series": "yerba",
+      "value": 25455.399
+    },
+    {
+      "date": "2025-06-01",
+      "series": "yerba",
+      "value": 21431.344
+    },
+    {
+      "date": "2025-07-01",
+      "series": "yerba",
+      "value": 23591.853
+    },
+    {
+      "date": "2025-08-01",
+      "series": "yerba",
+      "value": 22006.917
+    },
+    {
+      "date": "2025-09-01",
+      "series": "yerba",
+      "value": 23224.553
+    },
+    {
+      "date": "2025-10-01",
+      "series": "yerba",
+      "value": 21956.295
+    },
+    {
+      "date": "2025-11-01",
+      "series": "yerba",
+      "value": 17853.709
+    },
+    {
+      "date": "2025-12-01",
+      "series": "yerba",
+      "value": 19941.053
+    },
+    {
+      "date": "2026-01-01",
+      "series": "yerba",
+      "value": 21400.512
+    },
+    {
+      "date": "2026-02-01",
+      "series": "yerba",
+      "value": 19284.754
+    },
+    {
+      "date": "2026-03-01",
+      "series": "yerba",
+      "value": 24278.491
+    },
+    {
+      "date": "2026-04-01",
+      "series": "yerba",
+      "value": 24638.74
+    },
+    {
+      "date": "2026-05-01",
+      "series": "yerba",
+      "value": 24275.556
+    },
+    {
+      "date": "2026-06-01",
+      "series": "yerba",
+      "value": 23458.938
+    },
+    {
+      "date": "2026-07-01",
+      "series": "yerba",
+      "value": 24154.1219
+    }
+  ],
+  "valueKind": "level",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-07-01",
+  "firstObservedPeriod": "2025-01-01",
+  "lastObservedBySeries": {
+    "yerba": "2026-07-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:46:21Z",
+  "lastAttemptAt": "2026-11-13T12:46:21Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "6819bd00721c96772da7744624daf85b60b0d791574cb8e8482fc5b231296db0",
+  "rawSha256": "ac6a6584754c1e770f42c790f32c6a295e4aaa6ef73753facba35e799bb154fb",
+  "dataChangedAt": "2026-11-12T03:32:53Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

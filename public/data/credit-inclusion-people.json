@@ -1,0 +1,407 @@
+{
+  "id": "credit-inclusion-people",
+  "source": "BCRA · Informe de Inclusión Financiera",
+  "sourceUrl": "https://www.bcra.gob.ar/archivos/Pdfs/publicacionesestadisticas/informes/informe-inclusion-financiera-2026-S1-anexo-estadistico.xlsx",
+  "frequency": "monthly",
+  "unit": "millones de personas humanas",
+  "series": [
+    {
+      "id": "people",
+      "label": "Personas con crédito",
+      "column": 2,
+      "headerToken": "PH con crédito"
+    }
+  ],
+  "methodNote": "Anexo estadístico, gráfico 2.3.1. Cantidad de personas humanas con crédito en el universo del informe; no número de préstamos, ni total de hogares. Publicación semestral con observaciones mensuales.",
+  "observations": [
+    {
+      "date": "2020-06-01",
+      "series": "people",
+      "value": 16.307449
+    },
+    {
+      "date": "2020-07-01",
+      "series": "people",
+      "value": 16.365259
+    },
+    {
+      "date": "2020-08-01",
+      "series": "people",
+      "value": 16.383340999999998
+    },
+    {
+      "date": "2020-09-01",
+      "series": "people",
+      "value": 16.190699
+    },
+    {
+      "date": "2020-10-01",
+      "series": "people",
+      "value": 16.21407
+    },
+    {
+      "date": "2020-11-01",
+      "series": "people",
+      "value": 16.252625
+    },
+    {
+      "date": "2020-12-01",
+      "series": "people",
+      "value": 16.297613
+    },
+    {
+      "date": "2021-01-01",
+      "series": "people",
+      "value": 16.157066
+    },
+    {
+      "date": "2021-02-01",
+      "series": "people",
+      "value": 16.156741
+    },
+    {
+      "date": "2021-03-01",
+      "series": "people",
+      "value": 16.660791
+    },
+    {
+      "date": "2021-04-01",
+      "series": "people",
+      "value": 16.749662999999998
+    },
+    {
+      "date": "2021-05-01",
+      "series": "people",
+      "value": 16.785045
+    },
+    {
+      "date": "2021-06-01",
+      "series": "people",
+      "value": 16.818984
+    },
+    {
+      "date": "2021-07-01",
+      "series": "people",
+      "value": 16.920164
+    },
+    {
+      "date": "2021-08-01",
+      "series": "people",
+      "value": 17.031116
+    },
+    {
+      "date": "2021-09-01",
+      "series": "people",
+      "value": 17.067152
+    },
+    {
+      "date": "2021-10-01",
+      "series": "people",
+      "value": 17.310183
+    },
+    {
+      "date": "2021-11-01",
+      "series": "people",
+      "value": 17.55869
+    },
+    {
+      "date": "2021-12-01",
+      "series": "people",
+      "value": 17.610908
+    },
+    {
+      "date": "2022-01-01",
+      "series": "people",
+      "value": 17.710432
+    },
+    {
+      "date": "2022-02-01",
+      "series": "people",
+      "value": 17.956388
+    },
+    {
+      "date": "2022-03-01",
+      "series": "people",
+      "value": 18.150935999999998
+    },
+    {
+      "date": "2022-04-01",
+      "series": "people",
+      "value": 18.308692999999998
+    },
+    {
+      "date": "2022-05-01",
+      "series": "people",
+      "value": 18.453961
+    },
+    {
+      "date": "2022-06-01",
+      "series": "people",
+      "value": 18.558322
+    },
+    {
+      "date": "2022-07-01",
+      "series": "people",
+      "value": 18.6492
+    },
+    {
+      "date": "2022-08-01",
+      "series": "people",
+      "value": 18.805144
+    },
+    {
+      "date": "2022-09-01",
+      "series": "people",
+      "value": 18.914376
+    },
+    {
+      "date": "2022-10-01",
+      "series": "people",
+      "value": 19.069502999999997
+    },
+    {
+      "date": "2022-11-01",
+      "series": "people",
+      "value": 19.189712
+    },
+    {
+      "date": "2022-12-01",
+      "series": "people",
+      "value": 19.268027999999997
+    },
+    {
+      "date": "2023-01-01",
+      "series": "people",
+      "value": 19.385529
+    },
+    {
+      "date": "2023-02-01",
+      "series": "people",
+      "value": 19.450317
+    },
+    {
+      "date": "2023-03-01",
+      "series": "people",
+      "value": 19.559347
+    },
+    {
+      "date": "2023-04-01",
+      "series": "people",
+      "value": 19.627726
+    },
+    {
+      "date": "2023-05-01",
+      "series": "people",
+      "value": 19.701124999999998
+    },
+    {
+      "date": "2023-06-01",
+      "series": "people",
+      "value": 19.723935
+    },
+    {
+      "date": "2023-07-01",
+      "series": "people",
+      "value": 19.838842
+    },
+    {
+      "date": "2023-08-01",
+      "series": "people",
+      "value": 19.967219
+    },
+    {
+      "date": "2023-09-01",
+      "series": "people",
+      "value": 19.960929999999998
+    },
+    {
+      "date": "2023-10-01",
+      "series": "people",
+      "value": 20.053358
+    },
+    {
+      "date": "2023-11-01",
+      "series": "people",
+      "value": 20.089979
+    },
+    {
+      "date": "2023-12-01",
+      "series": "people",
+      "value": 20.127366
+    },
+    {
+      "date": "2024-01-01",
+      "series": "people",
+      "value": 20.270276
+    },
+    {
+      "date": "2024-02-01",
+      "series": "people",
+      "value": 20.161956
+    },
+    {
+      "date": "2024-03-01",
+      "series": "people",
+      "value": 20.162343
+    },
+    {
+      "date": "2024-04-01",
+      "series": "people",
+      "value": 20.240326
+    },
+    {
+      "date": "2024-05-01",
+      "series": "people",
+      "value": 20.38504
+    },
+    {
+      "date": "2024-06-01",
+      "series": "people",
+      "value": 20.365809
+    },
+    {
+      "date": "2024-07-01",
+      "series": "people",
+      "value": 17.154552
+    },
+    {
+      "date": "2024-08-01",
+      "series": "people",
+      "value": 17.477674999999998
+    },
+    {
+      "date": "2024-09-01",
+      "series": "people",
+      "value": 17.772294
+    },
+    {
+      "date": "2024-10-01",
+      "series": "people",
+      "value": 18.084089
+    },
+    {
+      "date": "2024-11-01",
+      "series": "people",
+      "value": 18.334342
+    },
+    {
+      "date": "2024-12-01",
+      "series": "people",
+      "value": 18.423876
+    },
+    {
+      "date": "2025-01-01",
+      "series": "people",
+      "value": 18.637555
+    },
+    {
+      "date": "2025-02-01",
+      "series": "people",
+      "value": 18.749171
+    },
+    {
+      "date": "2025-03-01",
+      "series": "people",
+      "value": 18.895857
+    },
+    {
+      "date": "2025-04-01",
+      "series": "people",
+      "value": 19.117621
+    },
+    {
+      "date": "2025-05-01",
+      "series": "people",
+      "value": 19.299167
+    },
+    {
+      "date": "2025-06-01",
+      "series": "people",
+      "value": 19.465906999999998
+    },
+    {
+      "date": "2025-07-01",
+      "series": "people",
+      "value": 19.858805
+    },
+    {
+      "date": "2025-08-01",
+      "series": "people",
+      "value": 20.05735
+    },
+    {
+      "date": "2025-09-01",
+      "series": "people",
+      "value": 20.103043
+    },
+    {
+      "date": "2025-10-01",
+      "series": "people",
+      "value": 20.210061
+    },
+    {
+      "date": "2025-11-01",
+      "series": "people",
+      "value": 20.254524
+    },
+    {
+      "date": "2025-12-01",
+      "series": "people",
+      "value": 20.319905
+    },
+    {
+      "date": "2026-01-01",
+      "series": "people",
+      "value": 20.385575
+    },
+    {
+      "date": "2026-02-01",
+      "series": "people",
+      "value": 20.381083
+    },
+    {
+      "date": "2026-03-01",
+      "series": "people",
+      "value": 20.447243999999998
+    },
+    {
+      "date": "2026-04-01",
+      "series": "people",
+      "value": 20.435351
+    },
+    {
+      "date": "2026-05-01",
+      "series": "people",
+      "value": 20.601221
+    },
+    {
+      "date": "2026-06-01",
+      "series": "people",
+      "value": 20.53755
+    }
+  ],
+  "valueKind": "level",
+  "supportingSources": [
+    {
+      "label": "Publicación BCRA",
+      "url": "https://www.bcra.gob.ar/publicaciones/informe-de-inclusion-financiera-primer-semestre-2026/"
+    }
+  ],
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-06-01",
+  "firstObservedPeriod": "2020-06-01",
+  "lastObservedBySeries": {
+    "people": "2026-06-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:47:40Z",
+  "lastAttemptAt": "2026-11-13T12:47:40Z",
+  "sourcePublishedAt": "2026-10-30",
+  "isAutoUpdated": true,
+  "contentHash": "7e12a599169a658e56a6b33ec135225897b5de0622d6bdc1f513f7809dde82db",
+  "rawSha256": "0aa464512b808226c64f9e41ba6795f5b0fc0f83dfcef600a9f362901070412c",
+  "dataChangedAt": "2026-11-13T03:19:34Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

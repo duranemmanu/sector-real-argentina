@@ -1,0 +1,125 @@
+{
+  "id": "epi-gasoline",
+  "source": "INDEC · Estadísticas de Productos Industriales (EPI)",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls",
+  "frequency": "monthly",
+  "unit": "metros cúbicos",
+  "series": [
+    {
+      "column": 2,
+      "id": "gasoline",
+      "label": "Nafta especial súper >93 RON"
+    }
+  ],
+  "methodNote": "Niveles mensuales publicados en EPI; datos preliminares según asteriscos del cuadro. Los símbolos de ausencia se conservan como null. No se mezclan totales anuales con meses.",
+  "observations": [
+    {
+      "date": "2025-01-01",
+      "series": "gasoline",
+      "value": 604597.419
+    },
+    {
+      "date": "2025-02-01",
+      "series": "gasoline",
+      "value": 521838.13200000004
+    },
+    {
+      "date": "2025-03-01",
+      "series": "gasoline",
+      "value": 585249.7069999999
+    },
+    {
+      "date": "2025-04-01",
+      "series": "gasoline",
+      "value": 600151.105
+    },
+    {
+      "date": "2025-05-01",
+      "series": "gasoline",
+      "value": 535196.8119999999
+    },
+    {
+      "date": "2025-06-01",
+      "series": "gasoline",
+      "value": 577873.213
+    },
+    {
+      "date": "2025-07-01",
+      "series": "gasoline",
+      "value": 599627.666
+    },
+    {
+      "date": "2025-08-01",
+      "series": "gasoline",
+      "value": 588492.341
+    },
+    {
+      "date": "2025-09-01",
+      "series": "gasoline",
+      "value": 592949.408
+    },
+    {
+      "date": "2025-10-01",
+      "series": "gasoline",
+      "value": 522601.275
+    },
+    {
+      "date": "2025-11-01",
+      "series": "gasoline",
+      "value": 533322.618
+    },
+    {
+      "date": "2025-12-01",
+      "series": "gasoline",
+      "value": 659495.853
+    },
+    {
+      "date": "2026-01-01",
+      "series": "gasoline",
+      "value": 608714.178
+    },
+    {
+      "date": "2026-02-01",
+      "series": "gasoline",
+      "value": 551540.4839999999
+    },
+    {
+      "date": "2026-03-01",
+      "series": "gasoline",
+      "value": 612675.61
+    },
+    {
+      "date": "2026-04-01",
+      "series": "gasoline",
+      "value": 574273.462
+    },
+    {
+      "date": "2026-05-01",
+      "series": "gasoline",
+      "value": 576171.721
+    },
+    {
+      "date": "2026-06-01",
+      "series": "gasoline",
+      "value": 548971.538
+    }
+  ],
+  "valueKind": "level",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-06-01",
+  "firstObservedPeriod": "2025-01-01",
+  "lastObservedBySeries": {
+    "gasoline": "2026-06-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:46:21Z",
+  "lastAttemptAt": "2026-11-13T12:46:21Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "452fe0cbc994bce95a56cfd2c142627df80ffbf4be41f12577868ca52684b755",
+  "rawSha256": "ac6a6584754c1e770f42c790f32c6a295e4aaa6ef73753facba35e799bb154fb",
+  "dataChangedAt": "2026-11-12T03:32:55Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

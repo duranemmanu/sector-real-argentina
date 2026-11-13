@@ -1,0 +1,8669 @@
+{
+  "id": "forecast-emae",
+  "source": "INDEC (histórico) · elaboración estadística propia",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_emae_mensual_base2004.xls",
+  "unit": "índice, base 2004=100",
+  "frequency": "monthly",
+  "series": [
+    {
+      "id": "original",
+      "label": "Original",
+      "role": "observed"
+    },
+    {
+      "id": "adjusted",
+      "label": "Desestacionalizada",
+      "role": "observed"
+    },
+    {
+      "id": "trend",
+      "label": "Tendencia-ciclo",
+      "role": "observed"
+    },
+    {
+      "id": "forecast",
+      "label": "Pronóstico automático · elaboración propia",
+      "role": "forecast"
+    },
+    {
+      "id": "lower95",
+      "label": "Límite inferior de predicción 95%",
+      "role": "lower"
+    },
+    {
+      "id": "upper95",
+      "label": "Límite superior de predicción 95%",
+      "role": "upper"
+    }
+  ],
+  "observations": [
+    {
+      "date": "2004-01-01",
+      "series": "original",
+      "value": 92.62750602691052
+    },
+    {
+      "date": "2004-01-01",
+      "series": "adjusted",
+      "value": 98.52915340919432
+    },
+    {
+      "date": "2004-01-01",
+      "series": "trend",
+      "value": 96.0498909638345
+    },
+    {
+      "date": "2004-01-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2004-01-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2004-01-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2004-02-01",
+      "series": "original",
+      "value": 90.18617931655959
+    },
+    {
+      "date": "2004-02-01",
+      "series": "adjusted",
+      "value": 98.02568657211117
+    },
+    {
+      "date": "2004-02-01",
+      "series": "trend",
+      "value": 96.66619692516286
+    },
+    {
+      "date": "2004-02-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2004-02-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2004-02-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2004-03-01",
+      "series": "original",
+      "value": 101.88329804238073
+    },
+    {
+      "date": "2004-03-01",
+      "series": "adjusted",
+      "value": 97.5223435557331
+    },
+    {
+      "date": "2004-03-01",
+      "series": "trend",
+      "value": 97.33080895029403
+    },
+    {
+      "date": "2004-03-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2004-03-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2004-03-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2004-04-01",
+      "series": "original",
+      "value": 102.5674302511826
+    },
+    {
+      "date": "2004-04-01",
+      "series": "adjusted",
+      "value": 95.44877460421664
+    },
+    {
+      "date": "2004-04-01",
+      "series": "trend",
+      "value": 98.02825018808032
+    },
+    {
+      "date": "2004-04-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2004-04-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2004-04-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2004-05-01",
+      "series": "original",
+      "value": 109.87750394051662
+    },
+    {
+      "date": "2004-05-01",
+      "series": "adjusted",
+      "value": 96.92701669087563
+    },
+    {
+      "date": "2004-05-01",
+      "series": "trend",
+      "value": 98.75360630610982
+    },
+    {
+      "date": "2004-05-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2004-05-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2004-05-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2004-06-01",
+      "series": "original",
+      "value": 105.66240620209851
+    },
+    {
+      "date": "2004-06-01",
+      "series": "adjusted",
+      "value": 98.51487249075271
+    },
+    {
+      "date": "2004-06-01",
+      "series": "trend",
+      "value": 99.50129157918963
+    },
+    {
+      "date": "2004-06-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2004-06-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2004-06-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2004-07-01",
+      "series": "original",
+      "value": 101.1069972900212
+    },
+    {
+      "date": "2004-07-01",
+      "series": "adjusted",
+      "value": 100.92733734623997
+    },
+    {
+      "date": "2004-07-01",
+      "series": "trend",
+      "value": 100.27117286009326
+    },
+    {
+      "date": "2004-07-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2004-07-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2004-07-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2004-08-01",
+      "series": "original",
+      "value": 98.35573694243757
+    },
+    {
+      "date": "2004-08-01",
+      "series": "adjusted",
+      "value": 102.09926162674468
+    },
+    {
+      "date": "2004-08-01",
+      "series": "trend",
+      "value": 101.06109877428271
+    },
+    {
+      "date": "2004-08-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2004-08-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2004-08-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2004-09-01",
+      "series": "original",
+      "value": 98.08637453469638
+    },
+    {
+      "date": "2004-09-01",
+      "series": "adjusted",
+      "value": 102.31581772519785
+    },
+    {
+      "date": "2004-09-01",
+      "series": "trend",
+      "value": 101.86707480141085
+    },
+    {
+      "date": "2004-09-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2004-09-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2004-09-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2004-10-01",
+      "series": "original",
+      "value": 97.8356659809799
+    },
+    {
+      "date": "2004-10-01",
+      "series": "adjusted",
+      "value": 103.23694063984397
+    },
+    {
+      "date": "2004-10-01",
+      "series": "trend",
+      "value": 102.68384146085255
+    },
+    {
+      "date": "2004-10-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2004-10-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2004-10-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2004-11-01",
+      "series": "original",
+      "value": 100.1319466812214
+    },
+    {
+      "date": "2004-11-01",
+      "series": "adjusted",
+      "value": 103.43006109337298
+    },
+    {
+      "date": "2004-11-01",
+      "series": "trend",
+      "value": 103.4959412333585
+    },
+    {
+      "date": "2004-11-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2004-11-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2004-11-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2004-12-01",
+      "series": "original",
+      "value": 101.67895479099535
+    },
+    {
+      "date": "2004-12-01",
+      "series": "adjusted",
+      "value": 103.02273424571695
+    },
+    {
+      "date": "2004-12-01",
+      "series": "trend",
+      "value": 104.2908259573307
+    },
+    {
+      "date": "2004-12-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2004-12-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2004-12-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2005-01-01",
+      "series": "original",
+      "value": 98.473359529179
+    },
+    {
+      "date": "2005-01-01",
+      "series": "adjusted",
+      "value": 105.85784911811893
+    },
+    {
+      "date": "2005-01-01",
+      "series": "trend",
+      "value": 105.05603649901562
+    },
+    {
+      "date": "2005-01-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2005-01-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2005-01-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2005-02-01",
+      "series": "original",
+      "value": 96.11886613343405
+    },
+    {
+      "date": "2005-02-01",
+      "series": "adjusted",
+      "value": 105.9726873716051
+    },
+    {
+      "date": "2005-02-01",
+      "series": "trend",
+      "value": 105.78298333658634
+    },
+    {
+      "date": "2005-02-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2005-02-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2005-02-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2005-03-01",
+      "series": "original",
+      "value": 110.65642586719524
+    },
+    {
+      "date": "2005-03-01",
+      "series": "adjusted",
+      "value": 106.81943480968009
+    },
+    {
+      "date": "2005-03-01",
+      "series": "trend",
+      "value": 106.46790225385308
+    },
+    {
+      "date": "2005-03-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2005-03-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2005-03-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2005-04-01",
+      "series": "original",
+      "value": 116.54519048214907
+    },
+    {
+      "date": "2005-04-01",
+      "series": "adjusted",
+      "value": 108.09938781258474
+    },
+    {
+      "date": "2005-04-01",
+      "series": "trend",
+      "value": 107.11306336029779
+    },
+    {
+      "date": "2005-04-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2005-04-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2005-04-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2005-05-01",
+      "series": "original",
+      "value": 126.66194335502726
+    },
+    {
+      "date": "2005-05-01",
+      "series": "adjusted",
+      "value": 108.97796047137234
+    },
+    {
+      "date": "2005-05-01",
+      "series": "trend",
+      "value": 107.72336926167827
+    },
+    {
+      "date": "2005-05-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2005-05-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2005-05-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2005-06-01",
+      "series": "original",
+      "value": 116.50222321492875
+    },
+    {
+      "date": "2005-06-01",
+      "series": "adjusted",
+      "value": 108.59802085734158
+    },
+    {
+      "date": "2005-06-01",
+      "series": "trend",
+      "value": 108.30965567913664
+    },
+    {
+      "date": "2005-06-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2005-06-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2005-06-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2005-07-01",
+      "series": "original",
+      "value": 107.58113926245956
+    },
+    {
+      "date": "2005-07-01",
+      "series": "adjusted",
+      "value": 109.16536167883609
+    },
+    {
+      "date": "2005-07-01",
+      "series": "trend",
+      "value": 108.88606394531004
+    },
+    {
+      "date": "2005-07-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2005-07-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2005-07-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2005-08-01",
+      "series": "original",
+      "value": 105.82089279310111
+    },
+    {
+      "date": "2005-08-01",
+      "series": "adjusted",
+      "value": 109.31195278919542
+    },
+    {
+      "date": "2005-08-01",
+      "series": "trend",
+      "value": 109.46674079404407
+    },
+    {
+      "date": "2005-08-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2005-08-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2005-08-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2005-09-01",
+      "series": "original",
+      "value": 104.89213472672316
+    },
+    {
+      "date": "2005-09-01",
+      "series": "adjusted",
+      "value": 109.2682858579276
+    },
+    {
+      "date": "2005-09-01",
+      "series": "trend",
+      "value": 110.06556014282103
+    },
+    {
+      "date": "2005-09-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2005-09-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2005-09-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2005-10-01",
+      "series": "original",
+      "value": 104.46066538498441
+    },
+    {
+      "date": "2005-10-01",
+      "series": "adjusted",
+      "value": 109.9963439901644
+    },
+    {
+      "date": "2005-10-01",
+      "series": "trend",
+      "value": 110.69359852175369
+    },
+    {
+      "date": "2005-10-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2005-10-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2005-10-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2005-11-01",
+      "series": "original",
+      "value": 108.00375438454834
+    },
+    {
+      "date": "2005-11-01",
+      "series": "adjusted",
+      "value": 111.14486173404282
+    },
+    {
+      "date": "2005-11-01",
+      "series": "trend",
+      "value": 111.36149760423041
+    },
+    {
+      "date": "2005-11-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2005-11-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2005-11-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2005-12-01",
+      "series": "original",
+      "value": 110.50332389924424
+    },
+    {
+      "date": "2005-12-01",
+      "series": "adjusted",
+      "value": 113.00777296402667
+    },
+    {
+      "date": "2005-12-01",
+      "series": "trend",
+      "value": 112.07380166637762
+    },
+    {
+      "date": "2005-12-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2005-12-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2005-12-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2006-01-01",
+      "series": "original",
+      "value": 106.53094787692405
+    },
+    {
+      "date": "2006-01-01",
+      "series": "adjusted",
+      "value": 113.87806916028771
+    },
+    {
+      "date": "2006-01-01",
+      "series": "trend",
+      "value": 112.82765918911157
+    },
+    {
+      "date": "2006-01-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2006-01-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2006-01-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2006-02-01",
+      "series": "original",
+      "value": 104.0901370432872
+    },
+    {
+      "date": "2006-02-01",
+      "series": "adjusted",
+      "value": 114.59721683430054
+    },
+    {
+      "date": "2006-02-01",
+      "series": "trend",
+      "value": 113.61713733501774
+    },
+    {
+      "date": "2006-02-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2006-02-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2006-02-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2006-03-01",
+      "series": "original",
+      "value": 118.58827645043104
+    },
+    {
+      "date": "2006-03-01",
+      "series": "adjusted",
+      "value": 114.41444492937198
+    },
+    {
+      "date": "2006-03-01",
+      "series": "trend",
+      "value": 114.43332185966139
+    },
+    {
+      "date": "2006-03-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2006-03-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2006-03-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2006-04-01",
+      "series": "original",
+      "value": 122.08710730131627
+    },
+    {
+      "date": "2006-04-01",
+      "series": "adjusted",
+      "value": 115.87514251703456
+    },
+    {
+      "date": "2006-04-01",
+      "series": "trend",
+      "value": 115.26804721758005
+    },
+    {
+      "date": "2006-04-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2006-04-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2006-04-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2006-05-01",
+      "series": "original",
+      "value": 133.37101567477424
+    },
+    {
+      "date": "2006-05-01",
+      "series": "adjusted",
+      "value": 115.01322038468608
+    },
+    {
+      "date": "2006-05-01",
+      "series": "trend",
+      "value": 116.11587794717283
+    },
+    {
+      "date": "2006-05-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2006-05-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2006-05-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2006-06-01",
+      "series": "original",
+      "value": 124.29274775102324
+    },
+    {
+      "date": "2006-06-01",
+      "series": "adjusted",
+      "value": 116.31922075055118
+    },
+    {
+      "date": "2006-06-01",
+      "series": "trend",
+      "value": 116.97125994425939
+    },
+    {
+      "date": "2006-06-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2006-06-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2006-06-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2006-07-01",
+      "series": "original",
+      "value": 117.04563185352679
+    },
+    {
+      "date": "2006-07-01",
+      "series": "adjusted",
+      "value": 118.09590952685942
+    },
+    {
+      "date": "2006-07-01",
+      "series": "trend",
+      "value": 117.83069909720756
+    },
+    {
+      "date": "2006-07-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2006-07-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2006-07-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2006-08-01",
+      "series": "original",
+      "value": 116.30360797574892
+    },
+    {
+      "date": "2006-08-01",
+      "series": "adjusted",
+      "value": 118.7643205234994
+    },
+    {
+      "date": "2006-08-01",
+      "series": "trend",
+      "value": 118.69592424006133
+    },
+    {
+      "date": "2006-08-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2006-08-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2006-08-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2006-09-01",
+      "series": "original",
+      "value": 114.80248033323909
+    },
+    {
+      "date": "2006-09-01",
+      "series": "adjusted",
+      "value": 119.8278574822101
+    },
+    {
+      "date": "2006-09-01",
+      "series": "trend",
+      "value": 119.57050488379218
+    },
+    {
+      "date": "2006-09-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2006-09-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2006-09-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2006-10-01",
+      "series": "original",
+      "value": 116.47750825324563
+    },
+    {
+      "date": "2006-10-01",
+      "series": "adjusted",
+      "value": 120.48198762056737
+    },
+    {
+      "date": "2006-10-01",
+      "series": "trend",
+      "value": 120.45629939179409
+    },
+    {
+      "date": "2006-10-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2006-10-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2006-10-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2006-11-01",
+      "series": "original",
+      "value": 118.14078229406633
+    },
+    {
+      "date": "2006-11-01",
+      "series": "adjusted",
+      "value": 120.79819696582776
+    },
+    {
+      "date": "2006-11-01",
+      "series": "trend",
+      "value": 121.35683624968598
+    },
+    {
+      "date": "2006-11-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2006-11-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2006-11-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2006-12-01",
+      "series": "original",
+      "value": 119.60317208093002
+    },
+    {
+      "date": "2006-12-01",
+      "series": "adjusted",
+      "value": 123.26782864922329
+    },
+    {
+      "date": "2006-12-01",
+      "series": "trend",
+      "value": 122.26980888039382
+    },
+    {
+      "date": "2006-12-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2006-12-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2006-12-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2007-01-01",
+      "series": "original",
+      "value": 114.70176482722367
+    },
+    {
+      "date": "2007-01-01",
+      "series": "adjusted",
+      "value": 122.2210882557368
+    },
+    {
+      "date": "2007-01-01",
+      "series": "trend",
+      "value": 123.19158764037911
+    },
+    {
+      "date": "2007-01-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2007-01-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2007-01-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2007-02-01",
+      "series": "original",
+      "value": 112.74324828605302
+    },
+    {
+      "date": "2007-02-01",
+      "series": "adjusted",
+      "value": 124.44631641719222
+    },
+    {
+      "date": "2007-02-01",
+      "series": "trend",
+      "value": 124.12022171185849
+    },
+    {
+      "date": "2007-02-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2007-02-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2007-02-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2007-03-01",
+      "series": "original",
+      "value": 129.28276498944658
+    },
+    {
+      "date": "2007-03-01",
+      "series": "adjusted",
+      "value": 126.49490775139459
+    },
+    {
+      "date": "2007-03-01",
+      "series": "trend",
+      "value": 125.05325515672236
+    },
+    {
+      "date": "2007-03-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2007-03-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2007-03-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2007-04-01",
+      "series": "original",
+      "value": 133.46308313008805
+    },
+    {
+      "date": "2007-04-01",
+      "series": "adjusted",
+      "value": 125.3729455249969
+    },
+    {
+      "date": "2007-04-01",
+      "series": "trend",
+      "value": 125.98773139652906
+    },
+    {
+      "date": "2007-04-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2007-04-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2007-04-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2007-05-01",
+      "series": "original",
+      "value": 147.60791074167543
+    },
+    {
+      "date": "2007-05-01",
+      "series": "adjusted",
+      "value": 127.21866389225492
+    },
+    {
+      "date": "2007-05-01",
+      "series": "trend",
+      "value": 126.91848007352152
+    },
+    {
+      "date": "2007-05-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2007-05-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2007-05-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2007-06-01",
+      "series": "original",
+      "value": 136.12098630494512
+    },
+    {
+      "date": "2007-06-01",
+      "series": "adjusted",
+      "value": 128.54515305688088
+    },
+    {
+      "date": "2007-06-01",
+      "series": "trend",
+      "value": 127.84671533752876
+    },
+    {
+      "date": "2007-06-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2007-06-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2007-06-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2007-07-01",
+      "series": "original",
+      "value": 127.38755189795539
+    },
+    {
+      "date": "2007-07-01",
+      "series": "adjusted",
+      "value": 127.55550416596536
+    },
+    {
+      "date": "2007-07-01",
+      "series": "trend",
+      "value": 128.77146178843847
+    },
+    {
+      "date": "2007-07-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2007-07-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2007-07-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2007-08-01",
+      "series": "original",
+      "value": 126.59522767863001
+    },
+    {
+      "date": "2007-08-01",
+      "series": "adjusted",
+      "value": 128.92047858533888
+    },
+    {
+      "date": "2007-08-01",
+      "series": "trend",
+      "value": 129.68986382902472
+    },
+    {
+      "date": "2007-08-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2007-08-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2007-08-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2007-09-01",
+      "series": "original",
+      "value": 123.5104632944452
+    },
+    {
+      "date": "2007-09-01",
+      "series": "adjusted",
+      "value": 129.61336879200195
+    },
+    {
+      "date": "2007-09-01",
+      "series": "trend",
+      "value": 130.59581660772832
+    },
+    {
+      "date": "2007-09-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2007-09-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2007-09-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2007-10-01",
+      "series": "original",
+      "value": 128.41538266104467
+    },
+    {
+      "date": "2007-10-01",
+      "series": "adjusted",
+      "value": 131.25657523119622
+    },
+    {
+      "date": "2007-10-01",
+      "series": "trend",
+      "value": 131.47687096872932
+    },
+    {
+      "date": "2007-10-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2007-10-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2007-10-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2007-11-01",
+      "series": "original",
+      "value": 129.73508945617357
+    },
+    {
+      "date": "2007-11-01",
+      "series": "adjusted",
+      "value": 132.8345514234846
+    },
+    {
+      "date": "2007-11-01",
+      "series": "trend",
+      "value": 132.31455985486562
+    },
+    {
+      "date": "2007-11-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2007-11-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2007-11-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2007-12-01",
+      "series": "original",
+      "value": 128.89792837498598
+    },
+    {
+      "date": "2007-12-01",
+      "series": "adjusted",
+      "value": 133.98184904322915
+    },
+    {
+      "date": "2007-12-01",
+      "series": "trend",
+      "value": 133.08206723531092
+    },
+    {
+      "date": "2007-12-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2007-12-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2007-12-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2008-01-01",
+      "series": "original",
+      "value": 126.22689251081431
+    },
+    {
+      "date": "2008-01-01",
+      "series": "adjusted",
+      "value": 135.39344122129148
+    },
+    {
+      "date": "2008-01-01",
+      "series": "trend",
+      "value": 133.74669102142363
+    },
+    {
+      "date": "2008-01-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2008-01-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2008-01-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2008-02-01",
+      "series": "original",
+      "value": 122.8249045091645
+    },
+    {
+      "date": "2008-02-01",
+      "series": "adjusted",
+      "value": 133.2738164851548
+    },
+    {
+      "date": "2008-02-01",
+      "series": "trend",
+      "value": 134.27110310296024
+    },
+    {
+      "date": "2008-02-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2008-02-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2008-02-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2008-03-01",
+      "series": "original",
+      "value": 132.33412728743554
+    },
+    {
+      "date": "2008-03-01",
+      "series": "adjusted",
+      "value": 133.32983539504386
+    },
+    {
+      "date": "2008-03-01",
+      "series": "trend",
+      "value": 134.61524804835537
+    },
+    {
+      "date": "2008-03-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2008-03-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2008-03-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2008-04-01",
+      "series": "original",
+      "value": 145.28049855207212
+    },
+    {
+      "date": "2008-04-01",
+      "series": "adjusted",
+      "value": 135.5714769093224
+    },
+    {
+      "date": "2008-04-01",
+      "series": "trend",
+      "value": 134.74407442477178
+    },
+    {
+      "date": "2008-04-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2008-04-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2008-04-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2008-05-01",
+      "series": "original",
+      "value": 154.15616391286648
+    },
+    {
+      "date": "2008-05-01",
+      "series": "adjusted",
+      "value": 135.01308057912476
+    },
+    {
+      "date": "2008-05-01",
+      "series": "trend",
+      "value": 134.62912852547416
+    },
+    {
+      "date": "2008-05-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2008-05-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2008-05-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2008-06-01",
+      "series": "original",
+      "value": 140.50348421669764
+    },
+    {
+      "date": "2008-06-01",
+      "series": "adjusted",
+      "value": 133.43276436281346
+    },
+    {
+      "date": "2008-06-01",
+      "series": "trend",
+      "value": 134.25373325381568
+    },
+    {
+      "date": "2008-06-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2008-06-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2008-06-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2008-07-01",
+      "series": "original",
+      "value": 136.63868805371584
+    },
+    {
+      "date": "2008-07-01",
+      "series": "adjusted",
+      "value": 135.26724997873197
+    },
+    {
+      "date": "2008-07-01",
+      "series": "trend",
+      "value": 133.6194025747785
+    },
+    {
+      "date": "2008-07-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2008-07-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2008-07-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2008-08-01",
+      "series": "original",
+      "value": 131.34092143552698
+    },
+    {
+      "date": "2008-08-01",
+      "series": "adjusted",
+      "value": 135.8095634411895
+    },
+    {
+      "date": "2008-08-01",
+      "series": "trend",
+      "value": 132.74598183494967
+    },
+    {
+      "date": "2008-08-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2008-08-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2008-08-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2008-09-01",
+      "series": "original",
+      "value": 132.18593848988462
+    },
+    {
+      "date": "2008-09-01",
+      "series": "adjusted",
+      "value": 135.7758830678433
+    },
+    {
+      "date": "2008-09-01",
+      "series": "trend",
+      "value": 131.67201796057574
+    },
+    {
+      "date": "2008-09-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2008-09-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2008-09-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2008-10-01",
+      "series": "original",
+      "value": 130.39517884255912
+    },
+    {
+      "date": "2008-10-01",
+      "series": "adjusted",
+      "value": 132.76544902151312
+    },
+    {
+      "date": "2008-10-01",
+      "series": "trend",
+      "value": 130.4541360617579
+    },
+    {
+      "date": "2008-10-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2008-10-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2008-10-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2008-11-01",
+      "series": "original",
+      "value": 125.52756329262156
+    },
+    {
+      "date": "2008-11-01",
+      "series": "adjusted",
+      "value": 130.37182446214226
+    },
+    {
+      "date": "2008-11-01",
+      "series": "trend",
+      "value": 129.1630997520439
+    },
+    {
+      "date": "2008-11-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2008-11-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2008-11-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2008-12-01",
+      "series": "original",
+      "value": 123.46600579407662
+    },
+    {
+      "date": "2008-12-01",
+      "series": "adjusted",
+      "value": 124.87598249045465
+    },
+    {
+      "date": "2008-12-01",
+      "series": "trend",
+      "value": 127.87639848698215
+    },
+    {
+      "date": "2008-12-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2008-12-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2008-12-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2009-01-01",
+      "series": "original",
+      "value": 116.75841920206521
+    },
+    {
+      "date": "2009-01-01",
+      "series": "adjusted",
+      "value": 124.63291970817025
+    },
+    {
+      "date": "2009-01-01",
+      "series": "trend",
+      "value": 126.680357845696
+    },
+    {
+      "date": "2009-01-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2009-01-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2009-01-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2009-02-01",
+      "series": "original",
+      "value": 114.85886148592792
+    },
+    {
+      "date": "2009-02-01",
+      "series": "adjusted",
+      "value": 126.06046487384002
+    },
+    {
+      "date": "2009-02-01",
+      "series": "trend",
+      "value": 125.65492142726754
+    },
+    {
+      "date": "2009-02-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2009-02-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2009-02-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2009-03-01",
+      "series": "original",
+      "value": 126.16560261026108
+    },
+    {
+      "date": "2009-03-01",
+      "series": "adjusted",
+      "value": 123.29140907938037
+    },
+    {
+      "date": "2009-03-01",
+      "series": "trend",
+      "value": 124.8694076572488
+    },
+    {
+      "date": "2009-03-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2009-03-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2009-03-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2009-04-01",
+      "series": "original",
+      "value": 127.9905588745035
+    },
+    {
+      "date": "2009-04-01",
+      "series": "adjusted",
+      "value": 121.79461650754254
+    },
+    {
+      "date": "2009-04-01",
+      "series": "trend",
+      "value": 124.37307398647549
+    },
+    {
+      "date": "2009-04-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2009-04-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2009-04-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2009-05-01",
+      "series": "original",
+      "value": 133.03567047814315
+    },
+    {
+      "date": "2009-05-01",
+      "series": "adjusted",
+      "value": 121.19163816007912
+    },
+    {
+      "date": "2009-05-01",
+      "series": "trend",
+      "value": 124.19389437294696
+    },
+    {
+      "date": "2009-05-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2009-05-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2009-05-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2009-06-01",
+      "series": "original",
+      "value": 129.31265804805898
+    },
+    {
+      "date": "2009-06-01",
+      "series": "adjusted",
+      "value": 122.44086857983858
+    },
+    {
+      "date": "2009-06-01",
+      "series": "trend",
+      "value": 124.34002111877048
+    },
+    {
+      "date": "2009-06-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2009-06-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2009-06-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2009-07-01",
+      "series": "original",
+      "value": 127.3630583750141
+    },
+    {
+      "date": "2009-07-01",
+      "series": "adjusted",
+      "value": 124.86208852145332
+    },
+    {
+      "date": "2009-07-01",
+      "series": "trend",
+      "value": 124.79633172562845
+    },
+    {
+      "date": "2009-07-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2009-07-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2009-07-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2009-08-01",
+      "series": "original",
+      "value": 124.00328620894652
+    },
+    {
+      "date": "2009-08-01",
+      "series": "adjusted",
+      "value": 126.74149829285675
+    },
+    {
+      "date": "2009-08-01",
+      "series": "trend",
+      "value": 125.52928418505186
+    },
+    {
+      "date": "2009-08-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2009-08-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2009-08-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2009-09-01",
+      "series": "original",
+      "value": 126.18512812472765
+    },
+    {
+      "date": "2009-09-01",
+      "series": "adjusted",
+      "value": 128.10169997774634
+    },
+    {
+      "date": "2009-09-01",
+      "series": "trend",
+      "value": 126.49543306471601
+    },
+    {
+      "date": "2009-09-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2009-09-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2009-09-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2009-10-01",
+      "series": "original",
+      "value": 127.07986188269525
+    },
+    {
+      "date": "2009-10-01",
+      "series": "adjusted",
+      "value": 129.3658165109555
+    },
+    {
+      "date": "2009-10-01",
+      "series": "trend",
+      "value": 127.64355708870882
+    },
+    {
+      "date": "2009-10-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2009-10-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2009-10-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2009-11-01",
+      "series": "original",
+      "value": 127.09219178029132
+    },
+    {
+      "date": "2009-11-01",
+      "series": "adjusted",
+      "value": 129.75228748900628
+    },
+    {
+      "date": "2009-11-01",
+      "series": "trend",
+      "value": 128.919463174992
+    },
+    {
+      "date": "2009-11-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2009-11-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2009-11-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2009-12-01",
+      "series": "original",
+      "value": 126.28656380555832
+    },
+    {
+      "date": "2009-12-01",
+      "series": "adjusted",
+      "value": 127.89655366192349
+    },
+    {
+      "date": "2009-12-01",
+      "series": "trend",
+      "value": 130.2711324353449
+    },
+    {
+      "date": "2009-12-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2009-12-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2009-12-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2010-01-01",
+      "series": "original",
+      "value": 121.50567852923163
+    },
+    {
+      "date": "2010-01-01",
+      "series": "adjusted",
+      "value": 131.97243988129483
+    },
+    {
+      "date": "2010-01-01",
+      "series": "trend",
+      "value": 131.6501073295117
+    },
+    {
+      "date": "2010-01-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2010-01-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2010-01-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2010-02-01",
+      "series": "original",
+      "value": 119.82280209203972
+    },
+    {
+      "date": "2010-02-01",
+      "series": "adjusted",
+      "value": 133.00223065487026
+    },
+    {
+      "date": "2010-02-01",
+      "series": "trend",
+      "value": 133.01486002671476
+    },
+    {
+      "date": "2010-02-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2010-02-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2010-02-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2010-03-01",
+      "series": "original",
+      "value": 136.89550162046118
+    },
+    {
+      "date": "2010-03-01",
+      "series": "adjusted",
+      "value": 133.8466456415002
+    },
+    {
+      "date": "2010-03-01",
+      "series": "trend",
+      "value": 134.33469381196144
+    },
+    {
+      "date": "2010-03-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2010-03-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2010-03-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2010-04-01",
+      "series": "original",
+      "value": 145.77413149301782
+    },
+    {
+      "date": "2010-04-01",
+      "series": "adjusted",
+      "value": 136.92740711339266
+    },
+    {
+      "date": "2010-04-01",
+      "series": "trend",
+      "value": 135.5886465049505
+    },
+    {
+      "date": "2010-04-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2010-04-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2010-04-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2010-05-01",
+      "series": "original",
+      "value": 158.1106315304388
+    },
+    {
+      "date": "2010-05-01",
+      "series": "adjusted",
+      "value": 139.1716767437787
+    },
+    {
+      "date": "2010-05-01",
+      "series": "trend",
+      "value": 136.76114329612935
+    },
+    {
+      "date": "2010-05-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2010-05-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2010-05-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2010-06-01",
+      "series": "original",
+      "value": 149.86155200805445
+    },
+    {
+      "date": "2010-06-01",
+      "series": "adjusted",
+      "value": 140.54662588515555
+    },
+    {
+      "date": "2010-06-01",
+      "series": "trend",
+      "value": 137.84428360692996
+    },
+    {
+      "date": "2010-06-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2010-06-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2010-06-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2010-07-01",
+      "series": "original",
+      "value": 139.50568662872732
+    },
+    {
+      "date": "2010-07-01",
+      "series": "adjusted",
+      "value": 139.459068435407
+    },
+    {
+      "date": "2010-07-01",
+      "series": "trend",
+      "value": 138.83710685985548
+    },
+    {
+      "date": "2010-07-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2010-07-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2010-07-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2010-08-01",
+      "series": "original",
+      "value": 137.24598068715568
+    },
+    {
+      "date": "2010-08-01",
+      "series": "adjusted",
+      "value": 139.8452185011689
+    },
+    {
+      "date": "2010-08-01",
+      "series": "trend",
+      "value": 139.74620765665745
+    },
+    {
+      "date": "2010-08-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2010-08-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2010-08-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2010-09-01",
+      "series": "original",
+      "value": 136.69642672162283
+    },
+    {
+      "date": "2010-09-01",
+      "series": "adjusted",
+      "value": 139.4588341213421
+    },
+    {
+      "date": "2010-09-01",
+      "series": "trend",
+      "value": 140.58707839785865
+    },
+    {
+      "date": "2010-09-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2010-09-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2010-09-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2010-10-01",
+      "series": "original",
+      "value": 135.13884450692316
+    },
+    {
+      "date": "2010-10-01",
+      "series": "adjusted",
+      "value": 140.27225194065542
+    },
+    {
+      "date": "2010-10-01",
+      "series": "trend",
+      "value": 141.37446104808805
+    },
+    {
+      "date": "2010-10-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2010-10-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2010-10-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2010-11-01",
+      "series": "original",
+      "value": 139.59882328372223
+    },
+    {
+      "date": "2010-11-01",
+      "series": "adjusted",
+      "value": 142.091236687242
+    },
+    {
+      "date": "2010-11-01",
+      "series": "trend",
+      "value": 142.12104466404358
+    },
+    {
+      "date": "2010-11-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2010-11-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2010-11-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2010-12-01",
+      "series": "original",
+      "value": 138.47764951271685
+    },
+    {
+      "date": "2010-12-01",
+      "series": "adjusted",
+      "value": 142.04007354420284
+    },
+    {
+      "date": "2010-12-01",
+      "series": "trend",
+      "value": 142.83654466912196
+    },
+    {
+      "date": "2010-12-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2010-12-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2010-12-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2011-01-01",
+      "series": "original",
+      "value": 133.0769197185519
+    },
+    {
+      "date": "2011-01-01",
+      "series": "adjusted",
+      "value": 145.91002952751163
+    },
+    {
+      "date": "2011-01-01",
+      "series": "trend",
+      "value": 143.53095434504692
+    },
+    {
+      "date": "2011-01-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2011-01-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2011-01-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2011-02-01",
+      "series": "original",
+      "value": 129.50988684262188
+    },
+    {
+      "date": "2011-02-01",
+      "series": "adjusted",
+      "value": 143.80650257110784
+    },
+    {
+      "date": "2011-02-01",
+      "series": "trend",
+      "value": 144.20526542832036
+    },
+    {
+      "date": "2011-02-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2011-02-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2011-02-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2011-03-01",
+      "series": "original",
+      "value": 147.00183909502377
+    },
+    {
+      "date": "2011-03-01",
+      "series": "adjusted",
+      "value": 144.84287673672412
+    },
+    {
+      "date": "2011-03-01",
+      "series": "trend",
+      "value": 144.8515112221198
+    },
+    {
+      "date": "2011-03-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2011-03-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2011-03-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2011-04-01",
+      "series": "original",
+      "value": 151.03582303961804
+    },
+    {
+      "date": "2011-04-01",
+      "series": "adjusted",
+      "value": 144.98335770707413
+    },
+    {
+      "date": "2011-04-01",
+      "series": "trend",
+      "value": 145.44884861408877
+    },
+    {
+      "date": "2011-04-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2011-04-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2011-04-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2011-05-01",
+      "series": "original",
+      "value": 166.17834208101743
+    },
+    {
+      "date": "2011-05-01",
+      "series": "adjusted",
+      "value": 147.02980802262962
+    },
+    {
+      "date": "2011-05-01",
+      "series": "trend",
+      "value": 145.97050342889932
+    },
+    {
+      "date": "2011-05-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2011-05-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2011-05-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2011-06-01",
+      "series": "original",
+      "value": 156.69365851225533
+    },
+    {
+      "date": "2011-06-01",
+      "series": "adjusted",
+      "value": 146.9181892616626
+    },
+    {
+      "date": "2011-06-01",
+      "series": "trend",
+      "value": 146.38662389556046
+    },
+    {
+      "date": "2011-06-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2011-06-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2011-06-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2011-07-01",
+      "series": "original",
+      "value": 146.37808828046835
+    },
+    {
+      "date": "2011-07-01",
+      "series": "adjusted",
+      "value": 147.19923596718533
+    },
+    {
+      "date": "2011-07-01",
+      "series": "trend",
+      "value": 146.66965952384456
+    },
+    {
+      "date": "2011-07-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2011-07-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2011-07-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2011-08-01",
+      "series": "original",
+      "value": 146.3985053847187
+    },
+    {
+      "date": "2011-08-01",
+      "series": "adjusted",
+      "value": 146.83283232665056
+    },
+    {
+      "date": "2011-08-01",
+      "series": "trend",
+      "value": 146.79877707382232
+    },
+    {
+      "date": "2011-08-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2011-08-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2011-08-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2011-09-01",
+      "series": "original",
+      "value": 147.170906821271
+    },
+    {
+      "date": "2011-09-01",
+      "series": "adjusted",
+      "value": 148.33863941010918
+    },
+    {
+      "date": "2011-09-01",
+      "series": "trend",
+      "value": 146.76662845787968
+    },
+    {
+      "date": "2011-09-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2011-09-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2011-09-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2011-10-01",
+      "series": "original",
+      "value": 145.0500024277993
+    },
+    {
+      "date": "2011-10-01",
+      "series": "adjusted",
+      "value": 147.22842003962288
+    },
+    {
+      "date": "2011-10-01",
+      "series": "trend",
+      "value": 146.5812428556781
+    },
+    {
+      "date": "2011-10-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2011-10-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2011-10-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2011-11-01",
+      "series": "original",
+      "value": 146.3616451241655
+    },
+    {
+      "date": "2011-11-01",
+      "series": "adjusted",
+      "value": 147.18179132916666
+    },
+    {
+      "date": "2011-11-01",
+      "series": "trend",
+      "value": 146.26794234892145
+    },
+    {
+      "date": "2011-11-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2011-11-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2011-11-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2011-12-01",
+      "series": "original",
+      "value": 143.36165785374328
+    },
+    {
+      "date": "2011-12-01",
+      "series": "adjusted",
+      "value": 147.94559284991232
+    },
+    {
+      "date": "2011-12-01",
+      "series": "trend",
+      "value": 145.8646615869831
+    },
+    {
+      "date": "2011-12-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2011-12-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2011-12-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2012-01-01",
+      "series": "original",
+      "value": 136.19408129361287
+    },
+    {
+      "date": "2012-01-01",
+      "series": "adjusted",
+      "value": 147.61548682430586
+    },
+    {
+      "date": "2012-01-01",
+      "series": "trend",
+      "value": 145.42000220280224
+    },
+    {
+      "date": "2012-01-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2012-01-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2012-01-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2012-02-01",
+      "series": "original",
+      "value": 132.3605259407412
+    },
+    {
+      "date": "2012-02-01",
+      "series": "adjusted",
+      "value": 144.79283141302216
+    },
+    {
+      "date": "2012-02-01",
+      "series": "trend",
+      "value": 144.9887103190777
+    },
+    {
+      "date": "2012-02-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2012-02-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2012-02-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2012-03-01",
+      "series": "original",
+      "value": 147.44101624495764
+    },
+    {
+      "date": "2012-03-01",
+      "series": "adjusted",
+      "value": 145.42348066255374
+    },
+    {
+      "date": "2012-03-01",
+      "series": "trend",
+      "value": 144.62246252459644
+    },
+    {
+      "date": "2012-03-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2012-03-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2012-03-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2012-04-01",
+      "series": "original",
+      "value": 145.52027831854522
+    },
+    {
+      "date": "2012-04-01",
+      "series": "adjusted",
+      "value": 141.93569222162722
+    },
+    {
+      "date": "2012-04-01",
+      "series": "trend",
+      "value": 144.3635888965373
+    },
+    {
+      "date": "2012-04-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2012-04-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2012-04-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2012-05-01",
+      "series": "original",
+      "value": 157.40418371936033
+    },
+    {
+      "date": "2012-05-01",
+      "series": "adjusted",
+      "value": 140.20800800808757
+    },
+    {
+      "date": "2012-05-01",
+      "series": "trend",
+      "value": 144.24476997733314
+    },
+    {
+      "date": "2012-05-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2012-05-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2012-05-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2012-06-01",
+      "series": "original",
+      "value": 149.0331017415051
+    },
+    {
+      "date": "2012-06-01",
+      "series": "adjusted",
+      "value": 140.83622632970093
+    },
+    {
+      "date": "2012-06-01",
+      "series": "trend",
+      "value": 144.2838235013849
+    },
+    {
+      "date": "2012-06-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2012-06-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2012-06-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2012-07-01",
+      "series": "original",
+      "value": 146.86279961903688
+    },
+    {
+      "date": "2012-07-01",
+      "series": "adjusted",
+      "value": 144.62611359291736
+    },
+    {
+      "date": "2012-07-01",
+      "series": "trend",
+      "value": 144.48178494490654
+    },
+    {
+      "date": "2012-07-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2012-07-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2012-07-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2012-08-01",
+      "series": "original",
+      "value": 145.69325698881013
+    },
+    {
+      "date": "2012-08-01",
+      "series": "adjusted",
+      "value": 145.20209730495182
+    },
+    {
+      "date": "2012-08-01",
+      "series": "trend",
+      "value": 144.82445228820185
+    },
+    {
+      "date": "2012-08-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2012-08-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2012-08-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2012-09-01",
+      "series": "original",
+      "value": 142.47153651731426
+    },
+    {
+      "date": "2012-09-01",
+      "series": "adjusted",
+      "value": 146.21527755472908
+    },
+    {
+      "date": "2012-09-01",
+      "series": "trend",
+      "value": 145.28319148566547
+    },
+    {
+      "date": "2012-09-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2012-09-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2012-09-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2012-10-01",
+      "series": "original",
+      "value": 147.23130295530083
+    },
+    {
+      "date": "2012-10-01",
+      "series": "adjusted",
+      "value": 146.9454243474299
+    },
+    {
+      "date": "2012-10-01",
+      "series": "trend",
+      "value": 145.81761357074427
+    },
+    {
+      "date": "2012-10-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2012-10-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2012-10-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2012-11-01",
+      "series": "original",
+      "value": 146.37343184468628
+    },
+    {
+      "date": "2012-11-01",
+      "series": "adjusted",
+      "value": 147.08979030483772
+    },
+    {
+      "date": "2012-11-01",
+      "series": "trend",
+      "value": 146.3853969113791
+    },
+    {
+      "date": "2012-11-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2012-11-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2012-11-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2012-12-01",
+      "series": "original",
+      "value": 143.58505809958143
+    },
+    {
+      "date": "2012-12-01",
+      "series": "adjusted",
+      "value": 149.28014528158351
+    },
+    {
+      "date": "2012-12-01",
+      "series": "trend",
+      "value": 146.94774957340073
+    },
+    {
+      "date": "2012-12-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2012-12-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2012-12-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2013-01-01",
+      "series": "original",
+      "value": 136.51707182504433
+    },
+    {
+      "date": "2013-01-01",
+      "series": "adjusted",
+      "value": 145.84446220404746
+    },
+    {
+      "date": "2013-01-01",
+      "series": "trend",
+      "value": 147.47562828486946
+    },
+    {
+      "date": "2013-01-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2013-01-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2013-01-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2013-02-01",
+      "series": "original",
+      "value": 132.795321964955
+    },
+    {
+      "date": "2013-02-01",
+      "series": "adjusted",
+      "value": 148.7193750865648
+    },
+    {
+      "date": "2013-02-01",
+      "series": "trend",
+      "value": 147.94311146524075
+    },
+    {
+      "date": "2013-02-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2013-02-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2013-02-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2013-03-01",
+      "series": "original",
+      "value": 149.40394566736484
+    },
+    {
+      "date": "2013-03-01",
+      "series": "adjusted",
+      "value": 148.78959984188216
+    },
+    {
+      "date": "2013-03-01",
+      "series": "trend",
+      "value": 148.3284856047954
+    },
+    {
+      "date": "2013-03-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2013-03-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2013-03-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2013-04-01",
+      "series": "original",
+      "value": 155.94159584157654
+    },
+    {
+      "date": "2013-04-01",
+      "series": "adjusted",
+      "value": 148.4199531126731
+    },
+    {
+      "date": "2013-04-01",
+      "series": "trend",
+      "value": 148.61752515544083
+    },
+    {
+      "date": "2013-04-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2013-04-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2013-04-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2013-05-01",
+      "series": "original",
+      "value": 167.9734791225302
+    },
+    {
+      "date": "2013-05-01",
+      "series": "adjusted",
+      "value": 148.49785095851433
+    },
+    {
+      "date": "2013-05-01",
+      "series": "trend",
+      "value": 148.80179289220786
+    },
+    {
+      "date": "2013-05-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2013-05-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2013-05-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2013-06-01",
+      "series": "original",
+      "value": 156.27186443024067
+    },
+    {
+      "date": "2013-06-01",
+      "series": "adjusted",
+      "value": 149.14551727091973
+    },
+    {
+      "date": "2013-06-01",
+      "series": "trend",
+      "value": 148.875549433977
+    },
+    {
+      "date": "2013-06-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2013-06-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2013-06-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2013-07-01",
+      "series": "original",
+      "value": 150.73100129825897
+    },
+    {
+      "date": "2013-07-01",
+      "series": "adjusted",
+      "value": 148.03073520935698
+    },
+    {
+      "date": "2013-07-01",
+      "series": "trend",
+      "value": 148.8349982462062
+    },
+    {
+      "date": "2013-07-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2013-07-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2013-07-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2013-08-01",
+      "series": "original",
+      "value": 148.42144953050052
+    },
+    {
+      "date": "2013-08-01",
+      "series": "adjusted",
+      "value": 150.25356820427822
+    },
+    {
+      "date": "2013-08-01",
+      "series": "trend",
+      "value": 148.6817211834727
+    },
+    {
+      "date": "2013-08-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2013-08-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2013-08-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2013-09-01",
+      "series": "original",
+      "value": 147.0048441881334
+    },
+    {
+      "date": "2013-09-01",
+      "series": "adjusted",
+      "value": 150.20696375360856
+    },
+    {
+      "date": "2013-09-01",
+      "series": "trend",
+      "value": 148.42394469506013
+    },
+    {
+      "date": "2013-09-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2013-09-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2013-09-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2013-10-01",
+      "series": "original",
+      "value": 148.6939593959755
+    },
+    {
+      "date": "2013-10-01",
+      "series": "adjusted",
+      "value": 148.8229414786125
+    },
+    {
+      "date": "2013-10-01",
+      "series": "trend",
+      "value": 148.07153132088857
+    },
+    {
+      "date": "2013-10-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2013-10-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2013-10-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2013-11-01",
+      "series": "original",
+      "value": 145.69589762827002
+    },
+    {
+      "date": "2013-11-01",
+      "series": "adjusted",
+      "value": 148.18431437873136
+    },
+    {
+      "date": "2013-11-01",
+      "series": "trend",
+      "value": 147.6354437580278
+    },
+    {
+      "date": "2013-11-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2013-11-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2013-11-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2013-12-01",
+      "series": "original",
+      "value": 142.5768791271264
+    },
+    {
+      "date": "2013-12-01",
+      "series": "adjusted",
+      "value": 147.1120290966267
+    },
+    {
+      "date": "2013-12-01",
+      "series": "trend",
+      "value": 147.1323152070563
+    },
+    {
+      "date": "2013-12-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2013-12-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2013-12-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2014-01-01",
+      "series": "original",
+      "value": 137.96969739537636
+    },
+    {
+      "date": "2014-01-01",
+      "series": "adjusted",
+      "value": 145.62358257397005
+    },
+    {
+      "date": "2014-01-01",
+      "series": "trend",
+      "value": 146.5841906941284
+    },
+    {
+      "date": "2014-01-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2014-01-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2014-01-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2014-02-01",
+      "series": "original",
+      "value": 132.48630687243056
+    },
+    {
+      "date": "2014-02-01",
+      "series": "adjusted",
+      "value": 146.57003852207274
+    },
+    {
+      "date": "2014-02-01",
+      "series": "trend",
+      "value": 146.01674066661917
+    },
+    {
+      "date": "2014-02-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2014-02-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2014-02-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2014-03-01",
+      "series": "original",
+      "value": 144.53782808347017
+    },
+    {
+      "date": "2014-03-01",
+      "series": "adjusted",
+      "value": 145.40536761527434
+    },
+    {
+      "date": "2014-03-01",
+      "series": "trend",
+      "value": 145.46059201912536
+    },
+    {
+      "date": "2014-03-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2014-03-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2014-03-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2014-04-01",
+      "series": "original",
+      "value": 152.34143546147135
+    },
+    {
+      "date": "2014-04-01",
+      "series": "adjusted",
+      "value": 145.03278354151465
+    },
+    {
+      "date": "2014-04-01",
+      "series": "trend",
+      "value": 144.95224437877084
+    },
+    {
+      "date": "2014-04-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2014-04-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2014-04-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2014-05-01",
+      "series": "original",
+      "value": 164.20324390256107
+    },
+    {
+      "date": "2014-05-01",
+      "series": "adjusted",
+      "value": 145.34646287074622
+    },
+    {
+      "date": "2014-05-01",
+      "series": "trend",
+      "value": 144.52629727364285
+    },
+    {
+      "date": "2014-05-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2014-05-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2014-05-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2014-06-01",
+      "series": "original",
+      "value": 153.80352402990053
+    },
+    {
+      "date": "2014-06-01",
+      "series": "adjusted",
+      "value": 144.53941198218834
+    },
+    {
+      "date": "2014-06-01",
+      "series": "trend",
+      "value": 144.2124846714865
+    },
+    {
+      "date": "2014-06-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2014-06-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2014-06-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2014-07-01",
+      "series": "original",
+      "value": 145.42281373408593
+    },
+    {
+      "date": "2014-07-01",
+      "series": "adjusted",
+      "value": 143.99524897227724
+    },
+    {
+      "date": "2014-07-01",
+      "series": "trend",
+      "value": 144.03595665874957
+    },
+    {
+      "date": "2014-07-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2014-07-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2014-07-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2014-08-01",
+      "series": "original",
+      "value": 140.10530396605887
+    },
+    {
+      "date": "2014-08-01",
+      "series": "adjusted",
+      "value": 143.7315308773142
+    },
+    {
+      "date": "2014-08-01",
+      "series": "trend",
+      "value": 144.01414165262184
+    },
+    {
+      "date": "2014-08-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2014-08-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2014-08-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2014-09-01",
+      "series": "original",
+      "value": 141.71873319955728
+    },
+    {
+      "date": "2014-09-01",
+      "series": "adjusted",
+      "value": 143.44027844896252
+    },
+    {
+      "date": "2014-09-01",
+      "series": "trend",
+      "value": 144.1544866702519
+    },
+    {
+      "date": "2014-09-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2014-09-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2014-09-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2014-10-01",
+      "series": "original",
+      "value": 143.3493974176129
+    },
+    {
+      "date": "2014-10-01",
+      "series": "adjusted",
+      "value": 143.9510808343157
+    },
+    {
+      "date": "2014-10-01",
+      "series": "trend",
+      "value": 144.4538328710644
+    },
+    {
+      "date": "2014-10-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2014-10-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2014-10-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2014-11-01",
+      "series": "original",
+      "value": 140.8775968982631
+    },
+    {
+      "date": "2014-11-01",
+      "series": "adjusted",
+      "value": 144.78710242519875
+    },
+    {
+      "date": "2014-11-01",
+      "series": "trend",
+      "value": 144.89508354849858
+    },
+    {
+      "date": "2014-11-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2014-11-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2014-11-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2014-12-01",
+      "series": "original",
+      "value": 140.4359377491282
+    },
+    {
+      "date": "2014-12-01",
+      "series": "adjusted",
+      "value": 144.82893060747392
+    },
+    {
+      "date": "2014-12-01",
+      "series": "trend",
+      "value": 145.45268034360788
+    },
+    {
+      "date": "2014-12-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2014-12-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2014-12-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2015-01-01",
+      "series": "original",
+      "value": 133.99818907035032
+    },
+    {
+      "date": "2015-01-01",
+      "series": "adjusted",
+      "value": 144.3154675558232
+    },
+    {
+      "date": "2015-01-01",
+      "series": "trend",
+      "value": 146.09161884995973
+    },
+    {
+      "date": "2015-01-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2015-01-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2015-01-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2015-02-01",
+      "series": "original",
+      "value": 132.627886955774
+    },
+    {
+      "date": "2015-02-01",
+      "series": "adjusted",
+      "value": 148.15401804522486
+    },
+    {
+      "date": "2015-02-01",
+      "series": "trend",
+      "value": 146.76669722683638
+    },
+    {
+      "date": "2015-02-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2015-02-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2015-02-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2015-03-01",
+      "series": "original",
+      "value": 149.4090129833281
+    },
+    {
+      "date": "2015-03-01",
+      "series": "adjusted",
+      "value": 147.46878507226506
+    },
+    {
+      "date": "2015-03-01",
+      "series": "trend",
+      "value": 147.42945556186433
+    },
+    {
+      "date": "2015-03-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2015-03-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2015-03-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2015-04-01",
+      "series": "original",
+      "value": 157.4845995373143
+    },
+    {
+      "date": "2015-04-01",
+      "series": "adjusted",
+      "value": 149.83104804486982
+    },
+    {
+      "date": "2015-04-01",
+      "series": "trend",
+      "value": 148.03461747806662
+    },
+    {
+      "date": "2015-04-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2015-04-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2015-04-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2015-05-01",
+      "series": "original",
+      "value": 168.88610058983411
+    },
+    {
+      "date": "2015-05-01",
+      "series": "adjusted",
+      "value": 149.82305725654703
+    },
+    {
+      "date": "2015-05-01",
+      "series": "trend",
+      "value": 148.53732323736767
+    },
+    {
+      "date": "2015-05-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2015-05-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2015-05-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2015-06-01",
+      "series": "original",
+      "value": 162.93739000912225
+    },
+    {
+      "date": "2015-06-01",
+      "series": "adjusted",
+      "value": 150.41548499537
+    },
+    {
+      "date": "2015-06-01",
+      "series": "trend",
+      "value": 148.90133357070053
+    },
+    {
+      "date": "2015-06-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2015-06-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2015-06-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2015-07-01",
+      "series": "original",
+      "value": 151.8447963430633
+    },
+    {
+      "date": "2015-07-01",
+      "series": "adjusted",
+      "value": 150.61997061862917
+    },
+    {
+      "date": "2015-07-01",
+      "series": "trend",
+      "value": 149.10270626892202
+    },
+    {
+      "date": "2015-07-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2015-07-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2015-07-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2015-08-01",
+      "series": "original",
+      "value": 146.46506720486232
+    },
+    {
+      "date": "2015-08-01",
+      "series": "adjusted",
+      "value": 150.28262702453938
+    },
+    {
+      "date": "2015-08-01",
+      "series": "trend",
+      "value": 149.133048725841
+    },
+    {
+      "date": "2015-08-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2015-08-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2015-08-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2015-09-01",
+      "series": "original",
+      "value": 145.88232371860067
+    },
+    {
+      "date": "2015-09-01",
+      "series": "adjusted",
+      "value": 148.98092131312947
+    },
+    {
+      "date": "2015-09-01",
+      "series": "trend",
+      "value": 148.99376715859447
+    },
+    {
+      "date": "2015-09-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2015-09-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2015-09-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2015-10-01",
+      "series": "original",
+      "value": 147.04587615341626
+    },
+    {
+      "date": "2015-10-01",
+      "series": "adjusted",
+      "value": 149.36215341963478
+    },
+    {
+      "date": "2015-10-01",
+      "series": "trend",
+      "value": 148.69756792856697
+    },
+    {
+      "date": "2015-10-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2015-10-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2015-10-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2015-11-01",
+      "series": "original",
+      "value": 146.175581385648
+    },
+    {
+      "date": "2015-11-01",
+      "series": "adjusted",
+      "value": 148.5204271339802
+    },
+    {
+      "date": "2015-11-01",
+      "series": "trend",
+      "value": 148.2720143787373
+    },
+    {
+      "date": "2015-11-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2015-11-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2015-11-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2015-12-01",
+      "series": "original",
+      "value": 141.9421187346255
+    },
+    {
+      "date": "2015-12-01",
+      "series": "adjusted",
+      "value": 146.92498278266922
+    },
+    {
+      "date": "2015-12-01",
+      "series": "trend",
+      "value": 147.7525880753755
+    },
+    {
+      "date": "2015-12-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2015-12-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2015-12-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2016-01-01",
+      "series": "original",
+      "value": 134.74645041349706
+    },
+    {
+      "date": "2016-01-01",
+      "series": "adjusted",
+      "value": 147.88826070998013
+    },
+    {
+      "date": "2016-01-01",
+      "series": "trend",
+      "value": 147.17932494578298
+    },
+    {
+      "date": "2016-01-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2016-01-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2016-01-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2016-02-01",
+      "series": "original",
+      "value": 134.2323610386252
+    },
+    {
+      "date": "2016-02-01",
+      "series": "adjusted",
+      "value": 146.92615312162437
+    },
+    {
+      "date": "2016-02-01",
+      "series": "trend",
+      "value": 146.5944238734953
+    },
+    {
+      "date": "2016-02-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2016-02-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2016-02-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2016-03-01",
+      "series": "original",
+      "value": 150.0878942366954
+    },
+    {
+      "date": "2016-03-01",
+      "series": "adjusted",
+      "value": 145.94314963656626
+    },
+    {
+      "date": "2016-03-01",
+      "series": "trend",
+      "value": 146.0414106038301
+    },
+    {
+      "date": "2016-03-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2016-03-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2016-03-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2016-04-01",
+      "series": "original",
+      "value": 153.25067436662908
+    },
+    {
+      "date": "2016-04-01",
+      "series": "adjusted",
+      "value": 144.90367861399554
+    },
+    {
+      "date": "2016-04-01",
+      "series": "trend",
+      "value": 145.5574952808229
+    },
+    {
+      "date": "2016-04-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2016-04-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2016-04-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2016-05-01",
+      "series": "original",
+      "value": 163.51360808690507
+    },
+    {
+      "date": "2016-05-01",
+      "series": "adjusted",
+      "value": 144.3848072476054
+    },
+    {
+      "date": "2016-05-01",
+      "series": "trend",
+      "value": 145.1701661012411
+    },
+    {
+      "date": "2016-05-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2016-05-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2016-05-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2016-06-01",
+      "series": "original",
+      "value": 153.66209524099784
+    },
+    {
+      "date": "2016-06-01",
+      "series": "adjusted",
+      "value": 144.4039614616447
+    },
+    {
+      "date": "2016-06-01",
+      "series": "trend",
+      "value": 144.8999515350107
+    },
+    {
+      "date": "2016-06-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2016-06-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2016-06-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2016-07-01",
+      "series": "original",
+      "value": 143.73110098180126
+    },
+    {
+      "date": "2016-07-01",
+      "series": "adjusted",
+      "value": 144.58725816867408
+    },
+    {
+      "date": "2016-07-01",
+      "series": "trend",
+      "value": 144.7576425693146
+    },
+    {
+      "date": "2016-07-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2016-07-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2016-07-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2016-08-01",
+      "series": "original",
+      "value": 143.6741026486049
+    },
+    {
+      "date": "2016-08-01",
+      "series": "adjusted",
+      "value": 145.51479716850298
+    },
+    {
+      "date": "2016-08-01",
+      "series": "trend",
+      "value": 144.7474274637941
+    },
+    {
+      "date": "2016-08-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2016-08-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2016-08-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2016-09-01",
+      "series": "original",
+      "value": 142.00773744282046
+    },
+    {
+      "date": "2016-09-01",
+      "series": "adjusted",
+      "value": 145.13517664808023
+    },
+    {
+      "date": "2016-09-01",
+      "series": "trend",
+      "value": 144.86904138619815
+    },
+    {
+      "date": "2016-09-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2016-09-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2016-09-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2016-10-01",
+      "series": "original",
+      "value": 141.1368632980814
+    },
+    {
+      "date": "2016-10-01",
+      "series": "adjusted",
+      "value": 145.11063481100237
+    },
+    {
+      "date": "2016-10-01",
+      "series": "trend",
+      "value": 145.1144473538895
+    },
+    {
+      "date": "2016-10-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2016-10-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2016-10-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2016-11-01",
+      "series": "original",
+      "value": 144.93832064073018
+    },
+    {
+      "date": "2016-11-01",
+      "series": "adjusted",
+      "value": 145.69400464000677
+    },
+    {
+      "date": "2016-11-01",
+      "series": "trend",
+      "value": 145.4699917152826
+    },
+    {
+      "date": "2016-11-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2016-11-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2016-11-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2016-12-01",
+      "series": "original",
+      "value": 142.59014516031914
+    },
+    {
+      "date": "2016-12-01",
+      "series": "adjusted",
+      "value": 147.07947189279292
+    },
+    {
+      "date": "2016-12-01",
+      "series": "trend",
+      "value": 145.92269776752138
+    },
+    {
+      "date": "2016-12-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2016-12-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2016-12-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2017-01-01",
+      "series": "original",
+      "value": 136.63265948316212
+    },
+    {
+      "date": "2017-01-01",
+      "series": "adjusted",
+      "value": 146.88443808805664
+    },
+    {
+      "date": "2017-01-01",
+      "series": "trend",
+      "value": 146.45613655693415
+    },
+    {
+      "date": "2017-01-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2017-01-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2017-01-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2017-02-01",
+      "series": "original",
+      "value": 132.15851633982274
+    },
+    {
+      "date": "2017-02-01",
+      "series": "adjusted",
+      "value": 146.9154392385229
+    },
+    {
+      "date": "2017-02-01",
+      "series": "trend",
+      "value": 147.05065414133102
+    },
+    {
+      "date": "2017-02-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2017-02-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2017-02-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2017-03-01",
+      "series": "original",
+      "value": 152.6209585590573
+    },
+    {
+      "date": "2017-03-01",
+      "series": "adjusted",
+      "value": 147.7904758601711
+    },
+    {
+      "date": "2017-03-01",
+      "series": "trend",
+      "value": 147.68611990117265
+    },
+    {
+      "date": "2017-03-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2017-03-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2017-03-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2017-04-01",
+      "series": "original",
+      "value": 151.94634480448738
+    },
+    {
+      "date": "2017-04-01",
+      "series": "adjusted",
+      "value": 147.81028318754892
+    },
+    {
+      "date": "2017-04-01",
+      "series": "trend",
+      "value": 148.3407725910139
+    },
+    {
+      "date": "2017-04-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2017-04-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2017-04-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2017-05-01",
+      "series": "original",
+      "value": 168.3892094693678
+    },
+    {
+      "date": "2017-05-01",
+      "series": "adjusted",
+      "value": 148.54122640447423
+    },
+    {
+      "date": "2017-05-01",
+      "series": "trend",
+      "value": 148.9871157221859
+    },
+    {
+      "date": "2017-05-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2017-05-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2017-05-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2017-06-01",
+      "series": "original",
+      "value": 161.03568546945232
+    },
+    {
+      "date": "2017-06-01",
+      "series": "adjusted",
+      "value": 150.29913652796256
+    },
+    {
+      "date": "2017-06-01",
+      "series": "trend",
+      "value": 149.594560433542
+    },
+    {
+      "date": "2017-06-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2017-06-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2017-06-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2017-07-01",
+      "series": "original",
+      "value": 150.30605012392
+    },
+    {
+      "date": "2017-07-01",
+      "series": "adjusted",
+      "value": 150.4229645186726
+    },
+    {
+      "date": "2017-07-01",
+      "series": "trend",
+      "value": 150.1293106078147
+    },
+    {
+      "date": "2017-07-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2017-07-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2017-07-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2017-08-01",
+      "series": "original",
+      "value": 149.2553427738411
+    },
+    {
+      "date": "2017-08-01",
+      "series": "adjusted",
+      "value": 150.35865353533302
+    },
+    {
+      "date": "2017-08-01",
+      "series": "trend",
+      "value": 150.55572614761766
+    },
+    {
+      "date": "2017-08-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2017-08-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2017-08-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2017-09-01",
+      "series": "original",
+      "value": 146.38655965775385
+    },
+    {
+      "date": "2017-09-01",
+      "series": "adjusted",
+      "value": 151.27010168969665
+    },
+    {
+      "date": "2017-09-01",
+      "series": "trend",
+      "value": 150.83808324493873
+    },
+    {
+      "date": "2017-09-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2017-09-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2017-09-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2017-10-01",
+      "series": "original",
+      "value": 149.38594966601454
+    },
+    {
+      "date": "2017-10-01",
+      "series": "adjusted",
+      "value": 151.55060241477307
+    },
+    {
+      "date": "2017-10-01",
+      "series": "trend",
+      "value": 150.94905295388924
+    },
+    {
+      "date": "2017-10-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2017-10-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2017-10-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2017-11-01",
+      "series": "original",
+      "value": 151.92604285202697
+    },
+    {
+      "date": "2017-11-01",
+      "series": "adjusted",
+      "value": 152.67170322703083
+    },
+    {
+      "date": "2017-11-01",
+      "series": "trend",
+      "value": 150.86585009372385
+    },
+    {
+      "date": "2017-11-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2017-11-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2017-11-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2017-12-01",
+      "series": "original",
+      "value": 146.7833849092245
+    },
+    {
+      "date": "2017-12-01",
+      "series": "adjusted",
+      "value": 152.31167999658115
+    },
+    {
+      "date": "2017-12-01",
+      "series": "trend",
+      "value": 150.57787469521762
+    },
+    {
+      "date": "2017-12-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2017-12-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2017-12-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2018-01-01",
+      "series": "original",
+      "value": 142.74091260617223
+    },
+    {
+      "date": "2018-01-01",
+      "series": "adjusted",
+      "value": 150.8186657918889
+    },
+    {
+      "date": "2018-01-01",
+      "series": "trend",
+      "value": 150.09096075270912
+    },
+    {
+      "date": "2018-01-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2018-01-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2018-01-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2018-02-01",
+      "series": "original",
+      "value": 138.81804035165743
+    },
+    {
+      "date": "2018-02-01",
+      "series": "adjusted",
+      "value": 152.3148001763975
+    },
+    {
+      "date": "2018-02-01",
+      "series": "trend",
+      "value": 149.42675957214638
+    },
+    {
+      "date": "2018-02-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2018-02-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2018-02-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2018-03-01",
+      "series": "original",
+      "value": 155.85731953576973
+    },
+    {
+      "date": "2018-03-01",
+      "series": "adjusted",
+      "value": 151.64010553158752
+    },
+    {
+      "date": "2018-03-01",
+      "series": "trend",
+      "value": 148.62167991621178
+    },
+    {
+      "date": "2018-03-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2018-03-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2018-03-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2018-04-01",
+      "series": "original",
+      "value": 151.52454398394343
+    },
+    {
+      "date": "2018-04-01",
+      "series": "adjusted",
+      "value": 146.8472154238205
+    },
+    {
+      "date": "2018-04-01",
+      "series": "trend",
+      "value": 147.72035139641434
+    },
+    {
+      "date": "2018-04-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2018-04-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2018-04-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2018-05-01",
+      "series": "original",
+      "value": 159.5666923779167
+    },
+    {
+      "date": "2018-05-01",
+      "series": "adjusted",
+      "value": 144.54531368942676
+    },
+    {
+      "date": "2018-05-01",
+      "series": "trend",
+      "value": 146.77565876677158
+    },
+    {
+      "date": "2018-05-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2018-05-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2018-05-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2018-06-01",
+      "series": "original",
+      "value": 151.12576323345522
+    },
+    {
+      "date": "2018-06-01",
+      "series": "adjusted",
+      "value": 143.27332462810455
+    },
+    {
+      "date": "2018-06-01",
+      "series": "trend",
+      "value": 145.84317269486274
+    },
+    {
+      "date": "2018-06-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2018-06-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2018-06-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2018-07-01",
+      "series": "original",
+      "value": 145.9635244300046
+    },
+    {
+      "date": "2018-07-01",
+      "series": "adjusted",
+      "value": 143.47671198698848
+    },
+    {
+      "date": "2018-07-01",
+      "series": "trend",
+      "value": 144.9746519677514
+    },
+    {
+      "date": "2018-07-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2018-07-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2018-07-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2018-08-01",
+      "series": "original",
+      "value": 146.76596003413968
+    },
+    {
+      "date": "2018-08-01",
+      "series": "adjusted",
+      "value": 146.68122329420646
+    },
+    {
+      "date": "2018-08-01",
+      "series": "trend",
+      "value": 144.21734410644618
+    },
+    {
+      "date": "2018-08-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2018-08-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2018-08-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2018-09-01",
+      "series": "original",
+      "value": 137.746569718648
+    },
+    {
+      "date": "2018-09-01",
+      "series": "adjusted",
+      "value": 143.07302792015133
+    },
+    {
+      "date": "2018-09-01",
+      "series": "trend",
+      "value": 143.60532536105458
+    },
+    {
+      "date": "2018-09-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2018-09-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2018-09-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2018-10-01",
+      "series": "original",
+      "value": 142.8432759845676
+    },
+    {
+      "date": "2018-10-01",
+      "series": "adjusted",
+      "value": 143.48043066315842
+    },
+    {
+      "date": "2018-10-01",
+      "series": "trend",
+      "value": 143.15549319707856
+    },
+    {
+      "date": "2018-10-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2018-10-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2018-10-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2018-11-01",
+      "series": "original",
+      "value": 140.59240732533567
+    },
+    {
+      "date": "2018-11-01",
+      "series": "adjusted",
+      "value": 141.69189611443127
+    },
+    {
+      "date": "2018-11-01",
+      "series": "trend",
+      "value": 142.87043598955682
+    },
+    {
+      "date": "2018-11-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2018-11-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2018-11-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2018-12-01",
+      "series": "original",
+      "value": 136.25161596905636
+    },
+    {
+      "date": "2018-12-01",
+      "series": "adjusted",
+      "value": 141.95391089601796
+    },
+    {
+      "date": "2018-12-01",
+      "series": "trend",
+      "value": 142.7373711468162
+    },
+    {
+      "date": "2018-12-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2018-12-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2018-12-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2019-01-01",
+      "series": "original",
+      "value": 134.5362398566958
+    },
+    {
+      "date": "2019-01-01",
+      "series": "adjusted",
+      "value": 141.34700742265244
+    },
+    {
+      "date": "2019-01-01",
+      "series": "trend",
+      "value": 142.7287992007319
+    },
+    {
+      "date": "2019-01-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2019-01-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2019-01-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2019-02-01",
+      "series": "original",
+      "value": 132.2678886127366
+    },
+    {
+      "date": "2019-02-01",
+      "series": "adjusted",
+      "value": 143.75986550344132
+    },
+    {
+      "date": "2019-02-01",
+      "series": "trend",
+      "value": 142.80736553062576
+    },
+    {
+      "date": "2019-02-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2019-02-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2019-02-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2019-03-01",
+      "series": "original",
+      "value": 144.96325495574916
+    },
+    {
+      "date": "2019-03-01",
+      "series": "adjusted",
+      "value": 142.32635002392266
+    },
+    {
+      "date": "2019-03-01",
+      "series": "trend",
+      "value": 142.93072265176818
+    },
+    {
+      "date": "2019-03-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2019-03-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2019-03-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2019-04-01",
+      "series": "original",
+      "value": 149.9162214035227
+    },
+    {
+      "date": "2019-04-01",
+      "series": "adjusted",
+      "value": 142.52851682732464
+    },
+    {
+      "date": "2019-04-01",
+      "series": "trend",
+      "value": 143.05282410282658
+    },
+    {
+      "date": "2019-04-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2019-04-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2019-04-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2019-05-01",
+      "series": "original",
+      "value": 164.1356990759204
+    },
+    {
+      "date": "2019-05-01",
+      "series": "adjusted",
+      "value": 145.02104263981414
+    },
+    {
+      "date": "2019-05-01",
+      "series": "trend",
+      "value": 143.1326325650725
+    },
+    {
+      "date": "2019-05-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2019-05-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2019-05-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2019-06-01",
+      "series": "original",
+      "value": 150.85897174113128
+    },
+    {
+      "date": "2019-06-01",
+      "series": "adjusted",
+      "value": 144.0045563590138
+    },
+    {
+      "date": "2019-06-01",
+      "series": "trend",
+      "value": 143.13608225359783
+    },
+    {
+      "date": "2019-06-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2019-06-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2019-06-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2019-07-01",
+      "series": "original",
+      "value": 146.77702964007034
+    },
+    {
+      "date": "2019-07-01",
+      "series": "adjusted",
+      "value": 145.8222101424362
+    },
+    {
+      "date": "2019-07-01",
+      "series": "trend",
+      "value": 143.03695731526594
+    },
+    {
+      "date": "2019-07-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2019-07-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2019-07-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2019-08-01",
+      "series": "original",
+      "value": 141.27693468084036
+    },
+    {
+      "date": "2019-08-01",
+      "series": "adjusted",
+      "value": 144.88506039088324
+    },
+    {
+      "date": "2019-08-01",
+      "series": "trend",
+      "value": 142.81948297735036
+    },
+    {
+      "date": "2019-08-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2019-08-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2019-08-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2019-09-01",
+      "series": "original",
+      "value": 134.87706647993653
+    },
+    {
+      "date": "2019-09-01",
+      "series": "adjusted",
+      "value": 140.45014929821514
+    },
+    {
+      "date": "2019-09-01",
+      "series": "trend",
+      "value": 142.47879603316827
+    },
+    {
+      "date": "2019-09-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2019-09-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2019-09-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2019-10-01",
+      "series": "original",
+      "value": 141.6393366170138
+    },
+    {
+      "date": "2019-10-01",
+      "series": "adjusted",
+      "value": 143.78653726850195
+    },
+    {
+      "date": "2019-10-01",
+      "series": "trend",
+      "value": 142.020414892684
+    },
+    {
+      "date": "2019-10-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2019-10-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2019-10-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2019-11-01",
+      "series": "original",
+      "value": 137.77182966933145
+    },
+    {
+      "date": "2019-11-01",
+      "series": "adjusted",
+      "value": 140.86500021986032
+    },
+    {
+      "date": "2019-11-01",
+      "series": "trend",
+      "value": 141.4602476222375
+    },
+    {
+      "date": "2019-11-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2019-11-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2019-11-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2019-12-01",
+      "series": "original",
+      "value": 135.76515452763502
+    },
+    {
+      "date": "2019-12-01",
+      "series": "adjusted",
+      "value": 139.9893317187354
+    },
+    {
+      "date": "2019-12-01",
+      "series": "trend",
+      "value": 140.82678288895954
+    },
+    {
+      "date": "2019-12-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2019-12-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2019-12-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2020-01-01",
+      "series": "original",
+      "value": 133.8910860895724
+    },
+    {
+      "date": "2020-01-01",
+      "series": "adjusted",
+      "value": 141.02766879388537
+    },
+    {
+      "date": "2020-01-01",
+      "series": "trend",
+      "value": 140.14959197371655
+    },
+    {
+      "date": "2020-01-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2020-01-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2020-01-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2020-02-01",
+      "series": "original",
+      "value": 128.97363874659823
+    },
+    {
+      "date": "2020-02-01",
+      "series": "adjusted",
+      "value": 139.69228715186017
+    },
+    {
+      "date": "2020-02-01",
+      "series": "trend",
+      "value": 139.46090238954096
+    },
+    {
+      "date": "2020-02-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2020-02-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2020-02-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2020-03-01",
+      "series": "original",
+      "value": 128.21106074025667
+    },
+    {
+      "date": "2020-03-01",
+      "series": "adjusted",
+      "value": 125.81606876571176
+    },
+    {
+      "date": "2020-03-01",
+      "series": "trend",
+      "value": 138.79304308571366
+    },
+    {
+      "date": "2020-03-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2020-03-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2020-03-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2020-04-01",
+      "series": "original",
+      "value": 113.29503444580156
+    },
+    {
+      "date": "2020-04-01",
+      "series": "adjusted",
+      "value": 106.14283550595607
+    },
+    {
+      "date": "2020-04-01",
+      "series": "trend",
+      "value": 138.17937230031134
+    },
+    {
+      "date": "2020-04-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2020-04-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2020-04-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2020-05-01",
+      "series": "original",
+      "value": 131.02956919734916
+    },
+    {
+      "date": "2020-05-01",
+      "series": "adjusted",
+      "value": 117.33295123869415
+    },
+    {
+      "date": "2020-05-01",
+      "series": "trend",
+      "value": 137.65176632311704
+    },
+    {
+      "date": "2020-05-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2020-05-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2020-05-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2020-06-01",
+      "series": "original",
+      "value": 132.52196526648777
+    },
+    {
+      "date": "2020-06-01",
+      "series": "adjusted",
+      "value": 124.1818426627035
+    },
+    {
+      "date": "2020-06-01",
+      "series": "trend",
+      "value": 137.23589821082757
+    },
+    {
+      "date": "2020-06-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2020-06-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2020-06-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2020-07-01",
+      "series": "original",
+      "value": 127.46368946979405
+    },
+    {
+      "date": "2020-07-01",
+      "series": "adjusted",
+      "value": 126.38187633482084
+    },
+    {
+      "date": "2020-07-01",
+      "series": "trend",
+      "value": 136.9502961581229
+    },
+    {
+      "date": "2020-07-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2020-07-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2020-07-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2020-08-01",
+      "series": "original",
+      "value": 125.18389375984655
+    },
+    {
+      "date": "2020-08-01",
+      "series": "adjusted",
+      "value": 128.76451644547916
+    },
+    {
+      "date": "2020-08-01",
+      "series": "trend",
+      "value": 136.80688853166114
+    },
+    {
+      "date": "2020-08-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2020-08-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2020-08-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2020-09-01",
+      "series": "original",
+      "value": 127.17507609335286
+    },
+    {
+      "date": "2020-09-01",
+      "series": "adjusted",
+      "value": 130.60207898103872
+    },
+    {
+      "date": "2020-09-01",
+      "series": "trend",
+      "value": 136.8079347111181
+    },
+    {
+      "date": "2020-09-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2020-09-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2020-09-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2020-10-01",
+      "series": "original",
+      "value": 131.34550189452798
+    },
+    {
+      "date": "2020-10-01",
+      "series": "adjusted",
+      "value": 133.444166574407
+    },
+    {
+      "date": "2020-10-01",
+      "series": "trend",
+      "value": 136.9478995563424
+    },
+    {
+      "date": "2020-10-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2020-10-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2020-10-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2020-11-01",
+      "series": "original",
+      "value": 132.06865525299673
+    },
+    {
+      "date": "2020-11-01",
+      "series": "adjusted",
+      "value": 134.6844389954572
+    },
+    {
+      "date": "2020-11-01",
+      "series": "trend",
+      "value": 137.2138275727328
+    },
+    {
+      "date": "2020-11-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2020-11-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2020-11-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2020-12-01",
+      "series": "original",
+      "value": 133.85436559460618
+    },
+    {
+      "date": "2020-12-01",
+      "series": "adjusted",
+      "value": 136.94280560055805
+    },
+    {
+      "date": "2020-12-01",
+      "series": "trend",
+      "value": 137.58889028144262
+    },
+    {
+      "date": "2020-12-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2020-12-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2020-12-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2021-01-01",
+      "series": "original",
+      "value": 131.52153739731895
+    },
+    {
+      "date": "2021-01-01",
+      "series": "adjusted",
+      "value": 139.81959007518623
+    },
+    {
+      "date": "2021-01-01",
+      "series": "trend",
+      "value": 138.0559054314555
+    },
+    {
+      "date": "2021-01-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2021-01-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2021-01-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2021-02-01",
+      "series": "original",
+      "value": 126.23926696836419
+    },
+    {
+      "date": "2021-02-01",
+      "series": "adjusted",
+      "value": 138.3911872652127
+    },
+    {
+      "date": "2021-02-01",
+      "series": "trend",
+      "value": 138.60254207724486
+    },
+    {
+      "date": "2021-02-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2021-02-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2021-02-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2021-03-01",
+      "series": "original",
+      "value": 145.9569001036472
+    },
+    {
+      "date": "2021-03-01",
+      "series": "adjusted",
+      "value": 140.84959717606753
+    },
+    {
+      "date": "2021-03-01",
+      "series": "trend",
+      "value": 139.2186114894396
+    },
+    {
+      "date": "2021-03-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2021-03-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2021-03-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2021-04-01",
+      "series": "original",
+      "value": 147.2808440187596
+    },
+    {
+      "date": "2021-04-01",
+      "series": "adjusted",
+      "value": 139.54345141141152
+    },
+    {
+      "date": "2021-04-01",
+      "series": "trend",
+      "value": 139.90016852030865
+    },
+    {
+      "date": "2021-04-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2021-04-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2021-04-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2021-05-01",
+      "series": "original",
+      "value": 151.16932233874826
+    },
+    {
+      "date": "2021-05-01",
+      "series": "adjusted",
+      "value": 138.91206618882356
+    },
+    {
+      "date": "2021-05-01",
+      "series": "trend",
+      "value": 140.64765763878233
+    },
+    {
+      "date": "2021-05-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2021-05-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2021-05-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2021-06-01",
+      "series": "original",
+      "value": 148.97961710841247
+    },
+    {
+      "date": "2021-06-01",
+      "series": "adjusted",
+      "value": 141.4053961762199
+    },
+    {
+      "date": "2021-06-01",
+      "series": "trend",
+      "value": 141.45973759956388
+    },
+    {
+      "date": "2021-06-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2021-06-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2021-06-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2021-07-01",
+      "series": "original",
+      "value": 142.42591306035814
+    },
+    {
+      "date": "2021-07-01",
+      "series": "adjusted",
+      "value": 141.53684213329242
+    },
+    {
+      "date": "2021-07-01",
+      "series": "trend",
+      "value": 142.3383715778855
+    },
+    {
+      "date": "2021-07-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2021-07-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2021-07-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2021-08-01",
+      "series": "original",
+      "value": 140.97494072777735
+    },
+    {
+      "date": "2021-08-01",
+      "series": "adjusted",
+      "value": 143.14763490548336
+    },
+    {
+      "date": "2021-08-01",
+      "series": "trend",
+      "value": 143.2848146639426
+    },
+    {
+      "date": "2021-08-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2021-08-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2021-08-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2021-09-01",
+      "series": "original",
+      "value": 141.29608909028414
+    },
+    {
+      "date": "2021-09-01",
+      "series": "adjusted",
+      "value": 144.14200098105576
+    },
+    {
+      "date": "2021-09-01",
+      "series": "trend",
+      "value": 144.2933041771794
+    },
+    {
+      "date": "2021-09-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2021-09-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2021-09-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2021-10-01",
+      "series": "original",
+      "value": 139.5147586996789
+    },
+    {
+      "date": "2021-10-01",
+      "series": "adjusted",
+      "value": 143.33000403004658
+    },
+    {
+      "date": "2021-10-01",
+      "series": "trend",
+      "value": 145.35107868430802
+    },
+    {
+      "date": "2021-10-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2021-10-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2021-10-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2021-11-01",
+      "series": "original",
+      "value": 143.75187761888859
+    },
+    {
+      "date": "2021-11-01",
+      "series": "adjusted",
+      "value": 145.38248466948417
+    },
+    {
+      "date": "2021-11-01",
+      "series": "trend",
+      "value": 146.43238857873706
+    },
+    {
+      "date": "2021-11-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2021-11-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2021-11-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2021-12-01",
+      "series": "original",
+      "value": 147.2298783181341
+    },
+    {
+      "date": "2021-12-01",
+      "series": "adjusted",
+      "value": 149.8806909896185
+    },
+    {
+      "date": "2021-12-01",
+      "series": "trend",
+      "value": 147.49832516963303
+    },
+    {
+      "date": "2021-12-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2021-12-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2021-12-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2022-01-01",
+      "series": "original",
+      "value": 139.63796161228177
+    },
+    {
+      "date": "2022-01-01",
+      "series": "adjusted",
+      "value": 148.2962395524488
+    },
+    {
+      "date": "2022-01-01",
+      "series": "trend",
+      "value": 148.5027111971158
+    },
+    {
+      "date": "2022-01-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2022-01-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2022-01-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2022-02-01",
+      "series": "original",
+      "value": 137.84951352507593
+    },
+    {
+      "date": "2022-02-01",
+      "series": "adjusted",
+      "value": 150.84307206863537
+    },
+    {
+      "date": "2022-02-01",
+      "series": "trend",
+      "value": 149.3999740877243
+    },
+    {
+      "date": "2022-02-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2022-02-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2022-02-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2022-03-01",
+      "series": "original",
+      "value": 153.93085079425236
+    },
+    {
+      "date": "2022-03-01",
+      "series": "adjusted",
+      "value": 150.4594758911337
+    },
+    {
+      "date": "2022-03-01",
+      "series": "trend",
+      "value": 150.15042492214934
+    },
+    {
+      "date": "2022-03-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2022-03-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2022-03-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2022-04-01",
+      "series": "original",
+      "value": 157.66169217344412
+    },
+    {
+      "date": "2022-04-01",
+      "series": "adjusted",
+      "value": 152.37621699555166
+    },
+    {
+      "date": "2022-04-01",
+      "series": "trend",
+      "value": 150.7257460924298
+    },
+    {
+      "date": "2022-04-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2022-04-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2022-04-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2022-05-01",
+      "series": "original",
+      "value": 164.68936311408294
+    },
+    {
+      "date": "2022-05-01",
+      "series": "adjusted",
+      "value": 152.11640353481576
+    },
+    {
+      "date": "2022-05-01",
+      "series": "trend",
+      "value": 151.10927043562612
+    },
+    {
+      "date": "2022-05-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2022-05-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2022-05-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2022-06-01",
+      "series": "original",
+      "value": 161.45483428121688
+    },
+    {
+      "date": "2022-06-01",
+      "series": "adjusted",
+      "value": 154.27179644187984
+    },
+    {
+      "date": "2022-06-01",
+      "series": "trend",
+      "value": 151.29855085016175
+    },
+    {
+      "date": "2022-06-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2022-06-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2022-06-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2022-07-01",
+      "series": "original",
+      "value": 152.4453874358736
+    },
+    {
+      "date": "2022-07-01",
+      "series": "adjusted",
+      "value": 152.6116456017
+    },
+    {
+      "date": "2022-07-01",
+      "series": "trend",
+      "value": 151.3074847915044
+    },
+    {
+      "date": "2022-07-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2022-07-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2022-07-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2022-08-01",
+      "series": "original",
+      "value": 151.4657389160671
+    },
+    {
+      "date": "2022-08-01",
+      "series": "adjusted",
+      "value": 151.59453319815375
+    },
+    {
+      "date": "2022-08-01",
+      "series": "trend",
+      "value": 151.1633918882115
+    },
+    {
+      "date": "2022-08-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2022-08-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2022-08-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2022-09-01",
+      "series": "original",
+      "value": 149.1743497052638
+    },
+    {
+      "date": "2022-09-01",
+      "series": "adjusted",
+      "value": 150.75828651337895
+    },
+    {
+      "date": "2022-09-01",
+      "series": "trend",
+      "value": 150.9025940219569
+    },
+    {
+      "date": "2022-09-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2022-09-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2022-09-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2022-10-01",
+      "series": "original",
+      "value": 146.55439616164583
+    },
+    {
+      "date": "2022-10-01",
+      "series": "adjusted",
+      "value": 148.98213840409264
+    },
+    {
+      "date": "2022-10-01",
+      "series": "trend",
+      "value": 150.56475911129914
+    },
+    {
+      "date": "2022-10-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2022-10-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2022-10-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2022-11-01",
+      "series": "original",
+      "value": 148.03049492950063
+    },
+    {
+      "date": "2022-11-01",
+      "series": "adjusted",
+      "value": 148.1289046369634
+    },
+    {
+      "date": "2022-11-01",
+      "series": "trend",
+      "value": 150.18800040265066
+    },
+    {
+      "date": "2022-11-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2022-11-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2022-11-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2022-12-01",
+      "series": "original",
+      "value": 146.1808063380422
+    },
+    {
+      "date": "2022-12-01",
+      "series": "adjusted",
+      "value": 148.63667673272988
+    },
+    {
+      "date": "2022-12-01",
+      "series": "trend",
+      "value": 149.8050838897285
+    },
+    {
+      "date": "2022-12-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2022-12-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2022-12-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2023-01-01",
+      "series": "original",
+      "value": 143.03462349513615
+    },
+    {
+      "date": "2023-01-01",
+      "series": "adjusted",
+      "value": 149.5405719464588
+    },
+    {
+      "date": "2023-01-01",
+      "series": "trend",
+      "value": 149.43822762448548
+    },
+    {
+      "date": "2023-01-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2023-01-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2023-01-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2023-02-01",
+      "series": "original",
+      "value": 137.26646276487486
+    },
+    {
+      "date": "2023-02-01",
+      "series": "adjusted",
+      "value": 150.20617176338703
+    },
+    {
+      "date": "2023-02-01",
+      "series": "trend",
+      "value": 149.09590609573888
+    },
+    {
+      "date": "2023-02-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2023-02-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2023-02-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2023-03-01",
+      "series": "original",
+      "value": 155.06501366861548
+    },
+    {
+      "date": "2023-03-01",
+      "series": "adjusted",
+      "value": 151.02908320660077
+    },
+    {
+      "date": "2023-03-01",
+      "series": "trend",
+      "value": 148.77148757171517
+    },
+    {
+      "date": "2023-03-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2023-03-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2023-03-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2023-04-01",
+      "series": "original",
+      "value": 150.05952685006818
+    },
+    {
+      "date": "2023-04-01",
+      "series": "adjusted",
+      "value": 147.5515547061282
+    },
+    {
+      "date": "2023-04-01",
+      "series": "trend",
+      "value": 148.44946967285853
+    },
+    {
+      "date": "2023-04-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2023-04-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2023-04-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2023-05-01",
+      "series": "original",
+      "value": 153.81085419210677
+    },
+    {
+      "date": "2023-05-01",
+      "series": "adjusted",
+      "value": 145.61149839651006
+    },
+    {
+      "date": "2023-05-01",
+      "series": "trend",
+      "value": 148.107820337392
+    },
+    {
+      "date": "2023-05-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2023-05-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2023-05-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2023-06-01",
+      "series": "original",
+      "value": 152.59547604977197
+    },
+    {
+      "date": "2023-06-01",
+      "series": "adjusted",
+      "value": 145.96379309536817
+    },
+    {
+      "date": "2023-06-01",
+      "series": "trend",
+      "value": 147.72654051479296
+    },
+    {
+      "date": "2023-06-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2023-06-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2023-06-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2023-07-01",
+      "series": "original",
+      "value": 150.20312548725906
+    },
+    {
+      "date": "2023-07-01",
+      "series": "adjusted",
+      "value": 148.70662464174956
+    },
+    {
+      "date": "2023-07-01",
+      "series": "trend",
+      "value": 147.29430447371982
+    },
+    {
+      "date": "2023-07-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2023-07-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2023-07-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2023-08-01",
+      "series": "original",
+      "value": 151.92217936030693
+    },
+    {
+      "date": "2023-08-01",
+      "series": "adjusted",
+      "value": 150.07687900460675
+    },
+    {
+      "date": "2023-08-01",
+      "series": "trend",
+      "value": 146.80766260792365
+    },
+    {
+      "date": "2023-08-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2023-08-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2023-08-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2023-09-01",
+      "series": "original",
+      "value": 148.41237963226118
+    },
+    {
+      "date": "2023-09-01",
+      "series": "adjusted",
+      "value": 149.702745812246
+    },
+    {
+      "date": "2023-09-01",
+      "series": "trend",
+      "value": 146.27627214112036
+    },
+    {
+      "date": "2023-09-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2023-09-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2023-09-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2023-10-01",
+      "series": "original",
+      "value": 147.5138130298927
+    },
+    {
+      "date": "2023-10-01",
+      "series": "adjusted",
+      "value": 147.81758862992274
+    },
+    {
+      "date": "2023-10-01",
+      "series": "trend",
+      "value": 145.72323995364965
+    },
+    {
+      "date": "2023-10-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2023-10-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2023-10-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2023-11-01",
+      "series": "original",
+      "value": 146.36635231698688
+    },
+    {
+      "date": "2023-11-01",
+      "series": "adjusted",
+      "value": 146.3721040008119
+    },
+    {
+      "date": "2023-11-01",
+      "series": "trend",
+      "value": 145.18006864642518
+    },
+    {
+      "date": "2023-11-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2023-11-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2023-11-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2023-12-01",
+      "series": "original",
+      "value": 139.34262727225266
+    },
+    {
+      "date": "2023-12-01",
+      "series": "adjusted",
+      "value": 143.01381948967833
+    },
+    {
+      "date": "2023-12-01",
+      "series": "trend",
+      "value": 144.6909480329792
+    },
+    {
+      "date": "2023-12-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2023-12-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2023-12-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2024-01-01",
+      "series": "original",
+      "value": 137.3733513104446
+    },
+    {
+      "date": "2024-01-01",
+      "series": "adjusted",
+      "value": 143.03632343440282
+    },
+    {
+      "date": "2024-01-01",
+      "series": "trend",
+      "value": 144.30437610857993
+    },
+    {
+      "date": "2024-01-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2024-01-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2024-01-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2024-02-01",
+      "series": "original",
+      "value": 133.4645058563633
+    },
+    {
+      "date": "2024-02-01",
+      "series": "adjusted",
+      "value": 143.90643896466682
+    },
+    {
+      "date": "2024-02-01",
+      "series": "trend",
+      "value": 144.06377178343723
+    },
+    {
+      "date": "2024-02-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2024-02-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2024-02-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2024-03-01",
+      "series": "original",
+      "value": 142.39572370020173
+    },
+    {
+      "date": "2024-03-01",
+      "series": "adjusted",
+      "value": 142.31965197626664
+    },
+    {
+      "date": "2024-03-01",
+      "series": "trend",
+      "value": 144.0065063265247
+    },
+    {
+      "date": "2024-03-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2024-03-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2024-03-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2024-04-01",
+      "series": "original",
+      "value": 147.25689959009534
+    },
+    {
+      "date": "2024-04-01",
+      "series": "adjusted",
+      "value": 141.1042633996142
+    },
+    {
+      "date": "2024-04-01",
+      "series": "trend",
+      "value": 144.1553409917042
+    },
+    {
+      "date": "2024-04-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2024-04-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2024-04-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2024-05-01",
+      "series": "original",
+      "value": 156.76909868641758
+    },
+    {
+      "date": "2024-05-01",
+      "series": "adjusted",
+      "value": 143.13107862244243
+    },
+    {
+      "date": "2024-05-01",
+      "series": "trend",
+      "value": 144.512326930998
+    },
+    {
+      "date": "2024-05-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2024-05-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2024-05-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2024-06-01",
+      "series": "original",
+      "value": 147.35712222707485
+    },
+    {
+      "date": "2024-06-01",
+      "series": "adjusted",
+      "value": 143.31393515397806
+    },
+    {
+      "date": "2024-06-01",
+      "series": "trend",
+      "value": 145.06154046874914
+    },
+    {
+      "date": "2024-06-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2024-06-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2024-06-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2024-07-01",
+      "series": "original",
+      "value": 149.65170273202926
+    },
+    {
+      "date": "2024-07-01",
+      "series": "adjusted",
+      "value": 147.22667889518132
+    },
+    {
+      "date": "2024-07-01",
+      "series": "trend",
+      "value": 145.77107507136887
+    },
+    {
+      "date": "2024-07-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2024-07-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2024-07-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2024-08-01",
+      "series": "original",
+      "value": 147.28124857343758
+    },
+    {
+      "date": "2024-08-01",
+      "series": "adjusted",
+      "value": 148.02819730366437
+    },
+    {
+      "date": "2024-08-01",
+      "series": "trend",
+      "value": 146.59558229741617
+    },
+    {
+      "date": "2024-08-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2024-08-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2024-08-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2024-09-01",
+      "series": "original",
+      "value": 144.79669869183633
+    },
+    {
+      "date": "2024-09-01",
+      "series": "adjusted",
+      "value": 147.81633108952386
+    },
+    {
+      "date": "2024-09-01",
+      "series": "trend",
+      "value": 147.48312562865627
+    },
+    {
+      "date": "2024-09-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2024-09-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2024-09-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2024-10-01",
+      "series": "original",
+      "value": 148.10394119484172
+    },
+    {
+      "date": "2024-10-01",
+      "series": "adjusted",
+      "value": 149.0937404221376
+    },
+    {
+      "date": "2024-10-01",
+      "series": "trend",
+      "value": 148.3778187125253
+    },
+    {
+      "date": "2024-10-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2024-10-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2024-10-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2024-11-01",
+      "series": "original",
+      "value": 148.1787292147409
+    },
+    {
+      "date": "2024-11-01",
+      "series": "adjusted",
+      "value": 150.86764425790327
+    },
+    {
+      "date": "2024-11-01",
+      "series": "trend",
+      "value": 149.2291019213164
+    },
+    {
+      "date": "2024-11-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2024-11-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2024-11-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2024-12-01",
+      "series": "original",
+      "value": 148.67761603839233
+    },
+    {
+      "date": "2024-12-01",
+      "series": "adjusted",
+      "value": 151.46235486219345
+    },
+    {
+      "date": "2024-12-01",
+      "series": "trend",
+      "value": 149.99595042859124
+    },
+    {
+      "date": "2024-12-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2024-12-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2024-12-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2025-01-01",
+      "series": "original",
+      "value": 146.49668268147974
+    },
+    {
+      "date": "2025-01-01",
+      "series": "adjusted",
+      "value": 151.47897778241466
+    },
+    {
+      "date": "2025-01-01",
+      "series": "trend",
+      "value": 150.6520380804276
+    },
+    {
+      "date": "2025-01-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2025-01-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2025-01-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2025-02-01",
+      "series": "original",
+      "value": 141.40461912850864
+    },
+    {
+      "date": "2025-02-01",
+      "series": "adjusted",
+      "value": 153.5157373443335
+    },
+    {
+      "date": "2025-02-01",
+      "series": "trend",
+      "value": 151.18775564933114
+    },
+    {
+      "date": "2025-02-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2025-02-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2025-02-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2025-03-01",
+      "series": "original",
+      "value": 150.61008581723874
+    },
+    {
+      "date": "2025-03-01",
+      "series": "adjusted",
+      "value": 149.42869181515712
+    },
+    {
+      "date": "2025-03-01",
+      "series": "trend",
+      "value": 151.60915571364063
+    },
+    {
+      "date": "2025-03-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2025-03-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2025-03-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2025-04-01",
+      "series": "original",
+      "value": 158.93908938324
+    },
+    {
+      "date": "2025-04-01",
+      "series": "adjusted",
+      "value": 152.5220646516665
+    },
+    {
+      "date": "2025-04-01",
+      "series": "trend",
+      "value": 151.93428928961015
+    },
+    {
+      "date": "2025-04-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2025-04-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2025-04-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2025-05-01",
+      "series": "original",
+      "value": 165.07455518205356
+    },
+    {
+      "date": "2025-05-01",
+      "series": "adjusted",
+      "value": 152.45856904496563
+    },
+    {
+      "date": "2025-05-01",
+      "series": "trend",
+      "value": 152.18901419738
+    },
+    {
+      "date": "2025-05-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2025-05-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2025-05-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2025-06-01",
+      "series": "original",
+      "value": 156.7892018243336
+    },
+    {
+      "date": "2025-06-01",
+      "series": "adjusted",
+      "value": 150.96451115180668
+    },
+    {
+      "date": "2025-06-01",
+      "series": "trend",
+      "value": 152.4018237753019
+    },
+    {
+      "date": "2025-06-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2025-06-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2025-06-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2025-07-01",
+      "series": "original",
+      "value": 153.77116990425543
+    },
+    {
+      "date": "2025-07-01",
+      "series": "adjusted",
+      "value": 151.52459822145255
+    },
+    {
+      "date": "2025-07-01",
+      "series": "trend",
+      "value": 152.60038998460328
+    },
+    {
+      "date": "2025-07-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2025-07-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2025-07-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2025-08-01",
+      "series": "original",
+      "value": 150.37619425875818
+    },
+    {
+      "date": "2025-08-01",
+      "series": "adjusted",
+      "value": 152.53461202152099
+    },
+    {
+      "date": "2025-08-01",
+      "series": "trend",
+      "value": 152.80240862543735
+    },
+    {
+      "date": "2025-08-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2025-08-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2025-08-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2025-09-01",
+      "series": "original",
+      "value": 151.70419952434997
+    },
+    {
+      "date": "2025-09-01",
+      "series": "adjusted",
+      "value": 153.18947101771843
+    },
+    {
+      "date": "2025-09-01",
+      "series": "trend",
+      "value": 153.0159325013311
+    },
+    {
+      "date": "2025-09-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2025-09-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2025-09-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2025-10-01",
+      "series": "original",
+      "value": 152.83405327528675
+    },
+    {
+      "date": "2025-10-01",
+      "series": "adjusted",
+      "value": 153.2419815455886
+    },
+    {
+      "date": "2025-10-01",
+      "series": "trend",
+      "value": 153.24082276633132
+    },
+    {
+      "date": "2025-10-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2025-10-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2025-10-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2025-11-01",
+      "series": "original",
+      "value": 147.96987570063345
+    },
+    {
+      "date": "2025-11-01",
+      "series": "adjusted",
+      "value": 152.96247529242612
+    },
+    {
+      "date": "2025-11-01",
+      "series": "trend",
+      "value": 153.46767179636365
+    },
+    {
+      "date": "2025-11-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2025-11-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2025-11-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2025-12-01",
+      "series": "original",
+      "value": 153.85227192618612
+    },
+    {
+      "date": "2025-12-01",
+      "series": "adjusted",
+      "value": 156.00030972813954
+    },
+    {
+      "date": "2025-12-01",
+      "series": "trend",
+      "value": 153.68518904991646
+    },
+    {
+      "date": "2025-12-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2025-12-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2025-12-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2026-01-01",
+      "series": "original",
+      "value": 149.42576798860208
+    },
+    {
+      "date": "2026-01-01",
+      "series": "adjusted",
+      "value": 155.81632390581464
+    },
+    {
+      "date": "2026-01-01",
+      "series": "trend",
+      "value": 153.87659290177396
+    },
+    {
+      "date": "2026-01-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2026-01-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2026-01-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2026-02-01",
+      "series": "original",
+      "value": 139.30865766112606
+    },
+    {
+      "date": "2026-02-01",
+      "series": "adjusted",
+      "value": 152.71084849769787
+    },
+    {
+      "date": "2026-02-01",
+      "series": "trend",
+      "value": 154.02973800852786
+    },
+    {
+      "date": "2026-02-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2026-02-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2026-02-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2026-03-01",
+      "series": "original",
+      "value": 160.33207758089017
+    },
+    {
+      "date": "2026-03-01",
+      "series": "adjusted",
+      "value": 156.7783124397283
+    },
+    {
+      "date": "2026-03-01",
+      "series": "trend",
+      "value": 154.14179605264695
+    },
+    {
+      "date": "2026-03-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2026-03-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2026-03-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2026-04-01",
+      "series": "original",
+      "value": 162.36642188609457
+    },
+    {
+      "date": "2026-04-01",
+      "series": "adjusted",
+      "value": 154.65199375065603
+    },
+    {
+      "date": "2026-04-01",
+      "series": "trend",
+      "value": 154.21171258036765
+    },
+    {
+      "date": "2026-04-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2026-04-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2026-04-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2026-05-01",
+      "series": "original",
+      "value": 166.25094955665773
+    },
+    {
+      "date": "2026-05-01",
+      "series": "adjusted",
+      "value": 153.66017117203242
+    },
+    {
+      "date": "2026-05-01",
+      "series": "trend",
+      "value": 154.25070504086162
+    },
+    {
+      "date": "2026-05-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2026-05-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2026-05-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2026-06-01",
+      "series": "original",
+      "value": 161.65814413314962
+    },
+    {
+      "date": "2026-06-01",
+      "series": "adjusted",
+      "value": 154.11726382558973
+    },
+    {
+      "date": "2026-06-01",
+      "series": "trend",
+      "value": 154.27481846215272
+    },
+    {
+      "date": "2026-06-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2026-06-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2026-06-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2026-07-01",
+      "series": "original",
+      "value": 151.51213833845293
+    },
+    {
+      "date": "2026-07-01",
+      "series": "adjusted",
+      "value": 149.79189486575558
+    },
+    {
+      "date": "2026-07-01",
+      "series": "trend",
+      "value": 154.2959675312639
+    },
+    {
+      "date": "2026-07-01",
+      "series": "forecast",
+      "value": null
+    },
+    {
+      "date": "2026-07-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2026-07-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2026-08-01",
+      "series": "original",
+      "value": 147.75319588401308
+    },
+    {
+      "date": "2026-08-01",
+      "series": "adjusted",
+      "value": 149.8907351965427
+    },
+    {
+      "date": "2026-08-01",
+      "series": "trend",
+      "value": 154.31996739506695
+    },
+    {
+      "date": "2026-08-01",
+      "series": "forecast",
+      "value": 147.75319588401308
+    },
+    {
+      "date": "2026-08-01",
+      "series": "lower95",
+      "value": null
+    },
+    {
+      "date": "2026-08-01",
+      "series": "upper95",
+      "value": null
+    },
+    {
+      "date": "2026-09-01",
+      "series": "original",
+      "value": null
+    },
+    {
+      "date": "2026-09-01",
+      "series": "adjusted",
+      "value": null
+    },
+    {
+      "date": "2026-09-01",
+      "series": "trend",
+      "value": null
+    },
+    {
+      "date": "2026-09-01",
+      "series": "forecast",
+      "value": 146.4542893079785
+    },
+    {
+      "date": "2026-09-01",
+      "series": "lower95",
+      "value": 139.4216674113553
+    },
+    {
+      "date": "2026-09-01",
+      "series": "upper95",
+      "value": 153.48691120460174
+    },
+    {
+      "date": "2026-10-01",
+      "series": "original",
+      "value": null
+    },
+    {
+      "date": "2026-10-01",
+      "series": "adjusted",
+      "value": null
+    },
+    {
+      "date": "2026-10-01",
+      "series": "trend",
+      "value": null
+    },
+    {
+      "date": "2026-10-01",
+      "series": "forecast",
+      "value": 147.783821020628
+    },
+    {
+      "date": "2026-10-01",
+      "series": "lower95",
+      "value": 138.45094692328473
+    },
+    {
+      "date": "2026-10-01",
+      "series": "upper95",
+      "value": 157.1166951179713
+    },
+    {
+      "date": "2026-11-01",
+      "series": "original",
+      "value": null
+    },
+    {
+      "date": "2026-11-01",
+      "series": "adjusted",
+      "value": null
+    },
+    {
+      "date": "2026-11-01",
+      "series": "trend",
+      "value": null
+    },
+    {
+      "date": "2026-11-01",
+      "series": "forecast",
+      "value": 147.39847744207557
+    },
+    {
+      "date": "2026-11-01",
+      "series": "lower95",
+      "value": 136.22944404205654
+    },
+    {
+      "date": "2026-11-01",
+      "series": "upper95",
+      "value": 158.5675108420946
+    },
+    {
+      "date": "2026-12-01",
+      "series": "original",
+      "value": null
+    },
+    {
+      "date": "2026-12-01",
+      "series": "adjusted",
+      "value": null
+    },
+    {
+      "date": "2026-12-01",
+      "series": "trend",
+      "value": null
+    },
+    {
+      "date": "2026-12-01",
+      "series": "forecast",
+      "value": 146.7466614832902
+    },
+    {
+      "date": "2026-12-01",
+      "series": "lower95",
+      "value": 134.0033465588521
+    },
+    {
+      "date": "2026-12-01",
+      "series": "upper95",
+      "value": 159.48997640772834
+    },
+    {
+      "date": "2027-01-01",
+      "series": "original",
+      "value": null
+    },
+    {
+      "date": "2027-01-01",
+      "series": "adjusted",
+      "value": null
+    },
+    {
+      "date": "2027-01-01",
+      "series": "trend",
+      "value": null
+    },
+    {
+      "date": "2027-01-01",
+      "series": "forecast",
+      "value": 142.78665976311405
+    },
+    {
+      "date": "2027-01-01",
+      "series": "lower95",
+      "value": 128.64322492065625
+    },
+    {
+      "date": "2027-01-01",
+      "series": "upper95",
+      "value": 156.93009460557184
+    },
+    {
+      "date": "2027-02-01",
+      "series": "original",
+      "value": null
+    },
+    {
+      "date": "2027-02-01",
+      "series": "adjusted",
+      "value": null
+    },
+    {
+      "date": "2027-02-01",
+      "series": "trend",
+      "value": null
+    },
+    {
+      "date": "2027-02-01",
+      "series": "forecast",
+      "value": 138.12556042141313
+    },
+    {
+      "date": "2027-02-01",
+      "series": "lower95",
+      "value": 122.70878030913504
+    },
+    {
+      "date": "2027-02-01",
+      "series": "upper95",
+      "value": 153.54234053369123
+    },
+    {
+      "date": "2027-03-01",
+      "series": "original",
+      "value": null
+    },
+    {
+      "date": "2027-03-01",
+      "series": "adjusted",
+      "value": null
+    },
+    {
+      "date": "2027-03-01",
+      "series": "trend",
+      "value": null
+    },
+    {
+      "date": "2027-03-01",
+      "series": "forecast",
+      "value": 152.53087209942814
+    },
+    {
+      "date": "2027-03-01",
+      "series": "lower95",
+      "value": 135.93817886065878
+    },
+    {
+      "date": "2027-03-01",
+      "series": "upper95",
+      "value": 169.1235653381975
+    },
+    {
+      "date": "2027-04-01",
+      "series": "original",
+      "value": null
+    },
+    {
+      "date": "2027-04-01",
+      "series": "adjusted",
+      "value": null
+    },
+    {
+      "date": "2027-04-01",
+      "series": "trend",
+      "value": null
+    },
+    {
+      "date": "2027-04-01",
+      "series": "forecast",
+      "value": 154.5777185335686
+    },
+    {
+      "date": "2027-04-01",
+      "series": "lower95",
+      "value": 136.88710438929786
+    },
+    {
+      "date": "2027-04-01",
+      "series": "upper95",
+      "value": 172.26833267783934
+    },
+    {
+      "date": "2027-05-01",
+      "series": "original",
+      "value": null
+    },
+    {
+      "date": "2027-05-01",
+      "series": "adjusted",
+      "value": null
+    },
+    {
+      "date": "2027-05-01",
+      "series": "trend",
+      "value": null
+    },
+    {
+      "date": "2027-05-01",
+      "series": "forecast",
+      "value": 163.16497632875607
+    },
+    {
+      "date": "2027-05-01",
+      "series": "lower95",
+      "value": 144.4407089549163
+    },
+    {
+      "date": "2027-05-01",
+      "series": "upper95",
+      "value": 181.88924370259585
+    },
+    {
+      "date": "2027-06-01",
+      "series": "original",
+      "value": null
+    },
+    {
+      "date": "2027-06-01",
+      "series": "adjusted",
+      "value": null
+    },
+    {
+      "date": "2027-06-01",
+      "series": "trend",
+      "value": null
+    },
+    {
+      "date": "2027-06-01",
+      "series": "forecast",
+      "value": 156.8285247805137
+    },
+    {
+      "date": "2027-06-01",
+      "series": "lower95",
+      "value": 137.12475487288918
+    },
+    {
+      "date": "2027-06-01",
+      "series": "upper95",
+      "value": 176.53229468813822
+    },
+    {
+      "date": "2027-07-01",
+      "series": "original",
+      "value": null
+    },
+    {
+      "date": "2027-07-01",
+      "series": "adjusted",
+      "value": null
+    },
+    {
+      "date": "2027-07-01",
+      "series": "trend",
+      "value": null
+    },
+    {
+      "date": "2027-07-01",
+      "series": "forecast",
+      "value": 151.13648903110135
+    },
+    {
+      "date": "2027-07-01",
+      "series": "lower95",
+      "value": 130.4996552512266
+    },
+    {
+      "date": "2027-07-01",
+      "series": "upper95",
+      "value": 171.77332281097608
+    },
+    {
+      "date": "2027-08-01",
+      "series": "original",
+      "value": null
+    },
+    {
+      "date": "2027-08-01",
+      "series": "adjusted",
+      "value": null
+    },
+    {
+      "date": "2027-08-01",
+      "series": "trend",
+      "value": null
+    },
+    {
+      "date": "2027-08-01",
+      "series": "forecast",
+      "value": 148.99275893607458
+    },
+    {
+      "date": "2027-08-01",
+      "series": "lower95",
+      "value": 127.46326130240615
+    },
+    {
+      "date": "2027-08-01",
+      "series": "upper95",
+      "value": 170.522256569743
+    }
+  ],
+  "forecasts": [
+    {
+      "date": "2026-09-01",
+      "mean": 146.4542893079785,
+      "lower95": 139.4216674113553,
+      "upper95": 153.48691120460174
+    },
+    {
+      "date": "2026-10-01",
+      "mean": 147.783821020628,
+      "lower95": 138.45094692328473,
+      "upper95": 157.1166951179713
+    },
+    {
+      "date": "2026-11-01",
+      "mean": 147.39847744207557,
+      "lower95": 136.22944404205654,
+      "upper95": 158.5675108420946
+    },
+    {
+      "date": "2026-12-01",
+      "mean": 146.7466614832902,
+      "lower95": 134.0033465588521,
+      "upper95": 159.48997640772834
+    },
+    {
+      "date": "2027-01-01",
+      "mean": 142.78665976311405,
+      "lower95": 128.64322492065625,
+      "upper95": 156.93009460557184
+    },
+    {
+      "date": "2027-02-01",
+      "mean": 138.12556042141313,
+      "lower95": 122.70878030913504,
+      "upper95": 153.54234053369123
+    },
+    {
+      "date": "2027-03-01",
+      "mean": 152.53087209942814,
+      "lower95": 135.93817886065878,
+      "upper95": 169.1235653381975
+    },
+    {
+      "date": "2027-04-01",
+      "mean": 154.5777185335686,
+      "lower95": 136.88710438929786,
+      "upper95": 172.26833267783934
+    },
+    {
+      "date": "2027-05-01",
+      "mean": 163.16497632875607,
+      "lower95": 144.4407089549163,
+      "upper95": 181.88924370259585
+    },
+    {
+      "date": "2027-06-01",
+      "mean": 156.8285247805137,
+      "lower95": 137.12475487288918,
+      "upper95": 176.53229468813822
+    },
+    {
+      "date": "2027-07-01",
+      "mean": 151.13648903110135,
+      "lower95": 130.4996552512266,
+      "upper95": 171.77332281097608
+    },
+    {
+      "date": "2027-08-01",
+      "mean": 148.99275893607458,
+      "lower95": 127.46326130240615,
+      "upper95": 170.522256569743
+    }
+  ],
+  "status": "ready",
+  "note": "",
+  "isForecast": true,
+  "hasIntervals": true,
+  "trainedThrough": "2026-08-01",
+  "forecastStart": "2026-09-01",
+  "generatedAt": "2026-11-12T04:12:31Z",
+  "modelName": "SARIMA(0, 1, 1)(0, 1, 1, 12)",
+  "modelVersion": "sarima-reference-v1",
+  "sourceSeries": "emae:original",
+  "horizon": 12,
+  "inputHash": "273d8207414394c1a11d34f4baf7205299b31a34f0d81ba52075f50104989187",
+  "validationMAE": {
+    "Estacional ingenuo (referencia)": 3.8435716649865532,
+    "SARIMA(0, 1, 1)(0, 1, 1, 12)": 3.5987912601475145,
+    "SARIMA(1, 1, 0)(0, 1, 1, 12)": 3.602412250191731,
+    "SARIMA(1, 0, 0)(1, 0, 0, 12)": 3.8266865447935317
+  },
+  "modelFailures": [],
+  "methodNote": "Elaboración propia, no proyección INDEC. Serie original sin imputaciones. Selección entre tres SARIMA parsimoniosos y referencia estacional ingenua por MAE en los últimos 12 meses reservados; reestimación con toda la historia. Intervalos de predicción 95% del modelo, condicionados a sus supuestos.",
+  "lastObservedPeriod": "2026-08-01",
+  "lastObservedBySeries": {
+    "original": "2026-08-01",
+    "adjusted": "2026-08-01",
+    "trend": "2026-08-01",
+    "forecast": "2026-08-01",
+    "lower95": "2026-08-01",
+    "upper95": "2026-08-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:46:20Z",
+  "lastAttemptAt": "2026-11-13T12:46:20Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "f3150f6f1e79cf51a007ac8395ab056202aad8e09f50a7ebbc55fd36ef6e4158"
+}

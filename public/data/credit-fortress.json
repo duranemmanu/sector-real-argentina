@@ -1,0 +1,423 @@
+{
+  "id": "credit-fortress",
+  "source": "Fortress · Procesamiento de la Central de Deudores",
+  "sourceUrl": "https://fortressconsulting.com.ar/datos/mora-hogares.csv",
+  "frequency": "monthly",
+  "unit": "% del saldo informado por segmento",
+  "series": [
+    {
+      "id": "financial",
+      "label": "Bancos y financieras",
+      "externalField": "mora_bancos_financieras_pct"
+    },
+    {
+      "id": "nonbank",
+      "label": "Proveedores no bancarios",
+      "externalField": "mora_no_bancarios_pct"
+    },
+    {
+      "id": "total",
+      "label": "Total",
+      "externalField": "mora_todos_pct"
+    }
+  ],
+  "methodNote": "Procesamiento de Fortress de la Central de Deudores, con financiaciones y otros conceptos según su universo. Situaciones 3 a 5. No se empalma con EcoGo/Austral: diferencias de cobertura y procesamiento producen resultados distintos incluso en el mismo mes. Fuente complementaria del informe.",
+  "observations": [
+    {
+      "date": "2024-09-01",
+      "series": "financial",
+      "value": 2.91
+    },
+    {
+      "date": "2024-09-01",
+      "series": "nonbank",
+      "value": 7.3
+    },
+    {
+      "date": "2024-09-01",
+      "series": "total",
+      "value": 3.53
+    },
+    {
+      "date": "2024-10-01",
+      "series": "financial",
+      "value": 2.76
+    },
+    {
+      "date": "2024-10-01",
+      "series": "nonbank",
+      "value": 7.06
+    },
+    {
+      "date": "2024-10-01",
+      "series": "total",
+      "value": 3.38
+    },
+    {
+      "date": "2024-11-01",
+      "series": "financial",
+      "value": 2.81
+    },
+    {
+      "date": "2024-11-01",
+      "series": "nonbank",
+      "value": 6.89
+    },
+    {
+      "date": "2024-11-01",
+      "series": "total",
+      "value": 3.41
+    },
+    {
+      "date": "2024-12-01",
+      "series": "financial",
+      "value": 2.95
+    },
+    {
+      "date": "2024-12-01",
+      "series": "nonbank",
+      "value": 7.25
+    },
+    {
+      "date": "2024-12-01",
+      "series": "total",
+      "value": 3.58
+    },
+    {
+      "date": "2025-01-01",
+      "series": "financial",
+      "value": 3.08
+    },
+    {
+      "date": "2025-01-01",
+      "series": "nonbank",
+      "value": 8.33
+    },
+    {
+      "date": "2025-01-01",
+      "series": "total",
+      "value": 3.85
+    },
+    {
+      "date": "2025-02-01",
+      "series": "financial",
+      "value": 3.38
+    },
+    {
+      "date": "2025-02-01",
+      "series": "nonbank",
+      "value": 9.34
+    },
+    {
+      "date": "2025-02-01",
+      "series": "total",
+      "value": 4.25
+    },
+    {
+      "date": "2025-03-01",
+      "series": "financial",
+      "value": 3.7
+    },
+    {
+      "date": "2025-03-01",
+      "series": "nonbank",
+      "value": 10.16
+    },
+    {
+      "date": "2025-03-01",
+      "series": "total",
+      "value": 4.64
+    },
+    {
+      "date": "2025-04-01",
+      "series": "financial",
+      "value": 4.09
+    },
+    {
+      "date": "2025-04-01",
+      "series": "nonbank",
+      "value": 11.38
+    },
+    {
+      "date": "2025-04-01",
+      "series": "total",
+      "value": 5.14
+    },
+    {
+      "date": "2025-05-01",
+      "series": "financial",
+      "value": 4.82
+    },
+    {
+      "date": "2025-05-01",
+      "series": "nonbank",
+      "value": 13.05
+    },
+    {
+      "date": "2025-05-01",
+      "series": "total",
+      "value": 6.03
+    },
+    {
+      "date": "2025-06-01",
+      "series": "financial",
+      "value": 5.64
+    },
+    {
+      "date": "2025-06-01",
+      "series": "nonbank",
+      "value": 14.48
+    },
+    {
+      "date": "2025-06-01",
+      "series": "total",
+      "value": 6.92
+    },
+    {
+      "date": "2025-07-01",
+      "series": "financial",
+      "value": 6.17
+    },
+    {
+      "date": "2025-07-01",
+      "series": "nonbank",
+      "value": 16.83
+    },
+    {
+      "date": "2025-07-01",
+      "series": "total",
+      "value": 7.7
+    },
+    {
+      "date": "2025-08-01",
+      "series": "financial",
+      "value": 7.06
+    },
+    {
+      "date": "2025-08-01",
+      "series": "nonbank",
+      "value": 17.65
+    },
+    {
+      "date": "2025-08-01",
+      "series": "total",
+      "value": 8.59
+    },
+    {
+      "date": "2025-09-01",
+      "series": "financial",
+      "value": 7.96
+    },
+    {
+      "date": "2025-09-01",
+      "series": "nonbank",
+      "value": 19.28
+    },
+    {
+      "date": "2025-09-01",
+      "series": "total",
+      "value": 9.56
+    },
+    {
+      "date": "2025-10-01",
+      "series": "financial",
+      "value": 8.62
+    },
+    {
+      "date": "2025-10-01",
+      "series": "nonbank",
+      "value": 20.97
+    },
+    {
+      "date": "2025-10-01",
+      "series": "total",
+      "value": 10.4
+    },
+    {
+      "date": "2025-11-01",
+      "series": "financial",
+      "value": 9.85
+    },
+    {
+      "date": "2025-11-01",
+      "series": "nonbank",
+      "value": 22.43
+    },
+    {
+      "date": "2025-11-01",
+      "series": "total",
+      "value": 11.66
+    },
+    {
+      "date": "2025-12-01",
+      "series": "financial",
+      "value": 10.69
+    },
+    {
+      "date": "2025-12-01",
+      "series": "nonbank",
+      "value": 23.88
+    },
+    {
+      "date": "2025-12-01",
+      "series": "total",
+      "value": 12.58
+    },
+    {
+      "date": "2026-01-01",
+      "series": "financial",
+      "value": 12.07
+    },
+    {
+      "date": "2026-01-01",
+      "series": "nonbank",
+      "value": 25.7
+    },
+    {
+      "date": "2026-01-01",
+      "series": "total",
+      "value": 14.04
+    },
+    {
+      "date": "2026-02-01",
+      "series": "financial",
+      "value": 12.93
+    },
+    {
+      "date": "2026-02-01",
+      "series": "nonbank",
+      "value": 26.98
+    },
+    {
+      "date": "2026-02-01",
+      "series": "total",
+      "value": 14.95
+    },
+    {
+      "date": "2026-03-01",
+      "series": "financial",
+      "value": 13.47
+    },
+    {
+      "date": "2026-03-01",
+      "series": "nonbank",
+      "value": 28.15
+    },
+    {
+      "date": "2026-03-01",
+      "series": "total",
+      "value": 15.57
+    },
+    {
+      "date": "2026-04-01",
+      "series": "financial",
+      "value": 14.15
+    },
+    {
+      "date": "2026-04-01",
+      "series": "nonbank",
+      "value": 29.01
+    },
+    {
+      "date": "2026-04-01",
+      "series": "total",
+      "value": 16.27
+    },
+    {
+      "date": "2026-05-01",
+      "series": "financial",
+      "value": 14.91
+    },
+    {
+      "date": "2026-05-01",
+      "series": "nonbank",
+      "value": 29.78
+    },
+    {
+      "date": "2026-05-01",
+      "series": "total",
+      "value": 17.07
+    },
+    {
+      "date": "2026-06-01",
+      "series": "financial",
+      "value": 15.28
+    },
+    {
+      "date": "2026-06-01",
+      "series": "nonbank",
+      "value": 30.47
+    },
+    {
+      "date": "2026-06-01",
+      "series": "total",
+      "value": 17.49
+    },
+    {
+      "date": "2026-07-01",
+      "series": "financial",
+      "value": 15.76
+    },
+    {
+      "date": "2026-07-01",
+      "series": "nonbank",
+      "value": 31.26
+    },
+    {
+      "date": "2026-07-01",
+      "series": "total",
+      "value": 18.02
+    },
+    {
+      "date": "2026-08-01",
+      "series": "financial",
+      "value": 16.12
+    },
+    {
+      "date": "2026-08-01",
+      "series": "nonbank",
+      "value": 30.85
+    },
+    {
+      "date": "2026-08-01",
+      "series": "total",
+      "value": 18.17
+    },
+    {
+      "date": "2026-09-01",
+      "series": "financial",
+      "value": 15.87
+    },
+    {
+      "date": "2026-09-01",
+      "series": "nonbank",
+      "value": 31.04
+    },
+    {
+      "date": "2026-09-01",
+      "series": "total",
+      "value": 17.99
+    }
+  ],
+  "valueKind": "percentage",
+  "supportingSources": [],
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-09-01",
+  "firstObservedPeriod": "2024-09-01",
+  "lastObservedBySeries": {
+    "financial": "2026-09-01",
+    "nonbank": "2026-09-01",
+    "total": "2026-09-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:47:38Z",
+  "lastAttemptAt": "2026-11-13T12:47:38Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "2078b9bf0c436a1f5009d44850fa3461b2f6e1e5e3eaf452aa0349631aed31b9",
+  "rawSha256": "023e2c057aaa06ee20d44d04f8330b76bac51ea2dbf3480b5328514c06b2814b",
+  "dataChangedAt": "2026-11-13T03:19:34Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

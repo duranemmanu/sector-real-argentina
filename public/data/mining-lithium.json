@@ -1,0 +1,627 @@
+{
+  "id": "mining-lithium",
+  "source": "INDEC · IPI minero",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipi_minero.xlsx",
+  "frequency": "monthly",
+  "unit": "toneladas",
+  "series": [
+    {
+      "id": "carbonate",
+      "label": "Carbonato de litio",
+      "column": 3,
+      "headerToken": "Carbonato de litio"
+    }
+  ],
+  "methodNote": "Serie oficial del INDEC. Base 2016=100. Los valores s (secreto estadístico), no disponibles y que no corresponde presentar se conservan como nulos. El guion de cero absoluto se conserva como cero. Los índices de categorías y subclases no se suman sin ponderaciones. Producción física de carbonato de litio. Las observaciones públicas comienzan en junio de 2023; el secreto estadístico de meses anteriores no se transforma en cero. No equivale al índice agregado de carbonato y otros minerales de litio.",
+  "observations": [
+    {
+      "date": "2017-01-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2017-02-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2017-03-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2017-04-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2017-05-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2017-06-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2017-07-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2017-08-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2017-09-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2017-10-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2017-11-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2017-12-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2018-01-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2018-02-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2018-03-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2018-04-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2018-05-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2018-06-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2018-07-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2018-08-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2018-09-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2018-10-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2018-11-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2018-12-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2019-01-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2019-02-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2019-03-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2019-04-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2019-05-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2019-06-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2019-07-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2019-08-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2019-09-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2019-10-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2019-11-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2019-12-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2020-01-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2020-02-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2020-03-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2020-04-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2020-05-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2020-06-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2020-07-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2020-08-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2020-09-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2020-10-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2020-11-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2020-12-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2021-01-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2021-02-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2021-03-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2021-04-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2021-05-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2021-06-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2021-07-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2021-08-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2021-09-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2021-10-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2021-11-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2021-12-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2022-01-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2022-02-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2022-03-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2022-04-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2022-05-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2022-06-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2022-07-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2022-08-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2022-09-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2022-10-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2022-11-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2022-12-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2023-01-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2023-02-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2023-03-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2023-04-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2023-05-01",
+      "series": "carbonate",
+      "value": null
+    },
+    {
+      "date": "2023-06-01",
+      "series": "carbonate",
+      "value": 3000.4373000000996
+    },
+    {
+      "date": "2023-07-01",
+      "series": "carbonate",
+      "value": 3387.2000000002
+    },
+    {
+      "date": "2023-08-01",
+      "series": "carbonate",
+      "value": 4012.2800000002
+    },
+    {
+      "date": "2023-09-01",
+      "series": "carbonate",
+      "value": 3922.5000000002
+    },
+    {
+      "date": "2023-10-01",
+      "series": "carbonate",
+      "value": 4336.4000000002
+    },
+    {
+      "date": "2023-11-01",
+      "series": "carbonate",
+      "value": 4623.3400000002
+    },
+    {
+      "date": "2023-12-01",
+      "series": "carbonate",
+      "value": 4108.0500000002
+    },
+    {
+      "date": "2024-01-01",
+      "series": "carbonate",
+      "value": 4043.7600000002003
+    },
+    {
+      "date": "2024-02-01",
+      "series": "carbonate",
+      "value": 3869.2500000002
+    },
+    {
+      "date": "2024-03-01",
+      "series": "carbonate",
+      "value": 4805.6000000002
+    },
+    {
+      "date": "2024-04-01",
+      "series": "carbonate",
+      "value": 3803.4000000002
+    },
+    {
+      "date": "2024-05-01",
+      "series": "carbonate",
+      "value": 3982.6000000002
+    },
+    {
+      "date": "2024-06-01",
+      "series": "carbonate",
+      "value": 6069.0000000002
+    },
+    {
+      "date": "2024-07-01",
+      "series": "carbonate",
+      "value": 4991.0900000002
+    },
+    {
+      "date": "2024-08-01",
+      "series": "carbonate",
+      "value": 5722.4000000002
+    },
+    {
+      "date": "2024-09-01",
+      "series": "carbonate",
+      "value": 6396.300000000203
+    },
+    {
+      "date": "2024-10-01",
+      "series": "carbonate",
+      "value": 6862.1000000002
+    },
+    {
+      "date": "2024-11-01",
+      "series": "carbonate",
+      "value": 6759.2000000002
+    },
+    {
+      "date": "2024-12-01",
+      "series": "carbonate",
+      "value": 7502.1960000002
+    },
+    {
+      "date": "2025-01-01",
+      "series": "carbonate",
+      "value": 7793.1000000001995
+    },
+    {
+      "date": "2025-02-01",
+      "series": "carbonate",
+      "value": 7467.1000000002
+    },
+    {
+      "date": "2025-03-01",
+      "series": "carbonate",
+      "value": 7371.1200000002
+    },
+    {
+      "date": "2025-04-01",
+      "series": "carbonate",
+      "value": 7147.7000000002
+    },
+    {
+      "date": "2025-05-01",
+      "series": "carbonate",
+      "value": 7965.4000000002
+    },
+    {
+      "date": "2025-06-01",
+      "series": "carbonate",
+      "value": 7536.2000000002
+    },
+    {
+      "date": "2025-07-01",
+      "series": "carbonate",
+      "value": 8137.4020000001
+    },
+    {
+      "date": "2025-08-01",
+      "series": "carbonate",
+      "value": 7891.8420000001
+    },
+    {
+      "date": "2025-09-01",
+      "series": "carbonate",
+      "value": 9202.338000000098
+    },
+    {
+      "date": "2025-10-01",
+      "series": "carbonate",
+      "value": 10708.643
+    },
+    {
+      "date": "2025-11-01",
+      "series": "carbonate",
+      "value": 11244.2930000001
+    },
+    {
+      "date": "2025-12-01",
+      "series": "carbonate",
+      "value": 12966.704000000202
+    },
+    {
+      "date": "2026-01-01",
+      "series": "carbonate",
+      "value": 11875.76700000001
+    },
+    {
+      "date": "2026-02-01",
+      "series": "carbonate",
+      "value": 9270.0280000001
+    },
+    {
+      "date": "2026-03-01",
+      "series": "carbonate",
+      "value": 11508.312000000098
+    },
+    {
+      "date": "2026-04-01",
+      "series": "carbonate",
+      "value": 11466.1260000002
+    },
+    {
+      "date": "2026-05-01",
+      "series": "carbonate",
+      "value": 11561.6780000011
+    },
+    {
+      "date": "2026-06-01",
+      "series": "carbonate",
+      "value": 11987.069000001202
+    },
+    {
+      "date": "2026-07-01",
+      "series": "carbonate",
+      "value": 9431.6840000001
+    },
+    {
+      "date": "2026-08-01",
+      "series": "carbonate",
+      "value": 8582.6000000002
+    },
+    {
+      "date": "2026-09-01",
+      "series": "carbonate",
+      "value": 9798.0000000011
+    }
+  ],
+  "supportingSources": [
+    {
+      "label": "IPI minero · Publicaciones y metodología",
+      "url": "https://www.indec.gob.ar/Nivel4/Tema/3/7/172"
+    }
+  ],
+  "valueKind": "level",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-09-01",
+  "firstObservedPeriod": "2023-06-01",
+  "lastObservedBySeries": {
+    "carbonate": "2026-09-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:47:44Z",
+  "lastAttemptAt": "2026-11-13T12:47:44Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "369c35a5104c637f3355152340f2515c44b4de947635a221292ed4605aa094eb",
+  "rawSha256": "846517b9bd7e121639fea34fcc116a2d3164ca3dd188677ea109d5888158f7e6",
+  "dataChangedAt": "2026-11-13T05:37:04Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

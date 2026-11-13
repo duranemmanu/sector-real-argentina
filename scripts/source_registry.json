@@ -1,0 +1,4678 @@
+[
+  {
+    "id": "wdi-growth",
+    "adapter": "wdi",
+    "source": "Banco Mundial · World Development Indicators",
+    "sourceUrl": "https://api.worldbank.org/v2/country/AR;BR;CA;CL;PY;UY;US;PE/indicator/NY.GDP.MKTP.KD.ZG?date=2004:2025&format=json&per_page=2000",
+    "frequency": "annual",
+    "unit": "% de variación anual del PIB real",
+    "externalId": "NY.GDP.MKTP.KD.ZG",
+    "transform": "Valores WDI publicados, sin interpolación ni estimaciones propias.",
+    "series": [
+      {
+        "id": "ARG",
+        "label": "Argentina"
+      },
+      {
+        "id": "BRA",
+        "label": "Brasil"
+      },
+      {
+        "id": "CAN",
+        "label": "Canadá"
+      },
+      {
+        "id": "CHL",
+        "label": "Chile"
+      },
+      {
+        "id": "PRY",
+        "label": "Paraguay"
+      },
+      {
+        "id": "URY",
+        "label": "Uruguay"
+      },
+      {
+        "id": "USA",
+        "label": "Estados Unidos"
+      },
+      {
+        "id": "PER",
+        "label": "Perú"
+      }
+    ]
+  },
+  {
+    "id": "ipi",
+    "adapter": "indec_workbook",
+    "source": "INDEC · series históricas primarias",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_ipi_manufacturero_2026.xls",
+    "frequency": "monthly",
+    "unit": "índice, base 2004=100",
+    "transform": "Niveles oficiales original, ajustado y tendencia-ciclo. La base 2004=100 se verificó en el encabezado del XLS primario; se incorporan sus revisiones.",
+    "series": [
+      {
+        "id": "453.1_SERIE_ORIGNAL_0_0_14_46",
+        "label": "Original",
+        "column": 3
+      },
+      {
+        "id": "453.1_SERIE_DESEADA_0_0_24_58",
+        "label": "Desestacionalizada",
+        "column": 7
+      },
+      {
+        "id": "453.1_SERIE_TENDCLO_0_0_21_61",
+        "label": "Tendencia-ciclo",
+        "column": 10
+      }
+    ],
+    "indexUrl": "https://www.indec.gob.ar/Nivel4/Tema/3/6/14",
+    "filePattern": "sh_ipi_manufacturero_\\d{4}\\.xls$",
+    "layout": "monthlyRows",
+    "sheet": "Cuadro 1",
+    "yearColumn": 1,
+    "monthColumn": 2,
+    "headerContains": "base 2004=100"
+  },
+  {
+    "id": "supermarkets",
+    "adapter": "csv_columns",
+    "source": "INDEC · CSV oficial publicado en Datos Argentina",
+    "sourceUrl": "https://infra.datos.gob.ar/catalog/sspm/dataset/455/distribution/455.1/download/ventas-totales-supermercados-2.csv",
+    "frequency": "monthly",
+    "unit": "índice de ventas a precios constantes, 2017=100",
+    "transform": "Índices oficiales original, desestacionalizado y tendencia-ciclo; no se mezclan con ventas nominales.",
+    "series": [
+      {
+        "id": "455.1_VENTAS_PRENAL_0_M_34_10",
+        "label": "Original",
+        "externalField": "ventas_precios_constantes_original"
+      },
+      {
+        "id": "455.1_VENTAS_PREADA_0_M_44_44",
+        "label": "Desestacionalizada",
+        "externalField": "ventas_precios_constantes_desestacionalizada"
+      },
+      {
+        "id": "455.1_VENTAS_PRECLO_0_M_41_19",
+        "label": "Tendencia-ciclo",
+        "externalField": "ventas_precios_constantes_tendencia_ciclo"
+      }
+    ],
+    "automationNote": "La API de series se verificó, pero devolvía campos sin observaciones o un período anterior. Se usa su distribución CSV oficial, con columnas y último período contrastados."
+  },
+  {
+    "id": "isac",
+    "adapter": "indec_workbook",
+    "source": "INDEC · series históricas primarias",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_isac_2026.xls",
+    "frequency": "monthly",
+    "unit": "índice, base 2004=100",
+    "transform": "Niveles oficiales original, ajustado y tendencia-ciclo. La base 2004=100 se verificó en el encabezado del XLS primario; se incorporan sus revisiones.",
+    "series": [
+      {
+        "id": "33.2_ISAC_NIVELRAL_0_M_18_63",
+        "label": "Original",
+        "column": 2
+      },
+      {
+        "id": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+        "label": "Desestacionalizada",
+        "column": 6
+      },
+      {
+        "id": "33.2_ISAC_CICLOCIA_0_M_20_62",
+        "label": "Tendencia-ciclo",
+        "column": 9
+      }
+    ],
+    "indexUrl": "https://www.indec.gob.ar/Nivel4/Tema/3/3/42",
+    "filePattern": "sh_isac_\\d{4}\\.xls$",
+    "layout": "monthlyRows",
+    "sheet": "Cuadro 1",
+    "yearColumn": 0,
+    "monthColumn": 1,
+    "headerContains": "base 2004=100"
+  },
+  {
+    "id": "supermarket-payments",
+    "adapter": "csv_columns",
+    "source": "INDEC · CSV oficial publicado en Datos Argentina",
+    "sourceUrl": "https://infra.datos.gob.ar/catalog/sspm/dataset/455/distribution/455.1/download/ventas-totales-supermercados-2.csv",
+    "frequency": "monthly",
+    "unit": "miles de pesos corrientes",
+    "transform": "Importes nominales oficiales. Participaciones: 100 × componente / total de su propio universo, con control de suma. No son ventas reales.",
+    "series": [
+      {
+        "id": "455.1_EFECTIVOIVO_0_M_8_15",
+        "label": "Efectivo",
+        "externalField": "efectivo"
+      },
+      {
+        "id": "455.1_TARJETAS_DITO_0_M_15_92",
+        "label": "Tarjeta de débito",
+        "externalField": "tarjetas_debito"
+      },
+      {
+        "id": "455.1_TARJETAS_CITO_0_M_16_85",
+        "label": "Tarjeta de crédito",
+        "externalField": "tarjetas_credito"
+      },
+      {
+        "id": "455.1_OTROS_MEDIIOS_0_M_12_32",
+        "label": "Otros medios",
+        "externalField": "otros_medios"
+      },
+      {
+        "id": "455.1_VENTAS_TOTAGO_0_M_25_99",
+        "label": "Total por medio de pago",
+        "externalField": "ventas_totales_medio_pago"
+      },
+      {
+        "id": "455.1_SALON_VENTTAS_0_M_12_82",
+        "label": "Salón de ventas",
+        "externalField": "salon_ventas"
+      },
+      {
+        "id": "455.1_CANALES_ONINE_0_M_15_84",
+        "label": "Canal en línea",
+        "externalField": "canales_on_line"
+      },
+      {
+        "id": "455.1_VENTAS_TOTNTA_0_M_26_88",
+        "label": "Total por canal de venta",
+        "externalField": "ventas_totales_canal_venta"
+      }
+    ],
+    "automationNote": "La API de series se verificó, pero devolvía campos sin observaciones o un período anterior. Se usa su distribución CSV oficial, con columnas y último período contrastados."
+  },
+  {
+    "id": "emae",
+    "adapter": "indec_emae",
+    "source": "INDEC · Estimador Mensual de Actividad Económica",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_emae_mensual_base2004.xls",
+    "frequency": "monthly",
+    "unit": "índice, base 2004=100",
+    "transform": "Series oficiales original, desestacionalizada y tendencia-ciclo. XLS primario, sin imputación.",
+    "series": [
+      {
+        "id": "original",
+        "label": "Original"
+      },
+      {
+        "id": "adjusted",
+        "label": "Desestacionalizada"
+      },
+      {
+        "id": "trend",
+        "label": "Tendencia-ciclo"
+      }
+    ],
+    "publicApiIds": ["143.3_NO_PR_2004_A_21", "143.3_NO_PR_2004_A_31", "143.3_NO_PR_2004_A_28"],
+    "publicApiNote": "IDs descubiertos en búsqueda oficial; el XLS primario se usa para conservar las revisiones más recientes."
+  },
+  {
+    "id": "emae-sectors",
+    "adapter": "indec_sectors",
+    "source": "INDEC · EMAE por sector de actividad",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_emae_actividad_base2004.xls",
+    "frequency": "monthly",
+    "unit": "índice, base 2004=100",
+    "transform": "Niveles de la hoja Tabla Letras. Variaciones interanuales calculadas contra el mismo mes del año anterior, sin inferir incidencias.",
+    "publicApiIds": ["11.3_ISOM_2004_M_39"],
+    "series": []
+  },
+  {
+    "id": "wholesalers",
+    "adapter": "csv_columns",
+    "source": "INDEC · CSV oficial publicado en Datos Argentina",
+    "sourceUrl": "https://infra.datos.gob.ar/catalog/sspm/dataset/456/distribution/456.1/download/ventas-totales-autoservicios-mayoristas.csv",
+    "frequency": "monthly",
+    "unit": "índice de ventas a precios constantes, 2017=100",
+    "transform": "Índices oficiales original, desestacionalizado y tendencia-ciclo.",
+    "series": [
+      {
+        "id": "456.1_VENTAS_PRENAL_0_M_34_85",
+        "label": "Original",
+        "externalField": "ventas_precios_constantes_original"
+      },
+      {
+        "id": "456.1_VENTAS_PREADA_0_M_44_40",
+        "label": "Desestacionalizada",
+        "externalField": "ventas_precios_constantes_desestacionalizada"
+      },
+      {
+        "id": "456.1_VENTAS_PRECLO_0_M_41_8",
+        "label": "Tendencia-ciclo",
+        "externalField": "ventas_precios_constantes_tendencia_ciclo"
+      }
+    ],
+    "automationNote": "La API de series se verificó, pero devolvía campos sin observaciones o un período anterior. Se usa su distribución CSV oficial, con columnas y último período contrastados."
+  },
+  {
+    "adapter": "indec_workbook",
+    "source": "INDEC · Cuentas nacionales, oferta y demanda globales",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_oferta_demanda_09_26.xls",
+    "indexUrl": "https://www.indec.gob.ar/Nivel4/Tema/3/9/47",
+    "filePattern": "/sh_oferta_demanda_\\d{2}_\\d{2}\\.xls$",
+    "frequency": "quarterly",
+    "unit": "millones de pesos a precios de 2004",
+    "layout": "quarterlyWide",
+    "transform": "Niveles trimestrales oficiales a precios de 2004. Datos recientes preliminares; cambios de consumo público/privado desde 2019 afectan comparabilidad con 2018.",
+    "id": "national-demand",
+    "sheet": "cuadro 1",
+    "headerContains": "Cuadro 1",
+    "valueKind": "signed",
+    "demandIdentity": true,
+    "series": [
+      {
+        "id": "gdp",
+        "label": "PIB",
+        "row": 6,
+        "expect": "Producto Interno Bruto"
+      },
+      {
+        "id": "imports",
+        "label": "Importaciones",
+        "row": 7,
+        "expect": "Importaciones"
+      },
+      {
+        "id": "private",
+        "label": "Consumo privado",
+        "row": 11,
+        "expect": "Consumo privado"
+      },
+      {
+        "id": "public",
+        "label": "Consumo público",
+        "row": 12,
+        "expect": "Consumo público"
+      },
+      {
+        "id": "exports",
+        "label": "Exportaciones",
+        "row": 13,
+        "expect": "Exportaciones"
+      },
+      {
+        "id": "investment",
+        "label": "Formación bruta de capital fijo",
+        "row": 14,
+        "expect": "Formación bruta"
+      },
+      {
+        "id": "inventories",
+        "label": "Variación de existencias",
+        "row": 15,
+        "expect": "Variación de existencias"
+      },
+      {
+        "id": "valuables",
+        "label": "Objetos valiosos",
+        "row": 16,
+        "expect": "Objetos valiosos"
+      },
+      {
+        "id": "discrepancy",
+        "label": "Discrepancia estadística",
+        "row": 17,
+        "expect": "Discrepancia estadística"
+      }
+    ]
+  },
+  {
+    "adapter": "indec_workbook",
+    "source": "INDEC · Cuentas nacionales, oferta y demanda globales",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_oferta_demanda_09_26.xls",
+    "indexUrl": "https://www.indec.gob.ar/Nivel4/Tema/3/9/47",
+    "filePattern": "/sh_oferta_demanda_\\d{2}_\\d{2}\\.xls$",
+    "frequency": "quarterly",
+    "unit": "millones de pesos a precios de 2004",
+    "layout": "quarterlyWide",
+    "transform": "Niveles trimestrales oficiales a precios de 2004. Datos recientes preliminares; cambios de consumo público/privado desde 2019 afectan comparabilidad con 2018.",
+    "id": "national-sectors",
+    "sheet": "cuadro 4",
+    "headerContains": "Cuadro 4",
+    "series": [
+      {
+        "id": "gdp",
+        "label": "PIB",
+        "row": 6
+      },
+      {
+        "id": "net-taxes",
+        "label": "Impuestos a productos netos de subsidios",
+        "row": 8
+      },
+      {
+        "id": "vat",
+        "label": "IVA",
+        "row": 9
+      },
+      {
+        "id": "import-duties",
+        "label": "Derechos de importación",
+        "row": 10
+      },
+      {
+        "id": "vab",
+        "label": "VAB a precios básicos",
+        "row": 12
+      },
+      {
+        "id": "agriculture",
+        "label": "Agricultura, ganadería, caza y silvicultura",
+        "row": 13
+      },
+      {
+        "id": "fishing",
+        "label": "Pesca",
+        "row": 14
+      },
+      {
+        "id": "mining",
+        "label": "Minas y canteras",
+        "row": 15
+      },
+      {
+        "id": "manufacturing",
+        "label": "Industria manufacturera",
+        "row": 16
+      },
+      {
+        "id": "utilities",
+        "label": "Electricidad, gas y agua",
+        "row": 17
+      },
+      {
+        "id": "construction",
+        "label": "Construcción",
+        "row": 18
+      },
+      {
+        "id": "trade",
+        "label": "Comercio y reparaciones",
+        "row": 19
+      },
+      {
+        "id": "hotels",
+        "label": "Hoteles y restaurantes",
+        "row": 20
+      },
+      {
+        "id": "transport",
+        "label": "Transporte y comunicaciones",
+        "row": 21
+      },
+      {
+        "id": "finance",
+        "label": "Intermediación financiera",
+        "row": 22
+      },
+      {
+        "id": "real-estate",
+        "label": "Servicios inmobiliarios y empresariales",
+        "row": 23
+      },
+      {
+        "id": "government",
+        "label": "Administración pública",
+        "row": 24
+      },
+      {
+        "id": "education",
+        "label": "Enseñanza",
+        "row": 25
+      },
+      {
+        "id": "health",
+        "label": "Servicios sociales y salud",
+        "row": 26
+      },
+      {
+        "id": "other-services",
+        "label": "Otras actividades de servicios",
+        "row": 27
+      },
+      {
+        "id": "households",
+        "label": "Hogares con servicio doméstico",
+        "row": 28
+      }
+    ]
+  },
+  {
+    "adapter": "indec_workbook",
+    "source": "INDEC · Cuentas nacionales, oferta y demanda globales",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_oferta_demanda_09_26.xls",
+    "indexUrl": "https://www.indec.gob.ar/Nivel4/Tema/3/9/47",
+    "filePattern": "/sh_oferta_demanda_\\d{2}_\\d{2}\\.xls$",
+    "frequency": "annual",
+    "unit": "% del PIB del mismo año y base de precios",
+    "layout": "annualConsumptionShares",
+    "transform": "100 × suma de los cuatro trimestres de consumo / suma de los cuatro trimestres del PIB, separando precios corrientes y constantes. Se excluyen años incompletos. Cambio metodológico en 2019.",
+    "id": "consumption-shares",
+    "valueKind": "percentage",
+    "series": [
+      {
+        "id": "current-private",
+        "label": "Consumo privado · precios corrientes"
+      },
+      {
+        "id": "current-public",
+        "label": "Consumo público · precios corrientes"
+      },
+      {
+        "id": "constant-private",
+        "label": "Consumo privado · precios de 2004"
+      },
+      {
+        "id": "constant-public",
+        "label": "Consumo público · precios de 2004"
+      }
+    ]
+  },
+  {
+    "id": "construction-jobs",
+    "adapter": "indec_workbook",
+    "source": "INDEC · series históricas primarias",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_isac_2026.xls",
+    "frequency": "monthly",
+    "unit": "puestos de trabajo registrados, sector privado",
+    "transform": "Puestos registrados de la construcción en el sector privado, cuadro 5 del ISAC. No representa personas únicas.",
+    "series": [
+      {
+        "id": "jobs",
+        "label": "Puestos registrados",
+        "column": 2
+      }
+    ],
+    "indexUrl": "https://www.indec.gob.ar/Nivel4/Tema/3/3/42",
+    "filePattern": "sh_isac_\\d{4}\\.xls$",
+    "layout": "monthlyRows",
+    "sheet": "Cuadro 5",
+    "yearColumn": 0,
+    "monthColumn": 1,
+    "headerContains": "Puestos de trabajo"
+  },
+  {
+    "adapter": "indec_workbook",
+    "layout": "monthlyRows",
+    "source": "INDEC · Estadísticas de Productos Industriales (EPI)",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls",
+    "indexUrl": "https://www.indec.gob.ar/Institucional/Indec/Publicaciones",
+    "filePattern": "/cuadros_epi_\\d{2}_\\d{2}\\.xls$",
+    "frequency": "monthly",
+    "yearColumn": 0,
+    "monthColumn": 0,
+    "transform": "Niveles mensuales publicados en EPI; datos preliminares según asteriscos del cuadro. Los símbolos de ausencia se conservan como null. No se mezclan totales anuales con meses.",
+    "id": "epi-amargos",
+    "sheet": "23",
+    "unit": "miles de litros",
+    "series": [
+      {
+        "column": 2,
+        "id": "amargos",
+        "label": "Amargos, bíters y fernets"
+      }
+    ],
+    "mergeHistory": true
+  },
+  {
+    "adapter": "indec_workbook",
+    "layout": "monthlyRows",
+    "source": "INDEC · Estadísticas de Productos Industriales (EPI)",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls",
+    "indexUrl": "https://www.indec.gob.ar/Institucional/Indec/Publicaciones",
+    "filePattern": "/cuadros_epi_\\d{2}_\\d{2}\\.xls$",
+    "frequency": "monthly",
+    "yearColumn": 0,
+    "monthColumn": 0,
+    "transform": "Niveles mensuales publicados en EPI; datos preliminares según asteriscos del cuadro. Los símbolos de ausencia se conservan como null. No se mezclan totales anuales con meses.",
+    "id": "epi-yerba",
+    "sheet": "27",
+    "unit": "toneladas",
+    "series": [
+      {
+        "column": 1,
+        "id": "yerba",
+        "label": "Despachos de yerba mate"
+      }
+    ],
+    "mergeHistory": true
+  },
+  {
+    "adapter": "indec_workbook",
+    "layout": "monthlyRows",
+    "source": "INDEC · Estadísticas de Productos Industriales (EPI)",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls",
+    "indexUrl": "https://www.indec.gob.ar/Institucional/Indec/Publicaciones",
+    "filePattern": "/cuadros_epi_\\d{2}_\\d{2}\\.xls$",
+    "frequency": "monthly",
+    "yearColumn": 0,
+    "monthColumn": 0,
+    "transform": "Niveles mensuales publicados en EPI; datos preliminares según asteriscos del cuadro. Los símbolos de ausencia se conservan como null. No se mezclan totales anuales con meses.",
+    "id": "epi-wine",
+    "sheet": "25",
+    "unit": "miles de hectolitros",
+    "series": [
+      {
+        "column": 1,
+        "id": "domestic",
+        "label": "Despachos de vino al mercado interno"
+      },
+      {
+        "column": 2,
+        "id": "exports",
+        "label": "Despachos de vino al mercado externo"
+      }
+    ],
+    "mergeHistory": true
+  },
+  {
+    "adapter": "indec_workbook",
+    "layout": "monthlyRows",
+    "source": "INDEC · Estadísticas de Productos Industriales (EPI)",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls",
+    "indexUrl": "https://www.indec.gob.ar/Institucional/Indec/Publicaciones",
+    "filePattern": "/cuadros_epi_\\d{2}_\\d{2}\\.xls$",
+    "frequency": "monthly",
+    "yearColumn": 0,
+    "monthColumn": 0,
+    "transform": "Niveles mensuales publicados en EPI; datos preliminares según asteriscos del cuadro. Los símbolos de ausencia se conservan como null. No se mezclan totales anuales con meses.",
+    "id": "epi-meat",
+    "sheet": "15",
+    "unit": "miles de cabezas",
+    "series": [
+      {
+        "column": 1,
+        "id": "cattle",
+        "label": "Faena vacuna"
+      },
+      {
+        "column": 3,
+        "id": "pigs",
+        "label": "Faena porcina"
+      }
+    ],
+    "mergeHistory": true
+  },
+  {
+    "adapter": "indec_workbook",
+    "layout": "monthlyRows",
+    "source": "INDEC · Estadísticas de Productos Industriales (EPI)",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls",
+    "indexUrl": "https://www.indec.gob.ar/Institucional/Indec/Publicaciones",
+    "filePattern": "/cuadros_epi_\\d{2}_\\d{2}\\.xls$",
+    "frequency": "monthly",
+    "yearColumn": 0,
+    "monthColumn": 0,
+    "transform": "Niveles mensuales publicados en EPI; datos preliminares según asteriscos del cuadro. Los símbolos de ausencia se conservan como null. No se mezclan totales anuales con meses.",
+    "id": "epi-milk",
+    "sheet": "17",
+    "unit": "miles de litros",
+    "series": [
+      {
+        "column": 1,
+        "id": "chilled",
+        "label": "Leches refrigeradas"
+      },
+      {
+        "column": 2,
+        "id": "unchilled",
+        "label": "Leches no refrigeradas"
+      },
+      {
+        "column": 4,
+        "id": "flavoured",
+        "label": "Leches chocolatadas o saborizadas"
+      }
+    ],
+    "mergeHistory": true
+  },
+  {
+    "adapter": "indec_workbook",
+    "layout": "monthlyRows",
+    "source": "INDEC · Estadísticas de Productos Industriales (EPI)",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls",
+    "indexUrl": "https://www.indec.gob.ar/Institucional/Indec/Publicaciones",
+    "filePattern": "/cuadros_epi_\\d{2}_\\d{2}\\.xls$",
+    "frequency": "monthly",
+    "yearColumn": 0,
+    "monthColumn": 0,
+    "transform": "Niveles mensuales publicados en EPI; datos preliminares según asteriscos del cuadro. Los símbolos de ausencia se conservan como null. No se mezclan totales anuales con meses.",
+    "id": "epi-milk-powder",
+    "sheet": "17",
+    "unit": "toneladas",
+    "series": [
+      {
+        "column": 3,
+        "id": "powder",
+        "label": "Leche en polvo"
+      }
+    ],
+    "mergeHistory": true
+  },
+  {
+    "adapter": "indec_workbook",
+    "layout": "monthlyRows",
+    "source": "INDEC · Estadísticas de Productos Industriales (EPI)",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls",
+    "indexUrl": "https://www.indec.gob.ar/Institucional/Indec/Publicaciones",
+    "filePattern": "/cuadros_epi_\\d{2}_\\d{2}\\.xls$",
+    "frequency": "monthly",
+    "yearColumn": 0,
+    "monthColumn": 0,
+    "transform": "Niveles mensuales publicados en EPI; datos preliminares según asteriscos del cuadro. Los símbolos de ausencia se conservan como null. No se mezclan totales anuales con meses.",
+    "id": "epi-paper",
+    "sheet": "29",
+    "unit": "toneladas",
+    "series": [
+      {
+        "column": 4,
+        "id": "paper",
+        "label": "Papel para diarios e impresión"
+      }
+    ],
+    "mergeHistory": true
+  },
+  {
+    "adapter": "indec_workbook",
+    "layout": "monthlyRows",
+    "source": "INDEC · Estadísticas de Productos Industriales (EPI)",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls",
+    "indexUrl": "https://www.indec.gob.ar/Institucional/Indec/Publicaciones",
+    "filePattern": "/cuadros_epi_\\d{2}_\\d{2}\\.xls$",
+    "frequency": "monthly",
+    "yearColumn": 0,
+    "monthColumn": 0,
+    "transform": "Niveles mensuales publicados en EPI; datos preliminares según asteriscos del cuadro. Los símbolos de ausencia se conservan como null. No se mezclan totales anuales con meses.",
+    "id": "epi-cigarettes",
+    "sheet": "27",
+    "unit": "millones de paquetes equivalentes a 20 unidades",
+    "series": [
+      {
+        "column": 4,
+        "id": "cigarettes",
+        "label": "Despachos de cigarrillos"
+      }
+    ],
+    "mergeHistory": true
+  },
+  {
+    "adapter": "indec_workbook",
+    "layout": "monthlyRows",
+    "source": "INDEC · Estadísticas de Productos Industriales (EPI)",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls",
+    "indexUrl": "https://www.indec.gob.ar/Institucional/Indec/Publicaciones",
+    "filePattern": "/cuadros_epi_\\d{2}_\\d{2}\\.xls$",
+    "frequency": "monthly",
+    "yearColumn": 0,
+    "monthColumn": 0,
+    "transform": "Niveles mensuales publicados en EPI; datos preliminares según asteriscos del cuadro. Los símbolos de ausencia se conservan como null. No se mezclan totales anuales con meses.",
+    "id": "epi-oil",
+    "sheet": "31",
+    "unit": "miles de metros cúbicos",
+    "series": [
+      {
+        "column": 1,
+        "id": "oil",
+        "label": "Producción de petróleo crudo"
+      }
+    ],
+    "mergeHistory": true
+  },
+  {
+    "adapter": "indec_workbook",
+    "layout": "monthlyRows",
+    "source": "INDEC · Estadísticas de Productos Industriales (EPI)",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls",
+    "indexUrl": "https://www.indec.gob.ar/Institucional/Indec/Publicaciones",
+    "filePattern": "/cuadros_epi_\\d{2}_\\d{2}\\.xls$",
+    "frequency": "monthly",
+    "yearColumn": 0,
+    "monthColumn": 0,
+    "transform": "Niveles mensuales publicados en EPI; datos preliminares según asteriscos del cuadro. Los símbolos de ausencia se conservan como null. No se mezclan totales anuales con meses.",
+    "id": "epi-gasoline",
+    "sheet": "33",
+    "unit": "metros cúbicos",
+    "series": [
+      {
+        "column": 2,
+        "id": "gasoline",
+        "label": "Nafta especial súper >93 RON"
+      }
+    ],
+    "mergeHistory": true
+  },
+  {
+    "adapter": "indec_workbook",
+    "layout": "monthlyRows",
+    "source": "INDEC · Estadísticas de Productos Industriales (EPI)",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls",
+    "indexUrl": "https://www.indec.gob.ar/Institucional/Indec/Publicaciones",
+    "filePattern": "/cuadros_epi_\\d{2}_\\d{2}\\.xls$",
+    "frequency": "monthly",
+    "yearColumn": 0,
+    "monthColumn": 0,
+    "transform": "Niveles mensuales publicados en EPI; datos preliminares según asteriscos del cuadro. Los símbolos de ausencia se conservan como null. No se mezclan totales anuales con meses.",
+    "id": "epi-vehicles",
+    "sheet": "77",
+    "unit": "unidades",
+    "series": [
+      {
+        "column": 1,
+        "id": "cars",
+        "label": "Automóviles y utilitarios"
+      },
+      {
+        "column": 2,
+        "id": "motorcycles",
+        "label": "Motocicletas"
+      }
+    ],
+    "mergeHistory": true
+  },
+  {
+    "adapter": "indec_workbook",
+    "layout": "monthlyRows",
+    "source": "INDEC · Estadísticas de Productos Industriales (EPI)",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls",
+    "indexUrl": "https://www.indec.gob.ar/Institucional/Indec/Publicaciones",
+    "filePattern": "/cuadros_epi_\\d{2}_\\d{2}\\.xls$",
+    "frequency": "monthly",
+    "yearColumn": 0,
+    "monthColumn": 0,
+    "transform": "Niveles mensuales publicados en EPI; datos preliminares según asteriscos del cuadro. Los símbolos de ausencia se conservan como null. No se mezclan totales anuales con meses.",
+    "id": "epi-phones",
+    "sheet": "81",
+    "unit": "unidades",
+    "series": [
+      {
+        "column": 1,
+        "id": "phones",
+        "label": "Teléfonos celulares"
+      }
+    ],
+    "mergeHistory": true
+  },
+  {
+    "adapter": "indec_workbook",
+    "layout": "annualRows",
+    "source": "INDEC · EPI; fuente: Instituto Petroquímico Argentino",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls",
+    "indexUrl": "https://www.indec.gob.ar/Institucional/Indec/Publicaciones",
+    "filePattern": "/cuadros_epi_\\d{2}_\\d{2}\\.xls$",
+    "frequency": "annual",
+    "yearColumn": 0,
+    "monthColumn": 0,
+    "transform": "Toneladas anuales publicadas en EPI. El cuadro de caucho sintético no ofrece una desagregación mensual; no se interpola ni se reparte el total anual.",
+    "id": "epi-rubber",
+    "sheet": "51",
+    "unit": "toneladas",
+    "series": [
+      {
+        "id": "rubber",
+        "label": "Caucho sintético",
+        "column": 4
+      }
+    ],
+    "mergeHistory": true
+  },
+  {
+    "id": "ipi-divisions",
+    "adapter": "indec_workbook",
+    "source": "INDEC · series históricas primarias",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_ipi_manufacturero_2026.xls",
+    "frequency": "monthly",
+    "unit": "índice, base 2004=100",
+    "transform": "Índices oficiales por división. Las variaciones se calculan contra igual mes del año previo; las incidencias se incorporarán únicamente desde fuente/metodología oficial.",
+    "series": [
+      {
+        "id": "division-D",
+        "label": "IPI Manufacturero",
+        "column": 3
+      },
+      {
+        "id": "division-15",
+        "label": "Alimentos y bebidas",
+        "column": 4
+      },
+      {
+        "id": "division-16",
+        "label": "Productos de tabaco",
+        "column": 18
+      },
+      {
+        "id": "division-17",
+        "label": "Productos textiles",
+        "column": 21
+      },
+      {
+        "id": "division-18-19",
+        "label": "Prendas de vestir, cuero y calzado",
+        "column": 26
+      },
+      {
+        "id": "division-20-22",
+        "label": "Madera, papel, edición e impresión",
+        "column": 30
+      },
+      {
+        "id": "division-23",
+        "label": "Refinación del petróleo, coque y combustible nuclear",
+        "column": 34
+      },
+      {
+        "id": "division-24",
+        "label": "Sustancias y productos químicos",
+        "column": 40
+      },
+      {
+        "id": "division-25",
+        "label": "Productos de caucho y plástico",
+        "column": 49
+      },
+      {
+        "id": "division-26",
+        "label": "Productos minerales no metálicos",
+        "column": 53
+      },
+      {
+        "id": "division-27",
+        "label": "Industrias metálicas básicas",
+        "column": 60
+      },
+      {
+        "id": "division-28",
+        "label": "Productos de metal",
+        "column": 64
+      },
+      {
+        "id": "division-29",
+        "label": "Maquinaria y equipo",
+        "column": 68
+      },
+      {
+        "id": "division-30-33",
+        "label": "Otros equipos, aparatos e instrumentos",
+        "column": 73
+      },
+      {
+        "id": "division-34",
+        "label": "Vehículos automotores, carrocerías, remolques y autopartes",
+        "column": 77
+      },
+      {
+        "id": "division-35",
+        "label": "Otro equipo de transporte",
+        "column": 81
+      },
+      {
+        "id": "division-36-38",
+        "label": "Muebles y colchones, y otras industrias manufactureras",
+        "column": 84
+      }
+    ],
+    "indexUrl": "https://www.indec.gob.ar/Nivel4/Tema/3/6/14",
+    "filePattern": "sh_ipi_manufacturero_\\d{4}\\.xls$",
+    "layout": "monthlyRows",
+    "sheet": "Cuadro 2",
+    "yearColumn": 1,
+    "monthColumn": 2,
+    "headerContains": "Cuadro 2",
+    "columnHeaderRow": 3
+  },
+  {
+    "id": "industrial-capacity",
+    "adapter": "csv_columns",
+    "source": "INDEC · Utilización de capacidad instalada, vía Datos Argentina",
+    "sourceUrl": "https://infra.datos.gob.ar/catalog/sspm/dataset/31/distribution/31.3/download/utilizacion-capacidad-instalada-industria-valores-mensuales-base-2004.csv",
+    "frequency": "monthly",
+    "unit": "% de capacidad instalada utilizada",
+    "valueKind": "percentage",
+    "transform": "Porcentajes publicados por INDEC, por bloque industrial y nivel general; no se suman los bloques entre sí.",
+    "series": [
+      {
+        "id": "31.3_UIMB_2004_M_33",
+        "label": "Industrias metálicas básicas",
+        "externalField": "ucii_industrias_metalicas_basicas"
+      },
+      {
+        "id": "31.3_UPT_2004_M_23",
+        "label": "Productos textiles",
+        "externalField": "ucii_productos_textiles"
+      },
+      {
+        "id": "31.3_USPQ_2004_M_34",
+        "label": "Sustancias y productos químicos",
+        "externalField": "ucii_sustancias_productos_quimicos"
+      },
+      {
+        "id": "31.3_UV_2004_M_25",
+        "label": "Industria automotriz",
+        "externalField": "ucii_vehiculosautomotores"
+      },
+      {
+        "id": "31.3_UEI_2004_M_22",
+        "label": "Edición e impresión",
+        "externalField": "ucii_edicion_impresion"
+      },
+      {
+        "id": "31.3_UMNIA_2004_M_42",
+        "label": "Metalmecánica excepto automotores",
+        "externalField": "ucii_metalmecanica_no_industria_automotriz"
+      },
+      {
+        "id": "31.3_UPC_2004_M_17",
+        "label": "Papel y cartón",
+        "externalField": "ucii_papel_carton"
+      },
+      {
+        "id": "31.3_UCP_2004_M_20",
+        "label": "Caucho y plástico",
+        "externalField": "ucii_caucho_plastico"
+      },
+      {
+        "id": "31.3_UMNM_2004_M_27",
+        "label": "Minerales no metálicos",
+        "externalField": "ucii_minerales_no_metalicos"
+      },
+      {
+        "id": "31.3_UPAB_2004_M_35",
+        "label": "Alimentos y bebidas",
+        "externalField": "ucii_productos_alimenticios_bebidas"
+      },
+      {
+        "id": "31.3_UPT_2004_M_21",
+        "label": "Productos del tabaco",
+        "externalField": "ucii_productos_tabaco"
+      },
+      {
+        "id": "31.3_URP_2004_M_24",
+        "label": "Refinación de petróleo",
+        "externalField": "ucii_refinacion_petroleo"
+      },
+      {
+        "id": "31.3_UNG_2004_M_18",
+        "label": "Nivel general",
+        "externalField": "ucii_nivel_general"
+      }
+    ],
+    "automationNote": "API contrastada con su CSV oficial: algunos IDs devolvían series vacías. Se utiliza la distribución CSV íntegra y se validan sus columnas."
+  },
+  {
+    "id": "construction-expectations",
+    "adapter": "indec_workbook",
+    "source": "INDEC · series históricas primarias",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_isac_2026.xls",
+    "frequency": "monthly",
+    "unit": "% de empresas encuestadas",
+    "transform": "Expectativas declaradas para el trimestre iniciado en el mes de referencia. El corte agosto 2026 corresponde a agosto-octubre 2026; no representa actividad realizada. Cada grupo de tres respuestas forma su propio total.",
+    "series": [
+      {
+        "id": "private-activity-increase",
+        "label": "Aumentará",
+        "column": 1
+      },
+      {
+        "id": "private-activity-same",
+        "label": "No variará",
+        "column": 2
+      },
+      {
+        "id": "private-activity-decrease",
+        "label": "Disminuirá",
+        "column": 3
+      },
+      {
+        "id": "public-activity-increase",
+        "label": "Aumentará",
+        "column": 5
+      },
+      {
+        "id": "public-activity-same",
+        "label": "No variará",
+        "column": 6
+      },
+      {
+        "id": "public-activity-decrease",
+        "label": "Disminuirá",
+        "column": 7
+      },
+      {
+        "id": "private-employment-increase",
+        "label": "Aumentará",
+        "column": 9
+      },
+      {
+        "id": "private-employment-same",
+        "label": "No variará",
+        "column": 10
+      },
+      {
+        "id": "private-employment-decrease",
+        "label": "Disminuirá",
+        "column": 11
+      },
+      {
+        "id": "public-employment-increase",
+        "label": "Aumentará",
+        "column": 13
+      },
+      {
+        "id": "public-employment-same",
+        "label": "No variará",
+        "column": 14
+      },
+      {
+        "id": "public-employment-decrease",
+        "label": "Disminuirá",
+        "column": 15
+      }
+    ],
+    "indexUrl": "https://www.indec.gob.ar/Nivel4/Tema/3/3/42",
+    "filePattern": "sh_isac_\\d{4}\\.xls$",
+    "layout": "expectationRows",
+    "sheet": "Cuadro 7.1",
+    "yearColumn": 0,
+    "monthColumn": 1,
+    "headerContains": "Encuesta cualitativa",
+    "lastAllowedPeriod": "2026-08-01",
+    "valueKind": "percentage"
+  },
+  {
+    "id": "construya",
+    "adapter": "construya",
+    "source": "Grupo Construya",
+    "sourceUrl": "https://www.grupoconstruya.com/servicios/indice_construya",
+    "frequency": "monthly",
+    "unit": "índice, junio 2002=100",
+    "transform": "Volúmenes vendidos por las empresas integrantes de Construya. Original y desestacionalizado. Base verificada en https://www.grupoconstruya.com/servicios/indice_quees; universo privado distinto del ISAC.",
+    "series": [
+      {
+        "id": "original",
+        "label": "Con estacionalidad (original)"
+      },
+      {
+        "id": "adjusted",
+        "label": "Desestacionalizado"
+      }
+    ]
+  },
+  {
+    "id": "soy-area",
+    "adapter": "agriculture",
+    "source": "Secretaría de Agricultura · Estimaciones Agrícolas",
+    "sourceUrl": "https://datos.magyp.gob.ar/api/3/action/datastore_search",
+    "requestParams": {
+      "resource_id": "ba694aa3-99d2-4d7d-9936-60f88e36ad9a",
+      "limit": 10000,
+      "filters": "{\"campania\": \"2024/2025\"}"
+    },
+    "frequency": "annual",
+    "periodLabel": "Campaña 2024/2025",
+    "unit": "hectáreas sembradas",
+    "metric": "superficie_sembrada_ha",
+    "transform": "Soja total (primera y segunda incluidas), campaña 2024/25, año de inicio 2024. Suma de departamentos únicos por provincia; no se añaden totales provinciales duplicados. Rendimiento provincial = 1000 × producción / superficie cosechada, ponderado por área cosechada. API empleada por el visualizador oficial; estimaciones sujetas a revisiones.",
+    "series": [
+      {
+        "id": "06",
+        "label": "Buenos Aires"
+      },
+      {
+        "id": "10",
+        "label": "Catamarca"
+      },
+      {
+        "id": "14",
+        "label": "Córdoba"
+      },
+      {
+        "id": "18",
+        "label": "Corrientes"
+      },
+      {
+        "id": "22",
+        "label": "Chaco"
+      },
+      {
+        "id": "30",
+        "label": "Entre Ríos"
+      },
+      {
+        "id": "34",
+        "label": "Formosa"
+      },
+      {
+        "id": "38",
+        "label": "Jujuy"
+      },
+      {
+        "id": "42",
+        "label": "La Pampa"
+      },
+      {
+        "id": "54",
+        "label": "Misiones"
+      },
+      {
+        "id": "66",
+        "label": "Salta"
+      },
+      {
+        "id": "74",
+        "label": "San Luis"
+      },
+      {
+        "id": "82",
+        "label": "Santa Fe"
+      },
+      {
+        "id": "86",
+        "label": "Santiago del Estero"
+      },
+      {
+        "id": "90",
+        "label": "Tucumán"
+      }
+    ]
+  },
+  {
+    "id": "soy-yield",
+    "adapter": "agriculture",
+    "source": "Secretaría de Agricultura · Estimaciones Agrícolas",
+    "sourceUrl": "https://datos.magyp.gob.ar/api/3/action/datastore_search",
+    "requestParams": {
+      "resource_id": "ba694aa3-99d2-4d7d-9936-60f88e36ad9a",
+      "limit": 10000,
+      "filters": "{\"campania\": \"2024/2025\"}"
+    },
+    "frequency": "annual",
+    "periodLabel": "Campaña 2024/2025",
+    "unit": "kg/ha cosechada",
+    "metric": "yield",
+    "transform": "Soja total (primera y segunda incluidas), campaña 2024/25, año de inicio 2024. Suma de departamentos únicos por provincia; no se añaden totales provinciales duplicados. Rendimiento provincial = 1000 × producción / superficie cosechada, ponderado por área cosechada. API empleada por el visualizador oficial; estimaciones sujetas a revisiones.",
+    "series": [
+      {
+        "id": "06",
+        "label": "Buenos Aires"
+      },
+      {
+        "id": "10",
+        "label": "Catamarca"
+      },
+      {
+        "id": "14",
+        "label": "Córdoba"
+      },
+      {
+        "id": "18",
+        "label": "Corrientes"
+      },
+      {
+        "id": "22",
+        "label": "Chaco"
+      },
+      {
+        "id": "30",
+        "label": "Entre Ríos"
+      },
+      {
+        "id": "34",
+        "label": "Formosa"
+      },
+      {
+        "id": "38",
+        "label": "Jujuy"
+      },
+      {
+        "id": "42",
+        "label": "La Pampa"
+      },
+      {
+        "id": "54",
+        "label": "Misiones"
+      },
+      {
+        "id": "66",
+        "label": "Salta"
+      },
+      {
+        "id": "74",
+        "label": "San Luis"
+      },
+      {
+        "id": "82",
+        "label": "Santa Fe"
+      },
+      {
+        "id": "86",
+        "label": "Santiago del Estero"
+      },
+      {
+        "id": "90",
+        "label": "Tucumán"
+      }
+    ]
+  },
+  {
+    "id": "soy-production",
+    "adapter": "agriculture",
+    "source": "Secretaría de Agricultura · Estimaciones Agrícolas",
+    "sourceUrl": "https://datos.magyp.gob.ar/api/3/action/datastore_search",
+    "requestParams": {
+      "resource_id": "ba694aa3-99d2-4d7d-9936-60f88e36ad9a",
+      "limit": 10000,
+      "filters": "{\"campania\": \"2024/2025\"}"
+    },
+    "frequency": "annual",
+    "periodLabel": "Campaña 2024/2025",
+    "unit": "toneladas",
+    "metric": "produccion_tm",
+    "transform": "Soja total (primera y segunda incluidas), campaña 2024/25, año de inicio 2024. Suma de departamentos únicos por provincia; no se añaden totales provinciales duplicados. Rendimiento provincial = 1000 × producción / superficie cosechada, ponderado por área cosechada. API empleada por el visualizador oficial; estimaciones sujetas a revisiones.",
+    "series": [
+      {
+        "id": "06",
+        "label": "Buenos Aires"
+      },
+      {
+        "id": "10",
+        "label": "Catamarca"
+      },
+      {
+        "id": "14",
+        "label": "Córdoba"
+      },
+      {
+        "id": "18",
+        "label": "Corrientes"
+      },
+      {
+        "id": "22",
+        "label": "Chaco"
+      },
+      {
+        "id": "30",
+        "label": "Entre Ríos"
+      },
+      {
+        "id": "34",
+        "label": "Formosa"
+      },
+      {
+        "id": "38",
+        "label": "Jujuy"
+      },
+      {
+        "id": "42",
+        "label": "La Pampa"
+      },
+      {
+        "id": "54",
+        "label": "Misiones"
+      },
+      {
+        "id": "66",
+        "label": "Salta"
+      },
+      {
+        "id": "74",
+        "label": "San Luis"
+      },
+      {
+        "id": "82",
+        "label": "Santa Fe"
+      },
+      {
+        "id": "86",
+        "label": "Santiago del Estero"
+      },
+      {
+        "id": "90",
+        "label": "Tucumán"
+      }
+    ]
+  },
+  {
+    "id": "export-rubros",
+    "adapter": "indec_workbook",
+    "source": "INDEC · Exportaciones de bienes por grandes rubros",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/exp_gr_80_25.xls",
+    "indexUrl": "https://www.indec.gob.ar/Nivel4/Tema/3/2/40",
+    "filePattern": "/exp_gr_\\d+_\\d+\\.xls$",
+    "frequency": "annual",
+    "unit": "miles de USD corrientes",
+    "layout": "exportsAnnual",
+    "sheet": "grandes rubros",
+    "headerContains": "Exportaciones por grandes rubros",
+    "transform": "Exportaciones FOB, años completos publicados, cuatro grandes rubros y total. Año 2025 provisorio; actualizado por INDEC a junio de 2026. Participación = valor del rubro / total FOB del mismo año.",
+    "series": [
+      {
+        "id": "total",
+        "label": "Total general",
+        "offset": 0,
+        "expect": "Total general"
+      },
+      {
+        "id": "primary",
+        "label": "Productos primarios",
+        "offset": 1,
+        "expect": "Productos primarios"
+      },
+      {
+        "id": "moa",
+        "label": "Manufacturas de origen agropecuario",
+        "offset": 2,
+        "expect": "agropecuario"
+      },
+      {
+        "id": "moi",
+        "label": "Manufacturas de origen industrial",
+        "offset": 3,
+        "expect": "industrial"
+      },
+      {
+        "id": "energy",
+        "label": "Combustibles y energía",
+        "offset": 4,
+        "expect": "Combustibles"
+      }
+    ]
+  },
+  {
+    "id": "salta-exports-annual",
+    "adapter": "indec_workbook",
+    "source": "INDEC · Origen provincial de las exportaciones (OPEX)",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/opex_anexo_cuadros_02_09_26.xls",
+    "indexUrl": "https://www.indec.gob.ar/Nivel4/Tema/3/2/79",
+    "filePattern": "/opex_anexo_cuadros_.*\\.xls$",
+    "frequency": "annual",
+    "unit": "millones de USD corrientes FOB",
+    "layout": "provinceExports",
+    "semester": false,
+    "sheet": "Region-prov 2016-2025 anual",
+    "headerContains": "Origen de las exportaciones",
+    "transform": "Años calendario completos 2016–2025. No se compara el total anual con semestres. Valores sujetos a revisión oficial.",
+    "series": [
+      {
+        "id": "salta",
+        "label": "Salta · año completo"
+      }
+    ]
+  },
+  {
+    "id": "salta-exports-semester",
+    "adapter": "indec_workbook",
+    "source": "INDEC · Origen provincial de las exportaciones (OPEX)",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/opex_anexo_cuadros_02_09_26.xls",
+    "indexUrl": "https://www.indec.gob.ar/Nivel4/Tema/3/2/79",
+    "filePattern": "/opex_anexo_cuadros_.*\\.xls$",
+    "frequency": "semiannual",
+    "unit": "millones de USD corrientes FOB",
+    "layout": "provinceExports",
+    "semester": true,
+    "sheet": "Region-prov 2016-2026 semestre",
+    "headerContains": "Origen de las exportaciones",
+    "transform": "Primer semestre de cada año, comparado sólo con primeros semestres. Los segundos semestres no se imputan. No representa el año completo.",
+    "series": [
+      {
+        "id": "salta",
+        "label": "Salta · primer semestre"
+      }
+    ]
+  },
+  {
+    "id": "emae-incidences",
+    "adapter": "pdf",
+    "layout": "emaeIncidences",
+    "source": "INDEC · Informe EMAE, agosto 2026, gráfico 1",
+    "sourceUrl": "https://www.indec.gob.ar/uploads/informesdeprensa/emae_10_263A9DC1ED2B.pdf",
+    "frequency": "monthly",
+    "unit": "puntos porcentuales de variación interanual",
+    "valueKind": "signed",
+    "sourcePublishedAt": "2026-10-21",
+    "page": 10,
+    "expect": "Agosto de 2026",
+    "transform": "Incidencias publicadas por INDEC en el gráfico 1, no calculadas a partir de tasas sin ponderaciones. Corte fijo agosto 2026. Suma sectorial conciliada con -1,74 pp dentro del redondeo del informe.",
+    "series": [
+      {
+        "id": "C",
+        "label": "Explotación de minas y canteras"
+      },
+      {
+        "id": "E",
+        "label": "Electricidad, gas y agua"
+      },
+      {
+        "id": "H",
+        "label": "Hoteles y restaurantes"
+      },
+      {
+        "id": "K",
+        "label": "Actividades inmobiliarias, empresariales y de alquiler"
+      },
+      {
+        "id": "N",
+        "label": "Servicios sociales y de salud"
+      },
+      {
+        "id": "O",
+        "label": "Otras actividades de servicios comunitarios, sociales y personales"
+      },
+      {
+        "id": "M",
+        "label": "Enseñanza"
+      },
+      {
+        "id": "A",
+        "label": "Agricultura, ganadería, caza y silvicultura"
+      },
+      {
+        "id": "F",
+        "label": "Construcción"
+      },
+      {
+        "id": "L",
+        "label": "Administración pública y defensa"
+      },
+      {
+        "id": "B",
+        "label": "Pesca"
+      },
+      {
+        "id": "J",
+        "label": "Intermediación financiera"
+      },
+      {
+        "id": "I",
+        "label": "Transporte y comunicaciones"
+      },
+      {
+        "id": "G",
+        "label": "Comercio mayorista, minorista y reparaciones"
+      },
+      {
+        "id": "D",
+        "label": "Industria manufacturera"
+      },
+      {
+        "id": "taxes",
+        "label": "Impuestos netos de subsidios"
+      }
+    ]
+  },
+  {
+    "id": "export-complexes",
+    "adapter": "pdf",
+    "layout": "complexes",
+    "source": "INDEC · Complejos exportadores, primer semestre 2026, cuadro 1",
+    "sourceUrl": "https://www.indec.gob.ar/uploads/informesdeprensa/complejos_08_26084E913425.pdf",
+    "frequency": "semiannual",
+    "unit": "millones de USD corrientes FOB",
+    "sourcePublishedAt": "2026-08-26",
+    "page": 4,
+    "expect": "Primer semestre de 2026 y de 2025",
+    "transform": "Primer semestre de 2026 comparado con el mismo semestre de 2025. Extracción automática del cuadro 1; total y categorías conciliados dentro del redondeo. Datos provisorios. Otros complejos y resto se distinguen de los diez principales.",
+    "series": [
+      {
+        "id": "complex-1",
+        "label": "Soja",
+        "expect": "Soja"
+      },
+      {
+        "id": "complex-2",
+        "label": "Petrolero-petroquímico",
+        "expect": "Petrolero-petroquímico"
+      },
+      {
+        "id": "complex-3",
+        "label": "Maicero",
+        "expect": "Maicero"
+      },
+      {
+        "id": "complex-4",
+        "label": "Automotriz",
+        "expect": "Automotriz"
+      },
+      {
+        "id": "complex-5",
+        "label": "Oro y plata",
+        "expect": "Oro y plata"
+      },
+      {
+        "id": "complex-6",
+        "label": "Carne y cuero bovinos",
+        "expect": "Carne y cuero bovinos"
+      },
+      {
+        "id": "complex-7",
+        "label": "Triguero",
+        "expect": "Triguero"
+      },
+      {
+        "id": "complex-8",
+        "label": "Girasol",
+        "expect": "Girasol"
+      },
+      {
+        "id": "complex-9",
+        "label": "Pesquero",
+        "expect": "Pesquero"
+      },
+      {
+        "id": "complex-10",
+        "label": "Litio",
+        "expect": "Litio"
+      },
+      {
+        "id": "complex-11",
+        "label": "Otros complejos",
+        "expect": "Otros complejos"
+      },
+      {
+        "id": "complex-12",
+        "label": "Resto de exportaciones",
+        "expect": "Resto de exportaciones"
+      },
+      {
+        "id": "total",
+        "label": "Total de exportaciones",
+        "expect": "Total de exportaciones (1)"
+      }
+    ]
+  },
+  {
+    "id": "tourism-flows",
+    "adapter": "tourism",
+    "source": "Secretaría de Turismo · SINTA / Dirección de Mercados y Estadísticas",
+    "sourceUrl": "https://tableros.yvera.tur.ar/turismo_internacional/",
+    "frequency": "monthly",
+    "unit": "viajes estimados de turistas",
+    "valueKind": "signed",
+    "transform": "Total país, todas las vías; exclusivamente turistas, excluye excursionistas. Se contabilizan viajes finalizados, no personas únicas. Cambios terminológicos desde septiembre 2022: viajes de turistas. Receptivo menos emisivo = saldo de viajes, no saldo monetario. Descarga automática de CSV públicos del tablero oficial mediante navegador en Actions, con respaldo durable.",
+    "series": [
+      {
+        "id": "inbound",
+        "label": "Receptivo · viajes de turistas no residentes"
+      },
+      {
+        "id": "outbound",
+        "label": "Emisivo · viajes de turistas residentes"
+      },
+      {
+        "id": "balance",
+        "label": "Saldo de viajes: receptivo − emisivo"
+      }
+    ]
+  },
+  {
+    "id": "salta-winter",
+    "adapter": "curated",
+    "source": "Gobierno de Salta · Télam · CAME (según año)",
+    "sourceUrl": "https://www.salta.gob.ar/prensa/noticias/el-turismo-genero-un-impacto-de-30-mil-millones-durante-las-vacaciones-de-invierno-90954",
+    "curatedFile": "data/manual/salta-winter.csv",
+    "frequency": "seasonal",
+    "unit": "turistas/arribos reportados; 2019 aproximado y 2025 cota inferior",
+    "verifiedAt": "2026-11-12T04:42:55Z",
+    "isAutoUpdated": false,
+    "transform": "Curación documentada de las seis publicaciones solicitadas. Temporadas de invierno, no años completos. Universos y duración distintos: no calcular tasas interanuales como una serie homogénea. 2019 ≈266.000 arribos; 2022 del 9 al 30 de julio; 2025 >254.000 (barra como cota inferior comunicada). 2020–2021 sin publicación incorporada, no son ceros.",
+    "supportingSources": [
+      {
+        "label": "2019: Aproximadamente 266.000 arribos durante julio; cifra redondeada de cobertura Télam.",
+        "url": "https://grupolaprovincia.com/contenido/494428/salta-tuvo-records-en-julio-con-266000-arribos-y-un-impacto-turistico-de-1000-mi"
+      },
+      {
+        "label": "2022: 183.508 turistas registrados entre el 9 y el 30 de julio; corroborado también en publicación provincial de 2023.",
+        "url": "https://casa.salta.gob.ar/noticias/turismo-3/temporada-turistica-de-julio-6-mas-ocupacion-que-en-2019-y-un-impacto-economico-de-9632-millones-1473"
+      },
+      {
+        "label": "2023: 230.461 turistas durante vacaciones de julio.",
+        "url": "https://www.salta.gob.ar/prensa/noticias/el-turismo-genero-un-impacto-de-30-mil-millones-durante-las-vacaciones-de-invierno-90954"
+      },
+      {
+        "label": "2024: 270.190 visitantes durante temporada de invierno.",
+        "url": "https://www.salta.gob.ar/prensa/noticias/el-turismo-genero-un-impacto-economico-de-83-mil-millones-de-pesos-durante-las-vacaciones-de-invierno-96936"
+      },
+      {
+        "label": "2025: Más de 254.000 turistas: el valor graficado es la cota inferior comunicada, no un total exacto.",
+        "url": "https://www.salta.gob.ar/prensa/noticias/salta-recibio-a-mas-de-254-mil-turistas-durante-las-vacaciones-de-invierno-y-genero-un-impacto-economico-de-mas-de-128-mil-millones-de-pesos-103059"
+      },
+      {
+        "label": "2026: 267.628 turistas en el balance de invierno de CAME del 02/08/2026.",
+        "url": "https://institucional.came.org.ar/prensa/14663/vacaciones-de-invierno-en-modo-mundial-59-mas-de-turistas-que-el-ano-pasado-con-un-impacto-economico-de--212-billones"
+      }
+    ],
+    "series": [
+      {
+        "id": "tourists",
+        "label": "Turistas reportados · ver cotas y cobertura"
+      }
+    ]
+  },
+  {
+    "id": "hotel-nights",
+    "adapter": "indec_workbook",
+    "source": "INDEC · Encuesta de Ocupación Hotelera",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_eoh_pernoctaciones.xlsx",
+    "indexUrl": "https://www.indec.gob.ar/Nivel4/Tema/3/13/56",
+    "filePattern": "/serie_eoh_pernoctaciones\\.xlsx$",
+    "frequency": "monthly",
+    "unit": "noches en establecimientos hoteleros y parahoteleros",
+    "layout": "datetimeRows",
+    "sheet": "Pernoctaciones totales",
+    "headerContains": "Pernoctaciones totales",
+    "transform": "Total de pernoctaciones, residentes y no residentes, EOH. Los ceros de abril y mayo 2020 están publicados en la fuente: no se imputan. Los agregados anuales requieren doce meses numéricos. Distinto universo de los viajes internacionales.",
+    "series": [
+      {
+        "id": "original",
+        "label": "Pernoctaciones totales · original",
+        "column": 1
+      }
+    ]
+  },
+  {
+    "id": "private-consumption-adjusted",
+    "adapter": "consumption",
+    "source": "INDEC · Cuentas nacionales y gráfico oficial de consumo privado",
+    "sourceUrl": "https://www.indec.gob.ar/uploads/informesdeprensa/pib_09_26065D6A3612.pdf",
+    "indexUrl": "https://www.indec.gob.ar/Nivel4/Tema/3/9/47",
+    "frequency": "quarterly",
+    "unit": "millones de pesos a precios de 2004",
+    "transform": "Original y desestacionalizada: niveles exactos de los XLS de oferta y demanda de INDEC. Tendencia-ciclo: lectura aproximada de los puntos vectoriales del gráfico 3 del mismo informe de PIB, con redondeo a 0,1 miles de millones de pesos de 2004. Cada ejecución calibra el eje numérico y contrasta todos los puntos de las dos curvas de control contra sus XLS; rechaza diferencias mayores que 0,1 miles de millones o calendarios distintos. El control abarca todos los trimestres disponibles y la tendencia reproduce los puntos publicados por INDEC. Los valores almacenados están en millones de pesos; la vista divide por 1000.",
+    "series": [
+      {
+        "id": "private-original",
+        "label": "Consumo privado · original"
+      },
+      {
+        "id": "private-adjusted",
+        "label": "Consumo privado · desestacionalizado"
+      },
+      {
+        "id": "private-trend",
+        "label": "Consumo privado · tendencia-ciclo aproximada (lectura del PDF)"
+      }
+    ],
+    "figureTitle": "Gráfico 3. Consumo privado, en miles de millones de pesos de 2004",
+    "validationToleranceBillion": 0.1,
+    "resourcePatterns": {
+      "report": "/pib_\\d{2}_\\d{2}[A-Za-z0-9]+\\.pdf$",
+      "original": "/sh_oferta_demanda_\\d{2}_\\d{2}\\.xls$",
+      "adjusted": "/sh_oferta_demanda_desest_\\d{2}_\\d{2}\\.xls$"
+    },
+    "curveColors": {
+      "private-original": [0.231, 0.333, 0.431],
+      "private-adjusted": [0.31, 0.769, 0.733],
+      "private-trend": [0.459, 0.667, 0.859]
+    }
+  },
+  {
+    "id": "tourism-gdp-comparison",
+    "adapter": "tourism_comparison",
+    "source": "WTTC / Oxford Economics · EIR 2025; Banco Mundial Data360 (Argentina)",
+    "sourceUrl": "https://www.turismodeportugal.pt/SiteCollectionDocuments/noticias/WTTC/WTTC%20-%20Travel%20%26%20Tourism%20Economic%20Impact_%20PT%202025.pdf",
+    "additionalUrl": "https://documents1.worldbank.org/curated/en/099244110152530240/pdf/IDU-c6824a6a-d4ca-4dda-8014-ff8ee30d40fe.pdf",
+    "frequency": "annual",
+    "unit": "% del PIB · aporte total del turismo",
+    "valueKind": "percentage",
+    "transform": "Año 2024, aporte directo + indirecto + inducido según WTTC / Oxford Economics, edición EIR 2025. Países europeos: ranking relativo, EIR Portugal 2025, página PDF 14. Argentina: ficha Banco Mundial Data360, fuente WTTC, generada 08/10/2025. Latinoamérica: definición regional WTTC de América Central y del Sur; 7,5% del PIB regional en Global Trends 2025, página 24. México y Caribe se presentan en otras regiones WTTC. La referencia adicional Latinoamérica y Caribe (10%) incluye México y Caribe y procede del comunicado WTTC del 02/06/2025. Son dos coberturas geográficas explícitas, no promedios simples de países.",
+    "supportingSources": [
+      {
+        "label": "Argentina 2024 · Banco Mundial Data360, fuente WTTC",
+        "url": "https://documents1.worldbank.org/curated/en/099244110152530240/pdf/IDU-c6824a6a-d4ca-4dda-8014-ff8ee30d40fe.pdf"
+      },
+      {
+        "label": "WTTC · Latinoamérica y Caribe, aporte total al PIB 2024",
+        "url": "https://wttc.org/news/travel-and-tourism-in-lac-set-to-add-usd-206bn-to-regional-economy-over-the-next-decade/"
+      },
+      {
+        "label": "WTTC Global Trends 2025 · PIB regional 2024, página 24",
+        "url": "https://www.qualitytravel.it/wp-content/uploads/Travel-Tourism-Economic-Impact-2025-Global-Trends-13.08.2025-2.pdf"
+      },
+      {
+        "label": "WTTC · definición de Latin America: América Central y del Sur",
+        "url": "https://researchhub.wttc.org/product/unlocking-opportunities-for-travel-tourism-growth-in-latin-america"
+      }
+    ],
+    "series": [
+      {
+        "id": "ARG",
+        "label": "Argentina",
+        "externalName": "Argentina"
+      },
+      {
+        "id": "LATAM",
+        "label": "Latinoamérica (WTTC)",
+        "externalName": "Latin America"
+      },
+      {
+        "id": "ITA",
+        "label": "Italia",
+        "externalName": "Italy"
+      },
+      {
+        "id": "ESP",
+        "label": "España",
+        "externalName": "Spain"
+      },
+      {
+        "id": "GRC",
+        "label": "Grecia",
+        "externalName": "Greece"
+      },
+      {
+        "id": "PRT",
+        "label": "Portugal",
+        "externalName": "Portugal"
+      },
+      {
+        "id": "LAC",
+        "label": "Latinoamérica y Caribe · WTTC",
+        "externalName": "Latin America and the Caribbean"
+      }
+    ],
+    "regionUrl": "https://wttc.org/news/travel-and-tourism-in-lac-set-to-add-usd-206bn-to-regional-economy-over-the-next-decade/",
+    "latinAmericaUrl": "https://www.qualitytravel.it/wp-content/uploads/Travel-Tourism-Economic-Impact-2025-Global-Trends-13.08.2025-2.pdf",
+    "latinAmericaPage": 24,
+    "definitionUrl": "https://researchhub.wttc.org/product/unlocking-opportunities-for-travel-tourism-growth-in-latin-america"
+  },
+  {
+    "id": "ipi-incidences",
+    "adapter": "indec_workbook",
+    "source": "INDEC · series históricas primarias",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_ipi_manufacturero_2026.xls",
+    "frequency": "monthly",
+    "unit": "puntos porcentuales de variación interanual del IPI",
+    "transform": "Elaboración propia con niveles oficiales INDEC. Incidencia_i = 100 × peso_i × (índice_i,t − índice_i,t−12) / IPI_t−12. Ponderaciones implícitas únicas identificadas por la identidad lineal de agregación en los primeros 64 meses; deben ser positivas, sumar 1 y reconstruir todos los meses restantes con error <0,0000001 puntos de índice. Se rechaza el resultado si la identidad no se verifica. Pesos guardados por división. Metodología oficial de agregación: VAB del año base 2004. No son porcentajes de participación ni transcripción de las barras del informe. Serialización a ocho decimales en puntos porcentuales para reproducibilidad entre plataformas.",
+    "series": [
+      {
+        "id": "division-15",
+        "label": "Alimentos y bebidas",
+        "column": 4
+      },
+      {
+        "id": "division-16",
+        "label": "Productos de tabaco",
+        "column": 18
+      },
+      {
+        "id": "division-17",
+        "label": "Productos textiles",
+        "column": 21
+      },
+      {
+        "id": "division-18-19",
+        "label": "Prendas de vestir, cuero y calzado",
+        "column": 26
+      },
+      {
+        "id": "division-20-22",
+        "label": "Madera, papel, edición e impresión",
+        "column": 30
+      },
+      {
+        "id": "division-23",
+        "label": "Refinación del petróleo, coque y combustible nuclear",
+        "column": 34
+      },
+      {
+        "id": "division-24",
+        "label": "Sustancias y productos químicos",
+        "column": 40
+      },
+      {
+        "id": "division-25",
+        "label": "Productos de caucho y plástico",
+        "column": 49
+      },
+      {
+        "id": "division-26",
+        "label": "Productos minerales no metálicos",
+        "column": 53
+      },
+      {
+        "id": "division-27",
+        "label": "Industrias metálicas básicas",
+        "column": 60
+      },
+      {
+        "id": "division-28",
+        "label": "Productos de metal",
+        "column": 64
+      },
+      {
+        "id": "division-29",
+        "label": "Maquinaria y equipo",
+        "column": 68
+      },
+      {
+        "id": "division-30-33",
+        "label": "Otros equipos, aparatos e instrumentos",
+        "column": 73
+      },
+      {
+        "id": "division-34",
+        "label": "Vehículos automotores, carrocerías, remolques y autopartes",
+        "column": 77
+      },
+      {
+        "id": "division-35",
+        "label": "Otro equipo de transporte",
+        "column": 81
+      },
+      {
+        "id": "division-36-38",
+        "label": "Muebles y colchones, y otras industrias manufactureras",
+        "column": 84
+      }
+    ],
+    "indexUrl": "https://www.indec.gob.ar/Nivel4/Tema/3/6/14",
+    "filePattern": "sh_ipi_manufacturero_\\d{4}\\.xls$",
+    "layout": "ipiIncidences",
+    "sheet": "Cuadro 2",
+    "yearColumn": 1,
+    "monthColumn": 2,
+    "headerContains": "Cuadro 2",
+    "valueKind": "signed",
+    "supportingSources": [
+      {
+        "label": "INDEC · metodología de agregación, informe junio 2026, página 26",
+        "url": "https://www.indec.gob.ar/uploads/informesdeprensa/ipi_manufacturero_08_2683F2E17728.pdf"
+      }
+    ],
+    "columnHeaderRow": 3
+  },
+  {
+    "id": "tourism-gdp-argentina",
+    "adapter": "curated_csv_columns",
+    "source": "World Travel & Tourism Council / Oxford Economics · EIR 2026. All rights reserved.",
+    "sourceUrl": "https://researchhub.wttc.org/dv-dashboard",
+    "curatedFile": "data/manual/wttc-argentina-2026.csv",
+    "curatedSha256": "6f3b6d9a20fba5928cfd18aa354767e1b70113caca4ce8d7c56515daab36c411",
+    "dateColumn": "date",
+    "requiredPeriods": [
+      "2016-01-01",
+      "2017-01-01",
+      "2018-01-01",
+      "2019-01-01",
+      "2020-01-01",
+      "2021-01-01",
+      "2022-01-01",
+      "2023-01-01",
+      "2024-01-01",
+      "2025-01-01"
+    ],
+    "frequency": "annual",
+    "unit": "% del PIB a precios corrientes",
+    "valueKind": "percentage",
+    "isAutoUpdated": false,
+    "verifiedAt": "2026-11-12T14:31:39Z",
+    "sourcePublishedAt": "2026-07-13",
+    "series": [
+      {
+        "id": "direct-share",
+        "label": "Aporte directo",
+        "externalField": "direct-share"
+      },
+      {
+        "id": "total-share",
+        "label": "Aporte total (incluye el directo)",
+        "externalField": "total-share"
+      }
+    ],
+    "supportingSources": [
+      {
+        "label": "WTTC · informe Argentina EIR 2026",
+        "url": "https://researchhub.wttc.org/product/argentina-economic-impact-report"
+      },
+      {
+        "label": "WTTC · metodología EIR",
+        "url": "https://researchhub.wttc.org/product/economic-impact-research-eir-methodology"
+      },
+      {
+        "label": "WTTC · fuentes y técnicas de estimación",
+        "url": "https://researchhub.wttc.org/product/economic-impact-research-eir-data-sources-and-estimation-techniques"
+      }
+    ],
+    "transform": "Argentina: participaciones del turismo en el PIB a precios corrientes, edición WTTC EIR 2026, cifras finalizadas en abril de 2026. El aporte total incluye los impactos directo, indirecto e inducido; ambas curvas no se suman. Veinte valores numéricos del dashboard WTTC para 2016–2025, con los cinco decimales publicados. Los doce porcentajes 2020–2025 concilian con el cuadro nominal del informe, página impresa 15; el total 2019 concilia con la página 1. Revisión documentada del 12/11/2026; requiere revisar cada nueva edición de WTTC. Fuente: World Travel & Tourism Council: Travel & Tourism Economic Impact Research 2026. All rights reserved."
+  },
+  {
+    "id": "credit-bank-arrears",
+    "adapter": "credit",
+    "source": "BCRA · Informe sobre Bancos",
+    "sourceUrl": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-bancos-serie-2026-08.xlsx",
+    "frequency": "monthly",
+    "unit": "% del saldo de crédito del segmento",
+    "transform": "Saldo irregular sobre saldo de crédito de cada segmento, a fin de mes. Las categorías y el universo corresponden a la estadística bancaria del BCRA. Datos provisorios sujetos a revisión.",
+    "series": [
+      {
+        "id": "total",
+        "label": "Total privado",
+        "column": 1,
+        "headerToken": "Total sector privado"
+      },
+      {
+        "id": "companies",
+        "label": "Empresas",
+        "column": 2,
+        "headerToken": "Empresas"
+      },
+      {
+        "id": "households",
+        "label": "Familias",
+        "column": 3,
+        "headerToken": "Familias"
+      },
+      {
+        "id": "consumer",
+        "label": "Personales y tarjetas",
+        "column": 4,
+        "headerToken": "Personales"
+      }
+    ],
+    "resources": {
+      "workbook": {
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-bancos-serie-2026-08.xlsx",
+        "bcraCategory": "informe-sobre-bancos",
+        "filePattern": "informe-bancos-serie-\\d{4}-\\d{2}\\.xlsx$",
+        "label": "BCRA · Serie del Informe sobre Bancos"
+      }
+    },
+    "layout": "bank",
+    "sheet": "8",
+    "headerRows": 7,
+    "headerContains": ["Ratio de irregularidad", "Total sector privado", "Familias"],
+    "valueKind": "percentage",
+    "mergeHistory": true
+  },
+  {
+    "id": "credit-bank-stocks",
+    "adapter": "credit",
+    "source": "BCRA · Informe sobre Bancos",
+    "sourceUrl": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-bancos-serie-2026-08.xlsx",
+    "frequency": "monthly",
+    "unit": "índice de saldo real, diciembre de 2024=100",
+    "transform": "Hoja 9. Encadenamiento de las variaciones mensuales reales oficiales: I(t)=I(t−1)×(1+variación(t)/100), diciembre de 2024=100. No mide personas ni contratos. La baja de mora por pases fuera de balance no implica recuperación de pagos. Si falta el mes base o un cambio intermedio, se conserva el respaldo.",
+    "series": [
+      {
+        "id": "household_total",
+        "label": "Crédito familiar total",
+        "column": 5,
+        "headerToken": "saldo real total"
+      },
+      {
+        "id": "household_irregular",
+        "label": "Saldo familiar irregular",
+        "column": 6,
+        "headerToken": "saldo real irregular"
+      },
+      {
+        "id": "private_total",
+        "label": "Crédito privado total",
+        "column": 1,
+        "headerToken": "saldo real total"
+      },
+      {
+        "id": "private_irregular",
+        "label": "Saldo privado irregular",
+        "column": 2,
+        "headerToken": "saldo real irregular"
+      }
+    ],
+    "resources": {
+      "workbook": {
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-bancos-serie-2026-08.xlsx",
+        "bcraCategory": "informe-sobre-bancos",
+        "filePattern": "informe-bancos-serie-\\d{4}-\\d{2}\\.xlsx$",
+        "label": "BCRA · Serie del Informe sobre Bancos"
+      }
+    },
+    "layout": "bank",
+    "sheet": "9",
+    "headerContains": ["Sector privado", "Familias", "Var. % mensual del saldo real irregular"],
+    "operation": "chain",
+    "base": "2024-12-01",
+    "mergeHistory": true
+  },
+  {
+    "id": "credit-bank-monthly",
+    "adapter": "credit",
+    "source": "BCRA · Informe sobre Bancos",
+    "sourceUrl": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-bancos-serie-2026-08.xlsx",
+    "frequency": "monthly",
+    "unit": "% de variación mensual real",
+    "transform": "Hoja 9: variaciones mensuales reales publicadas, sin desestacionalizar. Los cambios pueden incluir reclasificaciones y pases a cuentas fuera de balance; no identifican por sí solos recuperaciones de crédito.",
+    "series": [
+      {
+        "id": "total",
+        "label": "Crédito familiar total",
+        "column": 5,
+        "headerToken": "saldo real total"
+      },
+      {
+        "id": "irregular",
+        "label": "Saldo familiar irregular",
+        "column": 6,
+        "headerToken": "saldo real irregular"
+      }
+    ],
+    "resources": {
+      "workbook": {
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-bancos-serie-2026-08.xlsx",
+        "bcraCategory": "informe-sobre-bancos",
+        "filePattern": "informe-bancos-serie-\\d{4}-\\d{2}\\.xlsx$",
+        "label": "BCRA · Serie del Informe sobre Bancos"
+      }
+    },
+    "layout": "bank",
+    "sheet": "9",
+    "headerContains": ["Familias", "Var. % mensual del saldo real irregular"],
+    "valueKind": "rate",
+    "mergeHistory": true
+  },
+  {
+    "id": "credit-retail-rates",
+    "adapter": "credit",
+    "source": "BCRA · Informe Monetario Mensual",
+    "sourceUrl": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-monetario-mensual-indicadores-2026-10.xlsx",
+    "frequency": "monthly",
+    "unit": "% nominal anual (TNA)",
+    "transform": "Promedios mensuales de la hoja Tasas. Personales y depósitos de personas humanas de hasta $1 millón a 30–35 días. La planilla contiene sólo meses seleccionados; los demás quedan nulos, sin interpolar. No es CFT ni margen neto bancario.",
+    "series": [
+      {
+        "id": "personal",
+        "label": "Préstamos personales"
+      },
+      {
+        "id": "deposit",
+        "label": "Plazo fijo minorista, 30–35 días"
+      }
+    ],
+    "resources": {
+      "workbook": {
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-monetario-mensual-indicadores-2026-10.xlsx",
+        "bcraCategory": "informe-monetario-mensual",
+        "filePattern": "informe-monetario-mensual-indicadores-\\d{4}-\\d{2}\\.xlsx$",
+        "label": "BCRA · Indicadores monetarios"
+      }
+    },
+    "layout": "retail",
+    "valueKind": "rate",
+    "mergeHistory": true,
+    "preserveObservedWhenOmitted": true
+  },
+  {
+    "id": "credit-retail-spread",
+    "adapter": "credit",
+    "source": "BCRA · Informe Monetario Mensual",
+    "sourceUrl": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-monetario-mensual-indicadores-2026-10.xlsx",
+    "frequency": "monthly",
+    "unit": "puntos porcentuales de TNA",
+    "transform": "Promedios mensuales de la hoja Tasas. Personales y depósitos de personas humanas de hasta $1 millón a 30–35 días. La planilla contiene sólo meses seleccionados; los demás quedan nulos, sin interpolar. No es CFT ni margen neto bancario. Spread = TNA personales − TNA plazo fijo minorista, con el mismo mes de observación.",
+    "series": [
+      {
+        "id": "spread",
+        "label": "Personales menos plazo fijo minorista"
+      }
+    ],
+    "resources": {
+      "workbook": {
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-monetario-mensual-indicadores-2026-10.xlsx",
+        "bcraCategory": "informe-monetario-mensual",
+        "filePattern": "informe-monetario-mensual-indicadores-\\d{4}-\\d{2}\\.xlsx$",
+        "label": "BCRA · Indicadores monetarios"
+      }
+    },
+    "layout": "retail",
+    "valueKind": "rate",
+    "mergeHistory": true,
+    "preserveObservedWhenOmitted": true
+  },
+  {
+    "id": "credit-rates",
+    "adapter": "credit",
+    "source": "BCRA · Tasas de interés",
+    "sourceUrl": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/preser_tas.xls",
+    "frequency": "monthly",
+    "unit": "% nominal anual (TNA)",
+    "transform": "Series mensuales preser_tas.xls (hoja Tasas_sector_privado) y pashis.xls (Serie_Mensual). Total de depositantes para plazo fijo de 30–59 días: universo diferente del plazo fijo minorista de 30–35 días. Tasas nominales sin CFT, cargos ni impuestos de un contrato individual.",
+    "series": [
+      {
+        "id": "personal",
+        "label": "Personales a tasa no nula"
+      },
+      {
+        "id": "deposit",
+        "label": "Plazo fijo en pesos, 30–59 días"
+      },
+      {
+        "id": "card",
+        "label": "Tarjetas a tasa no nula"
+      }
+    ],
+    "resources": {
+      "loans": {
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/preser_tas.xls",
+        "label": "BCRA · Tasas activas"
+      },
+      "deposits": {
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/pashis.xls",
+        "label": "BCRA · Tasas pasivas"
+      },
+      "ipc": {
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv",
+        "label": "INDEC · IPC nacional"
+      }
+    },
+    "layout": "rates",
+    "start": "2022-01-01",
+    "valueKind": "rate"
+  },
+  {
+    "id": "credit-spread",
+    "adapter": "credit",
+    "source": "BCRA · Tasas de interés",
+    "sourceUrl": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/preser_tas.xls",
+    "frequency": "monthly",
+    "unit": "puntos porcentuales de TNA",
+    "transform": "Series mensuales preser_tas.xls (hoja Tasas_sector_privado) y pashis.xls (Serie_Mensual). Total de depositantes para plazo fijo de 30–59 días: universo diferente del plazo fijo minorista de 30–35 días. Tasas nominales sin CFT, cargos ni impuestos de un contrato individual. Diferencia de las dos TNA del mismo mes; no representa rentabilidad bancaria. Los promedios anuales del informe son medias simples de los meses observados.",
+    "series": [
+      {
+        "id": "spread",
+        "label": "Personales menos plazo fijo, 30–59 días"
+      }
+    ],
+    "resources": {
+      "loans": {
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/preser_tas.xls",
+        "label": "BCRA · Tasas activas"
+      },
+      "deposits": {
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/pashis.xls",
+        "label": "BCRA · Tasas pasivas"
+      },
+      "ipc": {
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv",
+        "label": "INDEC · IPC nacional"
+      }
+    },
+    "layout": "spread",
+    "start": "2022-01-01",
+    "valueKind": "rate"
+  },
+  {
+    "id": "credit-real-rate",
+    "adapter": "credit",
+    "source": "BCRA · Tasas de interés e INDEC · IPC",
+    "sourceUrl": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/preser_tas.xls",
+    "frequency": "monthly",
+    "unit": "% mensual real, aproximación ex post",
+    "transform": "Elaboración propia: 100×[(1+TNA_personales/1200)/(IPC(t)/IPC(t−1))−1]. Usa inflación exacta del índice nacional del mismo mes y tasa mensual proporcional. Es una referencia contemporánea ex post sin cargos: no es CFT, tasa esperada ni costo de toda la vida del préstamo. Se utiliza sólo el período común de tasas e IPC.",
+    "series": [
+      {
+        "id": "real_personal",
+        "label": "Personales · tasa real mensual aproximada"
+      }
+    ],
+    "resources": {
+      "loans": {
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/preser_tas.xls",
+        "label": "BCRA · Tasas activas"
+      },
+      "deposits": {
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/pashis.xls",
+        "label": "BCRA · Tasas pasivas"
+      },
+      "ipc": {
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv",
+        "label": "INDEC · IPC nacional"
+      }
+    },
+    "layout": "real_rate",
+    "start": "2022-01-01",
+    "valueKind": "rate"
+  },
+  {
+    "id": "credit-employment",
+    "adapter": "credit",
+    "source": "SIPA · Trabajo registrado",
+    "sourceUrl": "https://www.argentina.gob.ar/sites/default/files/trabajoregistrado_2607_estadisticas.xlsx",
+    "frequency": "monthly",
+    "unit": "miles de personas, sin estacionalidad",
+    "transform": "Hoja T.2.2: empleo registrado en miles de personas, serie sin estacionalidad. No equivale a destrucción bruta de puestos ni a desocupación total. La comparación se inicia en noviembre de 2023 y admite revisiones del SIPA.",
+    "series": [
+      {
+        "id": "private",
+        "label": "Asalariados privados",
+        "column": 1,
+        "headerToken": "privado"
+      },
+      {
+        "id": "public",
+        "label": "Asalariados públicos",
+        "column": 2,
+        "headerToken": "público"
+      }
+    ],
+    "resources": {
+      "workbook": {
+        "url": "https://www.argentina.gob.ar/sites/default/files/trabajoregistrado_2607_estadisticas.xlsx",
+        "indexUrl": "https://www.argentina.gob.ar/trabajo/estadisticas/situacion-y-evolucion-del-trabajo-registrado",
+        "filePattern": "trabajoregistrado_\\d{4}_estadisticas\\.xlsx$",
+        "label": "SIPA · Trabajo registrado"
+      }
+    },
+    "layout": "employment",
+    "sheet": "T.2.2",
+    "headerRows": 18,
+    "headerContains": ["T.2.2", "estacionalidad"],
+    "start": "2023-11-01"
+  },
+  {
+    "id": "credit-real-wages",
+    "adapter": "credit",
+    "source": "INDEC · Índice de salarios e IPC",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/sociedad/indice_salarios.csv",
+    "frequency": "monthly",
+    "unit": "índice real, noviembre de 2023=100",
+    "transform": "Cada índice salarial nominal se divide por el IPC nacional y se rebasa a noviembre de 2023=100. Se usa el período común de ambos archivos. El privado no registrado es una estimación basada en información de hogares; no equivale a RIPTE. No mide renta disponible ni salarios de quienes perdieron el empleo.",
+    "series": [
+      {
+        "id": "private",
+        "label": "Privado registrado"
+      },
+      {
+        "id": "public",
+        "label": "Público"
+      },
+      {
+        "id": "total",
+        "label": "Total"
+      },
+      {
+        "id": "unregistered",
+        "label": "Privado no registrado"
+      }
+    ],
+    "resources": {
+      "wages": {
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/indice_salarios.csv",
+        "label": "INDEC · Índice de salarios"
+      },
+      "ipc": {
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv",
+        "label": "INDEC · IPC nacional"
+      }
+    },
+    "layout": "wages",
+    "start": "2023-11-01"
+  },
+  {
+    "id": "credit-prices-wages",
+    "adapter": "credit",
+    "source": "INDEC · Índice de salarios e IPC",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/sociedad/indice_salarios.csv",
+    "frequency": "monthly",
+    "unit": "índice nominal, noviembre de 2023=100",
+    "transform": "IPC general, división 4 de vivienda y servicios, e índice salarial privado registrado, cada uno rebasado a noviembre de 2023=100. Comparación al último mes común; no se mezcla un IPC más reciente con salarios rezagados.",
+    "series": [
+      {
+        "id": "ipc",
+        "label": "IPC nacional · nivel general"
+      },
+      {
+        "id": "housing",
+        "label": "Vivienda, agua, electricidad, gas y otros combustibles"
+      },
+      {
+        "id": "registered",
+        "label": "Salario privado registrado"
+      }
+    ],
+    "resources": {
+      "wages": {
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/indice_salarios.csv",
+        "label": "INDEC · Índice de salarios"
+      },
+      "ipc": {
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv",
+        "label": "INDEC · IPC nacional"
+      }
+    },
+    "layout": "prices_wages",
+    "start": "2023-11-01"
+  },
+  {
+    "id": "credit-supermarket-index",
+    "adapter": "credit",
+    "source": "INDEC · Encuesta de supermercados",
+    "sourceUrl": "https://infra.datos.gob.ar/catalog/sspm/dataset/455/distribution/455.1/download/ventas-totales-supermercados-2.csv",
+    "frequency": "monthly",
+    "unit": "índice real sin estacionalidad, noviembre de 2023=100",
+    "transform": "Índice oficial de ventas a precios constantes y desestacionalizado, rebasado a noviembre de 2023=100. Es un canal comercial específico: no mide el consumo total de los hogares.",
+    "series": [
+      {
+        "id": "sales",
+        "label": "Ventas reales desestacionalizadas",
+        "inputSeries": "455.1_VENTAS_PREADA_0_M_44_44"
+      }
+    ],
+    "resources": {
+      "input": {
+        "snapshot": "supermarkets",
+        "label": "INDEC · Supermercados"
+      }
+    },
+    "layout": "context",
+    "operation": "rebase",
+    "base": "2023-11-01"
+  },
+  {
+    "id": "credit-supermarket-ytd",
+    "adapter": "credit",
+    "source": "INDEC · Encuesta de supermercados",
+    "sourceUrl": "https://infra.datos.gob.ar/catalog/sspm/dataset/455/distribution/455.1/download/ventas-totales-supermercados-2.csv",
+    "frequency": "monthly",
+    "unit": "% acumulado del año vs. mismos meses del año de referencia",
+    "transform": "Se suman índices originales a precios constantes de enero al último mes de cada período y se comparan con exactamente los mismos meses de 2023 o del año anterior. No se compara un año parcial con un año completo. No es consumo nacional total.",
+    "series": [
+      {
+        "id": "vs2023",
+        "label": "Frente a 2023",
+        "inputSeries": "455.1_VENTAS_PRENAL_0_M_34_10",
+        "referenceYear": 2023
+      },
+      {
+        "id": "vsPrevious",
+        "label": "Frente al año anterior",
+        "inputSeries": "455.1_VENTAS_PRENAL_0_M_34_10"
+      }
+    ],
+    "resources": {
+      "input": {
+        "snapshot": "supermarkets",
+        "label": "INDEC · Supermercados"
+      }
+    },
+    "layout": "context",
+    "operation": "ytd",
+    "start": "2026-01-01",
+    "valueKind": "rate"
+  },
+  {
+    "id": "credit-arrears-lines",
+    "adapter": "credit",
+    "source": "BCRA · Informe sobre Bancos",
+    "sourceUrl": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-bancos-serie-2026-08.xlsx",
+    "frequency": "monthly",
+    "unit": "% del saldo de cada línea o sector",
+    "transform": "Hoja 10. Cartera irregular sobre saldo de cada línea familiar o actividad empresarial a fin de mes. El total es ponderado por montos y no el promedio simple de los sectores. Datos provisorios.",
+    "series": [
+      {
+        "id": "personal",
+        "label": "Personales",
+        "column": 1,
+        "headerToken": "Personales"
+      },
+      {
+        "id": "mortgage",
+        "label": "Hipotecarios",
+        "column": 2,
+        "headerToken": "Hipotecarios"
+      },
+      {
+        "id": "pledged",
+        "label": "Prendarios",
+        "column": 3,
+        "headerToken": "Prendarios"
+      },
+      {
+        "id": "cards",
+        "label": "Tarjetas",
+        "column": 4,
+        "headerToken": "Tarjetas"
+      },
+      {
+        "id": "households",
+        "label": "Total familias",
+        "column": 5,
+        "headerToken": "Total"
+      },
+      {
+        "id": "commerce",
+        "label": "Comercio",
+        "column": 8,
+        "headerToken": "Comercio"
+      },
+      {
+        "id": "construction",
+        "label": "Construcción",
+        "column": 9,
+        "headerToken": "Construcción"
+      },
+      {
+        "id": "industry",
+        "label": "Industria",
+        "column": 10,
+        "headerToken": "Industria"
+      },
+      {
+        "id": "primary",
+        "label": "Producción primaria",
+        "column": 11,
+        "headerToken": "Primaria"
+      },
+      {
+        "id": "services",
+        "label": "Servicios",
+        "column": 12,
+        "headerToken": "Servicios"
+      },
+      {
+        "id": "companies",
+        "label": "Total empresas",
+        "column": 13,
+        "headerToken": "Total"
+      }
+    ],
+    "resources": {
+      "workbook": {
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-bancos-serie-2026-08.xlsx",
+        "bcraCategory": "informe-sobre-bancos",
+        "filePattern": "informe-bancos-serie-\\d{4}-\\d{2}\\.xlsx$",
+        "label": "BCRA · Serie del Informe sobre Bancos"
+      }
+    },
+    "layout": "bank",
+    "sheet": "10",
+    "headerContains": ["Ratio de irregularidad", "Personales", "Empresas"],
+    "mergeHistory": true,
+    "valueKind": "percentage"
+  },
+  {
+    "id": "credit-sector-activity",
+    "adapter": "credit",
+    "source": "INDEC · EMAE por sector",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_emae_actividad_base2004.xls",
+    "frequency": "monthly",
+    "unit": "% acumulado del año vs. mismos meses de 2023",
+    "transform": "Comparación de la suma de índices originales de enero al mes observado con exactamente los mismos meses de 2023. El fuerte aumento agropecuario tiene una base afectada por la sequía de 2023. No se compara el acumulado parcial con todo 2023 ni se interpreta como incidencia.",
+    "series": [
+      {
+        "id": "mining",
+        "label": "Minas y canteras",
+        "inputSeries": "sector-4"
+      },
+      {
+        "id": "agriculture",
+        "label": "Agro",
+        "inputSeries": "agriculture"
+      },
+      {
+        "id": "industry",
+        "label": "Industria manufacturera",
+        "inputSeries": "sector-5"
+      },
+      {
+        "id": "construction",
+        "label": "Construcción",
+        "inputSeries": "sector-7"
+      },
+      {
+        "id": "commerce",
+        "label": "Comercio",
+        "inputSeries": "sector-8"
+      }
+    ],
+    "resources": {
+      "input": {
+        "snapshot": "emae-sectors",
+        "label": "INDEC · EMAE sectorial"
+      }
+    },
+    "layout": "context",
+    "operation": "ytd",
+    "start": "2026-01-01",
+    "referenceYear": 2023,
+    "valueKind": "rate"
+  },
+  {
+    "id": "credit-ecogo-national",
+    "adapter": "curated_csv_columns",
+    "source": "EcoGo · Universidad Austral",
+    "sourceUrl": "https://www.austral.edu.ar/wp-content/uploads/2026/10/Dossier_ECOGO_Austral_credito_familias_OCTUBRE_2026-005.pdf",
+    "frequency": "monthly",
+    "unit": "% del saldo de crédito informado",
+    "transform": "EcoGo y Universidad Austral, dossier de octubre de 2026, datos de agosto. Personas físicas y crédito informado en la Central de Deudores: situaciones 3 a 5. El procesamiento imputa hasta dos meses de saldos de otorgantes faltantes y elimina el registro desde el tercero; hay un quiebre de reporte en julio de 2024. No se empalma con la serie bancaria ni con Fortress. Página 9. Cada cociente usa el crédito de su segmento. La participación PNFC en el saldo nacional es 14,8%; no es su proporción de deudores. Transcripción verificada del PDF; actualización por revisión del dossier.",
+    "series": [
+      {
+        "id": "financial",
+        "label": "Sistema financiero",
+        "externalField": "financial"
+      },
+      {
+        "id": "nonbank",
+        "label": "Proveedores no financieros (PNFC)",
+        "externalField": "nonbank"
+      },
+      {
+        "id": "total",
+        "label": "Total",
+        "externalField": "total"
+      }
+    ],
+    "dateColumn": "date",
+    "curatedFile": "data/manual/credit-ecogo-national.csv",
+    "curatedSha256": "4e6f8eb2a86a323bea983a8c8265754756aaf47b2b94a9ebeff51fecf9ce7c19",
+    "isAutoUpdated": false,
+    "verifiedAt": "2026-11-13T03:33:51Z",
+    "valueKind": "percentage"
+  },
+  {
+    "id": "credit-ecogo-salta",
+    "adapter": "curated_csv_columns",
+    "source": "EcoGo · Universidad Austral",
+    "sourceUrl": "https://www.austral.edu.ar/wp-content/uploads/2026/10/Dossier_ECOGO_Austral_credito_familias_OCTUBRE_2026-005.pdf",
+    "frequency": "monthly",
+    "unit": "% del saldo de crédito informado",
+    "transform": "EcoGo y Universidad Austral, dossier de octubre de 2026, datos de agosto. Personas físicas y crédito informado en la Central de Deudores: situaciones 3 a 5. El procesamiento imputa hasta dos meses de saldos de otorgantes faltantes y elimina el registro desde el tercero; hay un quiebre de reporte en julio de 2024. No se empalma con la serie bancaria ni con Fortress. Páginas 9, 11 y 12. Mora por monto: no es porcentaje de familias. El crédito real salteño creció 0,5% interanual en este corte (página 6). Transcripción verificada del PDF; actualización por revisión del dossier.",
+    "series": [
+      {
+        "id": "salta",
+        "label": "Salta",
+        "externalField": "salta"
+      },
+      {
+        "id": "national",
+        "label": "Total nacional",
+        "externalField": "national"
+      },
+      {
+        "id": "salta_financial",
+        "label": "Salta · sistema financiero",
+        "externalField": "salta_financial"
+      },
+      {
+        "id": "national_financial",
+        "label": "Nación · sistema financiero",
+        "externalField": "national_financial"
+      },
+      {
+        "id": "salta_nonbank",
+        "label": "Salta · PNFC",
+        "externalField": "salta_nonbank"
+      },
+      {
+        "id": "national_nonbank",
+        "label": "Nación · PNFC",
+        "externalField": "national_nonbank"
+      }
+    ],
+    "dateColumn": "date",
+    "curatedFile": "data/manual/credit-ecogo-salta.csv",
+    "curatedSha256": "359f3f63ec01bdbd42c601d35f91d04feab5166cac6321d46820ac2a2e92cf05",
+    "isAutoUpdated": false,
+    "verifiedAt": "2026-11-13T03:33:51Z",
+    "valueKind": "percentage"
+  },
+  {
+    "id": "credit-ecogo-debtors",
+    "adapter": "curated_csv_columns",
+    "source": "EcoGo · Universidad Austral",
+    "sourceUrl": "https://www.austral.edu.ar/wp-content/uploads/2026/10/Dossier_ECOGO_Austral_credito_familias_OCTUBRE_2026-005.pdf",
+    "frequency": "monthly",
+    "unit": "% de los deudores observados",
+    "transform": "EcoGo y Universidad Austral, dossier de octubre de 2026, datos de agosto. Personas físicas y crédito informado en la Central de Deudores: situaciones 3 a 5. El procesamiento imputa hasta dos meses de saldos de otorgantes faltantes y elimina el registro desde el tercero; hay un quiebre de reporte en julio de 2024. No se empalma con la serie bancaria ni con Fortress. Página 9. Personas con al menos un saldo irregular sobre deudores observados. No es porcentaje del total de familias ni equivale a mora por monto. Transcripción verificada del PDF; actualización por revisión del dossier.",
+    "series": [
+      {
+        "id": "salta",
+        "label": "Salta",
+        "externalField": "salta"
+      },
+      {
+        "id": "national",
+        "label": "Total nacional",
+        "externalField": "national"
+      }
+    ],
+    "dateColumn": "date",
+    "curatedFile": "data/manual/credit-ecogo-debtors.csv",
+    "curatedSha256": "dd1236dc5baf76a6b68802bd2e372b2aa5fd4af44bd5b25b27b7de785cef6f81",
+    "isAutoUpdated": false,
+    "verifiedAt": "2026-11-13T03:33:51Z",
+    "valueKind": "percentage"
+  },
+  {
+    "id": "credit-provinces-amount",
+    "adapter": "curated_csv_columns",
+    "source": "EcoGo · Universidad Austral",
+    "sourceUrl": "https://www.austral.edu.ar/wp-content/uploads/2026/10/Dossier_ECOGO_Austral_credito_familias_OCTUBRE_2026-005.pdf",
+    "frequency": "monthly",
+    "unit": "% del saldo de crédito informado",
+    "transform": "EcoGo y Universidad Austral, dossier de octubre de 2026, datos de agosto. Personas físicas y crédito informado en la Central de Deudores: situaciones 3 a 5. El procesamiento imputa hasta dos meses de saldos de otorgantes faltantes y elimina el registro desde el tercero; hay un quiebre de reporte en julio de 2024. No se empalma con la serie bancaria ni con Fortress. Página 9. Veinticuatro jurisdicciones y referencia nacional, mismo mes y metodología. No son mediciones de la población total. Transcripción verificada del PDF; actualización por revisión del dossier.",
+    "series": [
+      {
+        "id": "province-1",
+        "label": "La Rioja",
+        "externalField": "province-1"
+      },
+      {
+        "id": "province-2",
+        "label": "Santa Cruz",
+        "externalField": "province-2"
+      },
+      {
+        "id": "province-3",
+        "label": "San Luis",
+        "externalField": "province-3"
+      },
+      {
+        "id": "province-4",
+        "label": "Catamarca",
+        "externalField": "province-4"
+      },
+      {
+        "id": "province-5",
+        "label": "San Juan",
+        "externalField": "province-5"
+      },
+      {
+        "id": "province-6",
+        "label": "Tucumán",
+        "externalField": "province-6"
+      },
+      {
+        "id": "province-7",
+        "label": "Buenos Aires",
+        "externalField": "province-7"
+      },
+      {
+        "id": "province-8",
+        "label": "Tierra del Fuego",
+        "externalField": "province-8"
+      },
+      {
+        "id": "province-9",
+        "label": "Formosa",
+        "externalField": "province-9"
+      },
+      {
+        "id": "province-10",
+        "label": "Corrientes",
+        "externalField": "province-10"
+      },
+      {
+        "id": "province-11",
+        "label": "Salta",
+        "externalField": "province-11"
+      },
+      {
+        "id": "province-12",
+        "label": "Santiago del Estero",
+        "externalField": "province-12"
+      },
+      {
+        "id": "province-13",
+        "label": "Chaco",
+        "externalField": "province-13"
+      },
+      {
+        "id": "province-14",
+        "label": "Mendoza",
+        "externalField": "province-14"
+      },
+      {
+        "id": "province-15",
+        "label": "Misiones",
+        "externalField": "province-15"
+      },
+      {
+        "id": "province-16",
+        "label": "Chubut",
+        "externalField": "province-16"
+      },
+      {
+        "id": "province-17",
+        "label": "Jujuy",
+        "externalField": "province-17"
+      },
+      {
+        "id": "province-18",
+        "label": "Río Negro",
+        "externalField": "province-18"
+      },
+      {
+        "id": "province-19",
+        "label": "Neuquén",
+        "externalField": "province-19"
+      },
+      {
+        "id": "province-20",
+        "label": "Santa Fe",
+        "externalField": "province-20"
+      },
+      {
+        "id": "province-21",
+        "label": "Córdoba",
+        "externalField": "province-21"
+      },
+      {
+        "id": "province-22",
+        "label": "Entre Ríos",
+        "externalField": "province-22"
+      },
+      {
+        "id": "province-23",
+        "label": "CABA",
+        "externalField": "province-23"
+      },
+      {
+        "id": "province-24",
+        "label": "La Pampa",
+        "externalField": "province-24"
+      },
+      {
+        "id": "province-25",
+        "label": "Total nacional",
+        "externalField": "province-25"
+      }
+    ],
+    "dateColumn": "date",
+    "curatedFile": "data/manual/credit-provinces-amount.csv",
+    "curatedSha256": "4f3c44d725032baeb817464ba7d978e3c58714e1bdb72be245ef9a3c14892000",
+    "isAutoUpdated": false,
+    "verifiedAt": "2026-11-13T03:33:51Z",
+    "valueKind": "percentage"
+  },
+  {
+    "id": "credit-provinces-debtors",
+    "adapter": "curated_csv_columns",
+    "source": "EcoGo · Universidad Austral",
+    "sourceUrl": "https://www.austral.edu.ar/wp-content/uploads/2026/10/Dossier_ECOGO_Austral_credito_familias_OCTUBRE_2026-005.pdf",
+    "frequency": "monthly",
+    "unit": "% de los deudores observados",
+    "transform": "EcoGo y Universidad Austral, dossier de octubre de 2026, datos de agosto. Personas físicas y crédito informado en la Central de Deudores: situaciones 3 a 5. El procesamiento imputa hasta dos meses de saldos de otorgantes faltantes y elimina el registro desde el tercero; hay un quiebre de reporte en julio de 2024. No se empalma con la serie bancaria ni con Fortress. Página 9. Veinticuatro jurisdicciones y referencia nacional, mismo mes y metodología. No son mediciones de la población total. Transcripción verificada del PDF; actualización por revisión del dossier.",
+    "series": [
+      {
+        "id": "province-1",
+        "label": "La Rioja",
+        "externalField": "province-1"
+      },
+      {
+        "id": "province-2",
+        "label": "Santa Cruz",
+        "externalField": "province-2"
+      },
+      {
+        "id": "province-3",
+        "label": "San Luis",
+        "externalField": "province-3"
+      },
+      {
+        "id": "province-4",
+        "label": "Catamarca",
+        "externalField": "province-4"
+      },
+      {
+        "id": "province-5",
+        "label": "San Juan",
+        "externalField": "province-5"
+      },
+      {
+        "id": "province-6",
+        "label": "Tucumán",
+        "externalField": "province-6"
+      },
+      {
+        "id": "province-7",
+        "label": "Buenos Aires",
+        "externalField": "province-7"
+      },
+      {
+        "id": "province-8",
+        "label": "Tierra del Fuego",
+        "externalField": "province-8"
+      },
+      {
+        "id": "province-9",
+        "label": "Formosa",
+        "externalField": "province-9"
+      },
+      {
+        "id": "province-10",
+        "label": "Corrientes",
+        "externalField": "province-10"
+      },
+      {
+        "id": "province-11",
+        "label": "Salta",
+        "externalField": "province-11"
+      },
+      {
+        "id": "province-12",
+        "label": "Santiago del Estero",
+        "externalField": "province-12"
+      },
+      {
+        "id": "province-13",
+        "label": "Chaco",
+        "externalField": "province-13"
+      },
+      {
+        "id": "province-14",
+        "label": "Mendoza",
+        "externalField": "province-14"
+      },
+      {
+        "id": "province-15",
+        "label": "Misiones",
+        "externalField": "province-15"
+      },
+      {
+        "id": "province-16",
+        "label": "Chubut",
+        "externalField": "province-16"
+      },
+      {
+        "id": "province-17",
+        "label": "Jujuy",
+        "externalField": "province-17"
+      },
+      {
+        "id": "province-18",
+        "label": "Río Negro",
+        "externalField": "province-18"
+      },
+      {
+        "id": "province-19",
+        "label": "Neuquén",
+        "externalField": "province-19"
+      },
+      {
+        "id": "province-20",
+        "label": "Santa Fe",
+        "externalField": "province-20"
+      },
+      {
+        "id": "province-21",
+        "label": "Córdoba",
+        "externalField": "province-21"
+      },
+      {
+        "id": "province-22",
+        "label": "Entre Ríos",
+        "externalField": "province-22"
+      },
+      {
+        "id": "province-23",
+        "label": "CABA",
+        "externalField": "province-23"
+      },
+      {
+        "id": "province-24",
+        "label": "La Pampa",
+        "externalField": "province-24"
+      },
+      {
+        "id": "province-25",
+        "label": "Total nacional",
+        "externalField": "province-25"
+      }
+    ],
+    "dateColumn": "date",
+    "curatedFile": "data/manual/credit-provinces-debtors.csv",
+    "curatedSha256": "9b9dadff7d0bb5e7bb3285cf96b6327d381a873487e3be7003bf8e087f80182e",
+    "isAutoUpdated": false,
+    "verifiedAt": "2026-11-13T03:33:51Z",
+    "valueKind": "percentage"
+  },
+  {
+    "id": "credit-ecogo-composition",
+    "adapter": "curated_csv_columns",
+    "source": "EcoGo · Universidad Austral",
+    "sourceUrl": "https://www.austral.edu.ar/wp-content/uploads/2026/10/Dossier_ECOGO_Austral_credito_familias_OCTUBRE_2026-005.pdf",
+    "frequency": "monthly",
+    "unit": "% del crédito informado",
+    "transform": "EcoGo y Universidad Austral, dossier de octubre de 2026, datos de agosto. Personas físicas y crédito informado en la Central de Deudores: situaciones 3 a 5. El procesamiento imputa hasta dos meses de saldos de otorgantes faltantes y elimina el registro desde el tercero; hay un quiebre de reporte en julio de 2024. No se empalma con la serie bancaria ni con Fortress. Resumen ejecutivo y metodología. La mora operativa excluye situación 5; ambos componentes suman 18,4% del crédito informado. No son probabilidades de entrada en mora. Transcripción verificada del PDF; actualización por revisión del dossier.",
+    "series": [
+      {
+        "id": "operational",
+        "label": "Mora operativa · situaciones 3 y 4",
+        "externalField": "operational"
+      },
+      {
+        "id": "unrecoverable",
+        "label": "Situación 5",
+        "externalField": "unrecoverable"
+      }
+    ],
+    "dateColumn": "date",
+    "curatedFile": "data/manual/credit-ecogo-composition.csv",
+    "curatedSha256": "2fb2cee351fb3bf93b66c06fafd746b90417a4c8adffe90565ade7533a5b17eb",
+    "isAutoUpdated": false,
+    "verifiedAt": "2026-11-13T03:33:51Z",
+    "valueKind": "percentage"
+  },
+  {
+    "id": "credit-fortress",
+    "adapter": "credit",
+    "source": "Fortress · Procesamiento de la Central de Deudores",
+    "sourceUrl": "https://fortressconsulting.com.ar/datos/mora-hogares.csv",
+    "frequency": "monthly",
+    "unit": "% del saldo informado por segmento",
+    "transform": "Procesamiento de Fortress de la Central de Deudores, con financiaciones y otros conceptos según su universo. Situaciones 3 a 5. No se empalma con EcoGo/Austral: diferencias de cobertura y procesamiento producen resultados distintos incluso en el mismo mes. Fuente complementaria del informe.",
+    "series": [
+      {
+        "id": "financial",
+        "label": "Bancos y financieras",
+        "externalField": "mora_bancos_financieras_pct"
+      },
+      {
+        "id": "nonbank",
+        "label": "Proveedores no bancarios",
+        "externalField": "mora_no_bancarios_pct"
+      },
+      {
+        "id": "total",
+        "label": "Total",
+        "externalField": "mora_todos_pct"
+      }
+    ],
+    "resources": {
+      "csv": {
+        "url": "https://fortressconsulting.com.ar/datos/mora-hogares.csv",
+        "label": "Fortress · Mora de hogares"
+      }
+    },
+    "layout": "fortress",
+    "valueKind": "percentage"
+  },
+  {
+    "id": "credit-default-probability",
+    "adapter": "credit",
+    "source": "BCRA · Informe sobre Bancos",
+    "sourceUrl": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-bancos-serie-2026-08.xlsx",
+    "frequency": "monthly",
+    "unit": "% del saldo regular tres meses antes",
+    "transform": "Hoja 11: probabilidad de default estimada (PDE), saldo que estaba regular tres meses antes y pasó a irregular. Mide transición; no es el porcentaje del stock que ya se encuentra en mora.",
+    "series": [
+      {
+        "id": "total",
+        "label": "Total privado",
+        "column": 3,
+        "headerToken": "Total"
+      },
+      {
+        "id": "households",
+        "label": "Familias",
+        "column": 2,
+        "headerToken": "Familias"
+      },
+      {
+        "id": "companies",
+        "label": "Empresas",
+        "column": 1,
+        "headerToken": "Empresas"
+      }
+    ],
+    "resources": {
+      "workbook": {
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-bancos-serie-2026-08.xlsx",
+        "bcraCategory": "informe-sobre-bancos",
+        "filePattern": "informe-bancos-serie-\\d{4}-\\d{2}\\.xlsx$",
+        "label": "BCRA · Serie del Informe sobre Bancos"
+      }
+    },
+    "layout": "bank",
+    "sheet": "11",
+    "headerContains": ["Probabilidad de Default Estimada", "PDE", "Familias"],
+    "mergeHistory": true,
+    "valueKind": "percentage"
+  },
+  {
+    "id": "credit-bank-solvency",
+    "adapter": "credit",
+    "source": "BCRA · Informe sobre Bancos",
+    "sourceUrl": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-bancos-2026-08.pdf",
+    "frequency": "monthly",
+    "unit": "% del denominador indicado en cada serie",
+    "transform": "Resumen ejecutivo del Informe sobre Bancos. Porcentajes con denominadores distintos, indicados en cada serie: no se suman ni expresan participación de un único total. RPC: responsabilidad patrimonial computable. Los cocientes de cobertura y capital no miden capacidad de pago de los hogares.",
+    "series": [
+      {
+        "id": "capital",
+        "label": "Capital regulatorio / activos ponderados por riesgo"
+      },
+      {
+        "id": "provisions",
+        "label": "Previsiones / cartera irregular"
+      },
+      {
+        "id": "net_irregular",
+        "label": "Cartera irregular neta / capital regulatorio"
+      }
+    ],
+    "resources": {
+      "report": {
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-bancos-2026-08.pdf",
+        "bcraCategory": "informe-sobre-bancos",
+        "filePattern": "informe-bancos-\\d{4}-\\d{2}\\.pdf$",
+        "label": "BCRA · Informe sobre Bancos"
+      }
+    },
+    "layout": "solvency",
+    "mergeHistory": true,
+    "valueKind": "level"
+  },
+  {
+    "id": "credit-inclusion-people",
+    "adapter": "credit",
+    "source": "BCRA · Informe de Inclusión Financiera",
+    "sourceUrl": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-inclusion-financiera-2026-S1-anexo-estadistico.xlsx",
+    "frequency": "monthly",
+    "unit": "millones de personas humanas",
+    "transform": "Anexo estadístico, gráfico 2.3.1. Cantidad de personas humanas con crédito en el universo del informe; no número de préstamos, ni total de hogares. Publicación semestral con observaciones mensuales.",
+    "series": [
+      {
+        "id": "people",
+        "label": "Personas con crédito",
+        "column": 2,
+        "headerToken": "PH con crédito"
+      }
+    ],
+    "resources": {
+      "workbook": {
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-inclusion-financiera-2026-S1-anexo-estadistico.xlsx",
+        "bcraCategory": "informe-inclusion-financiera",
+        "filePattern": "informe-inclusion-financiera-\\d{4}-S[12]-anexo-estadistico\\.xlsx$",
+        "label": "BCRA · Inclusión financiera"
+      }
+    },
+    "layout": "inclusion",
+    "sheet": "2.3.1",
+    "dateColumn": 1,
+    "headerContains": ["Financiamiento a personas humanas", "PH con crédito"],
+    "scale": 1e-6
+  },
+  {
+    "id": "credit-inclusion-coverage",
+    "adapter": "credit",
+    "source": "BCRA · Informe de Inclusión Financiera",
+    "sourceUrl": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-inclusion-financiera-2026-S1-anexo-estadistico.xlsx",
+    "frequency": "monthly",
+    "unit": "% de la población adulta de referencia",
+    "transform": "Anexo estadístico, gráfico 2.3.2: cantidad de deudores con crédito sobre población adulta de referencia. No es la proporción de deudores en mora. Publicación semestral con observaciones mensuales.",
+    "series": [
+      {
+        "id": "coverage",
+        "label": "Deudores sobre población adulta",
+        "column": 2,
+        "headerToken": "pob. adulta"
+      }
+    ],
+    "resources": {
+      "workbook": {
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-inclusion-financiera-2026-S1-anexo-estadistico.xlsx",
+        "bcraCategory": "informe-inclusion-financiera",
+        "filePattern": "informe-inclusion-financiera-\\d{4}-S[12]-anexo-estadistico\\.xlsx$",
+        "label": "BCRA · Inclusión financiera"
+      }
+    },
+    "layout": "inclusion",
+    "sheet": "2.3.2",
+    "dateColumn": 1,
+    "headerContains": ["Cobertura poblacional", "pob. adulta"],
+    "valueKind": "percentage"
+  },
+  {
+    "id": "credit-real-business-growth",
+    "adapter": "credit",
+    "source": "BCRA · Informe sobre Bancos",
+    "sourceUrl": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-bancos-serie-2026-08.xlsx",
+    "frequency": "monthly",
+    "unit": "% de variación interanual real",
+    "transform": "Hoja 2: cociente de niveles reales del mismo sector separados por doce meses, menos uno, por 100. El cambio de base del índice entre ediciones se cancela en este cociente; no se empalman índices con bases distintas. El total empresarial es ponderado, no la media simple de los sectores.",
+    "series": [
+      {
+        "id": "industry",
+        "label": "Industria",
+        "column": 1,
+        "headerToken": "Industria"
+      },
+      {
+        "id": "commerce",
+        "label": "Comercio",
+        "column": 2,
+        "headerToken": "Comercio"
+      },
+      {
+        "id": "construction",
+        "label": "Construcción",
+        "column": 3,
+        "headerToken": "Construcción"
+      },
+      {
+        "id": "primary",
+        "label": "Producción primaria",
+        "column": 4,
+        "headerToken": "primaria"
+      },
+      {
+        "id": "services",
+        "label": "Servicios",
+        "column": 5,
+        "headerToken": "Servicios"
+      },
+      {
+        "id": "companies",
+        "label": "Total empresas",
+        "column": 6,
+        "headerToken": "Total empresas"
+      }
+    ],
+    "resources": {
+      "workbook": {
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-bancos-serie-2026-08.xlsx",
+        "bcraCategory": "informe-sobre-bancos",
+        "filePattern": "informe-bancos-serie-\\d{4}-\\d{2}\\.xlsx$",
+        "label": "BCRA · Serie del Informe sobre Bancos"
+      }
+    },
+    "layout": "bank",
+    "sheet": "2",
+    "headerContains": ["Saldo real de crédito total", "Por segmento", "Total empresas"],
+    "operation": "yoy",
+    "valueKind": "rate",
+    "mergeHistory": true
+  },
+  {
+    "id": "credit-employment-change",
+    "adapter": "credit",
+    "source": "SIPA · Trabajo registrado",
+    "sourceUrl": "https://www.argentina.gob.ar/sites/default/files/trabajoregistrado_2607_estadisticas.xlsx",
+    "frequency": "monthly",
+    "unit": "miles de personas respecto de noviembre de 2023",
+    "transform": "Diferencia del nivel desestacionalizado de empleo registrado respecto de noviembre de 2023. Se mide en miles de personas: la variación neta no equivale a destrucción bruta de puestos ni a desocupación total.",
+    "series": [
+      {
+        "id": "private",
+        "label": "Asalariados privados",
+        "column": 1,
+        "headerToken": "privado"
+      },
+      {
+        "id": "public",
+        "label": "Asalariados públicos",
+        "column": 2,
+        "headerToken": "público"
+      }
+    ],
+    "resources": {
+      "workbook": {
+        "url": "https://www.argentina.gob.ar/sites/default/files/trabajoregistrado_2607_estadisticas.xlsx",
+        "indexUrl": "https://www.argentina.gob.ar/trabajo/estadisticas/situacion-y-evolucion-del-trabajo-registrado",
+        "filePattern": "trabajoregistrado_\\d{4}_estadisticas\\.xlsx$",
+        "label": "SIPA · Trabajo registrado"
+      }
+    },
+    "layout": "employment",
+    "sheet": "T.2.2",
+    "headerRows": 18,
+    "headerContains": ["T.2.2", "estacionalidad"],
+    "start": "2023-11-01",
+    "operation": "difference",
+    "base": "2023-11-01",
+    "valueKind": "rate"
+  },
+  {
+    "id": "credit-prices",
+    "adapter": "credit",
+    "source": "INDEC · IPC nacional",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv",
+    "frequency": "monthly",
+    "unit": "índice de precios, noviembre de 2023=100",
+    "transform": "IPC nacional, nivel general y división 4. Las variaciones se calculan con los niveles exactos del índice, no con tasas publicadas redondeadas. La división de vivienda incluye alquileres y otros componentes además de tarifas. Los precios se muestran hasta su último dato disponible; el gráfico de salarios utiliza su propio corte común.",
+    "series": [
+      {
+        "id": "ipc",
+        "label": "Nivel general"
+      },
+      {
+        "id": "housing",
+        "label": "Vivienda, agua, electricidad, gas y otros combustibles"
+      }
+    ],
+    "resources": {
+      "ipc": {
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv",
+        "label": "INDEC · IPC nacional"
+      }
+    },
+    "layout": "prices",
+    "start": "2023-11-01",
+    "base": "2023-11-01",
+    "operation": "rebase",
+    "valueKind": "level"
+  },
+  {
+    "id": "credit-inflation-monthly",
+    "adapter": "credit",
+    "source": "INDEC · IPC nacional",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv",
+    "frequency": "monthly",
+    "unit": "% de variación mensual",
+    "transform": "IPC nacional, nivel general y división 4. Las variaciones se calculan con los niveles exactos del índice, no con tasas publicadas redondeadas. La división de vivienda incluye alquileres y otros componentes además de tarifas. Los precios se muestran hasta su último dato disponible; el gráfico de salarios utiliza su propio corte común.",
+    "series": [
+      {
+        "id": "ipc",
+        "label": "Nivel general"
+      },
+      {
+        "id": "housing",
+        "label": "Vivienda, agua, electricidad, gas y otros combustibles"
+      }
+    ],
+    "resources": {
+      "ipc": {
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv",
+        "label": "INDEC · IPC nacional"
+      }
+    },
+    "layout": "prices",
+    "start": "2023-11-01",
+    "base": "2023-11-01",
+    "operation": "mom",
+    "valueKind": "rate"
+  },
+  {
+    "id": "credit-inflation-yearly",
+    "adapter": "credit",
+    "source": "INDEC · IPC nacional",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv",
+    "frequency": "monthly",
+    "unit": "% de variación interanual",
+    "transform": "IPC nacional, nivel general y división 4. Las variaciones se calculan con los niveles exactos del índice, no con tasas publicadas redondeadas. La división de vivienda incluye alquileres y otros componentes además de tarifas. Los precios se muestran hasta su último dato disponible; el gráfico de salarios utiliza su propio corte común.",
+    "series": [
+      {
+        "id": "ipc",
+        "label": "Nivel general"
+      },
+      {
+        "id": "housing",
+        "label": "Vivienda, agua, electricidad, gas y otros combustibles"
+      }
+    ],
+    "resources": {
+      "ipc": {
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv",
+        "label": "INDEC · IPC nacional"
+      }
+    },
+    "layout": "prices",
+    "start": "2023-11-01",
+    "base": "2023-11-01",
+    "operation": "yoy",
+    "valueKind": "rate"
+  },
+  {
+    "id": "mining-general",
+    "adapter": "sector",
+    "source": "INDEC · IPI minero",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipi_minero.xlsx",
+    "frequency": "monthly",
+    "unit": "índice, base 2016=100",
+    "series": [
+      {
+        "id": "original",
+        "label": "Original",
+        "column": 3,
+        "headerToken": "Serie original"
+      },
+      {
+        "id": "adjusted",
+        "label": "Desestacionalizada",
+        "column": 7,
+        "headerToken": "Serie desestacionalizada"
+      },
+      {
+        "id": "trend",
+        "label": "Tendencia-ciclo",
+        "column": 10,
+        "headerToken": "Serie tendencia-ciclo"
+      }
+    ],
+    "resources": {
+      "workbook": {
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipi_minero.xlsx",
+        "label": "INDEC · Series del IPI minero"
+      }
+    },
+    "layout": "mining",
+    "transform": "Serie oficial del INDEC. Base 2016=100. Los valores s (secreto estadístico), no disponibles y que no corresponde presentar se conservan como nulos. El guion de cero absoluto se conserva como cero. Los índices de categorías y subclases no se suman sin ponderaciones. Original, desestacionalizada y tendencia-ciclo son series distintas; se incorporan las revisiones del archivo.",
+    "sheet": "Cuadro 1",
+    "headerContains": ["Cuadro 1", "base 2016=100", "números índice"],
+    "headerRow": 3,
+    "supportingSources": [
+      {
+        "label": "IPI minero · Publicaciones y metodología",
+        "url": "https://www.indec.gob.ar/Nivel4/Tema/3/7/172"
+      }
+    ]
+  },
+  {
+    "id": "mining-sector-yoy",
+    "adapter": "sector",
+    "source": "INDEC · IPI minero",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipi_minero.xlsx",
+    "frequency": "monthly",
+    "unit": "% de variación interanual",
+    "series": [
+      {
+        "id": "m3",
+        "label": "Nivel general",
+        "column": 3,
+        "headerToken": "Nivel general",
+        "externalLabel": "Nivel general"
+      },
+      {
+        "id": "m4",
+        "label": "Petróleo, gas y servicios de apoyo",
+        "column": 4,
+        "headerToken": "Extracción de petróleo crudo y gas natural y servicios de apoyo",
+        "externalLabel": "Extracción de petróleo crudo y gas natural y servicios de apoyo"
+      },
+      {
+        "id": "m5",
+        "label": "Petróleo crudo",
+        "column": 5,
+        "headerToken": "Petróleo crudo",
+        "externalLabel": "Petróleo crudo"
+      },
+      {
+        "id": "m6",
+        "label": "Gas natural",
+        "column": 6,
+        "headerToken": "Gas natural",
+        "externalLabel": "Gas natural"
+      },
+      {
+        "id": "m7",
+        "label": "Servicios de apoyo a petróleo y gas",
+        "column": 7,
+        "headerToken": "Servicios de apoyo para la extracción de petróleo crudo y gas natural",
+        "externalLabel": "Servicios de apoyo para la extracción de petróleo crudo y gas natural"
+      },
+      {
+        "id": "m8",
+        "label": "Minerales metalíferos",
+        "column": 8,
+        "headerToken": "Extracción de minerales metalíferos",
+        "externalLabel": "Extracción de minerales metalíferos"
+      },
+      {
+        "id": "m9",
+        "label": "Plata y oro y sus concentrados",
+        "column": 9,
+        "headerToken": "Plata y oro y sus concentrados",
+        "externalLabel": "Plata y oro y sus concentrados"
+      },
+      {
+        "id": "m10",
+        "label": "Bullón dorado, doré",
+        "column": 10,
+        "headerToken": "Bullón Dorado, Doré",
+        "externalLabel": "Bullón Dorado, Doré"
+      },
+      {
+        "id": "m11",
+        "label": "Otros minerales metalíferos",
+        "column": 11,
+        "headerToken": "Resto (incluye hierro, cobre, plomo, cinc, molibdeno y otros minerales metalíferos no ferrosos y sus concentrados)",
+        "externalLabel": "Resto (incluye hierro, cobre, plomo, cinc, molibdeno y otros minerales metalíferos no ferrosos y sus concentrados)"
+      },
+      {
+        "id": "m12",
+        "label": "No metalíferos y rocas de aplicación",
+        "column": 12,
+        "headerToken": "Extracción de minerales no metalíferos y rocas de aplicación",
+        "externalLabel": "Extracción de minerales no metalíferos y rocas de aplicación"
+      },
+      {
+        "id": "m13",
+        "label": "Rocas ornamentales",
+        "column": 13,
+        "headerToken": "Extracción de rocas ornamentales",
+        "externalLabel": "Extracción de rocas ornamentales"
+      },
+      {
+        "id": "m14",
+        "label": "Granito",
+        "column": 14,
+        "headerToken": "Granito",
+        "externalLabel": "Granito"
+      },
+      {
+        "id": "m15",
+        "label": "Piedra laja",
+        "column": 15,
+        "headerToken": "Piedra laja",
+        "externalLabel": "Piedra laja"
+      },
+      {
+        "id": "m16",
+        "label": "Dolomita cruda",
+        "column": 16,
+        "headerToken": "Dolomita cruda, excepto para uso de cal o cemento",
+        "externalLabel": "Dolomita cruda, excepto para uso de cal o cemento"
+      },
+      {
+        "id": "m17",
+        "label": "Otras rocas ornamentales",
+        "column": 17,
+        "headerToken": "Resto (incluye mármol, travertino, areniscas y pórfido en bochones o escallas, bloques o aserrado en placas cuadradas o rectangulares y rocas de cuarcita)",
+        "externalLabel": "Resto (incluye mármol, travertino, areniscas y pórfido en bochones o escallas, bloques o aserrado en placas cuadradas o rectangulares y rocas de cuarcita)"
+      },
+      {
+        "id": "m18",
+        "label": "Piedra caliza y yeso",
+        "column": 18,
+        "headerToken": "Extracción de piedra caliza y yeso",
+        "externalLabel": "Extracción de piedra caliza y yeso"
+      },
+      {
+        "id": "m19",
+        "label": "Yeso",
+        "column": 19,
+        "headerToken": "Yeso",
+        "externalLabel": "Yeso"
+      },
+      {
+        "id": "m20",
+        "label": "Caliza para cal o cemento",
+        "column": 20,
+        "headerToken": "Roca o piedra caliza, conchilla y piedras o rocas calcáreas para la producción de cal y/o cemento",
+        "externalLabel": "Roca o piedra caliza, conchilla y piedras o rocas calcáreas para la producción de cal y/o cemento"
+      },
+      {
+        "id": "m21",
+        "label": "Clínker",
+        "column": 21,
+        "headerToken": "Clínker",
+        "externalLabel": "Clínker"
+      },
+      {
+        "id": "m22",
+        "label": "Arenas, canto rodado y triturados",
+        "column": 22,
+        "headerToken": "Extracción de arenas, canto rodado y triturados pétreos",
+        "externalLabel": "Extracción de arenas, canto rodado y triturados pétreos"
+      },
+      {
+        "id": "m23",
+        "label": "Arena común para construcción",
+        "column": 23,
+        "headerToken": "Arena común para construcción",
+        "externalLabel": "Arena común para construcción"
+      },
+      {
+        "id": "m24",
+        "label": "Arenas industriales y silíceas",
+        "column": 24,
+        "headerToken": "Arenas industriales y arenas y gravas silíceas",
+        "externalLabel": "Arenas industriales y arenas y gravas silíceas"
+      },
+      {
+        "id": "m25",
+        "label": "Arenas de fractura",
+        "column": 25,
+        "headerToken": "Arenas de fractura (fracking)",
+        "externalLabel": "Arenas de fractura (fracking)"
+      },
+      {
+        "id": "m26",
+        "label": "Rocas para triturados pétreos",
+        "column": 26,
+        "headerToken": "Rocas para triturados pétreos sin clasificar",
+        "externalLabel": "Rocas para triturados pétreos sin clasificar"
+      },
+      {
+        "id": "m27",
+        "label": "Canto rodado, granza y ripio",
+        "column": 27,
+        "headerToken": "Canto rodado, granza y/o ripio",
+        "externalLabel": "Canto rodado, granza y/o ripio"
+      },
+      {
+        "id": "m28",
+        "label": "Otros áridos",
+        "column": 28,
+        "headerToken": "Resto (incluye roca o piedra caliza para construcción, dolomita para la producción de cal y cemento y áridos sin clasificar)",
+        "externalLabel": "Resto (incluye roca o piedra caliza para construcción, dolomita para la producción de cal y cemento y áridos sin clasificar)"
+      },
+      {
+        "id": "m29",
+        "label": "Arcilla y caolín",
+        "column": 29,
+        "headerToken": "Extracción de arcilla y caolín",
+        "externalLabel": "Extracción de arcilla y caolín"
+      },
+      {
+        "id": "m30",
+        "label": "Caolín y bentonita",
+        "column": 30,
+        "headerToken": "Caolín y bentonita",
+        "externalLabel": "Caolín y bentonita"
+      },
+      {
+        "id": "m31",
+        "label": "Arcilla común",
+        "column": 31,
+        "headerToken": "Arcilla común (cerámicas, ferruginosas, misceláneas)",
+        "externalLabel": "Arcilla común (cerámicas, ferruginosas, misceláneas)"
+      },
+      {
+        "id": "m32",
+        "label": "Arcillas plásticas",
+        "column": 32,
+        "headerToken": "Arcillas plásticas",
+        "externalLabel": "Arcillas plásticas"
+      },
+      {
+        "id": "m33",
+        "label": "Zeolita natural y limo arcilloso",
+        "column": 33,
+        "headerToken": "Zeolita natural (no sintetizado) y limo arcilloso para ladrillos y cerámicas rojas",
+        "externalLabel": "Zeolita natural (no sintetizado) y limo arcilloso para ladrillos y cerámicas rojas"
+      },
+      {
+        "id": "m34",
+        "label": "Minerales para productos químicos",
+        "column": 34,
+        "headerToken": "Extracción de minerales para la fabricación de productos químicos",
+        "externalLabel": "Extracción de minerales para la fabricación de productos químicos"
+      },
+      {
+        "id": "m35",
+        "label": "Carbonato y otros minerales de litio",
+        "column": 35,
+        "headerToken": "Carbonato de litio y otros minerales de litio",
+        "externalLabel": "Carbonato de litio y otros minerales de litio"
+      },
+      {
+        "id": "m36",
+        "label": "Calcita y carbonato de calcio",
+        "column": 36,
+        "headerToken": "Calcita/carbonato de calcio",
+        "externalLabel": "Calcita/carbonato de calcio"
+      },
+      {
+        "id": "m37",
+        "label": "Minerales de boro",
+        "column": 37,
+        "headerToken": "Minerales de boro (incluye tinkal, ulexita, hidroboracita, colemanita y otros minerales de boro)",
+        "externalLabel": "Minerales de boro (incluye tinkal, ulexita, hidroboracita, colemanita y otros minerales de boro)"
+      },
+      {
+        "id": "m38",
+        "label": "Otros minerales para químicos",
+        "column": 38,
+        "headerToken": "Resto (incluye sulfato de sodio natural, serpentinita para uso industrial y piedra caliza para uso industrial)",
+        "externalLabel": "Resto (incluye sulfato de sodio natural, serpentinita para uso industrial y piedra caliza para uso industrial)"
+      },
+      {
+        "id": "m39",
+        "label": "Sal",
+        "column": 39,
+        "headerToken": "Extracción de sal",
+        "externalLabel": "Extracción de sal"
+      },
+      {
+        "id": "m40",
+        "label": "Salmuera o solución saturada",
+        "column": 40,
+        "headerToken": "Salmuera o solución saturada de sal",
+        "externalLabel": "Salmuera o solución saturada de sal"
+      },
+      {
+        "id": "m41",
+        "label": "Sales refinadas e industriales",
+        "column": 41,
+        "headerToken": "Sal refinada, sal yodada y/o fluorada o sal de mesa y sal industrial o desnaturalizada",
+        "externalLabel": "Sal refinada, sal yodada y/o fluorada o sal de mesa y sal industrial o desnaturalizada"
+      },
+      {
+        "id": "m42",
+        "label": "Cloruro de sodio puro",
+        "column": 42,
+        "headerToken": "Cloruro de sodio puro",
+        "externalLabel": "Cloruro de sodio puro"
+      },
+      {
+        "id": "m43",
+        "label": "Carbón, turba y otras minas y canteras",
+        "column": 43,
+        "headerToken": "Extracción y aglomeración de carbón, de turba y explotación de minas y canteras n.c.p.",
+        "externalLabel": "Extracción y aglomeración de carbón, de turba y explotación de minas y canteras n.c.p."
+      },
+      {
+        "id": "m44",
+        "label": "Turba",
+        "column": 44,
+        "headerToken": "Turba",
+        "externalLabel": "Turba"
+      },
+      {
+        "id": "m45",
+        "label": "Puzolana y feldespatos",
+        "column": 45,
+        "headerToken": "Puzolana, feldespato potásico (microclino, ortosa) y feldespato sódico (albita)",
+        "externalLabel": "Puzolana, feldespato potásico (microclino, ortosa) y feldespato sódico (albita)"
+      },
+      {
+        "id": "m46",
+        "label": "Suelo seleccionado para relleno",
+        "column": 46,
+        "headerToken": "Suelo seleccionado y/o estabilizado para relleno",
+        "externalLabel": "Suelo seleccionado y/o estabilizado para relleno"
+      },
+      {
+        "id": "m47",
+        "label": "Cuarzo y cuarzo amatista",
+        "column": 47,
+        "headerToken": "Cuarzo amatista y cuarzo",
+        "externalLabel": "Cuarzo amatista y cuarzo"
+      },
+      {
+        "id": "m48",
+        "label": "Diatomita y perlita",
+        "column": 48,
+        "headerToken": "Diatomita y perlita",
+        "externalLabel": "Diatomita y perlita"
+      },
+      {
+        "id": "m49",
+        "label": "Otras minas y canteras",
+        "column": 49,
+        "headerToken": "Resto (incluye carbón térmico, ágata, cristal de roca, rodocrosita, abrasivos naturales, talco, mica en láminas u hojas y baritina -incluye uso petrolero-)",
+        "externalLabel": "Resto (incluye carbón térmico, ágata, cristal de roca, rodocrosita, abrasivos naturales, talco, mica en láminas u hojas y baritina -incluye uso petrolero-)"
+      }
+    ],
+    "resources": {
+      "workbook": {
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipi_minero.xlsx",
+        "label": "INDEC · Series del IPI minero"
+      }
+    },
+    "layout": "mining",
+    "transform": "Serie oficial del INDEC. Base 2016=100. Los valores s (secreto estadístico), no disponibles y que no corresponde presentar se conservan como nulos. El guion de cero absoluto se conserva como cero. Los índices de categorías y subclases no se suman sin ponderaciones. Variaciones interanuales oficiales por categoría y subclase.",
+    "sheet": "Cuadro 3",
+    "headerContains": ["Cuadro 3", "variación porcentual interanual"],
+    "headerRow": 4,
+    "supportingSources": [
+      {
+        "label": "IPI minero · Publicaciones y metodología",
+        "url": "https://www.indec.gob.ar/Nivel4/Tema/3/7/172"
+      }
+    ],
+    "valueKind": "rate"
+  },
+  {
+    "id": "mining-oil",
+    "adapter": "sector",
+    "source": "INDEC · IPI minero",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipi_minero.xlsx",
+    "frequency": "monthly",
+    "unit": "miles de m³",
+    "series": [
+      {
+        "id": "total",
+        "label": "Total",
+        "column": 3,
+        "headerToken": "Petróleo crudo"
+      },
+      {
+        "id": "conventional",
+        "label": "Convencional",
+        "column": 4,
+        "headerToken": "convencional"
+      },
+      {
+        "id": "unconventional",
+        "label": "No convencional",
+        "column": 5,
+        "headerToken": "no convencional"
+      }
+    ],
+    "resources": {
+      "workbook": {
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipi_minero.xlsx",
+        "label": "INDEC · Series del IPI minero"
+      }
+    },
+    "layout": "mining",
+    "transform": "Serie oficial del INDEC. Base 2016=100. Los valores s (secreto estadístico), no disponibles y que no corresponde presentar se conservan como nulos. El guion de cero absoluto se conserva como cero. Los índices de categorías y subclases no se suman sin ponderaciones. Volumen mensual oficial del INDEC sobre datos de la Secretaría de Energía. La categoría no convencional no identifica exclusivamente Vaca Muerta. Se conservan todos los meses disponibles y no se interpolan observaciones.",
+    "sheet": "Cuadro 5",
+    "headerContains": ["Petróleo crudo", "convencional", "miles de m³"],
+    "headerRow": 4,
+    "supportingSources": [
+      {
+        "label": "IPI minero · Publicaciones y metodología",
+        "url": "https://www.indec.gob.ar/Nivel4/Tema/3/7/172"
+      }
+    ]
+  },
+  {
+    "id": "mining-lithium",
+    "adapter": "sector",
+    "source": "INDEC · IPI minero",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipi_minero.xlsx",
+    "frequency": "monthly",
+    "unit": "toneladas",
+    "series": [
+      {
+        "id": "carbonate",
+        "label": "Carbonato de litio",
+        "column": 3,
+        "headerToken": "Carbonato de litio"
+      }
+    ],
+    "resources": {
+      "workbook": {
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipi_minero.xlsx",
+        "label": "INDEC · Series del IPI minero"
+      }
+    },
+    "layout": "mining",
+    "transform": "Serie oficial del INDEC. Base 2016=100. Los valores s (secreto estadístico), no disponibles y que no corresponde presentar se conservan como nulos. El guion de cero absoluto se conserva como cero. Los índices de categorías y subclases no se suman sin ponderaciones. Producción física de carbonato de litio. Las observaciones públicas comienzan en junio de 2023; el secreto estadístico de meses anteriores no se transforma en cero. No equivale al índice agregado de carbonato y otros minerales de litio.",
+    "sheet": "Cuadro 7",
+    "headerContains": ["Cuadro 7", "Carbonato de litio", "toneladas"],
+    "headerRow": 5,
+    "supportingSources": [
+      {
+        "label": "IPI minero · Publicaciones y metodología",
+        "url": "https://www.indec.gob.ar/Nivel4/Tema/3/7/172"
+      }
+    ]
+  },
+  {
+    "id": "labor-stocks",
+    "adapter": "sector",
+    "source": "INDEC · EPH",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/sociedad/cuadros_tasas_indicadores_eph_09_26.xls",
+    "frequency": "quarterly",
+    "unit": "miles de personas",
+    "series": [
+      {
+        "id": "population",
+        "label": "Población total",
+        "rowLabel": "Población total 31 aglomerados urbanos"
+      },
+      {
+        "id": "active",
+        "label": "Población económicamente activa",
+        "rowLabel": "Población económicamente activa"
+      },
+      {
+        "id": "employed",
+        "label": "Ocupados",
+        "rowLabel": "Población ocupada"
+      },
+      {
+        "id": "unemployed",
+        "label": "Desocupados",
+        "rowLabel": "Población desocupada"
+      },
+      {
+        "id": "informal",
+        "label": "Ocupados informales",
+        "rowLabel": "Población con empleo informal (3)"
+      },
+      {
+        "id": "other_employed",
+        "label": "Resto de ocupados"
+      }
+    ],
+    "resources": {
+      "workbook": {
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/cuadros_tasas_indicadores_eph_09_26.xls",
+        "label": "INDEC · Series de la EPH",
+        "indexUrl": "https://www.indec.gob.ar/Nivel4/Tema/4/31/58",
+        "filePattern": "cuadros_tasas_indicadores_eph_\\d{2}_\\d{2}\\.xls$",
+        "monthYearRelease": true
+      }
+    },
+    "layout": "eph",
+    "transform": "Encuesta Permanente de Hogares, total de 31 aglomerados urbanos: no equivale a toda la población argentina. Niveles en miles de personas, con la precisión de la planilla oficial. Comparaciones interanuales entre el mismo trimestre de años consecutivos. La formalidad se mide con el cuestionario ampliado desde el cuarto trimestre de 2023. Al ampliar la historia, el tercer trimestre de 2019 excluye Gran Resistencia y el tercero de 2020 excluye Ushuaia–Río Grande. Resto de ocupados = ocupados menos ocupados informales; puede incluir hasta 0,2% sin dato de formalidad. No se lo identifica como empleo formal ni como empleo registrado SIPA.",
+    "kind": "stocks"
+  },
+  {
+    "id": "labor-rates",
+    "adapter": "sector",
+    "source": "INDEC · EPH",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/sociedad/cuadros_tasas_indicadores_eph_09_26.xls",
+    "frequency": "quarterly",
+    "unit": "%, denominador según indicador",
+    "series": [
+      {
+        "id": "activity",
+        "label": "Actividad",
+        "rowLabel": "Actividad",
+        "sheet": "Cuadro 1.1"
+      },
+      {
+        "id": "employment",
+        "label": "Empleo",
+        "rowLabel": "Empleo",
+        "sheet": "Cuadro 1.1"
+      },
+      {
+        "id": "unemployment",
+        "label": "Desocupación",
+        "rowLabel": "Desocupación abierta",
+        "sheet": "Cuadro 1.1"
+      },
+      {
+        "id": "informality",
+        "label": "Informalidad",
+        "rowLabel": "Tasa de informalidad"
+      }
+    ],
+    "resources": {
+      "workbook": {
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/cuadros_tasas_indicadores_eph_09_26.xls",
+        "label": "INDEC · Series de la EPH",
+        "indexUrl": "https://www.indec.gob.ar/Nivel4/Tema/4/31/58",
+        "filePattern": "cuadros_tasas_indicadores_eph_\\d{2}_\\d{2}\\.xls$",
+        "monthYearRelease": true
+      }
+    },
+    "layout": "eph",
+    "transform": "Encuesta Permanente de Hogares, total de 31 aglomerados urbanos: no equivale a toda la población argentina. Comparaciones interanuales entre el mismo trimestre de años consecutivos. La formalidad se mide con el cuestionario ampliado desde el cuarto trimestre de 2023. Al ampliar la historia, el tercer trimestre de 2019 excluye Gran Resistencia y el tercero de 2020 excluye Ushuaia–Río Grande. Actividad y empleo: porcentaje de la población cubierta. Desocupación: porcentaje de la PEA. Informalidad: porcentaje de los ocupados. Se usan las tasas oficiales publicadas; no se recalculan con niveles redondeados. Actividad, empleo y desocupación se leen del cuadro principal 1.1; informalidad, del cuadro 1.3. Para el segundo trimestre de 2024, el cuadro 1.1 y el informe publicado coinciden en 48,5% de actividad; se prioriza ese valor frente al 48,0% del resumen XLS.",
+    "kind": "rates",
+    "valueKind": "percentage",
+    "supportingSources": [
+      {
+        "label": "INDEC · EPH, contraste de tasas de 2024",
+        "url": "https://www.indec.gob.ar/uploads/informesdeprensa/mercado_trabajo_eph_1trim254850EDE6DF.pdf"
+      }
+    ]
+  },
+  {
+    "id": "labor-rates-change",
+    "adapter": "sector",
+    "source": "INDEC · EPH",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/sociedad/cuadros_tasas_indicadores_eph_09_26.xls",
+    "frequency": "quarterly",
+    "unit": "puntos porcentuales",
+    "series": [
+      {
+        "id": "activity",
+        "label": "Actividad",
+        "rowLabel": "Tasa de actividad"
+      },
+      {
+        "id": "employment",
+        "label": "Empleo",
+        "rowLabel": "Tasa de empleo"
+      },
+      {
+        "id": "unemployment",
+        "label": "Desocupación",
+        "rowLabel": "Tasa de desocupación"
+      },
+      {
+        "id": "informality",
+        "label": "Informalidad",
+        "rowLabel": "Tasa de informalidad"
+      }
+    ],
+    "resources": {
+      "input": {
+        "snapshot": "labor-rates",
+        "label": "INDEC · EPH"
+      }
+    },
+    "layout": "snapshot",
+    "transform": "Encuesta Permanente de Hogares, total de 31 aglomerados urbanos: no equivale a toda la población argentina. Comparaciones interanuales entre el mismo trimestre de años consecutivos. La formalidad se mide con el cuestionario ampliado desde el cuarto trimestre de 2023. Al ampliar la historia, el tercer trimestre de 2019 excluye Gran Resistencia y el tercero de 2020 excluye Ushuaia–Río Grande. Actividad y empleo: porcentaje de la población cubierta. Desocupación: porcentaje de la PEA. Informalidad: porcentaje de los ocupados. Se usan las tasas oficiales publicadas; no se recalculan con niveles redondeados. Actividad, empleo y desocupación se leen del cuadro principal 1.1; informalidad, del cuadro 1.3. Para el segundo trimestre de 2024, el cuadro 1.1 y el informe publicado coinciden en 48,5% de actividad; se prioriza ese valor frente al 48,0% del resumen XLS. Cambio interanual en puntos porcentuales.",
+    "operation": "differenceYear",
+    "start": "2024-01-01",
+    "valueKind": "rate",
+    "supportingSources": [
+      {
+        "label": "INDEC · EPH, contraste de tasas de 2024",
+        "url": "https://www.indec.gob.ar/uploads/informesdeprensa/mercado_trabajo_eph_1trim254850EDE6DF.pdf"
+      }
+    ]
+  },
+  {
+    "id": "labor-stocks-change",
+    "adapter": "sector",
+    "source": "INDEC · EPH",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/sociedad/cuadros_tasas_indicadores_eph_09_26.xls",
+    "frequency": "quarterly",
+    "unit": "miles de personas",
+    "series": [
+      {
+        "id": "active",
+        "label": "Población económicamente activa",
+        "rowLabel": "Población económicamente activa"
+      },
+      {
+        "id": "employed",
+        "label": "Ocupados",
+        "rowLabel": "Población ocupada"
+      },
+      {
+        "id": "unemployed",
+        "label": "Desocupados",
+        "rowLabel": "Población desocupada"
+      },
+      {
+        "id": "informal",
+        "label": "Ocupados informales",
+        "rowLabel": "Población con empleo informal (3)"
+      },
+      {
+        "id": "other_employed",
+        "label": "Resto de ocupados"
+      }
+    ],
+    "resources": {
+      "input": {
+        "snapshot": "labor-stocks",
+        "label": "INDEC · EPH"
+      }
+    },
+    "layout": "snapshot",
+    "transform": "Encuesta Permanente de Hogares, total de 31 aglomerados urbanos: no equivale a toda la población argentina. Niveles en miles de personas, con la precisión de la planilla oficial. Comparaciones interanuales entre el mismo trimestre de años consecutivos. La formalidad se mide con el cuestionario ampliado desde el cuarto trimestre de 2023. Al ampliar la historia, el tercer trimestre de 2019 excluye Gran Resistencia y el tercero de 2020 excluye Ushuaia–Río Grande. Resto de ocupados = ocupados menos ocupados informales; puede incluir hasta 0,2% sin dato de formalidad. No se lo identifica como empleo formal ni como empleo registrado SIPA. Cambio calculado entre el mismo trimestre de años consecutivos; las diferencias absolutas no equivalen a flujos brutos de personas.",
+    "operation": "differenceYear",
+    "start": "2024-01-01",
+    "valueKind": "rate"
+  },
+  {
+    "id": "labor-stocks-growth",
+    "adapter": "sector",
+    "source": "INDEC · EPH",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/sociedad/cuadros_tasas_indicadores_eph_09_26.xls",
+    "frequency": "quarterly",
+    "unit": "% de variación interanual",
+    "series": [
+      {
+        "id": "active",
+        "label": "Población económicamente activa",
+        "rowLabel": "Población económicamente activa"
+      },
+      {
+        "id": "employed",
+        "label": "Ocupados",
+        "rowLabel": "Población ocupada"
+      },
+      {
+        "id": "unemployed",
+        "label": "Desocupados",
+        "rowLabel": "Población desocupada"
+      },
+      {
+        "id": "informal",
+        "label": "Ocupados informales",
+        "rowLabel": "Población con empleo informal (3)"
+      },
+      {
+        "id": "other_employed",
+        "label": "Resto de ocupados"
+      }
+    ],
+    "resources": {
+      "input": {
+        "snapshot": "labor-stocks",
+        "label": "INDEC · EPH"
+      }
+    },
+    "layout": "snapshot",
+    "transform": "Encuesta Permanente de Hogares, total de 31 aglomerados urbanos: no equivale a toda la población argentina. Niveles en miles de personas, con la precisión de la planilla oficial. Comparaciones interanuales entre el mismo trimestre de años consecutivos. La formalidad se mide con el cuestionario ampliado desde el cuarto trimestre de 2023. Al ampliar la historia, el tercer trimestre de 2019 excluye Gran Resistencia y el tercero de 2020 excluye Ushuaia–Río Grande. Resto de ocupados = ocupados menos ocupados informales; puede incluir hasta 0,2% sin dato de formalidad. No se lo identifica como empleo formal ni como empleo registrado SIPA. Cambio calculado entre el mismo trimestre de años consecutivos; las diferencias absolutas no equivalen a flujos brutos de personas.",
+    "operation": "yoy",
+    "start": "2024-01-01",
+    "valueKind": "rate"
+  },
+  {
+    "id": "labor-wages-nominal-mom",
+    "adapter": "sector",
+    "source": "INDEC · Índice de salarios",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/sociedad/indice_salarios.csv",
+    "frequency": "monthly",
+    "unit": "% de variación nominal mensual",
+    "series": [
+      {
+        "id": "private",
+        "label": "Privado registrado",
+        "externalField": "IS_sector_privado_registrado"
+      },
+      {
+        "id": "public",
+        "label": "Sector público",
+        "externalField": "IS_sector_publico"
+      },
+      {
+        "id": "registered",
+        "label": "Total registrado",
+        "externalField": "IS_total_registrado"
+      },
+      {
+        "id": "unregistered",
+        "label": "Privado no registrado",
+        "externalField": "IS_sector_no_registrado"
+      },
+      {
+        "id": "total",
+        "label": "Índice general",
+        "externalField": "IS_indice_total"
+      }
+    ],
+    "resources": {
+      "wages": {
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/indice_salarios.csv",
+        "label": "INDEC · Índice de salarios"
+      }
+    },
+    "layout": "wages",
+    "transform": "Índice de salarios del INDEC. Se calculan las variaciones con los niveles publicados, sin encadenar tasas mensuales redondeadas. El acumulado del año toma diciembre del año previo como base. El componente privado no registrado es una estimación basada en información de hogares con rezago; no equivale al RIPTE ni a una remuneración administrativa. Las tasas nominales no descuentan la inflación. ",
+    "operation": "mom",
+    "real": false,
+    "start": "2023-11-01",
+    "valueKind": "rate"
+  },
+  {
+    "id": "labor-wages-nominal-yoy",
+    "adapter": "sector",
+    "source": "INDEC · Índice de salarios",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/sociedad/indice_salarios.csv",
+    "frequency": "monthly",
+    "unit": "% de variación nominal interanual",
+    "series": [
+      {
+        "id": "private",
+        "label": "Privado registrado",
+        "externalField": "IS_sector_privado_registrado"
+      },
+      {
+        "id": "public",
+        "label": "Sector público",
+        "externalField": "IS_sector_publico"
+      },
+      {
+        "id": "registered",
+        "label": "Total registrado",
+        "externalField": "IS_total_registrado"
+      },
+      {
+        "id": "unregistered",
+        "label": "Privado no registrado",
+        "externalField": "IS_sector_no_registrado"
+      },
+      {
+        "id": "total",
+        "label": "Índice general",
+        "externalField": "IS_indice_total"
+      }
+    ],
+    "resources": {
+      "wages": {
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/indice_salarios.csv",
+        "label": "INDEC · Índice de salarios"
+      }
+    },
+    "layout": "wages",
+    "transform": "Índice de salarios del INDEC. Se calculan las variaciones con los niveles publicados, sin encadenar tasas mensuales redondeadas. El acumulado del año toma diciembre del año previo como base. El componente privado no registrado es una estimación basada en información de hogares con rezago; no equivale al RIPTE ni a una remuneración administrativa. Las tasas nominales no descuentan la inflación. ",
+    "operation": "yoy",
+    "real": false,
+    "start": "2023-11-01",
+    "valueKind": "rate"
+  },
+  {
+    "id": "labor-wages-nominal-ytd",
+    "adapter": "sector",
+    "source": "INDEC · Índice de salarios",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/sociedad/indice_salarios.csv",
+    "frequency": "monthly",
+    "unit": "% de variación nominal acumulada en el año",
+    "series": [
+      {
+        "id": "private",
+        "label": "Privado registrado",
+        "externalField": "IS_sector_privado_registrado"
+      },
+      {
+        "id": "public",
+        "label": "Sector público",
+        "externalField": "IS_sector_publico"
+      },
+      {
+        "id": "registered",
+        "label": "Total registrado",
+        "externalField": "IS_total_registrado"
+      },
+      {
+        "id": "unregistered",
+        "label": "Privado no registrado",
+        "externalField": "IS_sector_no_registrado"
+      },
+      {
+        "id": "total",
+        "label": "Índice general",
+        "externalField": "IS_indice_total"
+      }
+    ],
+    "resources": {
+      "wages": {
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/indice_salarios.csv",
+        "label": "INDEC · Índice de salarios"
+      }
+    },
+    "layout": "wages",
+    "transform": "Índice de salarios del INDEC. Se calculan las variaciones con los niveles publicados, sin encadenar tasas mensuales redondeadas. El acumulado del año toma diciembre del año previo como base. El componente privado no registrado es una estimación basada en información de hogares con rezago; no equivale al RIPTE ni a una remuneración administrativa. Las tasas nominales no descuentan la inflación. ",
+    "operation": "ytd",
+    "real": false,
+    "start": "2023-11-01",
+    "valueKind": "rate"
+  },
+  {
+    "id": "labor-wages-real-mom",
+    "adapter": "sector",
+    "source": "INDEC · Índice de salarios e IPC",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/sociedad/indice_salarios.csv",
+    "frequency": "monthly",
+    "unit": "% de variación real mensual",
+    "series": [
+      {
+        "id": "private",
+        "label": "Privado registrado",
+        "externalField": "IS_sector_privado_registrado"
+      },
+      {
+        "id": "public",
+        "label": "Sector público",
+        "externalField": "IS_sector_publico"
+      },
+      {
+        "id": "registered",
+        "label": "Total registrado",
+        "externalField": "IS_total_registrado"
+      },
+      {
+        "id": "unregistered",
+        "label": "Privado no registrado",
+        "externalField": "IS_sector_no_registrado"
+      },
+      {
+        "id": "total",
+        "label": "Índice general",
+        "externalField": "IS_indice_total"
+      }
+    ],
+    "resources": {
+      "wages": {
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/indice_salarios.csv",
+        "label": "INDEC · Índice de salarios"
+      },
+      "ipc": {
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv",
+        "label": "INDEC · IPC nacional"
+      }
+    },
+    "layout": "wages",
+    "transform": "Índice de salarios del INDEC. Se calculan las variaciones con los niveles publicados, sin encadenar tasas mensuales redondeadas. El acumulado del año toma diciembre del año previo como base. El componente privado no registrado es una estimación basada en información de hogares con rezago; no equivale al RIPTE ni a una remuneración administrativa. Cada índice salarial se divide por el IPC nacional del mismo mes antes de calcular la variación real. Se usa sólo el período común entre ambas publicaciones. ",
+    "operation": "mom",
+    "real": true,
+    "start": "2023-11-01",
+    "valueKind": "rate"
+  },
+  {
+    "id": "labor-wages-real-yoy",
+    "adapter": "sector",
+    "source": "INDEC · Índice de salarios e IPC",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/sociedad/indice_salarios.csv",
+    "frequency": "monthly",
+    "unit": "% de variación real interanual",
+    "series": [
+      {
+        "id": "private",
+        "label": "Privado registrado",
+        "externalField": "IS_sector_privado_registrado"
+      },
+      {
+        "id": "public",
+        "label": "Sector público",
+        "externalField": "IS_sector_publico"
+      },
+      {
+        "id": "registered",
+        "label": "Total registrado",
+        "externalField": "IS_total_registrado"
+      },
+      {
+        "id": "unregistered",
+        "label": "Privado no registrado",
+        "externalField": "IS_sector_no_registrado"
+      },
+      {
+        "id": "total",
+        "label": "Índice general",
+        "externalField": "IS_indice_total"
+      }
+    ],
+    "resources": {
+      "wages": {
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/indice_salarios.csv",
+        "label": "INDEC · Índice de salarios"
+      },
+      "ipc": {
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv",
+        "label": "INDEC · IPC nacional"
+      }
+    },
+    "layout": "wages",
+    "transform": "Índice de salarios del INDEC. Se calculan las variaciones con los niveles publicados, sin encadenar tasas mensuales redondeadas. El acumulado del año toma diciembre del año previo como base. El componente privado no registrado es una estimación basada en información de hogares con rezago; no equivale al RIPTE ni a una remuneración administrativa. Cada índice salarial se divide por el IPC nacional del mismo mes antes de calcular la variación real. Se usa sólo el período común entre ambas publicaciones. ",
+    "operation": "yoy",
+    "real": true,
+    "start": "2023-11-01",
+    "valueKind": "rate"
+  },
+  {
+    "id": "labor-wages-real-ytd",
+    "adapter": "sector",
+    "source": "INDEC · Índice de salarios e IPC",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/sociedad/indice_salarios.csv",
+    "frequency": "monthly",
+    "unit": "% de variación real acumulada en el año",
+    "series": [
+      {
+        "id": "private",
+        "label": "Privado registrado",
+        "externalField": "IS_sector_privado_registrado"
+      },
+      {
+        "id": "public",
+        "label": "Sector público",
+        "externalField": "IS_sector_publico"
+      },
+      {
+        "id": "registered",
+        "label": "Total registrado",
+        "externalField": "IS_total_registrado"
+      },
+      {
+        "id": "unregistered",
+        "label": "Privado no registrado",
+        "externalField": "IS_sector_no_registrado"
+      },
+      {
+        "id": "total",
+        "label": "Índice general",
+        "externalField": "IS_indice_total"
+      }
+    ],
+    "resources": {
+      "wages": {
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/indice_salarios.csv",
+        "label": "INDEC · Índice de salarios"
+      },
+      "ipc": {
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv",
+        "label": "INDEC · IPC nacional"
+      }
+    },
+    "layout": "wages",
+    "transform": "Índice de salarios del INDEC. Se calculan las variaciones con los niveles publicados, sin encadenar tasas mensuales redondeadas. El acumulado del año toma diciembre del año previo como base. El componente privado no registrado es una estimación basada en información de hogares con rezago; no equivale al RIPTE ni a una remuneración administrativa. Cada índice salarial se divide por el IPC nacional del mismo mes antes de calcular la variación real. Se usa sólo el período común entre ambas publicaciones. ",
+    "operation": "ytd",
+    "real": true,
+    "start": "2023-11-01",
+    "valueKind": "rate"
+  },
+  {
+    "id": "labor-ipc-ytd",
+    "adapter": "sector",
+    "source": "INDEC · IPC nacional",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv",
+    "frequency": "monthly",
+    "unit": "% acumulado desde diciembre del año anterior",
+    "series": [
+      {
+        "id": "ipc",
+        "label": "Nivel general"
+      }
+    ],
+    "resources": {
+      "ipc": {
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv",
+        "label": "INDEC · IPC nacional"
+      }
+    },
+    "layout": "ipc",
+    "transform": "Acumulado del IPC nacional calculado con los niveles exactos: 100 × [IPC del mes / IPC de diciembre previo − 1]. No se suman tasas mensuales ni se compara un año parcial con uno completo.",
+    "operation": "ytd",
+    "start": "2024-01-01",
+    "valueKind": "rate"
+  },
+  {
+    "adapter": "indec_workbook",
+    "layout": "monthlyRows",
+    "source": "INDEC · Estadísticas de Productos Industriales (EPI)",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls",
+    "indexUrl": "https://www.indec.gob.ar/Institucional/Indec/Publicaciones",
+    "filePattern": "/cuadros_epi_\\d{2}_\\d{2}\\.xls$",
+    "frequency": "monthly",
+    "yearColumn": 0,
+    "monthColumn": 0,
+    "transform": "Niveles mensuales publicados en EPI; datos preliminares según asteriscos del cuadro. Los símbolos de ausencia se conservan como null. No se mezclan totales anuales con meses.",
+    "id": "epi-desserts",
+    "sheet": "21",
+    "unit": "toneladas",
+    "series": [
+      {
+        "id": "production",
+        "label": "Postres lácteos y flanes",
+        "column": 3
+      }
+    ],
+    "columnHeaderRow": 4,
+    "unitHeaderCell": [6, 1],
+    "mergeHistory": true
+  },
+  {
+    "adapter": "indec_workbook",
+    "layout": "monthlyRows",
+    "source": "INDEC · Estadísticas de Productos Industriales (EPI)",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls",
+    "indexUrl": "https://www.indec.gob.ar/Institucional/Indec/Publicaciones",
+    "filePattern": "/cuadros_epi_\\d{2}_\\d{2}\\.xls$",
+    "frequency": "monthly",
+    "yearColumn": 0,
+    "monthColumn": 0,
+    "transform": "Niveles mensuales publicados en EPI; datos preliminares según asteriscos del cuadro. Los símbolos de ausencia se conservan como null. No se mezclan totales anuales con meses.",
+    "id": "epi-sunflower-oil",
+    "sheet": "09",
+    "unit": "miles de toneladas",
+    "series": [
+      {
+        "id": "production",
+        "label": "Aceite de girasol",
+        "column": 2
+      }
+    ],
+    "columnHeaderRow": 4,
+    "unitHeaderCell": [6, 1],
+    "mergeHistory": true
+  },
+  {
+    "adapter": "indec_workbook",
+    "layout": "monthlyRows",
+    "source": "INDEC · Estadísticas de Productos Industriales (EPI)",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls",
+    "indexUrl": "https://www.indec.gob.ar/Institucional/Indec/Publicaciones",
+    "filePattern": "/cuadros_epi_\\d{2}_\\d{2}\\.xls$",
+    "frequency": "monthly",
+    "yearColumn": 0,
+    "monthColumn": 0,
+    "transform": "Niveles mensuales publicados en EPI; datos preliminares según asteriscos del cuadro. Los símbolos de ausencia se conservan como null. No se mezclan totales anuales con meses.",
+    "id": "epi-wheat-flour",
+    "sheet": "11",
+    "unit": "miles de toneladas",
+    "series": [
+      {
+        "id": "production",
+        "label": "Harina de trigo",
+        "column": 4
+      }
+    ],
+    "columnHeaderRow": 4,
+    "unitHeaderCell": [7, 4],
+    "mergeHistory": true
+  },
+  {
+    "adapter": "indec_workbook",
+    "layout": "monthlyRows",
+    "source": "INDEC · Estadísticas de Productos Industriales (EPI)",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls",
+    "indexUrl": "https://www.indec.gob.ar/Institucional/Indec/Publicaciones",
+    "filePattern": "/cuadros_epi_\\d{2}_\\d{2}\\.xls$",
+    "frequency": "monthly",
+    "yearColumn": 0,
+    "monthColumn": 0,
+    "transform": "Niveles mensuales publicados en EPI; datos preliminares según asteriscos del cuadro. Los símbolos de ausencia se conservan como null. No se mezclan totales anuales con meses.",
+    "id": "epi-rice-milling",
+    "sheet": "13",
+    "unit": "miles de toneladas",
+    "series": [
+      {
+        "id": "production",
+        "label": "Arroz",
+        "column": 3
+      }
+    ],
+    "columnHeaderRow": 4,
+    "unitHeaderCell": [6, 1],
+    "mergeHistory": true
+  },
+  {
+    "id": "labor-suboccupation",
+    "adapter": "sector",
+    "layout": "eph",
+    "sheet": "Cuadro 1.1",
+    "source": "INDEC · EPH",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/sociedad/cuadros_tasas_indicadores_eph_09_26.xls",
+    "resources": {
+      "workbook": {
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/cuadros_tasas_indicadores_eph_09_26.xls",
+        "label": "INDEC · Series de la EPH",
+        "indexUrl": "https://www.indec.gob.ar/Nivel4/Tema/4/31/58",
+        "filePattern": "cuadros_tasas_indicadores_eph_\\d{2}_\\d{2}\\.xls$",
+        "monthYearRelease": true
+      }
+    },
+    "frequency": "quarterly",
+    "unit": "% de la población económicamente activa",
+    "series": [
+      {
+        "id": "suboccupation",
+        "label": "Subocupación",
+        "rowLabel": "Subocupación"
+      }
+    ],
+    "valueKind": "percentage",
+    "transform": "Encuesta Permanente de Hogares, total de 31 aglomerados urbanos; no representa la totalidad del país. Se leen los porcentajes oficiales, sin recalcularlos con niveles redondeados. La historia ampliada excluye Gran Resistencia en el tercer trimestre de 2019 y Ushuaia–Río Grande en el tercero de 2020. Subocupados: ocupados que trabajan menos de 35 horas semanales por causas involuntarias y están dispuestos a trabajar más horas."
+  },
+  {
+    "id": "labor-occupational-shares",
+    "adapter": "sector",
+    "layout": "eph",
+    "sheet": "Cuadro 1.5 ",
+    "source": "INDEC · EPH",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/sociedad/cuadros_tasas_indicadores_eph_09_26.xls",
+    "resources": {
+      "workbook": {
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/cuadros_tasas_indicadores_eph_09_26.xls",
+        "label": "INDEC · Series de la EPH",
+        "indexUrl": "https://www.indec.gob.ar/Nivel4/Tema/4/31/58",
+        "filePattern": "cuadros_tasas_indicadores_eph_\\d{2}_\\d{2}\\.xls$",
+        "monthYearRelease": true
+      }
+    },
+    "frequency": "quarterly",
+    "unit": "% de la población ocupada",
+    "series": [
+      {
+        "id": "salaried",
+        "label": "Asalariados",
+        "rowLabel": "Asalariado"
+      },
+      {
+        "id": "self_employed",
+        "label": "Cuenta propia",
+        "rowLabel": "Cuenta propia"
+      }
+    ],
+    "valueKind": "percentage",
+    "transform": "Encuesta Permanente de Hogares, total de 31 aglomerados urbanos; no representa la totalidad del país. Se leen los porcentajes oficiales, sin recalcularlos con niveles redondeados. La historia ampliada excluye Gran Resistencia en el tercer trimestre de 2019 y Ushuaia–Río Grande en el tercero de 2020. Participación de asalariados y trabajadores por cuenta propia en los ocupados, cuadro 1.5. No forman una composición exhaustiva: también existen patrones y trabajadores familiares sin remuneración."
+  },
+  {
+    "id": "labor-employment",
+    "adapter": "sector",
+    "layout": "employment",
+    "source": "SIPA · Trabajo registrado",
+    "sourceUrl": "https://www.argentina.gob.ar/sites/default/files/trabajoregistrado_2607_estadisticas.xlsx",
+    "resources": {
+      "workbook": {
+        "url": "https://www.argentina.gob.ar/sites/default/files/trabajoregistrado_2607_estadisticas.xlsx",
+        "indexUrl": "https://www.argentina.gob.ar/trabajo/estadisticas/situacion-y-evolucion-del-trabajo-registrado",
+        "filePattern": "trabajoregistrado_\\d{4}_estadisticas\\.xlsx$",
+        "label": "SIPA · Trabajo registrado"
+      }
+    },
+    "frequency": "monthly",
+    "unit": "miles de personas",
+    "series": [
+      {
+        "id": "total_original",
+        "label": "Total · original",
+        "sheet": "T.2.1",
+        "column": 7,
+        "headerToken": "Total"
+      },
+      {
+        "id": "total_sa",
+        "label": "Total · desestacionalizado",
+        "sheet": "T.2.2",
+        "column": 7,
+        "headerToken": "Total"
+      },
+      {
+        "id": "private_original",
+        "label": "Privado · original",
+        "sheet": "T.2.1",
+        "column": 1,
+        "headerToken": "privado"
+      },
+      {
+        "id": "private_sa",
+        "label": "Privado · desestacionalizado",
+        "sheet": "T.2.2",
+        "column": 1,
+        "headerToken": "privado"
+      }
+    ],
+    "transform": "Personas con trabajo registrado según modalidad ocupacional principal, total país. Series originales del cuadro T.2.1 y desestacionalizadas del T.2.2, expresadas en miles. El total incluye asalariados privados y públicos, casas particulares, autónomos y monotributistas, incluido el monotributo social. Los datos provisorios y el ajuste estacional pueden revisarse. No equivale al empleo total de la EPH ni a flujos brutos de altas y bajas."
+  },
+  {
+    "id": "labor-wages-real-index",
+    "adapter": "sector",
+    "source": "INDEC · Índice de salarios e IPC",
+    "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/sociedad/indice_salarios.csv",
+    "frequency": "monthly",
+    "unit": "índice real, diciembre de 2023=100",
+    "series": [
+      {
+        "id": "private",
+        "label": "Privado registrado",
+        "externalField": "IS_sector_privado_registrado"
+      },
+      {
+        "id": "public",
+        "label": "Sector público",
+        "externalField": "IS_sector_publico"
+      },
+      {
+        "id": "registered",
+        "label": "Total registrado",
+        "externalField": "IS_total_registrado"
+      },
+      {
+        "id": "unregistered",
+        "label": "Privado no registrado",
+        "externalField": "IS_sector_no_registrado"
+      },
+      {
+        "id": "total",
+        "label": "Índice general",
+        "externalField": "IS_indice_total"
+      }
+    ],
+    "resources": {
+      "wages": {
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/indice_salarios.csv",
+        "label": "INDEC · Índice de salarios"
+      },
+      "ipc": {
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv",
+        "label": "INDEC · IPC nacional"
+      }
+    },
+    "layout": "wages",
+    "transform": "Índices salariales del INDEC divididos por el IPC nacional del mismo mes y rebasados a diciembre de 2023=100. Se usan niveles oficiales, sin encadenar variaciones redondeadas. El cálculo se limita al período común de ambas publicaciones. El índice general y el total registrado son agregados distintos. El privado no registrado es una estimación basada en información de hogares con rezago y no equivale al RIPTE.",
+    "operation": "index",
+    "real": true,
+    "start": "2023-11-01",
+    "valueKind": "level",
+    "base": "2023-12-01"
+  },
+  {
+    "id": "labor-ripte-nominal",
+    "adapter": "sector",
+    "layout": "ripte",
+    "source": "Seguridad Social · RIPTE",
+    "sourceUrl": "https://www.argentina.gob.ar/sites/default/files/ripte_septiembre_2026-mdch.pdf",
+    "resources": {
+      "report": {
+        "url": "https://www.argentina.gob.ar/sites/default/files/ripte_septiembre_2026-mdch.pdf",
+        "label": "Seguridad Social · RIPTE",
+        "indexUrl": "https://www.argentina.gob.ar/trabajo/seguridadsocial/ripte",
+        "filePattern": "ripte_[a-z]+_20\\d{2}-mdch\\.pdf$",
+        "monthYearRelease": true
+      }
+    },
+    "frequency": "monthly",
+    "unit": "pesos corrientes",
+    "series": [
+      {
+        "id": "ripte",
+        "label": "RIPTE nominal"
+      }
+    ],
+    "transform": "Remuneración imponible promedio de trabajadores en relación de dependencia, públicos y privados, declarados en forma continua durante los últimos 13 meses. Indicador previsional de la Subsecretaría de Seguridad Social: no equivale al salario de toda la población ocupada ni al índice de salarios del INDEC. Se extrae la columna «Monto en $», no el índice no decreciente de uso exclusivo en riesgos del trabajo. ",
+    "start": "2023-11-01"
+  },
+  {
+    "id": "labor-ripte-real",
+    "adapter": "sector",
+    "layout": "ripte",
+    "source": "Seguridad Social · RIPTE e INDEC · IPC",
+    "sourceUrl": "https://www.argentina.gob.ar/sites/default/files/ripte_septiembre_2026-mdch.pdf",
+    "resources": {
+      "report": {
+        "url": "https://www.argentina.gob.ar/sites/default/files/ripte_septiembre_2026-mdch.pdf",
+        "label": "Seguridad Social · RIPTE",
+        "indexUrl": "https://www.argentina.gob.ar/trabajo/seguridadsocial/ripte",
+        "filePattern": "ripte_[a-z]+_20\\d{2}-mdch\\.pdf$",
+        "monthYearRelease": true
+      },
+      "ipc": {
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv",
+        "label": "INDEC · IPC nacional"
+      }
+    },
+    "frequency": "monthly",
+    "unit": "índice real, diciembre de 2023=100",
+    "series": [
+      {
+        "id": "ripte",
+        "label": "RIPTE real"
+      }
+    ],
+    "transform": "Remuneración imponible promedio de trabajadores en relación de dependencia, públicos y privados, declarados en forma continua durante los últimos 13 meses. Indicador previsional de la Subsecretaría de Seguridad Social: no equivale al salario de toda la población ocupada ni al índice de salarios del INDEC. Se extrae la columna «Monto en $», no el índice no decreciente de uso exclusivo en riesgos del trabajo. Monto nominal dividido por el IPC nacional y rebasado a diciembre de 2023=100. Se usa el período común de ambos archivos; no se encadenan tasas redondeadas.",
+    "start": "2023-11-01",
+    "real": true,
+    "base": "2023-12-01"
+  }
+]

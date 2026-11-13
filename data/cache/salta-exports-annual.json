@@ -1,0 +1,84 @@
+{
+  "id": "salta-exports-annual",
+  "source": "INDEC · Origen provincial de las exportaciones (OPEX)",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/opex_anexo_cuadros_02_09_26.xls",
+  "frequency": "annual",
+  "unit": "millones de USD corrientes FOB",
+  "series": [
+    {
+      "id": "salta",
+      "label": "Salta · año completo"
+    }
+  ],
+  "methodNote": "Años calendario completos 2016–2025. No se compara el total anual con semestres. Valores sujetos a revisión oficial.",
+  "observations": [
+    {
+      "date": "2016-01-01",
+      "series": "salta",
+      "value": 1075.41232149
+    },
+    {
+      "date": "2017-01-01",
+      "series": "salta",
+      "value": 880.89135618
+    },
+    {
+      "date": "2018-01-01",
+      "series": "salta",
+      "value": 854.45104547
+    },
+    {
+      "date": "2019-01-01",
+      "series": "salta",
+      "value": 993.15145727
+    },
+    {
+      "date": "2020-01-01",
+      "series": "salta",
+      "value": 922.16709262
+    },
+    {
+      "date": "2021-01-01",
+      "series": "salta",
+      "value": 1262.87115245
+    },
+    {
+      "date": "2022-01-01",
+      "series": "salta",
+      "value": 1333.36341298
+    },
+    {
+      "date": "2023-01-01",
+      "series": "salta",
+      "value": 1118.75388746
+    },
+    {
+      "date": "2024-01-01",
+      "series": "salta",
+      "value": 1123.82371807
+    },
+    {
+      "date": "2025-01-01",
+      "series": "salta",
+      "value": 1447.68714699
+    }
+  ],
+  "valueKind": "level",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2025-01-01",
+  "firstObservedPeriod": "2016-01-01",
+  "lastObservedBySeries": {
+    "salta": "2025-01-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:46:25Z",
+  "lastAttemptAt": "2026-11-13T12:46:25Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "633b304f1d651bab063d71c156f07f941cc43ae215b17ba2eca9fdd2a666eca8",
+  "rawSha256": "ba50fad72014b9a6a2fbb50d45d2043f0b1abc8179a4bf47cf2c9d6a84651c64",
+  "dataChangedAt": "2026-11-12T04:24:56Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

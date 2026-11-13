@@ -1,0 +1,107 @@
+{
+  "id": "credit-real-business-growth",
+  "source": "BCRA · Informe sobre Bancos",
+  "sourceUrl": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-bancos-serie-2026-08.xlsx",
+  "frequency": "monthly",
+  "unit": "% de variación interanual real",
+  "series": [
+    {
+      "id": "industry",
+      "label": "Industria",
+      "column": 1,
+      "headerToken": "Industria"
+    },
+    {
+      "id": "commerce",
+      "label": "Comercio",
+      "column": 2,
+      "headerToken": "Comercio"
+    },
+    {
+      "id": "construction",
+      "label": "Construcción",
+      "column": 3,
+      "headerToken": "Construcción"
+    },
+    {
+      "id": "primary",
+      "label": "Producción primaria",
+      "column": 4,
+      "headerToken": "primaria"
+    },
+    {
+      "id": "services",
+      "label": "Servicios",
+      "column": 5,
+      "headerToken": "Servicios"
+    },
+    {
+      "id": "companies",
+      "label": "Total empresas",
+      "column": 6,
+      "headerToken": "Total empresas"
+    }
+  ],
+  "methodNote": "Hoja 2: cociente de niveles reales del mismo sector separados por doce meses, menos uno, por 100. El cambio de base del índice entre ediciones se cancela en este cociente; no se empalman índices con bases distintas. El total empresarial es ponderado, no la media simple de los sectores.",
+  "observations": [
+    {
+      "date": "2026-08-01",
+      "series": "commerce",
+      "value": 12.292960838613709
+    },
+    {
+      "date": "2026-08-01",
+      "series": "companies",
+      "value": 6.728523773137196
+    },
+    {
+      "date": "2026-08-01",
+      "series": "construction",
+      "value": 22.233896692450262
+    },
+    {
+      "date": "2026-08-01",
+      "series": "industry",
+      "value": 15.374183770417638
+    },
+    {
+      "date": "2026-08-01",
+      "series": "primary",
+      "value": -1.4031631865268346
+    },
+    {
+      "date": "2026-08-01",
+      "series": "services",
+      "value": 0.4840306437060793
+    }
+  ],
+  "valueKind": "rate",
+  "supportingSources": [
+    {
+      "label": "Publicación BCRA",
+      "url": "https://www.bcra.gob.ar/publicaciones/informe-sobre-bancos-agosto-de-2026/"
+    }
+  ],
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-08-01",
+  "firstObservedPeriod": "2026-08-01",
+  "lastObservedBySeries": {
+    "industry": "2026-08-01",
+    "commerce": "2026-08-01",
+    "construction": "2026-08-01",
+    "primary": "2026-08-01",
+    "services": "2026-08-01",
+    "companies": "2026-08-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:47:42Z",
+  "lastAttemptAt": "2026-11-13T12:47:42Z",
+  "sourcePublishedAt": "2026-10-16",
+  "isAutoUpdated": true,
+  "contentHash": "f1254c2e039a74851095d17bf0adf4e1c5ad9006dfb0aa4de96f1a145a977622",
+  "rawSha256": "35c7319153efae0aefe9e7d5aad04e50771bd901f1faf94c01f95ece433d1adb",
+  "dataChangedAt": "2026-11-13T03:19:34Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

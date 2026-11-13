@@ -1,0 +1,124 @@
+{
+  "id": "tourism-gdp-comparison",
+  "source": "WTTC / Oxford Economics · EIR 2025; Banco Mundial Data360 (Argentina)",
+  "sourceUrl": "https://www.turismodeportugal.pt/SiteCollectionDocuments/noticias/WTTC/WTTC%20-%20Travel%20%26%20Tourism%20Economic%20Impact_%20PT%202025.pdf",
+  "frequency": "annual",
+  "unit": "% del PIB · aporte total del turismo",
+  "series": [
+    {
+      "id": "ARG",
+      "label": "Argentina",
+      "externalName": "Argentina"
+    },
+    {
+      "id": "LATAM",
+      "label": "Latinoamérica (WTTC)",
+      "externalName": "Latin America"
+    },
+    {
+      "id": "ITA",
+      "label": "Italia",
+      "externalName": "Italy"
+    },
+    {
+      "id": "ESP",
+      "label": "España",
+      "externalName": "Spain"
+    },
+    {
+      "id": "GRC",
+      "label": "Grecia",
+      "externalName": "Greece"
+    },
+    {
+      "id": "PRT",
+      "label": "Portugal",
+      "externalName": "Portugal"
+    },
+    {
+      "id": "LAC",
+      "label": "Latinoamérica y Caribe · WTTC",
+      "externalName": "Latin America and the Caribbean"
+    }
+  ],
+  "methodNote": "Año 2024, aporte directo + indirecto + inducido según WTTC / Oxford Economics, edición EIR 2025. Países europeos: ranking relativo, EIR Portugal 2025, página PDF 14. Argentina: ficha Banco Mundial Data360, fuente WTTC, generada 08/10/2025. Latinoamérica: definición regional WTTC de América Central y del Sur; 7,5% del PIB regional en Global Trends 2025, página 24. México y Caribe se presentan en otras regiones WTTC. La referencia adicional Latinoamérica y Caribe (10%) incluye México y Caribe y procede del comunicado WTTC del 02/06/2025. Son dos coberturas geográficas explícitas, no promedios simples de países.",
+  "observations": [
+    {
+      "date": "2024-01-01",
+      "series": "ARG",
+      "value": 5.8
+    },
+    {
+      "date": "2024-01-01",
+      "series": "ESP",
+      "value": 15.6
+    },
+    {
+      "date": "2024-01-01",
+      "series": "GRC",
+      "value": 19.4
+    },
+    {
+      "date": "2024-01-01",
+      "series": "ITA",
+      "value": 10.5
+    },
+    {
+      "date": "2024-01-01",
+      "series": "LAC",
+      "value": 10.0
+    },
+    {
+      "date": "2024-01-01",
+      "series": "LATAM",
+      "value": 7.5
+    },
+    {
+      "date": "2024-01-01",
+      "series": "PRT",
+      "value": 21.3
+    }
+  ],
+  "supportingSources": [
+    {
+      "label": "Argentina 2024 · Banco Mundial Data360, fuente WTTC",
+      "url": "https://documents1.worldbank.org/curated/en/099244110152530240/pdf/IDU-c6824a6a-d4ca-4dda-8014-ff8ee30d40fe.pdf"
+    },
+    {
+      "label": "WTTC · Latinoamérica y Caribe, aporte total al PIB 2024",
+      "url": "https://wttc.org/news/travel-and-tourism-in-lac-set-to-add-usd-206bn-to-regional-economy-over-the-next-decade/"
+    },
+    {
+      "label": "WTTC Global Trends 2025 · PIB regional 2024, página 24",
+      "url": "https://www.qualitytravel.it/wp-content/uploads/Travel-Tourism-Economic-Impact-2025-Global-Trends-13.08.2025-2.pdf"
+    },
+    {
+      "label": "WTTC · definición de Latin America: América Central y del Sur",
+      "url": "https://researchhub.wttc.org/product/unlocking-opportunities-for-travel-tourism-growth-in-latin-america"
+    }
+  ],
+  "valueKind": "percentage",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2024-01-01",
+  "firstObservedPeriod": "2024-01-01",
+  "lastObservedBySeries": {
+    "ARG": "2024-01-01",
+    "LATAM": "2024-01-01",
+    "ITA": "2024-01-01",
+    "ESP": "2024-01-01",
+    "GRC": "2024-01-01",
+    "PRT": "2024-01-01",
+    "LAC": "2024-01-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:47:13Z",
+  "lastAttemptAt": "2026-11-13T12:47:13Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "3727d06f7febe40757fc8a998240623f6dee0514103dc12b674a42ed26764cf8",
+  "rawSha256": "6018f03bed391bafd3520ca0485fd094ce541e8c2652be5a5fb255a564bb6350",
+  "dataChangedAt": "2026-11-12T09:28:37Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

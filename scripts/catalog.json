@@ -1,0 +1,2393 @@
+[
+  {
+    "id": "SR-01",
+    "title": "Crecimiento anual del PIB de Argentina, Brasil, Canadá, Chile, Paraguay, Uruguay y EE. UU. (2004-2025)",
+    "section": "activity",
+    "sourceLinks": [
+      {
+        "label": "Banco Mundial — World Development Indicators, crecimiento anual del PIB (`NY.GDP.MKTP.KD.ZG`)",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "wdi-growth",
+    "chartType": "line",
+    "countries": ["ARG", "BRA", "CAN", "CHL", "PRY", "URY", "USA"],
+    "start": "2004-01-01",
+    "targetEnd": "2025-01-01",
+    "shortTitle": "Crecimiento anual del PIB · comparación internacional"
+  },
+  {
+    "id": "SR-02",
+    "title": "Cuadro comparativo con los datos del gráfico anterior",
+    "section": "activity",
+    "sourceLinks": [
+      {
+        "label": "Banco Mundial — serie WDI y metadatos",
+        "url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.MKTP.KD.ZG"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "wdi-growth",
+    "chartType": "table",
+    "countries": ["ARG", "BRA", "CAN", "CHL", "PRY", "URY", "USA"],
+    "start": "2004-01-01",
+    "targetEnd": "2025-01-01",
+    "shortTitle": "PIB internacional · cuadro comparativo"
+  },
+  {
+    "id": "SR-03",
+    "title": "Participación del consumo privado y público en el PIB, a precios corrientes y constantes (2004-2025)",
+    "section": "activity",
+    "sourceLinks": [
+      {
+        "label": "INDEC — Agregados macroeconómicos (PIB), oferta y demanda globales",
+        "url": "https://www.indec.gob.ar/Nivel4/Tema/3/9/47"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "consumption-shares",
+    "shortTitle": "Consumo privado y público · participación en el PIB",
+    "chartType": "line",
+    "start": "2004-01-01",
+    "targetEnd": "2025-01-01",
+    "end": "2025-01-01",
+    "views": [
+      {
+        "shortTitle": "Consumo sobre PIB · precios corrientes",
+        "countries": ["current-private", "current-public"]
+      },
+      {
+        "shortTitle": "Consumo sobre PIB · precios de 2004",
+        "countries": ["constant-private", "constant-public"]
+      }
+    ]
+  },
+  {
+    "id": "SR-04",
+    "title": "Tabla con consumo público versus privado",
+    "section": "activity",
+    "sourceLinks": [
+      {
+        "label": "INDEC — Agregados macroeconómicos (PIB)",
+        "url": "https://www.indec.gob.ar/Nivel4/Tema/3/9/47"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "consumption-shares",
+    "shortTitle": "Consumo público y privado · cuadro anual",
+    "chartType": "table",
+    "start": "2004-01-01",
+    "targetEnd": "2025-01-01",
+    "end": "2025-01-01",
+    "views": [
+      {
+        "chartType": "table",
+        "shortTitle": "Consumo sobre PIB · cuadro a precios corrientes",
+        "countries": ["current-private", "current-public"]
+      },
+      {
+        "chartType": "table",
+        "shortTitle": "Consumo sobre PIB · cuadro a precios de 2004",
+        "countries": ["constant-private", "constant-public"]
+      }
+    ]
+  },
+  {
+    "id": "SR-05",
+    "title": "EMAE original, desestacionalizado y pronóstico 2026-2027",
+    "section": "activity",
+    "sourceLinks": [
+      {
+        "label": "INDEC — serie mensual histórica del EMAE, base 2004=100 (XLS)",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_emae_mensual_base2004.xls"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "forecast-emae",
+    "chartType": "line",
+    "countries": ["original", "adjusted", "forecast", "lower95", "upper95"],
+    "start": "2023-01-01",
+    "methodNote": "Pronóstico estadístico automático, elaboración propia: 12 meses desde el último dato observado. El corte actual llega hasta agosto de 2027; no abarca todo 2027. Línea punteada y bandas de predicción 95% condicionadas al modelo.",
+    "shortTitle": "EMAE · historia y pronóstico automático"
+  },
+  {
+    "id": "SR-06",
+    "title": "Tabla de intervalos del pronóstico del EMAE",
+    "section": "activity",
+    "sourceLinks": [
+      {
+        "label": "INDEC — serie histórica EMAE (insumo)",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_emae_mensual_base2004.xls"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "forecast-emae",
+    "chartType": "table",
+    "countries": ["forecast", "lower95", "upper95"],
+    "forecastOnly": true,
+    "shortTitle": "EMAE · pronóstico e intervalos de predicción 95%"
+  },
+  {
+    "id": "SR-07",
+    "title": "IPI manufacturero: series original, desestacionalizada y tendencia-ciclo a junio de 2026",
+    "section": "industry",
+    "sourceLinks": [
+      {
+        "label": "INDEC — Indicadores e informes técnicos de industria",
+        "url": "https://www.indec.gob.ar/indec/web/Institucional-Indec-InformesTecnicos-"
+      },
+      {
+        "label": "Datos abiertos: IPI manufacturero",
+        "url": "https://www.datos.gob.ar/dataset/sspm-indice-produccion-industrial-manufacturero-ipi"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "ipi",
+    "chartType": "line",
+    "start": "2023-01-01",
+    "targetEnd": "2026-06-01",
+    "shortTitle": "IPI manufacturero · nivel general",
+    "end": "2026-06-01"
+  },
+  {
+    "id": "SR-08",
+    "title": "IPI manufacturero: gráfico de variaciones e incidencias por división y cuadro «IPI manufacturero nivel general y divisiones», junio 2026",
+    "section": "industry",
+    "sourceLinks": [
+      {
+        "label": "INDEC — IPI manufacturero / informes técnicos",
+        "url": "https://www.indec.gob.ar/indec/web/Institucional-Indec-InformesTecnicos-"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "ipi-divisions",
+    "shortTitle": "IPI manufacturero · divisiones",
+    "chartType": "line",
+    "targetEnd": "2026-06-01",
+    "end": "2026-06-01",
+    "views": [
+      {
+        "chartType": "horizontalBar",
+        "transform": "yoyLatest",
+        "shortTitle": "IPI por división · variación interanual"
+      },
+      {
+        "chartType": "table",
+        "transform": "latest",
+        "shortTitle": "IPI · nivel general y divisiones"
+      },
+      {
+        "dataset": "ipi-incidences",
+        "chartType": "horizontalBar",
+        "transform": "latest",
+        "end": "2026-06-01",
+        "targetEnd": "2026-06-01",
+        "shortTitle": "IPI · incidencias reconstruidas, junio 2026",
+        "methodNote": "Elaboración propia. Ponderaciones implícitas verificadas contra la identidad de agregación de los niveles oficiales; suma de incidencias igual a la variación interanual del IPI."
+      }
+    ]
+  },
+  {
+    "id": "SR-09",
+    "title": "EPI: producción de amargos, bíters y fernets; despachos de yerba mate",
+    "section": "industry",
+    "sourceLinks": [
+      {
+        "label": "INDEC — publicación *Estadísticas de Productos Industriales* (EPI)",
+        "url": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Publicaciones-1"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "epi-amargos",
+    "shortTitle": "Estadísticas de productos industriales",
+    "chartType": "line",
+    "views": [
+      {
+        "dataset": "epi-amargos",
+        "shortTitle": "Amargos, bíters y fernets"
+      },
+      {
+        "dataset": "epi-yerba",
+        "shortTitle": "Despachos de yerba mate"
+      }
+    ]
+  },
+  {
+    "id": "SR-10",
+    "title": "EPI: despachos de vino interno/externo, faena de carne vacuna y porcina",
+    "section": "industry",
+    "sourceLinks": [
+      {
+        "label": "INDEC — *Estadísticas de Productos Industriales*",
+        "url": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Publicaciones-1"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "epi-wine",
+    "shortTitle": "Estadísticas de productos industriales",
+    "chartType": "line",
+    "views": [
+      {
+        "dataset": "epi-wine",
+        "shortTitle": "Despachos de vino al mercado interno"
+      },
+      {
+        "dataset": "epi-meat",
+        "shortTitle": "Faena vacuna"
+      }
+    ]
+  },
+  {
+    "id": "EP-01",
+    "section": "industry",
+    "title": "Postres lácteos y flanes · producción",
+    "shortTitle": "Postres lácteos y flanes · producción",
+    "dataset": "epi-desserts",
+    "sourceLinks": [
+      {
+        "label": "INDEC · Estadísticas de Productos Industriales (EPI)",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls"
+      }
+    ],
+    "reason": "No se dispone de observaciones verificadas para este indicador.",
+    "chartType": "line"
+  },
+  {
+    "id": "EP-02",
+    "section": "industry",
+    "title": "Aceite de girasol · producción",
+    "shortTitle": "Aceite de girasol · producción",
+    "dataset": "epi-sunflower-oil",
+    "sourceLinks": [
+      {
+        "label": "INDEC · Estadísticas de Productos Industriales (EPI)",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls"
+      }
+    ],
+    "reason": "No se dispone de observaciones verificadas para este indicador.",
+    "chartType": "line"
+  },
+  {
+    "id": "EP-03",
+    "section": "industry",
+    "title": "Harina de trigo · producción",
+    "shortTitle": "Harina de trigo · producción",
+    "dataset": "epi-wheat-flour",
+    "sourceLinks": [
+      {
+        "label": "INDEC · Estadísticas de Productos Industriales (EPI)",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls"
+      }
+    ],
+    "reason": "No se dispone de observaciones verificadas para este indicador.",
+    "chartType": "line"
+  },
+  {
+    "id": "EP-04",
+    "section": "industry",
+    "title": "Arroz · molienda",
+    "shortTitle": "Arroz · molienda",
+    "dataset": "epi-rice-milling",
+    "sourceLinks": [
+      {
+        "label": "INDEC · Estadísticas de Productos Industriales (EPI)",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls"
+      }
+    ],
+    "reason": "No se dispone de observaciones verificadas para este indicador.",
+    "chartType": "line"
+  },
+  {
+    "id": "SR-11",
+    "title": "EPI: producción de leche, papel para diarios e impresión, despachos de cigarrillos",
+    "section": "industry",
+    "sourceLinks": [
+      {
+        "label": "INDEC — *Estadísticas de Productos Industriales*",
+        "url": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Publicaciones-1"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "epi-milk",
+    "shortTitle": "Estadísticas de productos industriales",
+    "chartType": "line",
+    "views": [
+      {
+        "dataset": "epi-milk",
+        "shortTitle": "Leches fluidas por producto"
+      },
+      {
+        "dataset": "epi-milk-powder",
+        "shortTitle": "Leche en polvo"
+      },
+      {
+        "dataset": "epi-paper",
+        "shortTitle": "Papel para diarios e impresión"
+      },
+      {
+        "dataset": "epi-cigarettes",
+        "shortTitle": "Despachos de cigarrillos"
+      }
+    ]
+  },
+  {
+    "id": "SR-12",
+    "title": "EPI: caucho sintético, petróleo crudo y nafta especial súper (>93 RON)",
+    "section": "industry",
+    "sourceLinks": [
+      {
+        "label": "INDEC — *Estadísticas de Productos Industriales*",
+        "url": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Publicaciones-1"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "epi-rubber",
+    "shortTitle": "Estadísticas de productos industriales",
+    "chartType": "line",
+    "views": [
+      {
+        "dataset": "epi-rubber",
+        "shortTitle": "Caucho sintético"
+      },
+      {
+        "dataset": "epi-oil",
+        "shortTitle": "Producción de petróleo crudo"
+      },
+      {
+        "dataset": "epi-gasoline",
+        "shortTitle": "Nafta especial súper >93 RON"
+      }
+    ]
+  },
+  {
+    "id": "SR-13",
+    "title": "EPI: producción de automóviles y utilitarios, motocicletas y teléfonos celulares",
+    "section": "industry",
+    "sourceLinks": [
+      {
+        "label": "INDEC — *Estadísticas de Productos Industriales*",
+        "url": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Publicaciones-1"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "epi-vehicles",
+    "shortTitle": "Estadísticas de productos industriales",
+    "chartType": "line",
+    "views": [
+      {
+        "dataset": "epi-vehicles",
+        "shortTitle": "Automóviles y utilitarios"
+      },
+      {
+        "dataset": "epi-phones",
+        "shortTitle": "Teléfonos celulares"
+      }
+    ]
+  },
+  {
+    "id": "SR-14",
+    "title": "Utilización de la capacidad instalada por bloques sectoriales, junio 2026; cuadro mensual 2025-2026",
+    "section": "industry",
+    "sourceLinks": [
+      {
+        "label": "INDEC — informes técnicos de utilización de la capacidad instalada",
+        "url": "https://www.indec.gob.ar/indec/web/Institucional-Indec-InformesTecnicos-"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "industrial-capacity",
+    "shortTitle": "Capacidad instalada por bloque industrial",
+    "chartType": "horizontalBar",
+    "end": "2026-06-01",
+    "targetEnd": "2026-06-01",
+    "views": [
+      {
+        "transform": "latest",
+        "shortTitle": "Capacidad instalada · junio de 2026"
+      },
+      {
+        "chartType": "table",
+        "start": "2025-01-01",
+        "end": "9999-12-31",
+        "shortTitle": "Capacidad instalada · cuadro mensual 2025–2026"
+      }
+    ]
+  },
+  {
+    "id": "SR-15",
+    "title": "Encuesta de supermercados: índice de ventas a precios constantes, tres series, hasta junio de 2026",
+    "section": "industry",
+    "sourceLinks": [
+      {
+        "label": "INDEC — Estadísticas de comercio: supermercados",
+        "url": "https://www.indec.gob.ar/indec/web/Nivel3-Tema-3-1"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "supermarkets",
+    "chartType": "line",
+    "start": "2023-01-01",
+    "targetEnd": "2026-06-01",
+    "shortTitle": "Supermercados · ventas a precios constantes",
+    "end": "2026-06-01"
+  },
+  {
+    "id": "SR-16",
+    "title": "Supermercados: distribución porcentual de ventas por medio de pago",
+    "section": "industry",
+    "sourceLinks": [
+      {
+        "label": "INDEC — Encuesta de supermercados",
+        "url": "https://www.indec.gob.ar/indec/web/Nivel3-Tema-3-1"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "supermarket-payments",
+    "chartType": "stackedBar",
+    "transform": "share",
+    "start": "2023-01-01",
+    "countries": [
+      "455.1_EFECTIVOIVO_0_M_8_15",
+      "455.1_TARJETAS_DITO_0_M_15_92",
+      "455.1_TARJETAS_CITO_0_M_16_85",
+      "455.1_OTROS_MEDIIOS_0_M_12_32"
+    ],
+    "denominator": "455.1_VENTAS_TOTAGO_0_M_25_99",
+    "shortTitle": "Supermercados · participación por medio de pago"
+  },
+  {
+    "id": "SR-17",
+    "title": "Supermercados: gráficos de anillo de medios de pago y canal de venta, más cuadros",
+    "section": "industry",
+    "sourceLinks": [
+      {
+        "label": "INDEC — Encuesta de supermercados",
+        "url": "https://www.indec.gob.ar/indec/web/Nivel3-Tema-3-1"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "supermarket-payments",
+    "shortTitle": "Supermercados · composición de ventas",
+    "views": [
+      {
+        "chartType": "doughnut",
+        "transform": "shareLatest",
+        "shortTitle": "Supermercados · medios de pago",
+        "countries": [
+          "455.1_EFECTIVOIVO_0_M_8_15",
+          "455.1_TARJETAS_DITO_0_M_15_92",
+          "455.1_TARJETAS_CITO_0_M_16_85",
+          "455.1_OTROS_MEDIIOS_0_M_12_32"
+        ],
+        "denominator": "455.1_VENTAS_TOTAGO_0_M_25_99"
+      },
+      {
+        "chartType": "doughnut",
+        "transform": "shareLatest",
+        "shortTitle": "Supermercados · canal de venta",
+        "countries": ["455.1_SALON_VENTTAS_0_M_12_82", "455.1_CANALES_ONINE_0_M_15_84"],
+        "denominator": "455.1_VENTAS_TOTNTA_0_M_26_88"
+      }
+    ]
+  },
+  {
+    "id": "SR-18",
+    "title": "Autoservicios mayoristas: índice de ventas a precios constantes, serie original/desestacionalizada/tendencia-ciclo",
+    "section": "industry",
+    "sourceLinks": [
+      {
+        "label": "INDEC — Estadísticas de comercio: autoservicios mayoristas",
+        "url": "https://www.indec.gob.ar/indec/web/Nivel3-Tema-3-1"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "wholesalers",
+    "shortTitle": "Autoservicios mayoristas · ventas a precios constantes",
+    "chartType": "line",
+    "start": "2023-01-01"
+  },
+  {
+    "id": "SR-19",
+    "title": "Contribución directa y total del turismo al PIB argentino, 2016-2025",
+    "section": "tourism",
+    "sourceLinks": [
+      {
+        "label": "WTTC — *Economic Impact Research* (en colaboración con Oxford Economics)",
+        "url": "https://wttc.org/research/economic-impact/"
+      },
+      {
+        "label": "WTTC Research Hub",
+        "url": "https://researchhub.wttc.org/category/economic-impact"
+      },
+      {
+        "label": "Banco Mundial — PIB en US$ corrientes (`NY.GDP.MKTP.CD`)",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=AR"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "tourism-gdp-argentina",
+    "chartType": "line",
+    "countries": ["direct-share", "total-share"],
+    "start": "2016-01-01",
+    "end": "2025-01-01",
+    "shortTitle": "Turismo argentino · aporte directo y total al PIB, 2016–2025",
+    "methodNote": "WTTC EIR 2026: ambos conceptos y todos los años pertenecen a la misma revisión. El total ya incluye el directo. Requiere revisión documentada cuando WTTC publica una nueva edición."
+  },
+  {
+    "id": "SR-20",
+    "title": "Turismo receptivo y emisivo, 2016-2026 y cuadro de saldos",
+    "section": "tourism",
+    "sourceLinks": [
+      {
+        "label": "INDEC — turismo internacional, fuente de contraste",
+        "url": "https://www.indec.gob.ar/indec/web/Institucional-Indec-InformesTecnicos-"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "tourism-flows",
+    "shortTitle": "Turismo internacional · receptivo, emisivo y saldo",
+    "start": "2016-01-01",
+    "views": [
+      {
+        "chartType": "line",
+        "countries": ["inbound", "outbound"],
+        "shortTitle": "Turismo internacional · viajes mensuales, todas las vías"
+      },
+      {
+        "chartType": "table",
+        "countries": ["inbound", "outbound", "balance"],
+        "shortTitle": "Turismo internacional · cuadro mensual de saldos"
+      }
+    ]
+  },
+  {
+    "id": "SR-21",
+    "title": "Cuadro sobre impacto de la pandemia (turistas, pernoctaciones y aporte al PIB)",
+    "section": "tourism",
+    "sourceLinks": [
+      {
+        "label": "INDEC — Encuesta de Ocupación Hotelera, EOH",
+        "url": "https://www.indec.gob.ar/Nivel4/Tema/3/13/56"
+      },
+      {
+        "label": "WTTC — EIR",
+        "url": "https://wttc.org/research/economic-impact/"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "tourism-flows",
+    "shortTitle": "Pandemia · comparación de 2019 y 2020",
+    "views": [
+      {
+        "chartType": "table",
+        "countries": ["inbound", "outbound"],
+        "transform": "annualSum",
+        "start": "2019-01-01",
+        "end": "2020-01-01",
+        "shortTitle": "Pandemia · viajes internacionales de turistas, 2019–2020"
+      },
+      {
+        "dataset": "hotel-nights",
+        "chartType": "table",
+        "countries": ["original"],
+        "transform": "annualSum",
+        "start": "2019-01-01",
+        "end": "2020-01-01",
+        "shortTitle": "Pandemia · pernoctaciones hoteleras, 2019–2020"
+      },
+      {
+        "dataset": "tourism-gdp-argentina",
+        "chartType": "table",
+        "countries": ["total-share"],
+        "start": "2019-01-01",
+        "end": "2020-01-01",
+        "shortTitle": "Pandemia · aporte total del turismo al PIB, 2019–2020",
+        "methodNote": "WTTC EIR 2026, misma revisión que SR-19: 2019 = 5,14193% y 2020 = 2,72112% del PIB. El total incluye efectos directos, indirectos e inducidos. Los tres cuadros tienen unidades y universos distintos."
+      }
+    ]
+  },
+  {
+    "id": "SR-22",
+    "title": "Aporte total del turismo al PIB: Argentina, Latinoamérica, Italia, España, Grecia y Portugal (2024)",
+    "section": "tourism",
+    "sourceLinks": [
+      {
+        "label": "WTTC — Economic Impact Research",
+        "url": "https://researchhub.wttc.org/category/economic-impact"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "tourism-gdp-comparison",
+    "chartType": "horizontalBar",
+    "transform": "latest",
+    "shortTitle": "Turismo · aporte total al PIB, 2024",
+    "methodNote": "Latinoamérica sigue la definición regional de WTTC: América Central y del Sur. México y el Caribe pertenecen a otras regiones de ese informe. Se muestra además Latinoamérica y Caribe como referencia de cobertura más amplia, con su propio rótulo. Comparación de la edición EIR 2025; SR-19 y SR-21 usan la revisión EIR 2026. La diferencia de Argentina 2024 entre ediciones es una revisión, no una variación anual."
+  },
+  {
+    "id": "SR-23",
+    "title": "Turistas registrados en vacaciones de invierno en Salta, 2019 y 2022-2026",
+    "section": "tourism",
+    "sourceLinks": [
+      {
+        "label": "cobertura de agencia Télam",
+        "url": "https://grupolaprovincia.com/contenido/494428/salta-tuvo-records-en-julio-con-266000-arribos-y-un-impacto-turistico-de-1000-mi"
+      },
+      {
+        "label": "Casa de Salta",
+        "url": "https://casa.salta.gob.ar/noticias/turismo-3/temporada-turistica-de-julio-6-mas-ocupacion-que-en-2019-y-un-impacto-economico-de-9632-millones-1473"
+      },
+      {
+        "label": "Gobierno de Salta",
+        "url": "https://www.salta.gob.ar/prensa/noticias/el-turismo-genero-un-impacto-de-30-mil-millones-durante-las-vacaciones-de-invierno-90954"
+      },
+      {
+        "label": "Gobierno de Salta",
+        "url": "https://www.salta.gob.ar/prensa/noticias/el-turismo-genero-un-impacto-economico-de-83-mil-millones-de-pesos-durante-las-vacaciones-de-invierno-96936"
+      },
+      {
+        "label": "Gobierno de Salta",
+        "url": "https://www.salta.gob.ar/prensa/noticias/salta-recibio-a-mas-de-254-mil-turistas-durante-las-vacaciones-de-invierno-y-genero-un-impacto-economico-de-mas-de-128-mil-millones-de-pesos-103059"
+      },
+      {
+        "label": "CAME, balance de vacaciones de invierno",
+        "url": "https://wdw.came.org.ar/prensa/14663/vacaciones-de-invierno-en-modo-mundial-59-mas-de-turistas-que-el-ano-pasado-con-un-impacto-economico-de--212-billones"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "salta-winter",
+    "chartType": "bar",
+    "shortTitle": "Salta · cifras comunicadas de las vacaciones de invierno",
+    "methodNote": "2019: aproximadamente 266.000. 2025: más de 254.000, mostrado como mínimo comunicado. Cambian períodos y universos; no son una serie homogénea para medir crecimiento."
+  },
+  {
+    "id": "SR-24",
+    "title": "Evolución mensual del ISAC (tabla y gráfico: serie original/desestacionalizada, 2023-julio de 2026)",
+    "section": "construction",
+    "sourceLinks": [
+      {
+        "label": "INDEC — ISAC y series históricas de construcción",
+        "url": "https://www.indec.gob.ar/indec/web/Institucional-Indec-InformacionDeArchivo-2"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "isac",
+    "chartType": "line",
+    "start": "2023-01-01",
+    "targetEnd": "2026-07-01",
+    "shortTitle": "ISAC · actividad de la construcción",
+    "end": "2026-07-01"
+  },
+  {
+    "id": "SR-25",
+    "title": "Puestos de trabajo registrados de la construcción, evolución mensual 2023-junio 2026",
+    "section": "construction",
+    "sourceLinks": [
+      {
+        "label": "INDEC — datos de construcción y puestos de trabajo",
+        "url": "https://www.indec.gob.ar/indec/web/Institucional-Indec-InformacionDeArchivo-2"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "construction-jobs",
+    "shortTitle": "Construcción · puestos de trabajo registrados",
+    "chartType": "line",
+    "start": "2023-01-01",
+    "end": "2026-06-01",
+    "targetEnd": "2026-06-01"
+  },
+  {
+    "id": "SR-26",
+    "title": "Índice Construya, evolución mensual 2023-agosto de 2026",
+    "section": "construction",
+    "sourceLinks": [
+      {
+        "label": "Grupo Construya — Índice Construya, tabla histórica",
+        "url": "https://www.grupoconstruya.com/servicios/indice_construya"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "construya",
+    "chartType": "line",
+    "start": "2023-01-01",
+    "end": "2026-08-01",
+    "targetEnd": "2026-08-01",
+    "shortTitle": "Índice Construya · evolución mensual"
+  },
+  {
+    "id": "SR-27",
+    "title": "Expectativas de las empresas constructoras para agosto-octubre 2026: actividad privada/pública y personal ocupado (dos pares de gráficos circulares)",
+    "section": "construction",
+    "sourceLinks": [
+      {
+        "label": "INDEC — Encuesta cualitativa de la construcción, difundida con el ISAC",
+        "url": "https://www.indec.gob.ar/indec/web/Institucional-Indec-InformesTecnicos-"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "construction-expectations",
+    "shortTitle": "Construcción · expectativas agosto–octubre 2026",
+    "chartType": "doughnut",
+    "transform": "latest",
+    "end": "2026-08-01",
+    "targetEnd": "2026-08-01",
+    "views": [
+      {
+        "shortTitle": "Actividad de obras privadas · agosto–octubre 2026",
+        "countries": ["private-activity-increase", "private-activity-same", "private-activity-decrease"]
+      },
+      {
+        "shortTitle": "Actividad de obras públicas · agosto–octubre 2026",
+        "countries": ["public-activity-increase", "public-activity-same", "public-activity-decrease"]
+      },
+      {
+        "shortTitle": "Personal en obras privadas · agosto–octubre 2026",
+        "countries": [
+          "private-employment-increase",
+          "private-employment-same",
+          "private-employment-decrease"
+        ]
+      },
+      {
+        "shortTitle": "Personal en obras públicas · agosto–octubre 2026",
+        "countries": [
+          "public-employment-increase",
+          "public-employment-same",
+          "public-employment-decrease"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SR-28",
+    "title": "Contribuciones sectoriales al PIB del primer trimestre de 2026 (esquema)",
+    "section": "activity",
+    "sourceLinks": [
+      {
+        "label": "INDEC — Agregados macroeconómicos (PIB), informes de avance",
+        "url": "https://www.indec.gob.ar/Nivel4/Tema/3/9/47"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "national-sectors",
+    "shortTitle": "PIB por sector · T1 2026",
+    "chartType": "horizontalBar",
+    "end": "2026-01-01",
+    "targetEnd": "2026-01-01",
+    "countries": [
+      "net-taxes",
+      "vat",
+      "import-duties",
+      "agriculture",
+      "fishing",
+      "mining",
+      "manufacturing",
+      "utilities",
+      "construction",
+      "trade",
+      "hotels",
+      "transport",
+      "finance",
+      "real-estate",
+      "government",
+      "education",
+      "health",
+      "other-services",
+      "households"
+    ],
+    "views": [
+      {
+        "transform": "ratioLatest",
+        "denominator": "gdp",
+        "shortTitle": "Participación en el PIB a precios de 2004 · T1 2026"
+      },
+      {
+        "transform": "contributionLatest",
+        "shortTitle": "Contribución a la variación interanual del PIB · T1 2026"
+      }
+    ],
+    "methodNote": "Participación: sector/PIB del mismo trimestre. Contribución: diferencia interanual del sector a precios de 2004 / PIB del mismo trimestre del año anterior ×100, en puntos porcentuales. Se incluyen impuestos para reconciliar el PIB; no son conceptos intercambiables."
+  },
+  {
+    "id": "SR-29",
+    "title": "Contribución sectorial al PIB del segundo trimestre de 2026 (esquema)",
+    "section": "activity",
+    "sourceLinks": [
+      {
+        "label": "INDEC — Informe de avance del nivel de actividad, 2.º trimestre de 2026",
+        "url": "https://www.indec.gob.ar/Nivel4/Tema/3/9/47"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "national-sectors",
+    "shortTitle": "PIB por sector · T2 2026",
+    "chartType": "horizontalBar",
+    "end": "2026-04-01",
+    "targetEnd": "2026-04-01",
+    "countries": [
+      "net-taxes",
+      "vat",
+      "import-duties",
+      "agriculture",
+      "fishing",
+      "mining",
+      "manufacturing",
+      "utilities",
+      "construction",
+      "trade",
+      "hotels",
+      "transport",
+      "finance",
+      "real-estate",
+      "government",
+      "education",
+      "health",
+      "other-services",
+      "households"
+    ],
+    "views": [
+      {
+        "transform": "ratioLatest",
+        "denominator": "gdp",
+        "shortTitle": "Participación en el PIB a precios de 2004 · T2 2026"
+      },
+      {
+        "transform": "contributionLatest",
+        "shortTitle": "Contribución a la variación interanual del PIB · T2 2026"
+      }
+    ],
+    "methodNote": "Participación: sector/PIB del mismo trimestre. Contribución: diferencia interanual del sector a precios de 2004 / PIB del mismo trimestre del año anterior ×100, en puntos porcentuales. Se incluyen impuestos para reconciliar el PIB; no son conceptos intercambiables."
+  },
+  {
+    "id": "SR-30",
+    "title": "Cuadro: PIB y VAB por categoría de tabulación a precios constantes de 2004",
+    "section": "activity",
+    "sourceLinks": [
+      {
+        "label": "INDEC — series de VAB por sector económico, 2004-2026",
+        "url": "https://www.indec.gob.ar/Nivel4/Tema/3/9/47"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "national-sectors",
+    "shortTitle": "PIB y VAB por categoría · precios de 2004",
+    "chartType": "table",
+    "start": "2023-01-01",
+    "targetEnd": "2026-04-01"
+  },
+  {
+    "id": "SR-31",
+    "title": "VAB real por sectores, comparaciones de niveles trimestrales",
+    "section": "activity",
+    "sourceLinks": [
+      {
+        "label": "INDEC — Series por sector de actividad económica, VAB",
+        "url": "https://www.indec.gob.ar/Nivel4/Tema/3/9/47"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "national-sectors",
+    "shortTitle": "VAB por sectores · niveles trimestrales",
+    "chartType": "line",
+    "start": "2023-01-01",
+    "countries": ["agriculture", "manufacturing", "construction", "trade"],
+    "selectableSeries": [
+      "agriculture",
+      "fishing",
+      "mining",
+      "manufacturing",
+      "utilities",
+      "construction",
+      "trade",
+      "hotels",
+      "transport",
+      "finance",
+      "real-estate",
+      "government",
+      "education",
+      "health",
+      "other-services",
+      "households"
+    ]
+  },
+  {
+    "id": "SR-32",
+    "title": "Valor agregado bruto a precios básicos, sector A (gráfico de barras trimestral)",
+    "section": "activity",
+    "sourceLinks": [
+      {
+        "label": "INDEC — Series trimestrales de VAB por rama de actividad",
+        "url": "https://www.indec.gob.ar/Nivel4/Tema/3/9/47"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "national-sectors",
+    "shortTitle": "VAB agropecuario a precios básicos",
+    "chartType": "bar",
+    "countries": ["agriculture"],
+    "start": "2023-01-01"
+  },
+  {
+    "id": "SR-33",
+    "title": "Cuadro de variaciones interanuales del agro, industria manufacturera y PIB",
+    "section": "activity",
+    "sourceLinks": [
+      {
+        "label": "INDEC — PIB y variaciones sectoriales",
+        "url": "https://www.indec.gob.ar/Nivel4/Tema/3/9/47"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "national-sectors",
+    "shortTitle": "Agro, industria y PIB · variación interanual trimestral",
+    "chartType": "table",
+    "transform": "yoy",
+    "countries": ["agriculture", "manufacturing", "gdp"],
+    "start": "2023-01-01"
+  },
+  {
+    "id": "SR-34",
+    "title": "Valores trimestrales: variación interanual respecto al mismo trimestre anterior, agro/industria/PIB",
+    "section": "activity",
+    "sourceLinks": [
+      {
+        "label": "INDEC — Informe de avance del nivel de actividad y anexos",
+        "url": "https://www.indec.gob.ar/Nivel4/Tema/3/9/47"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "national-sectors",
+    "shortTitle": "Agro, industria y PIB · variación interanual trimestral",
+    "chartType": "table",
+    "transform": "yoy",
+    "countries": ["agriculture", "manufacturing", "gdp"],
+    "start": "2023-01-01"
+  },
+  {
+    "id": "SR-35",
+    "title": "Variación interanual de la rama «Agricultura, ganadería, caza y silvicultura» (EMAE sectorial)",
+    "section": "agriculture",
+    "sourceLinks": [
+      {
+        "label": "INDEC — EMAE por sector de actividad, XLS",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_emae_actividad_base2004.xls"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "emae-sectors",
+    "chartType": "bar",
+    "countries": ["agriculture"],
+    "transform": "yoy",
+    "start": "2023-01-01",
+    "shortTitle": "EMAE agropecuario · variación interanual"
+  },
+  {
+    "id": "SR-36",
+    "title": "Índice del sector agropecuario, base 2004=100 (barras)",
+    "section": "agriculture",
+    "sourceLinks": [
+      {
+        "label": "INDEC — EMAE por sector de actividad, XLS",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_emae_actividad_base2004.xls"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "emae-sectors",
+    "chartType": "bar",
+    "countries": ["agriculture"],
+    "start": "2023-01-01",
+    "shortTitle": "EMAE agropecuario · nivel del índice"
+  },
+  {
+    "id": "SR-37",
+    "title": "Tablero de cultivos: área sembrada de soja por provincia, campaña 2024/25",
+    "section": "agriculture",
+    "sourceLinks": [
+      {
+        "label": "Secretaría de Agricultura, Ganadería y Pesca — Estimaciones Agrícolas",
+        "url": "https://www.magyp.gob.ar/sitio/areas/estimaciones/index.php"
+      },
+      {
+        "label": "Visualizador/Tematizador Agrícola oficial",
+        "url": "https://geoportal.magyp.gob.ar/tematizador/agricola/"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "soy-area",
+    "chartType": "horizontalBar",
+    "transform": "latest",
+    "shortTitle": "Soja 2024/25 · superficie sembrada por provincia",
+    "methodNote": "Campaña 2024/2025. El año almacenado (2024) corresponde al inicio de campaña. Universo: provincias con soja registrada; ausencia de una provincia no implica producción cero.",
+    "sortDescending": true
+  },
+  {
+    "id": "SR-38",
+    "title": "Tablero de cultivos: rendimiento de soja (kg/ha) por provincia, campaña 2024/25",
+    "section": "agriculture",
+    "sourceLinks": [
+      {
+        "label": "Secretaría de Agricultura — Visualizador de cultivos",
+        "url": "https://geoportal.magyp.gob.ar/tematizador/agricola/"
+      },
+      {
+        "label": "Base de Estimaciones Agrícolas",
+        "url": "https://datosestimaciones.magyp.gob.ar/"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "soy-yield",
+    "chartType": "horizontalBar",
+    "transform": "latest",
+    "shortTitle": "Soja 2024/25 · rendimiento por provincia",
+    "methodNote": "Campaña 2024/2025. El año almacenado (2024) corresponde al inicio de campaña. Universo: provincias con soja registrada; ausencia de una provincia no implica producción cero.",
+    "sortDescending": true
+  },
+  {
+    "id": "SR-39",
+    "title": "Tablero de cultivos: producción total de soja (toneladas) por provincia, campaña 2024/25",
+    "section": "agriculture",
+    "sourceLinks": [
+      {
+        "label": "Secretaría de Agricultura — Visualizador de cultivos",
+        "url": "https://geoportal.magyp.gob.ar/tematizador/agricola/"
+      },
+      {
+        "label": "Base de Estimaciones Agrícolas",
+        "url": "https://datosestimaciones.magyp.gob.ar/"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "soy-production",
+    "chartType": "horizontalBar",
+    "transform": "latest",
+    "shortTitle": "Soja 2024/25 · producción por provincia",
+    "methodNote": "Campaña 2024/2025. El año almacenado (2024) corresponde al inicio de campaña. Universo: provincias con soja registrada; ausencia de una provincia no implica producción cero.",
+    "sortDescending": true
+  },
+  {
+    "id": "SR-40",
+    "title": "Gráfico de anillo de composición de las exportaciones: productos primarios, MOA, MOI y combustibles y energía",
+    "section": "exports",
+    "sourceLinks": [
+      {
+        "label": "INDEC — Comercio exterior de bienes",
+        "url": "https://www.indec.gob.ar/indec/web/Nivel3-Tema-3-2"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "export-rubros",
+    "unitOverride": "% del total de exportaciones FOB",
+    "shortTitle": "Exportaciones · composición por grandes rubros, 2025",
+    "chartType": "doughnut",
+    "transform": "shareLatest",
+    "countries": ["primary", "moa", "moi", "energy"],
+    "denominator": "total",
+    "end": "2025-01-01",
+    "methodNote": "Año completo 2025, dato provisorio. Partes del mismo total FOB; no se mezclan valores semestrales."
+  },
+  {
+    "id": "SR-41",
+    "title": "Ranking de complejos exportadores, primer semestre de 2026 frente a 2025",
+    "section": "exports",
+    "sourceLinks": [
+      {
+        "label": "INDEC — *Complejos exportadores. Primer semestre de 2026*, pág. 4 (PDF)",
+        "url": "https://www.indec.gob.ar/uploads/informesdeprensa/complejos_08_26084E913425.pdf"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "export-complexes",
+    "chartType": "horizontalBar",
+    "countries": [
+      "complex-1",
+      "complex-2",
+      "complex-3",
+      "complex-4",
+      "complex-5",
+      "complex-6",
+      "complex-7",
+      "complex-8",
+      "complex-9",
+      "complex-10"
+    ],
+    "comparePeriods": ["2025-01-01", "2026-01-01"],
+    "sortDescending": true,
+    "shortTitle": "Principales complejos exportadores · primer semestre 2025 y 2026"
+  },
+  {
+    "id": "SR-42",
+    "title": "Provincia de Salta, exportaciones totales (barras anuales y primer semestre)",
+    "section": "exports",
+    "sourceLinks": [
+      {
+        "label": "INDEC — Origen provincial de las exportaciones (OPEX)",
+        "url": "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-2-79"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "salta-exports-annual",
+    "shortTitle": "Salta · exportaciones de bienes",
+    "views": [
+      {
+        "chartType": "bar",
+        "shortTitle": "Salta · exportaciones anuales 2016–2025",
+        "start": "2016-01-01"
+      },
+      {
+        "dataset": "salta-exports-semester",
+        "chartType": "bar",
+        "shortTitle": "Salta · primer semestre de cada año, 2016–2026",
+        "start": "2016-01-01"
+      }
+    ]
+  },
+  {
+    "id": "SR-43",
+    "title": "Crecimiento anual del PIB, 2020-2025 estimado, para Argentina, Paraguay, Perú y Uruguay",
+    "section": "activity",
+    "sourceLinks": [
+      {
+        "label": "Banco Mundial — PIB, crecimiento anual (`NY.GDP.MKTP.KD.ZG`)",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "wdi-growth",
+    "chartType": "bar",
+    "countries": ["ARG", "PRY", "PER", "URY"],
+    "start": "2020-01-01",
+    "targetEnd": "2025-01-01",
+    "shortTitle": "Crecimiento del PIB · Argentina y países seleccionados",
+    "methodNote": "Se muestran los valores publicados por WDI; no se generan estimaciones propias para completar 2025."
+  },
+  {
+    "id": "SR-44",
+    "title": "Índices de consumo privado, inversión, consumo público y exportaciones, base aproximada 2020=100",
+    "section": "activity",
+    "sourceLinks": [
+      {
+        "label": "INDEC — Cuentas nacionales, componentes de la demanda agregada",
+        "url": "https://www.indec.gob.ar/Nivel4/Tema/3/9/47"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "national-demand",
+    "shortTitle": "Componentes de la demanda · promedio 2020=100",
+    "chartType": "line",
+    "transform": "base2020",
+    "countries": ["private", "public", "investment", "exports"],
+    "start": "2020-01-01",
+    "methodNote": "Rebase de cada serie real: 100 × nivel / promedio de los cuatro trimestres de 2020. Sin base aproximada."
+  },
+  {
+    "id": "SR-45",
+    "title": "Gráfico de anillo de composición del PIB/demanda (consumo privado, inversión, consumo público, exportaciones netas)",
+    "section": "activity",
+    "sourceLinks": [
+      {
+        "label": "INDEC — Cuentas nacionales, oferta y demanda globales",
+        "url": "https://www.indec.gob.ar/Nivel4/Tema/3/9/47"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "national-demand",
+    "shortTitle": "Demanda agregada · composición del PIB",
+    "chartType": "horizontalBar",
+    "transform": "ratioLatest",
+    "denominator": "gdp",
+    "countries": ["private", "public", "investment", "net-exports", "other-demand"],
+    "methodNote": "Incluye exportaciones netas y ajustes de existencias, objetos valiosos y discrepancia. La identidad se verifica contra el PIB. Se usan barras para conservar valores negativos."
+  },
+  {
+    "id": "SR-46",
+    "title": "Consumo privado, en miles de millones de pesos de 2004, series original/desestacionalizada/tendencia",
+    "section": "activity",
+    "sourceLinks": [
+      {
+        "label": "INDEC — PIB y cuentas nacionales, consumo privado",
+        "url": "https://www.indec.gob.ar/Nivel4/Tema/3/9/47"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "private-consumption-adjusted",
+    "chartType": "line",
+    "countries": ["private-original", "private-adjusted", "private-trend"],
+    "scale": 0.001,
+    "unitOverride": "miles de millones de pesos de 2004",
+    "start": "2023-01-01",
+    "shortTitle": "Consumo privado real · original, ajustado y tendencia",
+    "methodNote": "Tendencia-ciclo: lectura aproximada del gráfico oficial, redondeada a una décima. Original y desestacionalizada conservan los niveles de los XLS. La digitalización se acepta sólo si ambas curvas de control difieren como máximo 0,1 miles de millones de sus series numéricas."
+  },
+  {
+    "id": "SR-47",
+    "title": "EMAE series original, desestacionalizada y tendencia-ciclo (2023-2026)",
+    "section": "activity",
+    "sourceLinks": [
+      {
+        "label": "INDEC — serie mensual EMAE (XLS)",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_emae_mensual_base2004.xls"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "emae",
+    "chartType": "line",
+    "start": "2023-01-01",
+    "targetEnd": "2026-08-01",
+    "shortTitle": "EMAE · original, desestacionalizada y tendencia-ciclo",
+    "end": "2026-08-01"
+  },
+  {
+    "id": "SR-48",
+    "title": "Incidencias y variaciones sectoriales del EMAE, último dato agosto 2026",
+    "section": "activity",
+    "sourceLinks": [
+      {
+        "label": "INDEC — informe del EMAE de agosto de 2026, publicado el 21/10/2026",
+        "url": "https://www.indec.gob.ar/indec/web/Institucional-Indec-InformesTecnicos-"
+      },
+      {
+        "label": "EMAE por sector, XLS",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_emae_actividad_base2004.xls"
+      }
+    ],
+    "reason": "No hay observaciones verificadas disponibles para este indicador.",
+    "dataset": "emae-sectors",
+    "shortTitle": "EMAE · sectores, agosto 2026",
+    "views": [
+      {
+        "chartType": "horizontalBar",
+        "transform": "yoyLatest",
+        "targetEnd": "2026-08-01",
+        "end": "2026-08-01"
+      },
+      {
+        "dataset": "emae-incidences",
+        "chartType": "horizontalBar",
+        "transform": "latest",
+        "end": "2026-08-01",
+        "targetEnd": "2026-08-01",
+        "shortTitle": "EMAE · incidencia sectorial, agosto 2026"
+      }
+    ]
+  },
+  {
+    "id": "CP-01",
+    "title": "Mora bancaria · familias y empresas",
+    "shortTitle": "Mora bancaria · familias y empresas",
+    "section": "credit",
+    "sourceLinks": [
+      {
+        "label": "BCRA · Informe sobre Bancos",
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-bancos-serie-2026-08.xlsx"
+      }
+    ],
+    "reason": "La fuente no tiene observaciones verificadas para este corte.",
+    "dataset": "credit-bank-arrears",
+    "chartType": "line",
+    "forecastDisabled": true,
+    "start": "2023-11-01",
+    "selectableSeries": ["total", "companies", "households", "consumer"],
+    "countries": ["households", "companies", "total"]
+  },
+  {
+    "id": "CP-02",
+    "title": "Crédito familiar · saldo total e irregular",
+    "shortTitle": "Crédito familiar · saldo total e irregular",
+    "section": "credit",
+    "sourceLinks": [
+      {
+        "label": "BCRA · Informe sobre Bancos",
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-bancos-serie-2026-08.xlsx"
+      }
+    ],
+    "reason": "La fuente no tiene observaciones verificadas para este corte.",
+    "dataset": "credit-bank-stocks",
+    "chartType": "line",
+    "forecastDisabled": true,
+    "selectableSeries": ["household_total", "household_irregular", "private_total", "private_irregular"],
+    "countries": ["household_total", "household_irregular"]
+  },
+  {
+    "id": "CP-03",
+    "title": "Crédito familiar · variación mensual real",
+    "shortTitle": "Crédito familiar · variación mensual real",
+    "section": "credit",
+    "sourceLinks": [
+      {
+        "label": "BCRA · Informe sobre Bancos",
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-bancos-serie-2026-08.xlsx"
+      }
+    ],
+    "reason": "La fuente no tiene observaciones verificadas para este corte.",
+    "dataset": "credit-bank-monthly",
+    "chartType": "bar",
+    "forecastDisabled": true,
+    "start": "2024-12-01"
+  },
+  {
+    "id": "CP-04",
+    "title": "Tasas minoristas · períodos publicados",
+    "shortTitle": "Tasas minoristas · períodos publicados",
+    "section": "credit",
+    "sourceLinks": [
+      {
+        "label": "BCRA · Informe Monetario Mensual",
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-monetario-mensual-indicadores-2026-10.xlsx"
+      }
+    ],
+    "reason": "La fuente no tiene observaciones verificadas para este corte.",
+    "dataset": "credit-retail-rates",
+    "chartType": "bar",
+    "forecastDisabled": true,
+    "observedPeriodsOnly": true,
+    "methodNote": "Se comparan únicamente los meses informados en la planilla del BCRA, con igual separación entre barras. No es una secuencia de meses consecutivos: los meses sin dato se conservan como faltantes en la base y no se interpolan ni se reemplazan por cero."
+  },
+  {
+    "id": "CP-05",
+    "title": "Spread minorista · personales y plazo fijo",
+    "shortTitle": "Spread minorista · personales y plazo fijo",
+    "section": "credit",
+    "sourceLinks": [
+      {
+        "label": "BCRA · Informe Monetario Mensual",
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-monetario-mensual-indicadores-2026-10.xlsx"
+      }
+    ],
+    "reason": "La fuente no tiene observaciones verificadas para este corte.",
+    "dataset": "credit-retail-spread",
+    "chartType": "bar",
+    "forecastDisabled": true,
+    "observedPeriodsOnly": true,
+    "methodNote": "Se comparan únicamente los meses informados en la planilla del BCRA, con igual separación entre barras. No es una secuencia de meses consecutivos: los meses sin dato se conservan como faltantes en la base y no se interpolan ni se reemplazan por cero."
+  },
+  {
+    "id": "CP-06",
+    "title": "Tasas · personales, tarjetas y plazo fijo",
+    "shortTitle": "Tasas · personales, tarjetas y plazo fijo",
+    "section": "credit",
+    "sourceLinks": [
+      {
+        "label": "BCRA · Tasas de interés",
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/preser_tas.xls"
+      }
+    ],
+    "reason": "La fuente no tiene observaciones verificadas para este corte.",
+    "dataset": "credit-rates",
+    "chartType": "line",
+    "forecastDisabled": true
+  },
+  {
+    "id": "CP-07",
+    "title": "Spread · personales y plazo fijo de 30–59 días",
+    "shortTitle": "Spread · personales y plazo fijo de 30–59 días",
+    "section": "credit",
+    "sourceLinks": [
+      {
+        "label": "BCRA · Tasas de interés",
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/preser_tas.xls"
+      }
+    ],
+    "reason": "La fuente no tiene observaciones verificadas para este corte.",
+    "dataset": "credit-spread",
+    "chartType": "line",
+    "forecastDisabled": true
+  },
+  {
+    "id": "CP-08",
+    "title": "Personales · tasa real mensual aproximada",
+    "shortTitle": "Personales · tasa real mensual aproximada",
+    "section": "credit",
+    "sourceLinks": [
+      {
+        "label": "BCRA · Tasas de interés e INDEC · IPC",
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/preser_tas.xls"
+      }
+    ],
+    "reason": "La fuente no tiene observaciones verificadas para este corte.",
+    "dataset": "credit-real-rate",
+    "chartType": "bar",
+    "forecastDisabled": true
+  },
+  {
+    "id": "CP-09",
+    "title": "Empleo registrado · privado y público",
+    "shortTitle": "Empleo registrado · privado y público",
+    "section": "credit",
+    "sourceLinks": [
+      {
+        "label": "SIPA · Trabajo registrado",
+        "url": "https://www.argentina.gob.ar/sites/default/files/trabajoregistrado_2607_estadisticas.xlsx"
+      }
+    ],
+    "reason": "La fuente no tiene observaciones verificadas para este corte.",
+    "dataset": "credit-employment",
+    "chartType": "line",
+    "forecastDisabled": true
+  },
+  {
+    "id": "CP-10",
+    "title": "Salarios reales · sectores e índice total",
+    "shortTitle": "Salarios reales · sectores e índice total",
+    "section": "credit",
+    "sourceLinks": [
+      {
+        "label": "INDEC · Índice de salarios e IPC",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/indice_salarios.csv"
+      }
+    ],
+    "reason": "La fuente no tiene observaciones verificadas para este corte.",
+    "dataset": "credit-real-wages",
+    "chartType": "line",
+    "forecastDisabled": true,
+    "selectableSeries": ["private", "public", "total", "unregistered"],
+    "countries": ["private", "public", "total"]
+  },
+  {
+    "id": "CP-11",
+    "title": "Precios y salario privado registrado",
+    "shortTitle": "Precios y salario privado registrado",
+    "section": "credit",
+    "sourceLinks": [
+      {
+        "label": "INDEC · Índice de salarios e IPC",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/indice_salarios.csv"
+      }
+    ],
+    "reason": "La fuente no tiene observaciones verificadas para este corte.",
+    "dataset": "credit-prices-wages",
+    "chartType": "line",
+    "forecastDisabled": true
+  },
+  {
+    "id": "CP-12",
+    "title": "Supermercados · ventas reales",
+    "shortTitle": "Supermercados · ventas reales",
+    "section": "credit",
+    "sourceLinks": [
+      {
+        "label": "INDEC · Encuesta de supermercados",
+        "url": "https://infra.datos.gob.ar/catalog/sspm/dataset/455/distribution/455.1/download/ventas-totales-supermercados-2.csv"
+      }
+    ],
+    "reason": "La fuente no tiene observaciones verificadas para este corte.",
+    "dataset": "credit-supermarket-index",
+    "chartType": "line",
+    "forecastDisabled": true
+  },
+  {
+    "id": "CP-13",
+    "title": "Supermercados · ventas acumuladas",
+    "shortTitle": "Supermercados · ventas acumuladas",
+    "section": "credit",
+    "sourceLinks": [
+      {
+        "label": "INDEC · Encuesta de supermercados",
+        "url": "https://infra.datos.gob.ar/catalog/sspm/dataset/455/distribution/455.1/download/ventas-totales-supermercados-2.csv"
+      }
+    ],
+    "reason": "La fuente no tiene observaciones verificadas para este corte.",
+    "dataset": "credit-supermarket-ytd",
+    "chartType": "horizontalBar",
+    "forecastDisabled": true,
+    "transform": "latest"
+  },
+  {
+    "id": "CP-14",
+    "title": "Mora empresarial · por actividad",
+    "shortTitle": "Mora empresarial · por actividad",
+    "section": "credit",
+    "sourceLinks": [
+      {
+        "label": "BCRA · Informe sobre Bancos",
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-bancos-serie-2026-08.xlsx"
+      }
+    ],
+    "reason": "La fuente no tiene observaciones verificadas para este corte.",
+    "dataset": "credit-arrears-lines",
+    "chartType": "horizontalBar",
+    "forecastDisabled": true,
+    "transform": "latest",
+    "sortDescending": true,
+    "countries": ["construction", "commerce", "services", "industry", "primary", "companies"]
+  },
+  {
+    "id": "CP-15",
+    "title": "Mora familiar · por línea de crédito",
+    "shortTitle": "Mora familiar · por línea de crédito",
+    "section": "credit",
+    "sourceLinks": [
+      {
+        "label": "BCRA · Informe sobre Bancos",
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-bancos-serie-2026-08.xlsx"
+      }
+    ],
+    "reason": "La fuente no tiene observaciones verificadas para este corte.",
+    "dataset": "credit-arrears-lines",
+    "chartType": "horizontalBar",
+    "forecastDisabled": true,
+    "transform": "latest",
+    "sortDescending": true,
+    "countries": ["personal", "cards", "pledged", "mortgage", "households"]
+  },
+  {
+    "id": "CP-16",
+    "title": "Actividad sectorial · comparación con 2023",
+    "shortTitle": "Actividad sectorial · comparación con 2023",
+    "section": "credit",
+    "sourceLinks": [
+      {
+        "label": "INDEC · EMAE por sector",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_emae_actividad_base2004.xls"
+      }
+    ],
+    "reason": "La fuente no tiene observaciones verificadas para este corte.",
+    "dataset": "credit-sector-activity",
+    "chartType": "horizontalBar",
+    "forecastDisabled": true,
+    "transform": "latest",
+    "sortDescending": true
+  },
+  {
+    "id": "CP-17",
+    "title": "Mora por otorgante · EcoGo y Austral",
+    "shortTitle": "Mora por otorgante · EcoGo y Austral",
+    "section": "credit",
+    "sourceLinks": [
+      {
+        "label": "EcoGo · Universidad Austral",
+        "url": "https://www.austral.edu.ar/wp-content/uploads/2026/10/Dossier_ECOGO_Austral_credito_familias_OCTUBRE_2026-005.pdf"
+      }
+    ],
+    "reason": "La fuente no tiene observaciones verificadas para este corte.",
+    "dataset": "credit-ecogo-national",
+    "chartType": "horizontalBar",
+    "forecastDisabled": true,
+    "transform": "latest"
+  },
+  {
+    "id": "CP-18",
+    "title": "Salta y Nación · mora por monto",
+    "shortTitle": "Salta y Nación · mora por monto",
+    "section": "credit",
+    "sourceLinks": [
+      {
+        "label": "EcoGo · Universidad Austral",
+        "url": "https://www.austral.edu.ar/wp-content/uploads/2026/10/Dossier_ECOGO_Austral_credito_familias_OCTUBRE_2026-005.pdf"
+      }
+    ],
+    "reason": "La fuente no tiene observaciones verificadas para este corte.",
+    "dataset": "credit-ecogo-salta",
+    "chartType": "horizontalBar",
+    "forecastDisabled": true,
+    "transform": "latest",
+    "countries": ["salta", "national"],
+    "views": [
+      {},
+      {
+        "dataset": "credit-provinces-amount",
+        "shortTitle": "Jurisdicciones · mora por monto",
+        "chartType": "table",
+        "countries": [
+          "province-1",
+          "province-2",
+          "province-3",
+          "province-4",
+          "province-5",
+          "province-6",
+          "province-7",
+          "province-8",
+          "province-9",
+          "province-10",
+          "province-11",
+          "province-12",
+          "province-13",
+          "province-14",
+          "province-15",
+          "province-16",
+          "province-17",
+          "province-18",
+          "province-19",
+          "province-20",
+          "province-21",
+          "province-22",
+          "province-23",
+          "province-24",
+          "province-25"
+        ],
+        "transform": "latest"
+      }
+    ]
+  },
+  {
+    "id": "CP-19",
+    "title": "Salta y Nación · deudores con mora",
+    "shortTitle": "Salta y Nación · deudores con mora",
+    "section": "credit",
+    "sourceLinks": [
+      {
+        "label": "EcoGo · Universidad Austral",
+        "url": "https://www.austral.edu.ar/wp-content/uploads/2026/10/Dossier_ECOGO_Austral_credito_familias_OCTUBRE_2026-005.pdf"
+      }
+    ],
+    "reason": "La fuente no tiene observaciones verificadas para este corte.",
+    "dataset": "credit-ecogo-debtors",
+    "chartType": "horizontalBar",
+    "forecastDisabled": true,
+    "transform": "latest",
+    "views": [
+      {},
+      {
+        "dataset": "credit-provinces-debtors",
+        "shortTitle": "Jurisdicciones · deudores con mora",
+        "chartType": "table",
+        "countries": [
+          "province-1",
+          "province-2",
+          "province-3",
+          "province-4",
+          "province-5",
+          "province-6",
+          "province-7",
+          "province-8",
+          "province-9",
+          "province-10",
+          "province-11",
+          "province-12",
+          "province-13",
+          "province-14",
+          "province-15",
+          "province-16",
+          "province-17",
+          "province-18",
+          "province-19",
+          "province-20",
+          "province-21",
+          "province-22",
+          "province-23",
+          "province-24",
+          "province-25"
+        ],
+        "transform": "latest"
+      }
+    ]
+  },
+  {
+    "id": "CP-20",
+    "title": "Salta y Nación · mora por otorgante",
+    "shortTitle": "Salta y Nación · mora por otorgante",
+    "section": "credit",
+    "sourceLinks": [
+      {
+        "label": "EcoGo · Universidad Austral",
+        "url": "https://www.austral.edu.ar/wp-content/uploads/2026/10/Dossier_ECOGO_Austral_credito_familias_OCTUBRE_2026-005.pdf"
+      }
+    ],
+    "reason": "La fuente no tiene observaciones verificadas para este corte.",
+    "dataset": "credit-ecogo-salta",
+    "chartType": "horizontalBar",
+    "forecastDisabled": true,
+    "transform": "latest",
+    "countries": ["salta_financial", "national_financial", "salta_nonbank", "national_nonbank"]
+  },
+  {
+    "id": "CP-21",
+    "title": "Mora total · componentes de EcoGo y Austral",
+    "shortTitle": "Mora total · componentes de EcoGo y Austral",
+    "section": "credit",
+    "sourceLinks": [
+      {
+        "label": "EcoGo · Universidad Austral",
+        "url": "https://www.austral.edu.ar/wp-content/uploads/2026/10/Dossier_ECOGO_Austral_credito_familias_OCTUBRE_2026-005.pdf"
+      }
+    ],
+    "reason": "La fuente no tiene observaciones verificadas para este corte.",
+    "dataset": "credit-ecogo-composition",
+    "chartType": "horizontalBar",
+    "forecastDisabled": true,
+    "transform": "latest"
+  },
+  {
+    "id": "CP-22",
+    "title": "Mora de hogares · Fortress",
+    "shortTitle": "Mora de hogares · Fortress",
+    "section": "credit",
+    "sourceLinks": [
+      {
+        "label": "Fortress · Procesamiento de la Central de Deudores",
+        "url": "https://fortressconsulting.com.ar/datos/mora-hogares.csv"
+      }
+    ],
+    "reason": "La fuente no tiene observaciones verificadas para este corte.",
+    "dataset": "credit-fortress",
+    "chartType": "line",
+    "forecastDisabled": true,
+    "start": "2024-09-01"
+  },
+  {
+    "id": "CP-23",
+    "title": "Entrada en mora · probabilidad de default estimada",
+    "shortTitle": "Entrada en mora · probabilidad de default estimada",
+    "section": "credit",
+    "sourceLinks": [
+      {
+        "label": "BCRA · Informe sobre Bancos",
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-bancos-serie-2026-08.xlsx"
+      }
+    ],
+    "reason": "La fuente no tiene observaciones verificadas para este corte.",
+    "dataset": "credit-default-probability",
+    "chartType": "line",
+    "forecastDisabled": true,
+    "start": "2023-11-01"
+  },
+  {
+    "id": "CP-24",
+    "title": "Solvencia bancaria · capital y cobertura",
+    "shortTitle": "Solvencia bancaria · capital y cobertura",
+    "section": "credit",
+    "sourceLinks": [
+      {
+        "label": "BCRA · Informe sobre Bancos",
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-bancos-2026-08.pdf"
+      }
+    ],
+    "reason": "La fuente no tiene observaciones verificadas para este corte.",
+    "dataset": "credit-bank-solvency",
+    "chartType": "horizontalBar",
+    "forecastDisabled": true,
+    "transform": "latest"
+  },
+  {
+    "id": "CP-25",
+    "title": "Personas con acceso al crédito",
+    "shortTitle": "Personas con acceso al crédito",
+    "section": "credit",
+    "sourceLinks": [
+      {
+        "label": "BCRA · Informe de Inclusión Financiera",
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-inclusion-financiera-2026-S1-anexo-estadistico.xlsx"
+      }
+    ],
+    "reason": "La fuente no tiene observaciones verificadas para este corte.",
+    "dataset": "credit-inclusion-people",
+    "chartType": "line",
+    "forecastDisabled": true,
+    "start": "2020-06-01"
+  },
+  {
+    "id": "CP-26",
+    "title": "Cobertura del crédito · población adulta",
+    "shortTitle": "Cobertura del crédito · población adulta",
+    "section": "credit",
+    "sourceLinks": [
+      {
+        "label": "BCRA · Informe de Inclusión Financiera",
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-inclusion-financiera-2026-S1-anexo-estadistico.xlsx"
+      }
+    ],
+    "reason": "La fuente no tiene observaciones verificadas para este corte.",
+    "dataset": "credit-inclusion-coverage",
+    "chartType": "line",
+    "forecastDisabled": true,
+    "start": "2020-06-01"
+  },
+  {
+    "id": "CP-27",
+    "title": "Crédito a empresas · crecimiento real",
+    "shortTitle": "Crédito a empresas · crecimiento real",
+    "section": "credit",
+    "sourceLinks": [
+      {
+        "label": "BCRA · Informe sobre Bancos",
+        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-bancos-serie-2026-08.xlsx"
+      }
+    ],
+    "reason": "La fuente no tiene observaciones verificadas para este corte.",
+    "dataset": "credit-real-business-growth",
+    "chartType": "horizontalBar",
+    "forecastDisabled": true,
+    "transform": "latest",
+    "sortDescending": true
+  },
+  {
+    "id": "CP-28",
+    "title": "Empleo registrado · cambio desde noviembre de 2023",
+    "shortTitle": "Empleo registrado · cambio desde noviembre de 2023",
+    "section": "credit",
+    "sourceLinks": [
+      {
+        "label": "SIPA · Trabajo registrado",
+        "url": "https://www.argentina.gob.ar/sites/default/files/trabajoregistrado_2607_estadisticas.xlsx"
+      }
+    ],
+    "reason": "La fuente no tiene observaciones verificadas para este corte.",
+    "dataset": "credit-employment-change",
+    "chartType": "horizontalBar",
+    "forecastDisabled": true,
+    "transform": "latest"
+  },
+  {
+    "id": "CP-29",
+    "title": "Vivienda y nivel general · precios acumulados",
+    "shortTitle": "Vivienda y nivel general · precios acumulados",
+    "section": "credit",
+    "sourceLinks": [
+      {
+        "label": "INDEC · IPC nacional",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv"
+      }
+    ],
+    "reason": "La fuente no tiene observaciones verificadas para este corte.",
+    "dataset": "credit-prices",
+    "chartType": "line",
+    "forecastDisabled": true
+  },
+  {
+    "id": "CP-30",
+    "title": "IPC · variación mensual",
+    "shortTitle": "IPC · variación mensual",
+    "section": "credit",
+    "sourceLinks": [
+      {
+        "label": "INDEC · IPC nacional",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv"
+      }
+    ],
+    "reason": "La fuente no tiene observaciones verificadas para este corte.",
+    "dataset": "credit-inflation-monthly",
+    "chartType": "line",
+    "forecastDisabled": true
+  },
+  {
+    "id": "CP-31",
+    "title": "IPC · variación interanual",
+    "shortTitle": "IPC · variación interanual",
+    "section": "credit",
+    "sourceLinks": [
+      {
+        "label": "INDEC · IPC nacional",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv"
+      }
+    ],
+    "reason": "La fuente no tiene observaciones verificadas para este corte.",
+    "dataset": "credit-inflation-yearly",
+    "chartType": "line",
+    "forecastDisabled": true
+  },
+  {
+    "id": "MN-01",
+    "section": "mining",
+    "title": "IPI minero · nivel general",
+    "shortTitle": "IPI minero · nivel general",
+    "dataset": "mining-general",
+    "sourceLinks": [
+      {
+        "label": "INDEC · IPI minero",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipi_minero.xlsx"
+      }
+    ],
+    "reason": "No se dispone de un corte verificado para este indicador.",
+    "chartType": "line",
+    "start": "2017-01-01"
+  },
+  {
+    "id": "MN-04",
+    "section": "mining",
+    "title": "Minería · variación interanual por categoría",
+    "shortTitle": "Minería · variación interanual por categoría",
+    "dataset": "mining-sector-yoy",
+    "sourceLinks": [
+      {
+        "label": "INDEC · IPI minero",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipi_minero.xlsx"
+      }
+    ],
+    "reason": "No se dispone de un corte verificado para este indicador.",
+    "chartType": "horizontalBar",
+    "transform": "latest",
+    "sortDescending": true,
+    "countries": ["m5", "m6", "m7", "m8", "m12"]
+  },
+  {
+    "id": "MN-06",
+    "section": "mining",
+    "title": "Petróleo crudo · extracción convencional y no convencional",
+    "shortTitle": "Petróleo crudo · extracción convencional y no convencional",
+    "dataset": "mining-oil",
+    "sourceLinks": [
+      {
+        "label": "INDEC · IPI minero",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipi_minero.xlsx"
+      }
+    ],
+    "reason": "No se dispone de un corte verificado para este indicador.",
+    "chartType": "line",
+    "selectableSeries": ["total", "conventional", "unconventional"],
+    "countries": ["conventional", "unconventional"]
+  },
+  {
+    "id": "MN-12",
+    "section": "mining",
+    "title": "Carbonato de litio · producción",
+    "shortTitle": "Carbonato de litio · producción",
+    "dataset": "mining-lithium",
+    "sourceLinks": [
+      {
+        "label": "INDEC · IPI minero",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipi_minero.xlsx"
+      }
+    ],
+    "reason": "No se dispone de un corte verificado para este indicador.",
+    "chartType": "line",
+    "start": "2023-06-01"
+  },
+  {
+    "id": "TR-01",
+    "section": "labor",
+    "title": "Actividad y empleo · 31 aglomerados urbanos",
+    "shortTitle": "Actividad y empleo · 31 aglomerados urbanos",
+    "dataset": "labor-rates",
+    "sourceLinks": [
+      {
+        "label": "INDEC · EPH",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/cuadros_tasas_indicadores_eph_09_26.xls"
+      }
+    ],
+    "reason": "No se dispone de un corte verificado para este indicador.",
+    "chartType": "line",
+    "start": "2024-01-01",
+    "unitOverride": "% de la población de los 31 aglomerados",
+    "countries": ["activity", "employment"]
+  },
+  {
+    "id": "TR-02",
+    "section": "labor",
+    "title": "Desocupación · 31 aglomerados urbanos",
+    "shortTitle": "Desocupación · 31 aglomerados urbanos",
+    "dataset": "labor-rates",
+    "sourceLinks": [
+      {
+        "label": "INDEC · EPH",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/cuadros_tasas_indicadores_eph_09_26.xls"
+      }
+    ],
+    "reason": "No se dispone de un corte verificado para este indicador.",
+    "chartType": "line",
+    "start": "2024-01-01",
+    "unitOverride": "% de la población económicamente activa",
+    "countries": ["unemployment"]
+  },
+  {
+    "id": "TR-18",
+    "section": "labor",
+    "title": "Subocupación · 31 aglomerados urbanos",
+    "shortTitle": "Subocupación · 31 aglomerados urbanos",
+    "dataset": "labor-suboccupation",
+    "sourceLinks": [
+      {
+        "label": "INDEC · EPH",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/cuadros_tasas_indicadores_eph_09_26.xls"
+      }
+    ],
+    "reason": "No se dispone de observaciones verificadas para este indicador.",
+    "chartType": "line",
+    "start": "2024-01-01"
+  },
+  {
+    "id": "TR-03",
+    "section": "labor",
+    "title": "Informalidad laboral · 31 aglomerados urbanos",
+    "shortTitle": "Informalidad laboral · 31 aglomerados urbanos",
+    "dataset": "labor-rates",
+    "sourceLinks": [
+      {
+        "label": "INDEC · EPH",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/cuadros_tasas_indicadores_eph_09_26.xls"
+      }
+    ],
+    "reason": "No se dispone de un corte verificado para este indicador.",
+    "chartType": "line",
+    "start": "2024-01-01",
+    "unitOverride": "% de los ocupados",
+    "countries": ["informality"]
+  },
+  {
+    "id": "TR-19",
+    "section": "labor",
+    "title": "Asalariados y cuenta propia · participación",
+    "shortTitle": "Asalariados y cuenta propia · participación",
+    "dataset": "labor-occupational-shares",
+    "sourceLinks": [
+      {
+        "label": "INDEC · EPH",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/cuadros_tasas_indicadores_eph_09_26.xls"
+      }
+    ],
+    "reason": "No se dispone de observaciones verificadas para este indicador.",
+    "chartType": "line",
+    "start": "2024-01-01"
+  },
+  {
+    "id": "TR-04",
+    "section": "labor",
+    "title": "Población activa, ocupada y desocupada",
+    "shortTitle": "Población activa, ocupada y desocupada",
+    "dataset": "labor-stocks",
+    "sourceLinks": [
+      {
+        "label": "INDEC · EPH",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/cuadros_tasas_indicadores_eph_09_26.xls"
+      }
+    ],
+    "reason": "No se dispone de un corte verificado para este indicador.",
+    "chartType": "line",
+    "selectableSeries": ["population", "active", "employed", "unemployed"],
+    "start": "2024-01-01",
+    "countries": ["active", "employed", "unemployed"]
+  },
+  {
+    "id": "TR-05",
+    "section": "labor",
+    "title": "Empleo informal y resto de ocupados",
+    "shortTitle": "Empleo informal y resto de ocupados",
+    "dataset": "labor-stocks",
+    "sourceLinks": [
+      {
+        "label": "INDEC · EPH",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/cuadros_tasas_indicadores_eph_09_26.xls"
+      }
+    ],
+    "reason": "No se dispone de un corte verificado para este indicador.",
+    "chartType": "line",
+    "start": "2024-01-01",
+    "countries": ["informal", "other_employed"]
+  },
+  {
+    "id": "TR-06",
+    "section": "labor",
+    "title": "Tasas laborales · cambio interanual",
+    "shortTitle": "Tasas laborales · cambio interanual",
+    "dataset": "labor-rates-change",
+    "sourceLinks": [
+      {
+        "label": "INDEC · EPH",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/cuadros_tasas_indicadores_eph_09_26.xls"
+      }
+    ],
+    "reason": "No se dispone de un corte verificado para este indicador.",
+    "chartType": "horizontalBar",
+    "transform": "latest",
+    "views": [
+      {},
+      {
+        "dataset": "labor-rates",
+        "shortTitle": "Tasas laborales · segundo trimestre de 2025 y 2026",
+        "chartType": "table",
+        "comparePeriods": ["2025-04-01", "2026-04-01"],
+        "countries": ["activity", "employment", "unemployment", "informality"]
+      }
+    ]
+  },
+  {
+    "id": "TR-07",
+    "section": "labor",
+    "title": "Población y empleo · cambio interanual",
+    "shortTitle": "Población y empleo · cambio interanual",
+    "dataset": "labor-stocks-change",
+    "sourceLinks": [
+      {
+        "label": "INDEC · EPH",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/cuadros_tasas_indicadores_eph_09_26.xls"
+      }
+    ],
+    "reason": "No se dispone de un corte verificado para este indicador.",
+    "chartType": "horizontalBar",
+    "transform": "latest",
+    "views": [
+      {},
+      {
+        "dataset": "labor-stocks",
+        "shortTitle": "Población y empleo · segundo trimestre de 2025 y 2026",
+        "chartType": "table",
+        "comparePeriods": ["2025-04-01", "2026-04-01"],
+        "countries": ["active", "employed", "unemployed", "informal", "other_employed"]
+      }
+    ]
+  },
+  {
+    "id": "TR-08",
+    "section": "labor",
+    "title": "Población y empleo · variación interanual",
+    "shortTitle": "Población y empleo · variación interanual",
+    "dataset": "labor-stocks-growth",
+    "sourceLinks": [
+      {
+        "label": "INDEC · EPH",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/cuadros_tasas_indicadores_eph_09_26.xls"
+      }
+    ],
+    "reason": "No se dispone de un corte verificado para este indicador.",
+    "chartType": "horizontalBar",
+    "transform": "latest"
+  },
+  {
+    "id": "TR-20",
+    "section": "labor",
+    "title": "Trabajo registrado · total nacional",
+    "shortTitle": "Trabajo registrado · total nacional",
+    "dataset": "labor-employment",
+    "sourceLinks": [
+      {
+        "label": "SIPA · Trabajo registrado",
+        "url": "https://www.argentina.gob.ar/sites/default/files/trabajoregistrado_2607_estadisticas.xlsx"
+      }
+    ],
+    "reason": "No se dispone de observaciones verificadas para este indicador.",
+    "chartType": "line",
+    "start": "2023-11-01",
+    "countries": ["total_original", "total_sa"]
+  },
+  {
+    "id": "TR-21",
+    "section": "labor",
+    "title": "Asalariados privados registrados · niveles",
+    "shortTitle": "Asalariados privados registrados · niveles",
+    "dataset": "labor-employment",
+    "sourceLinks": [
+      {
+        "label": "SIPA · Trabajo registrado",
+        "url": "https://www.argentina.gob.ar/sites/default/files/trabajoregistrado_2607_estadisticas.xlsx"
+      }
+    ],
+    "reason": "No se dispone de observaciones verificadas para este indicador.",
+    "chartType": "line",
+    "start": "2023-11-01",
+    "countries": ["private_original", "private_sa"]
+  },
+  {
+    "id": "TR-22",
+    "section": "labor",
+    "title": "Asalariados privados · cambio desde noviembre de 2023",
+    "shortTitle": "Asalariados privados · cambio desde noviembre de 2023",
+    "dataset": "credit-employment-change",
+    "sourceLinks": [
+      {
+        "label": "SIPA · Trabajo registrado",
+        "url": "https://www.argentina.gob.ar/sites/default/files/trabajoregistrado_2607_estadisticas.xlsx"
+      }
+    ],
+    "reason": "No se dispone de observaciones verificadas para este indicador.",
+    "chartType": "line",
+    "start": "2023-11-01",
+    "forecastDisabled": true,
+    "countries": ["private"]
+  },
+  {
+    "id": "TR-09",
+    "section": "labor",
+    "title": "Salarios nominales · variación mensual",
+    "shortTitle": "Salarios nominales · variación mensual",
+    "dataset": "labor-wages-nominal-mom",
+    "sourceLinks": [
+      {
+        "label": "INDEC · Índice de salarios",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/indice_salarios.csv"
+      }
+    ],
+    "reason": "No se dispone de un corte verificado para este indicador.",
+    "chartType": "line",
+    "selectableSeries": ["private", "public", "registered", "unregistered", "total"],
+    "countries": ["private", "public", "registered", "total"]
+  },
+  {
+    "id": "TR-10",
+    "section": "labor",
+    "title": "Salarios nominales · variación interanual",
+    "shortTitle": "Salarios nominales · variación interanual",
+    "dataset": "labor-wages-nominal-yoy",
+    "sourceLinks": [
+      {
+        "label": "INDEC · Índice de salarios",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/indice_salarios.csv"
+      }
+    ],
+    "reason": "No se dispone de un corte verificado para este indicador.",
+    "chartType": "line",
+    "selectableSeries": ["private", "public", "registered", "unregistered", "total"],
+    "countries": ["private", "public", "registered", "total"]
+  },
+  {
+    "id": "TR-11",
+    "section": "labor",
+    "title": "Salarios nominales · acumulado del año",
+    "shortTitle": "Salarios nominales · acumulado del año",
+    "dataset": "labor-wages-nominal-ytd",
+    "sourceLinks": [
+      {
+        "label": "INDEC · Índice de salarios",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/indice_salarios.csv"
+      }
+    ],
+    "reason": "No se dispone de un corte verificado para este indicador.",
+    "chartType": "line",
+    "selectableSeries": ["private", "public", "registered", "unregistered", "total"],
+    "countries": ["private", "public", "registered", "total"]
+  },
+  {
+    "id": "TR-23",
+    "section": "labor",
+    "title": "Salarios reales · diciembre de 2023=100",
+    "shortTitle": "Salarios reales · diciembre de 2023=100",
+    "dataset": "labor-wages-real-index",
+    "sourceLinks": [
+      {
+        "label": "INDEC · Índice de salarios e IPC",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/indice_salarios.csv"
+      }
+    ],
+    "reason": "No se dispone de observaciones verificadas para este indicador.",
+    "chartType": "line",
+    "selectableSeries": ["private", "public", "registered", "unregistered", "total"],
+    "countries": ["private", "public", "unregistered", "total"]
+  },
+  {
+    "id": "TR-12",
+    "section": "labor",
+    "title": "Salarios reales · variación mensual",
+    "shortTitle": "Salarios reales · variación mensual",
+    "dataset": "labor-wages-real-mom",
+    "sourceLinks": [
+      {
+        "label": "INDEC · Índice de salarios e IPC",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/indice_salarios.csv"
+      }
+    ],
+    "reason": "No se dispone de un corte verificado para este indicador.",
+    "chartType": "line",
+    "selectableSeries": ["private", "public", "registered", "unregistered", "total"],
+    "countries": ["private", "public", "registered", "total"]
+  },
+  {
+    "id": "TR-13",
+    "section": "labor",
+    "title": "Salarios reales · variación interanual",
+    "shortTitle": "Salarios reales · variación interanual",
+    "dataset": "labor-wages-real-yoy",
+    "sourceLinks": [
+      {
+        "label": "INDEC · Índice de salarios e IPC",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/indice_salarios.csv"
+      }
+    ],
+    "reason": "No se dispone de un corte verificado para este indicador.",
+    "chartType": "line",
+    "selectableSeries": ["private", "public", "registered", "unregistered", "total"],
+    "countries": ["private", "public", "registered", "total"]
+  },
+  {
+    "id": "TR-14",
+    "section": "labor",
+    "title": "Salarios reales · acumulado del año",
+    "shortTitle": "Salarios reales · acumulado del año",
+    "dataset": "labor-wages-real-ytd",
+    "sourceLinks": [
+      {
+        "label": "INDEC · Índice de salarios e IPC",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/indice_salarios.csv"
+      }
+    ],
+    "reason": "No se dispone de un corte verificado para este indicador.",
+    "chartType": "line",
+    "selectableSeries": ["private", "public", "registered", "unregistered", "total"],
+    "countries": ["private", "public", "registered", "total"],
+    "views": [
+      {},
+      {
+        "shortTitle": "Salarios reales · diciembre de 2025 y agosto de 2026",
+        "chartType": "table",
+        "comparePeriods": ["2025-12-01", "2026-08-01"],
+        "countries": ["private", "public", "registered", "unregistered", "total"]
+      }
+    ]
+  },
+  {
+    "id": "TR-24",
+    "section": "labor",
+    "title": "RIPTE · remuneración nominal",
+    "shortTitle": "RIPTE · remuneración nominal",
+    "dataset": "labor-ripte-nominal",
+    "sourceLinks": [
+      {
+        "label": "Seguridad Social · RIPTE",
+        "url": "https://www.argentina.gob.ar/sites/default/files/ripte_septiembre_2026-mdch.pdf"
+      }
+    ],
+    "reason": "No se dispone de observaciones verificadas para este indicador.",
+    "chartType": "line",
+    "start": "2023-11-01"
+  },
+  {
+    "id": "TR-25",
+    "section": "labor",
+    "title": "RIPTE real · diciembre de 2023=100",
+    "shortTitle": "RIPTE real · diciembre de 2023=100",
+    "dataset": "labor-ripte-real",
+    "sourceLinks": [
+      {
+        "label": "Seguridad Social · RIPTE e INDEC · IPC",
+        "url": "https://www.argentina.gob.ar/sites/default/files/ripte_septiembre_2026-mdch.pdf"
+      }
+    ],
+    "reason": "No se dispone de observaciones verificadas para este indicador.",
+    "chartType": "line"
+  },
+  {
+    "id": "TR-15",
+    "section": "labor",
+    "title": "IPC nacional · variación mensual",
+    "shortTitle": "IPC nacional · variación mensual",
+    "dataset": "credit-inflation-monthly",
+    "sourceLinks": [
+      {
+        "label": "INDEC · IPC nacional",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv"
+      }
+    ],
+    "reason": "No se dispone de un corte verificado para este indicador.",
+    "chartType": "line",
+    "start": "2024-01-01",
+    "countries": ["ipc"]
+  },
+  {
+    "id": "TR-16",
+    "section": "labor",
+    "title": "IPC nacional · variación interanual",
+    "shortTitle": "IPC nacional · variación interanual",
+    "dataset": "credit-inflation-yearly",
+    "sourceLinks": [
+      {
+        "label": "INDEC · IPC nacional",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv"
+      }
+    ],
+    "reason": "No se dispone de un corte verificado para este indicador.",
+    "chartType": "line",
+    "start": "2024-01-01",
+    "countries": ["ipc"]
+  },
+  {
+    "id": "TR-17",
+    "section": "labor",
+    "title": "IPC nacional · acumulado del año",
+    "shortTitle": "IPC nacional · acumulado del año",
+    "dataset": "labor-ipc-ytd",
+    "sourceLinks": [
+      {
+        "label": "INDEC · IPC nacional",
+        "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv"
+      }
+    ],
+    "reason": "No se dispone de un corte verificado para este indicador.",
+    "chartType": "line"
+  }
+]

@@ -1,0 +1,180 @@
+{
+  "id": "soy-area",
+  "source": "Secretaría de Agricultura · Estimaciones Agrícolas",
+  "sourceUrl": "https://datos.magyp.gob.ar/api/3/action/datastore_search?resource_id=ba694aa3-99d2-4d7d-9936-60f88e36ad9a&limit=10000&filters=%7B%22campania%22%3A+%222024%2F2025%22%7D",
+  "frequency": "annual",
+  "unit": "hectáreas sembradas",
+  "series": [
+    {
+      "id": "06",
+      "label": "Buenos Aires"
+    },
+    {
+      "id": "10",
+      "label": "Catamarca"
+    },
+    {
+      "id": "14",
+      "label": "Córdoba"
+    },
+    {
+      "id": "18",
+      "label": "Corrientes"
+    },
+    {
+      "id": "22",
+      "label": "Chaco"
+    },
+    {
+      "id": "30",
+      "label": "Entre Ríos"
+    },
+    {
+      "id": "34",
+      "label": "Formosa"
+    },
+    {
+      "id": "38",
+      "label": "Jujuy"
+    },
+    {
+      "id": "42",
+      "label": "La Pampa"
+    },
+    {
+      "id": "54",
+      "label": "Misiones"
+    },
+    {
+      "id": "66",
+      "label": "Salta"
+    },
+    {
+      "id": "74",
+      "label": "San Luis"
+    },
+    {
+      "id": "82",
+      "label": "Santa Fe"
+    },
+    {
+      "id": "86",
+      "label": "Santiago del Estero"
+    },
+    {
+      "id": "90",
+      "label": "Tucumán"
+    }
+  ],
+  "methodNote": "Soja total (primera y segunda incluidas), campaña 2024/25, año de inicio 2024. Suma de departamentos únicos por provincia; no se añaden totales provinciales duplicados. Rendimiento provincial = 1000 × producción / superficie cosechada, ponderado por área cosechada. API empleada por el visualizador oficial; estimaciones sujetas a revisiones.",
+  "observations": [
+    {
+      "date": "2024-01-01",
+      "series": "06",
+      "value": 5487037.0
+    },
+    {
+      "date": "2024-01-01",
+      "series": "10",
+      "value": 41450.0
+    },
+    {
+      "date": "2024-01-01",
+      "series": "14",
+      "value": 4614734.0
+    },
+    {
+      "date": "2024-01-01",
+      "series": "18",
+      "value": 7100.0
+    },
+    {
+      "date": "2024-01-01",
+      "series": "22",
+      "value": 639350.0
+    },
+    {
+      "date": "2024-01-01",
+      "series": "30",
+      "value": 1251450.0
+    },
+    {
+      "date": "2024-01-01",
+      "series": "34",
+      "value": 22000.0
+    },
+    {
+      "date": "2024-01-01",
+      "series": "38",
+      "value": 7259.0
+    },
+    {
+      "date": "2024-01-01",
+      "series": "42",
+      "value": 406900.0
+    },
+    {
+      "date": "2024-01-01",
+      "series": "54",
+      "value": 4324.0
+    },
+    {
+      "date": "2024-01-01",
+      "series": "66",
+      "value": 308223.0
+    },
+    {
+      "date": "2024-01-01",
+      "series": "74",
+      "value": 215850.0
+    },
+    {
+      "date": "2024-01-01",
+      "series": "82",
+      "value": 3389223.0
+    },
+    {
+      "date": "2024-01-01",
+      "series": "86",
+      "value": 1415045.0
+    },
+    {
+      "date": "2024-01-01",
+      "series": "90",
+      "value": 185020.0
+    }
+  ],
+  "periodLabel": "Campaña 2024/2025",
+  "valueKind": "level",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2024-01-01",
+  "firstObservedPeriod": "2024-01-01",
+  "lastObservedBySeries": {
+    "06": "2024-01-01",
+    "10": "2024-01-01",
+    "14": "2024-01-01",
+    "18": "2024-01-01",
+    "22": "2024-01-01",
+    "30": "2024-01-01",
+    "34": "2024-01-01",
+    "38": "2024-01-01",
+    "42": "2024-01-01",
+    "54": "2024-01-01",
+    "66": "2024-01-01",
+    "74": "2024-01-01",
+    "82": "2024-01-01",
+    "86": "2024-01-01",
+    "90": "2024-01-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:46:23Z",
+  "lastAttemptAt": "2026-11-13T12:46:23Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "a82558b5f7e6b625a5a70d5ea16de7ad8d7aaac4e411c3db8acc66432445d815",
+  "rawSha256": "233e048b968a5ccececcec18e0016db251c0935821677008cf3cb3c0daccb42c",
+  "dataChangedAt": "2026-11-12T04:21:24Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

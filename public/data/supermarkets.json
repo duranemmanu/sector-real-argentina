@@ -1,0 +1,1787 @@
+{
+  "id": "supermarkets",
+  "source": "INDEC · CSV oficial publicado en Datos Argentina",
+  "sourceUrl": "https://infra.datos.gob.ar/catalog/sspm/dataset/455/distribution/455.1/download/ventas-totales-supermercados-2.csv",
+  "frequency": "monthly",
+  "unit": "índice de ventas a precios constantes, 2017=100",
+  "series": [
+    {
+      "id": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "label": "Original",
+      "externalField": "ventas_precios_constantes_original"
+    },
+    {
+      "id": "455.1_VENTAS_PREADA_0_M_44_44",
+      "label": "Desestacionalizada",
+      "externalField": "ventas_precios_constantes_desestacionalizada"
+    },
+    {
+      "id": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "label": "Tendencia-ciclo",
+      "externalField": "ventas_precios_constantes_tendencia_ciclo"
+    }
+  ],
+  "methodNote": "Índices oficiales original, desestacionalizado y tendencia-ciclo; no se mezclan con ventas nominales.",
+  "observations": [
+    {
+      "date": "2017-01-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 103.715091331918
+    },
+    {
+      "date": "2017-01-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 99.235038570369
+    },
+    {
+      "date": "2017-01-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 99.92587030961089
+    },
+    {
+      "date": "2017-02-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 99.2005684478707
+    },
+    {
+      "date": "2017-02-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 99.0923809065888
+    },
+    {
+      "date": "2017-02-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 91.7292593461615
+    },
+    {
+      "date": "2017-03-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 96.359589014444
+    },
+    {
+      "date": "2017-03-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 98.9998226407918
+    },
+    {
+      "date": "2017-03-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 95.76899764376483
+    },
+    {
+      "date": "2017-04-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 98.6999876869205
+    },
+    {
+      "date": "2017-04-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 98.9624693962575
+    },
+    {
+      "date": "2017-04-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 98.3569269607987
+    },
+    {
+      "date": "2017-05-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 98.4140297315748
+    },
+    {
+      "date": "2017-05-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 99.0320182764926
+    },
+    {
+      "date": "2017-05-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 93.21460268762463
+    },
+    {
+      "date": "2017-06-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 98.3037047262535
+    },
+    {
+      "date": "2017-06-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 99.2934017657645
+    },
+    {
+      "date": "2017-06-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 95.88218323257465
+    },
+    {
+      "date": "2017-07-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 99.6266862106479
+    },
+    {
+      "date": "2017-07-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 99.7937448322562
+    },
+    {
+      "date": "2017-07-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 101.1697757362319
+    },
+    {
+      "date": "2017-08-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 100.59930802086
+    },
+    {
+      "date": "2017-08-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 100.473361115842
+    },
+    {
+      "date": "2017-08-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 99.62317684822904
+    },
+    {
+      "date": "2017-09-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 102.167035289943
+    },
+    {
+      "date": "2017-09-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 101.183605155113
+    },
+    {
+      "date": "2017-09-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 96.02352405344077
+    },
+    {
+      "date": "2017-10-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 102.627375967895
+    },
+    {
+      "date": "2017-10-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 101.791850454304
+    },
+    {
+      "date": "2017-10-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 100.9781605003273
+    },
+    {
+      "date": "2017-11-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 103.280167341253
+    },
+    {
+      "date": "2017-11-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 102.20379089238
+    },
+    {
+      "date": "2017-11-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 103.3734108063556
+    },
+    {
+      "date": "2017-12-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 98.1530774023119
+    },
+    {
+      "date": "2017-12-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 102.382292017943
+    },
+    {
+      "date": "2017-12-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 123.95411187488028
+    },
+    {
+      "date": "2018-01-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 100.744111404699
+    },
+    {
+      "date": "2018-01-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 102.335846590093
+    },
+    {
+      "date": "2018-01-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 97.23269471314975
+    },
+    {
+      "date": "2018-02-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 100.855195156971
+    },
+    {
+      "date": "2018-02-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 102.091560889852
+    },
+    {
+      "date": "2018-02-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 93.28306203499396
+    },
+    {
+      "date": "2018-03-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 101.130448721516
+    },
+    {
+      "date": "2018-03-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 101.670140687654
+    },
+    {
+      "date": "2018-03-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 104.9059961055264
+    },
+    {
+      "date": "2018-04-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 101.647001475393
+    },
+    {
+      "date": "2018-04-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 101.058267428671
+    },
+    {
+      "date": "2018-04-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 96.11544086429768
+    },
+    {
+      "date": "2018-05-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 100.886134518486
+    },
+    {
+      "date": "2018-05-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 100.222167934358
+    },
+    {
+      "date": "2018-05-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 96.11898921724044
+    },
+    {
+      "date": "2018-06-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 100.083952484102
+    },
+    {
+      "date": "2018-06-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 99.1288913276124
+    },
+    {
+      "date": "2018-06-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 99.88442007578732
+    },
+    {
+      "date": "2018-07-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 99.1464734243527
+    },
+    {
+      "date": "2018-07-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 97.7848221465456
+    },
+    {
+      "date": "2018-07-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 98.31166343210656
+    },
+    {
+      "date": "2018-08-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 96.4269019935914
+    },
+    {
+      "date": "2018-08-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 96.24661068514
+    },
+    {
+      "date": "2018-08-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 95.52531491365032
+    },
+    {
+      "date": "2018-09-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 93.9546846750812
+    },
+    {
+      "date": "2018-09-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 94.6205060128831
+    },
+    {
+      "date": "2018-09-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 88.41025026462246
+    },
+    {
+      "date": "2018-10-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 92.5223227808482
+    },
+    {
+      "date": "2018-10-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 93.032169473663
+    },
+    {
+      "date": "2018-10-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 90.95482286312564
+    },
+    {
+      "date": "2018-11-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 90.5221233508929
+    },
+    {
+      "date": "2018-11-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 91.5860156802854
+    },
+    {
+      "date": "2018-11-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 90.52291725821516
+    },
+    {
+      "date": "2018-12-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 90.2969304574058
+    },
+    {
+      "date": "2018-12-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 90.3425418047379
+    },
+    {
+      "date": "2018-12-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 113.23180282655846
+    },
+    {
+      "date": "2019-01-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 89.1339015000062
+    },
+    {
+      "date": "2019-01-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 89.3284922448425
+    },
+    {
+      "date": "2019-01-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 86.8753872268151
+    },
+    {
+      "date": "2019-02-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 88.4899403805101
+    },
+    {
+      "date": "2019-02-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 88.5253328189377
+    },
+    {
+      "date": "2019-02-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 81.97797201789069
+    },
+    {
+      "date": "2019-03-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 87.8409294210282
+    },
+    {
+      "date": "2019-03-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 87.9057459178162
+    },
+    {
+      "date": "2019-03-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 89.63545406942528
+    },
+    {
+      "date": "2019-04-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 87.269853277394
+    },
+    {
+      "date": "2019-04-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 87.4508543168099
+    },
+    {
+      "date": "2019-04-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 83.91160866879156
+    },
+    {
+      "date": "2019-05-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 87.219686053026
+    },
+    {
+      "date": "2019-05-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 87.1526784017678
+    },
+    {
+      "date": "2019-05-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 83.10567927197076
+    },
+    {
+      "date": "2019-06-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 86.6369015814329
+    },
+    {
+      "date": "2019-06-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 86.9917848375856
+    },
+    {
+      "date": "2019-06-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 86.5651324795158
+    },
+    {
+      "date": "2019-07-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 86.7218751105626
+    },
+    {
+      "date": "2019-07-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 86.9427926279281
+    },
+    {
+      "date": "2019-07-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 85.75291686577862
+    },
+    {
+      "date": "2019-08-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 87.9946092276272
+    },
+    {
+      "date": "2019-08-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 86.9613809209905
+    },
+    {
+      "date": "2019-08-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 88.47982859250462
+    },
+    {
+      "date": "2019-09-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 88.2865969013078
+    },
+    {
+      "date": "2019-09-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 87.0051455205107
+    },
+    {
+      "date": "2019-09-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 80.53276224895534
+    },
+    {
+      "date": "2019-10-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 90.7527626275524
+    },
+    {
+      "date": "2019-10-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 87.0433585931909
+    },
+    {
+      "date": "2019-10-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 89.65375990289294
+    },
+    {
+      "date": "2019-11-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 86.194470487826
+    },
+    {
+      "date": "2019-11-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 87.0531648245901
+    },
+    {
+      "date": "2019-11-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 88.26451491169347
+    },
+    {
+      "date": "2019-12-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 86.1986340139957
+    },
+    {
+      "date": "2019-12-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 87.0469876213494
+    },
+    {
+      "date": "2019-12-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 106.00108342716464
+    },
+    {
+      "date": "2020-01-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 86.828218435694
+    },
+    {
+      "date": "2020-01-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 87.0440510827298
+    },
+    {
+      "date": "2020-01-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 85.40115296903903
+    },
+    {
+      "date": "2020-02-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 87.8843082024825
+    },
+    {
+      "date": "2020-02-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 87.0661204125232
+    },
+    {
+      "date": "2020-02-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 86.19637413620114
+    },
+    {
+      "date": "2020-03-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 99.3019109852569
+    },
+    {
+      "date": "2020-03-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 87.1062591698821
+    },
+    {
+      "date": "2020-03-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 98.1779121966221
+    },
+    {
+      "date": "2020-04-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 86.8576893092393
+    },
+    {
+      "date": "2020-04-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 87.140119344045
+    },
+    {
+      "date": "2020-04-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 84.16217271626562
+    },
+    {
+      "date": "2020-05-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 89.8506667692179
+    },
+    {
+      "date": "2020-05-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 87.1344075076443
+    },
+    {
+      "date": "2020-05-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 87.32615326673104
+    },
+    {
+      "date": "2020-06-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 88.5867335968951
+    },
+    {
+      "date": "2020-06-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 87.0769379178778
+    },
+    {
+      "date": "2020-06-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 85.27822390638114
+    },
+    {
+      "date": "2020-07-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 86.9394222552001
+    },
+    {
+      "date": "2020-07-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 86.9820665827118
+    },
+    {
+      "date": "2020-07-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 86.52132638605822
+    },
+    {
+      "date": "2020-08-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 83.6084573862857
+    },
+    {
+      "date": "2020-08-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 86.8868341326288
+    },
+    {
+      "date": "2020-08-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 83.47248128410075
+    },
+    {
+      "date": "2020-09-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 85.6168073880484
+    },
+    {
+      "date": "2020-09-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 86.8408471824996
+    },
+    {
+      "date": "2020-09-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 78.65399058087726
+    },
+    {
+      "date": "2020-10-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 86.9508640545
+    },
+    {
+      "date": "2020-10-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 86.8811442991018
+    },
+    {
+      "date": "2020-10-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 87.6267671908861
+    },
+    {
+      "date": "2020-11-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 87.5722839225151
+    },
+    {
+      "date": "2020-11-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 87.0383912291917
+    },
+    {
+      "date": "2020-11-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 87.31894319631316
+    },
+    {
+      "date": "2020-12-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 87.5220996686717
+    },
+    {
+      "date": "2020-12-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 87.3022830904637
+    },
+    {
+      "date": "2020-12-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 108.8495168167191
+    },
+    {
+      "date": "2021-01-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 87.5558948085874
+    },
+    {
+      "date": "2021-01-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 87.6294124855458
+    },
+    {
+      "date": "2021-01-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 88.80753065571464
+    },
+    {
+      "date": "2021-02-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 87.1459387169548
+    },
+    {
+      "date": "2021-02-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 87.983561473938
+    },
+    {
+      "date": "2021-02-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 81.17998173361919
+    },
+    {
+      "date": "2021-03-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 89.3065231935994
+    },
+    {
+      "date": "2021-03-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 88.3369131989456
+    },
+    {
+      "date": "2021-03-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 89.5622576336828
+    },
+    {
+      "date": "2021-04-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 89.5996148689375
+    },
+    {
+      "date": "2021-04-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 88.6770190569402
+    },
+    {
+      "date": "2021-04-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 85.12523666636046
+    },
+    {
+      "date": "2021-05-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 88.6942393233587
+    },
+    {
+      "date": "2021-05-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 89.0081343069038
+    },
+    {
+      "date": "2021-05-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 84.98311089735874
+    },
+    {
+      "date": "2021-06-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 88.5629651980021
+    },
+    {
+      "date": "2021-06-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 89.3492234167283
+    },
+    {
+      "date": "2021-06-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 86.10902504084615
+    },
+    {
+      "date": "2021-07-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 89.0573345455982
+    },
+    {
+      "date": "2021-07-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 89.7013440201069
+    },
+    {
+      "date": "2021-07-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 90.11471734986728
+    },
+    {
+      "date": "2021-08-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 89.5038290841354
+    },
+    {
+      "date": "2021-08-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 90.0745156451564
+    },
+    {
+      "date": "2021-08-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 87.24393809948432
+    },
+    {
+      "date": "2021-09-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 90.8284432727551
+    },
+    {
+      "date": "2021-09-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 90.4562846430862
+    },
+    {
+      "date": "2021-09-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 83.5053598666535
+    },
+    {
+      "date": "2021-10-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 91.3931333946762
+    },
+    {
+      "date": "2021-10-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 90.8148768721044
+    },
+    {
+      "date": "2021-10-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 92.32318696574036
+    },
+    {
+      "date": "2021-11-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 91.6311865017093
+    },
+    {
+      "date": "2021-11-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 91.1087541462234
+    },
+    {
+      "date": "2021-11-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 91.01351353638384
+    },
+    {
+      "date": "2021-12-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 91.9432448365558
+    },
+    {
+      "date": "2021-12-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 91.300556984039
+    },
+    {
+      "date": "2021-12-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 114.90648531082756
+    },
+    {
+      "date": "2022-01-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 91.5845414557251
+    },
+    {
+      "date": "2022-01-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 91.3751767984625
+    },
+    {
+      "date": "2022-01-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 92.604615223509
+    },
+    {
+      "date": "2022-02-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 92.7967974310395
+    },
+    {
+      "date": "2022-02-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 91.3348487099913
+    },
+    {
+      "date": "2022-02-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 86.5643645721658
+    },
+    {
+      "date": "2022-03-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 89.7150797485851
+    },
+    {
+      "date": "2022-03-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 91.201936319976
+    },
+    {
+      "date": "2022-03-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 89.50897300569312
+    },
+    {
+      "date": "2022-04-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 89.2618193613056
+    },
+    {
+      "date": "2022-04-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 91.0157678836427
+    },
+    {
+      "date": "2022-04-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 87.81622992459842
+    },
+    {
+      "date": "2022-05-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 90.5389464720538
+    },
+    {
+      "date": "2022-05-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 90.8218198791814
+    },
+    {
+      "date": "2022-05-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 84.49717923457183
+    },
+    {
+      "date": "2022-06-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 90.61237084007
+    },
+    {
+      "date": "2022-06-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 90.6783330047168
+    },
+    {
+      "date": "2022-06-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 87.805039028054
+    },
+    {
+      "date": "2022-07-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 93.4811399848431
+    },
+    {
+      "date": "2022-07-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 90.6510628981035
+    },
+    {
+      "date": "2022-07-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 94.88162111399495
+    },
+    {
+      "date": "2022-08-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 89.4365824749323
+    },
+    {
+      "date": "2022-08-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 90.7794708098888
+    },
+    {
+      "date": "2022-08-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 87.02805372429115
+    },
+    {
+      "date": "2022-09-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 91.4697294958002
+    },
+    {
+      "date": "2022-09-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 91.0806553800721
+    },
+    {
+      "date": "2022-09-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 84.14042859892183
+    },
+    {
+      "date": "2022-10-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 90.9768594453339
+    },
+    {
+      "date": "2022-10-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 91.5366198525703
+    },
+    {
+      "date": "2022-10-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 90.878812991989
+    },
+    {
+      "date": "2022-11-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 92.7911050711152
+    },
+    {
+      "date": "2022-11-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 92.079313615738
+    },
+    {
+      "date": "2022-11-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 93.2362526040457
+    },
+    {
+      "date": "2022-12-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 88.293621364944
+    },
+    {
+      "date": "2022-12-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 92.6046152410098
+    },
+    {
+      "date": "2022-12-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 112.64282848327925
+    },
+    {
+      "date": "2023-01-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 94.1224651159894
+    },
+    {
+      "date": "2023-01-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 93.0066148224266
+    },
+    {
+      "date": "2023-01-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 93.34745843393875
+    },
+    {
+      "date": "2023-02-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 93.6405600911751
+    },
+    {
+      "date": "2023-02-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 93.2111644208239
+    },
+    {
+      "date": "2023-02-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 87.41963396704043
+    },
+    {
+      "date": "2023-03-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 92.8494357615083
+    },
+    {
+      "date": "2023-03-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 93.2169989063562
+    },
+    {
+      "date": "2023-03-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 92.93516241959038
+    },
+    {
+      "date": "2023-04-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 92.2346652893996
+    },
+    {
+      "date": "2023-04-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 93.0828849110782
+    },
+    {
+      "date": "2023-04-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 90.81674990870464
+    },
+    {
+      "date": "2023-05-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 90.7744745048022
+    },
+    {
+      "date": "2023-05-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 92.8688935767515
+    },
+    {
+      "date": "2023-05-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 84.70091886175422
+    },
+    {
+      "date": "2023-06-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 89.9839515291225
+    },
+    {
+      "date": "2023-06-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 92.5901237017046
+    },
+    {
+      "date": "2023-06-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 86.99870929860984
+    },
+    {
+      "date": "2023-07-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 91.9681178599114
+    },
+    {
+      "date": "2023-07-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 92.1898704653613
+    },
+    {
+      "date": "2023-07-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 92.5465592798894
+    },
+    {
+      "date": "2023-08-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 93.5852496569561
+    },
+    {
+      "date": "2023-08-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 91.5591264831822
+    },
+    {
+      "date": "2023-08-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 91.51566559988171
+    },
+    {
+      "date": "2023-09-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 92.5856537509847
+    },
+    {
+      "date": "2023-09-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 90.5793456225402
+    },
+    {
+      "date": "2023-09-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 87.29891657309501
+    },
+    {
+      "date": "2023-10-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 99.938235533922
+    },
+    {
+      "date": "2023-10-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 89.2034416509328
+    },
+    {
+      "date": "2023-10-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 97.38707403287498
+    },
+    {
+      "date": "2023-11-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 91.552333710361
+    },
+    {
+      "date": "2023-11-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 87.4961433465707
+    },
+    {
+      "date": "2023-11-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 91.68391365180575
+    },
+    {
+      "date": "2023-12-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 82.1115897145933
+    },
+    {
+      "date": "2023-12-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 85.6427548930222
+    },
+    {
+      "date": "2023-12-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 105.20283853438916
+    },
+    {
+      "date": "2024-01-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 81.0402943604514
+    },
+    {
+      "date": "2024-01-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 83.8996112681381
+    },
+    {
+      "date": "2024-01-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 80.40041011559113
+    },
+    {
+      "date": "2024-02-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 80.5488243806713
+    },
+    {
+      "date": "2024-02-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 82.4942897237147
+    },
+    {
+      "date": "2024-02-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 77.4648343808862
+    },
+    {
+      "date": "2024-03-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 80.243478713656
+    },
+    {
+      "date": "2024-03-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 81.552664661277
+    },
+    {
+      "date": "2024-03-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 84.26886760910402
+    },
+    {
+      "date": "2024-04-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 80.5129897013831
+    },
+    {
+      "date": "2024-04-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 81.0801134543822
+    },
+    {
+      "date": "2024-04-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 74.87343905385532
+    },
+    {
+      "date": "2024-05-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 81.0155854857821
+    },
+    {
+      "date": "2024-05-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 80.9875992865167
+    },
+    {
+      "date": "2024-05-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 76.43768157384365
+    },
+    {
+      "date": "2024-06-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 81.1566754421986
+    },
+    {
+      "date": "2024-06-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 81.1293784602128
+    },
+    {
+      "date": "2024-06-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 80.60960379201317
+    },
+    {
+      "date": "2024-07-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 82.6545003456526
+    },
+    {
+      "date": "2024-07-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 81.3720689602512
+    },
+    {
+      "date": "2024-07-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 81.15469173565315
+    },
+    {
+      "date": "2024-08-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 82.5755988810259
+    },
+    {
+      "date": "2024-08-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 81.6543725200619
+    },
+    {
+      "date": "2024-08-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 82.28310843627247
+    },
+    {
+      "date": "2024-09-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 82.8827368277383
+    },
+    {
+      "date": "2024-09-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 81.9805127290661
+    },
+    {
+      "date": "2024-09-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 76.13199359109811
+    },
+    {
+      "date": "2024-10-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 81.5645347354468
+    },
+    {
+      "date": "2024-10-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 82.3759413816136
+    },
+    {
+      "date": "2024-10-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 80.04335300217268
+    },
+    {
+      "date": "2024-11-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 83.0540957080719
+    },
+    {
+      "date": "2024-11-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 82.8588161078356
+    },
+    {
+      "date": "2024-11-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 84.67145014731827
+    },
+    {
+      "date": "2024-12-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 82.1781550510152
+    },
+    {
+      "date": "2024-12-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 83.4084028573247
+    },
+    {
+      "date": "2024-12-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 101.77895663563804
+    },
+    {
+      "date": "2025-01-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 83.843622136309
+    },
+    {
+      "date": "2025-01-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 83.9368702336372
+    },
+    {
+      "date": "2025-01-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 83.76148419756835
+    },
+    {
+      "date": "2025-02-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 84.18566384028
+    },
+    {
+      "date": "2025-02-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 84.3410558272426
+    },
+    {
+      "date": "2025-02-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 78.47505153008892
+    },
+    {
+      "date": "2025-03-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 85.1992254450464
+    },
+    {
+      "date": "2025-03-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 84.5273212247751
+    },
+    {
+      "date": "2025-03-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 86.79581994352243
+    },
+    {
+      "date": "2025-04-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 84.4931832971489
+    },
+    {
+      "date": "2025-04-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 84.4402402386811
+    },
+    {
+      "date": "2025-04-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 81.53712427497817
+    },
+    {
+      "date": "2025-05-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 84.1067835515469
+    },
+    {
+      "date": "2025-05-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 84.1006079617923
+    },
+    {
+      "date": "2025-05-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 81.06443952534855
+    },
+    {
+      "date": "2025-06-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 84.0695294315566
+    },
+    {
+      "date": "2025-06-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 83.609445620241
+    },
+    {
+      "date": "2025-06-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 81.21856762481966
+    },
+    {
+      "date": "2025-07-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 82.9006518555367
+    },
+    {
+      "date": "2025-07-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 83.0934790331681
+    },
+    {
+      "date": "2025-07-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 81.96447497286754
+    },
+    {
+      "date": "2025-08-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 82.5998467196804
+    },
+    {
+      "date": "2025-08-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 82.645116127447
+    },
+    {
+      "date": "2025-08-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 82.55780826244025
+    },
+    {
+      "date": "2025-09-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 82.5716976711655
+    },
+    {
+      "date": "2025-09-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 82.3185025083117
+    },
+    {
+      "date": "2025-09-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 75.50460269766181
+    },
+    {
+      "date": "2025-10-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 83.7297087031734
+    },
+    {
+      "date": "2025-10-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 82.122720060402
+    },
+    {
+      "date": "2025-10-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 82.22898274286368
+    },
+    {
+      "date": "2025-11-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 80.7012784039509
+    },
+    {
+      "date": "2025-11-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 82.0261297499056
+    },
+    {
+      "date": "2025-11-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 82.29824264981046
+    },
+    {
+      "date": "2025-12-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 82.7735131307001
+    },
+    {
+      "date": "2025-12-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 81.9731868599506
+    },
+    {
+      "date": "2025-12-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 102.31369967178247
+    },
+    {
+      "date": "2026-01-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 81.4567391316909
+    },
+    {
+      "date": "2026-01-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 81.9331011323657
+    },
+    {
+      "date": "2026-01-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 82.76869790948962
+    },
+    {
+      "date": "2026-02-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 81.6776678573813
+    },
+    {
+      "date": "2026-02-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 81.8878722385233
+    },
+    {
+      "date": "2026-02-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 76.05393952847098
+    },
+    {
+      "date": "2026-03-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 81.5792604333452
+    },
+    {
+      "date": "2026-03-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 81.8286155386851
+    },
+    {
+      "date": "2026-03-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 82.38052026691332
+    },
+    {
+      "date": "2026-04-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 82.1759047663616
+    },
+    {
+      "date": "2026-04-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 81.7482402536461
+    },
+    {
+      "date": "2026-04-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 78.52079495151668
+    },
+    {
+      "date": "2026-05-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 82.7911217842731
+    },
+    {
+      "date": "2026-05-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 81.6360623073031
+    },
+    {
+      "date": "2026-05-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 80.51819790874355
+    },
+    {
+      "date": "2026-06-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 81.6764400633199
+    },
+    {
+      "date": "2026-06-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 81.4727448083678
+    },
+    {
+      "date": "2026-06-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 78.67963209607304
+    },
+    {
+      "date": "2026-07-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 81.0934993625066
+    },
+    {
+      "date": "2026-07-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 81.2631470877484
+    },
+    {
+      "date": "2026-07-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 80.27011296239863
+    },
+    {
+      "date": "2026-08-01",
+      "series": "455.1_VENTAS_PREADA_0_M_44_44",
+      "value": 80.452139598576
+    },
+    {
+      "date": "2026-08-01",
+      "series": "455.1_VENTAS_PRECLO_0_M_41_19",
+      "value": 81.0370215793688
+    },
+    {
+      "date": "2026-08-01",
+      "series": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "value": 79.46845968899339
+    }
+  ],
+  "valueKind": "level",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-08-01",
+  "firstObservedPeriod": "2017-01-01",
+  "lastObservedBySeries": {
+    "455.1_VENTAS_PRENAL_0_M_34_10": "2026-08-01",
+    "455.1_VENTAS_PREADA_0_M_44_44": "2026-08-01",
+    "455.1_VENTAS_PRECLO_0_M_41_19": "2026-08-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:46:18Z",
+  "lastAttemptAt": "2026-11-13T12:46:18Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "a189daccf0b2e8fa95f84f1559d679c44ad1c0d386585a5ffa364d215e517eaf",
+  "rawSha256": "1d4ff0fdb49416750a3c5913e9ce930516c9a5a3a01719ab89b43543782cc1b0",
+  "dataChangedAt": "2026-11-12T03:51:33Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

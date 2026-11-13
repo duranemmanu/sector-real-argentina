@@ -1,0 +1,489 @@
+{
+  "id": "consumption-shares",
+  "source": "INDEC · Cuentas nacionales, oferta y demanda globales",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_oferta_demanda_09_26.xls",
+  "frequency": "annual",
+  "unit": "% del PIB del mismo año y base de precios",
+  "series": [
+    {
+      "id": "current-private",
+      "label": "Consumo privado · precios corrientes"
+    },
+    {
+      "id": "current-public",
+      "label": "Consumo público · precios corrientes"
+    },
+    {
+      "id": "constant-private",
+      "label": "Consumo privado · precios de 2004"
+    },
+    {
+      "id": "constant-public",
+      "label": "Consumo público · precios de 2004"
+    }
+  ],
+  "methodNote": "100 × suma de los cuatro trimestres de consumo / suma de los cuatro trimestres del PIB, separando precios corrientes y constantes. Se excluyen años incompletos. Cambio metodológico en 2019.",
+  "observations": [
+    {
+      "date": "2004-01-01",
+      "series": "constant-private",
+      "value": 64.33150082191408
+    },
+    {
+      "date": "2004-01-01",
+      "series": "constant-public",
+      "value": 11.114636106606026
+    },
+    {
+      "date": "2004-01-01",
+      "series": "current-private",
+      "value": 64.33150084422769
+    },
+    {
+      "date": "2004-01-01",
+      "series": "current-public",
+      "value": 11.114636059921656
+    },
+    {
+      "date": "2005-01-01",
+      "series": "constant-private",
+      "value": 63.469181361873474
+    },
+    {
+      "date": "2005-01-01",
+      "series": "constant-public",
+      "value": 11.217129678073222
+    },
+    {
+      "date": "2005-01-01",
+      "series": "current-private",
+      "value": 63.02939213475907
+    },
+    {
+      "date": "2005-01-01",
+      "series": "current-public",
+      "value": 12.141861237651328
+    },
+    {
+      "date": "2006-01-01",
+      "series": "constant-private",
+      "value": 65.17803816968626
+    },
+    {
+      "date": "2006-01-01",
+      "series": "constant-public",
+      "value": 10.768159777094157
+    },
+    {
+      "date": "2006-01-01",
+      "series": "current-private",
+      "value": 63.27018804371065
+    },
+    {
+      "date": "2006-01-01",
+      "series": "current-public",
+      "value": 12.42941537798918
+    },
+    {
+      "date": "2007-01-01",
+      "series": "constant-private",
+      "value": 65.37606547620277
+    },
+    {
+      "date": "2007-01-01",
+      "series": "constant-public",
+      "value": 10.651805401368282
+    },
+    {
+      "date": "2007-01-01",
+      "series": "current-private",
+      "value": 62.53123290980051
+    },
+    {
+      "date": "2007-01-01",
+      "series": "current-public",
+      "value": 12.989323892543684
+    },
+    {
+      "date": "2008-01-01",
+      "series": "constant-private",
+      "value": 67.3786240838891
+    },
+    {
+      "date": "2008-01-01",
+      "series": "constant-public",
+      "value": 10.749855119901683
+    },
+    {
+      "date": "2008-01-01",
+      "series": "current-private",
+      "value": 63.07458347996736
+    },
+    {
+      "date": "2008-01-01",
+      "series": "current-public",
+      "value": 13.633513257704227
+    },
+    {
+      "date": "2009-01-01",
+      "series": "constant-private",
+      "value": 67.75165939079125
+    },
+    {
+      "date": "2009-01-01",
+      "series": "constant-public",
+      "value": 12.069888670483742
+    },
+    {
+      "date": "2009-01-01",
+      "series": "current-private",
+      "value": 62.97814768407945
+    },
+    {
+      "date": "2009-01-01",
+      "series": "current-public",
+      "value": 15.903896747069712
+    },
+    {
+      "date": "2010-01-01",
+      "series": "constant-private",
+      "value": 68.40551350676446
+    },
+    {
+      "date": "2010-01-01",
+      "series": "constant-public",
+      "value": 11.557697326252912
+    },
+    {
+      "date": "2010-01-01",
+      "series": "current-private",
+      "value": 64.23411476316491
+    },
+    {
+      "date": "2010-01-01",
+      "series": "current-public",
+      "value": 15.163717888711515
+    },
+    {
+      "date": "2011-01-01",
+      "series": "constant-private",
+      "value": 70.57683476488509
+    },
+    {
+      "date": "2011-01-01",
+      "series": "constant-public",
+      "value": 11.400797386675713
+    },
+    {
+      "date": "2011-01-01",
+      "series": "current-private",
+      "value": 64.22032128065358
+    },
+    {
+      "date": "2011-01-01",
+      "series": "current-public",
+      "value": 15.688956514459347
+    },
+    {
+      "date": "2012-01-01",
+      "series": "constant-private",
+      "value": 72.10049070369891
+    },
+    {
+      "date": "2012-01-01",
+      "series": "constant-public",
+      "value": 11.86567282519108
+    },
+    {
+      "date": "2012-01-01",
+      "series": "current-private",
+      "value": 64.90339910717401
+    },
+    {
+      "date": "2012-01-01",
+      "series": "current-public",
+      "value": 16.645437810732513
+    },
+    {
+      "date": "2013-01-01",
+      "series": "constant-private",
+      "value": 72.96909322785027
+    },
+    {
+      "date": "2013-01-01",
+      "series": "constant-public",
+      "value": 12.203695249706515
+    },
+    {
+      "date": "2013-01-01",
+      "series": "current-private",
+      "value": 65.98756552838294
+    },
+    {
+      "date": "2013-01-01",
+      "series": "current-public",
+      "value": 16.80623779553532
+    },
+    {
+      "date": "2014-01-01",
+      "series": "constant-private",
+      "value": 71.58765602356648
+    },
+    {
+      "date": "2014-01-01",
+      "series": "constant-public",
+      "value": 12.886895908846837
+    },
+    {
+      "date": "2014-01-01",
+      "series": "current-private",
+      "value": 65.3830797252326
+    },
+    {
+      "date": "2014-01-01",
+      "series": "current-public",
+      "value": 16.949875736732235
+    },
+    {
+      "date": "2015-01-01",
+      "series": "constant-private",
+      "value": 72.2322626224424
+    },
+    {
+      "date": "2015-01-01",
+      "series": "constant-public",
+      "value": 13.415618515019453
+    },
+    {
+      "date": "2015-01-01",
+      "series": "current-private",
+      "value": 65.9058373446173
+    },
+    {
+      "date": "2015-01-01",
+      "series": "current-public",
+      "value": 18.09837975911435
+    },
+    {
+      "date": "2016-01-01",
+      "series": "constant-private",
+      "value": 73.19127412334134
+    },
+    {
+      "date": "2016-01-01",
+      "series": "constant-public",
+      "value": 13.628793862814732
+    },
+    {
+      "date": "2016-01-01",
+      "series": "current-private",
+      "value": 65.72189146487798
+    },
+    {
+      "date": "2016-01-01",
+      "series": "current-public",
+      "value": 17.654578185798396
+    },
+    {
+      "date": "2017-01-01",
+      "series": "constant-private",
+      "value": 74.14510985180198
+    },
+    {
+      "date": "2017-01-01",
+      "series": "constant-public",
+      "value": 13.604751803364596
+    },
+    {
+      "date": "2017-01-01",
+      "series": "current-private",
+      "value": 66.73957332138188
+    },
+    {
+      "date": "2017-01-01",
+      "series": "current-public",
+      "value": 17.696893922470775
+    },
+    {
+      "date": "2018-01-01",
+      "series": "constant-private",
+      "value": 74.42809203388163
+    },
+    {
+      "date": "2018-01-01",
+      "series": "constant-public",
+      "value": 13.706175207787865
+    },
+    {
+      "date": "2018-01-01",
+      "series": "current-private",
+      "value": 69.47018228347821
+    },
+    {
+      "date": "2018-01-01",
+      "series": "current-public",
+      "value": 15.805097155941551
+    },
+    {
+      "date": "2019-01-01",
+      "series": "constant-private",
+      "value": 71.29445219927301
+    },
+    {
+      "date": "2019-01-01",
+      "series": "constant-public",
+      "value": 13.090892983053312
+    },
+    {
+      "date": "2019-01-01",
+      "series": "current-private",
+      "value": 66.1275863049251
+    },
+    {
+      "date": "2019-01-01",
+      "series": "current-public",
+      "value": 16.44324158620815
+    },
+    {
+      "date": "2020-01-01",
+      "series": "constant-private",
+      "value": 69.49753681360956
+    },
+    {
+      "date": "2020-01-01",
+      "series": "constant-public",
+      "value": 14.235649414222314
+    },
+    {
+      "date": "2020-01-01",
+      "series": "current-private",
+      "value": 65.70470680829055
+    },
+    {
+      "date": "2020-01-01",
+      "series": "current-public",
+      "value": 16.873007383630192
+    },
+    {
+      "date": "2021-01-01",
+      "series": "constant-private",
+      "value": 68.88361155518777
+    },
+    {
+      "date": "2021-01-01",
+      "series": "constant-public",
+      "value": 13.808067807169989
+    },
+    {
+      "date": "2021-01-01",
+      "series": "current-private",
+      "value": 62.95316403993609
+    },
+    {
+      "date": "2021-01-01",
+      "series": "current-public",
+      "value": 15.915817942407458
+    },
+    {
+      "date": "2022-01-01",
+      "series": "constant-private",
+      "value": 71.12220616808209
+    },
+    {
+      "date": "2022-01-01",
+      "series": "constant-public",
+      "value": 13.384259305985806
+    },
+    {
+      "date": "2022-01-01",
+      "series": "current-private",
+      "value": 65.92864861929785
+    },
+    {
+      "date": "2022-01-01",
+      "series": "current-public",
+      "value": 15.702609054919725
+    },
+    {
+      "date": "2023-01-01",
+      "series": "constant-private",
+      "value": 73.17867712633108
+    },
+    {
+      "date": "2023-01-01",
+      "series": "constant-public",
+      "value": 13.949566857870924
+    },
+    {
+      "date": "2023-01-01",
+      "series": "current-private",
+      "value": 65.76545375353709
+    },
+    {
+      "date": "2023-01-01",
+      "series": "current-public",
+      "value": 16.21373045827084
+    },
+    {
+      "date": "2024-01-01",
+      "series": "constant-private",
+      "value": 72.06674124809906
+    },
+    {
+      "date": "2024-01-01",
+      "series": "constant-public",
+      "value": 13.714429378107969
+    },
+    {
+      "date": "2024-01-01",
+      "series": "current-private",
+      "value": 67.37024397014544
+    },
+    {
+      "date": "2024-01-01",
+      "series": "current-public",
+      "value": 15.174512520419047
+    },
+    {
+      "date": "2025-01-01",
+      "series": "constant-private",
+      "value": 74.88337077874343
+    },
+    {
+      "date": "2025-01-01",
+      "series": "constant-public",
+      "value": 13.175413790407207
+    },
+    {
+      "date": "2025-01-01",
+      "series": "current-private",
+      "value": 70.82844665211002
+    },
+    {
+      "date": "2025-01-01",
+      "series": "current-public",
+      "value": 15.348854102169158
+    }
+  ],
+  "valueKind": "percentage",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2025-01-01",
+  "firstObservedPeriod": "2004-01-01",
+  "lastObservedBySeries": {
+    "current-private": "2025-01-01",
+    "current-public": "2025-01-01",
+    "constant-private": "2025-01-01",
+    "constant-public": "2025-01-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:46:21Z",
+  "lastAttemptAt": "2026-11-13T12:46:21Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "b1a123038a6f5a364386969bd93f46eabcc2f450b27299ca46195c6a4b85ae73",
+  "rawSha256": "fbd4a5b6964cd49a1b5dd48c47b8af5bf3b238c4359503a55167806b8b74e55e",
+  "dataChangedAt": "2026-11-12T03:32:52Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

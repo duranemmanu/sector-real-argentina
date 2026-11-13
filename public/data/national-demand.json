@@ -1,0 +1,4252 @@
+{
+  "id": "national-demand",
+  "source": "INDEC · Cuentas nacionales, oferta y demanda globales",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_oferta_demanda_09_26.xls",
+  "frequency": "quarterly",
+  "unit": "millones de pesos a precios de 2004",
+  "series": [
+    {
+      "id": "gdp",
+      "label": "PIB",
+      "row": 6,
+      "expect": "Producto Interno Bruto"
+    },
+    {
+      "id": "imports",
+      "label": "Importaciones",
+      "row": 7,
+      "expect": "Importaciones"
+    },
+    {
+      "id": "private",
+      "label": "Consumo privado",
+      "row": 11,
+      "expect": "Consumo privado"
+    },
+    {
+      "id": "public",
+      "label": "Consumo público",
+      "row": 12,
+      "expect": "Consumo público"
+    },
+    {
+      "id": "exports",
+      "label": "Exportaciones",
+      "row": 13,
+      "expect": "Exportaciones"
+    },
+    {
+      "id": "investment",
+      "label": "Formación bruta de capital fijo",
+      "row": 14,
+      "expect": "Formación bruta"
+    },
+    {
+      "id": "inventories",
+      "label": "Variación de existencias",
+      "row": 15,
+      "expect": "Variación de existencias"
+    },
+    {
+      "id": "valuables",
+      "label": "Objetos valiosos",
+      "row": 16,
+      "expect": "Objetos valiosos"
+    },
+    {
+      "id": "discrepancy",
+      "label": "Discrepancia estadística",
+      "row": 17,
+      "expect": "Discrepancia estadística"
+    },
+    {
+      "id": "net-exports",
+      "label": "Exportaciones netas"
+    },
+    {
+      "id": "other-demand",
+      "label": "Existencias, objetos valiosos y discrepancia"
+    }
+  ],
+  "methodNote": "Niveles trimestrales oficiales a precios de 2004. Datos recientes preliminares; cambios de consumo público/privado desde 2019 afectan comparabilidad con 2018.",
+  "observations": [
+    {
+      "date": "2004-01-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2004-01-01",
+      "series": "exports",
+      "value": 102774.20298138498
+    },
+    {
+      "date": "2004-01-01",
+      "series": "gdp",
+      "value": 460369.4422329487
+    },
+    {
+      "date": "2004-01-01",
+      "series": "imports",
+      "value": 73073.43481112685
+    },
+    {
+      "date": "2004-01-01",
+      "series": "inventories",
+      "value": 3949.8212589709524
+    },
+    {
+      "date": "2004-01-01",
+      "series": "investment",
+      "value": 71794.43385344952
+    },
+    {
+      "date": "2004-01-01",
+      "series": "private",
+      "value": 305237.1734056582
+    },
+    {
+      "date": "2004-01-01",
+      "series": "public",
+      "value": 49687.34219058054
+    },
+    {
+      "date": "2004-01-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2004-04-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2004-04-01",
+      "series": "exports",
+      "value": 119462.27741173614
+    },
+    {
+      "date": "2004-04-01",
+      "series": "gdp",
+      "value": 514395.6817723617
+    },
+    {
+      "date": "2004-04-01",
+      "series": "imports",
+      "value": 80006.3072174586
+    },
+    {
+      "date": "2004-04-01",
+      "series": "inventories",
+      "value": 2071.933134947911
+    },
+    {
+      "date": "2004-04-01",
+      "series": "investment",
+      "value": 81995.48031590602
+    },
+    {
+      "date": "2004-04-01",
+      "series": "private",
+      "value": 338800.0016764252
+    },
+    {
+      "date": "2004-04-01",
+      "series": "public",
+      "value": 52072.27795725742
+    },
+    {
+      "date": "2004-04-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2004-07-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2004-07-01",
+      "series": "exports",
+      "value": 119619.17122810414
+    },
+    {
+      "date": "2004-07-01",
+      "series": "gdp",
+      "value": 481151.9799435081
+    },
+    {
+      "date": "2004-07-01",
+      "series": "imports",
+      "value": 85416.07252113911
+    },
+    {
+      "date": "2004-07-01",
+      "series": "inventories",
+      "value": 3533.150723007206
+    },
+    {
+      "date": "2004-07-01",
+      "series": "investment",
+      "value": 79254.31381216343
+    },
+    {
+      "date": "2004-07-01",
+      "series": "private",
+      "value": 310440.5741314673
+    },
+    {
+      "date": "2004-07-01",
+      "series": "public",
+      "value": 53720.816256870574
+    },
+    {
+      "date": "2004-07-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2004-10-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2004-10-01",
+      "series": "exports",
+      "value": 120898.05016710557
+    },
+    {
+      "date": "2004-10-01",
+      "series": "gdp",
+      "value": 484543.6768765623
+    },
+    {
+      "date": "2004-10-01",
+      "series": "imports",
+      "value": 88375.32157266857
+    },
+    {
+      "date": "2004-10-01",
+      "series": "inventories",
+      "value": 22607.903844412853
+    },
+    {
+      "date": "2004-10-01",
+      "series": "investment",
+      "value": 75368.48047083837
+    },
+    {
+      "date": "2004-10-01",
+      "series": "private",
+      "value": 293849.7939520492
+    },
+    {
+      "date": "2004-10-01",
+      "series": "public",
+      "value": 60194.71817543847
+    },
+    {
+      "date": "2004-10-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2005-01-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2005-01-01",
+      "series": "exports",
+      "value": 119186.92694656595
+    },
+    {
+      "date": "2005-01-01",
+      "series": "gdp",
+      "value": 493602.53057785495
+    },
+    {
+      "date": "2005-01-01",
+      "series": "imports",
+      "value": 84904.77744994142
+    },
+    {
+      "date": "2005-01-01",
+      "series": "inventories",
+      "value": 4668.8283674091235
+    },
+    {
+      "date": "2005-01-01",
+      "series": "investment",
+      "value": 80672.43472385775
+    },
+    {
+      "date": "2005-01-01",
+      "series": "private",
+      "value": 319799.76251832145
+    },
+    {
+      "date": "2005-01-01",
+      "series": "public",
+      "value": 54179.35547164225
+    },
+    {
+      "date": "2005-01-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2005-04-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2005-04-01",
+      "series": "exports",
+      "value": 138217.54798367393
+    },
+    {
+      "date": "2005-04-01",
+      "series": "gdp",
+      "value": 581668.2498796025
+    },
+    {
+      "date": "2005-04-01",
+      "series": "imports",
+      "value": 97288.20329605682
+    },
+    {
+      "date": "2005-04-01",
+      "series": "inventories",
+      "value": 2240.3023872762333
+    },
+    {
+      "date": "2005-04-01",
+      "series": "investment",
+      "value": 94508.35870797462
+    },
+    {
+      "date": "2005-04-01",
+      "series": "private",
+      "value": 385778.0721106242
+    },
+    {
+      "date": "2005-04-01",
+      "series": "public",
+      "value": 58212.17198611024
+    },
+    {
+      "date": "2005-04-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2005-07-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2005-07-01",
+      "series": "exports",
+      "value": 135432.69307676284
+    },
+    {
+      "date": "2005-07-01",
+      "series": "gdp",
+      "value": 514697.78950542817
+    },
+    {
+      "date": "2005-07-01",
+      "series": "imports",
+      "value": 96844.89303709046
+    },
+    {
+      "date": "2005-07-01",
+      "series": "inventories",
+      "value": 3352.1803442310757
+    },
+    {
+      "date": "2005-07-01",
+      "series": "investment",
+      "value": 89948.60416710979
+    },
+    {
+      "date": "2005-07-01",
+      "series": "private",
+      "value": 323831.3656613597
+    },
+    {
+      "date": "2005-07-01",
+      "series": "public",
+      "value": 58977.83929305516
+    },
+    {
+      "date": "2005-07-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2005-10-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2005-10-01",
+      "series": "exports",
+      "value": 129550.81848020395
+    },
+    {
+      "date": "2005-10-01",
+      "series": "gdp",
+      "value": 522255.20005077147
+    },
+    {
+      "date": "2005-10-01",
+      "series": "imports",
+      "value": 99636.55792383585
+    },
+    {
+      "date": "2005-10-01",
+      "series": "inventories",
+      "value": 23477.46886586838
+    },
+    {
+      "date": "2005-10-01",
+      "series": "investment",
+      "value": 92100.02293755974
+    },
+    {
+      "date": "2005-10-01",
+      "series": "private",
+      "value": 311201.9350682639
+    },
+    {
+      "date": "2005-10-01",
+      "series": "public",
+      "value": 65561.51262271135
+    },
+    {
+      "date": "2005-10-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2006-01-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2006-01-01",
+      "series": "exports",
+      "value": 125801.74305657322
+    },
+    {
+      "date": "2006-01-01",
+      "series": "gdp",
+      "value": 532348.2120169173
+    },
+    {
+      "date": "2006-01-01",
+      "series": "imports",
+      "value": 96613.8916394867
+    },
+    {
+      "date": "2006-01-01",
+      "series": "inventories",
+      "value": -2443.2120192403586
+    },
+    {
+      "date": "2006-01-01",
+      "series": "investment",
+      "value": 93836.57316923379
+    },
+    {
+      "date": "2006-01-01",
+      "series": "private",
+      "value": 354888.1198370661
+    },
+    {
+      "date": "2006-01-01",
+      "series": "public",
+      "value": 56878.87961277132
+    },
+    {
+      "date": "2006-01-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2006-04-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2006-04-01",
+      "series": "exports",
+      "value": 141431.39484319702
+    },
+    {
+      "date": "2006-04-01",
+      "series": "gdp",
+      "value": 614076.3926085439
+    },
+    {
+      "date": "2006-04-01",
+      "series": "imports",
+      "value": 101743.8617298436
+    },
+    {
+      "date": "2006-04-01",
+      "series": "inventories",
+      "value": -3784.5828233397406
+    },
+    {
+      "date": "2006-04-01",
+      "series": "investment",
+      "value": 105355.8130616704
+    },
+    {
+      "date": "2006-04-01",
+      "series": "private",
+      "value": 412814.6666905762
+    },
+    {
+      "date": "2006-04-01",
+      "series": "public",
+      "value": 60002.96256628369
+    },
+    {
+      "date": "2006-04-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2006-07-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2006-07-01",
+      "series": "exports",
+      "value": 139275.06000824485
+    },
+    {
+      "date": "2006-07-01",
+      "series": "gdp",
+      "value": 562978.9656268766
+    },
+    {
+      "date": "2006-07-01",
+      "series": "imports",
+      "value": 109844.576627056
+    },
+    {
+      "date": "2006-07-01",
+      "series": "inventories",
+      "value": -6513.305355838509
+    },
+    {
+      "date": "2006-07-01",
+      "series": "investment",
+      "value": 106228.60234204463
+    },
+    {
+      "date": "2006-07-01",
+      "series": "private",
+      "value": 372993.0937998369
+    },
+    {
+      "date": "2006-07-01",
+      "series": "public",
+      "value": 60840.091459644784
+    },
+    {
+      "date": "2006-07-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2006-10-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2006-10-01",
+      "series": "exports",
+      "value": 144930.84608108603
+    },
+    {
+      "date": "2006-10-01",
+      "series": "gdp",
+      "value": 572794.0466305884
+    },
+    {
+      "date": "2006-10-01",
+      "series": "imports",
+      "value": 112095.47619426234
+    },
+    {
+      "date": "2006-10-01",
+      "series": "inventories",
+      "value": 21624.58256061705
+    },
+    {
+      "date": "2006-10-01",
+      "series": "investment",
+      "value": 103509.58849471423
+    },
+    {
+      "date": "2006-10-01",
+      "series": "private",
+      "value": 346795.75351214455
+    },
+    {
+      "date": "2006-10-01",
+      "series": "public",
+      "value": 68028.75217628879
+    },
+    {
+      "date": "2006-10-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2007-01-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2007-01-01",
+      "series": "exports",
+      "value": 129994.2930727219
+    },
+    {
+      "date": "2007-01-01",
+      "series": "gdp",
+      "value": 576846.8856994272
+    },
+    {
+      "date": "2007-01-01",
+      "series": "imports",
+      "value": 112275.54046719316
+    },
+    {
+      "date": "2007-01-01",
+      "series": "inventories",
+      "value": -8102.494160547839
+    },
+    {
+      "date": "2007-01-01",
+      "series": "investment",
+      "value": 111459.50015804857
+    },
+    {
+      "date": "2007-01-01",
+      "series": "private",
+      "value": 394546.92237347405
+    },
+    {
+      "date": "2007-01-01",
+      "series": "public",
+      "value": 61224.20472292366
+    },
+    {
+      "date": "2007-01-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2007-04-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2007-04-01",
+      "series": "exports",
+      "value": 151852.51450331474
+    },
+    {
+      "date": "2007-04-01",
+      "series": "gdp",
+      "value": 674620.5630064849
+    },
+    {
+      "date": "2007-04-01",
+      "series": "imports",
+      "value": 117677.32624788815
+    },
+    {
+      "date": "2007-04-01",
+      "series": "inventories",
+      "value": 5766.341335919644
+    },
+    {
+      "date": "2007-04-01",
+      "series": "investment",
+      "value": 125373.05789199457
+    },
+    {
+      "date": "2007-04-01",
+      "series": "private",
+      "value": 444046.11165498366
+    },
+    {
+      "date": "2007-04-01",
+      "series": "public",
+      "value": 65259.863868160544
+    },
+    {
+      "date": "2007-04-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2007-07-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2007-07-01",
+      "series": "exports",
+      "value": 153959.99205222024
+    },
+    {
+      "date": "2007-07-01",
+      "series": "gdp",
+      "value": 610425.6940148536
+    },
+    {
+      "date": "2007-07-01",
+      "series": "imports",
+      "value": 136188.56334207152
+    },
+    {
+      "date": "2007-07-01",
+      "series": "inventories",
+      "value": -4834.0395250414695
+    },
+    {
+      "date": "2007-07-01",
+      "series": "investment",
+      "value": 128893.70334910932
+    },
+    {
+      "date": "2007-07-01",
+      "series": "private",
+      "value": 403183.03818433546
+    },
+    {
+      "date": "2007-07-01",
+      "series": "public",
+      "value": 65411.56329630151
+    },
+    {
+      "date": "2007-07-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2007-10-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2007-10-01",
+      "series": "exports",
+      "value": 160654.2198809369
+    },
+    {
+      "date": "2007-10-01",
+      "series": "gdp",
+      "value": 625876.8678635969
+    },
+    {
+      "date": "2007-10-01",
+      "series": "imports",
+      "value": 136704.0597547481
+    },
+    {
+      "date": "2007-10-01",
+      "series": "inventories",
+      "value": 17356.141091067057
+    },
+    {
+      "date": "2007-10-01",
+      "series": "investment",
+      "value": 126843.69936850498
+    },
+    {
+      "date": "2007-10-01",
+      "series": "private",
+      "value": 384630.07880417624
+    },
+    {
+      "date": "2007-10-01",
+      "series": "public",
+      "value": 73096.78847365975
+    },
+    {
+      "date": "2007-10-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2008-01-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2008-01-01",
+      "series": "exports",
+      "value": 138205.65471421785
+    },
+    {
+      "date": "2008-01-01",
+      "series": "gdp",
+      "value": 616720.3570644783
+    },
+    {
+      "date": "2008-01-01",
+      "series": "imports",
+      "value": 138615.196997182
+    },
+    {
+      "date": "2008-01-01",
+      "series": "inventories",
+      "value": -11981.386606769784
+    },
+    {
+      "date": "2008-01-01",
+      "series": "investment",
+      "value": 130866.2750307655
+    },
+    {
+      "date": "2008-01-01",
+      "series": "private",
+      "value": 434706.92070959473
+    },
+    {
+      "date": "2008-01-01",
+      "series": "public",
+      "value": 63538.090213852025
+    },
+    {
+      "date": "2008-01-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2008-04-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2008-04-01",
+      "series": "exports",
+      "value": 147769.55715328988
+    },
+    {
+      "date": "2008-04-01",
+      "series": "gdp",
+      "value": 711405.5004552329
+    },
+    {
+      "date": "2008-04-01",
+      "series": "imports",
+      "value": 147043.53953203355
+    },
+    {
+      "date": "2008-04-01",
+      "series": "inventories",
+      "value": 8980.036033721306
+    },
+    {
+      "date": "2008-04-01",
+      "series": "investment",
+      "value": 146972.60805294834
+    },
+    {
+      "date": "2008-04-01",
+      "series": "private",
+      "value": 485578.4593545365
+    },
+    {
+      "date": "2008-04-01",
+      "series": "public",
+      "value": 69148.37939277048
+    },
+    {
+      "date": "2008-04-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2008-07-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2008-07-01",
+      "series": "exports",
+      "value": 169221.27116816866
+    },
+    {
+      "date": "2008-07-01",
+      "series": "gdp",
+      "value": 647087.9597424942
+    },
+    {
+      "date": "2008-07-01",
+      "series": "imports",
+      "value": 153056.79563738545
+    },
+    {
+      "date": "2008-07-01",
+      "series": "inventories",
+      "value": -2463.577064206515
+    },
+    {
+      "date": "2008-07-01",
+      "series": "investment",
+      "value": 138451.48746983963
+    },
+    {
+      "date": "2008-07-01",
+      "series": "private",
+      "value": 425312.74440875015
+    },
+    {
+      "date": "2008-07-01",
+      "series": "public",
+      "value": 69622.82939732778
+    },
+    {
+      "date": "2008-07-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2008-10-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2008-10-01",
+      "series": "exports",
+      "value": 145677.599528055
+    },
+    {
+      "date": "2008-10-01",
+      "series": "gdp",
+      "value": 613490.821702641
+    },
+    {
+      "date": "2008-10-01",
+      "series": "imports",
+      "value": 132326.80332668536
+    },
+    {
+      "date": "2008-10-01",
+      "series": "inventories",
+      "value": 6421.194224583824
+    },
+    {
+      "date": "2008-10-01",
+      "series": "investment",
+      "value": 119110.68925230175
+    },
+    {
+      "date": "2008-10-01",
+      "series": "private",
+      "value": 398635.44285744097
+    },
+    {
+      "date": "2008-10-01",
+      "series": "public",
+      "value": 75972.69916694464
+    },
+    {
+      "date": "2008-10-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2009-01-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2009-01-01",
+      "series": "exports",
+      "value": 127658.2065877633
+    },
+    {
+      "date": "2009-01-01",
+      "series": "gdp",
+      "value": 578553.0442424045
+    },
+    {
+      "date": "2009-01-01",
+      "series": "imports",
+      "value": 108884.58517996111
+    },
+    {
+      "date": "2009-01-01",
+      "series": "inventories",
+      "value": -11995.36242916899
+    },
+    {
+      "date": "2009-01-01",
+      "series": "investment",
+      "value": 95500.5721063584
+    },
+    {
+      "date": "2009-01-01",
+      "series": "private",
+      "value": 410435.1583771096
+    },
+    {
+      "date": "2009-01-01",
+      "series": "public",
+      "value": 65839.05478030315
+    },
+    {
+      "date": "2009-01-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2009-04-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2009-04-01",
+      "series": "exports",
+      "value": 147851.62921163163
+    },
+    {
+      "date": "2009-04-01",
+      "series": "gdp",
+      "value": 631197.7518600689
+    },
+    {
+      "date": "2009-04-01",
+      "series": "imports",
+      "value": 104729.45493210446
+    },
+    {
+      "date": "2009-04-01",
+      "series": "inventories",
+      "value": -7123.041199556884
+    },
+    {
+      "date": "2009-04-01",
+      "series": "investment",
+      "value": 99870.79079402325
+    },
+    {
+      "date": "2009-04-01",
+      "series": "private",
+      "value": 423959.3386236015
+    },
+    {
+      "date": "2009-04-01",
+      "series": "public",
+      "value": 71368.48936247379
+    },
+    {
+      "date": "2009-04-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2009-07-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2009-07-01",
+      "series": "exports",
+      "value": 131625.13245280623
+    },
+    {
+      "date": "2009-07-01",
+      "series": "gdp",
+      "value": 610519.8546117273
+    },
+    {
+      "date": "2009-07-01",
+      "series": "imports",
+      "value": 123133.6440304645
+    },
+    {
+      "date": "2009-07-01",
+      "series": "inventories",
+      "value": -334.7678625408504
+    },
+    {
+      "date": "2009-07-01",
+      "series": "investment",
+      "value": 108714.07912083372
+    },
+    {
+      "date": "2009-07-01",
+      "series": "private",
+      "value": 419318.04320998426
+    },
+    {
+      "date": "2009-07-01",
+      "series": "public",
+      "value": 74331.01172110844
+    },
+    {
+      "date": "2009-07-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2009-10-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2009-10-01",
+      "series": "exports",
+      "value": 137574.77413312762
+    },
+    {
+      "date": "2009-10-01",
+      "series": "gdp",
+      "value": 615220.8549372972
+    },
+    {
+      "date": "2009-10-01",
+      "series": "imports",
+      "value": 129128.9859125566
+    },
+    {
+      "date": "2009-10-01",
+      "series": "inventories",
+      "value": 17518.813951447286
+    },
+    {
+      "date": "2009-10-01",
+      "series": "investment",
+      "value": 110460.32612797979
+    },
+    {
+      "date": "2009-10-01",
+      "series": "private",
+      "value": 396373.3691899605
+    },
+    {
+      "date": "2009-10-01",
+      "series": "public",
+      "value": 82422.55744733862
+    },
+    {
+      "date": "2009-10-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2010-01-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2010-01-01",
+      "series": "exports",
+      "value": 124821.26202219723
+    },
+    {
+      "date": "2010-01-01",
+      "series": "gdp",
+      "value": 611607.33658973
+    },
+    {
+      "date": "2010-01-01",
+      "series": "imports",
+      "value": 131091.92974987472
+    },
+    {
+      "date": "2010-01-01",
+      "series": "inventories",
+      "value": -938.105273785256
+    },
+    {
+      "date": "2010-01-01",
+      "series": "investment",
+      "value": 108785.85710582584
+    },
+    {
+      "date": "2010-01-01",
+      "series": "private",
+      "value": 439461.2457168135
+    },
+    {
+      "date": "2010-01-01",
+      "series": "public",
+      "value": 70569.0067685535
+    },
+    {
+      "date": "2010-01-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2010-04-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2010-04-01",
+      "series": "exports",
+      "value": 175584.32821404992
+    },
+    {
+      "date": "2010-04-01",
+      "series": "gdp",
+      "value": 733730.7739689033
+    },
+    {
+      "date": "2010-04-01",
+      "series": "imports",
+      "value": 151260.05259704147
+    },
+    {
+      "date": "2010-04-01",
+      "series": "inventories",
+      "value": 14884.603079373786
+    },
+    {
+      "date": "2010-04-01",
+      "series": "investment",
+      "value": 130038.89517350178
+    },
+    {
+      "date": "2010-04-01",
+      "series": "private",
+      "value": 487297.5986480419
+    },
+    {
+      "date": "2010-04-01",
+      "series": "public",
+      "value": 77185.40145097743
+    },
+    {
+      "date": "2010-04-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2010-07-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2010-07-01",
+      "series": "exports",
+      "value": 168049.6179071699
+    },
+    {
+      "date": "2010-07-01",
+      "series": "gdp",
+      "value": 668566.5094889859
+    },
+    {
+      "date": "2010-07-01",
+      "series": "imports",
+      "value": 171903.47870439343
+    },
+    {
+      "date": "2010-07-01",
+      "series": "inventories",
+      "value": -474.00887965144494
+    },
+    {
+      "date": "2010-07-01",
+      "series": "investment",
+      "value": 139803.95750292117
+    },
+    {
+      "date": "2010-07-01",
+      "series": "private",
+      "value": 456779.066656185
+    },
+    {
+      "date": "2010-07-01",
+      "series": "public",
+      "value": 76311.35500675494
+    },
+    {
+      "date": "2010-07-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2010-10-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2010-10-01",
+      "series": "exports",
+      "value": 151952.376643681
+    },
+    {
+      "date": "2010-10-01",
+      "series": "gdp",
+      "value": 668190.0977195739
+    },
+    {
+      "date": "2010-10-01",
+      "series": "imports",
+      "value": 175630.37609457492
+    },
+    {
+      "date": "2010-10-01",
+      "series": "inventories",
+      "value": 10028.3934436812
+    },
+    {
+      "date": "2010-10-01",
+      "series": "investment",
+      "value": 144754.3240647099
+    },
+    {
+      "date": "2010-10-01",
+      "series": "private",
+      "value": 451162.75340541295
+    },
+    {
+      "date": "2010-10-01",
+      "series": "public",
+      "value": 85922.6262566636
+    },
+    {
+      "date": "2010-10-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2011-01-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2011-01-01",
+      "series": "exports",
+      "value": 138279.54794538196
+    },
+    {
+      "date": "2011-01-01",
+      "series": "gdp",
+      "value": 662325.5859726951
+    },
+    {
+      "date": "2011-01-01",
+      "series": "imports",
+      "value": 171680.48522975415
+    },
+    {
+      "date": "2011-01-01",
+      "series": "inventories",
+      "value": -2417.540584071936
+    },
+    {
+      "date": "2011-01-01",
+      "series": "investment",
+      "value": 139564.46171539812
+    },
+    {
+      "date": "2011-01-01",
+      "series": "private",
+      "value": 484513.9866221313
+    },
+    {
+      "date": "2011-01-01",
+      "series": "public",
+      "value": 74065.61550360995
+    },
+    {
+      "date": "2011-01-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2011-04-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2011-04-01",
+      "series": "exports",
+      "value": 170971.27052045267
+    },
+    {
+      "date": "2011-04-01",
+      "series": "gdp",
+      "value": 766332.9545716126
+    },
+    {
+      "date": "2011-04-01",
+      "series": "imports",
+      "value": 185834.800630491
+    },
+    {
+      "date": "2011-04-01",
+      "series": "inventories",
+      "value": 24823.618263473018
+    },
+    {
+      "date": "2011-04-01",
+      "series": "investment",
+      "value": 153571.0195551041
+    },
+    {
+      "date": "2011-04-01",
+      "series": "private",
+      "value": 521971.6246991987
+    },
+    {
+      "date": "2011-04-01",
+      "series": "public",
+      "value": 80830.22216387503
+    },
+    {
+      "date": "2011-04-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2011-07-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2011-07-01",
+      "series": "exports",
+      "value": 172841.45085261774
+    },
+    {
+      "date": "2011-07-01",
+      "series": "gdp",
+      "value": 711417.3919301049
+    },
+    {
+      "date": "2011-07-01",
+      "series": "imports",
+      "value": 212358.1719142757
+    },
+    {
+      "date": "2011-07-01",
+      "series": "inventories",
+      "value": -4909.911042070125
+    },
+    {
+      "date": "2011-07-01",
+      "series": "investment",
+      "value": 164571.6467049708
+    },
+    {
+      "date": "2011-07-01",
+      "series": "private",
+      "value": 509458.2538576882
+    },
+    {
+      "date": "2011-07-01",
+      "series": "public",
+      "value": 81814.12347117398
+    },
+    {
+      "date": "2011-07-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2011-10-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2011-10-01",
+      "series": "exports",
+      "value": 164054.87715450366
+    },
+    {
+      "date": "2011-10-01",
+      "series": "gdp",
+      "value": 703050.4564079925
+    },
+    {
+      "date": "2011-10-01",
+      "series": "imports",
+      "value": 198767.51540656987
+    },
+    {
+      "date": "2011-10-01",
+      "series": "inventories",
+      "value": 3060.0158780339243
+    },
+    {
+      "date": "2011-10-01",
+      "series": "investment",
+      "value": 156629.21241772975
+    },
+    {
+      "date": "2011-10-01",
+      "series": "private",
+      "value": 490644.74845936126
+    },
+    {
+      "date": "2011-10-01",
+      "series": "public",
+      "value": 87429.11790493385
+    },
+    {
+      "date": "2011-10-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2012-01-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2012-01-01",
+      "series": "exports",
+      "value": 145984.1028063894
+    },
+    {
+      "date": "2012-01-01",
+      "series": "gdp",
+      "value": 672685.9936305042
+    },
+    {
+      "date": "2012-01-01",
+      "series": "imports",
+      "value": 175963.63222419753
+    },
+    {
+      "date": "2012-01-01",
+      "series": "inventories",
+      "value": -3245.936810141879
+    },
+    {
+      "date": "2012-01-01",
+      "series": "investment",
+      "value": 134285.04105704132
+    },
+    {
+      "date": "2012-01-01",
+      "series": "private",
+      "value": 494561.058682757
+    },
+    {
+      "date": "2012-01-01",
+      "series": "public",
+      "value": 77065.36011865595
+    },
+    {
+      "date": "2012-01-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2012-04-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2012-04-01",
+      "series": "exports",
+      "value": 155692.76464038188
+    },
+    {
+      "date": "2012-04-01",
+      "series": "gdp",
+      "value": 730838.2725927759
+    },
+    {
+      "date": "2012-04-01",
+      "series": "imports",
+      "value": 168790.03309891451
+    },
+    {
+      "date": "2012-04-01",
+      "series": "inventories",
+      "value": 10544.520330945004
+    },
+    {
+      "date": "2012-04-01",
+      "series": "investment",
+      "value": 134408.94797285143
+    },
+    {
+      "date": "2012-04-01",
+      "series": "private",
+      "value": 516528.23176810256
+    },
+    {
+      "date": "2012-04-01",
+      "series": "public",
+      "value": 82453.8409794096
+    },
+    {
+      "date": "2012-04-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2012-07-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2012-07-01",
+      "series": "exports",
+      "value": 164111.32295096805
+    },
+    {
+      "date": "2012-07-01",
+      "series": "gdp",
+      "value": 703461.6525301962
+    },
+    {
+      "date": "2012-07-01",
+      "series": "imports",
+      "value": 194333.56638199877
+    },
+    {
+      "date": "2012-07-01",
+      "series": "inventories",
+      "value": -18203.784310547417
+    },
+    {
+      "date": "2012-07-01",
+      "series": "investment",
+      "value": 150230.81659457326
+    },
+    {
+      "date": "2012-07-01",
+      "series": "private",
+      "value": 517627.4794360068
+    },
+    {
+      "date": "2012-07-01",
+      "series": "public",
+      "value": 84029.38424119438
+    },
+    {
+      "date": "2012-07-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2012-10-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2012-10-01",
+      "series": "exports",
+      "value": 153813.21961273107
+    },
+    {
+      "date": "2012-10-01",
+      "series": "gdp",
+      "value": 706958.0390823188
+    },
+    {
+      "date": "2012-10-01",
+      "series": "imports",
+      "value": 193210.37317505115
+    },
+    {
+      "date": "2012-10-01",
+      "series": "inventories",
+      "value": 3913.759861266301
+    },
+    {
+      "date": "2012-10-01",
+      "series": "investment",
+      "value": 151946.00276177566
+    },
+    {
+      "date": "2012-10-01",
+      "series": "private",
+      "value": 500150.63183982833
+    },
+    {
+      "date": "2012-10-01",
+      "series": "public",
+      "value": 90344.79818176839
+    },
+    {
+      "date": "2012-10-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2013-01-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2013-01-01",
+      "series": "exports",
+      "value": 131767.05473088424
+    },
+    {
+      "date": "2013-01-01",
+      "series": "gdp",
+      "value": 677085.5291731509
+    },
+    {
+      "date": "2013-01-01",
+      "series": "imports",
+      "value": 176602.613153124
+    },
+    {
+      "date": "2013-01-01",
+      "series": "inventories",
+      "value": 734.513540482458
+    },
+    {
+      "date": "2013-01-01",
+      "series": "investment",
+      "value": 133273.1129258469
+    },
+    {
+      "date": "2013-01-01",
+      "series": "private",
+      "value": 506950.4464066281
+    },
+    {
+      "date": "2013-01-01",
+      "series": "public",
+      "value": 80963.0147224332
+    },
+    {
+      "date": "2013-01-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2013-04-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2013-04-01",
+      "series": "exports",
+      "value": 168720.23462672776
+    },
+    {
+      "date": "2013-04-01",
+      "series": "gdp",
+      "value": 776486.60279942
+    },
+    {
+      "date": "2013-04-01",
+      "series": "imports",
+      "value": 190652.1070945469
+    },
+    {
+      "date": "2013-04-01",
+      "series": "inventories",
+      "value": 16974.11034081757
+    },
+    {
+      "date": "2013-04-01",
+      "series": "investment",
+      "value": 150469.4153047585
+    },
+    {
+      "date": "2013-04-01",
+      "series": "private",
+      "value": 543923.3527537831
+    },
+    {
+      "date": "2013-04-01",
+      "series": "public",
+      "value": 87051.59686787998
+    },
+    {
+      "date": "2013-04-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2013-07-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2013-07-01",
+      "series": "exports",
+      "value": 159733.6322501896
+    },
+    {
+      "date": "2013-07-01",
+      "series": "gdp",
+      "value": 721458.9442161823
+    },
+    {
+      "date": "2013-07-01",
+      "series": "imports",
+      "value": 202951.05150852748
+    },
+    {
+      "date": "2013-07-01",
+      "series": "inventories",
+      "value": -14476.101014792954
+    },
+    {
+      "date": "2013-07-01",
+      "series": "investment",
+      "value": 152737.1141048032
+    },
+    {
+      "date": "2013-07-01",
+      "series": "private",
+      "value": 538421.0782533975
+    },
+    {
+      "date": "2013-07-01",
+      "series": "public",
+      "value": 87994.27213111262
+    },
+    {
+      "date": "2013-07-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2013-10-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2013-10-01",
+      "series": "exports",
+      "value": 137569.02973944266
+    },
+    {
+      "date": "2013-10-01",
+      "series": "gdp",
+      "value": 706597.3450225069
+    },
+    {
+      "date": "2013-10-01",
+      "series": "imports",
+      "value": 190526.07736575845
+    },
+    {
+      "date": "2013-10-01",
+      "series": "inventories",
+      "value": 2748.244274095596
+    },
+    {
+      "date": "2013-10-01",
+      "series": "investment",
+      "value": 147746.6296025357
+    },
+    {
+      "date": "2013-10-01",
+      "series": "private",
+      "value": 513403.25174006564
+    },
+    {
+      "date": "2013-10-01",
+      "series": "public",
+      "value": 95656.26703212563
+    },
+    {
+      "date": "2013-10-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2014-01-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2014-01-01",
+      "series": "exports",
+      "value": 119113.81889969678
+    },
+    {
+      "date": "2014-01-01",
+      "series": "gdp",
+      "value": 671066.0466350627
+    },
+    {
+      "date": "2014-01-01",
+      "series": "imports",
+      "value": 174142.8791751422
+    },
+    {
+      "date": "2014-01-01",
+      "series": "inventories",
+      "value": -8598.45687567352
+    },
+    {
+      "date": "2014-01-01",
+      "series": "investment",
+      "value": 131370.5363099219
+    },
+    {
+      "date": "2014-01-01",
+      "series": "private",
+      "value": 517840.5337442633
+    },
+    {
+      "date": "2014-01-01",
+      "series": "public",
+      "value": 85482.49373199629
+    },
+    {
+      "date": "2014-01-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2014-04-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2014-04-01",
+      "series": "exports",
+      "value": 152688.83294255967
+    },
+    {
+      "date": "2014-04-01",
+      "series": "gdp",
+      "value": 760576.8683480041
+    },
+    {
+      "date": "2014-04-01",
+      "series": "imports",
+      "value": 169554.60524510767
+    },
+    {
+      "date": "2014-04-01",
+      "series": "inventories",
+      "value": 20148.104559495117
+    },
+    {
+      "date": "2014-04-01",
+      "series": "investment",
+      "value": 141073.1894297702
+    },
+    {
+      "date": "2014-04-01",
+      "series": "private",
+      "value": 527379.2269427378
+    },
+    {
+      "date": "2014-04-01",
+      "series": "public",
+      "value": 88842.11971854886
+    },
+    {
+      "date": "2014-04-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2014-07-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2014-07-01",
+      "series": "exports",
+      "value": 147198.696369442
+    },
+    {
+      "date": "2014-07-01",
+      "series": "gdp",
+      "value": 690879.7982516834
+    },
+    {
+      "date": "2014-07-01",
+      "series": "imports",
+      "value": 173099.24330165773
+    },
+    {
+      "date": "2014-07-01",
+      "series": "inventories",
+      "value": -4789.688526603717
+    },
+    {
+      "date": "2014-07-01",
+      "series": "investment",
+      "value": 140281.45358859547
+    },
+    {
+      "date": "2014-07-01",
+      "series": "private",
+      "value": 490626.98948685534
+    },
+    {
+      "date": "2014-07-01",
+      "series": "public",
+      "value": 90661.5906350518
+    },
+    {
+      "date": "2014-07-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2014-10-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2014-10-01",
+      "series": "exports",
+      "value": 137067.84127832402
+    },
+    {
+      "date": "2014-10-01",
+      "series": "gdp",
+      "value": 686701.4706187105
+    },
+    {
+      "date": "2014-10-01",
+      "series": "imports",
+      "value": 156603.14371840068
+    },
+    {
+      "date": "2014-10-01",
+      "series": "inventories",
+      "value": 1956.7757419185482
+    },
+    {
+      "date": "2014-10-01",
+      "series": "investment",
+      "value": 132033.40948911634
+    },
+    {
+      "date": "2014-10-01",
+      "series": "private",
+      "value": 475210.9954940017
+    },
+    {
+      "date": "2014-10-01",
+      "series": "public",
+      "value": 97035.59233375054
+    },
+    {
+      "date": "2014-10-01",
+      "series": "valuables",
+      "value": null
+    },
+    {
+      "date": "2015-01-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2015-01-01",
+      "series": "exports",
+      "value": 116284.29138088347
+    },
+    {
+      "date": "2015-01-01",
+      "series": "gdp",
+      "value": 672749.8113916992
+    },
+    {
+      "date": "2015-01-01",
+      "series": "imports",
+      "value": 160419.64644001034
+    },
+    {
+      "date": "2015-01-01",
+      "series": "inventories",
+      "value": -8201.76543926239
+    },
+    {
+      "date": "2015-01-01",
+      "series": "investment",
+      "value": 128790.25331296679
+    },
+    {
+      "date": "2015-01-01",
+      "series": "private",
+      "value": 507483.723069378
+    },
+    {
+      "date": "2015-01-01",
+      "series": "public",
+      "value": 88812.95550774357
+    },
+    {
+      "date": "2015-01-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2015-04-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2015-04-01",
+      "series": "exports",
+      "value": 149591.7080612978
+    },
+    {
+      "date": "2015-04-01",
+      "series": "gdp",
+      "value": 791235.9655416702
+    },
+    {
+      "date": "2015-04-01",
+      "series": "imports",
+      "value": 174021.01747036108
+    },
+    {
+      "date": "2015-04-01",
+      "series": "inventories",
+      "value": 5873.290861287952
+    },
+    {
+      "date": "2015-04-01",
+      "series": "investment",
+      "value": 143522.13876214108
+    },
+    {
+      "date": "2015-04-01",
+      "series": "private",
+      "value": 569042.1858712141
+    },
+    {
+      "date": "2015-04-01",
+      "series": "public",
+      "value": 97227.65945609038
+    },
+    {
+      "date": "2015-04-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2015-07-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2015-07-01",
+      "series": "exports",
+      "value": 147404.70503841515
+    },
+    {
+      "date": "2015-07-01",
+      "series": "gdp",
+      "value": 718281.2654497817
+    },
+    {
+      "date": "2015-07-01",
+      "series": "imports",
+      "value": 192990.26576942843
+    },
+    {
+      "date": "2015-07-01",
+      "series": "inventories",
+      "value": -1820.8551634112596
+    },
+    {
+      "date": "2015-07-01",
+      "series": "investment",
+      "value": 149008.18693087087
+    },
+    {
+      "date": "2015-07-01",
+      "series": "private",
+      "value": 518592.727887606
+    },
+    {
+      "date": "2015-07-01",
+      "series": "public",
+      "value": 98086.76652572925
+    },
+    {
+      "date": "2015-07-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2015-10-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2015-10-01",
+      "series": "exports",
+      "value": 127344.36995735197
+    },
+    {
+      "date": "2015-10-01",
+      "series": "gdp",
+      "value": 703681.544169008
+    },
+    {
+      "date": "2015-10-01",
+      "series": "imports",
+      "value": 177694.9568914407
+    },
+    {
+      "date": "2015-10-01",
+      "series": "inventories",
+      "value": 19224.032412838937
+    },
+    {
+      "date": "2015-10-01",
+      "series": "investment",
+      "value": 142300.30190956546
+    },
+    {
+      "date": "2015-10-01",
+      "series": "private",
+      "value": 489467.32535882184
+    },
+    {
+      "date": "2015-10-01",
+      "series": "public",
+      "value": 103040.47142187048
+    },
+    {
+      "date": "2015-10-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2016-01-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2016-01-01",
+      "series": "exports",
+      "value": 133430.07456094024
+    },
+    {
+      "date": "2016-01-01",
+      "series": "gdp",
+      "value": 677652.0891157027
+    },
+    {
+      "date": "2016-01-01",
+      "series": "imports",
+      "value": 179480.42369351548
+    },
+    {
+      "date": "2016-01-01",
+      "series": "inventories",
+      "value": -12038.561480637094
+    },
+    {
+      "date": "2016-01-01",
+      "series": "investment",
+      "value": 124425.51841156666
+    },
+    {
+      "date": "2016-01-01",
+      "series": "private",
+      "value": 520749.1889776959
+    },
+    {
+      "date": "2016-01-01",
+      "series": "public",
+      "value": 90566.2923396524
+    },
+    {
+      "date": "2016-01-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2016-04-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2016-04-01",
+      "series": "exports",
+      "value": 148260.210877463
+    },
+    {
+      "date": "2016-04-01",
+      "series": "gdp",
+      "value": 760703.2801516564
+    },
+    {
+      "date": "2016-04-01",
+      "series": "imports",
+      "value": 187899.66185803572
+    },
+    {
+      "date": "2016-04-01",
+      "series": "inventories",
+      "value": 13299.124762574564
+    },
+    {
+      "date": "2016-04-01",
+      "series": "investment",
+      "value": 134589.4379545192
+    },
+    {
+      "date": "2016-04-01",
+      "series": "private",
+      "value": 558368.4353957901
+    },
+    {
+      "date": "2016-04-01",
+      "series": "public",
+      "value": 94085.73301934525
+    },
+    {
+      "date": "2016-04-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2016-07-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2016-07-01",
+      "series": "exports",
+      "value": 146914.03159839427
+    },
+    {
+      "date": "2016-07-01",
+      "series": "gdp",
+      "value": 694382.4757762305
+    },
+    {
+      "date": "2016-07-01",
+      "series": "imports",
+      "value": 193030.1033736731
+    },
+    {
+      "date": "2016-07-01",
+      "series": "inventories",
+      "value": 28.52394615923241
+    },
+    {
+      "date": "2016-07-01",
+      "series": "investment",
+      "value": 137185.49507782274
+    },
+    {
+      "date": "2016-07-01",
+      "series": "private",
+      "value": 506410.5707127761
+    },
+    {
+      "date": "2016-07-01",
+      "series": "public",
+      "value": 96873.95781475112
+    },
+    {
+      "date": "2016-07-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2016-10-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2016-10-01",
+      "series": "exports",
+      "value": 140767.70716094368
+    },
+    {
+      "date": "2016-10-01",
+      "series": "gdp",
+      "value": 693173.5493470578
+    },
+    {
+      "date": "2016-10-01",
+      "series": "imports",
+      "value": 185783.37864128867
+    },
+    {
+      "date": "2016-10-01",
+      "series": "inventories",
+      "value": 16933.434753772326
+    },
+    {
+      "date": "2016-10-01",
+      "series": "investment",
+      "value": 134851.77049515006
+    },
+    {
+      "date": "2016-10-01",
+      "series": "private",
+      "value": 482792.3600649343
+    },
+    {
+      "date": "2016-10-01",
+      "series": "public",
+      "value": 103611.65551354598
+    },
+    {
+      "date": "2016-10-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2017-01-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2017-01-01",
+      "series": "exports",
+      "value": 134667.57440605693
+    },
+    {
+      "date": "2017-01-01",
+      "series": "gdp",
+      "value": 681444.7661102224
+    },
+    {
+      "date": "2017-01-01",
+      "series": "imports",
+      "value": 194211.6667513001
+    },
+    {
+      "date": "2017-01-01",
+      "series": "inventories",
+      "value": -18623.123026032266
+    },
+    {
+      "date": "2017-01-01",
+      "series": "investment",
+      "value": 131486.24599536855
+    },
+    {
+      "date": "2017-01-01",
+      "series": "private",
+      "value": 536011.2679688631
+    },
+    {
+      "date": "2017-01-01",
+      "series": "public",
+      "value": 92114.46751726622
+    },
+    {
+      "date": "2017-01-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2017-04-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2017-04-01",
+      "series": "exports",
+      "value": 150287.5619987416
+    },
+    {
+      "date": "2017-04-01",
+      "series": "gdp",
+      "value": 778401.6764493167
+    },
+    {
+      "date": "2017-04-01",
+      "series": "imports",
+      "value": 211208.75068866156
+    },
+    {
+      "date": "2017-04-01",
+      "series": "inventories",
+      "value": 13273.57040716861
+    },
+    {
+      "date": "2017-04-01",
+      "series": "investment",
+      "value": 147917.72513381098
+    },
+    {
+      "date": "2017-04-01",
+      "series": "private",
+      "value": 579761.6634740008
+    },
+    {
+      "date": "2017-04-01",
+      "series": "public",
+      "value": 98369.90612425635
+    },
+    {
+      "date": "2017-04-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2017-07-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2017-07-01",
+      "series": "exports",
+      "value": 153867.07257565853
+    },
+    {
+      "date": "2017-07-01",
+      "series": "gdp",
+      "value": 721120.4268527941
+    },
+    {
+      "date": "2017-07-01",
+      "series": "imports",
+      "value": 229079.80670323674
+    },
+    {
+      "date": "2017-07-01",
+      "series": "inventories",
+      "value": 5874.435850264737
+    },
+    {
+      "date": "2017-07-01",
+      "series": "investment",
+      "value": 160592.39690911057
+    },
+    {
+      "date": "2017-07-01",
+      "series": "private",
+      "value": 530448.7435004468
+    },
+    {
+      "date": "2017-07-01",
+      "series": "public",
+      "value": 99417.58472055016
+    },
+    {
+      "date": "2017-07-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2017-10-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2017-10-01",
+      "series": "exports",
+      "value": 145441.11931488177
+    },
+    {
+      "date": "2017-10-01",
+      "series": "gdp",
+      "value": 724592.9216389629
+    },
+    {
+      "date": "2017-10-01",
+      "series": "imports",
+      "value": 227978.62402592791
+    },
+    {
+      "date": "2017-10-01",
+      "series": "inventories",
+      "value": 31515.672921041147
+    },
+    {
+      "date": "2017-10-01",
+      "series": "investment",
+      "value": 162113.6897786921
+    },
+    {
+      "date": "2017-10-01",
+      "series": "private",
+      "value": 508108.8239414609
+    },
+    {
+      "date": "2017-10-01",
+      "series": "public",
+      "value": 105392.23970881503
+    },
+    {
+      "date": "2017-10-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2018-01-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2018-01-01",
+      "series": "exports",
+      "value": 144939.93221966934
+    },
+    {
+      "date": "2018-01-01",
+      "series": "gdp",
+      "value": 707324.2680572141
+    },
+    {
+      "date": "2018-01-01",
+      "series": "imports",
+      "value": 225441.6687326833
+    },
+    {
+      "date": "2018-01-01",
+      "series": "inventories",
+      "value": -9443.672097557963
+    },
+    {
+      "date": "2018-01-01",
+      "series": "investment",
+      "value": 152300.6042109982
+    },
+    {
+      "date": "2018-01-01",
+      "series": "private",
+      "value": 552912.8785920906
+    },
+    {
+      "date": "2018-01-01",
+      "series": "public",
+      "value": 92056.1938646973
+    },
+    {
+      "date": "2018-01-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2018-04-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2018-04-01",
+      "series": "exports",
+      "value": 137726.1206501707
+    },
+    {
+      "date": "2018-04-01",
+      "series": "gdp",
+      "value": 747428.2999545746
+    },
+    {
+      "date": "2018-04-01",
+      "series": "imports",
+      "value": 220135.48182057161
+    },
+    {
+      "date": "2018-04-01",
+      "series": "inventories",
+      "value": -7901.443875220443
+    },
+    {
+      "date": "2018-04-01",
+      "series": "investment",
+      "value": 151659.16792457036
+    },
+    {
+      "date": "2018-04-01",
+      "series": "private",
+      "value": 588455.756529514
+    },
+    {
+      "date": "2018-04-01",
+      "series": "public",
+      "value": 97624.1805461115
+    },
+    {
+      "date": "2018-04-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2018-07-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2018-07-01",
+      "series": "exports",
+      "value": 144474.37418546676
+    },
+    {
+      "date": "2018-07-01",
+      "series": "gdp",
+      "value": 696101.5835218076
+    },
+    {
+      "date": "2018-07-01",
+      "series": "imports",
+      "value": 206728.92891598196
+    },
+    {
+      "date": "2018-07-01",
+      "series": "inventories",
+      "value": 6049.897011386721
+    },
+    {
+      "date": "2018-07-01",
+      "series": "investment",
+      "value": 142066.4152474825
+    },
+    {
+      "date": "2018-07-01",
+      "series": "private",
+      "value": 513316.2929784739
+    },
+    {
+      "date": "2018-07-01",
+      "series": "public",
+      "value": 96923.53301497962
+    },
+    {
+      "date": "2018-07-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2018-10-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2018-10-01",
+      "series": "exports",
+      "value": 160897.22038331695
+    },
+    {
+      "date": "2018-10-01",
+      "series": "gdp",
+      "value": 678655.6203844536
+    },
+    {
+      "date": "2018-10-01",
+      "series": "imports",
+      "value": 171694.68040516032
+    },
+    {
+      "date": "2018-10-01",
+      "series": "inventories",
+      "value": 15485.465751616752
+    },
+    {
+      "date": "2018-10-01",
+      "series": "investment",
+      "value": 121488.74616913995
+    },
+    {
+      "date": "2018-10-01",
+      "series": "private",
+      "value": 451265.2090507618
+    },
+    {
+      "date": "2018-10-01",
+      "series": "public",
+      "value": 101213.65943477832
+    },
+    {
+      "date": "2018-10-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2019-01-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2019-01-01",
+      "series": "exports",
+      "value": 145979.48694396392
+    },
+    {
+      "date": "2019-01-01",
+      "series": "gdp",
+      "value": 665848.7152997089
+    },
+    {
+      "date": "2019-01-01",
+      "series": "imports",
+      "value": 168867.28177685314
+    },
+    {
+      "date": "2019-01-01",
+      "series": "inventories",
+      "value": -17798.71221524114
+    },
+    {
+      "date": "2019-01-01",
+      "series": "investment",
+      "value": 114187.82600362251
+    },
+    {
+      "date": "2019-01-01",
+      "series": "private",
+      "value": 504391.51102833217
+    },
+    {
+      "date": "2019-01-01",
+      "series": "public",
+      "value": 87955.88531588462
+    },
+    {
+      "date": "2019-01-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2019-04-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2019-04-01",
+      "series": "exports",
+      "value": 159369.0737788398
+    },
+    {
+      "date": "2019-04-01",
+      "series": "gdp",
+      "value": 751784.4607771325
+    },
+    {
+      "date": "2019-04-01",
+      "series": "imports",
+      "value": 171113.94006205906
+    },
+    {
+      "date": "2019-04-01",
+      "series": "inventories",
+      "value": -4122.050450609496
+    },
+    {
+      "date": "2019-04-01",
+      "series": "investment",
+      "value": 123592.22780170344
+    },
+    {
+      "date": "2019-04-01",
+      "series": "private",
+      "value": 550677.2854003571
+    },
+    {
+      "date": "2019-04-01",
+      "series": "public",
+      "value": 93381.86430890074
+    },
+    {
+      "date": "2019-04-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2019-07-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2019-07-01",
+      "series": "exports",
+      "value": 166474.0916804299
+    },
+    {
+      "date": "2019-07-01",
+      "series": "gdp",
+      "value": 683900.8985525784
+    },
+    {
+      "date": "2019-07-01",
+      "series": "imports",
+      "value": 176396.74291737535
+    },
+    {
+      "date": "2019-07-01",
+      "series": "inventories",
+      "value": -2865.411463146969
+    },
+    {
+      "date": "2019-07-01",
+      "series": "investment",
+      "value": 127742.49807995031
+    },
+    {
+      "date": "2019-07-01",
+      "series": "private",
+      "value": 480415.60689608956
+    },
+    {
+      "date": "2019-07-01",
+      "series": "public",
+      "value": 88666.34984708998
+    },
+    {
+      "date": "2019-07-01",
+      "series": "valuables",
+      "value": -135.493570459083
+    },
+    {
+      "date": "2019-10-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2019-10-01",
+      "series": "exports",
+      "value": 173554.69540591474
+    },
+    {
+      "date": "2019-10-01",
+      "series": "gdp",
+      "value": 671361.13972242
+    },
+    {
+      "date": "2019-10-01",
+      "series": "imports",
+      "value": 153557.48180457175
+    },
+    {
+      "date": "2019-10-01",
+      "series": "inventories",
+      "value": 6361.624727438179
+    },
+    {
+      "date": "2019-10-01",
+      "series": "investment",
+      "value": 111464.9398238233
+    },
+    {
+      "date": "2019-10-01",
+      "series": "private",
+      "value": 441436.04980722244
+    },
+    {
+      "date": "2019-10-01",
+      "series": "public",
+      "value": 92992.64557113075
+    },
+    {
+      "date": "2019-10-01",
+      "series": "valuables",
+      "value": -891.333808537823
+    },
+    {
+      "date": "2020-01-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2020-01-01",
+      "series": "exports",
+      "value": 139323.35480735445
+    },
+    {
+      "date": "2020-01-01",
+      "series": "gdp",
+      "value": 632389.35353461
+    },
+    {
+      "date": "2020-01-01",
+      "series": "imports",
+      "value": 147946.8652804679
+    },
+    {
+      "date": "2020-01-01",
+      "series": "inventories",
+      "value": -11049.714504411444
+    },
+    {
+      "date": "2020-01-01",
+      "series": "investment",
+      "value": 93438.79884956792
+    },
+    {
+      "date": "2020-01-01",
+      "series": "private",
+      "value": 470887.43428154616
+    },
+    {
+      "date": "2020-01-01",
+      "series": "public",
+      "value": 87736.34538102086
+    },
+    {
+      "date": "2020-01-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2020-04-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2020-04-01",
+      "series": "exports",
+      "value": 136593.32836722894
+    },
+    {
+      "date": "2020-04-01",
+      "series": "gdp",
+      "value": 609379.9894648013
+    },
+    {
+      "date": "2020-04-01",
+      "series": "imports",
+      "value": 118831.91607431167
+    },
+    {
+      "date": "2020-04-01",
+      "series": "inventories",
+      "value": -6832.3474187771135
+    },
+    {
+      "date": "2020-04-01",
+      "series": "investment",
+      "value": 76231.15786545725
+    },
+    {
+      "date": "2020-04-01",
+      "series": "private",
+      "value": 434291.22191559087
+    },
+    {
+      "date": "2020-04-01",
+      "series": "public",
+      "value": 87928.54480961295
+    },
+    {
+      "date": "2020-04-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2020-07-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2020-07-01",
+      "series": "exports",
+      "value": 136347.82248110077
+    },
+    {
+      "date": "2020-07-01",
+      "series": "gdp",
+      "value": 614192.4784042229
+    },
+    {
+      "date": "2020-07-01",
+      "series": "imports",
+      "value": 136935.27553956184
+    },
+    {
+      "date": "2020-07-01",
+      "series": "inventories",
+      "value": 2771.335713069556
+    },
+    {
+      "date": "2020-07-01",
+      "series": "investment",
+      "value": 116052.69910475849
+    },
+    {
+      "date": "2020-07-01",
+      "series": "private",
+      "value": 408971.26297570387
+    },
+    {
+      "date": "2020-07-01",
+      "series": "public",
+      "value": 86984.63366915208
+    },
+    {
+      "date": "2020-07-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2020-10-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2020-10-01",
+      "series": "exports",
+      "value": 120573.80620850835
+    },
+    {
+      "date": "2020-10-01",
+      "series": "gdp",
+      "value": 642403.3231979503
+    },
+    {
+      "date": "2020-10-01",
+      "series": "imports",
+      "value": 150921.0025940372
+    },
+    {
+      "date": "2020-10-01",
+      "series": "inventories",
+      "value": 28647.37253765016
+    },
+    {
+      "date": "2020-10-01",
+      "series": "investment",
+      "value": 128941.85089797007
+    },
+    {
+      "date": "2020-10-01",
+      "series": "private",
+      "value": 422152.316935035
+    },
+    {
+      "date": "2020-10-01",
+      "series": "public",
+      "value": 93008.97921282398
+    },
+    {
+      "date": "2020-10-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2021-01-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2021-01-01",
+      "series": "exports",
+      "value": 125271.19242964438
+    },
+    {
+      "date": "2021-01-01",
+      "series": "gdp",
+      "value": 652831.9767063216
+    },
+    {
+      "date": "2021-01-01",
+      "series": "imports",
+      "value": 147517.11225906957
+    },
+    {
+      "date": "2021-01-01",
+      "series": "inventories",
+      "value": -16381.820254013175
+    },
+    {
+      "date": "2021-01-01",
+      "series": "investment",
+      "value": 129688.33432883563
+    },
+    {
+      "date": "2021-01-01",
+      "series": "private",
+      "value": 473418.8866338761
+    },
+    {
+      "date": "2021-01-01",
+      "series": "public",
+      "value": 88352.49582704819
+    },
+    {
+      "date": "2021-01-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2021-04-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2021-04-01",
+      "series": "exports",
+      "value": 146242.5639765279
+    },
+    {
+      "date": "2021-04-01",
+      "series": "gdp",
+      "value": 723516.6224906748
+    },
+    {
+      "date": "2021-04-01",
+      "series": "imports",
+      "value": 163057.52331432875
+    },
+    {
+      "date": "2021-04-01",
+      "series": "inventories",
+      "value": -4393.76164757926
+    },
+    {
+      "date": "2021-04-01",
+      "series": "investment",
+      "value": 136177.6969330454
+    },
+    {
+      "date": "2021-04-01",
+      "series": "private",
+      "value": 514737.7935409225
+    },
+    {
+      "date": "2021-04-01",
+      "series": "public",
+      "value": 93809.85300208704
+    },
+    {
+      "date": "2021-04-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2021-07-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2021-07-01",
+      "series": "exports",
+      "value": 161505.1882138258
+    },
+    {
+      "date": "2021-07-01",
+      "series": "gdp",
+      "value": 686756.4678266742
+    },
+    {
+      "date": "2021-07-01",
+      "series": "imports",
+      "value": 164904.01955605674
+    },
+    {
+      "date": "2021-07-01",
+      "series": "inventories",
+      "value": 3827.3992174963932
+    },
+    {
+      "date": "2021-07-01",
+      "series": "investment",
+      "value": 141727.54916135024
+    },
+    {
+      "date": "2021-07-01",
+      "series": "private",
+      "value": 449491.7336817957
+    },
+    {
+      "date": "2021-07-01",
+      "series": "public",
+      "value": 95108.61710826278
+    },
+    {
+      "date": "2021-07-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2021-10-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2021-10-01",
+      "series": "exports",
+      "value": 144860.42838246087
+    },
+    {
+      "date": "2021-10-01",
+      "series": "gdp",
+      "value": 696134.669112115
+    },
+    {
+      "date": "2021-10-01",
+      "series": "imports",
+      "value": 182089.20202110664
+    },
+    {
+      "date": "2021-10-01",
+      "series": "inventories",
+      "value": 18495.754126959015
+    },
+    {
+      "date": "2021-10-01",
+      "series": "investment",
+      "value": 148125.39297362405
+    },
+    {
+      "date": "2021-10-01",
+      "series": "private",
+      "value": 463015.5678595683
+    },
+    {
+      "date": "2021-10-01",
+      "series": "public",
+      "value": 103726.72779060947
+    },
+    {
+      "date": "2021-10-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2022-01-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2022-01-01",
+      "series": "exports",
+      "value": 135342.64275390125
+    },
+    {
+      "date": "2022-01-01",
+      "series": "gdp",
+      "value": 697625.2846663581
+    },
+    {
+      "date": "2022-01-01",
+      "series": "imports",
+      "value": 182574.74792954678
+    },
+    {
+      "date": "2022-01-01",
+      "series": "inventories",
+      "value": -10285.127371814537
+    },
+    {
+      "date": "2022-01-01",
+      "series": "investment",
+      "value": 143683.72144414237
+    },
+    {
+      "date": "2022-01-01",
+      "series": "private",
+      "value": 516582.480346626
+    },
+    {
+      "date": "2022-01-01",
+      "series": "public",
+      "value": 94876.31542304973
+    },
+    {
+      "date": "2022-01-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2022-04-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2022-04-01",
+      "series": "exports",
+      "value": 157619.70172501824
+    },
+    {
+      "date": "2022-04-01",
+      "series": "gdp",
+      "value": 782338.628533735
+    },
+    {
+      "date": "2022-04-01",
+      "series": "imports",
+      "value": 204565.3148449806
+    },
+    {
+      "date": "2022-04-01",
+      "series": "inventories",
+      "value": -7371.000419782401
+    },
+    {
+      "date": "2022-04-01",
+      "series": "investment",
+      "value": 160568.55074025382
+    },
+    {
+      "date": "2022-04-01",
+      "series": "private",
+      "value": 576435.4388092516
+    },
+    {
+      "date": "2022-04-01",
+      "series": "public",
+      "value": 99651.2525239743
+    },
+    {
+      "date": "2022-04-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2022-07-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2022-07-01",
+      "series": "exports",
+      "value": 157115.54840991047
+    },
+    {
+      "date": "2022-07-01",
+      "series": "gdp",
+      "value": 732662.1638755013
+    },
+    {
+      "date": "2022-07-01",
+      "series": "imports",
+      "value": 201300.628969762
+    },
+    {
+      "date": "2022-07-01",
+      "series": "inventories",
+      "value": 22366.004314499274
+    },
+    {
+      "date": "2022-07-01",
+      "series": "investment",
+      "value": 160952.87233184377
+    },
+    {
+      "date": "2022-07-01",
+      "series": "private",
+      "value": 497399.5790569698
+    },
+    {
+      "date": "2022-07-01",
+      "series": "public",
+      "value": 96128.78873204009
+    },
+    {
+      "date": "2022-07-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2022-10-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2022-10-01",
+      "series": "exports",
+      "value": 154135.0314240797
+    },
+    {
+      "date": "2022-10-01",
+      "series": "gdp",
+      "value": 712740.4578287383
+    },
+    {
+      "date": "2022-10-01",
+      "series": "imports",
+      "value": 184437.0703833809
+    },
+    {
+      "date": "2022-10-01",
+      "series": "inventories",
+      "value": 3388.380940616399
+    },
+    {
+      "date": "2022-10-01",
+      "series": "investment",
+      "value": 148604.10993046832
+    },
+    {
+      "date": "2022-10-01",
+      "series": "private",
+      "value": 490167.7199138912
+    },
+    {
+      "date": "2022-10-01",
+      "series": "public",
+      "value": 100882.28600306353
+    },
+    {
+      "date": "2022-10-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2023-01-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2023-01-01",
+      "series": "exports",
+      "value": 126446.7980037569
+    },
+    {
+      "date": "2023-01-01",
+      "series": "gdp",
+      "value": 704009.0351770016
+    },
+    {
+      "date": "2023-01-01",
+      "series": "imports",
+      "value": 189816.86812843868
+    },
+    {
+      "date": "2023-01-01",
+      "series": "inventories",
+      "value": -8051.1048091830835
+    },
+    {
+      "date": "2023-01-01",
+      "series": "investment",
+      "value": 141756.1105370376
+    },
+    {
+      "date": "2023-01-01",
+      "series": "private",
+      "value": 535974.726635851
+    },
+    {
+      "date": "2023-01-01",
+      "series": "public",
+      "value": 97699.37293797787
+    },
+    {
+      "date": "2023-01-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2023-04-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2023-04-01",
+      "series": "exports",
+      "value": 136912.27496015004
+    },
+    {
+      "date": "2023-04-01",
+      "series": "gdp",
+      "value": 738128.411227304
+    },
+    {
+      "date": "2023-04-01",
+      "series": "imports",
+      "value": 212421.66811133313
+    },
+    {
+      "date": "2023-04-01",
+      "series": "inventories",
+      "value": -36051.054379684596
+    },
+    {
+      "date": "2023-04-01",
+      "series": "investment",
+      "value": 157587.9760347077
+    },
+    {
+      "date": "2023-04-01",
+      "series": "private",
+      "value": 588087.0318230554
+    },
+    {
+      "date": "2023-04-01",
+      "series": "public",
+      "value": 104013.85090040871
+    },
+    {
+      "date": "2023-04-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2023-07-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2023-07-01",
+      "series": "exports",
+      "value": 143916.18915172506
+    },
+    {
+      "date": "2023-07-01",
+      "series": "gdp",
+      "value": 728542.2558474866
+    },
+    {
+      "date": "2023-07-01",
+      "series": "imports",
+      "value": 204973.93804020915
+    },
+    {
+      "date": "2023-07-01",
+      "series": "inventories",
+      "value": 31511.91920579483
+    },
+    {
+      "date": "2023-07-01",
+      "series": "investment",
+      "value": 162177.08982223828
+    },
+    {
+      "date": "2023-07-01",
+      "series": "private",
+      "value": 496373.76665363583
+    },
+    {
+      "date": "2023-07-01",
+      "series": "public",
+      "value": 99537.22905430167
+    },
+    {
+      "date": "2023-07-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2023-10-01",
+      "series": "discrepancy",
+      "value": null
+    },
+    {
+      "date": "2023-10-01",
+      "series": "exports",
+      "value": 136117.33369907388
+    },
+    {
+      "date": "2023-10-01",
+      "series": "gdp",
+      "value": 700543.19869756
+    },
+    {
+      "date": "2023-10-01",
+      "series": "imports",
+      "value": 182767.72435963174
+    },
+    {
+      "date": "2023-10-01",
+      "series": "inventories",
+      "value": 30180.387868886242
+    },
+    {
+      "date": "2023-10-01",
+      "series": "investment",
+      "value": 137053.0850250279
+    },
+    {
+      "date": "2023-10-01",
+      "series": "private",
+      "value": 480687.41115046106
+    },
+    {
+      "date": "2023-10-01",
+      "series": "public",
+      "value": 99272.70531374274
+    },
+    {
+      "date": "2023-10-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2024-01-01",
+      "series": "discrepancy",
+      "value": 4554.469620536896
+    },
+    {
+      "date": "2024-01-01",
+      "series": "exports",
+      "value": 147382.28805174623
+    },
+    {
+      "date": "2024-01-01",
+      "series": "gdp",
+      "value": 668219.6308270538
+    },
+    {
+      "date": "2024-01-01",
+      "series": "imports",
+      "value": 163688.13110543252
+    },
+    {
+      "date": "2024-01-01",
+      "series": "inventories",
+      "value": -29378.77116694121
+    },
+    {
+      "date": "2024-01-01",
+      "series": "investment",
+      "value": 107772.24246399784
+    },
+    {
+      "date": "2024-01-01",
+      "series": "net-exports",
+      "value": -16305.843053686287
+    },
+    {
+      "date": "2024-01-01",
+      "series": "other-demand",
+      "value": -24824.301546404313
+    },
+    {
+      "date": "2024-01-01",
+      "series": "private",
+      "value": 508286.74859901017
+    },
+    {
+      "date": "2024-01-01",
+      "series": "public",
+      "value": 93290.78436413649
+    },
+    {
+      "date": "2024-01-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2024-04-01",
+      "series": "discrepancy",
+      "value": -8671.411212153384
+    },
+    {
+      "date": "2024-04-01",
+      "series": "exports",
+      "value": 164179.76261963282
+    },
+    {
+      "date": "2024-04-01",
+      "series": "gdp",
+      "value": 729909.3687198232
+    },
+    {
+      "date": "2024-04-01",
+      "series": "imports",
+      "value": 164019.79797051894
+    },
+    {
+      "date": "2024-04-01",
+      "series": "inventories",
+      "value": -9485.313876489354
+    },
+    {
+      "date": "2024-04-01",
+      "series": "investment",
+      "value": 111250.67606318029
+    },
+    {
+      "date": "2024-04-01",
+      "series": "net-exports",
+      "value": 159.96464911388466
+    },
+    {
+      "date": "2024-04-01",
+      "series": "other-demand",
+      "value": -18156.725088642735
+    },
+    {
+      "date": "2024-04-01",
+      "series": "private",
+      "value": 538393.9648003395
+    },
+    {
+      "date": "2024-04-01",
+      "series": "public",
+      "value": 98261.48829583231
+    },
+    {
+      "date": "2024-04-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2024-07-01",
+      "series": "discrepancy",
+      "value": -14763.567140298896
+    },
+    {
+      "date": "2024-07-01",
+      "series": "exports",
+      "value": 172087.5158740965
+    },
+    {
+      "date": "2024-07-01",
+      "series": "gdp",
+      "value": 714299.2179562403
+    },
+    {
+      "date": "2024-07-01",
+      "series": "imports",
+      "value": 180382.92674418475
+    },
+    {
+      "date": "2024-07-01",
+      "series": "inventories",
+      "value": 16624.83622456725
+    },
+    {
+      "date": "2024-07-01",
+      "series": "investment",
+      "value": 134999.67663925863
+    },
+    {
+      "date": "2024-07-01",
+      "series": "net-exports",
+      "value": -8295.410870088235
+    },
+    {
+      "date": "2024-07-01",
+      "series": "other-demand",
+      "value": 1861.269084268355
+    },
+    {
+      "date": "2024-07-01",
+      "series": "private",
+      "value": 490119.306834036
+    },
+    {
+      "date": "2024-07-01",
+      "series": "public",
+      "value": 95614.3762687654
+    },
+    {
+      "date": "2024-07-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2024-10-01",
+      "series": "discrepancy",
+      "value": -25287.855025423807
+    },
+    {
+      "date": "2024-10-01",
+      "series": "exports",
+      "value": 172594.55583318364
+    },
+    {
+      "date": "2024-10-01",
+      "series": "gdp",
+      "value": 719523.3207309349
+    },
+    {
+      "date": "2024-10-01",
+      "series": "imports",
+      "value": 199564.73060381008
+    },
+    {
+      "date": "2024-10-01",
+      "series": "inventories",
+      "value": 26848.363406918284
+    },
+    {
+      "date": "2024-10-01",
+      "series": "investment",
+      "value": 139618.47521813988
+    },
+    {
+      "date": "2024-10-01",
+      "series": "net-exports",
+      "value": -26970.174770626443
+    },
+    {
+      "date": "2024-10-01",
+      "series": "other-demand",
+      "value": 1560.5083814944774
+    },
+    {
+      "date": "2024-10-01",
+      "series": "private",
+      "value": 504095.16709730995
+    },
+    {
+      "date": "2024-10-01",
+      "series": "public",
+      "value": 101219.34480461713
+    },
+    {
+      "date": "2024-10-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2025-01-01",
+      "series": "discrepancy",
+      "value": 1704.7551192335086
+    },
+    {
+      "date": "2025-01-01",
+      "series": "exports",
+      "value": 156881.31367975337
+    },
+    {
+      "date": "2025-01-01",
+      "series": "gdp",
+      "value": 709095.1246966242
+    },
+    {
+      "date": "2025-01-01",
+      "series": "imports",
+      "value": 230112.3766481846
+    },
+    {
+      "date": "2025-01-01",
+      "series": "inventories",
+      "value": -19277.67094992487
+    },
+    {
+      "date": "2025-01-01",
+      "series": "investment",
+      "value": 141620.55233541317
+    },
+    {
+      "date": "2025-01-01",
+      "series": "net-exports",
+      "value": -73231.06296843124
+    },
+    {
+      "date": "2025-01-01",
+      "series": "other-demand",
+      "value": -17572.91583069136
+    },
+    {
+      "date": "2025-01-01",
+      "series": "private",
+      "value": 566590.7583721852
+    },
+    {
+      "date": "2025-01-01",
+      "series": "public",
+      "value": 91687.79278814848
+    },
+    {
+      "date": "2025-01-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2025-04-01",
+      "series": "discrepancy",
+      "value": -11455.468850273639
+    },
+    {
+      "date": "2025-04-01",
+      "series": "exports",
+      "value": 169976.52350053473
+    },
+    {
+      "date": "2025-04-01",
+      "series": "gdp",
+      "value": 777482.5556069001
+    },
+    {
+      "date": "2025-04-01",
+      "series": "imports",
+      "value": 228175.02492846528
+    },
+    {
+      "date": "2025-04-01",
+      "series": "inventories",
+      "value": -1008.5524817145068
+    },
+    {
+      "date": "2025-04-01",
+      "series": "investment",
+      "value": 147249.2271332868
+    },
+    {
+      "date": "2025-04-01",
+      "series": "net-exports",
+      "value": -58198.50142793055
+    },
+    {
+      "date": "2025-04-01",
+      "series": "other-demand",
+      "value": -12464.021331988146
+    },
+    {
+      "date": "2025-04-01",
+      "series": "private",
+      "value": 601163.8671882169
+    },
+    {
+      "date": "2025-04-01",
+      "series": "public",
+      "value": 99731.98404531514
+    },
+    {
+      "date": "2025-04-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2025-07-01",
+      "series": "discrepancy",
+      "value": -14355.75364023738
+    },
+    {
+      "date": "2025-07-01",
+      "series": "exports",
+      "value": 189756.0734657313
+    },
+    {
+      "date": "2025-07-01",
+      "series": "gdp",
+      "value": 737135.0676777094
+    },
+    {
+      "date": "2025-07-01",
+      "series": "imports",
+      "value": 225859.2128645692
+    },
+    {
+      "date": "2025-07-01",
+      "series": "inventories",
+      "value": 19392.457398662034
+    },
+    {
+      "date": "2025-07-01",
+      "series": "investment",
+      "value": 148829.50727912155
+    },
+    {
+      "date": "2025-07-01",
+      "series": "net-exports",
+      "value": -36103.13939883793
+    },
+    {
+      "date": "2025-07-01",
+      "series": "other-demand",
+      "value": 5036.703758424654
+    },
+    {
+      "date": "2025-07-01",
+      "series": "private",
+      "value": 522534.77183254744
+    },
+    {
+      "date": "2025-07-01",
+      "series": "public",
+      "value": 96837.22420645383
+    },
+    {
+      "date": "2025-07-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2025-10-01",
+      "series": "discrepancy",
+      "value": -16770.73053917708
+    },
+    {
+      "date": "2025-10-01",
+      "series": "exports",
+      "value": 192971.2412325193
+    },
+    {
+      "date": "2025-10-01",
+      "series": "gdp",
+      "value": 735202.1055080015
+    },
+    {
+      "date": "2025-10-01",
+      "series": "imports",
+      "value": 221714.27410342373
+    },
+    {
+      "date": "2025-10-01",
+      "series": "inventories",
+      "value": 17703.807045088983
+    },
+    {
+      "date": "2025-10-01",
+      "series": "investment",
+      "value": 135974.00388717614
+    },
+    {
+      "date": "2025-10-01",
+      "series": "net-exports",
+      "value": -28743.032870904426
+    },
+    {
+      "date": "2025-10-01",
+      "series": "other-demand",
+      "value": 933.076505911904
+    },
+    {
+      "date": "2025-10-01",
+      "series": "private",
+      "value": 525445.7833727074
+    },
+    {
+      "date": "2025-10-01",
+      "series": "public",
+      "value": 101592.2746131105
+    },
+    {
+      "date": "2025-10-01",
+      "series": "valuables",
+      "value": 0.0
+    },
+    {
+      "date": "2026-01-01",
+      "series": "discrepancy",
+      "value": -4301.04152163968
+    },
+    {
+      "date": "2026-01-01",
+      "series": "exports",
+      "value": 172700.09356278335
+    },
+    {
+      "date": "2026-01-01",
+      "series": "gdp",
+      "value": 726163.281251173
+    },
+    {
+      "date": "2026-01-01",
+      "series": "imports",
+      "value": 212744.9729266175
+    },
+    {
+      "date": "2026-01-01",
+      "series": "inventories",
+      "value": -30751.698524506657
+    },
+    {
+      "date": "2026-01-01",
+      "series": "investment",
+      "value": 124665.9029684688
+    },
+    {
+      "date": "2026-01-01",
+      "series": "net-exports",
+      "value": -40044.87936383416
+    },
+    {
+      "date": "2026-01-01",
+      "series": "other-demand",
+      "value": -35514.82552755909
+    },
+    {
+      "date": "2026-01-01",
+      "series": "private",
+      "value": 584158.7766389673
+    },
+    {
+      "date": "2026-01-01",
+      "series": "public",
+      "value": 92898.30653513006
+    },
+    {
+      "date": "2026-01-01",
+      "series": "valuables",
+      "value": -462.0854814127557
+    },
+    {
+      "date": "2026-04-01",
+      "series": "discrepancy",
+      "value": -12334.153400793788
+    },
+    {
+      "date": "2026-04-01",
+      "series": "exports",
+      "value": 193204.1607646829
+    },
+    {
+      "date": "2026-04-01",
+      "series": "gdp",
+      "value": 792800.3414783159
+    },
+    {
+      "date": "2026-04-01",
+      "series": "imports",
+      "value": 208509.87201795584
+    },
+    {
+      "date": "2026-04-01",
+      "series": "inventories",
+      "value": -10289.449302955365
+    },
+    {
+      "date": "2026-04-01",
+      "series": "investment",
+      "value": 130869.553050086
+    },
+    {
+      "date": "2026-04-01",
+      "series": "net-exports",
+      "value": -15305.711253272952
+    },
+    {
+      "date": "2026-04-01",
+      "series": "other-demand",
+      "value": -21870.03433345621
+    },
+    {
+      "date": "2026-04-01",
+      "series": "private",
+      "value": 603428.1296523674
+    },
+    {
+      "date": "2026-04-01",
+      "series": "public",
+      "value": 95678.40436259173
+    },
+    {
+      "date": "2026-04-01",
+      "series": "valuables",
+      "value": 753.5683702929439
+    }
+  ],
+  "valueKind": "signed",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-04-01",
+  "firstObservedPeriod": "2004-01-01",
+  "lastObservedBySeries": {
+    "gdp": "2026-04-01",
+    "imports": "2026-04-01",
+    "private": "2026-04-01",
+    "public": "2026-04-01",
+    "exports": "2026-04-01",
+    "investment": "2026-04-01",
+    "inventories": "2026-04-01",
+    "valuables": "2026-04-01",
+    "discrepancy": "2026-04-01",
+    "net-exports": "2026-04-01",
+    "other-demand": "2026-04-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:46:20Z",
+  "lastAttemptAt": "2026-11-13T12:46:20Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "7e381d1761f1ac97b9b50a6a17d6f6231db00c3f996b45c838f31676c7401a3b",
+  "rawSha256": "fbd4a5b6964cd49a1b5dd48c47b8af5bf3b238c4359503a55167806b8b74e55e",
+  "dataChangedAt": "2026-11-12T03:32:50Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

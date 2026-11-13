@@ -1,0 +1,1110 @@
+{
+  "id": "hotel-nights",
+  "source": "INDEC · Encuesta de Ocupación Hotelera",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_eoh_pernoctaciones.xlsx",
+  "frequency": "monthly",
+  "unit": "noches en establecimientos hoteleros y parahoteleros",
+  "series": [
+    {
+      "id": "original",
+      "label": "Pernoctaciones totales · original",
+      "column": 1
+    }
+  ],
+  "methodNote": "Total de pernoctaciones, residentes y no residentes, EOH. Los ceros de abril y mayo 2020 están publicados en la fuente: no se imputan. Los agregados anuales requieren doce meses numéricos. Distinto universo de los viajes internacionales.",
+  "observations": [
+    {
+      "date": "2008-01-01",
+      "series": "original",
+      "value": 6460771.0
+    },
+    {
+      "date": "2008-02-01",
+      "series": "original",
+      "value": 5559955.0
+    },
+    {
+      "date": "2008-03-01",
+      "series": "original",
+      "value": 4442592.0
+    },
+    {
+      "date": "2008-04-01",
+      "series": "original",
+      "value": 2793661.0
+    },
+    {
+      "date": "2008-05-01",
+      "series": "original",
+      "value": 2581934.0
+    },
+    {
+      "date": "2008-06-01",
+      "series": "original",
+      "value": 2265109.0
+    },
+    {
+      "date": "2008-07-01",
+      "series": "original",
+      "value": 3732122.0
+    },
+    {
+      "date": "2008-08-01",
+      "series": "original",
+      "value": 3656934.0
+    },
+    {
+      "date": "2008-09-01",
+      "series": "original",
+      "value": 3275750.0
+    },
+    {
+      "date": "2008-10-01",
+      "series": "original",
+      "value": 3403523.0
+    },
+    {
+      "date": "2008-11-01",
+      "series": "original",
+      "value": 3374292.0
+    },
+    {
+      "date": "2008-12-01",
+      "series": "original",
+      "value": 3304370.0
+    },
+    {
+      "date": "2009-01-01",
+      "series": "original",
+      "value": 5641225.0
+    },
+    {
+      "date": "2009-02-01",
+      "series": "original",
+      "value": 4881742.0
+    },
+    {
+      "date": "2009-03-01",
+      "series": "original",
+      "value": 3351952.0
+    },
+    {
+      "date": "2009-04-01",
+      "series": "original",
+      "value": 2927944.0
+    },
+    {
+      "date": "2009-05-01",
+      "series": "original",
+      "value": 2368472.0
+    },
+    {
+      "date": "2009-06-01",
+      "series": "original",
+      "value": 2103624.0
+    },
+    {
+      "date": "2009-07-01",
+      "series": "original",
+      "value": 2803194.0
+    },
+    {
+      "date": "2009-08-01",
+      "series": "original",
+      "value": 2766743.0
+    },
+    {
+      "date": "2009-09-01",
+      "series": "original",
+      "value": 2923363.0
+    },
+    {
+      "date": "2009-10-01",
+      "series": "original",
+      "value": 3482280.0
+    },
+    {
+      "date": "2009-11-01",
+      "series": "original",
+      "value": 3361676.0
+    },
+    {
+      "date": "2009-12-01",
+      "series": "original",
+      "value": 3386065.0
+    },
+    {
+      "date": "2010-01-01",
+      "series": "original",
+      "value": 6206090.0
+    },
+    {
+      "date": "2010-02-01",
+      "series": "original",
+      "value": 5300784.0
+    },
+    {
+      "date": "2010-03-01",
+      "series": "original",
+      "value": 3729690.0
+    },
+    {
+      "date": "2010-04-01",
+      "series": "original",
+      "value": 3211053.0
+    },
+    {
+      "date": "2010-05-01",
+      "series": "original",
+      "value": 2813070.0
+    },
+    {
+      "date": "2010-06-01",
+      "series": "original",
+      "value": 2552634.0
+    },
+    {
+      "date": "2010-07-01",
+      "series": "original",
+      "value": 4260543.0
+    },
+    {
+      "date": "2010-08-01",
+      "series": "original",
+      "value": 3480871.0
+    },
+    {
+      "date": "2010-09-01",
+      "series": "original",
+      "value": 3448166.0
+    },
+    {
+      "date": "2010-10-01",
+      "series": "original",
+      "value": 3770052.0
+    },
+    {
+      "date": "2010-11-01",
+      "series": "original",
+      "value": 3650905.0
+    },
+    {
+      "date": "2010-12-01",
+      "series": "original",
+      "value": 3560170.0
+    },
+    {
+      "date": "2011-01-01",
+      "series": "original",
+      "value": 6499344.0
+    },
+    {
+      "date": "2011-02-01",
+      "series": "original",
+      "value": 5317161.0
+    },
+    {
+      "date": "2011-03-01",
+      "series": "original",
+      "value": 4237447.0
+    },
+    {
+      "date": "2011-04-01",
+      "series": "original",
+      "value": 3298610.0
+    },
+    {
+      "date": "2011-05-01",
+      "series": "original",
+      "value": 2750153.0
+    },
+    {
+      "date": "2011-06-01",
+      "series": "original",
+      "value": 2578063.0
+    },
+    {
+      "date": "2011-07-01",
+      "series": "original",
+      "value": 4183163.0
+    },
+    {
+      "date": "2011-08-01",
+      "series": "original",
+      "value": 3384019.0
+    },
+    {
+      "date": "2011-09-01",
+      "series": "original",
+      "value": 3638597.0
+    },
+    {
+      "date": "2011-10-01",
+      "series": "original",
+      "value": 3740515.0
+    },
+    {
+      "date": "2011-11-01",
+      "series": "original",
+      "value": 3844891.0
+    },
+    {
+      "date": "2011-12-01",
+      "series": "original",
+      "value": 3689786.0
+    },
+    {
+      "date": "2012-01-01",
+      "series": "original",
+      "value": 6344258.0
+    },
+    {
+      "date": "2012-02-01",
+      "series": "original",
+      "value": 5420222.0
+    },
+    {
+      "date": "2012-03-01",
+      "series": "original",
+      "value": 4020311.0
+    },
+    {
+      "date": "2012-04-01",
+      "series": "original",
+      "value": 3602089.0
+    },
+    {
+      "date": "2012-05-01",
+      "series": "original",
+      "value": 2702845.0
+    },
+    {
+      "date": "2012-06-01",
+      "series": "original",
+      "value": 2506798.0
+    },
+    {
+      "date": "2012-07-01",
+      "series": "original",
+      "value": 4217732.0
+    },
+    {
+      "date": "2012-08-01",
+      "series": "original",
+      "value": 3402288.0
+    },
+    {
+      "date": "2012-09-01",
+      "series": "original",
+      "value": 3560478.0
+    },
+    {
+      "date": "2012-10-01",
+      "series": "original",
+      "value": 3679386.0
+    },
+    {
+      "date": "2012-11-01",
+      "series": "original",
+      "value": 3704127.0
+    },
+    {
+      "date": "2012-12-01",
+      "series": "original",
+      "value": 3561881.0
+    },
+    {
+      "date": "2013-01-01",
+      "series": "original",
+      "value": 5833782.0
+    },
+    {
+      "date": "2013-02-01",
+      "series": "original",
+      "value": 4943796.0
+    },
+    {
+      "date": "2013-03-01",
+      "series": "original",
+      "value": 4006996.0
+    },
+    {
+      "date": "2013-04-01",
+      "series": "original",
+      "value": 2799048.0
+    },
+    {
+      "date": "2013-05-01",
+      "series": "original",
+      "value": 2595721.0
+    },
+    {
+      "date": "2013-06-01",
+      "series": "original",
+      "value": 2771448.0
+    },
+    {
+      "date": "2013-07-01",
+      "series": "original",
+      "value": 4279235.0
+    },
+    {
+      "date": "2013-08-01",
+      "series": "original",
+      "value": 3399962.0
+    },
+    {
+      "date": "2013-09-01",
+      "series": "original",
+      "value": 3532607.0
+    },
+    {
+      "date": "2013-10-01",
+      "series": "original",
+      "value": 3625116.0
+    },
+    {
+      "date": "2013-11-01",
+      "series": "original",
+      "value": 3809019.0
+    },
+    {
+      "date": "2013-12-01",
+      "series": "original",
+      "value": 3508011.0
+    },
+    {
+      "date": "2014-01-01",
+      "series": "original",
+      "value": 6051096.0
+    },
+    {
+      "date": "2014-02-01",
+      "series": "original",
+      "value": 5019173.0
+    },
+    {
+      "date": "2014-03-01",
+      "series": "original",
+      "value": 3945081.0
+    },
+    {
+      "date": "2014-04-01",
+      "series": "original",
+      "value": 3206019.0
+    },
+    {
+      "date": "2014-05-01",
+      "series": "original",
+      "value": 2819832.0
+    },
+    {
+      "date": "2014-06-01",
+      "series": "original",
+      "value": 2509987.0
+    },
+    {
+      "date": "2014-07-01",
+      "series": "original",
+      "value": 4215838.0
+    },
+    {
+      "date": "2014-08-01",
+      "series": "original",
+      "value": 3623716.0
+    },
+    {
+      "date": "2014-09-01",
+      "series": "original",
+      "value": 3572504.0
+    },
+    {
+      "date": "2014-10-01",
+      "series": "original",
+      "value": 3919727.0
+    },
+    {
+      "date": "2014-11-01",
+      "series": "original",
+      "value": 3761625.0
+    },
+    {
+      "date": "2014-12-01",
+      "series": "original",
+      "value": 3750041.0
+    },
+    {
+      "date": "2015-01-01",
+      "series": "original",
+      "value": 6396304.0
+    },
+    {
+      "date": "2015-02-01",
+      "series": "original",
+      "value": 5401949.0
+    },
+    {
+      "date": "2015-03-01",
+      "series": "original",
+      "value": 3820057.0
+    },
+    {
+      "date": "2015-04-01",
+      "series": "original",
+      "value": 3109876.0
+    },
+    {
+      "date": "2015-05-01",
+      "series": "original",
+      "value": 2752880.0
+    },
+    {
+      "date": "2015-06-01",
+      "series": "original",
+      "value": 2499118.0
+    },
+    {
+      "date": "2015-07-01",
+      "series": "original",
+      "value": 4455519.0
+    },
+    {
+      "date": "2015-08-01",
+      "series": "original",
+      "value": 3586069.0
+    },
+    {
+      "date": "2015-09-01",
+      "series": "original",
+      "value": 3696118.0
+    },
+    {
+      "date": "2015-10-01",
+      "series": "original",
+      "value": 3750312.0
+    },
+    {
+      "date": "2015-11-01",
+      "series": "original",
+      "value": 3583586.0
+    },
+    {
+      "date": "2015-12-01",
+      "series": "original",
+      "value": 3573658.0
+    },
+    {
+      "date": "2016-01-01",
+      "series": "original",
+      "value": 5978953.0
+    },
+    {
+      "date": "2016-02-01",
+      "series": "original",
+      "value": 5232790.0
+    },
+    {
+      "date": "2016-03-01",
+      "series": "original",
+      "value": 3819029.0
+    },
+    {
+      "date": "2016-04-01",
+      "series": "original",
+      "value": 2790779.0
+    },
+    {
+      "date": "2016-05-01",
+      "series": "original",
+      "value": 2489967.0
+    },
+    {
+      "date": "2016-06-01",
+      "series": "original",
+      "value": 2614722.0
+    },
+    {
+      "date": "2016-07-01",
+      "series": "original",
+      "value": 4459524.0
+    },
+    {
+      "date": "2016-08-01",
+      "series": "original",
+      "value": 3516984.0
+    },
+    {
+      "date": "2016-09-01",
+      "series": "original",
+      "value": 3555407.0
+    },
+    {
+      "date": "2016-10-01",
+      "series": "original",
+      "value": 3943612.0
+    },
+    {
+      "date": "2016-11-01",
+      "series": "original",
+      "value": 3770595.0
+    },
+    {
+      "date": "2016-12-01",
+      "series": "original",
+      "value": 3733420.0
+    },
+    {
+      "date": "2017-01-01",
+      "series": "original",
+      "value": 6034561.0
+    },
+    {
+      "date": "2017-02-01",
+      "series": "original",
+      "value": 5327614.0
+    },
+    {
+      "date": "2017-03-01",
+      "series": "original",
+      "value": 3768411.0
+    },
+    {
+      "date": "2017-04-01",
+      "series": "original",
+      "value": 3364198.0
+    },
+    {
+      "date": "2017-05-01",
+      "series": "original",
+      "value": 2724469.0
+    },
+    {
+      "date": "2017-06-01",
+      "series": "original",
+      "value": 2774695.0
+    },
+    {
+      "date": "2017-07-01",
+      "series": "original",
+      "value": 4700606.0
+    },
+    {
+      "date": "2017-08-01",
+      "series": "original",
+      "value": 3654330.0
+    },
+    {
+      "date": "2017-09-01",
+      "series": "original",
+      "value": 3803662.0
+    },
+    {
+      "date": "2017-10-01",
+      "series": "original",
+      "value": 4004500.0
+    },
+    {
+      "date": "2017-11-01",
+      "series": "original",
+      "value": 4058749.0
+    },
+    {
+      "date": "2017-12-01",
+      "series": "original",
+      "value": 3799874.0
+    },
+    {
+      "date": "2018-01-01",
+      "series": "original",
+      "value": 6108961.0
+    },
+    {
+      "date": "2018-02-01",
+      "series": "original",
+      "value": 5445698.0
+    },
+    {
+      "date": "2018-03-01",
+      "series": "original",
+      "value": 4368737.0
+    },
+    {
+      "date": "2018-04-01",
+      "series": "original",
+      "value": 3411193.0
+    },
+    {
+      "date": "2018-05-01",
+      "series": "original",
+      "value": 2868791.0
+    },
+    {
+      "date": "2018-06-01",
+      "series": "original",
+      "value": 2624149.0
+    },
+    {
+      "date": "2018-07-01",
+      "series": "original",
+      "value": 4541421.0
+    },
+    {
+      "date": "2018-08-01",
+      "series": "original",
+      "value": 3681004.0
+    },
+    {
+      "date": "2018-09-01",
+      "series": "original",
+      "value": 3748945.0
+    },
+    {
+      "date": "2018-10-01",
+      "series": "original",
+      "value": 3975106.0
+    },
+    {
+      "date": "2018-11-01",
+      "series": "original",
+      "value": 3962640.0
+    },
+    {
+      "date": "2018-12-01",
+      "series": "original",
+      "value": 3755858.0
+    },
+    {
+      "date": "2019-01-01",
+      "series": "original",
+      "value": 5957152.0
+    },
+    {
+      "date": "2019-02-01",
+      "series": "original",
+      "value": 5188012.0
+    },
+    {
+      "date": "2019-03-01",
+      "series": "original",
+      "value": 4198456.0
+    },
+    {
+      "date": "2019-04-01",
+      "series": "original",
+      "value": 3421900.0
+    },
+    {
+      "date": "2019-05-01",
+      "series": "original",
+      "value": 2945771.0
+    },
+    {
+      "date": "2019-06-01",
+      "series": "original",
+      "value": 2980803.0
+    },
+    {
+      "date": "2019-07-01",
+      "series": "original",
+      "value": 4849228.0
+    },
+    {
+      "date": "2019-08-01",
+      "series": "original",
+      "value": 3818668.0
+    },
+    {
+      "date": "2019-09-01",
+      "series": "original",
+      "value": 3801475.0
+    },
+    {
+      "date": "2019-10-01",
+      "series": "original",
+      "value": 3965645.0
+    },
+    {
+      "date": "2019-11-01",
+      "series": "original",
+      "value": 4058257.0
+    },
+    {
+      "date": "2019-12-01",
+      "series": "original",
+      "value": 3969686.0
+    },
+    {
+      "date": "2020-01-01",
+      "series": "original",
+      "value": 6284406.0
+    },
+    {
+      "date": "2020-02-01",
+      "series": "original",
+      "value": 5679422.0
+    },
+    {
+      "date": "2020-03-01",
+      "series": "original",
+      "value": 2057002.0
+    },
+    {
+      "date": "2020-04-01",
+      "series": "original",
+      "value": 0.0
+    },
+    {
+      "date": "2020-05-01",
+      "series": "original",
+      "value": 0.0
+    },
+    {
+      "date": "2020-06-01",
+      "series": "original",
+      "value": 74247.0
+    },
+    {
+      "date": "2020-07-01",
+      "series": "original",
+      "value": 83273.0
+    },
+    {
+      "date": "2020-08-01",
+      "series": "original",
+      "value": 83131.0
+    },
+    {
+      "date": "2020-09-01",
+      "series": "original",
+      "value": 139609.0
+    },
+    {
+      "date": "2020-10-01",
+      "series": "original",
+      "value": 204755.0
+    },
+    {
+      "date": "2020-11-01",
+      "series": "original",
+      "value": 334653.0
+    },
+    {
+      "date": "2020-12-01",
+      "series": "original",
+      "value": 1030846.0
+    },
+    {
+      "date": "2021-01-01",
+      "series": "original",
+      "value": 2809158.0
+    },
+    {
+      "date": "2021-02-01",
+      "series": "original",
+      "value": 2839416.0
+    },
+    {
+      "date": "2021-03-01",
+      "series": "original",
+      "value": 2072968.0
+    },
+    {
+      "date": "2021-04-01",
+      "series": "original",
+      "value": 1389555.0
+    },
+    {
+      "date": "2021-05-01",
+      "series": "original",
+      "value": 666592.0
+    },
+    {
+      "date": "2021-06-01",
+      "series": "original",
+      "value": 629734.0
+    },
+    {
+      "date": "2021-07-01",
+      "series": "original",
+      "value": 2251331.0
+    },
+    {
+      "date": "2021-08-01",
+      "series": "original",
+      "value": 2201014.0
+    },
+    {
+      "date": "2021-09-01",
+      "series": "original",
+      "value": 2384792.0
+    },
+    {
+      "date": "2021-10-01",
+      "series": "original",
+      "value": 2841649.0
+    },
+    {
+      "date": "2021-11-01",
+      "series": "original",
+      "value": 3156862.0
+    },
+    {
+      "date": "2021-12-01",
+      "series": "original",
+      "value": 3579745.0
+    },
+    {
+      "date": "2022-01-01",
+      "series": "original",
+      "value": 5860140.0
+    },
+    {
+      "date": "2022-02-01",
+      "series": "original",
+      "value": 5444011.0
+    },
+    {
+      "date": "2022-03-01",
+      "series": "original",
+      "value": 4066908.0
+    },
+    {
+      "date": "2022-04-01",
+      "series": "original",
+      "value": 3647293.0
+    },
+    {
+      "date": "2022-05-01",
+      "series": "original",
+      "value": 2769722.0
+    },
+    {
+      "date": "2022-06-01",
+      "series": "original",
+      "value": 2910427.0
+    },
+    {
+      "date": "2022-07-01",
+      "series": "original",
+      "value": 4602474.0
+    },
+    {
+      "date": "2022-08-01",
+      "series": "original",
+      "value": 3650323.0
+    },
+    {
+      "date": "2022-09-01",
+      "series": "original",
+      "value": 3695713.0
+    },
+    {
+      "date": "2022-10-01",
+      "series": "original",
+      "value": 4199873.0
+    },
+    {
+      "date": "2022-11-01",
+      "series": "original",
+      "value": 3919402.0
+    },
+    {
+      "date": "2022-12-01",
+      "series": "original",
+      "value": 3665025.0
+    },
+    {
+      "date": "2023-01-01",
+      "series": "original",
+      "value": 6224087.0
+    },
+    {
+      "date": "2023-02-01",
+      "series": "original",
+      "value": 5413146.0
+    },
+    {
+      "date": "2023-03-01",
+      "series": "original",
+      "value": 4105564.0
+    },
+    {
+      "date": "2023-04-01",
+      "series": "original",
+      "value": 3566179.0
+    },
+    {
+      "date": "2023-05-01",
+      "series": "original",
+      "value": 3179643.0
+    },
+    {
+      "date": "2023-06-01",
+      "series": "original",
+      "value": 3399637.0
+    },
+    {
+      "date": "2023-07-01",
+      "series": "original",
+      "value": 4762988.0
+    },
+    {
+      "date": "2023-08-01",
+      "series": "original",
+      "value": 3805537.0
+    },
+    {
+      "date": "2023-09-01",
+      "series": "original",
+      "value": 4210393.0
+    },
+    {
+      "date": "2023-10-01",
+      "series": "original",
+      "value": 4147449.0
+    },
+    {
+      "date": "2023-11-01",
+      "series": "original",
+      "value": 3963761.0
+    },
+    {
+      "date": "2023-12-01",
+      "series": "original",
+      "value": 3886051.0
+    },
+    {
+      "date": "2024-01-01",
+      "series": "original",
+      "value": 5680116.0
+    },
+    {
+      "date": "2024-02-01",
+      "series": "original",
+      "value": 4939392.0
+    },
+    {
+      "date": "2024-03-01",
+      "series": "original",
+      "value": 3946539.0
+    },
+    {
+      "date": "2024-04-01",
+      "series": "original",
+      "value": 2777228.0
+    },
+    {
+      "date": "2024-05-01",
+      "series": "original",
+      "value": 2361519.0
+    },
+    {
+      "date": "2024-06-01",
+      "series": "original",
+      "value": 2765031.0
+    },
+    {
+      "date": "2024-07-01",
+      "series": "original",
+      "value": 4176108.0
+    },
+    {
+      "date": "2024-08-01",
+      "series": "original",
+      "value": 3290773.0
+    },
+    {
+      "date": "2024-09-01",
+      "series": "original",
+      "value": 3380659.0
+    },
+    {
+      "date": "2024-10-01",
+      "series": "original",
+      "value": 3705102.0
+    },
+    {
+      "date": "2024-11-01",
+      "series": "original",
+      "value": 3801934.0
+    },
+    {
+      "date": "2024-12-01",
+      "series": "original",
+      "value": 3641303.0
+    },
+    {
+      "date": "2025-01-01",
+      "series": "original",
+      "value": 5577513.0
+    },
+    {
+      "date": "2025-02-01",
+      "series": "original",
+      "value": 4574831.0
+    },
+    {
+      "date": "2025-03-01",
+      "series": "original",
+      "value": 3749584.0
+    },
+    {
+      "date": "2025-04-01",
+      "series": "original",
+      "value": 3058971.0
+    },
+    {
+      "date": "2025-05-01",
+      "series": "original",
+      "value": 2573500.0
+    },
+    {
+      "date": "2025-06-01",
+      "series": "original",
+      "value": 2537574.0
+    },
+    {
+      "date": "2025-07-01",
+      "series": "original",
+      "value": 4101352.0
+    },
+    {
+      "date": "2025-08-01",
+      "series": "original",
+      "value": 3359577.0
+    },
+    {
+      "date": "2025-09-01",
+      "series": "original",
+      "value": 3337947.0
+    },
+    {
+      "date": "2025-10-01",
+      "series": "original",
+      "value": 3569989.0
+    },
+    {
+      "date": "2025-11-01",
+      "series": "original",
+      "value": 4003093.0
+    }
+  ],
+  "valueKind": "level",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2025-11-01",
+  "firstObservedPeriod": "2008-01-01",
+  "lastObservedBySeries": {
+    "original": "2025-11-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:47:09Z",
+  "lastAttemptAt": "2026-11-13T12:47:09Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "b552351e45d855d33757c315b8eefa261e210bce305b15f52e200eda0576ab3e",
+  "rawSha256": "18a1decda896fe42a018832351b6b1a9ba9dfcb3ec93d02189d0a725fa5fa1da",
+  "dataChangedAt": "2026-11-12T04:52:12Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

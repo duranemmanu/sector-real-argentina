@@ -1,0 +1,827 @@
+{
+  "id": "credit-arrears-lines",
+  "source": "BCRA · Informe sobre Bancos",
+  "sourceUrl": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-bancos-serie-2026-08.xlsx",
+  "frequency": "monthly",
+  "unit": "% del saldo de cada línea o sector",
+  "series": [
+    {
+      "id": "personal",
+      "label": "Personales",
+      "column": 1,
+      "headerToken": "Personales"
+    },
+    {
+      "id": "mortgage",
+      "label": "Hipotecarios",
+      "column": 2,
+      "headerToken": "Hipotecarios"
+    },
+    {
+      "id": "pledged",
+      "label": "Prendarios",
+      "column": 3,
+      "headerToken": "Prendarios"
+    },
+    {
+      "id": "cards",
+      "label": "Tarjetas",
+      "column": 4,
+      "headerToken": "Tarjetas"
+    },
+    {
+      "id": "households",
+      "label": "Total familias",
+      "column": 5,
+      "headerToken": "Total"
+    },
+    {
+      "id": "commerce",
+      "label": "Comercio",
+      "column": 8,
+      "headerToken": "Comercio"
+    },
+    {
+      "id": "construction",
+      "label": "Construcción",
+      "column": 9,
+      "headerToken": "Construcción"
+    },
+    {
+      "id": "industry",
+      "label": "Industria",
+      "column": 10,
+      "headerToken": "Industria"
+    },
+    {
+      "id": "primary",
+      "label": "Producción primaria",
+      "column": 11,
+      "headerToken": "Primaria"
+    },
+    {
+      "id": "services",
+      "label": "Servicios",
+      "column": 12,
+      "headerToken": "Servicios"
+    },
+    {
+      "id": "companies",
+      "label": "Total empresas",
+      "column": 13,
+      "headerToken": "Total"
+    }
+  ],
+  "methodNote": "Hoja 10. Cartera irregular sobre saldo de cada línea familiar o actividad empresarial a fin de mes. El total es ponderado por montos y no el promedio simple de los sectores. Datos provisorios.",
+  "observations": [
+    {
+      "date": "2025-08-01",
+      "series": "cards",
+      "value": 6.651529855187055
+    },
+    {
+      "date": "2025-08-01",
+      "series": "commerce",
+      "value": 1.6899104953768673
+    },
+    {
+      "date": "2025-08-01",
+      "series": "companies",
+      "value": 1.419095402081961
+    },
+    {
+      "date": "2025-08-01",
+      "series": "construction",
+      "value": 4.657062848282367
+    },
+    {
+      "date": "2025-08-01",
+      "series": "households",
+      "value": 6.600561307930588
+    },
+    {
+      "date": "2025-08-01",
+      "series": "industry",
+      "value": 1.7538936728397465
+    },
+    {
+      "date": "2025-08-01",
+      "series": "mortgage",
+      "value": 0.9365197017760245
+    },
+    {
+      "date": "2025-08-01",
+      "series": "personal",
+      "value": 8.209762854418328
+    },
+    {
+      "date": "2025-08-01",
+      "series": "pledged",
+      "value": 4.281467961098129
+    },
+    {
+      "date": "2025-08-01",
+      "series": "primary",
+      "value": 0.7749423468648141
+    },
+    {
+      "date": "2025-08-01",
+      "series": "services",
+      "value": 1.0533112681204366
+    },
+    {
+      "date": "2025-09-01",
+      "series": "cards",
+      "value": 7.361703509337287
+    },
+    {
+      "date": "2025-09-01",
+      "series": "commerce",
+      "value": 2.0656879923955866
+    },
+    {
+      "date": "2025-09-01",
+      "series": "companies",
+      "value": 1.6616209170804037
+    },
+    {
+      "date": "2025-09-01",
+      "series": "construction",
+      "value": 4.831393657987124
+    },
+    {
+      "date": "2025-09-01",
+      "series": "households",
+      "value": 7.277163079351115
+    },
+    {
+      "date": "2025-09-01",
+      "series": "industry",
+      "value": 2.093101649958152
+    },
+    {
+      "date": "2025-09-01",
+      "series": "mortgage",
+      "value": 0.9425768370849491
+    },
+    {
+      "date": "2025-09-01",
+      "series": "personal",
+      "value": 9.122520948325885
+    },
+    {
+      "date": "2025-09-01",
+      "series": "pledged",
+      "value": 4.512796713148877
+    },
+    {
+      "date": "2025-09-01",
+      "series": "primary",
+      "value": 0.9085587222052071
+    },
+    {
+      "date": "2025-09-01",
+      "series": "services",
+      "value": 1.193554550369491
+    },
+    {
+      "date": "2025-10-01",
+      "series": "cards",
+      "value": 7.66424090371897
+    },
+    {
+      "date": "2025-10-01",
+      "series": "commerce",
+      "value": 2.4632977823191715
+    },
+    {
+      "date": "2025-10-01",
+      "series": "companies",
+      "value": 1.9464178114352582
+    },
+    {
+      "date": "2025-10-01",
+      "series": "construction",
+      "value": 5.144741072312053
+    },
+    {
+      "date": "2025-10-01",
+      "series": "households",
+      "value": 7.756522822492248
+    },
+    {
+      "date": "2025-10-01",
+      "series": "industry",
+      "value": 2.396382558546635
+    },
+    {
+      "date": "2025-10-01",
+      "series": "mortgage",
+      "value": 0.973501243950289
+    },
+    {
+      "date": "2025-10-01",
+      "series": "personal",
+      "value": 9.924790500046903
+    },
+    {
+      "date": "2025-10-01",
+      "series": "pledged",
+      "value": 4.775294873863971
+    },
+    {
+      "date": "2025-10-01",
+      "series": "primary",
+      "value": 1.1329180052353802
+    },
+    {
+      "date": "2025-10-01",
+      "series": "services",
+      "value": 1.4115098189367428
+    },
+    {
+      "date": "2025-11-01",
+      "series": "cards",
+      "value": 9.147171482773746
+    },
+    {
+      "date": "2025-11-01",
+      "series": "commerce",
+      "value": 2.9415724758410944
+    },
+    {
+      "date": "2025-11-01",
+      "series": "companies",
+      "value": 2.285213810014734
+    },
+    {
+      "date": "2025-11-01",
+      "series": "construction",
+      "value": 5.599243284158054
+    },
+    {
+      "date": "2025-11-01",
+      "series": "households",
+      "value": 8.822416332564705
+    },
+    {
+      "date": "2025-11-01",
+      "series": "industry",
+      "value": 2.6745631793041866
+    },
+    {
+      "date": "2025-11-01",
+      "series": "mortgage",
+      "value": 1.126621106754454
+    },
+    {
+      "date": "2025-11-01",
+      "series": "personal",
+      "value": 11.038757718365035
+    },
+    {
+      "date": "2025-11-01",
+      "series": "pledged",
+      "value": 5.205631604820991
+    },
+    {
+      "date": "2025-11-01",
+      "series": "primary",
+      "value": 1.3989616827958804
+    },
+    {
+      "date": "2025-11-01",
+      "series": "services",
+      "value": 1.724423276889443
+    },
+    {
+      "date": "2025-12-01",
+      "series": "cards",
+      "value": 9.317060204284271
+    },
+    {
+      "date": "2025-12-01",
+      "series": "commerce",
+      "value": 3.287559708649073
+    },
+    {
+      "date": "2025-12-01",
+      "series": "companies",
+      "value": 2.532010591821574
+    },
+    {
+      "date": "2025-12-01",
+      "series": "construction",
+      "value": 4.617675192520353
+    },
+    {
+      "date": "2025-12-01",
+      "series": "households",
+      "value": 9.333065842263721
+    },
+    {
+      "date": "2025-12-01",
+      "series": "industry",
+      "value": 2.8218614493046954
+    },
+    {
+      "date": "2025-12-01",
+      "series": "mortgage",
+      "value": 1.1843756996677361
+    },
+    {
+      "date": "2025-12-01",
+      "series": "personal",
+      "value": 11.949028107939592
+    },
+    {
+      "date": "2025-12-01",
+      "series": "pledged",
+      "value": 5.792797303741269
+    },
+    {
+      "date": "2025-12-01",
+      "series": "primary",
+      "value": 1.8720954571268131
+    },
+    {
+      "date": "2025-12-01",
+      "series": "services",
+      "value": 1.797371301108357
+    },
+    {
+      "date": "2026-01-01",
+      "series": "cards",
+      "value": 10.992362829178614
+    },
+    {
+      "date": "2026-01-01",
+      "series": "commerce",
+      "value": 3.9486312252297844
+    },
+    {
+      "date": "2026-01-01",
+      "series": "companies",
+      "value": 2.845074387628813
+    },
+    {
+      "date": "2026-01-01",
+      "series": "construction",
+      "value": 5.330238421519193
+    },
+    {
+      "date": "2026-01-01",
+      "series": "households",
+      "value": 10.606166918361486
+    },
+    {
+      "date": "2026-01-01",
+      "series": "industry",
+      "value": 2.9889648666821986
+    },
+    {
+      "date": "2026-01-01",
+      "series": "mortgage",
+      "value": 1.32521674094631
+    },
+    {
+      "date": "2026-01-01",
+      "series": "personal",
+      "value": 13.22068095646893
+    },
+    {
+      "date": "2026-01-01",
+      "series": "pledged",
+      "value": 6.26339872128623
+    },
+    {
+      "date": "2026-01-01",
+      "series": "primary",
+      "value": 2.0498112442988563
+    },
+    {
+      "date": "2026-01-01",
+      "series": "services",
+      "value": 2.0834001778233198
+    },
+    {
+      "date": "2026-02-01",
+      "series": "cards",
+      "value": 11.645549243138948
+    },
+    {
+      "date": "2026-02-01",
+      "series": "commerce",
+      "value": 4.323470412251913
+    },
+    {
+      "date": "2026-02-01",
+      "series": "companies",
+      "value": 2.9186026970585743
+    },
+    {
+      "date": "2026-02-01",
+      "series": "construction",
+      "value": 5.704989139335338
+    },
+    {
+      "date": "2026-02-01",
+      "series": "households",
+      "value": 11.22059965886106
+    },
+    {
+      "date": "2026-02-01",
+      "series": "industry",
+      "value": 2.7094980459589917
+    },
+    {
+      "date": "2026-02-01",
+      "series": "mortgage",
+      "value": 1.3861031646317186
+    },
+    {
+      "date": "2026-02-01",
+      "series": "personal",
+      "value": 13.762077667854289
+    },
+    {
+      "date": "2026-02-01",
+      "series": "pledged",
+      "value": 6.808398559273178
+    },
+    {
+      "date": "2026-02-01",
+      "series": "primary",
+      "value": 2.1485063261709603
+    },
+    {
+      "date": "2026-02-01",
+      "series": "services",
+      "value": 2.2426502153601353
+    },
+    {
+      "date": "2026-03-01",
+      "series": "cards",
+      "value": 11.810015387756259
+    },
+    {
+      "date": "2026-03-01",
+      "series": "commerce",
+      "value": 4.717771482083495
+    },
+    {
+      "date": "2026-03-01",
+      "series": "companies",
+      "value": 3.181881227454829
+    },
+    {
+      "date": "2026-03-01",
+      "series": "construction",
+      "value": 6.00498232689044
+    },
+    {
+      "date": "2026-03-01",
+      "series": "households",
+      "value": 11.633960256022041
+    },
+    {
+      "date": "2026-03-01",
+      "series": "industry",
+      "value": 2.940595419667936
+    },
+    {
+      "date": "2026-03-01",
+      "series": "mortgage",
+      "value": 1.3844864435827633
+    },
+    {
+      "date": "2026-03-01",
+      "series": "personal",
+      "value": 14.392178512034873
+    },
+    {
+      "date": "2026-03-01",
+      "series": "pledged",
+      "value": 7.008273780861386
+    },
+    {
+      "date": "2026-03-01",
+      "series": "primary",
+      "value": 2.3447585033625935
+    },
+    {
+      "date": "2026-03-01",
+      "series": "services",
+      "value": 2.488335445663627
+    },
+    {
+      "date": "2026-04-01",
+      "series": "cards",
+      "value": 12.471718449534043
+    },
+    {
+      "date": "2026-04-01",
+      "series": "commerce",
+      "value": 4.907414168908542
+    },
+    {
+      "date": "2026-04-01",
+      "series": "companies",
+      "value": 3.3449938821198746
+    },
+    {
+      "date": "2026-04-01",
+      "series": "construction",
+      "value": 6.330765155539347
+    },
+    {
+      "date": "2026-04-01",
+      "series": "households",
+      "value": 12.088383176176068
+    },
+    {
+      "date": "2026-04-01",
+      "series": "industry",
+      "value": 2.992628940291698
+    },
+    {
+      "date": "2026-04-01",
+      "series": "mortgage",
+      "value": 1.4762647030975848
+    },
+    {
+      "date": "2026-04-01",
+      "series": "personal",
+      "value": 14.854906113498407
+    },
+    {
+      "date": "2026-04-01",
+      "series": "pledged",
+      "value": 7.251045550292943
+    },
+    {
+      "date": "2026-04-01",
+      "series": "primary",
+      "value": 2.491327368972716
+    },
+    {
+      "date": "2026-04-01",
+      "series": "services",
+      "value": 2.7325643961535433
+    },
+    {
+      "date": "2026-05-01",
+      "series": "cards",
+      "value": 13.110995091327627
+    },
+    {
+      "date": "2026-05-01",
+      "series": "commerce",
+      "value": 5.130811086366166
+    },
+    {
+      "date": "2026-05-01",
+      "series": "companies",
+      "value": 3.4774446714265426
+    },
+    {
+      "date": "2026-05-01",
+      "series": "construction",
+      "value": 6.674551099227005
+    },
+    {
+      "date": "2026-05-01",
+      "series": "households",
+      "value": 12.79401205524656
+    },
+    {
+      "date": "2026-05-01",
+      "series": "industry",
+      "value": 2.990161283361014
+    },
+    {
+      "date": "2026-05-01",
+      "series": "mortgage",
+      "value": 1.6179134387050405
+    },
+    {
+      "date": "2026-05-01",
+      "series": "personal",
+      "value": 15.947462989854133
+    },
+    {
+      "date": "2026-05-01",
+      "series": "pledged",
+      "value": 7.700340231068525
+    },
+    {
+      "date": "2026-05-01",
+      "series": "primary",
+      "value": 2.62122775278297
+    },
+    {
+      "date": "2026-05-01",
+      "series": "services",
+      "value": 2.9315102086531453
+    },
+    {
+      "date": "2026-06-01",
+      "series": "cards",
+      "value": 12.574287862140801
+    },
+    {
+      "date": "2026-06-01",
+      "series": "commerce",
+      "value": 5.244737423797327
+    },
+    {
+      "date": "2026-06-01",
+      "series": "companies",
+      "value": 3.503837799218148
+    },
+    {
+      "date": "2026-06-01",
+      "series": "construction",
+      "value": 6.846905415776217
+    },
+    {
+      "date": "2026-06-01",
+      "series": "households",
+      "value": 12.767415727075647
+    },
+    {
+      "date": "2026-06-01",
+      "series": "industry",
+      "value": 3.052097858629591
+    },
+    {
+      "date": "2026-06-01",
+      "series": "mortgage",
+      "value": 1.6242576852994528
+    },
+    {
+      "date": "2026-06-01",
+      "series": "personal",
+      "value": 16.35937031962188
+    },
+    {
+      "date": "2026-06-01",
+      "series": "pledged",
+      "value": 7.946984221624685
+    },
+    {
+      "date": "2026-06-01",
+      "series": "primary",
+      "value": 2.580167885394793
+    },
+    {
+      "date": "2026-06-01",
+      "series": "services",
+      "value": 2.922428492841961
+    },
+    {
+      "date": "2026-07-01",
+      "series": "cards",
+      "value": 12.768578881154108
+    },
+    {
+      "date": "2026-07-01",
+      "series": "commerce",
+      "value": 5.467229517958489
+    },
+    {
+      "date": "2026-07-01",
+      "series": "companies",
+      "value": 3.6203189458724796
+    },
+    {
+      "date": "2026-07-01",
+      "series": "construction",
+      "value": 6.978102679706749
+    },
+    {
+      "date": "2026-07-01",
+      "series": "households",
+      "value": 12.944319742686963
+    },
+    {
+      "date": "2026-07-01",
+      "series": "industry",
+      "value": 2.9694927019460837
+    },
+    {
+      "date": "2026-07-01",
+      "series": "mortgage",
+      "value": 1.612664481302747
+    },
+    {
+      "date": "2026-07-01",
+      "series": "personal",
+      "value": 16.70837138455573
+    },
+    {
+      "date": "2026-07-01",
+      "series": "pledged",
+      "value": 8.095572885128185
+    },
+    {
+      "date": "2026-07-01",
+      "series": "primary",
+      "value": 2.75290321176635
+    },
+    {
+      "date": "2026-07-01",
+      "series": "services",
+      "value": 3.141648400191931
+    },
+    {
+      "date": "2026-08-01",
+      "series": "cards",
+      "value": 12.21553308600798
+    },
+    {
+      "date": "2026-08-01",
+      "series": "commerce",
+      "value": 5.774864606539003
+    },
+    {
+      "date": "2026-08-01",
+      "series": "companies",
+      "value": 3.803240082131053
+    },
+    {
+      "date": "2026-08-01",
+      "series": "construction",
+      "value": 7.336939706604398
+    },
+    {
+      "date": "2026-08-01",
+      "series": "households",
+      "value": 12.814578878881406
+    },
+    {
+      "date": "2026-08-01",
+      "series": "industry",
+      "value": 3.0871461494258403
+    },
+    {
+      "date": "2026-08-01",
+      "series": "mortgage",
+      "value": 1.649575863896035
+    },
+    {
+      "date": "2026-08-01",
+      "series": "personal",
+      "value": 17.041797880428426
+    },
+    {
+      "date": "2026-08-01",
+      "series": "pledged",
+      "value": 8.174507765973702
+    },
+    {
+      "date": "2026-08-01",
+      "series": "primary",
+      "value": 2.947674813974037
+    },
+    {
+      "date": "2026-08-01",
+      "series": "services",
+      "value": 3.246858141667972
+    }
+  ],
+  "valueKind": "percentage",
+  "supportingSources": [
+    {
+      "label": "Publicación BCRA",
+      "url": "https://www.bcra.gob.ar/publicaciones/informe-sobre-bancos-agosto-de-2026/"
+    }
+  ],
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-08-01",
+  "firstObservedPeriod": "2025-08-01",
+  "lastObservedBySeries": {
+    "personal": "2026-08-01",
+    "mortgage": "2026-08-01",
+    "pledged": "2026-08-01",
+    "cards": "2026-08-01",
+    "households": "2026-08-01",
+    "commerce": "2026-08-01",
+    "construction": "2026-08-01",
+    "industry": "2026-08-01",
+    "primary": "2026-08-01",
+    "services": "2026-08-01",
+    "companies": "2026-08-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:47:37Z",
+  "lastAttemptAt": "2026-11-13T12:47:37Z",
+  "sourcePublishedAt": "2026-10-16",
+  "isAutoUpdated": true,
+  "contentHash": "185b7b6241c7f83edb8126b11902e6b25d2dae124a761ba56208104cb3c0aaee",
+  "rawSha256": "35c7319153efae0aefe9e7d5aad04e50771bd901f1faf94c01f95ece433d1adb",
+  "dataChangedAt": "2026-11-13T03:19:34Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

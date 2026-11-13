@@ -1,0 +1,560 @@
+{
+  "id": "credit-prices-wages",
+  "source": "INDEC · Índice de salarios e IPC",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/sociedad/indice_salarios.csv",
+  "frequency": "monthly",
+  "unit": "índice nominal, noviembre de 2023=100",
+  "series": [
+    {
+      "id": "ipc",
+      "label": "IPC nacional · nivel general"
+    },
+    {
+      "id": "housing",
+      "label": "Vivienda, agua, electricidad, gas y otros combustibles"
+    },
+    {
+      "id": "registered",
+      "label": "Salario privado registrado"
+    }
+  ],
+  "methodNote": "IPC general, división 4 de vivienda y servicios, e índice salarial privado registrado, cada uno rebasado a noviembre de 2023=100. Comparación al último mes común; no se mezcla un IPC más reciente con salarios rezagados.",
+  "observations": [
+    {
+      "date": "2023-11-01",
+      "series": "housing",
+      "value": 100.0
+    },
+    {
+      "date": "2023-11-01",
+      "series": "ipc",
+      "value": 100.0
+    },
+    {
+      "date": "2023-11-01",
+      "series": "registered",
+      "value": 100.0
+    },
+    {
+      "date": "2023-12-01",
+      "series": "housing",
+      "value": 113.81655930594773
+    },
+    {
+      "date": "2023-12-01",
+      "series": "ipc",
+      "value": 125.46567498423684
+    },
+    {
+      "date": "2023-12-01",
+      "series": "registered",
+      "value": 111.03812537989141
+    },
+    {
+      "date": "2024-01-01",
+      "series": "housing",
+      "value": 129.7600564985562
+    },
+    {
+      "date": "2024-01-01",
+      "series": "ipc",
+      "value": 151.3294518858031
+    },
+    {
+      "date": "2024-01-01",
+      "series": "registered",
+      "value": 133.23049192010228
+    },
+    {
+      "date": "2024-02-01",
+      "series": "housing",
+      "value": 155.99743970989758
+    },
+    {
+      "date": "2024-02-01",
+      "series": "ipc",
+      "value": 171.36649438357693
+    },
+    {
+      "date": "2024-02-01",
+      "series": "registered",
+      "value": 151.9741778625474
+    },
+    {
+      "date": "2024-03-01",
+      "series": "housing",
+      "value": 176.67302045149955
+    },
+    {
+      "date": "2024-03-01",
+      "series": "ipc",
+      "value": 190.2334315839831
+    },
+    {
+      "date": "2024-03-01",
+      "series": "registered",
+      "value": 167.15180985516963
+    },
+    {
+      "date": "2024-04-01",
+      "series": "housing",
+      "value": 239.62811493991447
+    },
+    {
+      "date": "2024-04-01",
+      "series": "ipc",
+      "value": 207.0346939706032
+    },
+    {
+      "date": "2024-04-01",
+      "series": "registered",
+      "value": 187.15180985516966
+    },
+    {
+      "date": "2024-05-01",
+      "series": "housing",
+      "value": 245.68555513870095
+    },
+    {
+      "date": "2024-05-01",
+      "series": "ipc",
+      "value": 215.68116307633477
+    },
+    {
+      "date": "2024-05-01",
+      "series": "registered",
+      "value": 201.5191465280543
+    },
+    {
+      "date": "2024-06-01",
+      "series": "housing",
+      "value": 280.7506358213175
+    },
+    {
+      "date": "2024-06-01",
+      "series": "ipc",
+      "value": 225.5530309906441
+    },
+    {
+      "date": "2024-06-01",
+      "series": "registered",
+      "value": 215.0045062983379
+    },
+    {
+      "date": "2024-07-01",
+      "series": "housing",
+      "value": 297.61108672570884
+    },
+    {
+      "date": "2024-07-01",
+      "series": "ipc",
+      "value": 234.64490919733748
+    },
+    {
+      "date": "2024-07-01",
+      "series": "registered",
+      "value": 228.4915428307937
+    },
+    {
+      "date": "2024-08-01",
+      "series": "housing",
+      "value": 318.59005493623715
+    },
+    {
+      "date": "2024-08-01",
+      "series": "ipc",
+      "value": 244.43492524385465
+    },
+    {
+      "date": "2024-08-01",
+      "series": "registered",
+      "value": 240.00251514325836
+    },
+    {
+      "date": "2024-09-01",
+      "series": "housing",
+      "value": 341.8695112917402
+    },
+    {
+      "date": "2024-09-01",
+      "series": "ipc",
+      "value": 252.9148852788368
+    },
+    {
+      "date": "2024-09-01",
+      "series": "registered",
+      "value": 249.0423592043763
+    },
+    {
+      "date": "2024-10-01",
+      "series": "housing",
+      "value": 360.3116773247997
+    },
+    {
+      "date": "2024-10-01",
+      "series": "ipc",
+      "value": 259.72268800255443
+    },
+    {
+      "date": "2024-10-01",
+      "series": "registered",
+      "value": 258.88243801219846
+    },
+    {
+      "date": "2024-11-01",
+      "series": "housing",
+      "value": 376.3929349171918
+    },
+    {
+      "date": "2024-11-01",
+      "series": "ipc",
+      "value": 266.02499773797655
+    },
+    {
+      "date": "2024-11-01",
+      "series": "registered",
+      "value": 267.3735616524491
+    },
+    {
+      "date": "2024-12-01",
+      "series": "housing",
+      "value": 396.27774311862254
+    },
+    {
+      "date": "2024-12-01",
+      "series": "ipc",
+      "value": 273.21860506804035
+    },
+    {
+      "date": "2024-12-01",
+      "series": "registered",
+      "value": 274.841021986544
+    },
+    {
+      "date": "2025-01-01",
+      "series": "housing",
+      "value": 412.25112099044645
+    },
+    {
+      "date": "2025-01-01",
+      "series": "ipc",
+      "value": 279.259599608361
+    },
+    {
+      "date": "2025-01-01",
+      "series": "registered",
+      "value": 281.16367294753826
+    },
+    {
+      "date": "2025-02-01",
+      "series": "housing",
+      "value": 427.70677079292466
+    },
+    {
+      "date": "2025-02-01",
+      "series": "ipc",
+      "value": 285.966374755563
+    },
+    {
+      "date": "2025-02-01",
+      "series": "registered",
+      "value": 287.65400012575714
+    },
+    {
+      "date": "2025-03-01",
+      "series": "housing",
+      "value": 439.97497101207455
+    },
+    {
+      "date": "2025-03-01",
+      "series": "ipc",
+      "value": 296.631019734361
+    },
+    {
+      "date": "2025-03-01",
+      "series": "registered",
+      "value": 293.8752069753306
+    },
+    {
+      "date": "2025-04-01",
+      "series": "housing",
+      "value": 448.24224765625587
+    },
+    {
+      "date": "2025-04-01",
+      "series": "ipc",
+      "value": 304.8798414580811
+    },
+    {
+      "date": "2025-04-01",
+      "series": "registered",
+      "value": 301.312066399782
+    },
+    {
+      "date": "2025-05-01",
+      "series": "housing",
+      "value": 459.21292601091073
+    },
+    {
+      "date": "2025-05-01",
+      "series": "ipc",
+      "value": 309.4564190826994
+    },
+    {
+      "date": "2025-05-01",
+      "series": "registered",
+      "value": 307.26624887342535
+    },
+    {
+      "date": "2025-06-01",
+      "series": "housing",
+      "value": 475.019587441506
+    },
+    {
+      "date": "2025-06-01",
+      "series": "ipc",
+      "value": 314.46628605015485
+    },
+    {
+      "date": "2025-06-01",
+      "series": "registered",
+      "value": 312.5912263419337
+    },
+    {
+      "date": "2025-07-01",
+      "series": "housing",
+      "value": 482.07621565953775
+    },
+    {
+      "date": "2025-07-01",
+      "series": "ipc",
+      "value": 320.4464403279643
+    },
+    {
+      "date": "2025-07-01",
+      "series": "registered",
+      "value": 319.3816939489845
+    },
+    {
+      "date": "2025-08-01",
+      "series": "housing",
+      "value": 494.9619251170942
+    },
+    {
+      "date": "2025-08-01",
+      "series": "ipc",
+      "value": 326.4573538629891
+    },
+    {
+      "date": "2025-08-01",
+      "series": "registered",
+      "value": 326.54691790153214
+    },
+    {
+      "date": "2025-09-01",
+      "series": "housing",
+      "value": 510.4455691251758
+    },
+    {
+      "date": "2025-09-01",
+      "series": "ipc",
+      "value": 333.23447900380626
+    },
+    {
+      "date": "2025-09-01",
+      "series": "registered",
+      "value": 331.03057995011625
+    },
+    {
+      "date": "2025-10-01",
+      "series": "housing",
+      "value": 524.7536796863459
+    },
+    {
+      "date": "2025-10-01",
+      "series": "ipc",
+      "value": 341.0386408996277
+    },
+    {
+      "date": "2025-10-01",
+      "series": "registered",
+      "value": 337.9141078577267
+    },
+    {
+      "date": "2025-11-01",
+      "series": "housing",
+      "value": 542.7589331168051
+    },
+    {
+      "date": "2025-11-01",
+      "series": "ipc",
+      "value": 349.4722525364136
+    },
+    {
+      "date": "2025-11-01",
+      "series": "registered",
+      "value": 345.1061600050303
+    },
+    {
+      "date": "2025-12-01",
+      "series": "housing",
+      "value": 561.2531817635924
+    },
+    {
+      "date": "2025-12-01",
+      "series": "ipc",
+      "value": 359.4156884569477
+    },
+    {
+      "date": "2025-12-01",
+      "series": "registered",
+      "value": 353.8387373980843
+    },
+    {
+      "date": "2026-01-01",
+      "series": "housing",
+      "value": 578.1496032028601
+    },
+    {
+      "date": "2026-01-01",
+      "series": "ipc",
+      "value": 369.7726804956196
+    },
+    {
+      "date": "2026-01-01",
+      "series": "registered",
+      "value": 361.3833287921024
+    },
+    {
+      "date": "2026-02-01",
+      "series": "housing",
+      "value": 617.1789886163274
+    },
+    {
+      "date": "2026-02-01",
+      "series": "ipc",
+      "value": 380.4824771663473
+    },
+    {
+      "date": "2026-02-01",
+      "series": "registered",
+      "value": 367.0122194043302
+    },
+    {
+      "date": "2026-03-01",
+      "series": "housing",
+      "value": 640.0844927617868
+    },
+    {
+      "date": "2026-03-01",
+      "series": "ipc",
+      "value": 393.3527618773274
+    },
+    {
+      "date": "2026-03-01",
+      "series": "registered",
+      "value": 374.5668713713818
+    },
+    {
+      "date": "2026-04-01",
+      "series": "housing",
+      "value": 662.6940649945957
+    },
+    {
+      "date": "2026-04-01",
+      "series": "ipc",
+      "value": 403.5098364993848
+    },
+    {
+      "date": "2026-04-01",
+      "series": "registered",
+      "value": 389.55083733310977
+    },
+    {
+      "date": "2026-05-01",
+      "series": "housing",
+      "value": 679.6660250885049
+    },
+    {
+      "date": "2026-05-01",
+      "series": "ipc",
+      "value": 412.18518635308845
+    },
+    {
+      "date": "2026-05-01",
+      "series": "registered",
+      "value": 397.34400871916324
+    },
+    {
+      "date": "2026-06-01",
+      "series": "housing",
+      "value": 702.1481195312193
+    },
+    {
+      "date": "2026-06-01",
+      "series": "ipc",
+      "value": 419.96259103312605
+    },
+    {
+      "date": "2026-06-01",
+      "series": "registered",
+      "value": 405.03531680325284
+    },
+    {
+      "date": "2026-07-01",
+      "series": "housing",
+      "value": 717.676459678885
+    },
+    {
+      "date": "2026-07-01",
+      "series": "ipc",
+      "value": 428.83964448520106
+    },
+    {
+      "date": "2026-07-01",
+      "series": "registered",
+      "value": 414.1548070675525
+    },
+    {
+      "date": "2026-08-01",
+      "series": "housing",
+      "value": 737.8764737078718
+    },
+    {
+      "date": "2026-08-01",
+      "series": "ipc",
+      "value": 435.9549794131011
+    },
+    {
+      "date": "2026-08-01",
+      "series": "registered",
+      "value": 425.88292008132294
+    }
+  ],
+  "valueKind": "level",
+  "supportingSources": [
+    {
+      "label": "INDEC · IPC nacional",
+      "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv"
+    }
+  ],
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-08-01",
+  "firstObservedPeriod": "2023-11-01",
+  "lastObservedBySeries": {
+    "ipc": "2026-08-01",
+    "housing": "2026-08-01",
+    "registered": "2026-08-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:47:37Z",
+  "lastAttemptAt": "2026-11-13T12:47:37Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "98eb519589398a9e4c61f76c45528d21ab7376bffb6c429bf225c1376d1beabe",
+  "rawSha256": "6ecae932de005d19c83717239ab52ce4e37b16d434aefc6f8985bead5b071825",
+  "dataChangedAt": "2026-11-13T03:23:12Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

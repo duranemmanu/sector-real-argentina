@@ -1,0 +1,1979 @@
+{
+  "id": "tourism-flows",
+  "source": "Secretaría de Turismo · SINTA / Dirección de Mercados y Estadísticas",
+  "sourceUrl": "https://tableros.yvera.tur.ar/turismo_internacional/",
+  "frequency": "monthly",
+  "unit": "viajes estimados de turistas",
+  "series": [
+    {
+      "id": "inbound",
+      "label": "Receptivo · viajes de turistas no residentes"
+    },
+    {
+      "id": "outbound",
+      "label": "Emisivo · viajes de turistas residentes"
+    },
+    {
+      "id": "balance",
+      "label": "Saldo de viajes: receptivo − emisivo"
+    }
+  ],
+  "methodNote": "Total país, todas las vías; exclusivamente turistas, excluye excursionistas. Se contabilizan viajes finalizados, no personas únicas. Cambios terminológicos desde septiembre 2022: viajes de turistas. Receptivo menos emisivo = saldo de viajes, no saldo monetario. Descarga automática de CSV públicos del tablero oficial mediante navegador en Actions, con respaldo durable.",
+  "observations": [
+    {
+      "date": "2016-01-01",
+      "series": "balance",
+      "value": -740593.9595238628
+    },
+    {
+      "date": "2016-01-01",
+      "series": "inbound",
+      "value": 799964.5447606064
+    },
+    {
+      "date": "2016-01-01",
+      "series": "outbound",
+      "value": 1540558.5042844692
+    },
+    {
+      "date": "2016-02-01",
+      "series": "balance",
+      "value": -764794.3587079268
+    },
+    {
+      "date": "2016-02-01",
+      "series": "inbound",
+      "value": 736025.660871978
+    },
+    {
+      "date": "2016-02-01",
+      "series": "outbound",
+      "value": 1500820.0195799049
+    },
+    {
+      "date": "2016-03-01",
+      "series": "balance",
+      "value": -353288.0455508805
+    },
+    {
+      "date": "2016-03-01",
+      "series": "inbound",
+      "value": 607215.948190052
+    },
+    {
+      "date": "2016-03-01",
+      "series": "outbound",
+      "value": 960503.9937409324
+    },
+    {
+      "date": "2016-04-01",
+      "series": "balance",
+      "value": -180916.79134210094
+    },
+    {
+      "date": "2016-04-01",
+      "series": "inbound",
+      "value": 445626.7475383411
+    },
+    {
+      "date": "2016-04-01",
+      "series": "outbound",
+      "value": 626543.538880442
+    },
+    {
+      "date": "2016-05-01",
+      "series": "balance",
+      "value": -190863.0242246429
+    },
+    {
+      "date": "2016-05-01",
+      "series": "inbound",
+      "value": 414083.3039141955
+    },
+    {
+      "date": "2016-05-01",
+      "series": "outbound",
+      "value": 604946.3281388384
+    },
+    {
+      "date": "2016-06-01",
+      "series": "balance",
+      "value": -218763.78086837532
+    },
+    {
+      "date": "2016-06-01",
+      "series": "inbound",
+      "value": 374016.9062349538
+    },
+    {
+      "date": "2016-06-01",
+      "series": "outbound",
+      "value": 592780.6871033291
+    },
+    {
+      "date": "2016-07-01",
+      "series": "balance",
+      "value": -305651.33358240034
+    },
+    {
+      "date": "2016-07-01",
+      "series": "inbound",
+      "value": 542619.8065627463
+    },
+    {
+      "date": "2016-07-01",
+      "series": "outbound",
+      "value": 848271.1401451466
+    },
+    {
+      "date": "2016-08-01",
+      "series": "balance",
+      "value": -215632.36710849573
+    },
+    {
+      "date": "2016-08-01",
+      "series": "inbound",
+      "value": 463286.65241568425
+    },
+    {
+      "date": "2016-08-01",
+      "series": "outbound",
+      "value": 678919.01952418
+    },
+    {
+      "date": "2016-09-01",
+      "series": "balance",
+      "value": -199419.8386263922
+    },
+    {
+      "date": "2016-09-01",
+      "series": "inbound",
+      "value": 475518.1910533563
+    },
+    {
+      "date": "2016-09-01",
+      "series": "outbound",
+      "value": 674938.0296797485
+    },
+    {
+      "date": "2016-10-01",
+      "series": "balance",
+      "value": -283471.4298390517
+    },
+    {
+      "date": "2016-10-01",
+      "series": "inbound",
+      "value": 526795.095192149
+    },
+    {
+      "date": "2016-10-01",
+      "series": "outbound",
+      "value": 810266.5250312007
+    },
+    {
+      "date": "2016-11-01",
+      "series": "balance",
+      "value": -167179.93152693752
+    },
+    {
+      "date": "2016-11-01",
+      "series": "inbound",
+      "value": 554279.9836236599
+    },
+    {
+      "date": "2016-11-01",
+      "series": "outbound",
+      "value": 721459.9151505975
+    },
+    {
+      "date": "2016-12-01",
+      "series": "balance",
+      "value": -128066.78478262259
+    },
+    {
+      "date": "2016-12-01",
+      "series": "inbound",
+      "value": 728856.1518610575
+    },
+    {
+      "date": "2016-12-01",
+      "series": "outbound",
+      "value": 856922.9366436801
+    },
+    {
+      "date": "2017-01-01",
+      "series": "balance",
+      "value": -1129553.4495547158
+    },
+    {
+      "date": "2017-01-01",
+      "series": "inbound",
+      "value": 777231.7193761946
+    },
+    {
+      "date": "2017-01-01",
+      "series": "outbound",
+      "value": 1906785.1689309103
+    },
+    {
+      "date": "2017-02-01",
+      "series": "balance",
+      "value": -1049676.8259931542
+    },
+    {
+      "date": "2017-02-01",
+      "series": "inbound",
+      "value": 688986.4222789457
+    },
+    {
+      "date": "2017-02-01",
+      "series": "outbound",
+      "value": 1738663.2482721
+    },
+    {
+      "date": "2017-03-01",
+      "series": "balance",
+      "value": -574015.8966199255
+    },
+    {
+      "date": "2017-03-01",
+      "series": "inbound",
+      "value": 550116.2318914791
+    },
+    {
+      "date": "2017-03-01",
+      "series": "outbound",
+      "value": 1124132.1285114046
+    },
+    {
+      "date": "2017-04-01",
+      "series": "balance",
+      "value": -374639.428448658
+    },
+    {
+      "date": "2017-04-01",
+      "series": "inbound",
+      "value": 521963.8460915144
+    },
+    {
+      "date": "2017-04-01",
+      "series": "outbound",
+      "value": 896603.2745401724
+    },
+    {
+      "date": "2017-05-01",
+      "series": "balance",
+      "value": -339156.3453944366
+    },
+    {
+      "date": "2017-05-01",
+      "series": "inbound",
+      "value": 417023.2462560887
+    },
+    {
+      "date": "2017-05-01",
+      "series": "outbound",
+      "value": 756179.5916505253
+    },
+    {
+      "date": "2017-06-01",
+      "series": "balance",
+      "value": -264050.63845075015
+    },
+    {
+      "date": "2017-06-01",
+      "series": "inbound",
+      "value": 378940.2557416053
+    },
+    {
+      "date": "2017-06-01",
+      "series": "outbound",
+      "value": 642990.8941923555
+    },
+    {
+      "date": "2017-07-01",
+      "series": "balance",
+      "value": -455861.43777089624
+    },
+    {
+      "date": "2017-07-01",
+      "series": "inbound",
+      "value": 548416.7886847636
+    },
+    {
+      "date": "2017-07-01",
+      "series": "outbound",
+      "value": 1004278.2264556598
+    },
+    {
+      "date": "2017-08-01",
+      "series": "balance",
+      "value": -325533.9950610627
+    },
+    {
+      "date": "2017-08-01",
+      "series": "inbound",
+      "value": 461301.9224522352
+    },
+    {
+      "date": "2017-08-01",
+      "series": "outbound",
+      "value": 786835.9175132979
+    },
+    {
+      "date": "2017-09-01",
+      "series": "balance",
+      "value": -281553.0789371341
+    },
+    {
+      "date": "2017-09-01",
+      "series": "inbound",
+      "value": 494490.1792846379
+    },
+    {
+      "date": "2017-09-01",
+      "series": "outbound",
+      "value": 776043.258221772
+    },
+    {
+      "date": "2017-10-01",
+      "series": "balance",
+      "value": -331583.37331947545
+    },
+    {
+      "date": "2017-10-01",
+      "series": "inbound",
+      "value": 543514.5384306408
+    },
+    {
+      "date": "2017-10-01",
+      "series": "outbound",
+      "value": 875097.9117501163
+    },
+    {
+      "date": "2017-11-01",
+      "series": "balance",
+      "value": -251748.74985528167
+    },
+    {
+      "date": "2017-11-01",
+      "series": "inbound",
+      "value": 560976.8291861444
+    },
+    {
+      "date": "2017-11-01",
+      "series": "outbound",
+      "value": 812725.5790414261
+    },
+    {
+      "date": "2017-12-01",
+      "series": "balance",
+      "value": -124316.10009923996
+    },
+    {
+      "date": "2017-12-01",
+      "series": "inbound",
+      "value": 768366.2674887482
+    },
+    {
+      "date": "2017-12-01",
+      "series": "outbound",
+      "value": 892682.3675879881
+    },
+    {
+      "date": "2018-01-01",
+      "series": "balance",
+      "value": -1173520.6295231744
+    },
+    {
+      "date": "2018-01-01",
+      "series": "inbound",
+      "value": 809241.0150735016
+    },
+    {
+      "date": "2018-01-01",
+      "series": "outbound",
+      "value": 1982761.644596676
+    },
+    {
+      "date": "2018-02-01",
+      "series": "balance",
+      "value": -1124499.3313482464
+    },
+    {
+      "date": "2018-02-01",
+      "series": "inbound",
+      "value": 696254.9421048705
+    },
+    {
+      "date": "2018-02-01",
+      "series": "outbound",
+      "value": 1820754.2734531169
+    },
+    {
+      "date": "2018-03-01",
+      "series": "balance",
+      "value": -486366.4907896714
+    },
+    {
+      "date": "2018-03-01",
+      "series": "inbound",
+      "value": 595510.7369605601
+    },
+    {
+      "date": "2018-03-01",
+      "series": "outbound",
+      "value": 1081877.2277502315
+    },
+    {
+      "date": "2018-04-01",
+      "series": "balance",
+      "value": -529078.1245690893
+    },
+    {
+      "date": "2018-04-01",
+      "series": "inbound",
+      "value": 499963.7881582547
+    },
+    {
+      "date": "2018-04-01",
+      "series": "outbound",
+      "value": 1029041.912727344
+    },
+    {
+      "date": "2018-05-01",
+      "series": "balance",
+      "value": -330643.44952423515
+    },
+    {
+      "date": "2018-05-01",
+      "series": "inbound",
+      "value": 435746.2321677581
+    },
+    {
+      "date": "2018-05-01",
+      "series": "outbound",
+      "value": 766389.6816919933
+    },
+    {
+      "date": "2018-06-01",
+      "series": "balance",
+      "value": -198820.71744902013
+    },
+    {
+      "date": "2018-06-01",
+      "series": "inbound",
+      "value": 369324.7868862167
+    },
+    {
+      "date": "2018-06-01",
+      "series": "outbound",
+      "value": 568145.5043352369
+    },
+    {
+      "date": "2018-07-01",
+      "series": "balance",
+      "value": -266838.65979313
+    },
+    {
+      "date": "2018-07-01",
+      "series": "inbound",
+      "value": 553595.2314735709
+    },
+    {
+      "date": "2018-07-01",
+      "series": "outbound",
+      "value": 820433.8912667009
+    },
+    {
+      "date": "2018-08-01",
+      "series": "balance",
+      "value": -160085.49949916574
+    },
+    {
+      "date": "2018-08-01",
+      "series": "inbound",
+      "value": 471340.79398270097
+    },
+    {
+      "date": "2018-08-01",
+      "series": "outbound",
+      "value": 631426.2934818667
+    },
+    {
+      "date": "2018-09-01",
+      "series": "balance",
+      "value": -38908.995529221604
+    },
+    {
+      "date": "2018-09-01",
+      "series": "inbound",
+      "value": 545997.2394937193
+    },
+    {
+      "date": "2018-09-01",
+      "series": "outbound",
+      "value": 584906.2350229409
+    },
+    {
+      "date": "2018-10-01",
+      "series": "balance",
+      "value": -66856.34834637027
+    },
+    {
+      "date": "2018-10-01",
+      "series": "inbound",
+      "value": 550735.9809170039
+    },
+    {
+      "date": "2018-10-01",
+      "series": "outbound",
+      "value": 617592.3292633742
+    },
+    {
+      "date": "2018-11-01",
+      "series": "balance",
+      "value": 60001.39895981026
+    },
+    {
+      "date": "2018-11-01",
+      "series": "inbound",
+      "value": 625925.1452511642
+    },
+    {
+      "date": "2018-11-01",
+      "series": "outbound",
+      "value": 565923.746291354
+    },
+    {
+      "date": "2018-12-01",
+      "series": "balance",
+      "value": 127261.45711870189
+    },
+    {
+      "date": "2018-12-01",
+      "series": "inbound",
+      "value": 788191.8761561491
+    },
+    {
+      "date": "2018-12-01",
+      "series": "outbound",
+      "value": 660930.4190374472
+    },
+    {
+      "date": "2019-01-01",
+      "series": "balance",
+      "value": -430339.17124911444
+    },
+    {
+      "date": "2019-01-01",
+      "series": "inbound",
+      "value": 880807.085828898
+    },
+    {
+      "date": "2019-01-01",
+      "series": "outbound",
+      "value": 1311146.2570780125
+    },
+    {
+      "date": "2019-02-01",
+      "series": "balance",
+      "value": -469480.93075234105
+    },
+    {
+      "date": "2019-02-01",
+      "series": "inbound",
+      "value": 725388.060821273
+    },
+    {
+      "date": "2019-02-01",
+      "series": "outbound",
+      "value": 1194868.991573614
+    },
+    {
+      "date": "2019-03-01",
+      "series": "balance",
+      "value": -288716.42153134244
+    },
+    {
+      "date": "2019-03-01",
+      "series": "inbound",
+      "value": 640879.6317792868
+    },
+    {
+      "date": "2019-03-01",
+      "series": "outbound",
+      "value": 929596.0533106292
+    },
+    {
+      "date": "2019-04-01",
+      "series": "balance",
+      "value": -125018.9323671601
+    },
+    {
+      "date": "2019-04-01",
+      "series": "inbound",
+      "value": 582121.4201625976
+    },
+    {
+      "date": "2019-04-01",
+      "series": "outbound",
+      "value": 707140.3525297577
+    },
+    {
+      "date": "2019-05-01",
+      "series": "balance",
+      "value": -125379.35489411856
+    },
+    {
+      "date": "2019-05-01",
+      "series": "inbound",
+      "value": 464549.7797499616
+    },
+    {
+      "date": "2019-05-01",
+      "series": "outbound",
+      "value": 589929.1346440802
+    },
+    {
+      "date": "2019-06-01",
+      "series": "balance",
+      "value": -164775.4649198958
+    },
+    {
+      "date": "2019-06-01",
+      "series": "inbound",
+      "value": 431537.7243391143
+    },
+    {
+      "date": "2019-06-01",
+      "series": "outbound",
+      "value": 596313.1892590101
+    },
+    {
+      "date": "2019-07-01",
+      "series": "balance",
+      "value": -132482.67413003312
+    },
+    {
+      "date": "2019-07-01",
+      "series": "inbound",
+      "value": 607787.3668208278
+    },
+    {
+      "date": "2019-07-01",
+      "series": "outbound",
+      "value": 740270.040950861
+    },
+    {
+      "date": "2019-08-01",
+      "series": "balance",
+      "value": -152296.67480263574
+    },
+    {
+      "date": "2019-08-01",
+      "series": "inbound",
+      "value": 500978.3644762156
+    },
+    {
+      "date": "2019-08-01",
+      "series": "outbound",
+      "value": 653275.0392788514
+    },
+    {
+      "date": "2019-09-01",
+      "series": "balance",
+      "value": -18253.77247099555
+    },
+    {
+      "date": "2019-09-01",
+      "series": "inbound",
+      "value": 579266.2759445729
+    },
+    {
+      "date": "2019-09-01",
+      "series": "outbound",
+      "value": 597520.0484155684
+    },
+    {
+      "date": "2019-10-01",
+      "series": "balance",
+      "value": -62931.52949730039
+    },
+    {
+      "date": "2019-10-01",
+      "series": "inbound",
+      "value": 546928.1057086461
+    },
+    {
+      "date": "2019-10-01",
+      "series": "outbound",
+      "value": 609859.6352059465
+    },
+    {
+      "date": "2019-11-01",
+      "series": "balance",
+      "value": 43238.44754267065
+    },
+    {
+      "date": "2019-11-01",
+      "series": "inbound",
+      "value": 620353.7555129576
+    },
+    {
+      "date": "2019-11-01",
+      "series": "outbound",
+      "value": 577115.3079702869
+    },
+    {
+      "date": "2019-12-01",
+      "series": "balance",
+      "value": 211922.30283972807
+    },
+    {
+      "date": "2019-12-01",
+      "series": "inbound",
+      "value": 818452.414036145
+    },
+    {
+      "date": "2019-12-01",
+      "series": "outbound",
+      "value": 606530.1111964169
+    },
+    {
+      "date": "2020-01-01",
+      "series": "balance",
+      "value": -271618.2397863575
+    },
+    {
+      "date": "2020-01-01",
+      "series": "inbound",
+      "value": 895534.2930142494
+    },
+    {
+      "date": "2020-01-01",
+      "series": "outbound",
+      "value": 1167152.532800607
+    },
+    {
+      "date": "2020-02-01",
+      "series": "balance",
+      "value": -385583.1039217502
+    },
+    {
+      "date": "2020-02-01",
+      "series": "inbound",
+      "value": 819979.8834779154
+    },
+    {
+      "date": "2020-02-01",
+      "series": "outbound",
+      "value": 1205562.9873996656
+    },
+    {
+      "date": "2020-03-01",
+      "series": "balance",
+      "value": 387.5684968449059
+    },
+    {
+      "date": "2020-03-01",
+      "series": "inbound",
+      "value": 331479.4198231645
+    },
+    {
+      "date": "2020-03-01",
+      "series": "outbound",
+      "value": 331091.8513263196
+    },
+    {
+      "date": "2020-04-01",
+      "series": "balance",
+      "value": 0.0
+    },
+    {
+      "date": "2020-04-01",
+      "series": "inbound",
+      "value": 0.0
+    },
+    {
+      "date": "2020-04-01",
+      "series": "outbound",
+      "value": 0.0
+    },
+    {
+      "date": "2020-05-01",
+      "series": "balance",
+      "value": 0.0
+    },
+    {
+      "date": "2020-05-01",
+      "series": "inbound",
+      "value": 0.0
+    },
+    {
+      "date": "2020-05-01",
+      "series": "outbound",
+      "value": 0.0
+    },
+    {
+      "date": "2020-06-01",
+      "series": "balance",
+      "value": 0.0
+    },
+    {
+      "date": "2020-06-01",
+      "series": "inbound",
+      "value": 0.0
+    },
+    {
+      "date": "2020-06-01",
+      "series": "outbound",
+      "value": 0.0
+    },
+    {
+      "date": "2020-07-01",
+      "series": "balance",
+      "value": -4150.999999383003
+    },
+    {
+      "date": "2020-07-01",
+      "series": "inbound",
+      "value": 1287.999999682
+    },
+    {
+      "date": "2020-07-01",
+      "series": "outbound",
+      "value": 5438.999999065003
+    },
+    {
+      "date": "2020-08-01",
+      "series": "balance",
+      "value": -2587.000057195998
+    },
+    {
+      "date": "2020-08-01",
+      "series": "inbound",
+      "value": 3374.999943
+    },
+    {
+      "date": "2020-08-01",
+      "series": "outbound",
+      "value": 5962.000000195998
+    },
+    {
+      "date": "2020-09-01",
+      "series": "balance",
+      "value": -6725.038563817978
+    },
+    {
+      "date": "2020-09-01",
+      "series": "inbound",
+      "value": 4316.961433188
+    },
+    {
+      "date": "2020-09-01",
+      "series": "outbound",
+      "value": 11041.999997005978
+    },
+    {
+      "date": "2020-10-01",
+      "series": "balance",
+      "value": -13480.004997
+    },
+    {
+      "date": "2020-10-01",
+      "series": "inbound",
+      "value": 5020.000003
+    },
+    {
+      "date": "2020-10-01",
+      "series": "outbound",
+      "value": 18500.005
+    },
+    {
+      "date": "2020-11-01",
+      "series": "balance",
+      "value": -23802.00048435099
+    },
+    {
+      "date": "2020-11-01",
+      "series": "inbound",
+      "value": 9741.999870799998
+    },
+    {
+      "date": "2020-11-01",
+      "series": "outbound",
+      "value": 33544.00035515099
+    },
+    {
+      "date": "2020-12-01",
+      "series": "balance",
+      "value": -44015.226736256256
+    },
+    {
+      "date": "2020-12-01",
+      "series": "inbound",
+      "value": 18812.99989398799
+    },
+    {
+      "date": "2020-12-01",
+      "series": "outbound",
+      "value": 62828.22663024425
+    },
+    {
+      "date": "2021-01-01",
+      "series": "balance",
+      "value": -41696.110413515504
+    },
+    {
+      "date": "2021-01-01",
+      "series": "inbound",
+      "value": 22794.974950565
+    },
+    {
+      "date": "2021-01-01",
+      "series": "outbound",
+      "value": 64491.08536408051
+    },
+    {
+      "date": "2021-02-01",
+      "series": "balance",
+      "value": -51251.02513192261
+    },
+    {
+      "date": "2021-02-01",
+      "series": "inbound",
+      "value": 12664.957828077995
+    },
+    {
+      "date": "2021-02-01",
+      "series": "outbound",
+      "value": 63915.982960000605
+    },
+    {
+      "date": "2021-03-01",
+      "series": "balance",
+      "value": -45366.94378695004
+    },
+    {
+      "date": "2021-03-01",
+      "series": "inbound",
+      "value": 14281.023243050013
+    },
+    {
+      "date": "2021-03-01",
+      "series": "outbound",
+      "value": 59647.96703000005
+    },
+    {
+      "date": "2021-04-01",
+      "series": "balance",
+      "value": -20347.036842128968
+    },
+    {
+      "date": "2021-04-01",
+      "series": "inbound",
+      "value": 10752.992017871002
+    },
+    {
+      "date": "2021-04-01",
+      "series": "outbound",
+      "value": 31100.02885999997
+    },
+    {
+      "date": "2021-05-01",
+      "series": "balance",
+      "value": -25617.953241688578
+    },
+    {
+      "date": "2021-05-01",
+      "series": "inbound",
+      "value": 7550.997962311004
+    },
+    {
+      "date": "2021-05-01",
+      "series": "outbound",
+      "value": 33168.95120399958
+    },
+    {
+      "date": "2021-06-01",
+      "series": "balance",
+      "value": -35074.02978524299
+    },
+    {
+      "date": "2021-06-01",
+      "series": "inbound",
+      "value": 6123.0117227569945
+    },
+    {
+      "date": "2021-06-01",
+      "series": "outbound",
+      "value": 41197.04150799998
+    },
+    {
+      "date": "2021-07-01",
+      "series": "balance",
+      "value": -24890.970706897613
+    },
+    {
+      "date": "2021-07-01",
+      "series": "inbound",
+      "value": 4847.005693101999
+    },
+    {
+      "date": "2021-07-01",
+      "series": "outbound",
+      "value": 29737.97639999961
+    },
+    {
+      "date": "2021-08-01",
+      "series": "balance",
+      "value": -41752.004955430864
+    },
+    {
+      "date": "2021-08-01",
+      "series": "inbound",
+      "value": 4316.9990145691045
+    },
+    {
+      "date": "2021-08-01",
+      "series": "outbound",
+      "value": 46069.00396999997
+    },
+    {
+      "date": "2021-09-01",
+      "series": "balance",
+      "value": -49444.59410047208
+    },
+    {
+      "date": "2021-09-01",
+      "series": "inbound",
+      "value": 4751.997499592665
+    },
+    {
+      "date": "2021-09-01",
+      "series": "outbound",
+      "value": 54196.59160006475
+    },
+    {
+      "date": "2021-10-01",
+      "series": "balance",
+      "value": -64846.95013092416
+    },
+    {
+      "date": "2021-10-01",
+      "series": "inbound",
+      "value": 20816.998720591004
+    },
+    {
+      "date": "2021-10-01",
+      "series": "outbound",
+      "value": 85663.94885151516
+    },
+    {
+      "date": "2021-11-01",
+      "series": "balance",
+      "value": -75601.1407970657
+    },
+    {
+      "date": "2021-11-01",
+      "series": "inbound",
+      "value": 73530.9977365134
+    },
+    {
+      "date": "2021-11-01",
+      "series": "outbound",
+      "value": 149132.1385335791
+    },
+    {
+      "date": "2021-12-01",
+      "series": "balance",
+      "value": -59371.807241765506
+    },
+    {
+      "date": "2021-12-01",
+      "series": "inbound",
+      "value": 115046.00000390278
+    },
+    {
+      "date": "2021-12-01",
+      "series": "outbound",
+      "value": 174417.8072456683
+    },
+    {
+      "date": "2022-01-01",
+      "series": "balance",
+      "value": -241472.0
+    },
+    {
+      "date": "2022-01-01",
+      "series": "inbound",
+      "value": 176499.0
+    },
+    {
+      "date": "2022-01-01",
+      "series": "outbound",
+      "value": 417971.0
+    },
+    {
+      "date": "2022-02-01",
+      "series": "balance",
+      "value": -317647.0
+    },
+    {
+      "date": "2022-02-01",
+      "series": "inbound",
+      "value": 150584.0
+    },
+    {
+      "date": "2022-02-01",
+      "series": "outbound",
+      "value": 468231.0
+    },
+    {
+      "date": "2022-03-01",
+      "series": "balance",
+      "value": -169984.99999999997
+    },
+    {
+      "date": "2022-03-01",
+      "series": "inbound",
+      "value": 211964.00000000003
+    },
+    {
+      "date": "2022-03-01",
+      "series": "outbound",
+      "value": 381949.0
+    },
+    {
+      "date": "2022-04-01",
+      "series": "balance",
+      "value": -69411.0
+    },
+    {
+      "date": "2022-04-01",
+      "series": "inbound",
+      "value": 302040.0
+    },
+    {
+      "date": "2022-04-01",
+      "series": "outbound",
+      "value": 371451.0
+    },
+    {
+      "date": "2022-05-01",
+      "series": "balance",
+      "value": -86326.0
+    },
+    {
+      "date": "2022-05-01",
+      "series": "inbound",
+      "value": 276318.0
+    },
+    {
+      "date": "2022-05-01",
+      "series": "outbound",
+      "value": 362644.0
+    },
+    {
+      "date": "2022-06-01",
+      "series": "balance",
+      "value": -110881.99999999997
+    },
+    {
+      "date": "2022-06-01",
+      "series": "inbound",
+      "value": 249341.00000000003
+    },
+    {
+      "date": "2022-06-01",
+      "series": "outbound",
+      "value": 360223.0
+    },
+    {
+      "date": "2022-07-01",
+      "series": "balance",
+      "value": -80201.0
+    },
+    {
+      "date": "2022-07-01",
+      "series": "inbound",
+      "value": 388871.0
+    },
+    {
+      "date": "2022-07-01",
+      "series": "outbound",
+      "value": 469072.0
+    },
+    {
+      "date": "2022-08-01",
+      "series": "balance",
+      "value": -68629.0
+    },
+    {
+      "date": "2022-08-01",
+      "series": "inbound",
+      "value": 356199.0
+    },
+    {
+      "date": "2022-08-01",
+      "series": "outbound",
+      "value": 424828.0
+    },
+    {
+      "date": "2022-09-01",
+      "series": "balance",
+      "value": -54966.0
+    },
+    {
+      "date": "2022-09-01",
+      "series": "inbound",
+      "value": 386039.0
+    },
+    {
+      "date": "2022-09-01",
+      "series": "outbound",
+      "value": 441005.0
+    },
+    {
+      "date": "2022-10-01",
+      "series": "balance",
+      "value": -112150.0
+    },
+    {
+      "date": "2022-10-01",
+      "series": "inbound",
+      "value": 424661.0
+    },
+    {
+      "date": "2022-10-01",
+      "series": "outbound",
+      "value": 536811.0
+    },
+    {
+      "date": "2022-11-01",
+      "series": "balance",
+      "value": 32935.000000000175
+    },
+    {
+      "date": "2022-11-01",
+      "series": "inbound",
+      "value": 483243.0
+    },
+    {
+      "date": "2022-11-01",
+      "series": "outbound",
+      "value": 450307.9999999998
+    },
+    {
+      "date": "2022-12-01",
+      "series": "balance",
+      "value": 26166.99999999965
+    },
+    {
+      "date": "2022-12-01",
+      "series": "inbound",
+      "value": 483966.9999999998
+    },
+    {
+      "date": "2022-12-01",
+      "series": "outbound",
+      "value": 457800.0000000002
+    },
+    {
+      "date": "2023-01-01",
+      "series": "balance",
+      "value": -559873.9999999993
+    },
+    {
+      "date": "2023-01-01",
+      "series": "inbound",
+      "value": 728436.0000000002
+    },
+    {
+      "date": "2023-01-01",
+      "series": "outbound",
+      "value": 1288309.9999999995
+    },
+    {
+      "date": "2023-02-01",
+      "series": "balance",
+      "value": -469513.99999999965
+    },
+    {
+      "date": "2023-02-01",
+      "series": "inbound",
+      "value": 682030.9999999999
+    },
+    {
+      "date": "2023-02-01",
+      "series": "outbound",
+      "value": 1151544.9999999995
+    },
+    {
+      "date": "2023-03-01",
+      "series": "balance",
+      "value": -112362.0
+    },
+    {
+      "date": "2023-03-01",
+      "series": "inbound",
+      "value": 565471.0
+    },
+    {
+      "date": "2023-03-01",
+      "series": "outbound",
+      "value": 677833.0
+    },
+    {
+      "date": "2023-04-01",
+      "series": "balance",
+      "value": 87981.00000000035
+    },
+    {
+      "date": "2023-04-01",
+      "series": "inbound",
+      "value": 619742.0000000005
+    },
+    {
+      "date": "2023-04-01",
+      "series": "outbound",
+      "value": 531761.0000000001
+    },
+    {
+      "date": "2023-05-01",
+      "series": "balance",
+      "value": 20109.0
+    },
+    {
+      "date": "2023-05-01",
+      "series": "inbound",
+      "value": 510635.0
+    },
+    {
+      "date": "2023-05-01",
+      "series": "outbound",
+      "value": 490526.0
+    },
+    {
+      "date": "2023-06-01",
+      "series": "balance",
+      "value": 32181.00000000029
+    },
+    {
+      "date": "2023-06-01",
+      "series": "inbound",
+      "value": 443860.0000000002
+    },
+    {
+      "date": "2023-06-01",
+      "series": "outbound",
+      "value": 411678.9999999999
+    },
+    {
+      "date": "2023-07-01",
+      "series": "balance",
+      "value": 116941.0
+    },
+    {
+      "date": "2023-07-01",
+      "series": "inbound",
+      "value": 652790.0
+    },
+    {
+      "date": "2023-07-01",
+      "series": "outbound",
+      "value": 535849.0
+    },
+    {
+      "date": "2023-08-01",
+      "series": "balance",
+      "value": 82790.0
+    },
+    {
+      "date": "2023-08-01",
+      "series": "inbound",
+      "value": 540369.0
+    },
+    {
+      "date": "2023-08-01",
+      "series": "outbound",
+      "value": 457579.0
+    },
+    {
+      "date": "2023-09-01",
+      "series": "balance",
+      "value": 128128.99999999977
+    },
+    {
+      "date": "2023-09-01",
+      "series": "inbound",
+      "value": 572903.9999999999
+    },
+    {
+      "date": "2023-09-01",
+      "series": "outbound",
+      "value": 444775.0000000001
+    },
+    {
+      "date": "2023-10-01",
+      "series": "balance",
+      "value": 100998.00000000023
+    },
+    {
+      "date": "2023-10-01",
+      "series": "inbound",
+      "value": 625431.0
+    },
+    {
+      "date": "2023-10-01",
+      "series": "outbound",
+      "value": 524432.9999999998
+    },
+    {
+      "date": "2023-11-01",
+      "series": "balance",
+      "value": 204689.99999999942
+    },
+    {
+      "date": "2023-11-01",
+      "series": "inbound",
+      "value": 667082.9999999994
+    },
+    {
+      "date": "2023-11-01",
+      "series": "outbound",
+      "value": 462393.0
+    },
+    {
+      "date": "2023-12-01",
+      "series": "balance",
+      "value": 216388.99999999977
+    },
+    {
+      "date": "2023-12-01",
+      "series": "inbound",
+      "value": 676935.9999999998
+    },
+    {
+      "date": "2023-12-01",
+      "series": "outbound",
+      "value": 460547.0
+    },
+    {
+      "date": "2024-01-01",
+      "series": "balance",
+      "value": -214315.00000000012
+    },
+    {
+      "date": "2024-01-01",
+      "series": "inbound",
+      "value": 898292.9999999999
+    },
+    {
+      "date": "2024-01-01",
+      "series": "outbound",
+      "value": 1112608.0
+    },
+    {
+      "date": "2024-02-01",
+      "series": "balance",
+      "value": -289923.00000000023
+    },
+    {
+      "date": "2024-02-01",
+      "series": "inbound",
+      "value": 757186.9999999998
+    },
+    {
+      "date": "2024-02-01",
+      "series": "outbound",
+      "value": 1047110.0
+    },
+    {
+      "date": "2024-03-01",
+      "series": "balance",
+      "value": 6394.999999999767
+    },
+    {
+      "date": "2024-03-01",
+      "series": "inbound",
+      "value": 673210.0
+    },
+    {
+      "date": "2024-03-01",
+      "series": "outbound",
+      "value": 666815.0000000002
+    },
+    {
+      "date": "2024-04-01",
+      "series": "balance",
+      "value": -240985.00000000023
+    },
+    {
+      "date": "2024-04-01",
+      "series": "inbound",
+      "value": 469570.9999999999
+    },
+    {
+      "date": "2024-04-01",
+      "series": "outbound",
+      "value": 710556.0000000001
+    },
+    {
+      "date": "2024-05-01",
+      "series": "balance",
+      "value": -133395.0
+    },
+    {
+      "date": "2024-05-01",
+      "series": "inbound",
+      "value": 372262.0
+    },
+    {
+      "date": "2024-05-01",
+      "series": "outbound",
+      "value": 505657.0
+    },
+    {
+      "date": "2024-06-01",
+      "series": "balance",
+      "value": -149545.0000000003
+    },
+    {
+      "date": "2024-06-01",
+      "series": "inbound",
+      "value": 351176.0
+    },
+    {
+      "date": "2024-06-01",
+      "series": "outbound",
+      "value": 500721.0000000003
+    },
+    {
+      "date": "2024-07-01",
+      "series": "balance",
+      "value": -135249.99999999988
+    },
+    {
+      "date": "2024-07-01",
+      "series": "inbound",
+      "value": 531367.9999999999
+    },
+    {
+      "date": "2024-07-01",
+      "series": "outbound",
+      "value": 666617.9999999998
+    },
+    {
+      "date": "2024-08-01",
+      "series": "balance",
+      "value": -58294.99999999959
+    },
+    {
+      "date": "2024-08-01",
+      "series": "inbound",
+      "value": 455396.00000000047
+    },
+    {
+      "date": "2024-08-01",
+      "series": "outbound",
+      "value": 513691.00000000006
+    },
+    {
+      "date": "2024-09-01",
+      "series": "balance",
+      "value": -95060.00000000058
+    },
+    {
+      "date": "2024-09-01",
+      "series": "inbound",
+      "value": 484911.9999999999
+    },
+    {
+      "date": "2024-09-01",
+      "series": "outbound",
+      "value": 579972.0000000005
+    },
+    {
+      "date": "2024-10-01",
+      "series": "balance",
+      "value": -210100.99999999994
+    },
+    {
+      "date": "2024-10-01",
+      "series": "inbound",
+      "value": 444008.00000000006
+    },
+    {
+      "date": "2024-10-01",
+      "series": "outbound",
+      "value": 654109.0
+    },
+    {
+      "date": "2024-11-01",
+      "series": "balance",
+      "value": -115052.00000000035
+    },
+    {
+      "date": "2024-11-01",
+      "series": "inbound",
+      "value": 547266.9999999998
+    },
+    {
+      "date": "2024-11-01",
+      "series": "outbound",
+      "value": 662319.0000000001
+    },
+    {
+      "date": "2024-12-01",
+      "series": "balance",
+      "value": -74413.00000000023
+    },
+    {
+      "date": "2024-12-01",
+      "series": "inbound",
+      "value": 619226.9999999999
+    },
+    {
+      "date": "2024-12-01",
+      "series": "outbound",
+      "value": 693640.0000000001
+    },
+    {
+      "date": "2025-01-01",
+      "series": "balance",
+      "value": -1206666.0000000005
+    },
+    {
+      "date": "2025-01-01",
+      "series": "inbound",
+      "value": 720593.9999999997
+    },
+    {
+      "date": "2025-01-01",
+      "series": "outbound",
+      "value": 1927260.0
+    },
+    {
+      "date": "2025-02-01",
+      "series": "balance",
+      "value": -1295494.0
+    },
+    {
+      "date": "2025-02-01",
+      "series": "inbound",
+      "value": 528308.0000000001
+    },
+    {
+      "date": "2025-02-01",
+      "series": "outbound",
+      "value": 1823802.0
+    },
+    {
+      "date": "2025-03-01",
+      "series": "balance",
+      "value": -810616.9999999998
+    },
+    {
+      "date": "2025-03-01",
+      "series": "inbound",
+      "value": 514993.0000000002
+    },
+    {
+      "date": "2025-03-01",
+      "series": "outbound",
+      "value": 1325610.0
+    },
+    {
+      "date": "2025-04-01",
+      "series": "balance",
+      "value": -436040.00000000006
+    },
+    {
+      "date": "2025-04-01",
+      "series": "inbound",
+      "value": 445121.0000000002
+    },
+    {
+      "date": "2025-04-01",
+      "series": "outbound",
+      "value": 881161.0000000002
+    },
+    {
+      "date": "2025-05-01",
+      "series": "balance",
+      "value": -420929.0000000003
+    },
+    {
+      "date": "2025-05-01",
+      "series": "inbound",
+      "value": 331904.99999999994
+    },
+    {
+      "date": "2025-05-01",
+      "series": "outbound",
+      "value": 752834.0000000002
+    },
+    {
+      "date": "2025-06-01",
+      "series": "balance",
+      "value": -309656.9999999998
+    },
+    {
+      "date": "2025-06-01",
+      "series": "inbound",
+      "value": 334110.9999999998
+    },
+    {
+      "date": "2025-06-01",
+      "series": "outbound",
+      "value": 643767.9999999997
+    },
+    {
+      "date": "2025-07-01",
+      "series": "balance",
+      "value": -395878.99999999994
+    },
+    {
+      "date": "2025-07-01",
+      "series": "inbound",
+      "value": 447187.00000000006
+    },
+    {
+      "date": "2025-07-01",
+      "series": "outbound",
+      "value": 843066.0
+    },
+    {
+      "date": "2025-08-01",
+      "series": "balance",
+      "value": -379899.00000000035
+    },
+    {
+      "date": "2025-08-01",
+      "series": "inbound",
+      "value": 418529.9999999999
+    },
+    {
+      "date": "2025-08-01",
+      "series": "outbound",
+      "value": 798429.0000000002
+    },
+    {
+      "date": "2025-09-01",
+      "series": "balance",
+      "value": -307963.9999999997
+    },
+    {
+      "date": "2025-09-01",
+      "series": "inbound",
+      "value": 398476.0000000002
+    },
+    {
+      "date": "2025-09-01",
+      "series": "outbound",
+      "value": 706439.9999999999
+    },
+    {
+      "date": "2025-10-01",
+      "series": "balance",
+      "value": -304149.9999999997
+    },
+    {
+      "date": "2025-10-01",
+      "series": "inbound",
+      "value": 420803.0000000002
+    },
+    {
+      "date": "2025-10-01",
+      "series": "outbound",
+      "value": 724952.9999999999
+    },
+    {
+      "date": "2025-11-01",
+      "series": "balance",
+      "value": -228174.0
+    },
+    {
+      "date": "2025-11-01",
+      "series": "inbound",
+      "value": 536150.0
+    },
+    {
+      "date": "2025-11-01",
+      "series": "outbound",
+      "value": 764324.0
+    },
+    {
+      "date": "2025-12-01",
+      "series": "balance",
+      "value": -120621.0
+    },
+    {
+      "date": "2025-12-01",
+      "series": "inbound",
+      "value": 584618.0
+    },
+    {
+      "date": "2025-12-01",
+      "series": "outbound",
+      "value": 705239.0
+    },
+    {
+      "date": "2026-01-01",
+      "series": "balance",
+      "value": -1033408.0
+    },
+    {
+      "date": "2026-01-01",
+      "series": "inbound",
+      "value": 732425.0
+    },
+    {
+      "date": "2026-01-01",
+      "series": "outbound",
+      "value": 1765833.0
+    },
+    {
+      "date": "2026-02-01",
+      "series": "balance",
+      "value": -1056961.0
+    },
+    {
+      "date": "2026-02-01",
+      "series": "inbound",
+      "value": 573080.0
+    },
+    {
+      "date": "2026-02-01",
+      "series": "outbound",
+      "value": 1630041.0
+    },
+    {
+      "date": "2026-03-01",
+      "series": "balance",
+      "value": -507316.0
+    },
+    {
+      "date": "2026-03-01",
+      "series": "inbound",
+      "value": 554984.0
+    },
+    {
+      "date": "2026-03-01",
+      "series": "outbound",
+      "value": 1062300.0
+    },
+    {
+      "date": "2026-04-01",
+      "series": "balance",
+      "value": -267073.0
+    },
+    {
+      "date": "2026-04-01",
+      "series": "inbound",
+      "value": 498289.0
+    },
+    {
+      "date": "2026-04-01",
+      "series": "outbound",
+      "value": 765362.0
+    },
+    {
+      "date": "2026-05-01",
+      "series": "balance",
+      "value": -256195.0
+    },
+    {
+      "date": "2026-05-01",
+      "series": "inbound",
+      "value": 405938.0
+    },
+    {
+      "date": "2026-05-01",
+      "series": "outbound",
+      "value": 662133.0
+    },
+    {
+      "date": "2026-06-01",
+      "series": "balance",
+      "value": -151483.0
+    },
+    {
+      "date": "2026-06-01",
+      "series": "inbound",
+      "value": 350373.0
+    },
+    {
+      "date": "2026-06-01",
+      "series": "outbound",
+      "value": 501856.0
+    },
+    {
+      "date": "2026-07-01",
+      "series": "balance",
+      "value": -204914.0
+    },
+    {
+      "date": "2026-07-01",
+      "series": "inbound",
+      "value": 491535.0
+    },
+    {
+      "date": "2026-07-01",
+      "series": "outbound",
+      "value": 696449.0
+    },
+    {
+      "date": "2026-08-01",
+      "series": "balance",
+      "value": -191390.0
+    },
+    {
+      "date": "2026-08-01",
+      "series": "inbound",
+      "value": 460774.0
+    },
+    {
+      "date": "2026-08-01",
+      "series": "outbound",
+      "value": 652164.0
+    },
+    {
+      "date": "2026-09-01",
+      "series": "balance",
+      "value": -148985.0
+    },
+    {
+      "date": "2026-09-01",
+      "series": "inbound",
+      "value": 464209.0
+    },
+    {
+      "date": "2026-09-01",
+      "series": "outbound",
+      "value": 613194.0
+    }
+  ],
+  "valueKind": "signed",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-09-01",
+  "firstObservedPeriod": "2016-01-01",
+  "lastObservedBySeries": {
+    "inbound": "2026-09-01",
+    "outbound": "2026-09-01",
+    "balance": "2026-09-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:46:26Z",
+  "lastAttemptAt": "2026-11-13T12:46:26Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "d0b9e96e803cbb937fa38e7d0b2b433437f894b471f005118f28b13a14f761cd",
+  "rawSha256": "4e5c1307618c2b95c9c28fbf00267393eba0a631fcab1b055ad744255d496c87",
+  "dataChangedAt": "2026-11-12T04:51:59Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

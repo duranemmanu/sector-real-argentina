@@ -1,0 +1,175 @@
+{
+  "id": "credit-retail-rates",
+  "source": "BCRA · Informe Monetario Mensual",
+  "sourceUrl": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-monetario-mensual-indicadores-2026-10.xlsx",
+  "frequency": "monthly",
+  "unit": "% nominal anual (TNA)",
+  "series": [
+    {
+      "id": "personal",
+      "label": "Préstamos personales"
+    },
+    {
+      "id": "deposit",
+      "label": "Plazo fijo minorista, 30–35 días"
+    }
+  ],
+  "methodNote": "Promedios mensuales de la hoja Tasas. Personales y depósitos de personas humanas de hasta $1 millón a 30–35 días. La planilla contiene sólo meses seleccionados; los demás quedan nulos, sin interpolar. No es CFT ni margen neto bancario.",
+  "observations": [
+    {
+      "date": "2025-10-01",
+      "series": "deposit",
+      "value": 40.066
+    },
+    {
+      "date": "2025-10-01",
+      "series": "personal",
+      "value": 83.77
+    },
+    {
+      "date": "2025-11-01",
+      "series": "deposit",
+      "value": null
+    },
+    {
+      "date": "2025-11-01",
+      "series": "personal",
+      "value": null
+    },
+    {
+      "date": "2025-12-01",
+      "series": "deposit",
+      "value": 24.546
+    },
+    {
+      "date": "2025-12-01",
+      "series": "personal",
+      "value": 71.068
+    },
+    {
+      "date": "2026-01-01",
+      "series": "deposit",
+      "value": null
+    },
+    {
+      "date": "2026-01-01",
+      "series": "personal",
+      "value": null
+    },
+    {
+      "date": "2026-02-01",
+      "series": "deposit",
+      "value": null
+    },
+    {
+      "date": "2026-02-01",
+      "series": "personal",
+      "value": null
+    },
+    {
+      "date": "2026-03-01",
+      "series": "deposit",
+      "value": null
+    },
+    {
+      "date": "2026-03-01",
+      "series": "personal",
+      "value": null
+    },
+    {
+      "date": "2026-04-01",
+      "series": "deposit",
+      "value": null
+    },
+    {
+      "date": "2026-04-01",
+      "series": "personal",
+      "value": null
+    },
+    {
+      "date": "2026-05-01",
+      "series": "deposit",
+      "value": null
+    },
+    {
+      "date": "2026-05-01",
+      "series": "personal",
+      "value": null
+    },
+    {
+      "date": "2026-06-01",
+      "series": "deposit",
+      "value": null
+    },
+    {
+      "date": "2026-06-01",
+      "series": "personal",
+      "value": null
+    },
+    {
+      "date": "2026-07-01",
+      "series": "deposit",
+      "value": null
+    },
+    {
+      "date": "2026-07-01",
+      "series": "personal",
+      "value": null
+    },
+    {
+      "date": "2026-08-01",
+      "series": "deposit",
+      "value": 18.822
+    },
+    {
+      "date": "2026-08-01",
+      "series": "personal",
+      "value": 65.818
+    },
+    {
+      "date": "2026-09-01",
+      "series": "deposit",
+      "value": 19.215
+    },
+    {
+      "date": "2026-09-01",
+      "series": "personal",
+      "value": 62.655
+    },
+    {
+      "date": "2026-10-01",
+      "series": "deposit",
+      "value": 19.525
+    },
+    {
+      "date": "2026-10-01",
+      "series": "personal",
+      "value": 62.931
+    }
+  ],
+  "valueKind": "rate",
+  "supportingSources": [
+    {
+      "label": "Publicación BCRA",
+      "url": "https://www.bcra.gob.ar/publicaciones/informe-monetario-mensual-octubre-de-2026/"
+    }
+  ],
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-10-01",
+  "firstObservedPeriod": "2025-10-01",
+  "lastObservedBySeries": {
+    "personal": "2026-10-01",
+    "deposit": "2026-10-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:47:32Z",
+  "lastAttemptAt": "2026-11-13T12:47:32Z",
+  "sourcePublishedAt": "2026-11-11",
+  "isAutoUpdated": true,
+  "contentHash": "d09a9b6e0b47233bea266f79c4195ed93e0a53393425f24a17de2fe28289e5f5",
+  "rawSha256": "e1cc069c378ab168147eb07bb5ce1fa3b24c87131e03a37b8c9f6ad83a04be9f",
+  "dataChangedAt": "2026-11-13T03:19:34Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

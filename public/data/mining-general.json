@@ -1,0 +1,1811 @@
+{
+  "id": "mining-general",
+  "source": "INDEC · IPI minero",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipi_minero.xlsx",
+  "frequency": "monthly",
+  "unit": "índice, base 2016=100",
+  "series": [
+    {
+      "id": "original",
+      "label": "Original",
+      "column": 3,
+      "headerToken": "Serie original"
+    },
+    {
+      "id": "adjusted",
+      "label": "Desestacionalizada",
+      "column": 7,
+      "headerToken": "Serie desestacionalizada"
+    },
+    {
+      "id": "trend",
+      "label": "Tendencia-ciclo",
+      "column": 10,
+      "headerToken": "Serie tendencia-ciclo"
+    }
+  ],
+  "methodNote": "Serie oficial del INDEC. Base 2016=100. Los valores s (secreto estadístico), no disponibles y que no corresponde presentar se conservan como nulos. El guion de cero absoluto se conserva como cero. Los índices de categorías y subclases no se suman sin ponderaciones. Original, desestacionalizada y tendencia-ciclo son series distintas; se incorporan las revisiones del archivo.",
+  "observations": [
+    {
+      "date": "2017-01-01",
+      "series": "adjusted",
+      "value": 98.4505446163921
+    },
+    {
+      "date": "2017-01-01",
+      "series": "original",
+      "value": 97.10879610077876
+    },
+    {
+      "date": "2017-01-01",
+      "series": "trend",
+      "value": 98.406158015283
+    },
+    {
+      "date": "2017-02-01",
+      "series": "adjusted",
+      "value": 97.1354719197973
+    },
+    {
+      "date": "2017-02-01",
+      "series": "original",
+      "value": 87.12920874288751
+    },
+    {
+      "date": "2017-02-01",
+      "series": "trend",
+      "value": 98.509516245548
+    },
+    {
+      "date": "2017-03-01",
+      "series": "adjusted",
+      "value": 97.1068699039978
+    },
+    {
+      "date": "2017-03-01",
+      "series": "original",
+      "value": 99.58802234572858
+    },
+    {
+      "date": "2017-03-01",
+      "series": "trend",
+      "value": 98.7410876610542
+    },
+    {
+      "date": "2017-04-01",
+      "series": "adjusted",
+      "value": 99.1962994044394
+    },
+    {
+      "date": "2017-04-01",
+      "series": "original",
+      "value": 95.39773137913306
+    },
+    {
+      "date": "2017-04-01",
+      "series": "trend",
+      "value": 99.1021793613247
+    },
+    {
+      "date": "2017-05-01",
+      "series": "adjusted",
+      "value": 100.694189387861
+    },
+    {
+      "date": "2017-05-01",
+      "series": "original",
+      "value": 102.33558159921158
+    },
+    {
+      "date": "2017-05-01",
+      "series": "trend",
+      "value": 99.6543296887397
+    },
+    {
+      "date": "2017-06-01",
+      "series": "adjusted",
+      "value": 100.459239159658
+    },
+    {
+      "date": "2017-06-01",
+      "series": "original",
+      "value": 99.99543171219803
+    },
+    {
+      "date": "2017-06-01",
+      "series": "trend",
+      "value": 100.384007105059
+    },
+    {
+      "date": "2017-07-01",
+      "series": "adjusted",
+      "value": 103.04980158729
+    },
+    {
+      "date": "2017-07-01",
+      "series": "original",
+      "value": 103.83042109148984
+    },
+    {
+      "date": "2017-07-01",
+      "series": "trend",
+      "value": 101.20023307515
+    },
+    {
+      "date": "2017-08-01",
+      "series": "adjusted",
+      "value": 102.537037186558
+    },
+    {
+      "date": "2017-08-01",
+      "series": "original",
+      "value": 104.96537937048905
+    },
+    {
+      "date": "2017-08-01",
+      "series": "trend",
+      "value": 101.909564361219
+    },
+    {
+      "date": "2017-09-01",
+      "series": "adjusted",
+      "value": 102.525677622355
+    },
+    {
+      "date": "2017-09-01",
+      "series": "original",
+      "value": 97.33395389660133
+    },
+    {
+      "date": "2017-09-01",
+      "series": "trend",
+      "value": 102.397858912827
+    },
+    {
+      "date": "2017-10-01",
+      "series": "adjusted",
+      "value": 103.190779069902
+    },
+    {
+      "date": "2017-10-01",
+      "series": "original",
+      "value": 107.45460088101781
+    },
+    {
+      "date": "2017-10-01",
+      "series": "trend",
+      "value": 102.688889811132
+    },
+    {
+      "date": "2017-11-01",
+      "series": "adjusted",
+      "value": 100.081991907797
+    },
+    {
+      "date": "2017-11-01",
+      "series": "original",
+      "value": 100.56975427228757
+    },
+    {
+      "date": "2017-11-01",
+      "series": "trend",
+      "value": 102.899010322038
+    },
+    {
+      "date": "2017-12-01",
+      "series": "adjusted",
+      "value": 102.453922130704
+    },
+    {
+      "date": "2017-12-01",
+      "series": "original",
+      "value": 104.50255049184757
+    },
+    {
+      "date": "2017-12-01",
+      "series": "trend",
+      "value": 103.081783891993
+    },
+    {
+      "date": "2018-01-01",
+      "series": "adjusted",
+      "value": 102.442844905697
+    },
+    {
+      "date": "2018-01-01",
+      "series": "original",
+      "value": 100.46034666946137
+    },
+    {
+      "date": "2018-01-01",
+      "series": "trend",
+      "value": 103.217803317901
+    },
+    {
+      "date": "2018-02-01",
+      "series": "adjusted",
+      "value": 105.490431200761
+    },
+    {
+      "date": "2018-02-01",
+      "series": "original",
+      "value": 94.18138418710032
+    },
+    {
+      "date": "2018-02-01",
+      "series": "trend",
+      "value": 103.269508157847
+    },
+    {
+      "date": "2018-03-01",
+      "series": "adjusted",
+      "value": 103.87603083559
+    },
+    {
+      "date": "2018-03-01",
+      "series": "original",
+      "value": 106.61379908882736
+    },
+    {
+      "date": "2018-03-01",
+      "series": "trend",
+      "value": 103.223791552007
+    },
+    {
+      "date": "2018-04-01",
+      "series": "adjusted",
+      "value": 102.374326881657
+    },
+    {
+      "date": "2018-04-01",
+      "series": "original",
+      "value": 99.46202203434699
+    },
+    {
+      "date": "2018-04-01",
+      "series": "trend",
+      "value": 103.131197350995
+    },
+    {
+      "date": "2018-05-01",
+      "series": "adjusted",
+      "value": 103.863420057969
+    },
+    {
+      "date": "2018-05-01",
+      "series": "original",
+      "value": 105.60849704112252
+    },
+    {
+      "date": "2018-05-01",
+      "series": "trend",
+      "value": 103.074427648269
+    },
+    {
+      "date": "2018-06-01",
+      "series": "adjusted",
+      "value": 104.68799490284
+    },
+    {
+      "date": "2018-06-01",
+      "series": "original",
+      "value": 104.00785347714901
+    },
+    {
+      "date": "2018-06-01",
+      "series": "trend",
+      "value": 103.154804747738
+    },
+    {
+      "date": "2018-07-01",
+      "series": "adjusted",
+      "value": 102.612333321911
+    },
+    {
+      "date": "2018-07-01",
+      "series": "original",
+      "value": 104.33147059865138
+    },
+    {
+      "date": "2018-07-01",
+      "series": "trend",
+      "value": 103.446252718006
+    },
+    {
+      "date": "2018-08-01",
+      "series": "adjusted",
+      "value": 103.052599807638
+    },
+    {
+      "date": "2018-08-01",
+      "series": "original",
+      "value": 105.9061032130616
+    },
+    {
+      "date": "2018-08-01",
+      "series": "trend",
+      "value": 103.942642850689
+    },
+    {
+      "date": "2018-09-01",
+      "series": "adjusted",
+      "value": 104.576797750459
+    },
+    {
+      "date": "2018-09-01",
+      "series": "original",
+      "value": 105.00519523431426
+    },
+    {
+      "date": "2018-09-01",
+      "series": "trend",
+      "value": 104.613287207317
+    },
+    {
+      "date": "2018-10-01",
+      "series": "adjusted",
+      "value": 103.726496208877
+    },
+    {
+      "date": "2018-10-01",
+      "series": "original",
+      "value": 107.52880291459338
+    },
+    {
+      "date": "2018-10-01",
+      "series": "trend",
+      "value": 105.421669104755
+    },
+    {
+      "date": "2018-11-01",
+      "series": "adjusted",
+      "value": 106.525605934827
+    },
+    {
+      "date": "2018-11-01",
+      "series": "original",
+      "value": 107.76619729786948
+    },
+    {
+      "date": "2018-11-01",
+      "series": "trend",
+      "value": 106.348504210101
+    },
+    {
+      "date": "2018-12-01",
+      "series": "adjusted",
+      "value": 109.340083879714
+    },
+    {
+      "date": "2018-12-01",
+      "series": "original",
+      "value": 112.3213272974437
+    },
+    {
+      "date": "2018-12-01",
+      "series": "trend",
+      "value": 107.289017988135
+    },
+    {
+      "date": "2019-01-01",
+      "series": "adjusted",
+      "value": 107.688062305373
+    },
+    {
+      "date": "2019-01-01",
+      "series": "original",
+      "value": 105.69287581689781
+    },
+    {
+      "date": "2019-01-01",
+      "series": "trend",
+      "value": 108.086090978217
+    },
+    {
+      "date": "2019-02-01",
+      "series": "adjusted",
+      "value": 106.99652952271
+    },
+    {
+      "date": "2019-02-01",
+      "series": "original",
+      "value": 95.97522186422658
+    },
+    {
+      "date": "2019-02-01",
+      "series": "trend",
+      "value": 108.605182829811
+    },
+    {
+      "date": "2019-03-01",
+      "series": "adjusted",
+      "value": 109.507776828075
+    },
+    {
+      "date": "2019-03-01",
+      "series": "original",
+      "value": 110.44157654192621
+    },
+    {
+      "date": "2019-03-01",
+      "series": "trend",
+      "value": 108.873124514073
+    },
+    {
+      "date": "2019-04-01",
+      "series": "adjusted",
+      "value": 110.387237552288
+    },
+    {
+      "date": "2019-04-01",
+      "series": "original",
+      "value": 108.44851720794168
+    },
+    {
+      "date": "2019-04-01",
+      "series": "trend",
+      "value": 108.977534203137
+    },
+    {
+      "date": "2019-05-01",
+      "series": "adjusted",
+      "value": 107.400362170668
+    },
+    {
+      "date": "2019-05-01",
+      "series": "original",
+      "value": 109.57151028826236
+    },
+    {
+      "date": "2019-05-01",
+      "series": "trend",
+      "value": 109.001397169123
+    },
+    {
+      "date": "2019-06-01",
+      "series": "adjusted",
+      "value": 108.71690569995
+    },
+    {
+      "date": "2019-06-01",
+      "series": "original",
+      "value": 101.04830511700162
+    },
+    {
+      "date": "2019-06-01",
+      "series": "trend",
+      "value": 109.009935274131
+    },
+    {
+      "date": "2019-07-01",
+      "series": "adjusted",
+      "value": 109.073245853434
+    },
+    {
+      "date": "2019-07-01",
+      "series": "original",
+      "value": 110.02515256935338
+    },
+    {
+      "date": "2019-07-01",
+      "series": "trend",
+      "value": 108.973749995241
+    },
+    {
+      "date": "2019-08-01",
+      "series": "adjusted",
+      "value": 109.670416774643
+    },
+    {
+      "date": "2019-08-01",
+      "series": "original",
+      "value": 112.73553074665058
+    },
+    {
+      "date": "2019-08-01",
+      "series": "trend",
+      "value": 108.776826140109
+    },
+    {
+      "date": "2019-09-01",
+      "series": "adjusted",
+      "value": 107.799774694359
+    },
+    {
+      "date": "2019-09-01",
+      "series": "original",
+      "value": 108.98773243106032
+    },
+    {
+      "date": "2019-09-01",
+      "series": "trend",
+      "value": 108.270152499991
+    },
+    {
+      "date": "2019-10-01",
+      "series": "adjusted",
+      "value": 107.139219935662
+    },
+    {
+      "date": "2019-10-01",
+      "series": "original",
+      "value": 111.42341804082378
+    },
+    {
+      "date": "2019-10-01",
+      "series": "trend",
+      "value": 107.274745268142
+    },
+    {
+      "date": "2019-11-01",
+      "series": "adjusted",
+      "value": 105.155152395908
+    },
+    {
+      "date": "2019-11-01",
+      "series": "original",
+      "value": 106.55665193629643
+    },
+    {
+      "date": "2019-11-01",
+      "series": "trend",
+      "value": 105.629727525092
+    },
+    {
+      "date": "2019-12-01",
+      "series": "adjusted",
+      "value": 103.306457162473
+    },
+    {
+      "date": "2019-12-01",
+      "series": "original",
+      "value": 107.17591882511883
+    },
+    {
+      "date": "2019-12-01",
+      "series": "trend",
+      "value": 103.157944413669
+    },
+    {
+      "date": "2020-01-01",
+      "series": "adjusted",
+      "value": 104.740173357672
+    },
+    {
+      "date": "2020-01-01",
+      "series": "original",
+      "value": 103.10218326225775
+    },
+    {
+      "date": "2020-01-01",
+      "series": "trend",
+      "value": 99.7759282114986
+    },
+    {
+      "date": "2020-02-01",
+      "series": "adjusted",
+      "value": 104.170204081327
+    },
+    {
+      "date": "2020-02-01",
+      "series": "original",
+      "value": 94.03691439761349
+    },
+    {
+      "date": "2020-02-01",
+      "series": "trend",
+      "value": 95.6404270998929
+    },
+    {
+      "date": "2020-03-01",
+      "series": "adjusted",
+      "value": 94.9162623527765
+    },
+    {
+      "date": "2020-03-01",
+      "series": "original",
+      "value": 97.57880668835364
+    },
+    {
+      "date": "2020-03-01",
+      "series": "trend",
+      "value": 91.1948310060702
+    },
+    {
+      "date": "2020-04-01",
+      "series": "adjusted",
+      "value": 75.8259378750324
+    },
+    {
+      "date": "2020-04-01",
+      "series": "original",
+      "value": 74.32732349706843
+    },
+    {
+      "date": "2020-04-01",
+      "series": "trend",
+      "value": 87.0843387882993
+    },
+    {
+      "date": "2020-05-01",
+      "series": "adjusted",
+      "value": 75.5835415114883
+    },
+    {
+      "date": "2020-05-01",
+      "series": "original",
+      "value": 75.59118074929088
+    },
+    {
+      "date": "2020-05-01",
+      "series": "trend",
+      "value": 83.9443375637818
+    },
+    {
+      "date": "2020-06-01",
+      "series": "adjusted",
+      "value": 81.8995578123542
+    },
+    {
+      "date": "2020-06-01",
+      "series": "original",
+      "value": 80.97664170363501
+    },
+    {
+      "date": "2020-06-01",
+      "series": "trend",
+      "value": 82.1725410091812
+    },
+    {
+      "date": "2020-07-01",
+      "series": "adjusted",
+      "value": 81.7825386983656
+    },
+    {
+      "date": "2020-07-01",
+      "series": "original",
+      "value": 82.96441526528446
+    },
+    {
+      "date": "2020-07-01",
+      "series": "trend",
+      "value": 81.8316240661352
+    },
+    {
+      "date": "2020-08-01",
+      "series": "adjusted",
+      "value": 82.6094108999255
+    },
+    {
+      "date": "2020-08-01",
+      "series": "original",
+      "value": 84.25677907152584
+    },
+    {
+      "date": "2020-08-01",
+      "series": "trend",
+      "value": 82.6455225158308
+    },
+    {
+      "date": "2020-09-01",
+      "series": "adjusted",
+      "value": 84.8446088036897
+    },
+    {
+      "date": "2020-09-01",
+      "series": "original",
+      "value": 85.99786706319517
+    },
+    {
+      "date": "2020-09-01",
+      "series": "trend",
+      "value": 84.2104642953777
+    },
+    {
+      "date": "2020-10-01",
+      "series": "adjusted",
+      "value": 88.7089655489994
+    },
+    {
+      "date": "2020-10-01",
+      "series": "original",
+      "value": 92.58789889435874
+    },
+    {
+      "date": "2020-10-01",
+      "series": "trend",
+      "value": 86.1613456991729
+    },
+    {
+      "date": "2020-11-01",
+      "series": "adjusted",
+      "value": 90.7995565218354
+    },
+    {
+      "date": "2020-11-01",
+      "series": "original",
+      "value": 90.96638470578368
+    },
+    {
+      "date": "2020-11-01",
+      "series": "trend",
+      "value": 88.2335033574825
+    },
+    {
+      "date": "2020-12-01",
+      "series": "adjusted",
+      "value": 89.6374410427478
+    },
+    {
+      "date": "2020-12-01",
+      "series": "original",
+      "value": 92.68092056874764
+    },
+    {
+      "date": "2020-12-01",
+      "series": "trend",
+      "value": 90.2298247701563
+    },
+    {
+      "date": "2021-01-01",
+      "series": "adjusted",
+      "value": 91.8480101742037
+    },
+    {
+      "date": "2021-01-01",
+      "series": "original",
+      "value": 88.58385753974927
+    },
+    {
+      "date": "2021-01-01",
+      "series": "trend",
+      "value": 92.0053279129386
+    },
+    {
+      "date": "2021-02-01",
+      "series": "adjusted",
+      "value": 94.9870151498439
+    },
+    {
+      "date": "2021-02-01",
+      "series": "original",
+      "value": 84.44777586050573
+    },
+    {
+      "date": "2021-02-01",
+      "series": "trend",
+      "value": 93.4943364379695
+    },
+    {
+      "date": "2021-03-01",
+      "series": "adjusted",
+      "value": 93.3884242575268
+    },
+    {
+      "date": "2021-03-01",
+      "series": "original",
+      "value": 95.43723380166894
+    },
+    {
+      "date": "2021-03-01",
+      "series": "trend",
+      "value": 94.75672999529
+    },
+    {
+      "date": "2021-04-01",
+      "series": "adjusted",
+      "value": 94.7995392678304
+    },
+    {
+      "date": "2021-04-01",
+      "series": "original",
+      "value": 93.42724635114017
+    },
+    {
+      "date": "2021-04-01",
+      "series": "trend",
+      "value": 95.9220780147984
+    },
+    {
+      "date": "2021-05-01",
+      "series": "adjusted",
+      "value": 96.6020704444627
+    },
+    {
+      "date": "2021-05-01",
+      "series": "original",
+      "value": 97.58338731025478
+    },
+    {
+      "date": "2021-05-01",
+      "series": "trend",
+      "value": 97.0808709972269
+    },
+    {
+      "date": "2021-06-01",
+      "series": "adjusted",
+      "value": 98.4254246546152
+    },
+    {
+      "date": "2021-06-01",
+      "series": "original",
+      "value": 96.54873503176933
+    },
+    {
+      "date": "2021-06-01",
+      "series": "trend",
+      "value": 98.3139289074849
+    },
+    {
+      "date": "2021-07-01",
+      "series": "adjusted",
+      "value": 99.8990448005737
+    },
+    {
+      "date": "2021-07-01",
+      "series": "original",
+      "value": 101.25874017676972
+    },
+    {
+      "date": "2021-07-01",
+      "series": "trend",
+      "value": 99.6197036683031
+    },
+    {
+      "date": "2021-08-01",
+      "series": "adjusted",
+      "value": 99.7613058444223
+    },
+    {
+      "date": "2021-08-01",
+      "series": "original",
+      "value": 102.99912217294612
+    },
+    {
+      "date": "2021-08-01",
+      "series": "trend",
+      "value": 100.920176151577
+    },
+    {
+      "date": "2021-09-01",
+      "series": "adjusted",
+      "value": 104.75714701046
+    },
+    {
+      "date": "2021-09-01",
+      "series": "original",
+      "value": 106.24871089696263
+    },
+    {
+      "date": "2021-09-01",
+      "series": "trend",
+      "value": 102.140228135865
+    },
+    {
+      "date": "2021-10-01",
+      "series": "adjusted",
+      "value": 102.664316268178
+    },
+    {
+      "date": "2021-10-01",
+      "series": "original",
+      "value": 105.00990469735561
+    },
+    {
+      "date": "2021-10-01",
+      "series": "trend",
+      "value": 103.242957354335
+    },
+    {
+      "date": "2021-11-01",
+      "series": "adjusted",
+      "value": 104.471395135335
+    },
+    {
+      "date": "2021-11-01",
+      "series": "original",
+      "value": 108.53529230913709
+    },
+    {
+      "date": "2021-11-01",
+      "series": "trend",
+      "value": 104.305731473623
+    },
+    {
+      "date": "2021-12-01",
+      "series": "adjusted",
+      "value": 106.599070140646
+    },
+    {
+      "date": "2021-12-01",
+      "series": "original",
+      "value": 110.6588844294605
+    },
+    {
+      "date": "2021-12-01",
+      "series": "trend",
+      "value": 105.357068827143
+    },
+    {
+      "date": "2022-01-01",
+      "series": "adjusted",
+      "value": 104.325436544678
+    },
+    {
+      "date": "2022-01-01",
+      "series": "original",
+      "value": 101.60597675493688
+    },
+    {
+      "date": "2022-01-01",
+      "series": "trend",
+      "value": 106.362273644546
+    },
+    {
+      "date": "2022-02-01",
+      "series": "adjusted",
+      "value": 105.685998784557
+    },
+    {
+      "date": "2022-02-01",
+      "series": "original",
+      "value": 95.13622916924832
+    },
+    {
+      "date": "2022-02-01",
+      "series": "trend",
+      "value": 107.297349985092
+    },
+    {
+      "date": "2022-03-01",
+      "series": "adjusted",
+      "value": 108.193831557079
+    },
+    {
+      "date": "2022-03-01",
+      "series": "original",
+      "value": 110.5943616455654
+    },
+    {
+      "date": "2022-03-01",
+      "series": "trend",
+      "value": 108.193214590757
+    },
+    {
+      "date": "2022-04-01",
+      "series": "adjusted",
+      "value": 108.891105721288
+    },
+    {
+      "date": "2022-04-01",
+      "series": "original",
+      "value": 107.44670327893857
+    },
+    {
+      "date": "2022-04-01",
+      "series": "trend",
+      "value": 109.132683130673
+    },
+    {
+      "date": "2022-05-01",
+      "series": "adjusted",
+      "value": 111.061167362035
+    },
+    {
+      "date": "2022-05-01",
+      "series": "original",
+      "value": 113.49336928061071
+    },
+    {
+      "date": "2022-05-01",
+      "series": "trend",
+      "value": 110.206757421992
+    },
+    {
+      "date": "2022-06-01",
+      "series": "adjusted",
+      "value": 110.430411034543
+    },
+    {
+      "date": "2022-06-01",
+      "series": "original",
+      "value": 108.57343243019373
+    },
+    {
+      "date": "2022-06-01",
+      "series": "trend",
+      "value": 111.439171850635
+    },
+    {
+      "date": "2022-07-01",
+      "series": "adjusted",
+      "value": 112.809825790205
+    },
+    {
+      "date": "2022-07-01",
+      "series": "original",
+      "value": 112.3857365282834
+    },
+    {
+      "date": "2022-07-01",
+      "series": "trend",
+      "value": 112.763594939087
+    },
+    {
+      "date": "2022-08-01",
+      "series": "adjusted",
+      "value": 116.130417008195
+    },
+    {
+      "date": "2022-08-01",
+      "series": "original",
+      "value": 119.41752893873465
+    },
+    {
+      "date": "2022-08-01",
+      "series": "trend",
+      "value": 114.064573031085
+    },
+    {
+      "date": "2022-09-01",
+      "series": "adjusted",
+      "value": 114.833970644159
+    },
+    {
+      "date": "2022-09-01",
+      "series": "original",
+      "value": 116.76379096693867
+    },
+    {
+      "date": "2022-09-01",
+      "series": "trend",
+      "value": 115.256743310064
+    },
+    {
+      "date": "2022-10-01",
+      "series": "adjusted",
+      "value": 117.419618377131
+    },
+    {
+      "date": "2022-10-01",
+      "series": "original",
+      "value": 120.73298113993232
+    },
+    {
+      "date": "2022-10-01",
+      "series": "trend",
+      "value": 116.294918958964
+    },
+    {
+      "date": "2022-11-01",
+      "series": "adjusted",
+      "value": 116.788152173508
+    },
+    {
+      "date": "2022-11-01",
+      "series": "original",
+      "value": 116.41598039796514
+    },
+    {
+      "date": "2022-11-01",
+      "series": "trend",
+      "value": 117.216979671308
+    },
+    {
+      "date": "2022-12-01",
+      "series": "adjusted",
+      "value": 118.033715927447
+    },
+    {
+      "date": "2022-12-01",
+      "series": "original",
+      "value": 122.42753550231652
+    },
+    {
+      "date": "2022-12-01",
+      "series": "trend",
+      "value": 118.050718996291
+    },
+    {
+      "date": "2023-01-01",
+      "series": "adjusted",
+      "value": 118.57351603426
+    },
+    {
+      "date": "2023-01-01",
+      "series": "original",
+      "value": 116.92630848845651
+    },
+    {
+      "date": "2023-01-01",
+      "series": "trend",
+      "value": 118.804662095235
+    },
+    {
+      "date": "2023-02-01",
+      "series": "adjusted",
+      "value": 118.799101248308
+    },
+    {
+      "date": "2023-02-01",
+      "series": "original",
+      "value": 108.38441688803493
+    },
+    {
+      "date": "2023-02-01",
+      "series": "trend",
+      "value": 119.475211578347
+    },
+    {
+      "date": "2023-03-01",
+      "series": "adjusted",
+      "value": 120.081890763413
+    },
+    {
+      "date": "2023-03-01",
+      "series": "original",
+      "value": 123.13789326470838
+    },
+    {
+      "date": "2023-03-01",
+      "series": "trend",
+      "value": 120.105640433224
+    },
+    {
+      "date": "2023-04-01",
+      "series": "adjusted",
+      "value": 120.455583081277
+    },
+    {
+      "date": "2023-04-01",
+      "series": "original",
+      "value": 116.81613747972553
+    },
+    {
+      "date": "2023-04-01",
+      "series": "trend",
+      "value": 120.750058731444
+    },
+    {
+      "date": "2023-05-01",
+      "series": "adjusted",
+      "value": 121.074465670674
+    },
+    {
+      "date": "2023-05-01",
+      "series": "original",
+      "value": 123.28805311954419
+    },
+    {
+      "date": "2023-05-01",
+      "series": "trend",
+      "value": 121.486524509687
+    },
+    {
+      "date": "2023-06-01",
+      "series": "adjusted",
+      "value": 122.226576519489
+    },
+    {
+      "date": "2023-06-01",
+      "series": "original",
+      "value": 120.9782190888932
+    },
+    {
+      "date": "2023-06-01",
+      "series": "trend",
+      "value": 122.392564787844
+    },
+    {
+      "date": "2023-07-01",
+      "series": "adjusted",
+      "value": 123.868330999424
+    },
+    {
+      "date": "2023-07-01",
+      "series": "original",
+      "value": 124.56721582989354
+    },
+    {
+      "date": "2023-07-01",
+      "series": "trend",
+      "value": 123.50072960639
+    },
+    {
+      "date": "2023-08-01",
+      "series": "adjusted",
+      "value": 125.868445835471
+    },
+    {
+      "date": "2023-08-01",
+      "series": "original",
+      "value": 129.8487371401294
+    },
+    {
+      "date": "2023-08-01",
+      "series": "trend",
+      "value": 124.781781899317
+    },
+    {
+      "date": "2023-09-01",
+      "series": "adjusted",
+      "value": 125.923505030135
+    },
+    {
+      "date": "2023-09-01",
+      "series": "original",
+      "value": 127.70570750953623
+    },
+    {
+      "date": "2023-09-01",
+      "series": "trend",
+      "value": 126.193180499854
+    },
+    {
+      "date": "2023-10-01",
+      "series": "adjusted",
+      "value": 124.936926623362
+    },
+    {
+      "date": "2023-10-01",
+      "series": "original",
+      "value": 129.29760266773297
+    },
+    {
+      "date": "2023-10-01",
+      "series": "trend",
+      "value": 127.644053953305
+    },
+    {
+      "date": "2023-11-01",
+      "series": "adjusted",
+      "value": 126.547465100126
+    },
+    {
+      "date": "2023-11-01",
+      "series": "original",
+      "value": 125.67196926991703
+    },
+    {
+      "date": "2023-11-01",
+      "series": "trend",
+      "value": 129.029960445891
+    },
+    {
+      "date": "2023-12-01",
+      "series": "adjusted",
+      "value": 132.764258766765
+    },
+    {
+      "date": "2023-12-01",
+      "series": "original",
+      "value": 134.8333722307188
+    },
+    {
+      "date": "2023-12-01",
+      "series": "trend",
+      "value": 130.168479892659
+    },
+    {
+      "date": "2024-01-01",
+      "series": "adjusted",
+      "value": 131.35868162243
+    },
+    {
+      "date": "2024-01-01",
+      "series": "original",
+      "value": 129.32686488800343
+    },
+    {
+      "date": "2024-01-01",
+      "series": "trend",
+      "value": 130.896918813568
+    },
+    {
+      "date": "2024-02-01",
+      "series": "adjusted",
+      "value": 135.319571541691
+    },
+    {
+      "date": "2024-02-01",
+      "series": "original",
+      "value": 123.35449447391265
+    },
+    {
+      "date": "2024-02-01",
+      "series": "trend",
+      "value": 131.110709460328
+    },
+    {
+      "date": "2024-03-01",
+      "series": "adjusted",
+      "value": 129.096474440353
+    },
+    {
+      "date": "2024-03-01",
+      "series": "original",
+      "value": 129.75114330215874
+    },
+    {
+      "date": "2024-03-01",
+      "series": "trend",
+      "value": 130.858220884121
+    },
+    {
+      "date": "2024-04-01",
+      "series": "adjusted",
+      "value": 129.955573441948
+    },
+    {
+      "date": "2024-04-01",
+      "series": "original",
+      "value": 128.6640456788783
+    },
+    {
+      "date": "2024-04-01",
+      "series": "trend",
+      "value": 130.350207122993
+    },
+    {
+      "date": "2024-05-01",
+      "series": "adjusted",
+      "value": 130.858427231366
+    },
+    {
+      "date": "2024-05-01",
+      "series": "original",
+      "value": 134.1221075285929
+    },
+    {
+      "date": "2024-05-01",
+      "series": "trend",
+      "value": 129.878318808242
+    },
+    {
+      "date": "2024-06-01",
+      "series": "adjusted",
+      "value": 128.235506523124
+    },
+    {
+      "date": "2024-06-01",
+      "series": "original",
+      "value": 125.14093991383449
+    },
+    {
+      "date": "2024-06-01",
+      "series": "trend",
+      "value": 129.680809975988
+    },
+    {
+      "date": "2024-07-01",
+      "series": "adjusted",
+      "value": 129.122882449805
+    },
+    {
+      "date": "2024-07-01",
+      "series": "original",
+      "value": 130.6016796717868
+    },
+    {
+      "date": "2024-07-01",
+      "series": "trend",
+      "value": 129.857295395462
+    },
+    {
+      "date": "2024-08-01",
+      "series": "adjusted",
+      "value": 128.078024400497
+    },
+    {
+      "date": "2024-08-01",
+      "series": "original",
+      "value": 132.71634454615963
+    },
+    {
+      "date": "2024-08-01",
+      "series": "trend",
+      "value": 130.331590579691
+    },
+    {
+      "date": "2024-09-01",
+      "series": "adjusted",
+      "value": 133.599190217499
+    },
+    {
+      "date": "2024-09-01",
+      "series": "original",
+      "value": 133.71353853394123
+    },
+    {
+      "date": "2024-09-01",
+      "series": "trend",
+      "value": 130.936688281313
+    },
+    {
+      "date": "2024-10-01",
+      "series": "adjusted",
+      "value": 131.788874524989
+    },
+    {
+      "date": "2024-10-01",
+      "series": "original",
+      "value": 135.38245464761098
+    },
+    {
+      "date": "2024-10-01",
+      "series": "trend",
+      "value": 131.499067680915
+    },
+    {
+      "date": "2024-11-01",
+      "series": "adjusted",
+      "value": 131.993164671064
+    },
+    {
+      "date": "2024-11-01",
+      "series": "original",
+      "value": 130.8847873510516
+    },
+    {
+      "date": "2024-11-01",
+      "series": "trend",
+      "value": 131.920242707357
+    },
+    {
+      "date": "2024-12-01",
+      "series": "adjusted",
+      "value": 131.123497215013
+    },
+    {
+      "date": "2024-12-01",
+      "series": "original",
+      "value": 135.29544989638032
+    },
+    {
+      "date": "2024-12-01",
+      "series": "trend",
+      "value": 132.14901113046
+    },
+    {
+      "date": "2025-01-01",
+      "series": "adjusted",
+      "value": 133.732553449521
+    },
+    {
+      "date": "2025-01-01",
+      "series": "original",
+      "value": 133.03709044244852
+    },
+    {
+      "date": "2025-01-01",
+      "series": "trend",
+      "value": 132.207956544128
+    },
+    {
+      "date": "2025-02-01",
+      "series": "adjusted",
+      "value": 132.02117035791
+    },
+    {
+      "date": "2025-02-01",
+      "series": "original",
+      "value": 125.02926327396848
+    },
+    {
+      "date": "2025-02-01",
+      "series": "trend",
+      "value": 132.168333683725
+    },
+    {
+      "date": "2025-03-01",
+      "series": "adjusted",
+      "value": 130.832367918536
+    },
+    {
+      "date": "2025-03-01",
+      "series": "original",
+      "value": 132.58081386013436
+    },
+    {
+      "date": "2025-03-01",
+      "series": "trend",
+      "value": 132.176584801717
+    },
+    {
+      "date": "2025-04-01",
+      "series": "adjusted",
+      "value": 132.141706062375
+    },
+    {
+      "date": "2025-04-01",
+      "series": "original",
+      "value": 130.3292890315096
+    },
+    {
+      "date": "2025-04-01",
+      "series": "trend",
+      "value": 132.358844816997
+    },
+    {
+      "date": "2025-05-01",
+      "series": "adjusted",
+      "value": 131.123651751061
+    },
+    {
+      "date": "2025-05-01",
+      "series": "original",
+      "value": 134.41661356512222
+    },
+    {
+      "date": "2025-05-01",
+      "series": "trend",
+      "value": 132.795173353224
+    },
+    {
+      "date": "2025-06-01",
+      "series": "adjusted",
+      "value": 135.12911340097
+    },
+    {
+      "date": "2025-06-01",
+      "series": "original",
+      "value": 133.62245439708616
+    },
+    {
+      "date": "2025-06-01",
+      "series": "trend",
+      "value": 133.475833021036
+    },
+    {
+      "date": "2025-07-01",
+      "series": "adjusted",
+      "value": 135.11536072983
+    },
+    {
+      "date": "2025-07-01",
+      "series": "original",
+      "value": 140.79063868717552
+    },
+    {
+      "date": "2025-07-01",
+      "series": "trend",
+      "value": 134.326423501241
+    },
+    {
+      "date": "2025-08-01",
+      "series": "adjusted",
+      "value": 135.922951549437
+    },
+    {
+      "date": "2025-08-01",
+      "series": "original",
+      "value": 138.02910332334648
+    },
+    {
+      "date": "2025-08-01",
+      "series": "trend",
+      "value": 135.249788170579
+    },
+    {
+      "date": "2025-09-01",
+      "series": "adjusted",
+      "value": 135.309339661804
+    },
+    {
+      "date": "2025-09-01",
+      "series": "original",
+      "value": 136.43971211395763
+    },
+    {
+      "date": "2025-09-01",
+      "series": "trend",
+      "value": 136.199126892227
+    },
+    {
+      "date": "2025-10-01",
+      "series": "adjusted",
+      "value": 136.979278247879
+    },
+    {
+      "date": "2025-10-01",
+      "series": "original",
+      "value": 141.05528166077482
+    },
+    {
+      "date": "2025-10-01",
+      "series": "trend",
+      "value": 137.195813806742
+    },
+    {
+      "date": "2025-11-01",
+      "series": "adjusted",
+      "value": 137.86280650016
+    },
+    {
+      "date": "2025-11-01",
+      "series": "original",
+      "value": 133.80393944605413
+    },
+    {
+      "date": "2025-11-01",
+      "series": "trend",
+      "value": 138.317145833487
+    },
+    {
+      "date": "2025-12-01",
+      "series": "adjusted",
+      "value": 139.056830991647
+    },
+    {
+      "date": "2025-12-01",
+      "series": "original",
+      "value": 142.1414392093442
+    },
+    {
+      "date": "2025-12-01",
+      "series": "trend",
+      "value": 139.583029559381
+    },
+    {
+      "date": "2026-01-01",
+      "series": "adjusted",
+      "value": 140.947668329654
+    },
+    {
+      "date": "2026-01-01",
+      "series": "original",
+      "value": 140.67954206427515
+    },
+    {
+      "date": "2026-01-01",
+      "series": "trend",
+      "value": 140.946588064323
+    },
+    {
+      "date": "2026-02-01",
+      "series": "adjusted",
+      "value": 140.775974369748
+    },
+    {
+      "date": "2026-02-01",
+      "series": "original",
+      "value": 129.4842686971785
+    },
+    {
+      "date": "2026-02-01",
+      "series": "trend",
+      "value": 142.276929197419
+    },
+    {
+      "date": "2026-03-01",
+      "series": "adjusted",
+      "value": 143.751623465759
+    },
+    {
+      "date": "2026-03-01",
+      "series": "original",
+      "value": 147.00208681768694
+    },
+    {
+      "date": "2026-03-01",
+      "series": "trend",
+      "value": 143.447868829526
+    },
+    {
+      "date": "2026-04-01",
+      "series": "adjusted",
+      "value": 144.414524518674
+    },
+    {
+      "date": "2026-04-01",
+      "series": "original",
+      "value": 142.90693486317517
+    },
+    {
+      "date": "2026-04-01",
+      "series": "trend",
+      "value": 144.369951982501
+    },
+    {
+      "date": "2026-05-01",
+      "series": "adjusted",
+      "value": 146.328826238143
+    },
+    {
+      "date": "2026-05-01",
+      "series": "original",
+      "value": 147.07839101651373
+    },
+    {
+      "date": "2026-05-01",
+      "series": "trend",
+      "value": 145.042957717126
+    },
+    {
+      "date": "2026-06-01",
+      "series": "adjusted",
+      "value": 148.520554586313
+    },
+    {
+      "date": "2026-06-01",
+      "series": "original",
+      "value": 149.0491233410349
+    },
+    {
+      "date": "2026-06-01",
+      "series": "trend",
+      "value": 145.51096375854
+    },
+    {
+      "date": "2026-07-01",
+      "series": "adjusted",
+      "value": 143.563821998812
+    },
+    {
+      "date": "2026-07-01",
+      "series": "original",
+      "value": 146.35353542440873
+    },
+    {
+      "date": "2026-07-01",
+      "series": "trend",
+      "value": 145.825812794189
+    },
+    {
+      "date": "2026-08-01",
+      "series": "adjusted",
+      "value": 146.258846045077
+    },
+    {
+      "date": "2026-08-01",
+      "series": "original",
+      "value": 149.5546206227392
+    },
+    {
+      "date": "2026-08-01",
+      "series": "trend",
+      "value": 146.004426801092
+    },
+    {
+      "date": "2026-09-01",
+      "series": "adjusted",
+      "value": 146.121162074182
+    },
+    {
+      "date": "2026-09-01",
+      "series": "original",
+      "value": 146.16982490802445
+    },
+    {
+      "date": "2026-09-01",
+      "series": "trend",
+      "value": 146.05685404202
+    }
+  ],
+  "supportingSources": [
+    {
+      "label": "IPI minero · Publicaciones y metodología",
+      "url": "https://www.indec.gob.ar/Nivel4/Tema/3/7/172"
+    }
+  ],
+  "valueKind": "level",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-09-01",
+  "firstObservedPeriod": "2017-01-01",
+  "lastObservedBySeries": {
+    "original": "2026-09-01",
+    "adjusted": "2026-09-01",
+    "trend": "2026-09-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:47:43Z",
+  "lastAttemptAt": "2026-11-13T12:47:43Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "5125d65986de272f2fbfd4f053807ad929193c57ba5306efece8b8a2a38dfd70",
+  "rawSha256": "846517b9bd7e121639fea34fcc116a2d3164ca3dd188677ea109d5888158f7e6",
+  "dataChangedAt": "2026-11-13T05:37:04Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

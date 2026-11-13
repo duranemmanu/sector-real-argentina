@@ -1,0 +1,714 @@
+{
+  "id": "export-rubros",
+  "source": "INDEC · Exportaciones de bienes por grandes rubros",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/exp_gr_80_25.xls",
+  "frequency": "annual",
+  "unit": "miles de USD corrientes",
+  "series": [
+    {
+      "id": "total",
+      "label": "Total general",
+      "offset": 0,
+      "expect": "Total general"
+    },
+    {
+      "id": "primary",
+      "label": "Productos primarios",
+      "offset": 1,
+      "expect": "Productos primarios"
+    },
+    {
+      "id": "moa",
+      "label": "Manufacturas de origen agropecuario",
+      "offset": 2,
+      "expect": "agropecuario"
+    },
+    {
+      "id": "moi",
+      "label": "Manufacturas de origen industrial",
+      "offset": 3,
+      "expect": "industrial"
+    },
+    {
+      "id": "energy",
+      "label": "Combustibles y energía",
+      "offset": 4,
+      "expect": "Combustibles"
+    }
+  ],
+  "methodNote": "Exportaciones FOB, años completos publicados, cuatro grandes rubros y total. Año 2025 provisorio; actualizado por INDEC a junio de 2026. Participación = valor del rubro / total FOB del mismo año.",
+  "observations": [
+    {
+      "date": "2000-01-01",
+      "series": "energy",
+      "value": 4901883.553
+    },
+    {
+      "date": "2000-01-01",
+      "series": "moa",
+      "value": 7863597.224
+    },
+    {
+      "date": "2000-01-01",
+      "series": "moi",
+      "value": 8229989.742
+    },
+    {
+      "date": "2000-01-01",
+      "series": "primary",
+      "value": 5345558.466
+    },
+    {
+      "date": "2000-01-01",
+      "series": "total",
+      "value": 26341028.985
+    },
+    {
+      "date": "2001-01-01",
+      "series": "energy",
+      "value": 4724948.0
+    },
+    {
+      "date": "2001-01-01",
+      "series": "moa",
+      "value": 7460073.0
+    },
+    {
+      "date": "2001-01-01",
+      "series": "moi",
+      "value": 8305644.0
+    },
+    {
+      "date": "2001-01-01",
+      "series": "primary",
+      "value": 6052062.0
+    },
+    {
+      "date": "2001-01-01",
+      "series": "total",
+      "value": 26542727.0
+    },
+    {
+      "date": "2002-01-01",
+      "series": "energy",
+      "value": 4638835.0
+    },
+    {
+      "date": "2002-01-01",
+      "series": "moa",
+      "value": 8138352.0
+    },
+    {
+      "date": "2002-01-01",
+      "series": "moi",
+      "value": 7601332.0
+    },
+    {
+      "date": "2002-01-01",
+      "series": "primary",
+      "value": 5272080.0
+    },
+    {
+      "date": "2002-01-01",
+      "series": "total",
+      "value": 25650599.0
+    },
+    {
+      "date": "2003-01-01",
+      "series": "energy",
+      "value": 5416774.0
+    },
+    {
+      "date": "2003-01-01",
+      "series": "moa",
+      "value": 10004445.0
+    },
+    {
+      "date": "2003-01-01",
+      "series": "moi",
+      "value": 8046864.0
+    },
+    {
+      "date": "2003-01-01",
+      "series": "primary",
+      "value": 6470669.0
+    },
+    {
+      "date": "2003-01-01",
+      "series": "total",
+      "value": 29938752.0
+    },
+    {
+      "date": "2004-01-01",
+      "series": "energy",
+      "value": 6181026.0
+    },
+    {
+      "date": "2004-01-01",
+      "series": "moa",
+      "value": 11967418.0
+    },
+    {
+      "date": "2004-01-01",
+      "series": "moi",
+      "value": 9575731.0
+    },
+    {
+      "date": "2004-01-01",
+      "series": "primary",
+      "value": 6851559.0
+    },
+    {
+      "date": "2004-01-01",
+      "series": "total",
+      "value": 34575734.0
+    },
+    {
+      "date": "2005-01-01",
+      "series": "energy",
+      "value": 7150056.0
+    },
+    {
+      "date": "2005-01-01",
+      "series": "moa",
+      "value": 13141654.0
+    },
+    {
+      "date": "2005-01-01",
+      "series": "moi",
+      "value": 11984798.0
+    },
+    {
+      "date": "2005-01-01",
+      "series": "primary",
+      "value": 8110253.0
+    },
+    {
+      "date": "2005-01-01",
+      "series": "total",
+      "value": 40386762.0
+    },
+    {
+      "date": "2006-01-01",
+      "series": "energy",
+      "value": 7812990.78082
+    },
+    {
+      "date": "2006-01-01",
+      "series": "moa",
+      "value": 15265191.977149999
+    },
+    {
+      "date": "2006-01-01",
+      "series": "moi",
+      "value": 14842898.42952
+    },
+    {
+      "date": "2006-01-01",
+      "series": "primary",
+      "value": 8625121.89026
+    },
+    {
+      "date": "2006-01-01",
+      "series": "total",
+      "value": 46546203.07775
+    },
+    {
+      "date": "2007-01-01",
+      "series": "energy",
+      "value": 6948878.0
+    },
+    {
+      "date": "2007-01-01",
+      "series": "moa",
+      "value": 19213617.0
+    },
+    {
+      "date": "2007-01-01",
+      "series": "moi",
+      "value": 17332786.0
+    },
+    {
+      "date": "2007-01-01",
+      "series": "primary",
+      "value": 12485028.0
+    },
+    {
+      "date": "2007-01-01",
+      "series": "total",
+      "value": 55980309.0
+    },
+    {
+      "date": "2008-01-01",
+      "series": "energy",
+      "value": 7847757.0
+    },
+    {
+      "date": "2008-01-01",
+      "series": "moa",
+      "value": 23906277.0
+    },
+    {
+      "date": "2008-01-01",
+      "series": "moi",
+      "value": 22063368.0
+    },
+    {
+      "date": "2008-01-01",
+      "series": "primary",
+      "value": 16201438.0
+    },
+    {
+      "date": "2008-01-01",
+      "series": "total",
+      "value": 70018839.0
+    },
+    {
+      "date": "2009-01-01",
+      "series": "energy",
+      "value": 6456605.0
+    },
+    {
+      "date": "2009-01-01",
+      "series": "moa",
+      "value": 21224929.0
+    },
+    {
+      "date": "2009-01-01",
+      "series": "moi",
+      "value": 18733692.0
+    },
+    {
+      "date": "2009-01-01",
+      "series": "primary",
+      "value": 9256871.0
+    },
+    {
+      "date": "2009-01-01",
+      "series": "total",
+      "value": 55672097.0
+    },
+    {
+      "date": "2010-01-01",
+      "series": "energy",
+      "value": 6525162.0
+    },
+    {
+      "date": "2010-01-01",
+      "series": "moa",
+      "value": 22671108.0
+    },
+    {
+      "date": "2010-01-01",
+      "series": "moi",
+      "value": 23829617.0
+    },
+    {
+      "date": "2010-01-01",
+      "series": "primary",
+      "value": 15148560.0
+    },
+    {
+      "date": "2010-01-01",
+      "series": "total",
+      "value": 68174447.0
+    },
+    {
+      "date": "2011-01-01",
+      "series": "energy",
+      "value": 6681680.0
+    },
+    {
+      "date": "2011-01-01",
+      "series": "moa",
+      "value": 27675826.0
+    },
+    {
+      "date": "2011-01-01",
+      "series": "moi",
+      "value": 28790265.0
+    },
+    {
+      "date": "2011-01-01",
+      "series": "primary",
+      "value": 19833320.0
+    },
+    {
+      "date": "2011-01-01",
+      "series": "total",
+      "value": 82981091.0
+    },
+    {
+      "date": "2012-01-01",
+      "series": "energy",
+      "value": 6978016.0
+    },
+    {
+      "date": "2012-01-01",
+      "series": "moa",
+      "value": 26783659.0
+    },
+    {
+      "date": "2012-01-01",
+      "series": "moi",
+      "value": 27180876.0
+    },
+    {
+      "date": "2012-01-01",
+      "series": "primary",
+      "value": 19039837.0
+    },
+    {
+      "date": "2012-01-01",
+      "series": "total",
+      "value": 79982388.0
+    },
+    {
+      "date": "2013-01-01",
+      "series": "energy",
+      "value": 5561574.0
+    },
+    {
+      "date": "2013-01-01",
+      "series": "moa",
+      "value": 27002177.0
+    },
+    {
+      "date": "2013-01-01",
+      "series": "moi",
+      "value": 25633339.0
+    },
+    {
+      "date": "2013-01-01",
+      "series": "primary",
+      "value": 17765891.0
+    },
+    {
+      "date": "2013-01-01",
+      "series": "total",
+      "value": 75962981.0
+    },
+    {
+      "date": "2014-01-01",
+      "series": "energy",
+      "value": 4942604.965910001
+    },
+    {
+      "date": "2014-01-01",
+      "series": "moa",
+      "value": 26420435.168029994
+    },
+    {
+      "date": "2014-01-01",
+      "series": "moi",
+      "value": 22823467.86554
+    },
+    {
+      "date": "2014-01-01",
+      "series": "primary",
+      "value": 14217838.61877
+    },
+    {
+      "date": "2014-01-01",
+      "series": "total",
+      "value": 68404346.61825
+    },
+    {
+      "date": "2015-01-01",
+      "series": "energy",
+      "value": 2245622.9782999996
+    },
+    {
+      "date": "2015-01-01",
+      "series": "moa",
+      "value": 23287748.757410005
+    },
+    {
+      "date": "2015-01-01",
+      "series": "moi",
+      "value": 17949292.48646
+    },
+    {
+      "date": "2015-01-01",
+      "series": "primary",
+      "value": 13301288.281510003
+    },
+    {
+      "date": "2015-01-01",
+      "series": "total",
+      "value": 56783952.50368
+    },
+    {
+      "date": "2016-01-01",
+      "series": "energy",
+      "value": 2048042.0
+    },
+    {
+      "date": "2016-01-01",
+      "series": "moa",
+      "value": 23362014.0
+    },
+    {
+      "date": "2016-01-01",
+      "series": "moi",
+      "value": 16805506.0
+    },
+    {
+      "date": "2016-01-01",
+      "series": "primary",
+      "value": 15693535.0
+    },
+    {
+      "date": "2016-01-01",
+      "series": "total",
+      "value": 57909097.0
+    },
+    {
+      "date": "2017-01-01",
+      "series": "energy",
+      "value": 2478478.0
+    },
+    {
+      "date": "2017-01-01",
+      "series": "moa",
+      "value": 22563579.0
+    },
+    {
+      "date": "2017-01-01",
+      "series": "moi",
+      "value": 18789151.0
+    },
+    {
+      "date": "2017-01-01",
+      "series": "primary",
+      "value": 14813526.0
+    },
+    {
+      "date": "2017-01-01",
+      "series": "total",
+      "value": 58644734.0
+    },
+    {
+      "date": "2018-01-01",
+      "series": "energy",
+      "value": 4201212.0
+    },
+    {
+      "date": "2018-01-01",
+      "series": "moa",
+      "value": 22941079.0
+    },
+    {
+      "date": "2018-01-01",
+      "series": "moi",
+      "value": 20618148.0
+    },
+    {
+      "date": "2018-01-01",
+      "series": "primary",
+      "value": 14021090.0
+    },
+    {
+      "date": "2018-01-01",
+      "series": "total",
+      "value": 61781528.0
+    },
+    {
+      "date": "2019-01-01",
+      "series": "energy",
+      "value": 4421562.0
+    },
+    {
+      "date": "2019-01-01",
+      "series": "moa",
+      "value": 23962094.0
+    },
+    {
+      "date": "2019-01-01",
+      "series": "moi",
+      "value": 19211245.0
+    },
+    {
+      "date": "2019-01-01",
+      "series": "primary",
+      "value": 17520425.0
+    },
+    {
+      "date": "2019-01-01",
+      "series": "total",
+      "value": 65115325.0
+    },
+    {
+      "date": "2020-01-01",
+      "series": "energy",
+      "value": 3593172.9284099997
+    },
+    {
+      "date": "2020-01-01",
+      "series": "moa",
+      "value": 21786306.762939997
+    },
+    {
+      "date": "2020-01-01",
+      "series": "moi",
+      "value": 13297656.43858
+    },
+    {
+      "date": "2020-01-01",
+      "series": "primary",
+      "value": 16206686.315709999
+    },
+    {
+      "date": "2020-01-01",
+      "series": "total",
+      "value": 54883822.44564
+    },
+    {
+      "date": "2021-01-01",
+      "series": "energy",
+      "value": 5283607.2944
+    },
+    {
+      "date": "2021-01-01",
+      "series": "moa",
+      "value": 30928745.138830002
+    },
+    {
+      "date": "2021-01-01",
+      "series": "moi",
+      "value": 19913438.58073
+    },
+    {
+      "date": "2021-01-01",
+      "series": "primary",
+      "value": 21808523.97262
+    },
+    {
+      "date": "2021-01-01",
+      "series": "total",
+      "value": 77934314.98658
+    },
+    {
+      "date": "2022-01-01",
+      "series": "energy",
+      "value": 8588990.81974
+    },
+    {
+      "date": "2022-01-01",
+      "series": "moa",
+      "value": 33172791.168580003
+    },
+    {
+      "date": "2022-01-01",
+      "series": "moi",
+      "value": 23108469.14736
+    },
+    {
+      "date": "2022-01-01",
+      "series": "primary",
+      "value": 23832625.469419997
+    },
+    {
+      "date": "2022-01-01",
+      "series": "total",
+      "value": 88702876.6051
+    },
+    {
+      "date": "2023-01-01",
+      "series": "energy",
+      "value": 7927627.23299
+    },
+    {
+      "date": "2023-01-01",
+      "series": "moa",
+      "value": 23907962.04181
+    },
+    {
+      "date": "2023-01-01",
+      "series": "moi",
+      "value": 20681094.38178
+    },
+    {
+      "date": "2023-01-01",
+      "series": "primary",
+      "value": 14438962.04668
+    },
+    {
+      "date": "2023-01-01",
+      "series": "total",
+      "value": 66955645.70326
+    },
+    {
+      "date": "2024-01-01",
+      "series": "energy",
+      "value": 9717083.12146
+    },
+    {
+      "date": "2024-01-01",
+      "series": "moa",
+      "value": 29655521.06404
+    },
+    {
+      "date": "2024-01-01",
+      "series": "moi",
+      "value": 22053967.75636
+    },
+    {
+      "date": "2024-01-01",
+      "series": "primary",
+      "value": 18276634.78039
+    },
+    {
+      "date": "2024-01-01",
+      "series": "total",
+      "value": 79703206.72225
+    },
+    {
+      "date": "2025-01-01",
+      "series": "energy",
+      "value": 11100163.11483
+    },
+    {
+      "date": "2025-01-01",
+      "series": "moa",
+      "value": 30464106.72908
+    },
+    {
+      "date": "2025-01-01",
+      "series": "moi",
+      "value": 23395162.54836
+    },
+    {
+      "date": "2025-01-01",
+      "series": "primary",
+      "value": 22151764.42576
+    },
+    {
+      "date": "2025-01-01",
+      "series": "total",
+      "value": 87111196.81803
+    }
+  ],
+  "valueKind": "level",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2025-01-01",
+  "firstObservedPeriod": "2000-01-01",
+  "lastObservedBySeries": {
+    "total": "2025-01-01",
+    "primary": "2025-01-01",
+    "moa": "2025-01-01",
+    "moi": "2025-01-01",
+    "energy": "2025-01-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:46:24Z",
+  "lastAttemptAt": "2026-11-13T12:46:24Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "b448faf5584c4711ef9a2ac279e69a4fea6248fb944423a34d5c479b95b92bf6",
+  "rawSha256": "2ab12b216f411593d14c98e4b1fcd077af9bec4d72ab199bf425e92987d5bf32",
+  "dataChangedAt": "2026-11-12T04:21:25Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

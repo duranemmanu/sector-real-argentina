@@ -1,0 +1,123 @@
+{
+  "id": "credit-supermarket-ytd",
+  "source": "INDEC · Encuesta de supermercados",
+  "sourceUrl": "https://infra.datos.gob.ar/catalog/sspm/dataset/455/distribution/455.1/download/ventas-totales-supermercados-2.csv",
+  "frequency": "monthly",
+  "unit": "% acumulado del año vs. mismos meses del año de referencia",
+  "series": [
+    {
+      "id": "vs2023",
+      "label": "Frente a 2023",
+      "inputSeries": "455.1_VENTAS_PRENAL_0_M_34_10",
+      "referenceYear": 2023
+    },
+    {
+      "id": "vsPrevious",
+      "label": "Frente al año anterior",
+      "inputSeries": "455.1_VENTAS_PRENAL_0_M_34_10"
+    }
+  ],
+  "methodNote": "Se suman índices originales a precios constantes de enero al último mes de cada período y se comparan con exactamente los mismos meses de 2023 o del año anterior. No se compara un año parcial con un año completo. No es consumo nacional total.",
+  "observations": [
+    {
+      "date": "2026-01-01",
+      "series": "vs2023",
+      "value": -11.332671185617382
+    },
+    {
+      "date": "2026-01-01",
+      "series": "vsPrevious",
+      "value": -1.185253935731423
+    },
+    {
+      "date": "2026-02-01",
+      "series": "vs2023",
+      "value": -12.13962932719037
+    },
+    {
+      "date": "2026-02-01",
+      "series": "vsPrevious",
+      "value": -2.1042721815926257
+    },
+    {
+      "date": "2026-03-01",
+      "series": "vs2023",
+      "value": -11.873887241813563
+    },
+    {
+      "date": "2026-03-01",
+      "series": "vsPrevious",
+      "value": -3.1438476920819802
+    },
+    {
+      "date": "2026-04-01",
+      "series": "vs2023",
+      "value": -12.288811143373069
+    },
+    {
+      "date": "2026-04-01",
+      "series": "vsPrevious",
+      "value": -3.2808616486717956
+    },
+    {
+      "date": "2026-05-01",
+      "series": "vs2023",
+      "value": -10.902849685376792
+    },
+    {
+      "date": "2026-05-01",
+      "series": "vsPrevious",
+      "value": -2.7674514580815046
+    },
+    {
+      "date": "2026-06-01",
+      "series": "vs2023",
+      "value": -10.68535233840403
+    },
+    {
+      "date": "2026-06-01",
+      "series": "vsPrevious",
+      "value": -2.826546441348532
+    },
+    {
+      "date": "2026-07-01",
+      "series": "vs2023",
+      "value": -11.065068075073004
+    },
+    {
+      "date": "2026-07-01",
+      "series": "vsPrevious",
+      "value": -2.718268157804804
+    },
+    {
+      "date": "2026-08-01",
+      "series": "vs2023",
+      "value": -11.331760600937724
+    },
+    {
+      "date": "2026-08-01",
+      "series": "vsPrevious",
+      "value": -2.8468410811679834
+    }
+  ],
+  "valueKind": "rate",
+  "supportingSources": [],
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-08-01",
+  "firstObservedPeriod": "2026-01-01",
+  "lastObservedBySeries": {
+    "vs2023": "2026-08-01",
+    "vsPrevious": "2026-08-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:46:18Z",
+  "lastAttemptAt": "2026-11-13T12:47:37Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "7501bbcee0f216baa3ce46abf6cb650e32b6809e140db32376bb6393eba0c2d5",
+  "rawSha256": "8d3e387c7b79d0dc4fd6515983ba3f84544b6f29c3263e4d9273c7bfb9f31a29",
+  "dataChangedAt": "2026-11-13T03:19:34Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

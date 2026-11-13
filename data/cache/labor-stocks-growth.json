@@ -1,0 +1,309 @@
+{
+  "id": "labor-stocks-growth",
+  "source": "INDEC · EPH",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/sociedad/cuadros_tasas_indicadores_eph_09_26.xls",
+  "frequency": "quarterly",
+  "unit": "% de variación interanual",
+  "series": [
+    {
+      "id": "active",
+      "label": "Población económicamente activa",
+      "rowLabel": "Población económicamente activa"
+    },
+    {
+      "id": "employed",
+      "label": "Ocupados",
+      "rowLabel": "Población ocupada"
+    },
+    {
+      "id": "unemployed",
+      "label": "Desocupados",
+      "rowLabel": "Población desocupada"
+    },
+    {
+      "id": "informal",
+      "label": "Ocupados informales",
+      "rowLabel": "Población con empleo informal (3)"
+    },
+    {
+      "id": "other_employed",
+      "label": "Resto de ocupados"
+    }
+  ],
+  "methodNote": "Encuesta Permanente de Hogares, total de 31 aglomerados urbanos: no equivale a toda la población argentina. Niveles en miles de personas, con la precisión de la planilla oficial. Comparaciones interanuales entre el mismo trimestre de años consecutivos. La formalidad se mide con el cuestionario ampliado desde el cuarto trimestre de 2023. Al ampliar la historia, el tercer trimestre de 2019 excluye Gran Resistencia y el tercero de 2020 excluye Ushuaia–Río Grande. Resto de ocupados = ocupados menos ocupados informales; puede incluir hasta 0,2% sin dato de formalidad. No se lo identifica como empleo formal ni como empleo registrado SIPA. Cambio calculado entre el mismo trimestre de años consecutivos; las diferencias absolutas no equivalen a flujos brutos de personas.",
+  "observations": [
+    {
+      "date": "2024-01-01",
+      "series": "active",
+      "value": 0.26120720084716886
+    },
+    {
+      "date": "2024-01-01",
+      "series": "employed",
+      "value": -0.583731331968762
+    },
+    {
+      "date": "2024-01-01",
+      "series": "informal",
+      "value": null
+    },
+    {
+      "date": "2024-01-01",
+      "series": "other_employed",
+      "value": null
+    },
+    {
+      "date": "2024-01-01",
+      "series": "unemployed",
+      "value": 11.704312114989722
+    },
+    {
+      "date": "2024-04-01",
+      "series": "active",
+      "value": 2.904864091559367
+    },
+    {
+      "date": "2024-04-01",
+      "series": "employed",
+      "value": 1.4487335978028648
+    },
+    {
+      "date": "2024-04-01",
+      "series": "informal",
+      "value": null
+    },
+    {
+      "date": "2024-04-01",
+      "series": "other_employed",
+      "value": null
+    },
+    {
+      "date": "2024-04-01",
+      "series": "unemployed",
+      "value": 24.79357798165138
+    },
+    {
+      "date": "2024-07-01",
+      "series": "active",
+      "value": 1.069669247009153
+    },
+    {
+      "date": "2024-07-01",
+      "series": "employed",
+      "value": -0.20901761719915868
+    },
+    {
+      "date": "2024-07-01",
+      "series": "informal",
+      "value": null
+    },
+    {
+      "date": "2024-07-01",
+      "series": "other_employed",
+      "value": null
+    },
+    {
+      "date": "2024-07-01",
+      "series": "unemployed",
+      "value": 22.113022113022108
+    },
+    {
+      "date": "2024-10-01",
+      "series": "active",
+      "value": 1.3458856345885728
+    },
+    {
+      "date": "2024-10-01",
+      "series": "employed",
+      "value": 0.5770084332001879
+    },
+    {
+      "date": "2024-10-01",
+      "series": "informal",
+      "value": 2.0911528150133973
+    },
+    {
+      "date": "2024-10-01",
+      "series": "other_employed",
+      "value": -0.49223778871639867
+    },
+    {
+      "date": "2024-10-01",
+      "series": "unemployed",
+      "value": 13.990267639902676
+    },
+    {
+      "date": "2025-01-01",
+      "series": "active",
+      "value": 1.355442895366843
+    },
+    {
+      "date": "2025-01-01",
+      "series": "employed",
+      "value": 1.104232118346804
+    },
+    {
+      "date": "2025-01-01",
+      "series": "informal",
+      "value": 4.186133433003181
+    },
+    {
+      "date": "2025-01-01",
+      "series": "other_employed",
+      "value": -1.0201082055906308
+    },
+    {
+      "date": "2025-01-01",
+      "series": "unemployed",
+      "value": 4.4117647058823595
+    },
+    {
+      "date": "2025-04-01",
+      "series": "active",
+      "value": 0.06186527272853404
+    },
+    {
+      "date": "2025-04-01",
+      "series": "employed",
+      "value": 0.04587190458644752
+    },
+    {
+      "date": "2025-04-01",
+      "series": "informal",
+      "value": 4.089017550208074
+    },
+    {
+      "date": "2025-04-01",
+      "series": "other_employed",
+      "value": -2.8297880554375876
+    },
+    {
+      "date": "2025-04-01",
+      "series": "unemployed",
+      "value": 0.2573056423451625
+    },
+    {
+      "date": "2025-07-01",
+      "series": "active",
+      "value": 1.4064893468876294
+    },
+    {
+      "date": "2025-07-01",
+      "series": "employed",
+      "value": 1.7803710353081925
+    },
+    {
+      "date": "2025-07-01",
+      "series": "informal",
+      "value": 3.5325131810193255
+    },
+    {
+      "date": "2025-07-01",
+      "series": "other_employed",
+      "value": 0.4818963271685295
+    },
+    {
+      "date": "2025-07-01",
+      "series": "unemployed",
+      "value": -3.621730382293764
+    },
+    {
+      "date": "2025-10-01",
+      "series": "active",
+      "value": 0.43349618110506416
+    },
+    {
+      "date": "2025-10-01",
+      "series": "employed",
+      "value": -0.6840247131509214
+    },
+    {
+      "date": "2025-10-01",
+      "series": "informal",
+      "value": 1.680672268907557
+    },
+    {
+      "date": "2025-10-01",
+      "series": "other_employed",
+      "value": -2.397260273972601
+    },
+    {
+      "date": "2025-10-01",
+      "series": "unemployed",
+      "value": 16.648879402347916
+    },
+    {
+      "date": "2026-01-01",
+      "series": "active",
+      "value": 1.540171593316897
+    },
+    {
+      "date": "2026-01-01",
+      "series": "employed",
+      "value": 1.6049028234738305
+    },
+    {
+      "date": "2026-01-01",
+      "series": "informal",
+      "value": 6.8089686098654845
+    },
+    {
+      "date": "2026-01-01",
+      "series": "other_employed",
+      "value": -2.170915492563641
+    },
+    {
+      "date": "2026-01-01",
+      "series": "unemployed",
+      "value": 0.7570422535211119
+    },
+    {
+      "date": "2026-04-01",
+      "series": "active",
+      "value": 2.3501215699895717
+    },
+    {
+      "date": "2026-04-01",
+      "series": "employed",
+      "value": 1.9911304870715574
+    },
+    {
+      "date": "2026-04-01",
+      "series": "informal",
+      "value": 6.050756127237977
+    },
+    {
+      "date": "2026-04-01",
+      "series": "other_employed",
+      "value": -1.1018408157860038
+    },
+    {
+      "date": "2026-04-01",
+      "series": "unemployed",
+      "value": 6.727772685609534
+    }
+  ],
+  "valueKind": "rate",
+  "supportingSources": [],
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-04-01",
+  "firstObservedPeriod": "2024-01-01",
+  "lastObservedBySeries": {
+    "active": "2026-04-01",
+    "employed": "2026-04-01",
+    "unemployed": "2026-04-01",
+    "informal": "2026-04-01",
+    "other_employed": "2026-04-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:47:47Z",
+  "lastAttemptAt": "2026-11-13T12:47:48Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "76ef22ef287f91dbb26660578c92d6d9e19b58e9d6e0cf1b41e1c0b74c3e3bf0",
+  "rawSha256": "317b5c84dc08c5e3d31b773a1819f68f1424ceaf0b65be600db5f37c0fa465fb",
+  "dataChangedAt": "2026-11-13T12:47:48Z",
+  "revisedObservations": 0,
+  "newObservations": 10,
+  "changedSinceLastFetch": true
+}

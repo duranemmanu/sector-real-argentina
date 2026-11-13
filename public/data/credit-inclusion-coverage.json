@@ -1,0 +1,407 @@
+{
+  "id": "credit-inclusion-coverage",
+  "source": "BCRA · Informe de Inclusión Financiera",
+  "sourceUrl": "https://www.bcra.gob.ar/archivos/Pdfs/publicacionesestadisticas/informes/informe-inclusion-financiera-2026-S1-anexo-estadistico.xlsx",
+  "frequency": "monthly",
+  "unit": "% de la población adulta de referencia",
+  "series": [
+    {
+      "id": "coverage",
+      "label": "Deudores sobre población adulta",
+      "column": 2,
+      "headerToken": "pob. adulta"
+    }
+  ],
+  "methodNote": "Anexo estadístico, gráfico 2.3.2: cantidad de deudores con crédito sobre población adulta de referencia. No es la proporción de deudores en mora. Publicación semestral con observaciones mensuales.",
+  "observations": [
+    {
+      "date": "2020-06-01",
+      "series": "coverage",
+      "value": 47.5
+    },
+    {
+      "date": "2020-07-01",
+      "series": "coverage",
+      "value": 47.62
+    },
+    {
+      "date": "2020-08-01",
+      "series": "coverage",
+      "value": 47.64
+    },
+    {
+      "date": "2020-09-01",
+      "series": "coverage",
+      "value": 47.0199999999999
+    },
+    {
+      "date": "2020-10-01",
+      "series": "coverage",
+      "value": 47.05
+    },
+    {
+      "date": "2020-11-01",
+      "series": "coverage",
+      "value": 47.11
+    },
+    {
+      "date": "2020-12-01",
+      "series": "coverage",
+      "value": 47.2
+    },
+    {
+      "date": "2021-01-01",
+      "series": "coverage",
+      "value": 46.7499999999999
+    },
+    {
+      "date": "2021-02-01",
+      "series": "coverage",
+      "value": 46.69
+    },
+    {
+      "date": "2021-03-01",
+      "series": "coverage",
+      "value": 48.1
+    },
+    {
+      "date": "2021-04-01",
+      "series": "coverage",
+      "value": 48.32
+    },
+    {
+      "date": "2021-05-01",
+      "series": "coverage",
+      "value": 48.3799999999999
+    },
+    {
+      "date": "2021-06-01",
+      "series": "coverage",
+      "value": 48.42
+    },
+    {
+      "date": "2021-07-01",
+      "series": "coverage",
+      "value": 48.67
+    },
+    {
+      "date": "2021-08-01",
+      "series": "coverage",
+      "value": 48.95
+    },
+    {
+      "date": "2021-09-01",
+      "series": "coverage",
+      "value": 49.0
+    },
+    {
+      "date": "2021-10-01",
+      "series": "coverage",
+      "value": 49.65
+    },
+    {
+      "date": "2021-11-01",
+      "series": "coverage",
+      "value": 50.32
+    },
+    {
+      "date": "2021-12-01",
+      "series": "coverage",
+      "value": 50.42
+    },
+    {
+      "date": "2022-01-01",
+      "series": "coverage",
+      "value": 50.66
+    },
+    {
+      "date": "2022-02-01",
+      "series": "coverage",
+      "value": 51.31
+    },
+    {
+      "date": "2022-03-01",
+      "series": "coverage",
+      "value": 51.8099999999999
+    },
+    {
+      "date": "2022-04-01",
+      "series": "coverage",
+      "value": 52.21
+    },
+    {
+      "date": "2022-05-01",
+      "series": "coverage",
+      "value": 52.57
+    },
+    {
+      "date": "2022-06-01",
+      "series": "coverage",
+      "value": 51.9599999999999
+    },
+    {
+      "date": "2022-07-01",
+      "series": "coverage",
+      "value": 52.18
+    },
+    {
+      "date": "2022-08-01",
+      "series": "coverage",
+      "value": 52.5699999999999
+    },
+    {
+      "date": "2022-09-01",
+      "series": "coverage",
+      "value": 52.83
+    },
+    {
+      "date": "2022-10-01",
+      "series": "coverage",
+      "value": 53.22
+    },
+    {
+      "date": "2022-11-01",
+      "series": "coverage",
+      "value": 53.5199999999999
+    },
+    {
+      "date": "2022-12-01",
+      "series": "coverage",
+      "value": 53.6899999999999
+    },
+    {
+      "date": "2023-01-01",
+      "series": "coverage",
+      "value": 53.97
+    },
+    {
+      "date": "2023-02-01",
+      "series": "coverage",
+      "value": 54.12
+    },
+    {
+      "date": "2023-03-01",
+      "series": "coverage",
+      "value": 54.38
+    },
+    {
+      "date": "2023-04-01",
+      "series": "coverage",
+      "value": 54.5199999999999
+    },
+    {
+      "date": "2023-05-01",
+      "series": "coverage",
+      "value": 54.6699999999999
+    },
+    {
+      "date": "2023-06-01",
+      "series": "coverage",
+      "value": 54.69
+    },
+    {
+      "date": "2023-07-01",
+      "series": "coverage",
+      "value": 54.97
+    },
+    {
+      "date": "2023-08-01",
+      "series": "coverage",
+      "value": 55.2799999999999
+    },
+    {
+      "date": "2023-09-01",
+      "series": "coverage",
+      "value": 55.21
+    },
+    {
+      "date": "2023-10-01",
+      "series": "coverage",
+      "value": 55.42
+    },
+    {
+      "date": "2023-11-01",
+      "series": "coverage",
+      "value": 55.47
+    },
+    {
+      "date": "2023-12-01",
+      "series": "coverage",
+      "value": 55.53
+    },
+    {
+      "date": "2024-01-01",
+      "series": "coverage",
+      "value": 55.87
+    },
+    {
+      "date": "2024-02-01",
+      "series": "coverage",
+      "value": 55.52
+    },
+    {
+      "date": "2024-03-01",
+      "series": "coverage",
+      "value": 55.48
+    },
+    {
+      "date": "2024-04-01",
+      "series": "coverage",
+      "value": 55.64
+    },
+    {
+      "date": "2024-05-01",
+      "series": "coverage",
+      "value": 56.0
+    },
+    {
+      "date": "2024-06-01",
+      "series": "coverage",
+      "value": 55.89
+    },
+    {
+      "date": "2024-07-01",
+      "series": "coverage",
+      "value": 47.03
+    },
+    {
+      "date": "2024-08-01",
+      "series": "coverage",
+      "value": 47.88
+    },
+    {
+      "date": "2024-09-01",
+      "series": "coverage",
+      "value": 48.64
+    },
+    {
+      "date": "2024-10-01",
+      "series": "coverage",
+      "value": 49.45
+    },
+    {
+      "date": "2024-11-01",
+      "series": "coverage",
+      "value": 50.0899999999999
+    },
+    {
+      "date": "2024-12-01",
+      "series": "coverage",
+      "value": 50.2899999999999
+    },
+    {
+      "date": "2025-01-01",
+      "series": "coverage",
+      "value": 50.83
+    },
+    {
+      "date": "2025-02-01",
+      "series": "coverage",
+      "value": 51.08
+    },
+    {
+      "date": "2025-03-01",
+      "series": "coverage",
+      "value": 51.43
+    },
+    {
+      "date": "2025-04-01",
+      "series": "coverage",
+      "value": 52.0
+    },
+    {
+      "date": "2025-05-01",
+      "series": "coverage",
+      "value": 52.44
+    },
+    {
+      "date": "2025-06-01",
+      "series": "coverage",
+      "value": 52.84
+    },
+    {
+      "date": "2025-07-01",
+      "series": "coverage",
+      "value": 53.87
+    },
+    {
+      "date": "2025-08-01",
+      "series": "coverage",
+      "value": 54.36
+    },
+    {
+      "date": "2025-09-01",
+      "series": "coverage",
+      "value": 54.43
+    },
+    {
+      "date": "2025-10-01",
+      "series": "coverage",
+      "value": 54.6699999999999
+    },
+    {
+      "date": "2025-11-01",
+      "series": "coverage",
+      "value": 54.75
+    },
+    {
+      "date": "2025-12-01",
+      "series": "coverage",
+      "value": 54.88
+    },
+    {
+      "date": "2026-01-01",
+      "series": "coverage",
+      "value": 54.99
+    },
+    {
+      "date": "2026-02-01",
+      "series": "coverage",
+      "value": 55.0899999999999
+    },
+    {
+      "date": "2026-03-01",
+      "series": "coverage",
+      "value": 55.25
+    },
+    {
+      "date": "2026-04-01",
+      "series": "coverage",
+      "value": 55.16
+    },
+    {
+      "date": "2026-05-01",
+      "series": "coverage",
+      "value": 55.34
+    },
+    {
+      "date": "2026-06-01",
+      "series": "coverage",
+      "value": 55.16
+    }
+  ],
+  "valueKind": "percentage",
+  "supportingSources": [
+    {
+      "label": "Publicación BCRA",
+      "url": "https://www.bcra.gob.ar/publicaciones/informe-de-inclusion-financiera-primer-semestre-2026/"
+    }
+  ],
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-06-01",
+  "firstObservedPeriod": "2020-06-01",
+  "lastObservedBySeries": {
+    "coverage": "2026-06-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:47:42Z",
+  "lastAttemptAt": "2026-11-13T12:47:42Z",
+  "sourcePublishedAt": "2026-10-30",
+  "isAutoUpdated": true,
+  "contentHash": "ef61193817c87753534c517a6c7ccc79994dd7a10fe89039c9f1a881b449941c",
+  "rawSha256": "0aa464512b808226c64f9e41ba6795f5b0fc0f83dfcef600a9f362901070412c",
+  "dataChangedAt": "2026-11-13T03:19:34Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

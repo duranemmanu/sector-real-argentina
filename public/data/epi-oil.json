@@ -1,0 +1,125 @@
+{
+  "id": "epi-oil",
+  "source": "INDEC · Estadísticas de Productos Industriales (EPI)",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls",
+  "frequency": "monthly",
+  "unit": "miles de metros cúbicos",
+  "series": [
+    {
+      "column": 1,
+      "id": "oil",
+      "label": "Producción de petróleo crudo"
+    }
+  ],
+  "methodNote": "Niveles mensuales publicados en EPI; datos preliminares según asteriscos del cuadro. Los símbolos de ausencia se conservan como null. No se mezclan totales anuales con meses.",
+  "observations": [
+    {
+      "date": "2025-01-01",
+      "series": "oil",
+      "value": 3684.688144799998
+    },
+    {
+      "date": "2025-02-01",
+      "series": "oil",
+      "value": 3320.2525107999995
+    },
+    {
+      "date": "2025-03-01",
+      "series": "oil",
+      "value": 3689.254140799998
+    },
+    {
+      "date": "2025-04-01",
+      "series": "oil",
+      "value": 3539.613656099996
+    },
+    {
+      "date": "2025-05-01",
+      "series": "oil",
+      "value": 3685.7498182000027
+    },
+    {
+      "date": "2025-06-01",
+      "series": "oil",
+      "value": 3697.008464900002
+    },
+    {
+      "date": "2025-07-01",
+      "series": "oil",
+      "value": 3969.271001600002
+    },
+    {
+      "date": "2025-08-01",
+      "series": "oil",
+      "value": 4028.0270357000018
+    },
+    {
+      "date": "2025-09-01",
+      "series": "oil",
+      "value": 3979.6289321999984
+    },
+    {
+      "date": "2025-10-01",
+      "series": "oil",
+      "value": 4196.2955677
+    },
+    {
+      "date": "2025-11-01",
+      "series": "oil",
+      "value": 4048.8528201999993
+    },
+    {
+      "date": "2025-12-01",
+      "series": "oil",
+      "value": 4285.3633134999955
+    },
+    {
+      "date": "2026-01-01",
+      "series": "oil",
+      "value": 4311.827448900002
+    },
+    {
+      "date": "2026-02-01",
+      "series": "oil",
+      "value": 3850.690539299998
+    },
+    {
+      "date": "2026-03-01",
+      "series": "oil",
+      "value": 4287.536547900001
+    },
+    {
+      "date": "2026-04-01",
+      "series": "oil",
+      "value": 4221.089954400002
+    },
+    {
+      "date": "2026-05-01",
+      "series": "oil",
+      "value": 4409.238693599999
+    },
+    {
+      "date": "2026-06-01",
+      "series": "oil",
+      "value": 4300.910925299999
+    }
+  ],
+  "valueKind": "level",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-06-01",
+  "firstObservedPeriod": "2025-01-01",
+  "lastObservedBySeries": {
+    "oil": "2026-06-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:46:21Z",
+  "lastAttemptAt": "2026-11-13T12:46:21Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "5b19b818ee3e9ae0fe12a954b3da3aa8d8f25faa306846f81a517f2f2941bb0f",
+  "rawSha256": "ac6a6584754c1e770f42c790f32c6a295e4aaa6ef73753facba35e799bb154fb",
+  "dataChangedAt": "2026-11-12T03:32:54Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

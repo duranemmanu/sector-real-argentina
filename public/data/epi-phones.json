@@ -1,0 +1,130 @@
+{
+  "id": "epi-phones",
+  "source": "INDEC · Estadísticas de Productos Industriales (EPI)",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls",
+  "frequency": "monthly",
+  "unit": "unidades",
+  "series": [
+    {
+      "column": 1,
+      "id": "phones",
+      "label": "Teléfonos celulares"
+    }
+  ],
+  "methodNote": "Niveles mensuales publicados en EPI; datos preliminares según asteriscos del cuadro. Los símbolos de ausencia se conservan como null. No se mezclan totales anuales con meses.",
+  "observations": [
+    {
+      "date": "2025-01-01",
+      "series": "phones",
+      "value": 393358.0
+    },
+    {
+      "date": "2025-02-01",
+      "series": "phones",
+      "value": 544721.0
+    },
+    {
+      "date": "2025-03-01",
+      "series": "phones",
+      "value": 530607.0
+    },
+    {
+      "date": "2025-04-01",
+      "series": "phones",
+      "value": 579150.0
+    },
+    {
+      "date": "2025-05-01",
+      "series": "phones",
+      "value": 413639.0
+    },
+    {
+      "date": "2025-06-01",
+      "series": "phones",
+      "value": 609404.0
+    },
+    {
+      "date": "2025-07-01",
+      "series": "phones",
+      "value": 612301.0
+    },
+    {
+      "date": "2025-08-01",
+      "series": "phones",
+      "value": 538031.0
+    },
+    {
+      "date": "2025-09-01",
+      "series": "phones",
+      "value": 536231.0
+    },
+    {
+      "date": "2025-10-01",
+      "series": "phones",
+      "value": 521617.0
+    },
+    {
+      "date": "2025-11-01",
+      "series": "phones",
+      "value": 413623.0
+    },
+    {
+      "date": "2025-12-01",
+      "series": "phones",
+      "value": 216476.0
+    },
+    {
+      "date": "2026-01-01",
+      "series": "phones",
+      "value": 79788.0
+    },
+    {
+      "date": "2026-02-01",
+      "series": "phones",
+      "value": 284117.0
+    },
+    {
+      "date": "2026-03-01",
+      "series": "phones",
+      "value": 377986.0
+    },
+    {
+      "date": "2026-04-01",
+      "series": "phones",
+      "value": 355506.0
+    },
+    {
+      "date": "2026-05-01",
+      "series": "phones",
+      "value": 211759.0
+    },
+    {
+      "date": "2026-06-01",
+      "series": "phones",
+      "value": 247482.0
+    },
+    {
+      "date": "2026-07-01",
+      "series": "phones",
+      "value": 337876.0
+    }
+  ],
+  "valueKind": "level",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-07-01",
+  "firstObservedPeriod": "2025-01-01",
+  "lastObservedBySeries": {
+    "phones": "2026-07-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:46:21Z",
+  "lastAttemptAt": "2026-11-13T12:46:21Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "b746125c947b05f2c3ae232028b644911aede862c0cca2cfda4102a41ec5e3c5",
+  "rawSha256": "ac6a6584754c1e770f42c790f32c6a295e4aaa6ef73753facba35e799bb154fb",
+  "dataChangedAt": "2026-11-12T03:32:55Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

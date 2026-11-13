@@ -1,0 +1,2702 @@
+{
+  "id": "isac",
+  "source": "INDEC · series históricas primarias",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_isac_2026.xls",
+  "frequency": "monthly",
+  "unit": "índice, base 2004=100",
+  "series": [
+    {
+      "id": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "label": "Original",
+      "column": 2
+    },
+    {
+      "id": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "label": "Desestacionalizada",
+      "column": 6
+    },
+    {
+      "id": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "label": "Tendencia-ciclo",
+      "column": 9
+    }
+  ],
+  "methodNote": "Niveles oficiales original, ajustado y tendencia-ciclo. La base 2004=100 se verificó en el encabezado del XLS primario; se incorporan sus revisiones.",
+  "observations": [
+    {
+      "date": "2012-01-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 175.818249975041
+    },
+    {
+      "date": "2012-01-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 169.9071198282058
+    },
+    {
+      "date": "2012-01-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 182.299390495531
+    },
+    {
+      "date": "2012-02-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 175.115824840833
+    },
+    {
+      "date": "2012-02-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 151.76677881411672
+    },
+    {
+      "date": "2012-02-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 171.049870143467
+    },
+    {
+      "date": "2012-03-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 174.351753809859
+    },
+    {
+      "date": "2012-03-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 188.20224034749174
+    },
+    {
+      "date": "2012-03-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 182.470431078157
+    },
+    {
+      "date": "2012-04-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 173.554405508292
+    },
+    {
+      "date": "2012-04-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 164.2439778175879
+    },
+    {
+      "date": "2012-04-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 172.590691115526
+    },
+    {
+      "date": "2012-05-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 172.798075091067
+    },
+    {
+      "date": "2012-05-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 175.1915703905252
+    },
+    {
+      "date": "2012-05-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 174.497073911397
+    },
+    {
+      "date": "2012-06-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 172.204983247327
+    },
+    {
+      "date": "2012-06-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 173.6291980075505
+    },
+    {
+      "date": "2012-06-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 176.850779522672
+    },
+    {
+      "date": "2012-07-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 171.905740769016
+    },
+    {
+      "date": "2012-07-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 169.58661304532754
+    },
+    {
+      "date": "2012-07-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 170.677592755967
+    },
+    {
+      "date": "2012-08-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 171.991442521464
+    },
+    {
+      "date": "2012-08-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 173.599815220096
+    },
+    {
+      "date": "2012-08-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 161.958512878186
+    },
+    {
+      "date": "2012-09-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 172.481684875438
+    },
+    {
+      "date": "2012-09-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 172.57731317472775
+    },
+    {
+      "date": "2012-09-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 167.390565329912
+    },
+    {
+      "date": "2012-10-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 173.485662735778
+    },
+    {
+      "date": "2012-10-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 184.77029693994555
+    },
+    {
+      "date": "2012-10-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 163.159584024252
+    },
+    {
+      "date": "2012-11-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 175.066858485371
+    },
+    {
+      "date": "2012-11-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 187.28559297570254
+    },
+    {
+      "date": "2012-11-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 172.042375664775
+    },
+    {
+      "date": "2012-12-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 177.216228521924
+    },
+    {
+      "date": "2012-12-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 164.21125887571077
+    },
+    {
+      "date": "2012-12-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 179.884306249632
+    },
+    {
+      "date": "2013-01-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 179.795178622416
+    },
+    {
+      "date": "2013-01-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 171.4025142536168
+    },
+    {
+      "date": "2013-01-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 180.081218875362
+    },
+    {
+      "date": "2013-02-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 182.549515975385
+    },
+    {
+      "date": "2013-02-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 161.2459782267199
+    },
+    {
+      "date": "2013-02-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 184.824097815842
+    },
+    {
+      "date": "2013-03-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 185.129139670805
+    },
+    {
+      "date": "2013-03-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 187.56868374327627
+    },
+    {
+      "date": "2013-03-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 186.781134076155
+    },
+    {
+      "date": "2013-04-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 187.226566386331
+    },
+    {
+      "date": "2013-04-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 187.13947299933884
+    },
+    {
+      "date": "2013-04-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 190.370901344479
+    },
+    {
+      "date": "2013-05-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 188.678210891739
+    },
+    {
+      "date": "2013-05-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 198.65765871647653
+    },
+    {
+      "date": "2013-05-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 196.660194459406
+    },
+    {
+      "date": "2013-06-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 189.482586308952
+    },
+    {
+      "date": "2013-06-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 180.24141267814022
+    },
+    {
+      "date": "2013-06-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 189.966009874543
+    },
+    {
+      "date": "2013-07-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 189.811703563702
+    },
+    {
+      "date": "2013-07-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 190.52527163709613
+    },
+    {
+      "date": "2013-07-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 187.790052714094
+    },
+    {
+      "date": "2013-08-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 189.878164624755
+    },
+    {
+      "date": "2013-08-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 200.38004906275705
+    },
+    {
+      "date": "2013-08-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 191.836403371837
+    },
+    {
+      "date": "2013-09-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 189.82671859081
+    },
+    {
+      "date": "2013-09-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 196.99687903190647
+    },
+    {
+      "date": "2013-09-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 187.085311342666
+    },
+    {
+      "date": "2013-10-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 189.716669103974
+    },
+    {
+      "date": "2013-10-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 207.7966534094676
+    },
+    {
+      "date": "2013-10-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 185.255396083174
+    },
+    {
+      "date": "2013-11-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 189.515379425538
+    },
+    {
+      "date": "2013-11-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 197.52674751074895
+    },
+    {
+      "date": "2013-11-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 186.959054925046
+    },
+    {
+      "date": "2013-12-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 189.152687769261
+    },
+    {
+      "date": "2013-12-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 185.24797916484115
+    },
+    {
+      "date": "2013-12-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 195.491351787097
+    },
+    {
+      "date": "2014-01-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 188.54938539393
+    },
+    {
+      "date": "2014-01-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 180.95858868906723
+    },
+    {
+      "date": "2014-01-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 189.024279527141
+    },
+    {
+      "date": "2014-02-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 187.690756572974
+    },
+    {
+      "date": "2014-02-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 166.9075826197269
+    },
+    {
+      "date": "2014-02-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 189.538673125371
+    },
+    {
+      "date": "2014-03-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 186.684637106219
+    },
+    {
+      "date": "2014-03-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 181.73905812186075
+    },
+    {
+      "date": "2014-03-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 183.927054181001
+    },
+    {
+      "date": "2014-04-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 185.712998452742
+    },
+    {
+      "date": "2014-04-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 181.54026556140022
+    },
+    {
+      "date": "2014-04-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 184.303618052788
+    },
+    {
+      "date": "2014-05-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 184.962626167695
+    },
+    {
+      "date": "2014-05-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 182.07592492210608
+    },
+    {
+      "date": "2014-05-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 185.052587052168
+    },
+    {
+      "date": "2014-06-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 184.575557526013
+    },
+    {
+      "date": "2014-06-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 178.1721630053467
+    },
+    {
+      "date": "2014-06-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 184.318421959242
+    },
+    {
+      "date": "2014-07-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 184.603363743249
+    },
+    {
+      "date": "2014-07-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 184.28719663701196
+    },
+    {
+      "date": "2014-07-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 181.29339042093
+    },
+    {
+      "date": "2014-08-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 185.022708399071
+    },
+    {
+      "date": "2014-08-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 185.34558583264192
+    },
+    {
+      "date": "2014-08-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 180.838599216834
+    },
+    {
+      "date": "2014-09-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 185.796706324628
+    },
+    {
+      "date": "2014-09-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 204.45468015771309
+    },
+    {
+      "date": "2014-09-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 188.077083846564
+    },
+    {
+      "date": "2014-10-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 186.865461236299
+    },
+    {
+      "date": "2014-10-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 215.26614712388863
+    },
+    {
+      "date": "2014-10-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 191.153617981201
+    },
+    {
+      "date": "2014-11-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 188.210906995563
+    },
+    {
+      "date": "2014-11-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 193.10660321113016
+    },
+    {
+      "date": "2014-11-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 188.557524849889
+    },
+    {
+      "date": "2014-12-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 189.882019740966
+    },
+    {
+      "date": "2014-12-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 176.04592380324686
+    },
+    {
+      "date": "2014-12-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 182.441290025056
+    },
+    {
+      "date": "2015-01-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 191.925081337613
+    },
+    {
+      "date": "2015-01-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 175.15904059935238
+    },
+    {
+      "date": "2015-01-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 188.444531882993
+    },
+    {
+      "date": "2015-02-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 194.331732264807
+    },
+    {
+      "date": "2015-02-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 173.09349821800234
+    },
+    {
+      "date": "2015-02-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 196.892938988542
+    },
+    {
+      "date": "2015-03-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 196.931440600043
+    },
+    {
+      "date": "2015-03-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 190.9442465432248
+    },
+    {
+      "date": "2015-03-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 187.519651615739
+    },
+    {
+      "date": "2015-04-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 199.446037046632
+    },
+    {
+      "date": "2015-04-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 201.91767729378975
+    },
+    {
+      "date": "2015-04-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 206.8558250125
+    },
+    {
+      "date": "2015-05-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 201.522485125294
+    },
+    {
+      "date": "2015-05-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 192.36609897641443
+    },
+    {
+      "date": "2015-05-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 200.140416573779
+    },
+    {
+      "date": "2015-06-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 202.814505562866
+    },
+    {
+      "date": "2015-06-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 203.07055250075916
+    },
+    {
+      "date": "2015-06-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 203.874984823826
+    },
+    {
+      "date": "2015-07-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 203.056589867552
+    },
+    {
+      "date": "2015-07-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 207.2893243997102
+    },
+    {
+      "date": "2015-07-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 202.689700359842
+    },
+    {
+      "date": "2015-08-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 202.072452081658
+    },
+    {
+      "date": "2015-08-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 195.76002106125202
+    },
+    {
+      "date": "2015-08-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 192.768175710567
+    },
+    {
+      "date": "2015-09-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 199.86856447919
+    },
+    {
+      "date": "2015-09-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 218.61777282064668
+    },
+    {
+      "date": "2015-09-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 200.669958213409
+    },
+    {
+      "date": "2015-10-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 196.582506320737
+    },
+    {
+      "date": "2015-10-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 221.10139979603372
+    },
+    {
+      "date": "2015-10-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 201.489486279074
+    },
+    {
+      "date": "2015-11-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 192.460316177392
+    },
+    {
+      "date": "2015-11-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 204.41054084766267
+    },
+    {
+      "date": "2015-11-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 195.21761770228
+    },
+    {
+      "date": "2015-12-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 187.792673052274
+    },
+    {
+      "date": "2015-12-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 179.41746447014893
+    },
+    {
+      "date": "2015-12-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 186.572476744371
+    },
+    {
+      "date": "2016-01-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 182.884867078035
+    },
+    {
+      "date": "2016-01-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 167.37789793627468
+    },
+    {
+      "date": "2016-01-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 185.580068217674
+    },
+    {
+      "date": "2016-02-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 178.052604796231
+    },
+    {
+      "date": "2016-02-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 159.09537255293876
+    },
+    {
+      "date": "2016-02-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 179.469644708547
+    },
+    {
+      "date": "2016-03-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 173.57662470828
+    },
+    {
+      "date": "2016-03-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 173.48476812854759
+    },
+    {
+      "date": "2016-03-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 166.501326167504
+    },
+    {
+      "date": "2016-04-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 169.716617212758
+    },
+    {
+      "date": "2016-04-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 152.15746659299595
+    },
+    {
+      "date": "2016-04-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 159.69206307922
+    },
+    {
+      "date": "2016-05-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 166.682487602759
+    },
+    {
+      "date": "2016-05-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 163.98553258246463
+    },
+    {
+      "date": "2016-05-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 167.2116456721
+    },
+    {
+      "date": "2016-06-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 164.620561298732
+    },
+    {
+      "date": "2016-06-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 157.5416459702031
+    },
+    {
+      "date": "2016-06-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 160.183493868014
+    },
+    {
+      "date": "2016-07-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 163.562735012022
+    },
+    {
+      "date": "2016-07-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 156.23018491172417
+    },
+    {
+      "date": "2016-07-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 160.506960870976
+    },
+    {
+      "date": "2016-08-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 163.534841407518
+    },
+    {
+      "date": "2016-08-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 185.65186695757907
+    },
+    {
+      "date": "2016-08-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 170.396839873323
+    },
+    {
+      "date": "2016-09-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 164.48908722622
+    },
+    {
+      "date": "2016-09-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 189.06913910092683
+    },
+    {
+      "date": "2016-09-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 171.118062511596
+    },
+    {
+      "date": "2016-10-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 166.275577900161
+    },
+    {
+      "date": "2016-10-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 175.24023627046617
+    },
+    {
+      "date": "2016-10-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 163.666951045561
+    },
+    {
+      "date": "2016-11-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 168.740885487198
+    },
+    {
+      "date": "2016-11-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 182.7961256065812
+    },
+    {
+      "date": "2016-11-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 167.11782834098
+    },
+    {
+      "date": "2016-12-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 171.63566289285
+    },
+    {
+      "date": "2016-12-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 165.43784458664223
+    },
+    {
+      "date": "2016-12-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 176.491819367894
+    },
+    {
+      "date": "2017-01-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 174.792449482098
+    },
+    {
+      "date": "2017-01-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 164.3477674171541
+    },
+    {
+      "date": "2017-01-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 178.523955814478
+    },
+    {
+      "date": "2017-02-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 178.082711217482
+    },
+    {
+      "date": "2017-02-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 150.10887500238113
+    },
+    {
+      "date": "2017-02-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 172.387530571814
+    },
+    {
+      "date": "2017-03-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 181.41766577963
+    },
+    {
+      "date": "2017-03-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 191.90633285422794
+    },
+    {
+      "date": "2017-03-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 184.148527060251
+    },
+    {
+      "date": "2017-04-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 184.70627865197
+    },
+    {
+      "date": "2017-04-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 167.87461878792874
+    },
+    {
+      "date": "2017-04-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 182.227004426936
+    },
+    {
+      "date": "2017-05-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 187.88833261814
+    },
+    {
+      "date": "2017-05-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 183.81985749127844
+    },
+    {
+      "date": "2017-05-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 183.559974898977
+    },
+    {
+      "date": "2017-06-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 190.99539547421
+    },
+    {
+      "date": "2017-06-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 191.407032651808
+    },
+    {
+      "date": "2017-06-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 191.471733410005
+    },
+    {
+      "date": "2017-07-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 194.085203893016
+    },
+    {
+      "date": "2017-07-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 189.4811596204216
+    },
+    {
+      "date": "2017-07-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 195.688342247422
+    },
+    {
+      "date": "2017-08-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 197.160001345588
+    },
+    {
+      "date": "2017-08-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 212.87105061867288
+    },
+    {
+      "date": "2017-08-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 195.674732301992
+    },
+    {
+      "date": "2017-09-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 200.116812205811
+    },
+    {
+      "date": "2017-09-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 212.8037390381855
+    },
+    {
+      "date": "2017-09-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 199.058837565479
+    },
+    {
+      "date": "2017-10-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 202.814169593693
+    },
+    {
+      "date": "2017-10-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 223.90464257627576
+    },
+    {
+      "date": "2017-10-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 204.069753273826
+    },
+    {
+      "date": "2017-11-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 205.025894651215
+    },
+    {
+      "date": "2017-11-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 224.43623116994016
+    },
+    {
+      "date": "2017-11-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 209.13915132802
+    },
+    {
+      "date": "2017-12-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 206.493992071555
+    },
+    {
+      "date": "2017-12-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 191.0016619582444
+    },
+    {
+      "date": "2017-12-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 208.361652177041
+    },
+    {
+      "date": "2018-01-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 207.041320437725
+    },
+    {
+      "date": "2018-01-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 196.3650690838201
+    },
+    {
+      "date": "2018-01-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 207.810165617081
+    },
+    {
+      "date": "2018-02-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 206.572837186357
+    },
+    {
+      "date": "2018-02-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 179.09238361226636
+    },
+    {
+      "date": "2018-02-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 202.839789278248
+    },
+    {
+      "date": "2018-03-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 205.165402139073
+    },
+    {
+      "date": "2018-03-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 207.9385648362735
+    },
+    {
+      "date": "2018-03-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 205.079521986565
+    },
+    {
+      "date": "2018-04-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 202.949246198339
+    },
+    {
+      "date": "2018-04-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 192.0363059412599
+    },
+    {
+      "date": "2018-04-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 203.218619038544
+    },
+    {
+      "date": "2018-05-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 200.137878423895
+    },
+    {
+      "date": "2018-05-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 196.3506901109284
+    },
+    {
+      "date": "2018-05-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 196.329538976163
+    },
+    {
+      "date": "2018-06-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 196.866200003601
+    },
+    {
+      "date": "2018-06-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 191.2562476951397
+    },
+    {
+      "date": "2018-06-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 196.876446375263
+    },
+    {
+      "date": "2018-07-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 193.266439755376
+    },
+    {
+      "date": "2018-07-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 191.06424069971226
+    },
+    {
+      "date": "2018-07-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 189.517328133178
+    },
+    {
+      "date": "2018-08-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 189.556628004456
+    },
+    {
+      "date": "2018-08-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 212.89653858620207
+    },
+    {
+      "date": "2018-08-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 193.940365487072
+    },
+    {
+      "date": "2018-09-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 185.980077888094
+    },
+    {
+      "date": "2018-09-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 204.6396761189696
+    },
+    {
+      "date": "2018-09-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 197.948089817202
+    },
+    {
+      "date": "2018-10-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 182.917527923106
+    },
+    {
+      "date": "2018-10-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 209.54385232213303
+    },
+    {
+      "date": "2018-10-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 186.880169977561
+    },
+    {
+      "date": "2018-11-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 180.782565050398
+    },
+    {
+      "date": "2018-11-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 188.649705384698
+    },
+    {
+      "date": "2018-11-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 172.633338940223
+    },
+    {
+      "date": "2018-12-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 179.913967003706
+    },
+    {
+      "date": "2018-12-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 151.57070366916744
+    },
+    {
+      "date": "2018-12-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 168.792232480094
+    },
+    {
+      "date": "2019-01-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 180.336644646488
+    },
+    {
+      "date": "2019-01-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 165.57798428096757
+    },
+    {
+      "date": "2019-01-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 176.121263428527
+    },
+    {
+      "date": "2019-02-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 181.748545864914
+    },
+    {
+      "date": "2019-02-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 169.5554276344615
+    },
+    {
+      "date": "2019-02-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 192.681958946835
+    },
+    {
+      "date": "2019-03-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 183.575054550559
+    },
+    {
+      "date": "2019-03-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 182.4595909387678
+    },
+    {
+      "date": "2019-03-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 184.283298033914
+    },
+    {
+      "date": "2019-04-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 185.165798305415
+    },
+    {
+      "date": "2019-04-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 177.50477872345604
+    },
+    {
+      "date": "2019-04-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 182.326704494529
+    },
+    {
+      "date": "2019-05-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 185.8190248419
+    },
+    {
+      "date": "2019-05-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 189.61138258106374
+    },
+    {
+      "date": "2019-05-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 189.158947092485
+    },
+    {
+      "date": "2019-06-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 185.049332799982
+    },
+    {
+      "date": "2019-06-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 168.5938720620182
+    },
+    {
+      "date": "2019-06-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 180.268148966316
+    },
+    {
+      "date": "2019-07-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 182.701023585456
+    },
+    {
+      "date": "2019-07-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 187.52819012869432
+    },
+    {
+      "date": "2019-07-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 181.322900306863
+    },
+    {
+      "date": "2019-08-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 178.841789906485
+    },
+    {
+      "date": "2019-08-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 200.0205807948071
+    },
+    {
+      "date": "2019-08-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 185.499161023245
+    },
+    {
+      "date": "2019-09-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 173.694799023891
+    },
+    {
+      "date": "2019-09-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 186.85482704729418
+    },
+    {
+      "date": "2019-09-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 176.212223626493
+    },
+    {
+      "date": "2019-10-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 167.507447885122
+    },
+    {
+      "date": "2019-10-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 189.73965044778285
+    },
+    {
+      "date": "2019-10-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 167.570634086897
+    },
+    {
+      "date": "2019-11-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 160.513583795985
+    },
+    {
+      "date": "2019-11-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 178.87572441417873
+    },
+    {
+      "date": "2019-11-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 168.227149077603
+    },
+    {
+      "date": "2019-12-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 153.130808621576
+    },
+    {
+      "date": "2019-12-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 141.93479403509923
+    },
+    {
+      "date": "2019-12-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 153.561175646008
+    },
+    {
+      "date": "2020-01-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 145.965226769165
+    },
+    {
+      "date": "2020-01-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 143.25125275798698
+    },
+    {
+      "date": "2020-01-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 152.466567762594
+    },
+    {
+      "date": "2020-02-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 139.76751962075
+    },
+    {
+      "date": "2020-02-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 132.07527706701043
+    },
+    {
+      "date": "2020-02-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 154.232990266826
+    },
+    {
+      "date": "2020-03-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 135.395796983577
+    },
+    {
+      "date": "2020-03-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 96.4765665608148
+    },
+    {
+      "date": "2020-03-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 94.3845419075925
+    },
+    {
+      "date": "2020-04-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 133.541897532494
+    },
+    {
+      "date": "2020-04-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 42.20767674182651
+    },
+    {
+      "date": "2020-04-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 47.2360907330131
+    },
+    {
+      "date": "2020-05-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 134.622925160805
+    },
+    {
+      "date": "2020-05-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 97.31943109007584
+    },
+    {
+      "date": "2020-05-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 104.688451724706
+    },
+    {
+      "date": "2020-06-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 138.652497831262
+    },
+    {
+      "date": "2020-06-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 143.80209227376096
+    },
+    {
+      "date": "2020-06-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 145.26734855795
+    },
+    {
+      "date": "2020-07-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 145.060643453964
+    },
+    {
+      "date": "2020-07-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 163.33608135785298
+    },
+    {
+      "date": "2020-07-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 154.92007001135
+    },
+    {
+      "date": "2020-08-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 152.942629726207
+    },
+    {
+      "date": "2020-08-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 164.7638900131729
+    },
+    {
+      "date": "2020-08-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 157.040867961415
+    },
+    {
+      "date": "2020-09-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 161.290439869913
+    },
+    {
+      "date": "2020-09-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 179.66253949163107
+    },
+    {
+      "date": "2020-09-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 162.149504847334
+    },
+    {
+      "date": "2020-10-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 169.183952302766
+    },
+    {
+      "date": "2020-10-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 187.94887365939118
+    },
+    {
+      "date": "2020-10-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 168.514613195891
+    },
+    {
+      "date": "2020-11-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 175.948269570516
+    },
+    {
+      "date": "2020-11-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 190.04434784453562
+    },
+    {
+      "date": "2020-11-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 181.428867039901
+    },
+    {
+      "date": "2020-12-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 181.210321239804
+    },
+    {
+      "date": "2020-12-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 180.84539614260402
+    },
+    {
+      "date": "2020-12-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 190.88588002175
+    },
+    {
+      "date": "2021-01-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 184.835831425281
+    },
+    {
+      "date": "2021-01-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 176.61300396436425
+    },
+    {
+      "date": "2021-01-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 197.552577199712
+    },
+    {
+      "date": "2021-02-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 186.976878507298
+    },
+    {
+      "date": "2021-02-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 162.01091951566616
+    },
+    {
+      "date": "2021-02-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 186.867974171338
+    },
+    {
+      "date": "2021-03-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 187.890498994091
+    },
+    {
+      "date": "2021-03-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 192.7749846020268
+    },
+    {
+      "date": "2021-03-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 187.917182195541
+    },
+    {
+      "date": "2021-04-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 187.85045208459
+    },
+    {
+      "date": "2021-04-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 178.0991369304489
+    },
+    {
+      "date": "2021-04-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 180.632261283715
+    },
+    {
+      "date": "2021-05-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 187.181633726467
+    },
+    {
+      "date": "2021-05-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 165.8545683490291
+    },
+    {
+      "date": "2021-05-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 177.309187129533
+    },
+    {
+      "date": "2021-06-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 186.144365551726
+    },
+    {
+      "date": "2021-06-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 184.6879835793102
+    },
+    {
+      "date": "2021-06-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 185.054989582279
+    },
+    {
+      "date": "2021-07-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 185.1578152803
+    },
+    {
+      "date": "2021-07-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 193.70863931116037
+    },
+    {
+      "date": "2021-07-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 188.98551289083
+    },
+    {
+      "date": "2021-08-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 184.603186416899
+    },
+    {
+      "date": "2021-08-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 202.14216219471132
+    },
+    {
+      "date": "2021-08-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 186.623340027257
+    },
+    {
+      "date": "2021-09-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 184.850622129956
+    },
+    {
+      "date": "2021-09-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 201.9272258787682
+    },
+    {
+      "date": "2021-09-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 185.918797721203
+    },
+    {
+      "date": "2021-10-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 186.171404322598
+    },
+    {
+      "date": "2021-10-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 202.65271310760173
+    },
+    {
+      "date": "2021-10-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 187.695385173613
+    },
+    {
+      "date": "2021-11-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 188.600225293827
+    },
+    {
+      "date": "2021-11-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 204.59340392109982
+    },
+    {
+      "date": "2021-11-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 190.265852796012
+    },
+    {
+      "date": "2021-12-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 191.850242861668
+    },
+    {
+      "date": "2021-12-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 189.0596062242271
+    },
+    {
+      "date": "2021-12-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 199.355505024408
+    },
+    {
+      "date": "2022-01-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 195.393341277763
+    },
+    {
+      "date": "2022-01-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 167.88278425176463
+    },
+    {
+      "date": "2022-01-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 190.173217755572
+    },
+    {
+      "date": "2022-02-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 198.559609457785
+    },
+    {
+      "date": "2022-02-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 173.75388521974767
+    },
+    {
+      "date": "2022-02-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 199.185605008246
+    },
+    {
+      "date": "2022-03-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 200.730588643483
+    },
+    {
+      "date": "2022-03-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 196.6671418698731
+    },
+    {
+      "date": "2022-03-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 192.123995630325
+    },
+    {
+      "date": "2022-04-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 201.555844379825
+    },
+    {
+      "date": "2022-04-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 192.61644631978095
+    },
+    {
+      "date": "2022-04-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 200.627114715061
+    },
+    {
+      "date": "2022-05-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 200.929693572661
+    },
+    {
+      "date": "2022-05-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 197.87777369679532
+    },
+    {
+      "date": "2022-05-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 202.465443831383
+    },
+    {
+      "date": "2022-06-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 198.995132399611
+    },
+    {
+      "date": "2022-06-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 196.9770939292199
+    },
+    {
+      "date": "2022-06-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 198.974538734222
+    },
+    {
+      "date": "2022-07-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 196.147511655436
+    },
+    {
+      "date": "2022-07-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 202.59618205442993
+    },
+    {
+      "date": "2022-07-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 202.232971228495
+    },
+    {
+      "date": "2022-08-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 192.976921024205
+    },
+    {
+      "date": "2022-08-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 215.79109706802373
+    },
+    {
+      "date": "2022-08-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 196.060594018222
+    },
+    {
+      "date": "2022-09-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 190.11896765306
+    },
+    {
+      "date": "2022-09-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 210.93375781629518
+    },
+    {
+      "date": "2022-09-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 191.849846626393
+    },
+    {
+      "date": "2022-10-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 188.059809053517
+    },
+    {
+      "date": "2022-10-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 201.8771088246921
+    },
+    {
+      "date": "2022-10-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 189.247280596195
+    },
+    {
+      "date": "2022-11-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 187.137008835907
+    },
+    {
+      "date": "2022-11-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 201.63006183123682
+    },
+    {
+      "date": "2022-11-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 187.552756858424
+    },
+    {
+      "date": "2022-12-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 187.402978770382
+    },
+    {
+      "date": "2022-12-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 169.2168032080945
+    },
+    {
+      "date": "2022-12-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 183.468885610795
+    },
+    {
+      "date": "2023-01-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 188.60535951253
+    },
+    {
+      "date": "2023-01-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 172.3393493982936
+    },
+    {
+      "date": "2023-01-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 187.094981727819
+    },
+    {
+      "date": "2023-02-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 190.288766100534
+    },
+    {
+      "date": "2023-02-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 162.22695549986418
+    },
+    {
+      "date": "2023-02-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 185.089065272337
+    },
+    {
+      "date": "2023-03-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 191.929778032782
+    },
+    {
+      "date": "2023-03-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 199.4874498475775
+    },
+    {
+      "date": "2023-03-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 194.675831073524
+    },
+    {
+      "date": "2023-04-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 193.111253243829
+    },
+    {
+      "date": "2023-04-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 184.83422214775626
+    },
+    {
+      "date": "2023-04-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 198.242216401388
+    },
+    {
+      "date": "2023-05-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 193.559316502145
+    },
+    {
+      "date": "2023-05-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 192.23161044067626
+    },
+    {
+      "date": "2023-05-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 192.392165993768
+    },
+    {
+      "date": "2023-06-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 193.114462795739
+    },
+    {
+      "date": "2023-06-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 191.43972811813063
+    },
+    {
+      "date": "2023-06-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 189.962864181345
+    },
+    {
+      "date": "2023-07-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 191.622777344889
+    },
+    {
+      "date": "2023-07-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 190.8104072768535
+    },
+    {
+      "date": "2023-07-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 192.737695787309
+    },
+    {
+      "date": "2023-08-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 188.832717888306
+    },
+    {
+      "date": "2023-08-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 209.25255924716686
+    },
+    {
+      "date": "2023-08-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 190.026196075265
+    },
+    {
+      "date": "2023-09-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 184.456316032466
+    },
+    {
+      "date": "2023-09-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 201.38456822727548
+    },
+    {
+      "date": "2023-09-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 188.04044472831
+    },
+    {
+      "date": "2023-10-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 178.304851560721
+    },
+    {
+      "date": "2023-10-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 207.89929269638574
+    },
+    {
+      "date": "2023-10-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 188.137639336754
+    },
+    {
+      "date": "2023-11-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 170.445546658609
+    },
+    {
+      "date": "2023-11-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 197.43472787421692
+    },
+    {
+      "date": "2023-11-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 185.969258589833
+    },
+    {
+      "date": "2023-12-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 161.350284493126
+    },
+    {
+      "date": "2023-12-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 148.62105527178247
+    },
+    {
+      "date": "2023-12-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 166.98330699122
+    },
+    {
+      "date": "2024-01-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 151.960662805804
+    },
+    {
+      "date": "2024-01-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 134.44219701972153
+    },
+    {
+      "date": "2024-01-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 144.171028617839
+    },
+    {
+      "date": "2024-02-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 143.422274747716
+    },
+    {
+      "date": "2024-02-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 120.97191324331666
+    },
+    {
+      "date": "2024-02-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 137.994118782574
+    },
+    {
+      "date": "2024-03-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 136.720149365224
+    },
+    {
+      "date": "2024-03-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 114.94869682893216
+    },
+    {
+      "date": "2024-03-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 118.006721810914
+    },
+    {
+      "date": "2024-04-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 132.454632312837
+    },
+    {
+      "date": "2024-04-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 115.66656529271178
+    },
+    {
+      "date": "2024-04-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 118.276856072543
+    },
+    {
+      "date": "2024-05-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 130.661021346014
+    },
+    {
+      "date": "2024-05-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 129.36956888797866
+    },
+    {
+      "date": "2024-05-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 128.537973786676
+    },
+    {
+      "date": "2024-06-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 130.92663118066
+    },
+    {
+      "date": "2024-06-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 123.12420488527721
+    },
+    {
+      "date": "2024-06-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 131.595759378788
+    },
+    {
+      "date": "2024-07-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 132.559460108978
+    },
+    {
+      "date": "2024-07-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 151.5155383959598
+    },
+    {
+      "date": "2024-07-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 143.864014144037
+    },
+    {
+      "date": "2024-08-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 134.885725289908
+    },
+    {
+      "date": "2024-08-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 153.5337207180133
+    },
+    {
+      "date": "2024-08-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 141.005405868092
+    },
+    {
+      "date": "2024-09-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 137.447979541662
+    },
+    {
+      "date": "2024-09-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 150.4954154635502
+    },
+    {
+      "date": "2024-09-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 140.932859398807
+    },
+    {
+      "date": "2024-10-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 140.031208106237
+    },
+    {
+      "date": "2024-10-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 155.6952379999897
+    },
+    {
+      "date": "2024-10-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 134.527714822066
+    },
+    {
+      "date": "2024-11-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 142.575799466107
+    },
+    {
+      "date": "2024-11-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 149.2596703826954
+    },
+    {
+      "date": "2024-11-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 141.357376804947
+    },
+    {
+      "date": "2024-12-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 145.004121724937
+    },
+    {
+      "date": "2024-12-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 132.53690078931888
+    },
+    {
+      "date": "2024-12-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 145.491919563548
+    },
+    {
+      "date": "2025-01-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 147.128437774721
+    },
+    {
+      "date": "2025-01-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 132.5042228109614
+    },
+    {
+      "date": "2025-01-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 141.706281464697
+    },
+    {
+      "date": "2025-02-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 148.708906832525
+    },
+    {
+      "date": "2025-02-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 125.76989058867456
+    },
+    {
+      "date": "2025-02-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 146.443800909462
+    },
+    {
+      "date": "2025-03-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 149.551267850027
+    },
+    {
+      "date": "2025-03-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 132.69084000734708
+    },
+    {
+      "date": "2025-03-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 138.285889558673
+    },
+    {
+      "date": "2025-04-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 149.518227876492
+    },
+    {
+      "date": "2025-04-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 146.2836135637549
+    },
+    {
+      "date": "2025-04-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 147.981827825586
+    },
+    {
+      "date": "2025-05-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 148.704848745362
+    },
+    {
+      "date": "2025-05-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 141.34661378988773
+    },
+    {
+      "date": "2025-05-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 144.082469764758
+    },
+    {
+      "date": "2025-06-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 147.413149075832
+    },
+    {
+      "date": "2025-06-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 140.18802670710102
+    },
+    {
+      "date": "2025-06-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 145.200472698315
+    },
+    {
+      "date": "2025-07-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 145.964044302933
+    },
+    {
+      "date": "2025-07-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 154.38474533439336
+    },
+    {
+      "date": "2025-07-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 147.167348841316
+    },
+    {
+      "date": "2025-08-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 144.704773701015
+    },
+    {
+      "date": "2025-08-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 153.55534282762116
+    },
+    {
+      "date": "2025-08-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 145.825153242748
+    },
+    {
+      "date": "2025-09-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 143.843853058656
+    },
+    {
+      "date": "2025-09-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 160.5159697488827
+    },
+    {
+      "date": "2025-09-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 145.640894699373
+    },
+    {
+      "date": "2025-10-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 143.451755277295
+    },
+    {
+      "date": "2025-10-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 168.3947517179213
+    },
+    {
+      "date": "2025-10-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 146.398495351744
+    },
+    {
+      "date": "2025-11-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 143.557785634418
+    },
+    {
+      "date": "2025-11-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 142.39054676934177
+    },
+    {
+      "date": "2025-11-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 140.219235994245
+    },
+    {
+      "date": "2025-12-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 144.111501913964
+    },
+    {
+      "date": "2025-12-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 136.41513606823924
+    },
+    {
+      "date": "2025-12-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 145.464603304803
+    },
+    {
+      "date": "2026-01-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 144.979527893324
+    },
+    {
+      "date": "2026-01-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 133.0197940184921
+    },
+    {
+      "date": "2026-01-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 145.76484281009
+    },
+    {
+      "date": "2026-02-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 145.944858428789
+    },
+    {
+      "date": "2026-02-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 123.82819582964954
+    },
+    {
+      "date": "2026-02-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 144.171181806529
+    },
+    {
+      "date": "2026-03-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 146.80029457202
+    },
+    {
+      "date": "2026-03-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 149.3426140275882
+    },
+    {
+      "date": "2026-03-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 149.542835174189
+    },
+    {
+      "date": "2026-04-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 147.420152384298
+    },
+    {
+      "date": "2026-04-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 141.90341050722455
+    },
+    {
+      "date": "2026-04-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 144.752972717517
+    },
+    {
+      "date": "2026-05-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 147.714384928878
+    },
+    {
+      "date": "2026-05-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 147.12197449355352
+    },
+    {
+      "date": "2026-05-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 153.418799560457
+    },
+    {
+      "date": "2026-06-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 147.698192007239
+    },
+    {
+      "date": "2026-06-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 146.14043903626123
+    },
+    {
+      "date": "2026-06-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 145.902912860877
+    },
+    {
+      "date": "2026-07-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 147.531558260846
+    },
+    {
+      "date": "2026-07-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 147.42197390597593
+    },
+    {
+      "date": "2026-07-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 140.383284404762
+    },
+    {
+      "date": "2026-08-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 147.391159789032
+    },
+    {
+      "date": "2026-08-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 146.8568630047049
+    },
+    {
+      "date": "2026-08-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 141.834329913473
+    },
+    {
+      "date": "2026-09-01",
+      "series": "33.2_ISAC_CICLOCIA_0_M_20_62",
+      "value": 147.4333694597
+    },
+    {
+      "date": "2026-09-01",
+      "series": "33.2_ISAC_NIVELRAL_0_M_18_63",
+      "value": 168.6661743934657
+    },
+    {
+      "date": "2026-09-01",
+      "series": "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "value": 152.963675373338
+    }
+  ],
+  "valueKind": "level",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-09-01",
+  "firstObservedPeriod": "2012-01-01",
+  "lastObservedBySeries": {
+    "33.2_ISAC_NIVELRAL_0_M_18_63": "2026-09-01",
+    "33.2_ISAC_SIN_EDAD_0_M_23_56": "2026-09-01",
+    "33.2_ISAC_CICLOCIA_0_M_20_62": "2026-09-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:46:19Z",
+  "lastAttemptAt": "2026-11-13T12:46:19Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "54ffcfaf5634678946468ba0bc7cf8191ffbfb1c3c65fb0f0a8ce2378fb85dce",
+  "rawSha256": "35d240252819f8dbe217c87ea73cfb80e3d085451b324f273e9f404c17c58cd0",
+  "dataChangedAt": "2026-11-12T03:32:48Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

@@ -1,0 +1,302 @@
+{
+  "id": "export-complexes",
+  "source": "INDEC · Complejos exportadores, primer semestre 2026, cuadro 1",
+  "sourceUrl": "https://www.indec.gob.ar/uploads/informesdeprensa/complejos_08_26084E913425.pdf",
+  "frequency": "semiannual",
+  "unit": "millones de USD corrientes FOB",
+  "series": [
+    {
+      "id": "complex-1",
+      "label": "Soja",
+      "expect": "Soja"
+    },
+    {
+      "id": "complex-2",
+      "label": "Petrolero-petroquímico",
+      "expect": "Petrolero-petroquímico"
+    },
+    {
+      "id": "complex-3",
+      "label": "Maicero",
+      "expect": "Maicero"
+    },
+    {
+      "id": "complex-4",
+      "label": "Automotriz",
+      "expect": "Automotriz"
+    },
+    {
+      "id": "complex-5",
+      "label": "Oro y plata",
+      "expect": "Oro y plata"
+    },
+    {
+      "id": "complex-6",
+      "label": "Carne y cuero bovinos",
+      "expect": "Carne y cuero bovinos"
+    },
+    {
+      "id": "complex-7",
+      "label": "Triguero",
+      "expect": "Triguero"
+    },
+    {
+      "id": "complex-8",
+      "label": "Girasol",
+      "expect": "Girasol"
+    },
+    {
+      "id": "complex-9",
+      "label": "Pesquero",
+      "expect": "Pesquero"
+    },
+    {
+      "id": "complex-10",
+      "label": "Litio",
+      "expect": "Litio"
+    },
+    {
+      "id": "complex-11",
+      "label": "Otros complejos",
+      "expect": "Otros complejos"
+    },
+    {
+      "id": "complex-12",
+      "label": "Resto de exportaciones",
+      "expect": "Resto de exportaciones"
+    },
+    {
+      "id": "total",
+      "label": "Total de exportaciones",
+      "expect": "Total de exportaciones (1)"
+    }
+  ],
+  "methodNote": "Primer semestre de 2026 comparado con el mismo semestre de 2025. Extracción automática del cuadro 1; total y categorías conciliados dentro del redondeo. Datos provisorios. Otros complejos y resto se distinguen de los diez principales.",
+  "observations": [
+    {
+      "date": "2025-01-01",
+      "series": "complex-1",
+      "value": 8593.0
+    },
+    {
+      "date": "2025-01-01",
+      "series": "complex-10",
+      "value": 393.0
+    },
+    {
+      "date": "2025-01-01",
+      "series": "complex-11",
+      "value": 6350.0
+    },
+    {
+      "date": "2025-01-01",
+      "series": "complex-12",
+      "value": 2804.0
+    },
+    {
+      "date": "2025-01-01",
+      "series": "complex-2",
+      "value": 5650.0
+    },
+    {
+      "date": "2025-01-01",
+      "series": "complex-3",
+      "value": 3967.0
+    },
+    {
+      "date": "2025-01-01",
+      "series": "complex-4",
+      "value": 3981.0
+    },
+    {
+      "date": "2025-01-01",
+      "series": "complex-5",
+      "value": 2234.0
+    },
+    {
+      "date": "2025-01-01",
+      "series": "complex-6",
+      "value": 1975.0
+    },
+    {
+      "date": "2025-01-01",
+      "series": "complex-7",
+      "value": 1821.0
+    },
+    {
+      "date": "2025-01-01",
+      "series": "complex-8",
+      "value": 907.0
+    },
+    {
+      "date": "2025-01-01",
+      "series": "complex-9",
+      "value": 1067.0
+    },
+    {
+      "date": "2025-01-01",
+      "series": "total",
+      "value": 39742.0
+    },
+    {
+      "date": "2025-07-01",
+      "series": "complex-1",
+      "value": null
+    },
+    {
+      "date": "2025-07-01",
+      "series": "complex-10",
+      "value": null
+    },
+    {
+      "date": "2025-07-01",
+      "series": "complex-11",
+      "value": null
+    },
+    {
+      "date": "2025-07-01",
+      "series": "complex-12",
+      "value": null
+    },
+    {
+      "date": "2025-07-01",
+      "series": "complex-2",
+      "value": null
+    },
+    {
+      "date": "2025-07-01",
+      "series": "complex-3",
+      "value": null
+    },
+    {
+      "date": "2025-07-01",
+      "series": "complex-4",
+      "value": null
+    },
+    {
+      "date": "2025-07-01",
+      "series": "complex-5",
+      "value": null
+    },
+    {
+      "date": "2025-07-01",
+      "series": "complex-6",
+      "value": null
+    },
+    {
+      "date": "2025-07-01",
+      "series": "complex-7",
+      "value": null
+    },
+    {
+      "date": "2025-07-01",
+      "series": "complex-8",
+      "value": null
+    },
+    {
+      "date": "2025-07-01",
+      "series": "complex-9",
+      "value": null
+    },
+    {
+      "date": "2025-07-01",
+      "series": "total",
+      "value": null
+    },
+    {
+      "date": "2026-01-01",
+      "series": "complex-1",
+      "value": 9082.0
+    },
+    {
+      "date": "2026-01-01",
+      "series": "complex-10",
+      "value": 1126.0
+    },
+    {
+      "date": "2026-01-01",
+      "series": "complex-11",
+      "value": 7545.0
+    },
+    {
+      "date": "2026-01-01",
+      "series": "complex-12",
+      "value": 3172.0
+    },
+    {
+      "date": "2026-01-01",
+      "series": "complex-2",
+      "value": 8116.0
+    },
+    {
+      "date": "2026-01-01",
+      "series": "complex-3",
+      "value": 4241.0
+    },
+    {
+      "date": "2026-01-01",
+      "series": "complex-4",
+      "value": 4167.0
+    },
+    {
+      "date": "2026-01-01",
+      "series": "complex-5",
+      "value": 3504.0
+    },
+    {
+      "date": "2026-01-01",
+      "series": "complex-6",
+      "value": 2692.0
+    },
+    {
+      "date": "2026-01-01",
+      "series": "complex-7",
+      "value": 2540.0
+    },
+    {
+      "date": "2026-01-01",
+      "series": "complex-8",
+      "value": 2075.0
+    },
+    {
+      "date": "2026-01-01",
+      "series": "complex-9",
+      "value": 1252.0
+    },
+    {
+      "date": "2026-01-01",
+      "series": "total",
+      "value": 49511.0
+    }
+  ],
+  "valueKind": "level",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-01-01",
+  "firstObservedPeriod": "2025-01-01",
+  "lastObservedBySeries": {
+    "complex-1": "2026-01-01",
+    "complex-2": "2026-01-01",
+    "complex-3": "2026-01-01",
+    "complex-4": "2026-01-01",
+    "complex-5": "2026-01-01",
+    "complex-6": "2026-01-01",
+    "complex-7": "2026-01-01",
+    "complex-8": "2026-01-01",
+    "complex-9": "2026-01-01",
+    "complex-10": "2026-01-01",
+    "complex-11": "2026-01-01",
+    "complex-12": "2026-01-01",
+    "total": "2026-01-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:46:26Z",
+  "lastAttemptAt": "2026-11-13T12:46:26Z",
+  "sourcePublishedAt": "2026-08-26",
+  "isAutoUpdated": true,
+  "contentHash": "9d19ef370f8019af8098c05fb8ddec94e630edfa39a29b6a1aefbdd209bc1887",
+  "rawSha256": "2fb0edaf4893012ea95c3321fc32cf699573d55ae7502530509a7c5eeab6a047",
+  "dataChangedAt": "2026-11-12T04:24:57Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

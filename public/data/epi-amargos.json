@@ -1,0 +1,130 @@
+{
+  "id": "epi-amargos",
+  "source": "INDEC · Estadísticas de Productos Industriales (EPI)",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls",
+  "frequency": "monthly",
+  "unit": "miles de litros",
+  "series": [
+    {
+      "column": 2,
+      "id": "amargos",
+      "label": "Amargos, bíters y fernets"
+    }
+  ],
+  "methodNote": "Niveles mensuales publicados en EPI; datos preliminares según asteriscos del cuadro. Los símbolos de ausencia se conservan como null. No se mezclan totales anuales con meses.",
+  "observations": [
+    {
+      "date": "2025-01-01",
+      "series": "amargos",
+      "value": 5534.376
+    },
+    {
+      "date": "2025-02-01",
+      "series": "amargos",
+      "value": 6482.403
+    },
+    {
+      "date": "2025-03-01",
+      "series": "amargos",
+      "value": 4664.7
+    },
+    {
+      "date": "2025-04-01",
+      "series": "amargos",
+      "value": 5354.804
+    },
+    {
+      "date": "2025-05-01",
+      "series": "amargos",
+      "value": 7481.733
+    },
+    {
+      "date": "2025-06-01",
+      "series": "amargos",
+      "value": 5040.209
+    },
+    {
+      "date": "2025-07-01",
+      "series": "amargos",
+      "value": 4585.316
+    },
+    {
+      "date": "2025-08-01",
+      "series": "amargos",
+      "value": 5423.996
+    },
+    {
+      "date": "2025-09-01",
+      "series": "amargos",
+      "value": 5941.348
+    },
+    {
+      "date": "2025-10-01",
+      "series": "amargos",
+      "value": 5110.857
+    },
+    {
+      "date": "2025-11-01",
+      "series": "amargos",
+      "value": 5790.76
+    },
+    {
+      "date": "2025-12-01",
+      "series": "amargos",
+      "value": 5580.403
+    },
+    {
+      "date": "2026-01-01",
+      "series": "amargos",
+      "value": 5857.509
+    },
+    {
+      "date": "2026-02-01",
+      "series": "amargos",
+      "value": 6195.786
+    },
+    {
+      "date": "2026-03-01",
+      "series": "amargos",
+      "value": 6695.57
+    },
+    {
+      "date": "2026-04-01",
+      "series": "amargos",
+      "value": 5155.958
+    },
+    {
+      "date": "2026-05-01",
+      "series": "amargos",
+      "value": 5826.965
+    },
+    {
+      "date": "2026-06-01",
+      "series": "amargos",
+      "value": 7234.032
+    },
+    {
+      "date": "2026-07-01",
+      "series": "amargos",
+      "value": 4206.109
+    }
+  ],
+  "valueKind": "level",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-07-01",
+  "firstObservedPeriod": "2025-01-01",
+  "lastObservedBySeries": {
+    "amargos": "2026-07-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:46:21Z",
+  "lastAttemptAt": "2026-11-13T12:46:21Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "d28c6976e6996f274abc7fa6d6f6ed6e569519f1a3ba271a724c61fc62a7af71",
+  "rawSha256": "ac6a6584754c1e770f42c790f32c6a295e4aaa6ef73753facba35e799bb154fb",
+  "dataChangedAt": "2026-11-12T03:32:53Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

@@ -1,0 +1,910 @@
+{
+  "id": "labor-wages-nominal-ytd",
+  "source": "INDEC · Índice de salarios",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/sociedad/indice_salarios.csv",
+  "frequency": "monthly",
+  "unit": "% de variación nominal acumulada en el año",
+  "series": [
+    {
+      "id": "private",
+      "label": "Privado registrado",
+      "externalField": "IS_sector_privado_registrado"
+    },
+    {
+      "id": "public",
+      "label": "Sector público",
+      "externalField": "IS_sector_publico"
+    },
+    {
+      "id": "registered",
+      "label": "Total registrado",
+      "externalField": "IS_total_registrado"
+    },
+    {
+      "id": "unregistered",
+      "label": "Privado no registrado",
+      "externalField": "IS_sector_no_registrado"
+    },
+    {
+      "id": "total",
+      "label": "Índice general",
+      "externalField": "IS_indice_total"
+    }
+  ],
+  "methodNote": "Índice de salarios del INDEC. Se calculan las variaciones con los niveles publicados, sin encadenar tasas mensuales redondeadas. El acumulado del año toma diciembre del año previo como base. El componente privado no registrado es una estimación basada en información de hogares con rezago; no equivale al RIPTE ni a una remuneración administrativa. Las tasas nominales no descuentan la inflación. ",
+  "observations": [
+    {
+      "date": "2023-11-01",
+      "series": "private",
+      "value": 139.36405049065846
+    },
+    {
+      "date": "2023-11-01",
+      "series": "public",
+      "value": 135.6278271067181
+    },
+    {
+      "date": "2023-11-01",
+      "series": "registered",
+      "value": 138.00466827712032
+    },
+    {
+      "date": "2023-11-01",
+      "series": "total",
+      "value": 132.12380050776713
+    },
+    {
+      "date": "2023-11-01",
+      "series": "unregistered",
+      "value": 100.03321569441562
+    },
+    {
+      "date": "2023-12-01",
+      "series": "private",
+      "value": 165.78535449820393
+    },
+    {
+      "date": "2023-12-01",
+      "series": "public",
+      "value": 148.57807002848048
+    },
+    {
+      "date": "2023-12-01",
+      "series": "registered",
+      "value": 159.52766820577108
+    },
+    {
+      "date": "2023-12-01",
+      "series": "total",
+      "value": 152.6776109126899
+    },
+    {
+      "date": "2023-12-01",
+      "series": "unregistered",
+      "value": 115.29997924019102
+    },
+    {
+      "date": "2024-01-01",
+      "series": "private",
+      "value": 19.986258291271387
+    },
+    {
+      "date": "2024-01-01",
+      "series": "public",
+      "value": 12.082038062021372
+    },
+    {
+      "date": "2024-01-01",
+      "series": "registered",
+      "value": 17.23352446783444
+    },
+    {
+      "date": "2024-01-01",
+      "series": "total",
+      "value": 16.441657193703985
+    },
+    {
+      "date": "2024-01-01",
+      "series": "unregistered",
+      "value": 11.237746279690164
+    },
+    {
+      "date": "2024-02-01",
+      "series": "private",
+      "value": 36.86666389819055
+    },
+    {
+      "date": "2024-02-01",
+      "series": "public",
+      "value": 29.014498614165007
+    },
+    {
+      "date": "2024-02-01",
+      "series": "registered",
+      "value": 34.13164716047446
+    },
+    {
+      "date": "2024-02-01",
+      "series": "total",
+      "value": 31.948790653911164
+    },
+    {
+      "date": "2024-02-01",
+      "series": "unregistered",
+      "value": 17.59843152380034
+    },
+    {
+      "date": "2024-03-01",
+      "series": "private",
+      "value": 50.535511368998854
+    },
+    {
+      "date": "2024-03-01",
+      "series": "public",
+      "value": 43.2376306855039
+    },
+    {
+      "date": "2024-03-01",
+      "series": "registered",
+      "value": 47.993480480716364
+    },
+    {
+      "date": "2024-03-01",
+      "series": "total",
+      "value": 45.493637149340735
+    },
+    {
+      "date": "2024-03-01",
+      "series": "unregistered",
+      "value": 29.059878507376325
+    },
+    {
+      "date": "2024-04-01",
+      "series": "private",
+      "value": 68.54734282920644
+    },
+    {
+      "date": "2024-04-01",
+      "series": "public",
+      "value": 54.00333611342787
+    },
+    {
+      "date": "2024-04-01",
+      "series": "registered",
+      "value": 63.48165894273821
+    },
+    {
+      "date": "2024-04-01",
+      "series": "total",
+      "value": 60.26166664537911
+    },
+    {
+      "date": "2024-04-01",
+      "series": "unregistered",
+      "value": 39.090412367820534
+    },
+    {
+      "date": "2024-05-01",
+      "series": "private",
+      "value": 81.48644516340933
+    },
+    {
+      "date": "2024-05-01",
+      "series": "public",
+      "value": 66.71679261337309
+    },
+    {
+      "date": "2024-05-01",
+      "series": "registered",
+      "value": 76.34239258502866
+    },
+    {
+      "date": "2024-05-01",
+      "series": "total",
+      "value": 73.59236032169756
+    },
+    {
+      "date": "2024-05-01",
+      "series": "unregistered",
+      "value": 55.51312955999097
+    },
+    {
+      "date": "2024-06-01",
+      "series": "private",
+      "value": 93.63124653153987
+    },
+    {
+      "date": "2024-06-01",
+      "series": "public",
+      "value": 73.2921373872166
+    },
+    {
+      "date": "2024-06-01",
+      "series": "registered",
+      "value": 86.54779671667585
+    },
+    {
+      "date": "2024-06-01",
+      "series": "total",
+      "value": 84.3417248881339
+    },
+    {
+      "date": "2024-06-01",
+      "series": "unregistered",
+      "value": 69.84090251663291
+    },
+    {
+      "date": "2024-07-01",
+      "series": "private",
+      "value": 105.7775579775527
+    },
+    {
+      "date": "2024-07-01",
+      "series": "public",
+      "value": 84.9365211750533
+    },
+    {
+      "date": "2024-07-01",
+      "series": "registered",
+      "value": 98.51896944466263
+    },
+    {
+      "date": "2024-07-01",
+      "series": "total",
+      "value": 98.11307098548616
+    },
+    {
+      "date": "2024-07-01",
+      "series": "unregistered",
+      "value": 95.44756211230032
+    },
+    {
+      "date": "2024-08-01",
+      "series": "private",
+      "value": 116.14424263931413
+    },
+    {
+      "date": "2024-08-01",
+      "series": "public",
+      "value": 93.54217740372867
+    },
+    {
+      "date": "2024-08-01",
+      "series": "registered",
+      "value": 108.27232738983584
+    },
+    {
+      "date": "2024-08-01",
+      "series": "total",
+      "value": 109.30734548427061
+    },
+    {
+      "date": "2024-08-01",
+      "series": "unregistered",
+      "value": 116.11866422395782
+    },
+    {
+      "date": "2024-09-01",
+      "series": "private",
+      "value": 124.28545002208492
+    },
+    {
+      "date": "2024-09-01",
+      "series": "public",
+      "value": 101.12846564055906
+    },
+    {
+      "date": "2024-09-01",
+      "series": "registered",
+      "value": 116.22024978399183
+    },
+    {
+      "date": "2024-09-01",
+      "series": "total",
+      "value": 119.16007816790773
+    },
+    {
+      "date": "2024-09-01",
+      "series": "unregistered",
+      "value": 138.49709124803135
+    },
+    {
+      "date": "2024-10-01",
+      "series": "private",
+      "value": 133.1473420741675
+    },
+    {
+      "date": "2024-10-01",
+      "series": "public",
+      "value": 109.85585631123583
+    },
+    {
+      "date": "2024-10-01",
+      "series": "registered",
+      "value": 125.03534679129689
+    },
+    {
+      "date": "2024-10-01",
+      "series": "total",
+      "value": 129.2227061593416
+    },
+    {
+      "date": "2024-10-01",
+      "series": "unregistered",
+      "value": 156.76469642914537
+    },
+    {
+      "date": "2024-11-01",
+      "series": "private",
+      "value": 140.79437646996644
+    },
+    {
+      "date": "2024-11-01",
+      "series": "public",
+      "value": 115.57105668865466
+    },
+    {
+      "date": "2024-11-01",
+      "series": "registered",
+      "value": 132.00966145628783
+    },
+    {
+      "date": "2024-11-01",
+      "series": "total",
+      "value": 138.03745758454355
+    },
+    {
+      "date": "2024-11-01",
+      "series": "unregistered",
+      "value": 177.68071224247097
+    },
+    {
+      "date": "2024-12-01",
+      "series": "private",
+      "value": 147.51950831864153
+    },
+    {
+      "date": "2024-12-01",
+      "series": "public",
+      "value": 119.2786918391589
+    },
+    {
+      "date": "2024-12-01",
+      "series": "registered",
+      "value": 137.6836069436808
+    },
+    {
+      "date": "2024-12-01",
+      "series": "total",
+      "value": 145.46851783258617
+    },
+    {
+      "date": "2024-12-01",
+      "series": "unregistered",
+      "value": 196.66313116703628
+    },
+    {
+      "date": "2025-01-01",
+      "series": "private",
+      "value": 2.300475713303052
+    },
+    {
+      "date": "2025-01-01",
+      "series": "public",
+      "value": 0.9251361963378724
+    },
+    {
+      "date": "2025-01-01",
+      "series": "registered",
+      "value": 1.8585898643401322
+    },
+    {
+      "date": "2025-01-01",
+      "series": "total",
+      "value": 2.9299944150938284
+    },
+    {
+      "date": "2025-01-01",
+      "series": "unregistered",
+      "value": 8.576090348079312
+    },
+    {
+      "date": "2025-02-01",
+      "series": "private",
+      "value": 4.6619598655984085
+    },
+    {
+      "date": "2025-02-01",
+      "series": "public",
+      "value": 5.433638382394745
+    },
+    {
+      "date": "2025-02-01",
+      "series": "registered",
+      "value": 4.909863018225691
+    },
+    {
+      "date": "2025-02-01",
+      "series": "total",
+      "value": 6.868047051967396
+    },
+    {
+      "date": "2025-02-01",
+      "series": "unregistered",
+      "value": 17.18446644016085
+    },
+    {
+      "date": "2025-03-01",
+      "series": "private",
+      "value": 6.925525473311089
+    },
+    {
+      "date": "2025-03-01",
+      "series": "public",
+      "value": 8.890028660780835
+    },
+    {
+      "date": "2025-03-01",
+      "series": "registered",
+      "value": 7.556800343693726
+    },
+    {
+      "date": "2025-03-01",
+      "series": "total",
+      "value": 10.047107469551865
+    },
+    {
+      "date": "2025-03-01",
+      "series": "unregistered",
+      "value": 23.16729649147138
+    },
+    {
+      "date": "2025-04-01",
+      "series": "private",
+      "value": 9.631402263718126
+    },
+    {
+      "date": "2025-04-01",
+      "series": "public",
+      "value": 11.360772381149964
+    },
+    {
+      "date": "2025-04-01",
+      "series": "registered",
+      "value": 10.187048695451018
+    },
+    {
+      "date": "2025-04-01",
+      "series": "total",
+      "value": 13.767487520683241
+    },
+    {
+      "date": "2025-04-01",
+      "series": "unregistered",
+      "value": 32.63156982388018
+    },
+    {
+      "date": "2025-05-01",
+      "series": "private",
+      "value": 11.797811932335534
+    },
+    {
+      "date": "2025-05-01",
+      "series": "public",
+      "value": 15.008682756659963
+    },
+    {
+      "date": "2025-05-01",
+      "series": "registered",
+      "value": 12.829524612105292
+    },
+    {
+      "date": "2025-05-01",
+      "series": "total",
+      "value": 17.16543463404989
+    },
+    {
+      "date": "2025-05-01",
+      "series": "unregistered",
+      "value": 40.01005408403828
+    },
+    {
+      "date": "2025-06-01",
+      "series": "private",
+      "value": 13.735287433634259
+    },
+    {
+      "date": "2025-06-01",
+      "series": "public",
+      "value": 16.48398300331173
+    },
+    {
+      "date": "2025-06-01",
+      "series": "registered",
+      "value": 14.618549546423454
+    },
+    {
+      "date": "2025-06-01",
+      "series": "total",
+      "value": 20.655827554747685
+    },
+    {
+      "date": "2025-06-01",
+      "series": "unregistered",
+      "value": 52.463467272223
+    },
+    {
+      "date": "2025-07-01",
+      "series": "private",
+      "value": 16.205976691725876
+    },
+    {
+      "date": "2025-07-01",
+      "series": "public",
+      "value": 19.140483929216323
+    },
+    {
+      "date": "2025-07-01",
+      "series": "registered",
+      "value": 17.14882929327979
+    },
+    {
+      "date": "2025-07-01",
+      "series": "total",
+      "value": 23.652251133458456
+    },
+    {
+      "date": "2025-07-01",
+      "series": "unregistered",
+      "value": 57.91564103453057
+    },
+    {
+      "date": "2025-08-01",
+      "series": "private",
+      "value": 18.813019810965347
+    },
+    {
+      "date": "2025-08-01",
+      "series": "public",
+      "value": 22.46740124324782
+    },
+    {
+      "date": "2025-08-01",
+      "series": "registered",
+      "value": 19.987276723012613
+    },
+    {
+      "date": "2025-08-01",
+      "series": "total",
+      "value": 27.558563465000674
+    },
+    {
+      "date": "2025-08-01",
+      "series": "unregistered",
+      "value": 67.44816946331993
+    },
+    {
+      "date": "2025-09-01",
+      "series": "private",
+      "value": 20.444385469620087
+    },
+    {
+      "date": "2025-09-01",
+      "series": "public",
+      "value": 23.862597296819633
+    },
+    {
+      "date": "2025-09-01",
+      "series": "registered",
+      "value": 21.54265602538048
+    },
+    {
+      "date": "2025-09-01",
+      "series": "total",
+      "value": 30.395938628471917
+    },
+    {
+      "date": "2025-09-01",
+      "series": "unregistered",
+      "value": 77.03876889474415
+    },
+    {
+      "date": "2025-10-01",
+      "series": "private",
+      "value": 22.94893441135244
+    },
+    {
+      "date": "2025-10-01",
+      "series": "public",
+      "value": 26.20271547451649
+    },
+    {
+      "date": "2025-10-01",
+      "series": "registered",
+      "value": 23.994448024587346
+    },
+    {
+      "date": "2025-10-01",
+      "series": "total",
+      "value": 33.65408964294758
+    },
+    {
+      "date": "2025-10-01",
+      "series": "unregistered",
+      "value": 84.54574608237418
+    },
+    {
+      "date": "2025-11-01",
+      "series": "private",
+      "value": 25.56573888083069
+    },
+    {
+      "date": "2025-11-01",
+      "series": "public",
+      "value": 27.654195769269172
+    },
+    {
+      "date": "2025-11-01",
+      "series": "registered",
+      "value": 26.236719046910896
+    },
+    {
+      "date": "2025-11-01",
+      "series": "total",
+      "value": 36.034785987088824
+    },
+    {
+      "date": "2025-11-01",
+      "series": "unregistered",
+      "value": 87.65536160033285
+    },
+    {
+      "date": "2025-12-01",
+      "series": "private",
+      "value": 28.74305838355089
+    },
+    {
+      "date": "2025-12-01",
+      "series": "public",
+      "value": 28.91185081026255
+    },
+    {
+      "date": "2025-12-01",
+      "series": "registered",
+      "value": 28.797237231282757
+    },
+    {
+      "date": "2025-12-01",
+      "series": "total",
+      "value": 38.22816249648775
+    },
+    {
+      "date": "2025-12-01",
+      "series": "unregistered",
+      "value": 87.91408091804188
+    },
+    {
+      "date": "2026-01-01",
+      "series": "private",
+      "value": 2.1322118232436793
+    },
+    {
+      "date": "2026-01-01",
+      "series": "public",
+      "value": 1.8102190651175354
+    },
+    {
+      "date": "2026-01-01",
+      "series": "registered",
+      "value": 2.0286913638532855
+    },
+    {
+      "date": "2026-01-01",
+      "series": "total",
+      "value": 2.5353844609516063
+    },
+    {
+      "date": "2026-01-01",
+      "series": "unregistered",
+      "value": 4.365503539426063
+    },
+    {
+      "date": "2026-02-01",
+      "series": "private",
+      "value": 3.723018599691974
+    },
+    {
+      "date": "2026-02-01",
+      "series": "public",
+      "value": 4.181772935824246
+    },
+    {
+      "date": "2026-02-01",
+      "series": "registered",
+      "value": 3.8705886579051274
+    },
+    {
+      "date": "2026-02-01",
+      "series": "total",
+      "value": 5.024593455129489
+    },
+    {
+      "date": "2026-02-01",
+      "series": "unregistered",
+      "value": 9.192245203411776
+    },
+    {
+      "date": "2026-03-01",
+      "series": "private",
+      "value": 5.858073687951659
+    },
+    {
+      "date": "2026-03-01",
+      "series": "public",
+      "value": 9.440617274568265
+    },
+    {
+      "date": "2026-03-01",
+      "series": "registered",
+      "value": 7.01029420065995
+    },
+    {
+      "date": "2026-03-01",
+      "series": "total",
+      "value": 8.60005520979723
+    },
+    {
+      "date": "2026-03-01",
+      "series": "unregistered",
+      "value": 14.341161697402427
+    },
+    {
+      "date": "2026-04-01",
+      "series": "private",
+      "value": 10.092761521146798
+    },
+    {
+      "date": "2026-04-01",
+      "series": "public",
+      "value": 11.990540606992628
+    },
+    {
+      "date": "2026-04-01",
+      "series": "registered",
+      "value": 10.703069272888687
+    },
+    {
+      "date": "2026-04-01",
+      "series": "total",
+      "value": 12.654336478618756
+    },
+    {
+      "date": "2026-04-01",
+      "series": "unregistered",
+      "value": 19.700518085723417
+    },
+    {
+      "date": "2026-05-01",
+      "series": "private",
+      "value": 12.295225684160638
+    },
+    {
+      "date": "2026-05-01",
+      "series": "public",
+      "value": 13.671415734958181
+    },
+    {
+      "date": "2026-05-01",
+      "series": "registered",
+      "value": 12.737918682999162
+    },
+    {
+      "date": "2026-05-01",
+      "series": "total",
+      "value": 15.154963862678162
+    },
+    {
+      "date": "2026-05-01",
+      "series": "unregistered",
+      "value": 23.883486637354977
+    },
+    {
+      "date": "2026-06-01",
+      "series": "private",
+      "value": 14.468901788887578
+    },
+    {
+      "date": "2026-06-01",
+      "series": "public",
+      "value": 17.56320790845787
+    },
+    {
+      "date": "2026-06-01",
+      "series": "registered",
+      "value": 15.464137078109674
+    },
+    {
+      "date": "2026-06-01",
+      "series": "total",
+      "value": 18.481479622565743
+    },
+    {
+      "date": "2026-06-01",
+      "series": "unregistered",
+      "value": 29.37752455804741
+    },
+    {
+      "date": "2026-07-01",
+      "series": "private",
+      "value": 17.046203056509903
+    },
+    {
+      "date": "2026-07-01",
+      "series": "public",
+      "value": 21.05698434908558
+    },
+    {
+      "date": "2026-07-01",
+      "series": "registered",
+      "value": 18.336095901307047
+    },
+    {
+      "date": "2026-07-01",
+      "series": "total",
+      "value": 21.820919494077472
+    },
+    {
+      "date": "2026-07-01",
+      "series": "unregistered",
+      "value": 34.40525073481
+    },
+    {
+      "date": "2026-08-01",
+      "series": "private",
+      "value": 20.36073924890416
+    },
+    {
+      "date": "2026-08-01",
+      "series": "public",
+      "value": 23.79287684460398
+    },
+    {
+      "date": "2026-08-01",
+      "series": "registered",
+      "value": 21.4646399852207
+    },
+    {
+      "date": "2026-08-01",
+      "series": "total",
+      "value": 25.14492571772735
+    },
+    {
+      "date": "2026-08-01",
+      "series": "unregistered",
+      "value": 38.43531884815006
+    }
+  ],
+  "valueKind": "rate",
+  "supportingSources": [],
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-08-01",
+  "firstObservedPeriod": "2023-11-01",
+  "lastObservedBySeries": {
+    "private": "2026-08-01",
+    "public": "2026-08-01",
+    "registered": "2026-08-01",
+    "unregistered": "2026-08-01",
+    "total": "2026-08-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T13:00:17Z",
+  "lastAttemptAt": "2026-11-13T13:00:17Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "858aaaf923ba28fe0882470fe044a6ea9c632040b6f1bbd0b894ef3af09ca3a6",
+  "rawSha256": "331b585fae1d1df03954a984a99cfefdb8e1f03d30c97a401e46e81c14916efe",
+  "dataChangedAt": "2026-11-13T12:50:37Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

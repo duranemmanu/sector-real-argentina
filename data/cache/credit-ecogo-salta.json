@@ -1,0 +1,95 @@
+{
+  "id": "credit-ecogo-salta",
+  "source": "EcoGo · Universidad Austral",
+  "sourceUrl": "https://www.austral.edu.ar/wp-content/uploads/2026/10/Dossier_ECOGO_Austral_credito_familias_OCTUBRE_2026-005.pdf",
+  "frequency": "monthly",
+  "unit": "% del saldo de crédito informado",
+  "series": [
+    {
+      "id": "salta",
+      "label": "Salta",
+      "externalField": "salta"
+    },
+    {
+      "id": "national",
+      "label": "Total nacional",
+      "externalField": "national"
+    },
+    {
+      "id": "salta_financial",
+      "label": "Salta · sistema financiero",
+      "externalField": "salta_financial"
+    },
+    {
+      "id": "national_financial",
+      "label": "Nación · sistema financiero",
+      "externalField": "national_financial"
+    },
+    {
+      "id": "salta_nonbank",
+      "label": "Salta · PNFC",
+      "externalField": "salta_nonbank"
+    },
+    {
+      "id": "national_nonbank",
+      "label": "Nación · PNFC",
+      "externalField": "national_nonbank"
+    }
+  ],
+  "methodNote": "EcoGo y Universidad Austral, dossier de octubre de 2026, datos de agosto. Personas físicas y crédito informado en la Central de Deudores: situaciones 3 a 5. El procesamiento imputa hasta dos meses de saldos de otorgantes faltantes y elimina el registro desde el tercero; hay un quiebre de reporte en julio de 2024. No se empalma con la serie bancaria ni con Fortress. Páginas 9, 11 y 12. Mora por monto: no es porcentaje de familias. El crédito real salteño creció 0,5% interanual en este corte (página 6). Transcripción verificada del PDF; actualización por revisión del dossier.",
+  "observations": [
+    {
+      "date": "2026-08-01",
+      "series": "national",
+      "value": 18.4
+    },
+    {
+      "date": "2026-08-01",
+      "series": "national_financial",
+      "value": 16.1
+    },
+    {
+      "date": "2026-08-01",
+      "series": "national_nonbank",
+      "value": 31.7
+    },
+    {
+      "date": "2026-08-01",
+      "series": "salta",
+      "value": 20.4
+    },
+    {
+      "date": "2026-08-01",
+      "series": "salta_financial",
+      "value": 16.4
+    },
+    {
+      "date": "2026-08-01",
+      "series": "salta_nonbank",
+      "value": 35.5
+    }
+  ],
+  "valueKind": "percentage",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-08-01",
+  "firstObservedPeriod": "2026-08-01",
+  "lastObservedBySeries": {
+    "salta": "2026-08-01",
+    "national": "2026-08-01",
+    "salta_financial": "2026-08-01",
+    "national_financial": "2026-08-01",
+    "salta_nonbank": "2026-08-01",
+    "national_nonbank": "2026-08-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T03:33:51Z",
+  "lastAttemptAt": "2026-11-13T12:47:38Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": false,
+  "contentHash": "55a232016e114d2823fd86bc5e2a0f6032966398624c78fa6fa62a437cc8d669",
+  "rawSha256": "359f3f63ec01bdbd42c601d35f91d04feab5166cac6321d46820ac2a2e92cf05",
+  "dataChangedAt": "2026-11-13T03:19:34Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

@@ -1,0 +1,215 @@
+{
+  "id": "labor-ripte-real",
+  "source": "Seguridad Social · RIPTE e INDEC · IPC",
+  "sourceUrl": "https://www.argentina.gob.ar/sites/default/files/ripte_septiembre_2026-mdch.pdf",
+  "frequency": "monthly",
+  "unit": "índice real, diciembre de 2023=100",
+  "series": [
+    {
+      "id": "ripte",
+      "label": "RIPTE real"
+    }
+  ],
+  "methodNote": "Remuneración imponible promedio de trabajadores en relación de dependencia, públicos y privados, declarados en forma continua durante los últimos 13 meses. Indicador previsional de la Subsecretaría de Seguridad Social: no equivale al salario de toda la población ocupada ni al índice de salarios del INDEC. Se extrae la columna «Monto en $», no el índice no decreciente de uso exclusivo en riesgos del trabajo. Monto nominal dividido por el IPC nacional y rebasado a diciembre de 2023=100. Se usa el período común de ambos archivos; no se encadenan tasas redondeadas.",
+  "observations": [
+    {
+      "date": "2023-11-01",
+      "series": "ripte",
+      "value": 115.82350885675518
+    },
+    {
+      "date": "2023-12-01",
+      "series": "ripte",
+      "value": 100.0
+    },
+    {
+      "date": "2024-01-01",
+      "series": "ripte",
+      "value": 95.05872550507203
+    },
+    {
+      "date": "2024-02-01",
+      "series": "ripte",
+      "value": 93.57968434175812
+    },
+    {
+      "date": "2024-03-01",
+      "series": "ripte",
+      "value": 96.12287496588931
+    },
+    {
+      "date": "2024-04-01",
+      "series": "ripte",
+      "value": 102.54597857466685
+    },
+    {
+      "date": "2024-05-01",
+      "series": "ripte",
+      "value": 105.63970140169825
+    },
+    {
+      "date": "2024-06-01",
+      "series": "ripte",
+      "value": 107.18365885268067
+    },
+    {
+      "date": "2024-07-01",
+      "series": "ripte",
+      "value": 109.8208359090912
+    },
+    {
+      "date": "2024-08-01",
+      "series": "ripte",
+      "value": 109.42109054818403
+    },
+    {
+      "date": "2024-09-01",
+      "series": "ripte",
+      "value": 110.12973001646348
+    },
+    {
+      "date": "2024-10-01",
+      "series": "ripte",
+      "value": 114.3579291939807
+    },
+    {
+      "date": "2024-11-01",
+      "series": "ripte",
+      "value": 114.80894968276073
+    },
+    {
+      "date": "2024-12-01",
+      "series": "ripte",
+      "value": 114.0620617786046
+    },
+    {
+      "date": "2025-01-01",
+      "series": "ripte",
+      "value": 114.53826430538132
+    },
+    {
+      "date": "2025-02-01",
+      "series": "ripte",
+      "value": 118.70986786002229
+    },
+    {
+      "date": "2025-03-01",
+      "series": "ripte",
+      "value": 119.08409510572578
+    },
+    {
+      "date": "2025-04-01",
+      "series": "ripte",
+      "value": 119.18430393927466
+    },
+    {
+      "date": "2025-05-01",
+      "series": "ripte",
+      "value": 119.60289116356147
+    },
+    {
+      "date": "2025-06-01",
+      "series": "ripte",
+      "value": 120.94948283725584
+    },
+    {
+      "date": "2025-07-01",
+      "series": "ripte",
+      "value": 122.13191139990936
+    },
+    {
+      "date": "2025-08-01",
+      "series": "ripte",
+      "value": 121.43985911682917
+    },
+    {
+      "date": "2025-09-01",
+      "series": "ripte",
+      "value": 120.64424107024003
+    },
+    {
+      "date": "2025-10-01",
+      "series": "ripte",
+      "value": 121.01438088243806
+    },
+    {
+      "date": "2025-11-01",
+      "series": "ripte",
+      "value": 119.48798880453877
+    },
+    {
+      "date": "2025-12-01",
+      "series": "ripte",
+      "value": 117.74609082262712
+    },
+    {
+      "date": "2026-01-01",
+      "series": "ripte",
+      "value": 115.34474129783501
+    },
+    {
+      "date": "2026-02-01",
+      "series": "ripte",
+      "value": 118.09072128888485
+    },
+    {
+      "date": "2026-03-01",
+      "series": "ripte",
+      "value": 116.94738318200433
+    },
+    {
+      "date": "2026-04-01",
+      "series": "ripte",
+      "value": 117.98069737870105
+    },
+    {
+      "date": "2026-05-01",
+      "series": "ripte",
+      "value": 116.25921198280021
+    },
+    {
+      "date": "2026-06-01",
+      "series": "ripte",
+      "value": 118.18689127550996
+    },
+    {
+      "date": "2026-07-01",
+      "series": "ripte",
+      "value": 117.56175949307645
+    },
+    {
+      "date": "2026-08-01",
+      "series": "ripte",
+      "value": 117.81143105667573
+    },
+    {
+      "date": "2026-09-01",
+      "series": "ripte",
+      "value": 117.89256574733827
+    }
+  ],
+  "valueKind": "level",
+  "supportingSources": [
+    {
+      "label": "INDEC · IPC nacional",
+      "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv"
+    }
+  ],
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-09-01",
+  "firstObservedPeriod": "2023-11-01",
+  "lastObservedBySeries": {
+    "ripte": "2026-09-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T13:00:17Z",
+  "lastAttemptAt": "2026-11-13T13:00:17Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "d5e698817fdd7d5dcc60cef8e9d163c0922d8f131f12c8d19b63d35868d89964",
+  "rawSha256": "b12f2c2b7b75b5c4c95e1c0de44c81eca9ff69027e7a83924241c1355d070279",
+  "dataChangedAt": "2026-11-13T13:00:17Z",
+  "revisedObservations": 0,
+  "newObservations": 35,
+  "changedSinceLastFetch": true
+}

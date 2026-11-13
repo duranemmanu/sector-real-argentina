@@ -1,0 +1,210 @@
+{
+  "id": "labor-ripte-nominal",
+  "source": "Seguridad Social · RIPTE",
+  "sourceUrl": "https://www.argentina.gob.ar/sites/default/files/ripte_septiembre_2026-mdch.pdf",
+  "frequency": "monthly",
+  "unit": "pesos corrientes",
+  "series": [
+    {
+      "id": "ripte",
+      "label": "RIPTE nominal"
+    }
+  ],
+  "methodNote": "Remuneración imponible promedio de trabajadores en relación de dependencia, públicos y privados, declarados en forma continua durante los últimos 13 meses. Indicador previsional de la Subsecretaría de Seguridad Social: no equivale al salario de toda la población ocupada ni al índice de salarios del INDEC. Se extrae la columna «Monto en $», no el índice no decreciente de uso exclusivo en riesgos del trabajo. ",
+  "observations": [
+    {
+      "date": "2023-11-01",
+      "series": "ripte",
+      "value": 447079.57
+    },
+    {
+      "date": "2023-12-01",
+      "series": "ripte",
+      "value": 484298.4
+    },
+    {
+      "date": "2024-01-01",
+      "series": "ripte",
+      "value": 555269.16
+    },
+    {
+      "date": "2024-02-01",
+      "series": "ripte",
+      "value": 619007.05
+    },
+    {
+      "date": "2024-03-01",
+      "series": "ripte",
+      "value": 705832.58
+    },
+    {
+      "date": "2024-04-01",
+      "series": "ripte",
+      "value": 819501.72
+    },
+    {
+      "date": "2024-05-01",
+      "series": "ripte",
+      "value": 879483.08
+    },
+    {
+      "date": "2024-06-01",
+      "series": "ripte",
+      "value": 933179.85
+    },
+    {
+      "date": "2024-07-01",
+      "series": "ripte",
+      "value": 994681.38
+    },
+    {
+      "date": "2024-08-01",
+      "series": "ripte",
+      "value": 1032410.48
+    },
+    {
+      "date": "2024-09-01",
+      "series": "ripte",
+      "value": 1075145.08
+    },
+    {
+      "date": "2024-10-01",
+      "series": "ripte",
+      "value": 1146474.18
+    },
+    {
+      "date": "2024-11-01",
+      "series": "ripte",
+      "value": 1178925.33
+    },
+    {
+      "date": "2024-12-01",
+      "series": "ripte",
+      "value": 1202927.89
+    },
+    {
+      "date": "2025-01-01",
+      "series": "ripte",
+      "value": 1234658.4
+    },
+    {
+      "date": "2025-02-01",
+      "series": "ripte",
+      "value": 1310357.8
+    },
+    {
+      "date": "2025-03-01",
+      "series": "ripte",
+      "value": 1363510.33
+    },
+    {
+      "date": "2025-04-01",
+      "series": "ripte",
+      "value": 1402606.61
+    },
+    {
+      "date": "2025-05-01",
+      "series": "ripte",
+      "value": 1428661.3
+    },
+    {
+      "date": "2025-06-01",
+      "series": "ripte",
+      "value": 1468135.75
+    },
+    {
+      "date": "2025-07-01",
+      "series": "ripte",
+      "value": 1510680.81
+    },
+    {
+      "date": "2025-08-01",
+      "series": "ripte",
+      "value": 1530297.32
+    },
+    {
+      "date": "2025-09-01",
+      "series": "ripte",
+      "value": 1551831.75
+    },
+    {
+      "date": "2025-10-01",
+      "series": "ripte",
+      "value": 1593047.33
+    },
+    {
+      "date": "2025-11-01",
+      "series": "ripte",
+      "value": 1611851.61
+    },
+    {
+      "date": "2025-12-01",
+      "series": "ripte",
+      "value": 1633547.0
+    },
+    {
+      "date": "2026-01-01",
+      "series": "ripte",
+      "value": 1646344.54
+    },
+    {
+      "date": "2026-02-01",
+      "series": "ripte",
+      "value": 1734357.18
+    },
+    {
+      "date": "2026-03-01",
+      "series": "ripte",
+      "value": 1775664.12
+    },
+    {
+      "date": "2026-04-01",
+      "series": "ripte",
+      "value": 1837609.35
+    },
+    {
+      "date": "2026-05-01",
+      "series": "ripte",
+      "value": 1849727.96
+    },
+    {
+      "date": "2026-06-01",
+      "series": "ripte",
+      "value": 1915878.76
+    },
+    {
+      "date": "2026-07-01",
+      "series": "ripte",
+      "value": 1946028.12
+    },
+    {
+      "date": "2026-08-01",
+      "series": "ripte",
+      "value": 1982518.19
+    },
+    {
+      "date": "2026-09-01",
+      "series": "ripte",
+      "value": 2022244.09
+    }
+  ],
+  "valueKind": "level",
+  "supportingSources": [],
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-09-01",
+  "firstObservedPeriod": "2023-11-01",
+  "lastObservedBySeries": {
+    "ripte": "2026-09-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:47:49Z",
+  "lastAttemptAt": "2026-11-13T12:47:49Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "0b4cd481799677a025159a4e4e762fd25e5c7e519d045eae8f2af8e4b2785ae7",
+  "rawSha256": "912e6501c6856928ac6288ca84c217b7642be9d5bc96f962937268978924b579",
+  "dataChangedAt": "2026-11-13T12:47:49Z",
+  "revisedObservations": 0,
+  "newObservations": 35,
+  "changedSinceLastFetch": true
+}

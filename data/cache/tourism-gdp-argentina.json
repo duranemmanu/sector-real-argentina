@@ -1,0 +1,155 @@
+{
+  "id": "tourism-gdp-argentina",
+  "source": "World Travel & Tourism Council / Oxford Economics · EIR 2026. All rights reserved.",
+  "sourceUrl": "https://researchhub.wttc.org/dv-dashboard",
+  "frequency": "annual",
+  "unit": "% del PIB a precios corrientes",
+  "series": [
+    {
+      "id": "direct-share",
+      "label": "Aporte directo",
+      "externalField": "direct-share"
+    },
+    {
+      "id": "total-share",
+      "label": "Aporte total (incluye el directo)",
+      "externalField": "total-share"
+    }
+  ],
+  "methodNote": "Argentina: participaciones del turismo en el PIB a precios corrientes, edición WTTC EIR 2026, cifras finalizadas en abril de 2026. El aporte total incluye los impactos directo, indirecto e inducido; ambas curvas no se suman. Veinte valores numéricos del dashboard WTTC para 2016–2025, con los cinco decimales publicados. Los doce porcentajes 2020–2025 concilian con el cuadro nominal del informe, página impresa 15; el total 2019 concilia con la página 1. Revisión documentada del 12/11/2026; requiere revisar cada nueva edición de WTTC. Fuente: World Travel & Tourism Council: Travel & Tourism Economic Impact Research 2026. All rights reserved.",
+  "observations": [
+    {
+      "date": "2016-01-01",
+      "series": "direct-share",
+      "value": 1.87063
+    },
+    {
+      "date": "2016-01-01",
+      "series": "total-share",
+      "value": 5.37887
+    },
+    {
+      "date": "2017-01-01",
+      "series": "direct-share",
+      "value": 1.90899
+    },
+    {
+      "date": "2017-01-01",
+      "series": "total-share",
+      "value": 5.66249
+    },
+    {
+      "date": "2018-01-01",
+      "series": "direct-share",
+      "value": 1.7585
+    },
+    {
+      "date": "2018-01-01",
+      "series": "total-share",
+      "value": 5.29298
+    },
+    {
+      "date": "2019-01-01",
+      "series": "direct-share",
+      "value": 1.66954
+    },
+    {
+      "date": "2019-01-01",
+      "series": "total-share",
+      "value": 5.14193
+    },
+    {
+      "date": "2020-01-01",
+      "series": "direct-share",
+      "value": 0.82919
+    },
+    {
+      "date": "2020-01-01",
+      "series": "total-share",
+      "value": 2.72112
+    },
+    {
+      "date": "2021-01-01",
+      "series": "direct-share",
+      "value": 0.81429
+    },
+    {
+      "date": "2021-01-01",
+      "series": "total-share",
+      "value": 2.76115
+    },
+    {
+      "date": "2022-01-01",
+      "series": "direct-share",
+      "value": 1.62659
+    },
+    {
+      "date": "2022-01-01",
+      "series": "total-share",
+      "value": 4.92102
+    },
+    {
+      "date": "2023-01-01",
+      "series": "direct-share",
+      "value": 1.8382
+    },
+    {
+      "date": "2023-01-01",
+      "series": "total-share",
+      "value": 5.53873
+    },
+    {
+      "date": "2024-01-01",
+      "series": "direct-share",
+      "value": 1.89704
+    },
+    {
+      "date": "2024-01-01",
+      "series": "total-share",
+      "value": 5.7003
+    },
+    {
+      "date": "2025-01-01",
+      "series": "direct-share",
+      "value": 1.84932
+    },
+    {
+      "date": "2025-01-01",
+      "series": "total-share",
+      "value": 5.57014
+    }
+  ],
+  "supportingSources": [
+    {
+      "label": "WTTC · informe Argentina EIR 2026",
+      "url": "https://researchhub.wttc.org/product/argentina-economic-impact-report"
+    },
+    {
+      "label": "WTTC · metodología EIR",
+      "url": "https://researchhub.wttc.org/product/economic-impact-research-eir-methodology"
+    },
+    {
+      "label": "WTTC · fuentes y técnicas de estimación",
+      "url": "https://researchhub.wttc.org/product/economic-impact-research-eir-data-sources-and-estimation-techniques"
+    }
+  ],
+  "valueKind": "percentage",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2025-01-01",
+  "firstObservedPeriod": "2016-01-01",
+  "lastObservedBySeries": {
+    "direct-share": "2025-01-01",
+    "total-share": "2025-01-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-12T14:31:39Z",
+  "lastAttemptAt": "2026-11-13T12:47:29Z",
+  "sourcePublishedAt": "2026-07-13",
+  "isAutoUpdated": false,
+  "contentHash": "7122830ca070c180a52bf2acc328cf3b729ab2691b59b2c31f53d3c680cb84b3",
+  "rawSha256": "6f3b6d9a20fba5928cfd18aa354767e1b70113caca4ce8d7c56515daab36c411",
+  "dataChangedAt": "2026-11-12T14:36:43Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

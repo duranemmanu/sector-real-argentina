@@ -1,0 +1,317 @@
+{
+  "id": "epi-milk",
+  "source": "INDEC · Estadísticas de Productos Industriales (EPI)",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls",
+  "frequency": "monthly",
+  "unit": "miles de litros",
+  "series": [
+    {
+      "column": 1,
+      "id": "chilled",
+      "label": "Leches refrigeradas"
+    },
+    {
+      "column": 2,
+      "id": "unchilled",
+      "label": "Leches no refrigeradas"
+    },
+    {
+      "column": 4,
+      "id": "flavoured",
+      "label": "Leches chocolatadas o saborizadas"
+    }
+  ],
+  "methodNote": "Niveles mensuales publicados en EPI; datos preliminares según asteriscos del cuadro. Los símbolos de ausencia se conservan como null. No se mezclan totales anuales con meses.",
+  "observations": [
+    {
+      "date": "2025-01-01",
+      "series": "chilled",
+      "value": 34729.66747655744
+    },
+    {
+      "date": "2025-01-01",
+      "series": "flavoured",
+      "value": 3253.411679827114
+    },
+    {
+      "date": "2025-01-01",
+      "series": "unchilled",
+      "value": 51839.21252033337
+    },
+    {
+      "date": "2025-02-01",
+      "series": "chilled",
+      "value": 32195.766378610027
+    },
+    {
+      "date": "2025-02-01",
+      "series": "flavoured",
+      "value": 1824.5910545179522
+    },
+    {
+      "date": "2025-02-01",
+      "series": "unchilled",
+      "value": 42115.75294200529
+    },
+    {
+      "date": "2025-03-01",
+      "series": "chilled",
+      "value": 34151.0
+    },
+    {
+      "date": "2025-03-01",
+      "series": "flavoured",
+      "value": 2778.0
+    },
+    {
+      "date": "2025-03-01",
+      "series": "unchilled",
+      "value": 52890.0
+    },
+    {
+      "date": "2025-04-01",
+      "series": "chilled",
+      "value": 33732.61212627971
+    },
+    {
+      "date": "2025-04-01",
+      "series": "flavoured",
+      "value": 2084.5601679999995
+    },
+    {
+      "date": "2025-04-01",
+      "series": "unchilled",
+      "value": 59633.96135868337
+    },
+    {
+      "date": "2025-05-01",
+      "series": "chilled",
+      "value": 33542.211
+    },
+    {
+      "date": "2025-05-01",
+      "series": "flavoured",
+      "value": 2061.0230730000017
+    },
+    {
+      "date": "2025-05-01",
+      "series": "unchilled",
+      "value": 56359.133218000024
+    },
+    {
+      "date": "2025-06-01",
+      "series": "chilled",
+      "value": 32262.684
+    },
+    {
+      "date": "2025-06-01",
+      "series": "flavoured",
+      "value": 2586.80484
+    },
+    {
+      "date": "2025-06-01",
+      "series": "unchilled",
+      "value": 61209.479414
+    },
+    {
+      "date": "2025-07-01",
+      "series": "chilled",
+      "value": 33270.863
+    },
+    {
+      "date": "2025-07-01",
+      "series": "flavoured",
+      "value": 916.6647999999998
+    },
+    {
+      "date": "2025-07-01",
+      "series": "unchilled",
+      "value": 63752.17758
+    },
+    {
+      "date": "2025-08-01",
+      "series": "chilled",
+      "value": 33539.0
+    },
+    {
+      "date": "2025-08-01",
+      "series": "flavoured",
+      "value": 2496.0
+    },
+    {
+      "date": "2025-08-01",
+      "series": "unchilled",
+      "value": 60392.0
+    },
+    {
+      "date": "2025-09-01",
+      "series": "chilled",
+      "value": 32762.0
+    },
+    {
+      "date": "2025-09-01",
+      "series": "flavoured",
+      "value": 3254.0
+    },
+    {
+      "date": "2025-09-01",
+      "series": "unchilled",
+      "value": 64882.0
+    },
+    {
+      "date": "2025-10-01",
+      "series": "chilled",
+      "value": 33541.983
+    },
+    {
+      "date": "2025-10-01",
+      "series": "flavoured",
+      "value": 4515.36694
+    },
+    {
+      "date": "2025-10-01",
+      "series": "unchilled",
+      "value": 67197.40562
+    },
+    {
+      "date": "2025-11-01",
+      "series": "chilled",
+      "value": 30255.2635
+    },
+    {
+      "date": "2025-11-01",
+      "series": "flavoured",
+      "value": 4485.024182879996
+    },
+    {
+      "date": "2025-11-01",
+      "series": "unchilled",
+      "value": 51981.46682723107
+    },
+    {
+      "date": "2025-12-01",
+      "series": "chilled",
+      "value": 30693.0
+    },
+    {
+      "date": "2025-12-01",
+      "series": "flavoured",
+      "value": 2836.0
+    },
+    {
+      "date": "2025-12-01",
+      "series": "unchilled",
+      "value": 49871.0
+    },
+    {
+      "date": "2026-01-01",
+      "series": "chilled",
+      "value": 31579.094
+    },
+    {
+      "date": "2026-01-01",
+      "series": "flavoured",
+      "value": 5331.922209999999
+    },
+    {
+      "date": "2026-01-01",
+      "series": "unchilled",
+      "value": 55652.832200000004
+    },
+    {
+      "date": "2026-02-01",
+      "series": "chilled",
+      "value": 30764.537
+    },
+    {
+      "date": "2026-02-01",
+      "series": "flavoured",
+      "value": 4101.539
+    },
+    {
+      "date": "2026-02-01",
+      "series": "unchilled",
+      "value": 47677.03828
+    },
+    {
+      "date": "2026-03-01",
+      "series": "chilled",
+      "value": 31920.0
+    },
+    {
+      "date": "2026-03-01",
+      "series": "flavoured",
+      "value": 2242.0
+    },
+    {
+      "date": "2026-03-01",
+      "series": "unchilled",
+      "value": 52891.0
+    },
+    {
+      "date": "2026-04-01",
+      "series": "chilled",
+      "value": 33861.0
+    },
+    {
+      "date": "2026-04-01",
+      "series": "flavoured",
+      "value": 1153.5044362952328
+    },
+    {
+      "date": "2026-04-01",
+      "series": "unchilled",
+      "value": 57026.0
+    },
+    {
+      "date": "2026-05-01",
+      "series": "chilled",
+      "value": 34061.804
+    },
+    {
+      "date": "2026-05-01",
+      "series": "flavoured",
+      "value": 1212.6879869306265
+    },
+    {
+      "date": "2026-05-01",
+      "series": "unchilled",
+      "value": 58293.903603506646
+    },
+    {
+      "date": "2026-06-01",
+      "series": "chilled",
+      "value": 36155.0
+    },
+    {
+      "date": "2026-06-01",
+      "series": "flavoured",
+      "value": 616.813142278064
+    },
+    {
+      "date": "2026-06-01",
+      "series": "unchilled",
+      "value": 66471.0
+    }
+  ],
+  "valueKind": "level",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-06-01",
+  "firstObservedPeriod": "2025-01-01",
+  "lastObservedBySeries": {
+    "chilled": "2026-06-01",
+    "unchilled": "2026-06-01",
+    "flavoured": "2026-06-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:46:21Z",
+  "lastAttemptAt": "2026-11-13T12:46:21Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "d78f58fd60810e4a74ed7602aa530f2e83a512ecb6af9b022be44ed6b4d07d90",
+  "rawSha256": "ac6a6584754c1e770f42c790f32c6a295e4aaa6ef73753facba35e799bb154fb",
+  "dataChangedAt": "2026-11-12T03:32:54Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

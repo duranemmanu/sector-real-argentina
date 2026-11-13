@@ -1,0 +1,130 @@
+{
+  "id": "epi-cigarettes",
+  "source": "INDEC · Estadísticas de Productos Industriales (EPI)",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls",
+  "frequency": "monthly",
+  "unit": "millones de paquetes equivalentes a 20 unidades",
+  "series": [
+    {
+      "column": 4,
+      "id": "cigarettes",
+      "label": "Despachos de cigarrillos"
+    }
+  ],
+  "methodNote": "Niveles mensuales publicados en EPI; datos preliminares según asteriscos del cuadro. Los símbolos de ausencia se conservan como null. No se mezclan totales anuales con meses.",
+  "observations": [
+    {
+      "date": "2025-01-01",
+      "series": "cigarettes",
+      "value": 144.393185
+    },
+    {
+      "date": "2025-02-01",
+      "series": "cigarettes",
+      "value": 138.1869
+    },
+    {
+      "date": "2025-03-01",
+      "series": "cigarettes",
+      "value": 139.394537
+    },
+    {
+      "date": "2025-04-01",
+      "series": "cigarettes",
+      "value": 127.334491
+    },
+    {
+      "date": "2025-05-01",
+      "series": "cigarettes",
+      "value": 132.942669
+    },
+    {
+      "date": "2025-06-01",
+      "series": "cigarettes",
+      "value": 129.205072
+    },
+    {
+      "date": "2025-07-01",
+      "series": "cigarettes",
+      "value": 137.085941
+    },
+    {
+      "date": "2025-08-01",
+      "series": "cigarettes",
+      "value": 124.362305
+    },
+    {
+      "date": "2025-09-01",
+      "series": "cigarettes",
+      "value": 123.950535
+    },
+    {
+      "date": "2025-10-01",
+      "series": "cigarettes",
+      "value": 143.999566
+    },
+    {
+      "date": "2025-11-01",
+      "series": "cigarettes",
+      "value": 120.277586
+    },
+    {
+      "date": "2025-12-01",
+      "series": "cigarettes",
+      "value": 156.001204
+    },
+    {
+      "date": "2026-01-01",
+      "series": "cigarettes",
+      "value": 130.35962
+    },
+    {
+      "date": "2026-02-01",
+      "series": "cigarettes",
+      "value": 132.037909
+    },
+    {
+      "date": "2026-03-01",
+      "series": "cigarettes",
+      "value": 145.53635
+    },
+    {
+      "date": "2026-04-01",
+      "series": "cigarettes",
+      "value": 123.986642
+    },
+    {
+      "date": "2026-05-01",
+      "series": "cigarettes",
+      "value": 120.821861
+    },
+    {
+      "date": "2026-06-01",
+      "series": "cigarettes",
+      "value": 139.475839
+    },
+    {
+      "date": "2026-07-01",
+      "series": "cigarettes",
+      "value": 114.116155
+    }
+  ],
+  "valueKind": "level",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-07-01",
+  "firstObservedPeriod": "2025-01-01",
+  "lastObservedBySeries": {
+    "cigarettes": "2026-07-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:46:21Z",
+  "lastAttemptAt": "2026-11-13T12:46:21Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "490d3629404dc7afb84ccf3db11021f75784f52e190846cdbba12d771d2e4704",
+  "rawSha256": "ac6a6584754c1e770f42c790f32c6a295e4aaa6ef73753facba35e799bb154fb",
+  "dataChangedAt": "2026-11-12T03:32:54Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

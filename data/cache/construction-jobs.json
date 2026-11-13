@@ -1,0 +1,735 @@
+{
+  "id": "construction-jobs",
+  "source": "INDEC · series históricas primarias",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_isac_2026.xls",
+  "frequency": "monthly",
+  "unit": "puestos de trabajo registrados, sector privado",
+  "series": [
+    {
+      "id": "jobs",
+      "label": "Puestos registrados",
+      "column": 2
+    }
+  ],
+  "methodNote": "Puestos registrados de la construcción en el sector privado, cuadro 5 del ISAC. No representa personas únicas.",
+  "observations": [
+    {
+      "date": "2015-01-01",
+      "series": "jobs",
+      "value": 426885.0
+    },
+    {
+      "date": "2015-02-01",
+      "series": "jobs",
+      "value": 430069.0
+    },
+    {
+      "date": "2015-03-01",
+      "series": "jobs",
+      "value": 441669.0
+    },
+    {
+      "date": "2015-04-01",
+      "series": "jobs",
+      "value": 447691.0
+    },
+    {
+      "date": "2015-05-01",
+      "series": "jobs",
+      "value": 451500.0
+    },
+    {
+      "date": "2015-06-01",
+      "series": "jobs",
+      "value": 458433.0
+    },
+    {
+      "date": "2015-07-01",
+      "series": "jobs",
+      "value": 458433.0
+    },
+    {
+      "date": "2015-08-01",
+      "series": "jobs",
+      "value": 453605.0
+    },
+    {
+      "date": "2015-09-01",
+      "series": "jobs",
+      "value": 456354.0
+    },
+    {
+      "date": "2015-10-01",
+      "series": "jobs",
+      "value": 455447.0
+    },
+    {
+      "date": "2015-11-01",
+      "series": "jobs",
+      "value": 448103.0
+    },
+    {
+      "date": "2015-12-01",
+      "series": "jobs",
+      "value": 421659.0
+    },
+    {
+      "date": "2016-01-01",
+      "series": "jobs",
+      "value": 408799.0
+    },
+    {
+      "date": "2016-02-01",
+      "series": "jobs",
+      "value": 403220.0
+    },
+    {
+      "date": "2016-03-01",
+      "series": "jobs",
+      "value": 402102.0
+    },
+    {
+      "date": "2016-04-01",
+      "series": "jobs",
+      "value": 398869.0
+    },
+    {
+      "date": "2016-05-01",
+      "series": "jobs",
+      "value": 398587.0
+    },
+    {
+      "date": "2016-06-01",
+      "series": "jobs",
+      "value": 396286.0
+    },
+    {
+      "date": "2016-07-01",
+      "series": "jobs",
+      "value": 395602.0
+    },
+    {
+      "date": "2016-08-01",
+      "series": "jobs",
+      "value": 400965.0
+    },
+    {
+      "date": "2016-09-01",
+      "series": "jobs",
+      "value": 403928.0
+    },
+    {
+      "date": "2016-10-01",
+      "series": "jobs",
+      "value": 406237.0
+    },
+    {
+      "date": "2016-11-01",
+      "series": "jobs",
+      "value": 412037.0
+    },
+    {
+      "date": "2016-12-01",
+      "series": "jobs",
+      "value": 403418.0
+    },
+    {
+      "date": "2017-01-01",
+      "series": "jobs",
+      "value": 407246.0
+    },
+    {
+      "date": "2017-02-01",
+      "series": "jobs",
+      "value": 410433.0
+    },
+    {
+      "date": "2017-03-01",
+      "series": "jobs",
+      "value": 423978.0
+    },
+    {
+      "date": "2017-04-01",
+      "series": "jobs",
+      "value": 420417.0
+    },
+    {
+      "date": "2017-05-01",
+      "series": "jobs",
+      "value": 428904.0
+    },
+    {
+      "date": "2017-06-01",
+      "series": "jobs",
+      "value": 434173.0
+    },
+    {
+      "date": "2017-07-01",
+      "series": "jobs",
+      "value": 437324.0
+    },
+    {
+      "date": "2017-08-01",
+      "series": "jobs",
+      "value": 442815.0
+    },
+    {
+      "date": "2017-09-01",
+      "series": "jobs",
+      "value": 447813.0
+    },
+    {
+      "date": "2017-10-01",
+      "series": "jobs",
+      "value": 453896.0
+    },
+    {
+      "date": "2017-11-01",
+      "series": "jobs",
+      "value": 458147.0
+    },
+    {
+      "date": "2017-12-01",
+      "series": "jobs",
+      "value": 444794.0
+    },
+    {
+      "date": "2018-01-01",
+      "series": "jobs",
+      "value": 447555.0
+    },
+    {
+      "date": "2018-02-01",
+      "series": "jobs",
+      "value": 446899.0
+    },
+    {
+      "date": "2018-03-01",
+      "series": "jobs",
+      "value": 455106.0
+    },
+    {
+      "date": "2018-04-01",
+      "series": "jobs",
+      "value": 454110.0
+    },
+    {
+      "date": "2018-05-01",
+      "series": "jobs",
+      "value": 454826.0
+    },
+    {
+      "date": "2018-06-01",
+      "series": "jobs",
+      "value": 447787.0
+    },
+    {
+      "date": "2018-07-01",
+      "series": "jobs",
+      "value": 447143.0
+    },
+    {
+      "date": "2018-08-01",
+      "series": "jobs",
+      "value": 448400.0
+    },
+    {
+      "date": "2018-09-01",
+      "series": "jobs",
+      "value": 441549.0
+    },
+    {
+      "date": "2018-10-01",
+      "series": "jobs",
+      "value": 443497.0
+    },
+    {
+      "date": "2018-11-01",
+      "series": "jobs",
+      "value": 440166.0
+    },
+    {
+      "date": "2018-12-01",
+      "series": "jobs",
+      "value": 429007.0
+    },
+    {
+      "date": "2019-01-01",
+      "series": "jobs",
+      "value": 437027.0
+    },
+    {
+      "date": "2019-02-01",
+      "series": "jobs",
+      "value": 442597.0
+    },
+    {
+      "date": "2019-03-01",
+      "series": "jobs",
+      "value": 445868.0
+    },
+    {
+      "date": "2019-04-01",
+      "series": "jobs",
+      "value": 442907.0
+    },
+    {
+      "date": "2019-05-01",
+      "series": "jobs",
+      "value": 443225.0
+    },
+    {
+      "date": "2019-06-01",
+      "series": "jobs",
+      "value": 434100.0
+    },
+    {
+      "date": "2019-07-01",
+      "series": "jobs",
+      "value": 435485.0
+    },
+    {
+      "date": "2019-08-01",
+      "series": "jobs",
+      "value": 432920.0
+    },
+    {
+      "date": "2019-09-01",
+      "series": "jobs",
+      "value": 422171.0
+    },
+    {
+      "date": "2019-10-01",
+      "series": "jobs",
+      "value": 411775.0
+    },
+    {
+      "date": "2019-11-01",
+      "series": "jobs",
+      "value": 403824.0
+    },
+    {
+      "date": "2019-12-01",
+      "series": "jobs",
+      "value": 384771.0
+    },
+    {
+      "date": "2020-01-01",
+      "series": "jobs",
+      "value": 376234.0
+    },
+    {
+      "date": "2020-02-01",
+      "series": "jobs",
+      "value": 369402.0
+    },
+    {
+      "date": "2020-03-01",
+      "series": "jobs",
+      "value": 359775.0
+    },
+    {
+      "date": "2020-04-01",
+      "series": "jobs",
+      "value": 320772.0
+    },
+    {
+      "date": "2020-05-01",
+      "series": "jobs",
+      "value": 312895.0
+    },
+    {
+      "date": "2020-06-01",
+      "series": "jobs",
+      "value": 312940.0
+    },
+    {
+      "date": "2020-07-01",
+      "series": "jobs",
+      "value": 308570.0
+    },
+    {
+      "date": "2020-08-01",
+      "series": "jobs",
+      "value": 311329.0
+    },
+    {
+      "date": "2020-09-01",
+      "series": "jobs",
+      "value": 318345.0
+    },
+    {
+      "date": "2020-10-01",
+      "series": "jobs",
+      "value": 327107.0
+    },
+    {
+      "date": "2020-11-01",
+      "series": "jobs",
+      "value": 333836.0
+    },
+    {
+      "date": "2020-12-01",
+      "series": "jobs",
+      "value": 329042.0
+    },
+    {
+      "date": "2021-01-01",
+      "series": "jobs",
+      "value": 336680.0
+    },
+    {
+      "date": "2021-02-01",
+      "series": "jobs",
+      "value": 342918.0
+    },
+    {
+      "date": "2021-03-01",
+      "series": "jobs",
+      "value": 355305.0
+    },
+    {
+      "date": "2021-04-01",
+      "series": "jobs",
+      "value": 357024.0
+    },
+    {
+      "date": "2021-05-01",
+      "series": "jobs",
+      "value": 356418.0
+    },
+    {
+      "date": "2021-06-01",
+      "series": "jobs",
+      "value": 362379.0
+    },
+    {
+      "date": "2021-07-01",
+      "series": "jobs",
+      "value": 369010.0
+    },
+    {
+      "date": "2021-08-01",
+      "series": "jobs",
+      "value": 375822.0
+    },
+    {
+      "date": "2021-09-01",
+      "series": "jobs",
+      "value": 383261.0
+    },
+    {
+      "date": "2021-10-01",
+      "series": "jobs",
+      "value": 389963.0
+    },
+    {
+      "date": "2021-11-01",
+      "series": "jobs",
+      "value": 395950.0
+    },
+    {
+      "date": "2021-12-01",
+      "series": "jobs",
+      "value": 389158.0
+    },
+    {
+      "date": "2022-01-01",
+      "series": "jobs",
+      "value": 394270.0
+    },
+    {
+      "date": "2022-02-01",
+      "series": "jobs",
+      "value": 401358.0
+    },
+    {
+      "date": "2022-03-01",
+      "series": "jobs",
+      "value": 412494.0
+    },
+    {
+      "date": "2022-04-01",
+      "series": "jobs",
+      "value": 414642.0
+    },
+    {
+      "date": "2022-05-01",
+      "series": "jobs",
+      "value": 420302.0
+    },
+    {
+      "date": "2022-06-01",
+      "series": "jobs",
+      "value": 424496.0
+    },
+    {
+      "date": "2022-07-01",
+      "series": "jobs",
+      "value": 430530.0
+    },
+    {
+      "date": "2022-08-01",
+      "series": "jobs",
+      "value": 435479.0
+    },
+    {
+      "date": "2022-09-01",
+      "series": "jobs",
+      "value": 443924.0
+    },
+    {
+      "date": "2022-10-01",
+      "series": "jobs",
+      "value": 449534.0
+    },
+    {
+      "date": "2022-11-01",
+      "series": "jobs",
+      "value": 457590.0
+    },
+    {
+      "date": "2022-12-01",
+      "series": "jobs",
+      "value": 446910.0
+    },
+    {
+      "date": "2023-01-01",
+      "series": "jobs",
+      "value": 448962.0
+    },
+    {
+      "date": "2023-02-01",
+      "series": "jobs",
+      "value": 450714.0
+    },
+    {
+      "date": "2023-03-01",
+      "series": "jobs",
+      "value": 464697.0
+    },
+    {
+      "date": "2023-04-01",
+      "series": "jobs",
+      "value": 463652.0
+    },
+    {
+      "date": "2023-05-01",
+      "series": "jobs",
+      "value": 467337.0
+    },
+    {
+      "date": "2023-06-01",
+      "series": "jobs",
+      "value": 463336.0
+    },
+    {
+      "date": "2023-07-01",
+      "series": "jobs",
+      "value": 463921.0
+    },
+    {
+      "date": "2023-08-01",
+      "series": "jobs",
+      "value": 465546.0
+    },
+    {
+      "date": "2023-09-01",
+      "series": "jobs",
+      "value": 459105.0
+    },
+    {
+      "date": "2023-10-01",
+      "series": "jobs",
+      "value": 452567.0
+    },
+    {
+      "date": "2023-11-01",
+      "series": "jobs",
+      "value": 445160.0
+    },
+    {
+      "date": "2023-12-01",
+      "series": "jobs",
+      "value": 417605.0
+    },
+    {
+      "date": "2024-01-01",
+      "series": "jobs",
+      "value": 401345.0
+    },
+    {
+      "date": "2024-02-01",
+      "series": "jobs",
+      "value": 388164.0
+    },
+    {
+      "date": "2024-03-01",
+      "series": "jobs",
+      "value": 380710.0
+    },
+    {
+      "date": "2024-04-01",
+      "series": "jobs",
+      "value": 374990.0
+    },
+    {
+      "date": "2024-05-01",
+      "series": "jobs",
+      "value": 373456.0
+    },
+    {
+      "date": "2024-06-01",
+      "series": "jobs",
+      "value": 367108.0
+    },
+    {
+      "date": "2024-07-01",
+      "series": "jobs",
+      "value": 371695.0
+    },
+    {
+      "date": "2024-08-01",
+      "series": "jobs",
+      "value": 374274.0
+    },
+    {
+      "date": "2024-09-01",
+      "series": "jobs",
+      "value": 376900.0
+    },
+    {
+      "date": "2024-10-01",
+      "series": "jobs",
+      "value": 378842.0
+    },
+    {
+      "date": "2024-11-01",
+      "series": "jobs",
+      "value": 377524.0
+    },
+    {
+      "date": "2024-12-01",
+      "series": "jobs",
+      "value": 368827.0
+    },
+    {
+      "date": "2025-01-01",
+      "series": "jobs",
+      "value": 373094.0
+    },
+    {
+      "date": "2025-02-01",
+      "series": "jobs",
+      "value": 374671.0
+    },
+    {
+      "date": "2025-03-01",
+      "series": "jobs",
+      "value": 374820.0
+    },
+    {
+      "date": "2025-04-01",
+      "series": "jobs",
+      "value": 375008.0
+    },
+    {
+      "date": "2025-05-01",
+      "series": "jobs",
+      "value": 374464.0
+    },
+    {
+      "date": "2025-06-01",
+      "series": "jobs",
+      "value": 372107.0
+    },
+    {
+      "date": "2025-07-01",
+      "series": "jobs",
+      "value": 376619.0
+    },
+    {
+      "date": "2025-08-01",
+      "series": "jobs",
+      "value": 376446.0
+    },
+    {
+      "date": "2025-09-01",
+      "series": "jobs",
+      "value": 378707.0
+    },
+    {
+      "date": "2025-10-01",
+      "series": "jobs",
+      "value": 381178.0
+    },
+    {
+      "date": "2025-11-01",
+      "series": "jobs",
+      "value": 377879.0
+    },
+    {
+      "date": "2025-12-01",
+      "series": "jobs",
+      "value": 369520.0
+    },
+    {
+      "date": "2026-01-01",
+      "series": "jobs",
+      "value": 373822.0
+    },
+    {
+      "date": "2026-02-01",
+      "series": "jobs",
+      "value": 374102.0
+    },
+    {
+      "date": "2026-03-01",
+      "series": "jobs",
+      "value": 379794.0
+    },
+    {
+      "date": "2026-04-01",
+      "series": "jobs",
+      "value": 375749.0
+    },
+    {
+      "date": "2026-05-01",
+      "series": "jobs",
+      "value": 376493.0
+    },
+    {
+      "date": "2026-06-01",
+      "series": "jobs",
+      "value": 378532.0
+    },
+    {
+      "date": "2026-07-01",
+      "series": "jobs",
+      "value": 379912.0
+    },
+    {
+      "date": "2026-08-01",
+      "series": "jobs",
+      "value": 382669.0
+    }
+  ],
+  "valueKind": "level",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-08-01",
+  "firstObservedPeriod": "2015-01-01",
+  "lastObservedBySeries": {
+    "jobs": "2026-08-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:46:21Z",
+  "lastAttemptAt": "2026-11-13T12:46:21Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "3890ff745ec4382a96ddb707d6ecb620795a4b19cd2b7c46ef2ad152a375b6ad",
+  "rawSha256": "35d240252819f8dbe217c87ea73cfb80e3d085451b324f273e9f404c17c58cd0",
+  "dataChangedAt": "2026-11-12T03:32:53Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

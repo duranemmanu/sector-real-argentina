@@ -1,0 +1,334 @@
+{
+  "id": "credit-real-rate",
+  "source": "BCRA · Tasas de interés e INDEC · IPC",
+  "sourceUrl": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/preser_tas.xls",
+  "frequency": "monthly",
+  "unit": "% mensual real, aproximación ex post",
+  "series": [
+    {
+      "id": "real_personal",
+      "label": "Personales · tasa real mensual aproximada"
+    }
+  ],
+  "methodNote": "Elaboración propia: 100×[(1+TNA_personales/1200)/(IPC(t)/IPC(t−1))−1]. Usa inflación exacta del índice nacional del mismo mes y tasa mensual proporcional. Es una referencia contemporánea ex post sin cargos: no es CFT, tasa esperada ni costo de toda la vida del préstamo. Se utiliza sólo el período común de tasas e IPC.",
+  "observations": [
+    {
+      "date": "2022-01-01",
+      "series": "real_personal",
+      "value": 0.6788416726759783
+    },
+    {
+      "date": "2022-02-01",
+      "series": "real_personal",
+      "value": -0.035212593148981064
+    },
+    {
+      "date": "2022-03-01",
+      "series": "real_personal",
+      "value": -1.9321225471358616
+    },
+    {
+      "date": "2022-04-01",
+      "series": "real_personal",
+      "value": -1.1400437010131492
+    },
+    {
+      "date": "2022-05-01",
+      "series": "real_personal",
+      "value": -0.10810199558209943
+    },
+    {
+      "date": "2022-06-01",
+      "series": "real_personal",
+      "value": -0.2534663160610462
+    },
+    {
+      "date": "2022-07-01",
+      "series": "real_personal",
+      "value": -1.7995828735995145
+    },
+    {
+      "date": "2022-08-01",
+      "series": "real_personal",
+      "value": -0.6897571849116102
+    },
+    {
+      "date": "2022-09-01",
+      "series": "real_personal",
+      "value": 0.34174320074951137
+    },
+    {
+      "date": "2022-10-01",
+      "series": "real_personal",
+      "value": 0.5322024705471273
+    },
+    {
+      "date": "2022-11-01",
+      "series": "real_personal",
+      "value": 1.5962140223836352
+    },
+    {
+      "date": "2022-12-01",
+      "series": "real_personal",
+      "value": 1.566768183884748
+    },
+    {
+      "date": "2023-01-01",
+      "series": "real_personal",
+      "value": 0.6205535816363517
+    },
+    {
+      "date": "2023-02-01",
+      "series": "real_personal",
+      "value": 0.08341638022213438
+    },
+    {
+      "date": "2023-03-01",
+      "series": "real_personal",
+      "value": -0.8608353394367496
+    },
+    {
+      "date": "2023-04-01",
+      "series": "real_personal",
+      "value": -1.4454037552195986
+    },
+    {
+      "date": "2023-05-01",
+      "series": "real_personal",
+      "value": 0.11806976309649553
+    },
+    {
+      "date": "2023-06-01",
+      "series": "real_personal",
+      "value": 2.646669183320305
+    },
+    {
+      "date": "2023-07-01",
+      "series": "real_personal",
+      "value": 2.1143313031005473
+    },
+    {
+      "date": "2023-08-01",
+      "series": "real_personal",
+      "value": -2.9763331416116867
+    },
+    {
+      "date": "2023-09-01",
+      "series": "real_personal",
+      "value": -4.049306947852482
+    },
+    {
+      "date": "2023-10-01",
+      "series": "real_personal",
+      "value": 1.2241360362027498
+    },
+    {
+      "date": "2023-11-01",
+      "series": "real_personal",
+      "value": -1.328056919575804
+    },
+    {
+      "date": "2023-12-01",
+      "series": "real_personal",
+      "value": -11.011517680809991
+    },
+    {
+      "date": "2024-01-01",
+      "series": "real_personal",
+      "value": -7.638727466478179
+    },
+    {
+      "date": "2024-02-01",
+      "series": "real_personal",
+      "value": -2.3503121666282656
+    },
+    {
+      "date": "2024-03-01",
+      "series": "real_personal",
+      "value": -0.4373793363903311
+    },
+    {
+      "date": "2024-04-01",
+      "series": "real_personal",
+      "value": -0.31723434702171094
+    },
+    {
+      "date": "2024-05-01",
+      "series": "real_personal",
+      "value": 1.5577706497520438
+    },
+    {
+      "date": "2024-06-01",
+      "series": "real_personal",
+      "value": 0.7414958389190707
+    },
+    {
+      "date": "2024-07-01",
+      "series": "real_personal",
+      "value": 1.2070829527195404
+    },
+    {
+      "date": "2024-08-01",
+      "series": "real_personal",
+      "value": 1.451344018686762
+    },
+    {
+      "date": "2024-09-01",
+      "series": "real_personal",
+      "value": 2.1906262572702895
+    },
+    {
+      "date": "2024-10-01",
+      "series": "real_personal",
+      "value": 3.1128080620505205
+    },
+    {
+      "date": "2024-11-01",
+      "series": "real_personal",
+      "value": 3.40987092029994
+    },
+    {
+      "date": "2024-12-01",
+      "series": "real_personal",
+      "value": 3.0971403959510146
+    },
+    {
+      "date": "2025-01-01",
+      "series": "real_personal",
+      "value": 3.663777441326599
+    },
+    {
+      "date": "2025-02-01",
+      "series": "real_personal",
+      "value": 3.2983257401830945
+    },
+    {
+      "date": "2025-03-01",
+      "series": "real_personal",
+      "value": 1.9544436046581737
+    },
+    {
+      "date": "2025-04-01",
+      "series": "real_personal",
+      "value": 3.052609431215836
+    },
+    {
+      "date": "2025-05-01",
+      "series": "real_personal",
+      "value": 4.4955745741861675
+    },
+    {
+      "date": "2025-06-01",
+      "series": "real_personal",
+      "value": 4.432647222523567
+    },
+    {
+      "date": "2025-07-01",
+      "series": "real_personal",
+      "value": 3.8958953032291577
+    },
+    {
+      "date": "2025-08-01",
+      "series": "real_personal",
+      "value": 4.230680982625046
+    },
+    {
+      "date": "2025-09-01",
+      "series": "real_personal",
+      "value": 4.667967848903931
+    },
+    {
+      "date": "2025-10-01",
+      "series": "real_personal",
+      "value": 4.532736129799897
+    },
+    {
+      "date": "2025-11-01",
+      "series": "real_personal",
+      "value": 3.9461615893914948
+    },
+    {
+      "date": "2025-12-01",
+      "series": "real_personal",
+      "value": 2.992094830947578
+    },
+    {
+      "date": "2026-01-01",
+      "series": "real_personal",
+      "value": 2.7669801443208852
+    },
+    {
+      "date": "2026-02-01",
+      "series": "real_personal",
+      "value": 2.833286574551752
+    },
+    {
+      "date": "2026-03-01",
+      "series": "real_personal",
+      "value": 2.327803670664763
+    },
+    {
+      "date": "2026-04-01",
+      "series": "real_personal",
+      "value": 3.001970827936029
+    },
+    {
+      "date": "2026-05-01",
+      "series": "real_personal",
+      "value": 3.386387928066892
+    },
+    {
+      "date": "2026-06-01",
+      "series": "real_personal",
+      "value": 3.6059227371879166
+    },
+    {
+      "date": "2026-07-01",
+      "series": "real_personal",
+      "value": 3.302258673250802
+    },
+    {
+      "date": "2026-08-01",
+      "series": "real_personal",
+      "value": 3.764171533929761
+    },
+    {
+      "date": "2026-09-01",
+      "series": "real_personal",
+      "value": 3.224866777083535
+    },
+    {
+      "date": "2026-10-01",
+      "series": "real_personal",
+      "value": 3.0070676260669282
+    }
+  ],
+  "valueKind": "rate",
+  "supportingSources": [
+    {
+      "label": "BCRA · Tasas pasivas",
+      "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/pashis.xls"
+    },
+    {
+      "label": "INDEC · IPC nacional",
+      "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv"
+    }
+  ],
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-10-01",
+  "firstObservedPeriod": "2022-01-01",
+  "lastObservedBySeries": {
+    "real_personal": "2026-10-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:47:35Z",
+  "lastAttemptAt": "2026-11-13T12:47:35Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "0684e964b465676858af3e7fca982edcda26bac2a79665ef708ccbb6c83cbcee",
+  "rawSha256": "2fdd01f71f9ae79e1ffcbe28fd3507b3d91d1020eaa6d38bbd1731632b30a0b5",
+  "dataChangedAt": "2026-11-13T03:21:12Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

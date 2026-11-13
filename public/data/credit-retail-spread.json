@@ -1,0 +1,105 @@
+{
+  "id": "credit-retail-spread",
+  "source": "BCRA · Informe Monetario Mensual",
+  "sourceUrl": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-monetario-mensual-indicadores-2026-10.xlsx",
+  "frequency": "monthly",
+  "unit": "puntos porcentuales de TNA",
+  "series": [
+    {
+      "id": "spread",
+      "label": "Personales menos plazo fijo minorista"
+    }
+  ],
+  "methodNote": "Promedios mensuales de la hoja Tasas. Personales y depósitos de personas humanas de hasta $1 millón a 30–35 días. La planilla contiene sólo meses seleccionados; los demás quedan nulos, sin interpolar. No es CFT ni margen neto bancario. Spread = TNA personales − TNA plazo fijo minorista, con el mismo mes de observación.",
+  "observations": [
+    {
+      "date": "2025-10-01",
+      "series": "spread",
+      "value": 43.70399999999999
+    },
+    {
+      "date": "2025-11-01",
+      "series": "spread",
+      "value": null
+    },
+    {
+      "date": "2025-12-01",
+      "series": "spread",
+      "value": 46.522
+    },
+    {
+      "date": "2026-01-01",
+      "series": "spread",
+      "value": null
+    },
+    {
+      "date": "2026-02-01",
+      "series": "spread",
+      "value": null
+    },
+    {
+      "date": "2026-03-01",
+      "series": "spread",
+      "value": null
+    },
+    {
+      "date": "2026-04-01",
+      "series": "spread",
+      "value": null
+    },
+    {
+      "date": "2026-05-01",
+      "series": "spread",
+      "value": null
+    },
+    {
+      "date": "2026-06-01",
+      "series": "spread",
+      "value": null
+    },
+    {
+      "date": "2026-07-01",
+      "series": "spread",
+      "value": null
+    },
+    {
+      "date": "2026-08-01",
+      "series": "spread",
+      "value": 46.995999999999995
+    },
+    {
+      "date": "2026-09-01",
+      "series": "spread",
+      "value": 43.44
+    },
+    {
+      "date": "2026-10-01",
+      "series": "spread",
+      "value": 43.406
+    }
+  ],
+  "valueKind": "rate",
+  "supportingSources": [
+    {
+      "label": "Publicación BCRA",
+      "url": "https://www.bcra.gob.ar/publicaciones/informe-monetario-mensual-octubre-de-2026/"
+    }
+  ],
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-10-01",
+  "firstObservedPeriod": "2025-10-01",
+  "lastObservedBySeries": {
+    "spread": "2026-10-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:47:33Z",
+  "lastAttemptAt": "2026-11-13T12:47:33Z",
+  "sourcePublishedAt": "2026-11-11",
+  "isAutoUpdated": true,
+  "contentHash": "3a258d46e9c856a30f39f7d805e6b4ed79511ff4da0aabe57727c8249f14166b",
+  "rawSha256": "e1cc069c378ab168147eb07bb5ce1fa3b24c87131e03a37b8c9f6ad83a04be9f",
+  "dataChangedAt": "2026-11-13T03:19:34Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

@@ -1,0 +1,125 @@
+{
+  "id": "epi-milk-powder",
+  "source": "INDEC · Estadísticas de Productos Industriales (EPI)",
+  "sourceUrl": "https://www.indec.gob.ar/ftp/cuadros/economia/cuadros_epi_09_26.xls",
+  "frequency": "monthly",
+  "unit": "toneladas",
+  "series": [
+    {
+      "column": 3,
+      "id": "powder",
+      "label": "Leche en polvo"
+    }
+  ],
+  "methodNote": "Niveles mensuales publicados en EPI; datos preliminares según asteriscos del cuadro. Los símbolos de ausencia se conservan como null. No se mezclan totales anuales con meses.",
+  "observations": [
+    {
+      "date": "2025-01-01",
+      "series": "powder",
+      "value": 17333.332399309635
+    },
+    {
+      "date": "2025-02-01",
+      "series": "powder",
+      "value": 10532.387733416577
+    },
+    {
+      "date": "2025-03-01",
+      "series": "powder",
+      "value": 14896.0
+    },
+    {
+      "date": "2025-04-01",
+      "series": "powder",
+      "value": 9173.393458204533
+    },
+    {
+      "date": "2025-05-01",
+      "series": "powder",
+      "value": 15112.56343258356
+    },
+    {
+      "date": "2025-06-01",
+      "series": "powder",
+      "value": 18973.37618201591
+    },
+    {
+      "date": "2025-07-01",
+      "series": "powder",
+      "value": 23036.238595146224
+    },
+    {
+      "date": "2025-08-01",
+      "series": "powder",
+      "value": 21673.0
+    },
+    {
+      "date": "2025-09-01",
+      "series": "powder",
+      "value": 30789.0
+    },
+    {
+      "date": "2025-10-01",
+      "series": "powder",
+      "value": 29372.664779999996
+    },
+    {
+      "date": "2025-11-01",
+      "series": "powder",
+      "value": 21240.180587237097
+    },
+    {
+      "date": "2025-12-01",
+      "series": "powder",
+      "value": 31329.74
+    },
+    {
+      "date": "2026-01-01",
+      "series": "powder",
+      "value": 18974.95708
+    },
+    {
+      "date": "2026-02-01",
+      "series": "powder",
+      "value": 15092.12043
+    },
+    {
+      "date": "2026-03-01",
+      "series": "powder",
+      "value": 14851.0
+    },
+    {
+      "date": "2026-04-01",
+      "series": "powder",
+      "value": 13720.0
+    },
+    {
+      "date": "2026-05-01",
+      "series": "powder",
+      "value": 18081.712416051047
+    },
+    {
+      "date": "2026-06-01",
+      "series": "powder",
+      "value": 16567.0
+    }
+  ],
+  "valueKind": "level",
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-06-01",
+  "firstObservedPeriod": "2025-01-01",
+  "lastObservedBySeries": {
+    "powder": "2026-06-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:46:21Z",
+  "lastAttemptAt": "2026-11-13T12:46:21Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "b128a039898e6a4c58dd964c4f5c22445c748a5737382cbf4e93b2ef409ea9fd",
+  "rawSha256": "ac6a6584754c1e770f42c790f32c6a295e4aaa6ef73753facba35e799bb154fb",
+  "dataChangedAt": "2026-11-12T03:32:54Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}

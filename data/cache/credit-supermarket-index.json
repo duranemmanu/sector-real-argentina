@@ -1,0 +1,206 @@
+{
+  "id": "credit-supermarket-index",
+  "source": "INDEC · Encuesta de supermercados",
+  "sourceUrl": "https://infra.datos.gob.ar/catalog/sspm/dataset/455/distribution/455.1/download/ventas-totales-supermercados-2.csv",
+  "frequency": "monthly",
+  "unit": "índice real sin estacionalidad, noviembre de 2023=100",
+  "series": [
+    {
+      "id": "sales",
+      "label": "Ventas reales desestacionalizadas",
+      "inputSeries": "455.1_VENTAS_PREADA_0_M_44_44"
+    }
+  ],
+  "methodNote": "Índice oficial de ventas a precios constantes y desestacionalizado, rebasado a noviembre de 2023=100. Es un canal comercial específico: no mide el consumo total de los hogares.",
+  "observations": [
+    {
+      "date": "2023-11-01",
+      "series": "sales",
+      "value": 100.0
+    },
+    {
+      "date": "2023-12-01",
+      "series": "sales",
+      "value": 89.6881448968468
+    },
+    {
+      "date": "2024-01-01",
+      "series": "sales",
+      "value": 88.51799957042499
+    },
+    {
+      "date": "2024-02-01",
+      "series": "sales",
+      "value": 87.98118094455039
+    },
+    {
+      "date": "2024-03-01",
+      "series": "sales",
+      "value": 87.64766059106456
+    },
+    {
+      "date": "2024-04-01",
+      "series": "sales",
+      "value": 87.94203974755854
+    },
+    {
+      "date": "2024-05-01",
+      "series": "sales",
+      "value": 88.49101077214108
+    },
+    {
+      "date": "2024-06-01",
+      "series": "sales",
+      "value": 88.6451193029655
+    },
+    {
+      "date": "2024-07-01",
+      "series": "sales",
+      "value": 90.28115067731864
+    },
+    {
+      "date": "2024-08-01",
+      "series": "sales",
+      "value": 90.19496886039596
+    },
+    {
+      "date": "2024-09-01",
+      "series": "sales",
+      "value": 90.5304468698196
+    },
+    {
+      "date": "2024-10-01",
+      "series": "sales",
+      "value": 89.09061236329372
+    },
+    {
+      "date": "2024-11-01",
+      "series": "sales",
+      "value": 90.7176172819641
+    },
+    {
+      "date": "2024-12-01",
+      "series": "sales",
+      "value": 89.76085231316728
+    },
+    {
+      "date": "2025-01-01",
+      "series": "sales",
+      "value": 91.57999445602378
+    },
+    {
+      "date": "2025-02-01",
+      "series": "sales",
+      "value": 91.95359684288714
+    },
+    {
+      "date": "2025-03-01",
+      "series": "sales",
+      "value": 93.06068124334921
+    },
+    {
+      "date": "2025-04-01",
+      "series": "sales",
+      "value": 92.28949156496138
+    },
+    {
+      "date": "2025-05-01",
+      "series": "sales",
+      "value": 91.86743815578839
+    },
+    {
+      "date": "2025-06-01",
+      "series": "sales",
+      "value": 91.82674654424723
+    },
+    {
+      "date": "2025-07-01",
+      "series": "sales",
+      "value": 90.55001494315246
+    },
+    {
+      "date": "2025-08-01",
+      "series": "sales",
+      "value": 90.22145408220496
+    },
+    {
+      "date": "2025-09-01",
+      "series": "sales",
+      "value": 90.19070768025745
+    },
+    {
+      "date": "2025-10-01",
+      "series": "sales",
+      "value": 91.45557006560247
+    },
+    {
+      "date": "2025-11-01",
+      "series": "sales",
+      "value": 88.1477021211289
+    },
+    {
+      "date": "2025-12-01",
+      "series": "sales",
+      "value": 90.41114494423051
+    },
+    {
+      "date": "2026-01-01",
+      "series": "sales",
+      "value": 88.97287030322026
+    },
+    {
+      "date": "2026-02-01",
+      "series": "sales",
+      "value": 89.21418444207045
+    },
+    {
+      "date": "2026-03-01",
+      "series": "sales",
+      "value": 89.10669682264239
+    },
+    {
+      "date": "2026-04-01",
+      "series": "sales",
+      "value": 89.75839439149298
+    },
+    {
+      "date": "2026-05-01",
+      "series": "sales",
+      "value": 90.43037837374496
+    },
+    {
+      "date": "2026-06-01",
+      "series": "sales",
+      "value": 89.21284335767463
+    },
+    {
+      "date": "2026-07-01",
+      "series": "sales",
+      "value": 88.57611387499698
+    },
+    {
+      "date": "2026-08-01",
+      "series": "sales",
+      "value": 87.87557491772732
+    }
+  ],
+  "valueKind": "level",
+  "supportingSources": [],
+  "status": "ready",
+  "note": "",
+  "lastObservedPeriod": "2026-08-01",
+  "firstObservedPeriod": "2023-11-01",
+  "lastObservedBySeries": {
+    "sales": "2026-08-01"
+  },
+  "lastSuccessfulFetchAt": "2026-11-13T12:46:18Z",
+  "lastAttemptAt": "2026-11-13T12:47:37Z",
+  "sourcePublishedAt": null,
+  "isAutoUpdated": true,
+  "contentHash": "d83b442cd2067e006daabd4c1f3cb86799d163a5df165245d415d90dbff40585",
+  "rawSha256": "8d3e387c7b79d0dc4fd6515983ba3f84544b6f29c3263e4d9273c7bfb9f31a29",
+  "dataChangedAt": "2026-11-13T03:19:34Z",
+  "revisedObservations": 0,
+  "newObservations": 0,
+  "changedSinceLastFetch": false
+}
